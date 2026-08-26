@@ -41,7 +41,7 @@ function card(l) {
         <a class="btn btn-wa-card" href="https://wa.me/${WA}?text=${waMsg}" target="_blank">WhatsApp</a>
         <a class="btn btn-call" href="tel:+${WA}">Panggil</a>
       </div>
-      <div class="card-foot">${l.tracking} · ${l.source || ""} · ${l.date || ""}</div>
+      <div class="card-foot">${l.tracking} · ${l.date || ""}</div>
     </div>
   </article>`;
 }

@@ -43,7 +43,7 @@ window.LISTINGS = [
       "UNIKL MFI",
       "KPTM"
     ],
-    "source": "COA - Fadilah Yusoff",
+    "source": "COA",
     "date": "2026-08-27"
   },
   {
@@ -70,7 +70,7 @@ window.LISTINGS = [
       "Dengkil",
       "Sepang"
     ],
-    "source": "Channel Fadilah",
+    "source": "COA",
     "date": "2026-08-20"
   },
   {
@@ -97,7 +97,7 @@ window.LISTINGS = [
       "Setia Eco Glades",
       "Cyberjaya"
     ],
-    "source": "Channel Fadilah",
+    "source": "COA",
     "date": "2026-08-24"
   }
 ];
