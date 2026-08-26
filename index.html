@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahir Property — Hartanah Dipercayai</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="logo">🏠</span>
+      <div>
+        <h1>Zahir Property</h1>
+        <p class="tagline">Hartanah Dipercayai — Jual, Beli &amp; Sewa</p>
+      </div>
+    </div>
+    <a class="btn-wa" href="https://wa.me/60122310119" target="_blank">📲 WhatsApp: 012-2310119</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Cari Hartanah Idaman Anda</h2>
+    <p>Listing terkini dari ejen hartanah profesional — tanah, rumah &amp; komersial.</p>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari lokasi, jenis rumah...">
+      <select id="typeFilter">
+        <option value="">Semua Jenis</option>
+        <option>Rumah Teres</option>
+        <option>Rumah Semi-D</option>
+        <option>Tanah</option>
+        <option>Komersial</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <div id="listingGrid" class="grid"></div>
+  <p id="emptyMsg" class="empty" style="display:none">Tiada listing dijumpai.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Zahir Property · Zahir · 012-2310119 · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script src="data/listings.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
