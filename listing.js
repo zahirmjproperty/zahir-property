@@ -1,4 +1,4 @@
-// Zahir Property — listing.js (halaman butiran: galeri, specs, peta, unit serupa)
+// Zahir MJ Property — listing.js (halaman butiran: galeri, specs, peta, unit serupa)
 const SITE = window.SITE || {};
 const DATA = (window.LISTINGS || []).filter(l => l.active !== false);
 const PHONE = (SITE.phone || "012-2310119").replace(/[-\s]/g, "");
@@ -82,7 +82,7 @@ function chipList(items) {
 }
 
 function renderDetail(l) {
-  document.title = l.title + " — " + (SITE.name || "Zahir Property");
+  document.title = l.title + " — " + (SITE.name || "Zahir MJ Property");
   const waMsg = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan listing ${l.tracking} - ${l.title} (${l.price_label}). Boleh kongsi maklumat lanjut?`);
   const shareMsg = encodeURIComponent(`${l.title} - ${l.price_label} — ${SITE.domain || ""}listing.html?id=${encodeURIComponent(l.tracking)}`);
   const badges = [];

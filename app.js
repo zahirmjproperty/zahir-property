@@ -1,4 +1,4 @@
-// Zahir Property — app.js (laman utama: cari, filter, susun, render)
+// Zahir MJ Property — app.js (laman utama: cari, filter, susun, render)
 const SITE = window.SITE || {};
 const DATA = (window.LISTINGS || []).filter(l => l.active !== false);
 const PHONE = (SITE.phone || "012-2310119").replace(/[-\s]/g, "");

@@ -1,7 +1,7 @@
-// Data listing Zahir Property - dikemas kini oleh Ali setiap kali ada listing baru
+// Data listing Zahir MJ Property - dikemas kini oleh Ali setiap kali ada listing baru
 // Sumber: tracking sheet Zahir (COA/OWN). NOTA: website Zahir TIDAK berkongsi data dengan Mr Tanah.
 window.SITE = {
-  "name": "Zahir Property",
+  "name": "Zahir MJ Property",
   "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
   "agent": "Zahir",
   "phone": "012-2310119",
