@@ -84,7 +84,7 @@ function chipList(items) {
 function renderDetail(l) {
   document.title = l.title + " — " + (SITE.name || "Zahir MJ Property");
   const waMsg = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan listing ${l.tracking} - ${l.title} (${l.price_label}). Boleh kongsi maklumat lanjut?`);
-  const shareMsg = encodeURIComponent(`${l.title} - ${l.price_label} — ${SITE.domain || ""}listing.html?id=${encodeURIComponent(l.tracking)}`);
+  const shareMsg = encodeURIComponent(`${l.title} - ${l.price_label} — ${SITE.domain || ""}listing/${encodeURIComponent(l.tracking)}.html`);
   const badges = [];
   if (l.jenis) badges.push(`<span class="badge badge-${(l.jenis || "jual").toLowerCase()}">${l.jenis}</span>`);
   if (l.status === "BARU") badges.push('<span class="badge badge-baru">BARU</span>');
@@ -100,10 +100,10 @@ function renderDetail(l) {
       <div class="grid grid-3">${related.map(x => `
         <article class="card card-mini">
           ${x.images && x.images.length
-            ? `<a class="card-media" href="listing.html?id=${encodeURIComponent(x.tracking)}"><img src="${x.images[0]}" alt="${x.title}" loading="lazy"></a>`
-            : `<a class="card-media" href="listing.html?id=${encodeURIComponent(x.tracking)}"><div class="placeholder ${typeGrad(x)}"><span class="ph-icon">${typeIcon(x)}</span></div></a>`}
+            ? `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><img src="${x.images[0]}" alt="${x.title}" loading="lazy"></a>`
+            : `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><div class="placeholder ${typeGrad(x)}"><span class="ph-icon">${typeIcon(x)}</span></div></a>`}
           <div class="card-body">
-            <h3 class="card-title"><a href="listing.html?id=${encodeURIComponent(x.tracking)}">${x.title}</a></h3>
+            <h3 class="card-title"><a href="listing/${encodeURIComponent(x.tracking)}.html">${x.title}</a></h3>
             <p class="card-loc">📍 ${x.location}</p>
             <div class="price">${x.price_label}</div>
           </div>
@@ -188,7 +188,7 @@ function renderDetail(l) {
 // --- Init ---
 const root = document.getElementById("detailRoot");
 if (root) {
-  const id = new URLSearchParams(location.search).get("id") || "";
+  const id = new URLSearchParams(location.search).get("id") || (location.pathname.match(/listing\/([^/]+)\.html/) || [])[1] || "";
   const l = DATA.find(x => x.tracking === id);
   if (!l) {
     root.innerHTML = `<div class="empty">
@@ -196,6 +196,11 @@ if (root) {
       <a class="btn btn-wa" href="index.html">← Lihat Semua Listing</a>
     </div>`;
   } else {
+    // canonical ke halaman static (SEO)
+    const canon = document.createElement("link");
+    canon.rel = "canonical";
+    canon.href = (SITE.domain || "") + "listing/" + encodeURIComponent(l.tracking) + ".html";
+    document.head.appendChild(canon);
     renderDetail(l);
   }
 

@@ -38,7 +38,7 @@ function mediaHTML(l, link) {
 }
 
 function card(l) {
-  const url = "listing.html?id=" + encodeURIComponent(l.tracking);
+  const url = "listing/" + encodeURIComponent(l.tracking) + ".html";
   const waMsg = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan listing ${l.tracking} - ${l.title} (${l.price_label}). Adakah masih tersedia?`);
   const specs = [];
   if (l.bedrooms > 0) specs.push(`🛏️ ${l.bedrooms} bilik`);
