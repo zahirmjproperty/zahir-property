@@ -27,11 +27,12 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
-      "Refurbished",
-      "Vacant - boleh masuk terus",
-      "4 bilik 3 bilik air"
+      "🔥 Refurbished",
+      "Vacant — boleh masuk terus",
+      "4 bilik 3 bilik air",
+      "Leasehold Bumi"
     ],
-    "description": "Double storey terrace house yang telah direfurbish dan sedia untuk didiami. Lokasi strategik di Seksyen 4 Tambahan, Bangi — berdekatan kemudahan utama, mudah akses ke Bangi Gateway, UKM dan lebuh raya. Sesuai untuk keluarga atau pelaburan sewa.",
+    "description": "Rumah teres 2 tingkat yang telah direfurbish di Seksyen 4 Tambahan, Bangi — VACANT dan boleh masuk terus! Unit basic (4 bilik, 3 bilik air) dengan keluasan tanah 20x70 dan binaan 1,580 sqft, status Leasehold Bumi. Lokasi strategik berdekatan kedai makan, surau Al Ikhlas, pusat kesihatan dan sekolah — mudah akses ke Bangi Gateway, UKM, NIOSH, GMI dan KPTM. Sesuai untuk keluarga atau pelaburan sewa. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir (012-2310119).",
     "amenities": [
       "Kedai Makan",
       "Surau Al Ikhlas",
@@ -49,13 +50,13 @@ window.LISTINGS = [
       "UNIKL MFI",
       "KPTM"
     ],
-    "map_url": "",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+4+Tambahan+Bangi",
     "source": "COA",
-    "date": "2026-08-27",
+    "date": "2026-08-30",
     "images": [
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001.jpg",
-      "https://drive.google.com/file/d/1hKcW9QoStbYR3LuzqlMH52AtcY4qYFRX/view?usp=drivesdk",
-      "https://drive.google.com/file/d/19AbYyfOT6drQE7IFaRIe6M1TWC5frMZk/view?usp=drivesdk"
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001-3.jpg"
     ],
     "active": true
   },
