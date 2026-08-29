@@ -3,48 +3,113 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zahir Property — Hartanah Dipercayai</title>
+<title>Zahir Property — Cari Hartanah: Rumah, Tanah &amp; Komersial</title>
+<meta name="description" content="Senarai hartanah untuk dijual oleh Zahir Property — rumah teres, semi-D, tanah dan komersial di Selangor, Kuala Lumpur &amp; seluruh Malaysia. Ejen hartanah berdaftar (PEA 2684).">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 </head>
 <body>
+
 <header class="site-header">
   <div class="container header-inner">
-    <div class="brand">
+    <a href="index.html" class="brand">
       <span class="logo">🏠</span>
-      <div>
-        <h1>Zahir Property</h1>
-        <p class="tagline">Hartanah Dipercayai — Jual, Beli &amp; Sewa</p>
-      </div>
+      <span class="brand-text">
+        <strong>Zahir Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="active">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
     </div>
-    <a class="btn-wa" href="https://wa.me/60122310119" target="_blank">📲 WhatsApp: 012-2310119</a>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h2>Cari Hartanah Idaman Anda</h2>
-    <p>Listing terkini dari ejen hartanah profesional — tanah, rumah &amp; komersial.</p>
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Cari lokasi, jenis rumah...">
-      <select id="typeFilter">
-        <option value="">Semua Jenis</option>
-        <option>Rumah Teres</option>
-        <option>Rumah Semi-D</option>
-        <option>Tanah</option>
-        <option>Komersial</option>
-      </select>
+    <h1>Cari Hartanah Idaman Anda</h1>
+    <p>Listing terkini dari ejen hartanah profesional — rumah, semi-D, tanah &amp; komersial. Semua unit melalui semakan status pemilikan dan harga pasaran.</p>
+    <div class="search-panel" id="searchPanel">
+      <div class="search-row">
+        <input type="text" id="searchInput" placeholder="Cari lokasi, jenis hartanah..." autocomplete="off">
+        <select id="stateFilter" aria-label="Negeri">
+          <option value="">Semua Negeri</option>
+        </select>
+        <select id="typeFilter" aria-label="Jenis">
+          <option value="">Semua Jenis</option>
+        </select>
+      </div>
+      <div class="search-row search-row-2">
+        <div class="price-field">
+          <span>Harga min</span>
+          <input type="number" id="minPrice" placeholder="cth: 500000" min="0" step="10000">
+        </div>
+        <div class="price-field">
+          <span>Harga maks</span>
+          <input type="number" id="maxPrice" placeholder="cth: 1000000" min="0" step="10000">
+        </div>
+        <select id="sortSelect" aria-label="Susun">
+          <option value="newest">Terbaru</option>
+          <option value="priceAsc">Harga: Rendah → Tinggi</option>
+          <option value="priceDesc">Harga: Tinggi → Rendah</option>
+        </select>
+        <button class="btn btn-clear" id="clearBtn" type="button">Reset</button>
+      </div>
     </div>
   </div>
 </section>
 
-<main class="container">
+<main class="container main">
+  <div class="results-bar">
+    <p id="resultCount">Memuatkan listing...</p>
+  </div>
   <div id="listingGrid" class="grid"></div>
-  <p id="emptyMsg" class="empty" style="display:none">Tiada listing dijumpai.</p>
+  <div id="emptyMsg" class="empty" style="display:none">
+    <p>Tiada listing dijumpai.</p>
+    <p class="empty-sub">Cuba ubah carian atau filter — atau hubungi kami, mungkin ada listing yang belum disenaraikan.</p>
+    <a class="btn btn-wa" href="https://wa.me/60122310119?text=Assalamualaikum%20dan%20salam%20sejahtera%2C%20saya%20mencari%20hartanah..." target="_blank" rel="noopener">Tanya kami di WhatsApp</a>
+  </div>
 </main>
 
+<section class="agent-teaser">
+  <div class="container agent-teaser-inner">
+    <div class="agent-avatar">👨‍💼</div>
+    <div class="agent-copy">
+      <h2>Kenali Ejen Anda</h2>
+      <p>Saya Zahir, ejen hartanah berdaftar (PEA 2684) — bantu anda beli, jual dan sewa hartanah dengan telus, dari semakan dokumen hingga kunci di tangan.</p>
+      <a class="btn btn-outline-light" href="tentang.html">Lihat Profil Saya →</a>
+    </div>
+  </div>
+</section>
+
 <footer class="site-footer">
-  <div class="container">
-    <p>© 2026 Zahir Property · Zahir · 012-2310119 · Ejen Hartanah Berdaftar</p>
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zahir Property · Ejen Hartanah Berdaftar</p>
   </div>
 </footer>
 
