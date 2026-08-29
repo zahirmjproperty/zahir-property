@@ -1,5 +1,5 @@
-// Data listing Zahir MJ Property - dikemas kini oleh Ali setiap kali ada listing baru
-// Sumber: tracking sheet Zahir (COA/OWN). NOTA: website Zahir TIDAK berkongsi data dengan Mr Tanah.
+// Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
+// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
 window.SITE = {
   "name": "Zahir MJ Property",
   "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
@@ -18,9 +18,10 @@ window.LISTINGS = [
     "state": "Selangor",
     "price": 560000,
     "price_label": "RM560,000",
+    "price_old": null,
     "land_area": "20 x 70 sqft",
     "built_up": "1,580 sqft",
-    "tenure": "Leasehold Bumi",
+    "tenure": "Leasehold",
     "bedrooms": 4,
     "bathrooms": 3,
     "status": "BARU",
@@ -48,6 +49,7 @@ window.LISTINGS = [
       "UNIKL MFI",
       "KPTM"
     ],
+    "map_url": "",
     "source": "COA",
     "date": "2026-08-27",
     "images": [],
@@ -80,6 +82,7 @@ window.LISTINGS = [
       "Dengkil",
       "Sepang"
     ],
+    "map_url": "",
     "source": "COA",
     "date": "2026-08-27",
     "images": [],
@@ -93,6 +96,7 @@ window.LISTINGS = [
     "state": "Selangor",
     "price": 1180000,
     "price_label": "RM1,180,000",
+    "price_old": null,
     "land_area": "-",
     "built_up": "-",
     "tenure": "-",
@@ -111,6 +115,7 @@ window.LISTINGS = [
       "Kota Warisan",
       "KLIA"
     ],
+    "map_url": "",
     "source": "COA",
     "date": "2026-08-27",
     "images": [],
