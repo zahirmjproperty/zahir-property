@@ -52,7 +52,50 @@ window.LISTINGS = [
     "map_url": "",
     "source": "COA",
     "date": "2026-08-27",
-    "images": [],
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001.jpg",
+      "https://drive.google.com/file/d/1hKcW9QoStbYR3LuzqlMH52AtcY4qYFRX/view?usp=drivesdk",
+      "https://drive.google.com/file/d/19AbYyfOT6drQE7IFaRIe6M1TWC5frMZk/view?usp=drivesdk"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-002",
+    "title": "2 Storey Semi-D D'Cempaka Seksyen 9 Bandar Baru Bangi",
+    "type": "Rumah Semi-D",
+    "location": "Seksyen 9, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1150000,
+    "price_label": "RM1,150,000",
+    "price_old": 1250000,
+    "land_area": "Tanah 42x96 (4,101 sqft) | Binaan 4,300 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 6,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Turun harga RM1.25M → RM1.15M (nego)",
+      "Renovated & sedia didiami",
+      "Gated & guarded 24 jam",
+      "Sebelah Masjid Al-Hasanah",
+      "5+1 bilik, 4 bilik air"
+    ],
+    "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi. Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — ruang luas untuk keluarga. Kawasan gated & guarded 24 jam, terletak sebelah Masjid Al-Hasanah. Harga telah diturunkan dari RM1.25 juta kepada RM1.15 juta — sesuai untuk pembeli yang mencari rumah semi-D di lokasi strategik Bandar Baru Bangi.",
+    "amenities": [],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Masjid Al-Hasanah",
+      "Bangi Gateway",
+      "UKM"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-08-29",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002.jpg"
+    ],
     "active": true
   },
   {
