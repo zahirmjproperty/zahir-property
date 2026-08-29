@@ -55,6 +55,7 @@ function card(l) {
     <div class="card-body">
       <h3 class="card-title"><a href="${url}">${l.title}</a></h3>
       <p class="card-loc">📍 ${l.location}</p>
+      ${l.description ? `<p class="card-desc">${l.description}</p>` : ""}
       <div class="price-row"><span class="price">${l.price_label}</span>${oldPrice}</div>
       ${specs.length ? `<div class="specs">${specs.join("")}</div>` : ""}
       <div class="card-actions">

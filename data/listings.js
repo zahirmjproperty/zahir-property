@@ -141,6 +141,51 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-005",
+    "title": "Single Storey Terrace House Seksyen 16 Bandar Baru Bangi",
+    "type": "Rumah Teres",
+    "location": "Seksyen 16, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 440000,
+    "price_label": "RM440,000 (Turun dari RM450K!)",
+    "price_old": 450000,
+    "land_area": "22 x 70 (1,540 sqft)",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "PROMOSI",
+    "jenis": "JUAL",
+    "highlights": [
+      "⚡ Turun harga RM450K → RM440K",
+      "Renovated — sedia didiami",
+      "Berdekatan surau (400m)",
+      "Dapur lanjutan (extended kitchen)",
+      "Berpenyewa — sesuai pelaburan"
+    ],
+    "description": "Rumah teres satu tingkat di Seksyen 16, Bandar Baru Bangi — TURUN HARGA kepada RM440,000 sahaja (dari RM450K)! Rumah telah direnovated dan sedia untuk didiami, berdekatan surau hanya 400m. Keluasan 22 x 70 dengan 3 bilik tidur, 2 bilik air dan dapur lanjutan (extended kitchen). Kini berpenyewa — sesuai untuk pembeli keluarga mahupun pelabur yang mahu hasil sewa serta-merta. Lokasi strategik berdekatan UKM Bangi, masjid, sekolah, stesen minyak dan shoplot, dengan akses mudah ke SILK, LEKAS dan PLUS Highway. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir (012-2310119).",
+    "amenities": [
+      "Masjid",
+      "Surau (400m)",
+      "Sekolah",
+      "Stesen Minyak",
+      "Shoplot"
+    ],
+    "nearby": [
+      "UKM Bangi",
+      "Bandar Baru Bangi"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+16+Bandar+Baru+Bangi",
+    "source": "COA",
+    "date": "2026-08-30",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "FDL-001",
     "title": "2 Storey Terrace House Casa Green @ Cybersouth City",
     "type": "Rumah Teres",
