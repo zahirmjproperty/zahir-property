@@ -99,6 +99,48 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-003",
+    "title": "3 Storey Shoplot Presint 11 Putrajaya",
+    "type": "Komersial",
+    "location": "Presint 11, Putrajaya",
+    "state": "Putrajaya",
+    "price": 2650000,
+    "price_label": "RM2,650,000",
+    "price_old": null,
+    "land_area": "20 x 75 (1,500 sqft)",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "ROI 4% - 5% (disewa penuh RM9,000/bulan)",
+      "Facing road — depan jalan utama",
+      "Freehold — unit intermediate",
+      "Potensi sewa pasaran RM11,400/bulan"
+    ],
+    "description": "Shoplot 3 tingkat di Presint 11, Putrajaya — pelaburan komersial dengan ROI 4%-5%. Unit intermediate, menghadap jalan utama, status freehold. Keseluruhan tingkat kini disewakan RM9,000/bulan (ROI 4%); sewa pasaran blok sama mencecah RM11,400/bulan (ROI 5%). Berdekatan bank, kedai runcit, pasar raya dan klinik.",
+    "amenities": [
+      "Bank",
+      "Kedai Runcit",
+      "Pasar Raya / Groceries",
+      "Klinik"
+    ],
+    "nearby": [
+      "Presint 11, Putrajaya"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Presint+11+Putrajaya",
+    "source": "COA",
+    "date": "2026-08-29",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "FDL-001",
     "title": "2 Storey Terrace House Casa Green @ Cybersouth City",
     "type": "Rumah Teres",
