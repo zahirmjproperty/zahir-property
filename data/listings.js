@@ -11,7 +11,7 @@ window.SITE = {
 
 window.LISTINGS = [
   {
-    "tracking": "COA-001",
+    "tracking": "COA-0001",
     "title": "Double Storey Terrace House Seksyen 4 Tambahan Bangi",
     "type": "Rumah Teres",
     "location": "Seksyen 4 Tambahan, Bangi, Selangor",
@@ -61,7 +61,7 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-002",
+    "tracking": "COA-0002",
     "title": "2 Storey Semi-D D'Cempaka Seksyen 9 Bandar Baru Bangi",
     "type": "Rumah Semi-D",
     "location": "Seksyen 9, Bandar Baru Bangi, Selangor",
@@ -113,7 +113,7 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-003",
+    "tracking": "COA-0003",
     "title": "3 Storey Shoplot Presint 11 Putrajaya",
     "type": "Komersial",
     "location": "Presint 11, Putrajaya",
@@ -155,7 +155,7 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-005",
+    "tracking": "COA-0005",
     "title": "Single Storey Terrace House Seksyen 16 Bandar Baru Bangi",
     "type": "Rumah Teres",
     "location": "Seksyen 16, Bandar Baru Bangi, Selangor",
