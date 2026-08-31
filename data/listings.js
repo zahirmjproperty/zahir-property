@@ -477,6 +477,57 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0012",
+    "title": "Double Storey Taman Lestari Putra (LEP 6) Seri Kembangan",
+    "type": "Rumah Teres",
+    "location": "Taman Lestari Putra, Seri Kembangan, Selangor",
+    "state": "Selangor",
+    "price": 560000,
+    "price_label": "RM560,000",
+    "price_old": null,
+    "land_area": "Tanah 18 x 65 | Binaan 1,400 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "End lot — hujung deretan",
+      "Renovated",
+      "Leasehold — Bumi Lot",
+      "4 bilik 3 bilik air",
+      "Extended kitchen"
+    ],
+    "description": "Double storey teres END LOT yang telah direnovated di Taman Lestari Putra (LEP 6), Seri Kembangan. Keluasan tanah 18 x 65 dengan binaan 1,400 sqft, 4 bilik 3 bilik air, extended kitchen. Berdekatan surau, Aeon Mall, Giant, sekolah, stesen MRT — mudah akses ke SKVE, LDP, MEX dan PLUS Highway.",
+    "amenities": [
+      "Surau",
+      "Aeon Mall",
+      "Giant",
+      "Shoplot",
+      "Sekolah",
+      "Petrol Station",
+      "Stesen MRT"
+    ],
+    "nearby": [
+      "Seri Kembangan",
+      "Aeon Mall",
+      "SKVE Highway",
+      "LDP Highway",
+      "MEX Highway",
+      "PLUS Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
