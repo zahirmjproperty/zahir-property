@@ -528,6 +528,51 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0013",
+    "title": "Corner Lot Bungalow 2 Storey Banyan Close Bukit Mahkota Bangi",
+    "type": "Rumah",
+    "location": "Banyan Close, Bukit Mahkota, Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1800000,
+    "price_label": "RM1,800,000",
+    "price_old": null,
+    "land_area": "Tanah 8,557 sqft | Binaan 5,000 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corner lot — 2 tingkat banglo",
+      "Freehold — Open, individual title",
+      "5+1 bilik, 6 bilik air",
+      "Gated & guarded 24 jam",
+      "Keluasan tanah 8,557 sqft"
+    ],
+    "description": "Corner lot bungalow 2 tingkat di Banyan Close, Bukit Mahkota, Bangi, Kajang. Keluasan tanah 8,557 sqft dengan binaan ~5,000 sqft, 5+1 bilik 6 bilik air. Freehold (open) dengan individual title. Kawasan gated & guarded dengan keselamatan 24 jam. Keadaan rumah elok — sesuai untuk keluarga besar atau pelaburan.",
+    "amenities": [
+      "Keselamatan 24 jam",
+      "Gated & guarded",
+      "Bukit Mahkota township"
+    ],
+    "nearby": [
+      "Bukit Mahkota",
+      "Bangi",
+      "Kajang",
+      "Bangi Gateway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-01",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
