@@ -425,6 +425,58 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0011",
+    "title": "Double Storey Terrace Setia Alam Sari (Ilham 2) Bangi",
+    "type": "Rumah Teres",
+    "location": "Setia Alam Sari, Bangi, Selangor",
+    "state": "Selangor",
+    "price": 640000,
+    "price_label": "RM640,000",
+    "price_old": null,
+    "land_area": "Tanah 22 x 75 | Binaan 2,420 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga turun RM650K → RM640K",
+      "Freehold — Non Bumi",
+      "5 bilik 4 bilik air",
+      "Renovated",
+      "Termasuk 4x AC, 4x Water Heater, Autogate, Kitchen Cabinet"
+    ],
+    "description": "Double storey terrace yang telah direnovated di Setia Alam Sari (Ilham 2), Bangi. Keluasan tanah 22 x 75 dengan binaan 2,420 sqft, 5 bilik 4 bilik air. Freehold (non-bumi). Termasuk 4 unit aircond, 4 unit water heater, autogate dan kitchen cabinet. Berdekatan UKM, GMI, Bangi Gateway, KIP Mall, EVO Mall & Bangi Wonderland — mudah akses ke SILK dan PLUS Highway.",
+    "amenities": [
+      "Shoplot",
+      "Hospital",
+      "KIP Mall",
+      "EVO Mall Bangi",
+      "Bangi Gateway",
+      "UKM",
+      "GMI",
+      "Bangi Wonderland"
+    ],
+    "nearby": [
+      "Bangi",
+      "UKM",
+      "GMI",
+      "Bangi Gateway",
+      "SILK Highway",
+      "PLUS Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
