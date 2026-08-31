@@ -245,5 +245,51 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1fRgW12_mqQASggLziR7OY3vsYt5x59cf=w1000"
     ],
     "active": true
+  },
+  {
+    "tracking": "COA-0007",
+    "title": "Intana Ria Apartment Seksyen 7 Bandar Baru Bangi",
+    "type": "Apartmen",
+    "location": "Seksyen 7, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 280000,
+    "price_label": "RM280,000",
+    "price_old": null,
+    "land_area": "847 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Permintaan sewa tinggi",
+      "Leasehold Bumi Lot",
+      "847 sqft, 3 bilik 2 bilik air",
+      "1 parkir",
+      "Gated & guarded + kolam renang",
+      "Walk-in distance ke surau"
+    ],
+    "description": "Apartment Intana Ria, Seksyen 7 Bandar Baru Bangi — unit level 5 walk up seluas 847 sqft dengan permintaan sewa tinggi. 3 bilik 2 bilik air, 1 parkir, walk-in distance ke surau. Kompleks gated & guarded dengan dewan komuniti dan kolam renang. Berhampiran sekolah, stesen minyak, pejabat kerajaan dan pusat perniagaan.",
+    "amenities": [
+      "Dewan komuniti",
+      "Kolam renang",
+      "Surau (walk-in distance)",
+      "Sekolah menengah — berhampiran",
+      "Stesen minyak & pejabat kerajaan"
+    ],
+    "nearby": [
+      "Seksyen 7, Bandar Baru Bangi",
+      "Pusat perniagaan & kedai"
+    ],
+    "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1emOpurTwbp9DeOEt6lCVf0M4x4S0IYuh=w1000",
+      "https://lh3.googleusercontent.com/d/13pqxvmwccQQVP6IknXgnYme9dyFeJ8Dv=w1000",
+      "https://lh3.googleusercontent.com/d/1rYOTsCCNngpEEXc9Qr7W4yaqzP25bOap=w1000"
+    ],
+    "active": true
   }
 ];
