@@ -314,6 +314,28 @@ window.LISTINGS = [
       "7 bilik 6 bilik air",
       "Extended kitchen"
     ],
+    "description": "Semi-D 2.5 tingkat yang telah diubah suai di Puncak Bangi, Seksyen 6 Bandar Baru Bangi. Keluasan tanah 4,187 sqft (51'x80') dengan binaan 3,965 sqft. 7 bilik 6 bilik air, extended kitchen. Berhampiran Bangi Golf Club, pusat komersial, hospital dan universiti; akses pantas ke PLUS, Kajang Silk, SKVE dan BESRAYA. Untuk viewing, hubungi Zahir (012-2310119).",
+    "amenities": [
+      "Bangi Golf Club",
+      "Bangi Commercial Centre",
+      "Hospital & Klinik",
+      "Supermarket",
+      "Universiti & Sekolah"
+    ],
+    "nearby": [
+      "UKM",
+      "Bangi Gateway",
+      "Hospital Pakar AnNur",
+      "Kajang"
+    ],
+    "map_url": "https://www.google.com/maps?q=Puncak+Bangi,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1ispFVfhBIWFY7YUC4Tw32fLNronJCQuu=w1000",
+      "https://lh3.googleusercontent.com/d/1hem5c0vvVtmSetxfu04xPVtHFjEvcWiT=w1000",
+      "https://lh3.googleusercontent.com/d/1cbmftqVgUwW8FAU7kutjmihR6IwI-yXk=w1000"
+    ],
     "active": true
   },
   {
@@ -338,6 +360,25 @@ window.LISTINGS = [
       "Freehold Open",
       "24/7 Security"
     ],
+    "description": "Bungalow 2 tingkat mewah di Country Heights, Kajang — tanah 20,139 sqft dengan binaan 14,000 sqft. 8 bilik 8 bilik air, swimming pool, parking luas dan keselamatan 24/7. Freehold Open, menghadap selatan. Nilai pasaran RM5.5 juta. Peluang memiliki kediaman eksklusif. Hubungi Zahir (012-2310119) untuk viewing.",
+    "amenities": [
+      "Swimming Pool",
+      "Parking Luas",
+      "24/7 Security"
+    ],
+    "nearby": [
+      "Country Heights",
+      "Kajang",
+      "Bangi"
+    ],
+    "map_url": "https://www.google.com/maps?q=Country+Heights,+Kajang,+Selangor",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1QUTywLCGexgS8uUjjNNrP72w3fObysCL=w1000",
+      "https://lh3.googleusercontent.com/d/1u-mvN_LbsWcOqhGHZSfpko31r4hTOgk9=w1000",
+      "https://lh3.googleusercontent.com/d/1AFF_N_CnT28dtfMrlWcwLF-_ga5W71jH=w1000"
+    ],
     "active": true
   },
   {
@@ -361,6 +402,25 @@ window.LISTINGS = [
       "Freehold Open",
       "4 bilik 3 bilik air",
       "Basic unit"
+    ],
+    "description": "Rumah teres 2 tingkat (intermediate) di Presint 14, Putrajaya — FACING OPEN, Freehold Open, basic unit. Keluasan tanah 1,400 sqft (20'x70') dengan binaan 1,900 sqft, 4 bilik 3 bilik air. Lokasi dalam kawasan pentadbiran Persekutuan, mudah akses ke seluruh Putrajaya dan Cyberjaya. Hubungi Zahir (012-2310119) untuk viewing.",
+    "amenities": [
+      "Facing Open",
+      "Kawasan Presint 14",
+      "Akses Putrajaya"
+    ],
+    "nearby": [
+      "Putrajaya Sentral",
+      "Cyberjaya",
+      "Presint 14"
+    ],
+    "map_url": "https://www.google.com/maps?q=Presint+14,+Putrajaya",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1mYNujZGd8ycYzwQZxSnEQDu2ors4j6og=w1000",
+      "https://lh3.googleusercontent.com/d/1GjAF-zpUe7yKlt1kpl1_ZtT_RnAWfEku=w1000",
+      "https://lh3.googleusercontent.com/d/1m9bpRKC5Gngk4g-YSnX-Zsze76r9yjuA=w1000"
     ],
     "active": true
   }
