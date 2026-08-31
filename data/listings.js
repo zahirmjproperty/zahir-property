@@ -423,5 +423,55 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1m9bpRKC5Gngk4g-YSnX-Zsze76r9yjuA=w1000"
     ],
     "active": true
+  },
+  {
+    "tracking": "COA-005",
+    "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Ramal Ros, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 485000,
+    "price_label": "RM485,000",
+    "price_old": null,
+    "land_area": "Tanah 18 x 65 | Binaan 1,400 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga turun RM500K → RM485K (nego)",
+      "Freehold — Malay Reserve",
+      "4 bilik 3 bilik air",
+      "Vacant — boleh masuk terus",
+      "Kitchen cabinet"
+    ],
+    "description": "Double storey teres di Taman Ramal Ros, Sg Ramal Dalam, Kajang. Keluasan tanah 18 x 65 dengan binaan ~1,400 sqft. Freehold (Malay Reserve), 4 bilik 3 bilik air, vacant dan sedia didiami dengan kitchen cabinet. Berdekatan masjid (1km), sekolah, KIP Mall & EVO Mall — mudah akses ke SILK, LEKAS dan PLUS Highway.",
+    "amenities": [
+      "Masjid (1km)",
+      "Sekolah",
+      "Shoplot",
+      "Hospital",
+      "Petrol Station",
+      "KIP Mall",
+      "EVO Mall"
+    ],
+    "nearby": [
+      "Kajang",
+      "Sg Ramal Dalam",
+      "SILK Highway",
+      "LEKAS Highway",
+      "PLUS Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
+    ],
+    "active": true
   }
 ];
