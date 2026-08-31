@@ -291,5 +291,77 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1rYOTsCCNngpEEXc9Qr7W4yaqzP25bOap=w1000"
     ],
     "active": true
+  },
+  {
+    "tracking": "COA-0008",
+    "title": "2.5 Storey Semi-D Puncak Bangi Seksyen 6 Bandar Baru Bangi",
+    "type": "Semi-D",
+    "location": "Puncak Bangi, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1590000,
+    "price_label": "RM1,590,000",
+    "price_old": null,
+    "land_area": "Tanah 4,187 sqft (51'x80'); Binaan 3,965 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "🛠️ Renovated",
+      "2.5 tingkat Semi-D",
+      "7 bilik 6 bilik air",
+      "Extended kitchen"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0009",
+    "title": "Double Storey Bungalow Country Heights Kajang",
+    "type": "Bungalow",
+    "location": "Country Heights, Selangor",
+    "state": "Selangor",
+    "price": 4000000,
+    "price_label": "RM4,000,000",
+    "price_old": null,
+    "land_area": "Tanah 20,139 sqft; Binaan 14,000 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 8,
+    "bathrooms": 8,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "🏊 Swimming pool",
+      "8 bilik 8 bilik air",
+      "Freehold Open",
+      "24/7 Security"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0010",
+    "title": "Double Storey Terrace Presint 14 Putrajaya",
+    "type": "Rumah Teres",
+    "location": "Presint 14, Putrajaya",
+    "state": "Putrajaya",
+    "price": 880000,
+    "price_label": "RM880,000",
+    "price_old": null,
+    "land_area": "Tanah 1,400 sqft (20'x70'); Binaan 1,900 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "🔥 Facing Open",
+      "Freehold Open",
+      "4 bilik 3 bilik air",
+      "Basic unit"
+    ],
+    "active": true
   }
 ];
