@@ -54,9 +54,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-001-3.jpg"
+      "https://lh3.googleusercontent.com/d/1UoLPNh9wAXGxcbl30QalZG_QazQceHID=w1000",
+      "https://lh3.googleusercontent.com/d/1YwYm61wA_PLv5nHzxsij0HnW4M_TkbJ7=w1000",
+      "https://lh3.googleusercontent.com/d/1hKcW9QoStbYR3LuzqlMH52AtcY4qYFRX=w1000"
     ],
     "active": true
   },
@@ -107,7 +107,7 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002.jpg",
+      "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
     ],
     "active": true
@@ -148,9 +148,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-29",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-003-3.jpg"
+      "https://lh3.googleusercontent.com/d/102nycJVF1TmxDqeCaaMKO_92SYGDt-sk=w1000",
+      "https://lh3.googleusercontent.com/d/1rnznwXC1Y-04BA_KDUzYbtpNZ6WEpN70=w1000",
+      "https://lh3.googleusercontent.com/d/1QpvQYX4HA-KpAJWCIx1oQSb_YWcn7Hle=w1000"
     ],
     "active": true
   },
@@ -193,9 +193,56 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
+      "https://lh3.googleusercontent.com/d/1zp1PvWqO8Zk0EG0p_Z7JhDEBjA4WDOqP=w1000",
+      "https://lh3.googleusercontent.com/d/1_vvusjTcGrbjeAk3aHLEy2bM08I83OPS=w1000",
+      "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0006",
+    "title": "Single Storey Taman Ria Sungai Jelok Kajang",
+    "type": "Rumah Teres",
+    "location": "Sungai Jelok, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 390000,
+    "price_label": "RM390,000",
+    "price_old": null,
+    "land_area": "20 x 65 (1,300 sqft)",
+    "built_up": "1,302 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "status": "PROMOSI",
+    "jenis": "JUAL",
+    "highlights": [
+      "Fully renovated & extended kitchen",
+      "Facing open (playground)",
+      "Deposit fleksibel",
+      "Freehold, Non-Bumi",
+      "Termasuk 2 aircond, wardrobe, TV cabinet",
+      "Turun harga RM395K → RM390K"
+    ],
+    "description": "Rumah teres satu tingkat fully renovated di Taman Ria, Sungai Jelok, Kajang — menghadap taman permainan (open view), deposit fleksibel. Tanah 20x65, binaan 1,302 sqft, 3 bilik 1 bilik air. Termasuk 2 aircond, wardrobe & TV cabinet. Turun harga RM395K ke RM390,000. Akses mudah ke SILK & LEKAS Highway.",
+    "amenities": [
+      "Sekolah — berhampiran",
+      "Masjid — berhampiran",
+      "Kedai & shoplots — berhampiran",
+      "Stesen minyak — berhampiran",
+      "Giant & Lotus — berhampiran"
+    ],
+    "nearby": [
+      "SILK Highway",
+      "LEKAS Highway",
+      "Taman Permainan (open view)"
+    ],
+    "map_url": "https://www.google.com/maps?q=Sungai+Jelok,+Kajang,+Selangor",
+    "source": "COA",
+    "date": "2026-08-31",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1y2jEIUG_IkSX6lKOhn6ucNssgjXQu0ix=w1000",
+      "https://lh3.googleusercontent.com/d/1dNIrxwl8_jPI1Y8N8FCIP1NN4WYnEjAf=w1000",
+      "https://lh3.googleusercontent.com/d/1fRgW12_mqQASggLziR7OY3vsYt5x59cf=w1000"
     ],
     "active": true
   }
