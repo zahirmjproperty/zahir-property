@@ -304,8 +304,8 @@ window.LISTINGS = [
     "land_area": "Tanah 4,187 sqft (51'x80'); Binaan 3,965 sqft",
     "built_up": "-",
     "tenure": "Leasehold",
-    "bedrooms": 0,
-    "bathrooms": 0,
+    "bedrooms": 7,
+    "bathrooms": 6,
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
