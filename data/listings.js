@@ -3,7 +3,7 @@
 window.SITE = {
   "name": "Zahir MJ Property",
   "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
-  "agent": "Zahir",
+  "agent": "Zahir MJ",
   "phone": "012-2310119",
   "whatsapp": "60122310119",
   "domain": "https://zahirmjproperty.github.io/zahir-property/"
@@ -32,7 +32,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Leasehold Bumi"
     ],
-    "description": "Rumah teres 2 tingkat yang telah direfurbish di Seksyen 4 Tambahan, Bangi — VACANT dan boleh masuk terus! Unit basic (4 bilik, 3 bilik air) dengan keluasan tanah 20x70 dan binaan 1,580 sqft, status Leasehold Bumi. Lokasi strategik berdekatan kedai makan, surau Al Ikhlas, pusat kesihatan dan sekolah — mudah akses ke Bangi Gateway, UKM, NIOSH, GMI dan KPTM. Sesuai untuk keluarga atau pelaburan sewa. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir (012-2310119).",
+    "description": "Rumah teres 2 tingkat yang telah direfurbish di Seksyen 4 Tambahan, Bangi — VACANT dan boleh masuk terus! Unit basic (4 bilik, 3 bilik air) dengan keluasan tanah 20x70 dan binaan 1,580 sqft, status Leasehold Bumi. Lokasi strategik berdekatan kedai makan, surau Al Ikhlas, pusat kesihatan dan sekolah — mudah akses ke Bangi Gateway, UKM, NIOSH, GMI dan KPTM. Sesuai untuk keluarga atau pelaburan sewa. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Kedai Makan",
       "Surau Al Ikhlas",
@@ -84,7 +84,7 @@ window.LISTINGS = [
       "5+1 bilik, 4 bilik air",
       "Akses PLUS, SILK, SKVE & LEKAS"
     ],
-    "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi — harga diturunkan RM100K kepada RM1,150,000 (boleh nego, view to offer). Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — 5+1 bilik, 4 bilik air. Kawasan gated & guarded 24 jam, bersebelahan Masjid Al-Hasanah (Masjid Hijau) — berjalan kaki sahaja. Berdekatan EVO Mall, KIP Mall dan PKNS Bangi, restoran, klinik, farmasi, dobi serta sekolah. Akses mudah ke PLUS, SILK, SKVE dan LEKAS Highway. Sesuai untuk keluarga yang mencari ruang luas di lokasi strategik Bandar Baru Bangi. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir (012-2310119).",
+    "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi — harga diturunkan RM100K kepada RM1,150,000 (boleh nego, view to offer). Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — 5+1 bilik, 4 bilik air. Kawasan gated & guarded 24 jam, bersebelahan Masjid Al-Hasanah (Masjid Hijau) — berjalan kaki sahaja. Berdekatan EVO Mall, KIP Mall dan PKNS Bangi, restoran, klinik, farmasi, dobi serta sekolah. Akses mudah ke PLUS, SILK, SKVE dan LEKAS Highway. Sesuai untuk keluarga yang mencari ruang luas di lokasi strategik Bandar Baru Bangi. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Masjid Al-Hasanah",
       "EVO Mall",
@@ -177,7 +177,7 @@ window.LISTINGS = [
       "Dapur lanjutan (extended kitchen)",
       "Berpenyewa — sesuai pelaburan"
     ],
-    "description": "Rumah teres satu tingkat di Seksyen 16, Bandar Baru Bangi — TURUN HARGA kepada RM440,000 sahaja (dari RM450K)! Rumah telah direnovated dan sedia untuk didiami, berdekatan surau hanya 400m. Keluasan 22 x 70 dengan 3 bilik tidur, 2 bilik air dan dapur lanjutan (extended kitchen). Kini berpenyewa — sesuai untuk pembeli keluarga mahupun pelabur yang mahu hasil sewa serta-merta. Lokasi strategik berdekatan UKM Bangi, masjid, sekolah, stesen minyak dan shoplot, dengan akses mudah ke SILK, LEKAS dan PLUS Highway. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir (012-2310119).",
+    "description": "Rumah teres satu tingkat di Seksyen 16, Bandar Baru Bangi — TURUN HARGA kepada RM440,000 sahaja (dari RM450K)! Rumah telah direnovated dan sedia untuk didiami, berdekatan surau hanya 400m. Keluasan 22 x 70 dengan 3 bilik tidur, 2 bilik air dan dapur lanjutan (extended kitchen). Kini berpenyewa — sesuai untuk pembeli keluarga mahupun pelabur yang mahu hasil sewa serta-merta. Lokasi strategik berdekatan UKM Bangi, masjid, sekolah, stesen minyak dan shoplot, dengan akses mudah ke SILK, LEKAS dan PLUS Highway. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Masjid",
       "Surau (400m)",
@@ -314,7 +314,7 @@ window.LISTINGS = [
       "7 bilik 6 bilik air",
       "Extended kitchen"
     ],
-    "description": "Semi-D 2.5 tingkat yang telah diubah suai di Puncak Bangi, Seksyen 6 Bandar Baru Bangi. Keluasan tanah 4,187 sqft (51'x80') dengan binaan 3,965 sqft. 7 bilik 6 bilik air, extended kitchen. Berhampiran Bangi Golf Club, pusat komersial, hospital dan universiti; akses pantas ke PLUS, Kajang Silk, SKVE dan BESRAYA. Untuk viewing, hubungi Zahir (012-2310119).",
+    "description": "Semi-D 2.5 tingkat yang telah diubah suai di Puncak Bangi, Seksyen 6 Bandar Baru Bangi. Keluasan tanah 4,187 sqft (51'x80') dengan binaan 3,965 sqft. 7 bilik 6 bilik air, extended kitchen. Berhampiran Bangi Golf Club, pusat komersial, hospital dan universiti; akses pantas ke PLUS, Kajang Silk, SKVE dan BESRAYA. Untuk viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Bangi Golf Club",
       "Bangi Commercial Centre",
@@ -360,7 +360,7 @@ window.LISTINGS = [
       "Freehold Open",
       "24/7 Security"
     ],
-    "description": "Bungalow 2 tingkat mewah di Country Heights, Kajang — tanah 20,139 sqft dengan binaan 14,000 sqft. 8 bilik 8 bilik air, swimming pool, parking luas dan keselamatan 24/7. Freehold Open, menghadap selatan. Nilai pasaran RM5.5 juta. Peluang memiliki kediaman eksklusif. Hubungi Zahir (012-2310119) untuk viewing.",
+    "description": "Bungalow 2 tingkat mewah di Country Heights, Kajang — tanah 20,139 sqft dengan binaan 14,000 sqft. 8 bilik 8 bilik air, swimming pool, parking luas dan keselamatan 24/7. Freehold Open, menghadap selatan. Nilai pasaran RM5.5 juta. Peluang memiliki kediaman eksklusif. Hubungi Zahir MJ (012-2310119) untuk viewing.",
     "amenities": [
       "Swimming Pool",
       "Parking Luas",
@@ -403,7 +403,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Basic unit"
     ],
-    "description": "Rumah teres 2 tingkat (intermediate) di Presint 14, Putrajaya — FACING OPEN, Freehold Open, basic unit. Keluasan tanah 1,400 sqft (20'x70') dengan binaan 1,900 sqft, 4 bilik 3 bilik air. Lokasi dalam kawasan pentadbiran Persekutuan, mudah akses ke seluruh Putrajaya dan Cyberjaya. Hubungi Zahir (012-2310119) untuk viewing.",
+    "description": "Rumah teres 2 tingkat (intermediate) di Presint 14, Putrajaya — FACING OPEN, Freehold Open, basic unit. Keluasan tanah 1,400 sqft (20'x70') dengan binaan 1,900 sqft, 4 bilik 3 bilik air. Lokasi dalam kawasan pentadbiran Persekutuan, mudah akses ke seluruh Putrajaya dan Cyberjaya. Hubungi Zahir MJ (012-2310119) untuk viewing.",
     "amenities": [
       "Facing Open",
       "Kawasan Presint 14",

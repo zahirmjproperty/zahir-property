@@ -290,6 +290,7 @@ a { color: inherit; text-decoration: none; }
   width: 96px; height: 96px; margin: 0 auto; border-radius: 50%;
   background: var(--brand); color: #fff; display: grid; place-items: center; font-size: 48px;
 }
+.about-card img.about-avatar { display: block; object-fit: cover; border: 3px solid var(--brand); }
 .about-head h2 { color: var(--brand-dark); }
 .about-tag { color: var(--brand); font-weight: 700; font-size: 14px; }
 .about-bio { color: #37455a; font-size: 15px; }
