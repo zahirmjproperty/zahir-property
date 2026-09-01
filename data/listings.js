@@ -573,6 +573,55 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0014",
+    "title": "2 Storey Terrace Corner Lot Bandar Seri Putra",
+    "type": "Rumah",
+    "location": "Bandar Seri Putra, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 850000,
+    "price_label": "RM850,000",
+    "price_old": null,
+    "land_area": "Tanah 3,810 sqft",
+    "built_up": "2,100 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corner lot dengan tanah luas ±3,810 sqft",
+      "Dapur extended (ruang dapur diperbesarkan)",
+      "Freehold, open title, hakmilik individu",
+      "Bersebelahan surau (15 langkah)",
+      "Gated & guarded community",
+      "4 bilik 3 bilik air, binaan ±2,100 sqft"
+    ],
+    "description": "Corner lot teres 2 tingkat dijual di Bandar Seri Putra, Kajang (berdekatan Bangi) — RM850,000. Freehold, open title dengan hakmilik individu. Keluasan tanah ±3,810 sqft dan binaan ±2,100 sqft, 4 bilik 3 bilik air. Dapur telah diperluas (extended kitchen), bersebelahan surau, dan dalam komuniti berpagar & berkawal (gated & guarded).",
+    "amenities": [
+      "Surau (bersebelahan)",
+      "SK & SMK — ±1.2km",
+      "Universiti Islam Selangor (UIS) — ±2km",
+      "Lotus's Bandar Puteri Bangi — ±4km",
+      "Klinik Kesihatan Bandar Seri Putra — ±1km",
+      "Stesen Komuter Bangi (KTM) — ±3km",
+      "Bangi Wonderland Water Theme Park — ±3km"
+    ],
+    "nearby": [
+      "PLUS Highway",
+      "Jalan Bangi–Semenyih Highway",
+      "ELITE Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-02",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
