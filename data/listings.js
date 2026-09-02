@@ -573,6 +573,55 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0014",
+    "title": "2 Storey Terrace Corner Lot Bandar Seri Putra",
+    "type": "Rumah",
+    "location": "Bandar Seri Putra, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 850000,
+    "price_label": "RM850,000",
+    "price_old": null,
+    "land_area": "Tanah 3,810 sqft",
+    "built_up": "2,100 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corner lot dengan tanah luas ±3,810 sqft",
+      "Dapur extended (ruang dapur diperbesarkan)",
+      "Freehold, open title, hakmilik individu",
+      "Bersebelahan surau (15 langkah)",
+      "Gated & guarded community",
+      "4 bilik 3 bilik air, binaan ±2,100 sqft"
+    ],
+    "description": "Corner lot teres 2 tingkat dijual di Bandar Seri Putra, Kajang (berdekatan Bangi) — RM850,000. Freehold, open title dengan hakmilik individu. Keluasan tanah ±3,810 sqft dan binaan ±2,100 sqft, 4 bilik 3 bilik air. Dapur telah diperluas (extended kitchen), bersebelahan surau, dan dalam komuniti berpagar & berkawal (gated & guarded).",
+    "amenities": [
+      "Surau (bersebelahan)",
+      "SK & SMK — ±1.2km",
+      "Universiti Islam Selangor (UIS) — ±2km",
+      "Lotus's Bandar Puteri Bangi — ±4km",
+      "Klinik Kesihatan Bandar Seri Putra — ±1km",
+      "Stesen Komuter Bangi (KTM) — ±3km",
+      "Bangi Wonderland Water Theme Park — ±3km"
+    ],
+    "nearby": [
+      "PLUS Highway",
+      "Jalan Bangi–Semenyih Highway",
+      "ELITE Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-02",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-0015",
     "title": "Double Storey Terrace House Taman Sri Jelok Kajang",
     "type": "Rumah Teres",
@@ -622,51 +671,107 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-0014",
-    "title": "2 Storey Terrace Corner Lot Bandar Seri Putra",
-    "type": "Rumah",
-    "location": "Bandar Seri Putra, Kajang, Selangor",
+    "tracking": "COA-0016",
+    "title": "Double Storey Terrace House Taman Prima Saujana Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Prima Saujana, Kajang, Selangor",
     "state": "Selangor",
-    "price": 850000,
-    "price_label": "RM850,000",
+    "price": 575000,
+    "price_label": "RM575,000",
     "price_old": null,
-    "land_area": "Tanah 3,810 sqft",
-    "built_up": "2,100 sqft",
+    "land_area": "Tanah 1,540 sqft | Binaan 1,847 sqft",
+    "built_up": "1,847 sqft",
     "tenure": "Freehold",
-    "bedrooms": 4,
+    "bedrooms": 5,
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
-      "Corner lot dengan tanah luas ±3,810 sqft",
-      "Dapur extended (ruang dapur diperbesarkan)",
-      "Freehold, open title, hakmilik individu",
-      "Bersebelahan surau (15 langkah)",
-      "Gated & guarded community",
-      "4 bilik 3 bilik air, binaan ±2,100 sqft"
+      "Facing playground (pandangan taman terbuka)",
+      "Freehold, open title — Non-Bumi",
+      "Renovated & partial furnished",
+      "5 bilik 3 bilik air, intermediate unit",
+      "350m berjalan kaki ke surau",
+      "Dekat jalan utama"
     ],
-    "description": "Corner lot teres 2 tingkat dijual di Bandar Seri Putra, Kajang (berdekatan Bangi) — RM850,000. Freehold, open title dengan hakmilik individu. Keluasan tanah ±3,810 sqft dan binaan ±2,100 sqft, 4 bilik 3 bilik air. Dapur telah diperluas (extended kitchen), bersebelahan surau, dan dalam komuniti berpagar & berkawal (gated & guarded).",
+    "description": "Double storey terrace house facing playground dijual di Taman Prima Saujana, Kajang (Seksyen 4, Prima Seberang) — RM575,000. Freehold open title, tanah 22 x 70 (1,540 sqft), binaan ±1,847 sqft, 5 bilik 3 bilik air. Unit intermediate yang telah diubah suai (renovated) dan separa perabot. Menghadap playground, 350m ke surau dan berdekatan jalan utama. Mudah akses ke SILK, PLUS, Cheras-Kajang Highway dan LEKAS. Berhampiran Giant, Lotus Kajang, Masjid Prima Saujana, SMK Saujana Impian, SK Kantan Permai dan MRT Sungai Jernih.",
     "amenities": [
-      "Surau (bersebelahan)",
-      "SK & SMK — ±1.2km",
-      "Universiti Islam Selangor (UIS) — ±2km",
-      "Lotus's Bandar Puteri Bangi — ±4km",
-      "Klinik Kesihatan Bandar Seri Putra — ±1km",
-      "Stesen Komuter Bangi (KTM) — ±3km",
-      "Bangi Wonderland Water Theme Park — ±3km"
+      "Giant",
+      "Lotus Kajang",
+      "Masjid Prima Saujana",
+      "SMK Saujana Impian",
+      "SK Kantan Permai",
+      "MRT Sungai Jernih"
     ],
     "nearby": [
+      "Kajang",
+      "Taman Prima Saujana",
+      "SILK Highway",
       "PLUS Highway",
-      "Jalan Bangi–Semenyih Highway",
-      "ELITE Highway"
+      "Cheras-Kajang Highway",
+      "LEKAS"
     ],
-    "map_url": "",
+    "map_url": "https://www.google.com/maps/search/Taman+Prima+Saujana+Kajang",
     "source": "COA",
     "date": "2026-09-02",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-3.jpg"
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-3.jpg"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0017",
+    "title": "Double Storey Semi-D Desa Seri Saujana, Sungai Merab",
+    "type": "Rumah Semi-D",
+    "location": "Desa Seri Saujana, Sungai Merab, Selangor",
+    "state": "Selangor",
+    "price": 870000,
+    "price_label": "RM870,000",
+    "price_old": null,
+    "land_area": "Tanah 3,595 sqft; Binaan ±2,572 sqft",
+    "built_up": "2,572 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Semi-D 2 tingkat — gated & guarded",
+      "Leasehold Malay Reserve (exp 6 Sept 2106)",
+      "Tanah 3,595 sqft, binaan ±2,572 sqft",
+      "5 bilik 5 bilik air (4 bilik air individu)",
+      "Halaman luas",
+      "Bersebelahan Putrajaya"
+    ],
+    "description": "Double storey semi-D dijual di Desa Seri Saujana, Sungai Merab, Selangor — RM870,000 (boleh runding). Leasehold Malay Reserve (sehingga 6 Sept 2106), tanah 3,595 sqft, binaan ±2,572 sqft, 5 bilik 5 bilik air (4 bilik air individu). Unit gated & guarded dengan halaman luas, bersebelahan Putrajaya. Berhampiran IOI City Mall, Alamanda Putrajaya, UPM/UKM/UNITEN, Hospital Serdang & Putrajaya serta Institut Kanser Negara. Mudah akses ke SILK, SKVE, MEX dan PLUS. Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "IOI City Mall",
+      "Alamanda Putrajaya",
+      "UPM",
+      "UKM",
+      "Hospital Serdang",
+      "Hospital Putrajaya",
+      "Institut Kanser Negara",
+      "PICC"
+    ],
+    "nearby": [
+      "Sungai Merab",
+      "Putrajaya",
+      "Bandar Baru Bangi",
+      "SILK Highway",
+      "SKVE",
+      "MEX Highway",
+      "PLUS Highway"
+    ],
+    "map_url": "https://www.google.com/maps?q=Desa+Seri+Saujana,+Sungai+Merab,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-3.jpg"
     ],
     "active": true
   },
@@ -717,57 +822,6 @@ window.LISTINGS = [
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
-    ],
-    "active": true
-  },
-  {
-    "tracking": "COA-0016",
-    "title": "Double Storey Terrace House Taman Prima Saujana Kajang",
-    "type": "Rumah Teres",
-    "location": "Taman Prima Saujana, Kajang, Selangor",
-    "state": "Selangor",
-    "price": 575000,
-    "price_label": "RM575,000",
-    "price_old": null,
-    "land_area": "Tanah 1,540 sqft (22x70) | Binaan 1,847 sqft",
-    "built_up": "1,847 sqft",
-    "tenure": "Freehold",
-    "bedrooms": 5,
-    "bathrooms": 3,
-    "status": "BARU",
-    "jenis": "JUAL",
-    "highlights": [
-      "Facing playground (pandangan taman terbuka)",
-      "Freehold, open title — Non-Bumi",
-      "Renovated & partial furnished",
-      "5 bilik 3 bilik air, intermediate unit",
-      "350m berjalan kaki ke surau",
-      "Dekat jalan utama"
-    ],
-    "description": "Double storey terrace house facing playground dijual di Taman Prima Saujana, Kajang (Seksyen 4, Prima Seberang) — RM575,000. Freehold open title, tanah 22 x 70 (1,540 sqft), binaan ±1,847 sqft, 5 bilik 3 bilik air. Unit intermediate yang telah diubah suai (renovated) dan separa perabot. Menghadap playground, 350m ke surau dan berdekatan jalan utama. Mudah akses ke SILK, PLUS, Cheras-Kajang Highway dan LEKAS. Berhampiran Giant, Lotus Kajang, Masjid Prima Saujana, SMK Saujana Impian, SK Kantan Permai dan MRT Sungai Jernih.",
-    "amenities": [
-      "Giant",
-      "Lotus Kajang",
-      "Masjid Prima Saujana",
-      "SMK Saujana Impian",
-      "SK Kantan Permai",
-      "MRT Sungai Jernih"
-    ],
-    "nearby": [
-      "Kajang",
-      "Taman Prima Saujana",
-      "SILK Highway",
-      "PLUS Highway",
-      "Cheras-Kajang Highway",
-      "LEKAS"
-    ],
-    "map_url": "",
-    "source": "COA",
-    "date": "2026-09-02",
-    "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-3.jpg"
     ],
     "active": true
   }
