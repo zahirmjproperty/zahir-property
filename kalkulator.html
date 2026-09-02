@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kalkulator Pinjaman Perumahan — Zahir MJ Property</title>
 <meta name="description" content="Kira anggaran bayaran bulanan pinjaman perumahan dengan kadar terkini bank-bank utama Malaysia. Lihat kadar terendah, purata & tertinggi — hubungi Zahir MJ Property (PEA 2684) untuk senarai penuh pemberi pinjaman.">
-<link rel="stylesheet" href="style.css?v=28">
+<link rel="stylesheet" href="style.css?v=36">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 <style>
   .calc-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
@@ -62,6 +62,7 @@
       <a href="index.html">Utama</a>
       <a href="index.html#listing">Listing</a>
       <a href="kalkulator.html" class="active">Kalkulator</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
       <a href="tentang.html">Tentang</a>
       <a href="jual-sewa-develop.html">Serah Listing</a>
     </nav>
@@ -132,6 +133,7 @@
       </div>
 
       <a class="wa-cta" id="waCta" href="https://wa.me/60122310119?text=..." target="_blank" rel="noopener">📲 Nak tahu bank mana tawarkan kadar terendah? WhatsApp Zahir MJ</a>
+      <a class="wa-cta" style="background:var(--brand-dark);margin-top:14px" href="semak-kelayakan.html">🧮 Nak tahu DSR &amp; kelayakan penuh anda? Semak di sini — percuma</a>
       <p class="disc">Anggaran ini hanya panduan. Kadar "from" berubah mengikut polisi bank &amp; kelayakan individu. Sahkan dengan kami sebelum membuat keputusan. © Zahir MJ Property · Ejen Hartanah Berdaftar PEA 2684.</p>
     </div>
 
@@ -180,6 +182,9 @@ const BANKS = [
   { name: "Hong Leong (HomeSmart)",    rate: 4.75 },
 ].sort((a, b) => a.rate - b.rate);
 
+(function () { const t = document.getElementById("navToggle"), n = document.getElementById("nav");
+  if (t && n) t.addEventListener("click", () => n.classList.toggle("open"));
+})();
 const $ = (id) => document.getElementById(id);
 const fmt = (n) => "RM " + Math.round(n).toLocaleString("en-MY");
 

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semak Kelayakan Pinjaman & DSR — Zahir MJ Property</title>
+<meta name="description" content="Semak anggaran kelayakan pinjaman perumahan dan DSR anda secara percuma. Isi maklumat ringkas — pakar kami akan sahkan dan hubungi anda dengan laporan penuh.">
+<link rel="stylesheet" href="style.css?v=36">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  /* ===== Borang Semak Kelayakan ===== */
+  .ek-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 980px) { .ek-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; } }
+  .ek-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); margin-bottom: 16px; }
+  .ek-card h2 { font-size: 17px; color: var(--brand-dark); margin: 0 0 3px; display: flex; align-items: center; gap: 8px; }
+  .ek-step { font-size: 11px; font-weight: 800; color: #fff; background: var(--brand); border-radius: 20px; padding: 2px 9px; letter-spacing: .4px; }
+  .ek-hint { font-size: 12.5px; color: var(--muted); margin: 4px 0 14px; line-height: 1.5; }
+  .field { margin-bottom: 13px; }
+  .field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 5px; }
+  .field label .opt { font-weight: 400; color: var(--muted); font-size: 12px; }
+  .field input, .field select, .field textarea {
+    width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line);
+    border-radius: 10px; background: #fff; color: var(--ink); box-sizing: border-box; font-family: inherit;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 480px) { .field-row { grid-template-columns: 1fr; } }
+  .rm-prefix { position: relative; }
+  .rm-prefix input { padding-left: 44px; }
+  .rm-prefix span { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 700; color: var(--muted); pointer-events: none; }
+  .commit-sub { font-size: 11px; color: var(--muted); margin-top: -7px; margin-bottom: 12px; }
+
+  /* Meter DSR */
+  .meter-box { background: var(--brand-soft); border: 1px solid var(--line); border-radius: 12px; padding: 13px 15px; margin: 4px 0 6px; }
+  .meter-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .meter-row .lbl { font-size: 13px; font-weight: 700; color: var(--brand-dark); }
+  .meter-row .val { font-size: 22px; font-weight: 800; }
+  .meter-track { height: 9px; border-radius: 8px; background: linear-gradient(90deg, #2e9e5b 0%, #2e9e5b 57%, #f2b01e 57%, #f2b01e 71%, #d64545 71%, #d64545 100%); margin: 9px 0 4px; position: relative; }
+  .meter-pin { position: absolute; top: -4px; width: 4px; height: 17px; border-radius: 3px; background: #1f2937; transform: translateX(-50%); transition: left .25s ease; }
+  .meter-scale { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); }
+  .meter-msg { font-size: 13.5px; font-weight: 700; margin-top: 7px; line-height: 1.45; }
+  .mm-green { color: #1e7e45; } .mm-amber { color: #a06b00; } .mm-red { color: #c0392b; }
+  .meter-sub { font-size: 11.5px; color: var(--muted); margin-top: 3px; line-height: 1.45; }
+
+  /* Panel ringkasan */
+  .ek-summary { position: sticky; top: 14px; }
+  .sum-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 13.5px; }
+  .sum-row:last-of-type { border-bottom: none; }
+  .sum-row .k { color: var(--muted); }
+  .sum-row .v { font-weight: 700; text-align: right; }
+  .sum-row .v.big { font-size: 16px; color: var(--brand-dark); }
+  .verdict { border-radius: 12px; padding: 13px 14px; margin-top: 12px; font-size: 14px; font-weight: 700; line-height: 1.5; }
+  .v-green { background: #eafaf1; color: #155e34; border: 1px solid #b7e4c7; }
+  .v-amber { background: #fff7e0; color: #7a5300; border: 1px solid #f0dfae; }
+  .v-red { background: #fdf0f0; color: #8e2f22; border: 1px solid #f3c4c4; }
+  .v-note { font-size: 11.5px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+  .btn-main { display: block; width: 100%; background: var(--brand-dark); color: #fff; font-size: 16px; font-weight: 800; border: none; border-radius: 12px; padding: 14px; cursor: pointer; margin-top: 14px; }
+  .btn-main:hover { background: var(--brand); }
+  .btn-main:disabled { background: #9db8ab; cursor: not-allowed; }
+  .wa-alt { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; font-size: 13px; color: var(--brand-dark); text-decoration: none; }
+  .wa-alt:hover { text-decoration: underline; }
+  .priv { font-size: 11.5px; color: var(--muted); margin-top: 12px; line-height: 1.55; text-align: center; }
+
+  /* Ringkasan ringkas — paparan mobile sahaja (panel penuh di desktop) */
+  .inline-res { display: none; }
+  @media (max-width: 979px) {
+    .inline-res { display: block; background: var(--brand-soft); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-top: 14px; }
+  }
+
+  /* Skrin berjaya */
+  .ok-wrap { display: none; text-align: center; padding: 30px 18px; }
+  .ok-wrap.show { display: block; }
+  .ok-icon { font-size: 52px; }
+  .ok-wrap h2 { color: var(--brand-dark); font-size: 21px; margin: 10px 0 6px; }
+  .ok-wrap p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0 0 6px; }
+  .form-wrap.hide { display: none; }
+  .err-banner { display: none; background: #fdf0f0; border: 1px solid #f3c4c4; color: #8e2f22; border-radius: 10px; padding: 10px 12px; font-size: 13px; margin-top: 12px; line-height: 1.5; }
+  .err-banner.show { display: block; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="semak-kelayakan.html" class="active">Semak Kelayakan</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-small">
+  <div class="container">
+    <h1>✅ Semak Kelayakan Pinjaman &amp; DSR</h1>
+    <p>Isi maklumat ringkas di bawah — <strong>anggaran kelayakan anda dikira serta-merta</strong>. Kemudian pakar kami akan semak secara terperinci dan hubungi anda dengan laporan penuh — <strong>percuma &amp; tanpa komitmen</strong>.</p>
+  </div>
+</section>
+
+<main class="container main">
+  <div class="ek-grid">
+
+    <!-- ===== BORANG ===== -->
+    <div class="form-wrap" id="formWrap">
+      <div class="ek-card">
+        <h2><span class="ek-step">LANGKAH 1</span> 👤 Maklumat Diri</h2>
+        <p class="ek-hint">Untuk kami kenal pasti &amp; hubungi anda semula.</p>
+
+        <div class="field">
+          <label for="fNama">Nama Penuh *</label>
+          <input type="text" id="fNama" placeholder="cth: Ahmad bin Ismail" autocomplete="name">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="fTel">Telefon / WhatsApp *</label>
+            <input type="tel" id="fTel" placeholder="cth: 012-3456789" autocomplete="tel" inputmode="tel">
+          </div>
+          <div class="field">
+            <label for="fEmel">Emel <span class="opt">(opsional)</span></label>
+            <input type="email" id="fEmel" placeholder="anda@emel.com" autocomplete="email" inputmode="email">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fNegeri">Negeri Tempat Tinggal *</label>
+          <select id="fNegeri">
+            <option value="">— Pilih negeri —</option>
+            <option>Johor</option><option>Kedah</option><option>Kelantan</option>
+            <option>Melaka</option><option>Negeri Sembilan</option><option>Pahang</option>
+            <option>Perak</option><option>Perlis</option><option>Pulau Pinang</option>
+            <option>Sabah</option><option>Sarawak</option><option>Selangor</option>
+            <option>Terengganu</option><option>WP Kuala Lumpur</option><option>WP Labuan</option>
+            <option>WP Putrajaya</option><option>Luar Negara</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="ek-card">
+        <h2><span class="ek-step">LANGKAH 2</span> 💰 Pendapatan Bulanan</h2>
+        <p class="ek-hint">Gunakan angka sebenar — lebih tepat maklumat, lebih tepat semakan kelayakan.</p>
+
+        <div class="field">
+          <label for="fKerja">Jenis Pendapatan *</label>
+          <select id="fKerja">
+            <option value="">— Pilih —</option>
+            <option>Gaji tetap</option>
+            <option>Bekerja sendiri (self-employed)</option>
+            <option>Komisen / pendapatan tidak tetap</option>
+            <option>Pesara / pencen</option>
+          </select>
+        </div>
+
+        <div class="field rm-prefix">
+          <label for="fBersih">Pendapatan Bersih Bulanan (RM) *</label>
+          <span>RM</span>
+          <input type="number" id="fBersih" min="0" step="50" inputmode="numeric" placeholder="cth: 4500">
+        </div>
+        <p class="commit-sub">💡 Pendapatan bersih = gaji yang masuk bank <strong>selepas</strong> tolak KWSP/EPF, PERKESO &amp; cukai. Tidak pasti? Anggarkan lebih kurang 90% daripada gaji kasar anda.</p>
+
+        <div class="field rm-prefix">
+          <label for="fTambah">Pendapatan Tambahan Stabil (RM/bulan) <span class="opt">(opsional)</span></label>
+          <span>RM</span>
+          <input type="number" id="fTambah" min="0" step="50" inputmode="numeric" placeholder="cth: sewa, part-time, elaun tetap">
+        </div>
+        <p class="commit-sub">Contoh: sewa rumah, pendapatan part-time, elaun tetap yang boleh dibuktikan.</p>
+      </div>
+
+      <div class="ek-card">
+        <h2><span class="ek-step">LANGKAH 3</span> 💳 Komitmen Bulanan Sedia Ada</h2>
+        <p class="ek-hint">Semua bayaran hutang tetap anda setiap bulan. Kalau tiada, biarkan 0.</p>
+
+        <div class="field rm-prefix">
+          <label for="fKereta">Pinjaman Kereta</label>
+          <span>RM</span>
+          <input type="number" id="fKereta" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
+        </div>
+        <div class="field rm-prefix">
+          <label for="fPersonal">Personal Loan / ASB Financing</label>
+          <span>RM</span>
+          <input type="number" id="fPersonal" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
+        </div>
+        <div class="field rm-prefix">
+          <label for="fPTPTN">PTPTN / Pinjaman Pendidikan</label>
+          <span>RM</span>
+          <input type="number" id="fPTPTN" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
+        </div>
+        <div class="field rm-prefix">
+          <label for="fKad">Kad Kredit <span class="opt">(bayaran minimum)</span></label>
+          <span>RM</span>
+          <input type="number" id="fKad" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
+        </div>
+        <div class="field rm-prefix">
+          <label for="fLain">Lain-lain <span class="opt">(pinjaman peribadi lain, dll.)</span></label>
+          <span>RM</span>
+          <input type="number" id="fLain" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
+        </div>
+
+        <div class="meter-box" id="meterSekarang">
+          <div class="meter-row">
+            <span class="lbl">Jumlah komitmen</span>
+            <span class="val" id="vKomit">RM 0</span>
+          </div>
+          <div class="meter-row">
+            <span class="lbl">DSR semasa anda</span>
+            <span class="val" id="vDsrKini" style="color:var(--muted)">—</span>
+          </div>
+          <div class="meter-track"><div class="meter-pin" id="pinKini" style="left:0%"></div></div>
+          <div class="meter-scale"><span>0%</span><span>60%</span><span>100%</span></div>
+          <div class="meter-msg" id="msgKini"></div>
+          <div class="meter-sub">DSR = jumlah komitmen ÷ pendapatan bersih × 100. Semakin rendah, semakin baik.</div>
+        </div>
+      </div>
+
+      <div class="ek-card">
+        <h2><span class="ek-step">LANGKAH 4</span> 🏠 Matlamat Hartanah</h2>
+        <p class="ek-hint">Ceritakan rumah / hartanah yang anda sasarkan.</p>
+
+        <div class="field">
+          <label for="fBilLoan">Berapa pinjaman rumah yang MASIH AKTIF atas nama anda? *</label>
+          <select id="fBilLoan">
+            <option value="0">Tiada — ini rumah pertama saya</option>
+            <option value="1">1 pinjaman rumah aktif</option>
+            <option value="2">2 atau lebih pinjaman rumah aktif</option>
+          </select>
+          <p class="commit-sub">💡 Penting: untuk pinjaman rumah ke-3 dan seterusnya, bank hadkan pembiayaan kepada 70% (perlu wang pendahuluan 30%).</p>
+        </div>
+
+        <div class="field">
+          <label for="fJenis">Jenis Hartanah Diminati *</label>
+          <select id="fJenis">
+            <option value="">— Pilih —</option>
+            <option>Rumah Teres</option><option>Rumah Berkembar</option><option>Semi-D</option>
+            <option>Banglo</option><option>Kondominium / Apartmen</option>
+            <option>Tanah</option><option>Komersial / Kedai</option><option>Lain-lain</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field rm-prefix">
+            <label for="fHarga">Anggaran Harga (RM) *</label>
+            <span>RM</span>
+            <input type="number" id="fHarga" min="1000" step="1000" inputmode="numeric" placeholder="cth: 500000">
+          </div>
+          <div class="field">
+            <label for="fLokasi">Lokasi Pilihan</label>
+            <input type="text" id="fLokasi" placeholder="cth: Bangi, Selangor">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="fDp">Wang Pendahuluan (%)</label>
+            <input type="number" id="fDp" value="10" min="0" max="90" step="1" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="fTempoh">Tempoh (Tahun)</label>
+            <input type="number" id="fTempoh" value="30" min="5" max="35" step="1" inputmode="numeric">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="fNota">Nota / Masa Sesuai Dihubungi <span class="opt">(opsional)</span></label>
+          <textarea id="fNota" rows="2" placeholder="cth: Boleh hubungi selepas 6 petang. Nak beli untuk tinggal sendiri / pelaburan."></textarea>
+        </div>
+
+        <div class="inline-res" id="inlineRes">
+          <h3 style="font-size:14.5px;color:var(--brand-dark);margin:0 0 4px">📊 Ringkasan &amp; Kelayakan Anda</h3>
+          <div class="sum-row"><span class="k">Jumlah pinjaman</span><span class="v" id="iPinjaman">—</span></div>
+          <div class="sum-row"><span class="k">Anggaran ansuran /bulan</span><span class="v big" id="iAnsuran">—</span></div>
+          <div class="sum-row"><span class="k">DSR selepas pinjaman ini</span><span class="v" id="iDsr">—</span></div>
+          <div class="verdict v-note" id="iKesimpulan" style="display:none"></div>
+        </div>
+      </div>
+
+      <div class="ek-card">
+        <button class="btn-main" id="btnHantar">🚀 Hantar untuk Semakan Percuma</button>
+        <a class="wa-alt" id="waAlt" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 Lebih selesa WhatsApp? Klik untuk terus borak dengan kami</a>
+        <p class="priv">🔒 Maklumat anda dirahsiakan &amp; hanya digunakan untuk semakan kelayakan pinjaman. Tiada spam. Dengan menghantar, anda membenarkan Zahir MJ Property (PEA 2684) menghubungi anda mengenai permohonan ini.</p>
+        <div class="err-banner" id="errBanner"></div>
+      </div>
+    </div>
+
+    <!-- ===== RINGKASAN LIVE ===== -->
+    <aside class="ek-summary">
+      <div class="ek-card">
+        <h2>📊 Anggaran Anda</h2>
+        <p class="ek-hint" style="margin-bottom:6px">Dikira serta-merta semasa anda mengisi borang.</p>
+
+        <div class="sum-row"><span class="k">Jumlah pinjaman</span><span class="v" id="sPinjaman">—</span></div>
+        <div class="sum-row"><span class="k">Anggaran ansuran /bulan</span><span class="v big" id="sAnsuran">—</span></div>
+        <div class="sum-row"><span class="k">Kadar anggaran</span><span class="v" id="sKadar">4.20% (purata pasaran)</span></div>
+        <div class="sum-row"><span class="k">DSR selepas pinjaman ini</span><span class="v" id="sDsrBaru">—</span></div>
+
+        <div class="verdict v-note" id="vKesimpulan" style="display:none"></div>
+        <div class="v-note" id="sNota"></div>
+        <div class="v-note">Anggaran ini hanya panduan awal menggunakan kadar purata 11 bank utama (2 Sept 2026). Laporan penuh &amp; sahihan dengan bank disediakan percuma selepas anda hantar borang.</div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- ===== SKRIN BERJAYA ===== -->
+<div class="container main ok-wrap" id="okWrap">
+  <div class="ek-card" style="max-width:560px;margin:0 auto">
+    <div class="ok-icon">✅</div>
+    <h2>Terima kasih, <span id="okNama">—</span>!</h2>
+    <p>Maklumat anda telah <strong>diterima</strong>. Pakar kami akan semak kelayakan &amp; DSR anda secara terperinci dan menghubungi anda <strong>secepat mungkin</strong> (biasanya dalam 1 hari bekerja).</p>
+    <p style="font-size:13px;color:var(--muted)">Rujukan anda: <strong id="okRef">—</strong></p>
+    <a class="btn-main" style="text-decoration:none;text-align:center" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 Nak cepat? Terus WhatsApp kami</a>
+    <a class="wa-alt" href="index.html">← Kembali ke laman utama</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan &amp; DSR</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script>
+/* ===== Semak Kelayakan & DSR — Zahir MJ Property ===== */
+
+// Mobile nav toggle
+(function () {
+  const t = document.getElementById("navToggle"), n = document.getElementById("nav");
+  if (t && n) t.addEventListener("click", () => n.classList.toggle("open"));
+})();
+
+/* Kadar purata 11 bank (2 Sept 2026, KAJIAN-LOAN-001) — anggaran sahaja. */
+const AVG_RATE = 4.20;
+const WA_NUMBER = "60122310119";
+/* URL Apps Script web app — back-end borang (deploy 2026-09-03). */
+const APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyCl5jkKl8DaOh0Fw6Sfso7MfdQ7mi0RWk_KQoisIu7QWCw-q_t5t0KeA0GCZpmo_Sveg/exec";
+
+const $ = (id) => document.getElementById(id);
+const num = (id) => { const v = parseFloat($(id).value); return isFinite(v) && v > 0 ? v : 0; };
+const fmt = (n) => "RM " + Math.round(n).toLocaleString("en-MY");
+
+function monthly(loan, ratePct, years) {
+  if (!loan || loan <= 0 || !years) return 0;
+  const r = ratePct / 100 / 12, n = years * 12;
+  return loan * r / (1 - Math.pow(1 + r, -n));
+}
+
+function pendapatanTotal() { return num("fBersih") + num("fTambah"); }
+function komitmenTotal() {
+  return num("fKereta") + num("fPersonal") + num("fPTPTN") + num("fKad") + num("fLain");
+}
+
+function verdictClass(dsr) {
+  if (dsr <= 60) return { cls: "v-green", title: "🟢 Berpotensi Layak", msg: "Kedudukan DSR anda baik. Peluang pinjaman diluluskan adalah tinggi — kami akan sahkan pakej terbaik untuk anda." };
+  if (dsr <= 70) return { cls: "v-amber", title: "🟡 Sempadan — Mungkin Layak", msg: "Anda berada di lingkungan sempadan. Kelulusan bergantung pada bank &amp; profil penuh anda — kami akan nasihatkan langkah terbaik." };
+  return { cls: "v-red", title: "🔴 Perlu Tindakan Dulu", msg: "Komitmen sedia ada agak tinggi buat masa ini. Jangan risau — kami akan tunjukkan cara kurangkan komitmen / tambah pendapatan supaya kelayakan bertambah." };
+}
+
+function recalc() {
+  const inc = pendapatanTotal();
+  const komit = komitmenTotal();
+  const dsrKini = inc > 0 ? (komit / inc) * 100 : 0;
+
+  $("vKomit").textContent = fmt(komit);
+  if (inc <= 0) {
+    $("vDsrKini").textContent = "—";
+    $("msgKini").innerHTML = "Isi pendapatan anda dahulu.";
+    $("msgKini").className = "meter-msg";
+    $("pinKini").style.left = "0%";
+  } else {
+    $("vDsrKini").textContent = dsrKini.toFixed(0) + "%";
+    $("pinKini").style.left = Math.min(100, dsrKini) + "%";
+    const v = verdictClass(dsrKini);
+    $("msgKini").innerHTML = (dsrKini <= 60 ? "🟢 " : dsrKini <= 70 ? "🟡 " : "🔴 ") + v.title;
+    $("msgKini").className = "meter-msg " + (dsrKini <= 60 ? "mm-green" : dsrKini <= 70 ? "mm-amber" : "mm-red");
+  }
+
+  /* Matlamat */
+  const harga = num("fHarga");
+  let dpPct = Math.min(90, Math.max(0, parseFloat($("fDp").value) || 0));
+  let tahun = Math.min(35, Math.max(1, parseInt($("fTempoh").value, 10) || 1));
+  const bilLoan = parseInt($("fBilLoan").value, 10) || 0;
+  const marginMax = bilLoan >= 2 ? 70 : 90;
+
+  let nota = "";
+  if (harga > 0 && bilLoan >= 2) {
+    if (dpPct < 30) { nota += "⚠️ Pinjaman rumah ke-3+ dihadkan 70% — wang pendahuluan anda perlu sekurang-kurangnya 30% (RM " + fmt(harga * 0.3) + "). "; }
+  }
+  if (harga > 0 && dpPct < (100 - marginMax)) {
+    nota += "⚠️ Margin maksimum " + marginMax + "% — wang pendahuluan minimum " + (100 - marginMax) + "% (RM " + fmt(harga * (100 - marginMax) / 100) + ").";
+  }
+  if ($("fTempoh").value > 35) nota += "⚠️ Tempoh maksimum 35 tahun.";
+  $("sNota").innerHTML = nota;
+
+  if (harga > 0) {
+    const loan = harga * (1 - dpPct / 100);
+    const ansuran = monthly(loan, AVG_RATE, tahun);
+    $("sPinjaman").textContent = fmt(loan);
+    $("sAnsuran").textContent = fmt(ansuran) + " /bulan";
+    $("iPinjaman").textContent = fmt(loan);
+    $("iAnsuran").textContent = fmt(ansuran) + " /bulan";
+    const dsrBaru = inc > 0 ? ((komit + ansuran) / inc) * 100 : 0;
+
+    if (inc > 0) {
+      $("sDsrBaru").textContent = dsrBaru.toFixed(0) + "%";
+      $("iDsr").textContent = dsrBaru.toFixed(0) + "%";
+      const v = verdictClass(dsrBaru);
+      ["vKesimpulan", "iKesimpulan"].forEach((id) => {
+        const el = $(id);
+        el.className = "verdict " + v.cls;
+        el.innerHTML = "<div>" + v.title + "</div><div style='font-weight:500;font-size:12.5px;margin-top:4px'>" + v.msg + "</div>";
+        el.style.display = "block";
+      });
+    } else {
+      $("sDsrBaru").textContent = "—";
+      $("vKesimpulan").style.display = "none";
+      $("iDsr").textContent = "—";
+      $("iKesimpulan").style.display = "none";
+    }
+  } else {
+    $("sPinjaman").textContent = "—";
+    $("sAnsuran").textContent = "—";
+    $("sDsrBaru").textContent = "—";
+    $("vKesimpulan").style.display = "none";
+    $("iPinjaman").textContent = "—";
+    $("iAnsuran").textContent = "—";
+    $("iDsr").textContent = "—";
+    $("iKesimpulan").style.display = "none";
+  }
+
+  /* WhatsApp alternatif sentiasa dikemas kini */
+  const waText = "Assalamualaikum, saya nak semak kelayakan pinjaman.\n" +
+    "Nama: " + ($("fNama").value || "-") + "\n" +
+    "Pendapatan bersih: " + fmt(inc) + "\n" +
+    "Komitmen: " + fmt(komit) + " (" + (inc > 0 ? dsrKini.toFixed(0) + "% DSR" : "-") + ")\n" +
+    (harga > 0 ? "Sasaran: " + fmt(harga) + " | DP " + dpPct + "% | " + tahun + " tahun\n" : "") +
+    (harga > 0 && inc > 0 ? "Anggaran ansuran: " + fmt(monthly(harga * (1 - dpPct / 100), AVG_RATE, tahun)) + "/bulan" : "Boleh saya tahu lanjut?");
+  $("waAlt").href = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(waText);
+}
+
+["fBersih","fTambah","fKereta","fPersonal","fPTPTN","fKad","fLain","fHarga","fDp","fTempoh","fBilLoan"].forEach((id) => $(id).addEventListener("input", recalc));
+
+/* ===== Hantar ===== */
+function validasi() {
+  const errs = [];
+  if (!$("fNama").value.trim()) errs.push("Sila isi nama penuh.");
+  const tel = $("fTel").value.replace(/[^0-9]/g, "");
+  if (!(tel.length >= 9 && tel.length <= 12)) errs.push("Sila isi nombor telefon yang sah (cth: 0123456789).");
+  if (!num("fBersih")) errs.push("Sila isi pendapatan bersih bulanan.");
+  if (!$("fKerja").value) errs.push("Sila pilih jenis pendapatan.");
+  if (!$("fNegeri").value) errs.push("Sila pilih negeri.");
+  if (!$("fJenis").value) errs.push("Sila pilih jenis hartanah.");
+  if (!num("fHarga")) errs.push("Sila isi anggaran harga hartanah.");
+  return errs;
+}
+
+$("btnHantar").addEventListener("click", async () => {
+  const errs = validasi();
+  const banner = $("errBanner");
+  if (errs.length) {
+    banner.innerHTML = "⚠️ " + errs.join("<br>⚠️ ");
+    banner.classList.add("show");
+    banner.scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+  banner.classList.remove("show");
+  const btn = $("btnHantar");
+  btn.disabled = true;
+  btn.textContent = "⏳ Menghantar…";
+
+  const data = {
+    nama: $("fNama").value.trim(),
+    tel: $("fTel").value.trim(),
+    emel: $("fEmel").value.trim(),
+    negeri: $("fNegeri").value,
+    kerja: $("fKerja").value,
+    bersih: num("fBersih"),
+    tambah: num("fTambah"),
+    kereta: num("fKereta"), personal: num("fPersonal"), ptptn: num("fPTPTN"),
+    kad: num("fKad"), lain: num("fLain"),
+    komitmen: komitmenTotal(),
+    dsr_kini: pendapatanTotal() > 0 ? Math.round((komitmenTotal() / pendapatanTotal()) * 100) : null,
+    bil_loan: parseInt($("fBilLoan").value, 10) || 0,
+    jenis: $("fJenis").value,
+    harga: num("fHarga"),
+    dp: Math.min(90, Math.max(0, parseFloat($("fDp").value) || 0)),
+    tempoh: Math.min(35, Math.max(1, parseInt($("fTempoh").value, 10) || 1)),
+    lokasi: $("fLokasi").value.trim(),
+    nota: $("fNota").value.trim(),
+    ansuran_anggaran: Math.round(monthly(num("fHarga") * (1 - (Math.min(90, Math.max(0, parseFloat($("fDp").value) || 0)) / 100)), AVG_RATE, Math.min(35, Math.max(1, parseInt($("fTempoh").value, 10) || 1))))
+  };
+
+  let ref = null;
+  if (APP_SCRIPT_URL.startsWith("http")) {
+    try {
+      const r = await fetch(APP_SCRIPT_URL, {
+        method: "POST",
+        mode: "cors",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(data)
+      });
+      const j = await r.json();
+      if (j && j.ok) ref = j.ref || null;
+      else throw new Error(j && j.error ? j.error : "Gagal");
+    } catch (e) {
+      console.error("Submit error:", e);
+      /* Fallback: buka WhatsApp dengan data supaya maklumat tak hilang */
+      const waText = "🆕 *Permohonan Semak Kelayakan* (hantar manual)\n" +
+        "Nama: " + data.nama + "\nTel: " + data.tel +
+        (data.emel ? "\nEmel: " + data.emel : "") +
+        "\nNegeri: " + data.negeri + " | " + data.kerja +
+        "\nPendapatan bersih: " + fmt(data.bersih) + (data.tambah ? " (+" + fmt(data.tambah) + ")" : "") +
+        "\nKomitmen: " + fmt(data.komitmen) +
+        "\nHarta: " + data.jenis + " " + fmt(data.harga) + " | DP " + data.dp + "% | " + data.tempoh + " thn" +
+        (data.lokasi ? "\nLokasi: " + data.lokasi : "") +
+        "\nDSR semasa: " + (data.dsr_kini != null ? data.dsr_kini + "%" : "-") + " | Anggaran ansuran: " + fmt(data.ansuran_anggaran) +
+        (data.nota ? "\nNota: " + data.nota : "");
+      window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(waText), "_blank");
+      btn.disabled = false;
+      btn.textContent = "🚀 Hantar untuk Semakan Percuma";
+      banner.innerHTML = "⚠️ Sistem sementara tidak dapat dihubungi — maklumat anda telah dibuka dalam WhatsApp. Sila tekan Hantar di WhatsApp.";
+      banner.classList.add("show");
+      return;
+    }
+  } else {
+    /* Belum deploy Apps Script — hantar via WhatsApp sebagai gantian sementara */
+    const waText = "🆕 *Permohonan Semak Kelayakan*\nNama: " + data.nama + "\nTel: " + data.tel + "\nPendapatan bersih: " + fmt(data.bersih) + "\nKomitmen: " + fmt(data.komitmen) + "\nSasaran: " + fmt(data.harga) + " | DP " + data.dp + "% | " + data.tempoh + " thn";
+    window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(waText), "_blank");
+    btn.disabled = false;
+    btn.textContent = "🚀 Hantar untuk Semakan Percuma";
+    banner.innerHTML = "⚠️ Borang sedang diselenggara — sila hantar melalui WhatsApp yang dibuka.";
+    banner.classList.add("show");
+    return;
+  }
+
+  /* Berjaya */
+  $("okNama").textContent = data.nama.split(" ")[0];
+  $("okRef").textContent = ref || "SYS-" + Date.now().toString().slice(-6);
+  $("formWrap").classList.add("hide");
+  $("okWrap").classList.add("show");
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+recalc();
+</script>
+</body>
+</html>
