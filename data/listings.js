@@ -976,6 +976,60 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0022",
+    "title": "3 Storey Semi-D KayuManis Garden Villas Seksyen 5 Bandar Baru Bangi",
+    "type": "Rumah Semi-D",
+    "location": "KayuManis Garden Villas, Seksyen 5, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1150000,
+    "price_label": "RM1,150,000",
+    "price_old": 1850000,
+    "land_area": "Tanah 38'x75' (2,850 sqft); Binaan 3,911 sqft",
+    "built_up": "3,911 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "HARGA TURUN: RM1.85M → RM1.15M",
+      "3 tingkat — 5+1 bilik, 5 bilik air",
+      "Freehold, facing open",
+      "Tanah 38'x75' (2,850 sqft), binaan 3,911 sqft",
+      "Partly furnished (electrical fittings + kitchen cabinet)",
+      "Loan & lawyer boleh diuruskan (100% refundable jika loan ditolak)"
+    ],
+    "description": "3 storey semi-D dijual di KayuManis Garden Villas, Seksyen 5, Bandar Baru Bangi, Selangor — harga baharu RM1,150,000 (turun dari RM1,850,000). Freehold, tanah 38'x75' (2,850 sqft), binaan 3,911 sqft, 5+1 bilik 5 bilik air, partly furnished (electrical fittings dan kitchen cabinet), facing open. Berhampiran UKM, UNITEN, Kompleks PKNS Bangi, Bangi Sentral, KWSP, surau Nur Idaman, SK Jalan 4 dan SMK Jalan Reko; mudah akses Jalan Reko, Persiaran Bangi/Kajang, PLUS, MRT Kajang 2 dan KTM Komuter Bangi. Urusan loan dan lawyer boleh diaturkan (100% refundable jika loan ditolak). Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "UKM",
+      "UNITEN",
+      "Kompleks PKNS Bangi Seksyen 9",
+      "Bangi Sentral",
+      "KWSP",
+      "Surau Nur Idaman",
+      "SK Jalan 4",
+      "SMK Jalan Reko",
+      "Bangi Golf Resort"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Jalan Reko",
+      "Persiaran Bangi",
+      "PLUS Highway",
+      "MRT Kajang 2",
+      "KTM Komuter Bangi"
+    ],
+    "map_url": "https://www.google.com/maps?q=KayuManis+Garden+Villas,+Seksyen+5,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
