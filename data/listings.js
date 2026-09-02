@@ -719,5 +719,56 @@ window.LISTINGS = [
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
     ],
     "active": true
+  },
+  {
+    "tracking": "COA-0016",
+    "title": "Double Storey Terrace House Taman Prima Saujana Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Prima Saujana, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 575000,
+    "price_label": "RM575,000",
+    "price_old": null,
+    "land_area": "Tanah 1,540 sqft (22x70) | Binaan 1,847 sqft",
+    "built_up": "1,847 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Facing playground (pandangan taman terbuka)",
+      "Freehold, open title — Non-Bumi",
+      "Renovated & partial furnished",
+      "5 bilik 3 bilik air, intermediate unit",
+      "350m berjalan kaki ke surau",
+      "Dekat jalan utama"
+    ],
+    "description": "Double storey terrace house facing playground dijual di Taman Prima Saujana, Kajang (Seksyen 4, Prima Seberang) — RM575,000. Freehold open title, tanah 22 x 70 (1,540 sqft), binaan ±1,847 sqft, 5 bilik 3 bilik air. Unit intermediate yang telah diubah suai (renovated) dan separa perabot. Menghadap playground, 350m ke surau dan berdekatan jalan utama. Mudah akses ke SILK, PLUS, Cheras-Kajang Highway dan LEKAS. Berhampiran Giant, Lotus Kajang, Masjid Prima Saujana, SMK Saujana Impian, SK Kantan Permai dan MRT Sungai Jernih.",
+    "amenities": [
+      "Giant",
+      "Lotus Kajang",
+      "Masjid Prima Saujana",
+      "SMK Saujana Impian",
+      "SK Kantan Permai",
+      "MRT Sungai Jernih"
+    ],
+    "nearby": [
+      "Kajang",
+      "Taman Prima Saujana",
+      "SILK Highway",
+      "PLUS Highway",
+      "Cheras-Kajang Highway",
+      "LEKAS"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-02",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-3.jpg"
+    ],
+    "active": true
   }
 ];
