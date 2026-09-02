@@ -776,6 +776,57 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0018",
+    "title": "Single Storey Semi-D Sungai Jelok, Kajang",
+    "type": "Rumah Semi-D",
+    "location": "Sungai Jelok, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 560000,
+    "price_label": "RM560,000",
+    "price_old": 570000,
+    "land_area": "Tanah 40'x80' (3,200 sqft); Binaan ±2,500 sqft",
+    "built_up": "2,500 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga turun RM570K → RM560K (MV ±RM600k)",
+      "Freehold open title",
+      "Tanah 40'x80' (3,200 sqft), binaan ±2,500 sqft",
+      "4 bilik 2 bilik air — fully extended",
+      "Car porch besar 4 kereta + 2 main gate",
+      "Berhampiran MRT Kajang & hospital"
+    ],
+    "description": "Single storey semi-D dijual di Sungai Jelok, Kajang, Selangor — harga baharu RM560,000 (turun dari RM570,000; nilai pasaran ±RM600,000). Freehold open title, tanah 40'x80' (3,200 sqft), binaan ±2,500 sqft, 4 bilik 2 bilik air, dapur fully extended (kabinet, aircond, autogate), car porch besar muat 4 kereta serta 2 main gate. Rumah memerlukan sedikit pengubahsuaian (refurbish) — sesuai pembeli yang mahu nilai tambah. Berhampiran MRT Kajang, Hospital Kajang & HTAN, Metro Point dan SK Sri Jelok; mudah akses SILK, LEKAS, Kajang Bypass dan PLUS. Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "MRT Kajang",
+      "Metro Point Kajang",
+      "Hospital Kajang",
+      "Hospital Tengku Permaisuri Norashikin",
+      "SK Sri Jelok",
+      "High School Kajang"
+    ],
+    "nearby": [
+      "Sungai Jelok",
+      "Kajang",
+      "SILK Highway",
+      "LEKAS Highway",
+      "Kajang Bypass",
+      "PLUS Highway"
+    ],
+    "map_url": "https://www.google.com/maps?q=Sungai+Jelok,+Kajang,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
