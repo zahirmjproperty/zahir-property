@@ -573,6 +573,55 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0015",
+    "title": "Double Storey Terrace House Taman Sri Jelok Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Sri Jelok, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 415000,
+    "price_label": "RM415,000",
+    "price_old": null,
+    "land_area": "Tanah 22 x 70 (1,540 sqft) | Binaan 1,400 sqft",
+    "built_up": "2,100 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga turun RM435K → RM415K",
+      "5 bilik 3 bilik air",
+      "Leasehold — Non Bumi",
+      "Extended kitchen",
+      "Berpenyewa (tenanted)"
+    ],
+    "description": "Double storey terrace house di Taman Sri Jelok, Kajang. Keluasan tanah 22 x 70 (1,540 sqft) dengan binaan ~1,400 sqft, 5 bilik 3 bilik air. Leasehold (non-bumi), extended kitchen, tenanted. Harga dikurangkan daripada RM435,000 kepada RM415,000. Berdekatan sekolah, masjid, hospital, stesen minyak dan kedai runcit — mudah akses ke Cheras-Kajang, LEKAS dan SILK Highway.",
+    "amenities": [
+      "Sekolah",
+      "Masjid",
+      "Hospital",
+      "Petrol Station",
+      "Kedai Runcit",
+      "Farmasi"
+    ],
+    "nearby": [
+      "Kajang",
+      "Taman Sri Jelok",
+      "Cheras-Kajang Highway",
+      "LEKAS Highway",
+      "SILK Highway"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-02",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-0014",
     "title": "2 Storey Terrace Corner Lot Bandar Seri Putra",
     "type": "Rumah",
