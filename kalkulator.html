@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Pinjaman Perumahan — Zahir MJ Property</title>
+<meta name="description" content="Kira anggaran bayaran bulanan pinjaman perumahan dengan kadar terkini bank-bank utama Malaysia. Lihat kadar terendah, purata & tertinggi — hubungi Zahir MJ Property (PEA 2684) untuk senarai penuh pemberi pinjaman.">
+<link rel="stylesheet" href="style.css?v=28">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  .calc-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 860px) { .calc-grid { grid-template-columns: 340px 1fr; align-items: start; } }
+  .calc-inputs { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .calc-inputs h2 { font-size: 18px; color: var(--brand-dark); margin-bottom: 4px; }
+  .calc-hint { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 5px; }
+  .field input {
+    width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line);
+    border-radius: 10px; background: #fff; color: var(--ink);
+  }
+  .field input:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .calc-note { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+  .result-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .result-card h2 { font-size: 18px; color: var(--brand-dark); margin-bottom: 12px; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .stat { background: var(--brand-soft); border-radius: 12px; padding: 12px; }
+  .stat .k { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .stat .v { font-size: 18px; font-weight: 800; color: var(--brand-dark); margin-top: 2px; }
+  .stat .s { font-size: 11.5px; color: var(--muted); }
+  .rate-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; padding: 13px 14px; border-radius: 12px; border: 1px solid var(--line); margin-bottom: 10px; }
+  .rate-row .tag { font-size: 13.5px; font-weight: 800; }
+  .rate-row .val { text-align: right; }
+  .rate-row .rate { font-size: 17px; font-weight: 800; }
+  .rate-row .amt { font-size: 13px; color: var(--muted); }
+  .rr-low { background: #eafaf1; border-color: #b7e4c7; }
+  .rr-low .tag, .rr-low .rate { color: #0e7a3c; }
+  .rr-avg { background: #f0f6ff; border-color: #c9ddf7; }
+  .rr-avg .tag, .rr-avg .rate { color: #2563eb; }
+  .rr-high { background: #fdf0f0; border-color: #f3c4c4; }
+  .rr-high .tag, .rr-high .rate { color: #c0392b; }
+  .lock-note { display: flex; gap: 10px; align-items: flex-start; background: #fff8e6; border: 1px solid #f0dfae; border-radius: 12px; padding: 12px 14px; margin-top: 14px; font-size: 13.5px; line-height: 1.55; }
+  .lock-note strong { color: #8a6400; }
+  .wa-cta { display: block; margin-top: 14px; background: #25d366; color: #fff; font-weight: 700; text-align: center; padding: 13px; border-radius: 12px; font-size: 15px; }
+  .wa-cta:hover { background: #1fb958; }
+  .disc { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.55; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html" class="active">Kalkulator</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-small">
+  <div class="container">
+    <h1>💰 Kalkulator Pinjaman Perumahan</h1>
+    <p>Kira anggaran bayaran bulanan anda dengan <strong>kadar pinjaman perumahan terkini</strong> daripada bank-bank utama Malaysia — tanpa nama bank, hubungi kami untuk senarai penuh.</p>
+  </div>
+</section>
+
+<main class="container main">
+  <div class="calc-grid">
+
+    <div class="calc-inputs">
+      <h2>📝 Maklumat Pinjaman</h2>
+      <p class="calc-hint">Isi maklumat untuk kira anggaran bayaran bulanan.</p>
+
+      <div class="field">
+        <label for="price">Harga Hartanah (RM)</label>
+        <input type="number" id="price" value="500000" min="0" step="1000" inputmode="numeric">
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="dp">Wang Pendahuluan (%)</label>
+          <input type="number" id="dp" value="10" min="0" max="100" step="1" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="years">Tempoh (Tahun)</label>
+          <input type="number" id="years" value="35" min="1" max="35" step="1" inputmode="numeric">
+        </div>
+      </div>
+
+      <p class="calc-note">ℹ️ Kadar semasa (2 September 2026), kadar asas (SBR) = 2.75%. Anggaran ini hanya panduan.</p>
+    </div>
+
+    <div class="result-card">
+      <h2>📊 Anggaran Bayaran Bulanan</h2>
+      <div class="summary">
+        <div class="stat"><div class="k">Jumlah Pinjaman</div><div class="v" id="sLoan">—</div></div>
+        <div class="stat"><div class="k">Bayaran Bulanan (Terendah)</div><div class="v" id="sMonthly">—</div><div class="s">kadar terendah</div></div>
+        <div class="stat"><div class="k">Pendapatan Disyorkan</div><div class="v" id="sIncome">—</div><div class="s">anggaran 70% DSR</div></div>
+      </div>
+
+      <div class="rate-row rr-low">
+        <div class="tag">🟢 Terendah</div>
+        <div class="val"><div class="rate" id="rLow">—</div><div class="amt" id="aLow">—</div></div>
+      </div>
+      <div class="rate-row rr-avg">
+        <div class="tag">🔵 Purata (11 bank)</div>
+        <div class="val"><div class="rate" id="rAvg">—</div><div class="amt" id="aAvg">—</div></div>
+      </div>
+      <div class="rate-row rr-high">
+        <div class="tag">🔴 Tertinggi</div>
+        <div class="val"><div class="rate" id="rHigh">—</div><div class="amt" id="aHigh">—</div></div>
+      </div>
+
+      <div class="lock-note">
+        <span>🔒</span>
+        <span><strong>Nama pemberi pinjaman &amp; pakej penuh tidak dipaparkan.</strong> Untuk senarai lengkap kadar, terma dan pakej yang sesuai dengan kelayakan anda, hubungi kami — percuma &amp; tanpa sebarang komitmen.</span>
+      </div>
+
+      <a class="wa-cta" id="waCta" href="https://wa.me/60122310119?text=..." target="_blank" rel="noopener">📲 Nak tahu bank mana tawarkan kadar terendah? WhatsApp Zahir MJ</a>
+      <p class="disc">Anggaran ini hanya panduan. Kadar "from" berubah mengikut polisi bank &amp; kelayakan individu. Sahkan dengan kami sebelum membuat keputusan. © Zahir MJ Property · Ejen Hartanah Berdaftar PEA 2684.</p>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script>
+/* Kadar pinjaman perumahan — floor rate (2 September 2026) · sumber: rates.my.
+   Nama bank dirahsiakan di paparan awam — hanya statistik agregat ditunjukkan. */
+const BANKS = [
+  { name: "Bank Islam (Baiti-i)",      rate: 3.55 },
+  { name: "AmBank (True Cost)",        rate: 4.00 },
+  { name: "RHB (Full Flexi-i)",        rate: 4.10 },
+  { name: "Alliance (CashVantage)",    rate: 4.11 },
+  { name: "Standard Chartered",        rate: 4.20 },
+  { name: "Public Bank (Flexi)",       rate: 4.22 },
+  { name: "Maybank (MaxiHome)",        rate: 4.35 },
+  { name: "CIMB (HomeFlexi-i)",        rate: 4.35 },
+  { name: "BSN (My First Home-i)",     rate: 4.35 },
+  { name: "UOB (HomeAchiever)",        rate: 4.36 },
+  { name: "Hong Leong (HomeSmart)",    rate: 4.75 },
+].sort((a, b) => a.rate - b.rate);
+
+const $ = (id) => document.getElementById(id);
+const fmt = (n) => "RM " + Math.round(n).toLocaleString("en-MY");
+
+function monthly(loan, ratePct, years) {
+  const r = ratePct / 100 / 12, n = years * 12;
+  if (r === 0) return loan / n;
+  return loan * r / (1 - Math.pow(1 + r, -n));
+}
+
+function recalc() {
+  const price = Math.max(0, parseFloat($("price").value) || 0);
+  const dpPct = Math.min(100, Math.max(0, parseFloat($("dp").value) || 0));
+  const years = Math.min(35, Math.max(1, parseInt($("years").value, 10) || 1));
+  const loan = price * (1 - dpPct / 100);
+
+  const low = BANKS[0], high = BANKS[BANKS.length - 1];
+  const avgRate = BANKS.reduce((s, b) => s + b.rate, 0) / BANKS.length;
+
+  const mLow = monthly(loan, low.rate, years);
+  const mAvg = monthly(loan, avgRate, years);
+  const mHigh = monthly(loan, high.rate, years);
+
+  $("sLoan").textContent = fmt(loan);
+  $("sMonthly").textContent = fmt(mLow);
+  $("sIncome").textContent = fmt(mLow / 0.7);
+
+  $("rLow").textContent = low.rate.toFixed(2) + "%";
+  $("aLow").textContent = fmt(mLow) + " /bulan";
+  $("rAvg").textContent = avgRate.toFixed(2) + "%";
+  $("aAvg").textContent = fmt(mAvg) + " /bulan";
+  $("rHigh").textContent = high.rate.toFixed(2) + "%";
+  $("aHigh").textContent = fmt(mHigh) + " /bulan";
+
+  $("waCta").href = "https://wa.me/60122310119?text=" + encodeURIComponent(
+    "Assalamualaikum, saya kira di kalkulator Zahir MJ Property.\n" +
+    "Harga: " + fmt(price) + " | DP " + dpPct + "% | " + years + " tahun\n" +
+    "Kadar terendah " + low.rate.toFixed(2) + "% → " + fmt(mLow) + "/bulan.\n" +
+    "Boleh saya tahu bank mana & pakej penuh?"
+  );
+}
+
+["price", "dp", "years"].forEach((id) => $(id).addEventListener("input", recalc));
+recalc();
+</script>
+</body>
+</html>
