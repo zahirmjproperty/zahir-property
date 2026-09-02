@@ -928,6 +928,54 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0021",
+    "title": "Renovated Double Storey Semi-D Taman Kajang Impian",
+    "type": "Rumah Semi-D",
+    "location": "Taman Kajang Impian, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 998000,
+    "price_label": "RM998,000",
+    "price_old": null,
+    "land_area": "Tanah 40'x75' (3,000 sqft); Binaan 2,700 sqft",
+    "built_up": "2,700 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Renovated — plaster ceiling, kitchen cabinet",
+      "Gated & guarded 24 jam",
+      "Tenanted (penyewa sedia ada)",
+      "Tanah 40'x75' (3,000 sqft), binaan 2,700 sqft",
+      "4 bilik 4 bilik air",
+      "Dekat Seksyen 7 BB Bangi"
+    ],
+    "description": "Renovated double storey semi-D dijual di Taman Kajang Impian, Bandar Baru Bangi, Selangor — RM998,000 (boleh runding). Freehold open lot, tanah 40'x75' (3,000 sqft), binaan 2,700 sqft, 4 bilik 4 bilik air. Rumah telah diubah suai (renovated) dengan plaster ceiling dan kitchen cabinet; kawasan gated & guarded 24 jam dan kini bertenan (tenanted) — sesuai pelabur yang mahu pendapatan sewa serta-merta. Berhampiran Seksyen 7 Bandar Baru Bangi (SK Seksyen 7, 99 Speedmart, McDonald's); mudah akses SILK, PLUS dan SKVE Highway. Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "SK Seksyen 7",
+      "99 Speedmart",
+      "McDonald's",
+      "Seksyen 7 Bandar Baru Bangi"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Taman Kajang Impian",
+      "SILK Highway",
+      "PLUS Highway",
+      "SKVE Highway"
+    ],
+    "map_url": "https://www.google.com/maps?q=Taman+Kajang+Impian,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
