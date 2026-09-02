@@ -876,6 +876,58 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0020",
+    "title": "Bungalow Fully Furnished Seksyen 3 Bandar Baru Bangi",
+    "type": "Bungalow",
+    "location": "Seksyen 3, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 2500000,
+    "price_label": "RM2,500,000",
+    "price_old": null,
+    "land_area": "Tanah 14,014 sqft; Binaan ±7,000 sqft",
+    "built_up": "7,000 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 8,
+    "bathrooms": 5,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Fully furnished — sedia masuk",
+      "Bungalow 2 tingkat, Leasehold Bumi Lot",
+      "Tanah luas 14,014 sqft — parking 10+ kereta",
+      "8 bilik (wardrobe), 5 bilik air, 3 dewan",
+      "Dry & wet kitchen, mini garden + gazebo, kolam ikan",
+      "CCTV, autogate; dekat UKM/UPM & KTM/MRT"
+    ],
+    "description": "Bungalow fully furnished dijual di Seksyen 3, Bandar Baru Bangi, Selangor — RM2,500,000 (boleh runding). Rumah bungalow 2 tingkat di atas tanah 14,014 sqft dengan binaan ±7,000 sqft, 8 bilik tidur (lengkap wardrobe) dan 5 bilik air, 3 stor dan 3 dewan. Dilengkapi dry & wet kitchen, mini garden dengan gazebo, kolam ikan, CCTV dan autogate; halaman luas muat lebih 10 kereta. Fully furnished — sedia untuk didiami. Berhampiran sekolah, institusi pengajian (UKM, MFI, GMI, UNITEN, UPM), kawasan komersial, stesen KTM & MRT, Bangi Gateway, Bangi Sentral dan PKNS Bangi. Mudah akses ke Bandar Baru Bangi, Putrajaya serta lebuh raya PLUS, SILK dan LEKAS. Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "Bangi Gateway",
+      "Bangi Sentral",
+      "PKNS Bangi",
+      "UKM",
+      "UPM",
+      "UNITEN",
+      "KTM & MRT station",
+      "Sekolah rendah & menengah"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Putrajaya",
+      "PLUS Highway",
+      "SILK Highway",
+      "LEKAS Highway"
+    ],
+    "map_url": "https://www.google.com/maps?q=Seksyen+3,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
