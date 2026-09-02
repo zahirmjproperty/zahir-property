@@ -827,6 +827,55 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0019",
+    "title": "Double Storey Link Bungalow Seksyen 15 Bandar Baru Bangi",
+    "type": "Bungalow",
+    "location": "Seksyen 15, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 999000,
+    "price_label": "RM999,000",
+    "price_old": null,
+    "land_area": "Tanah 2,863 sqft (44'x65'); Binaan ±2,600 sqft",
+    "built_up": "2,600 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Gated & guarded, taman perumahan Garden Homes",
+      "Open facing — luas, terang & lapang",
+      "Tanah 2,863 sqft (44'x65'), binaan ±2,600 sqft",
+      "4+1 bilik, 4 bilik air, aircond",
+      "Playground & surau dalam jarak berjalan kaki",
+      "Mudah akses PLUS (Exit Bangi), LEKAS & SILK"
+    ],
+    "description": "Double storey link bungalow dijual di Seksyen 15, Bandar Baru Bangi, Selangor — RM999,000 (boleh runding). Freehold-leasehold Bumi Lot, tanah 2,863 sqft (44'x65'), binaan ±2,600 sqft, 4+1 bilik 4 bilik air. Rumah yang luas dan terang (open facing) dalam kawasan gated & guarded Garden Homes, berhampiran playground dan surau. Berdekatan Komuter UKM, Bangi Gateway, Evo Mall Bangi dan SK Seksyen 15; mudah akses PLUS Highway (Exit Bangi), LEKAS dan SILK. Sesuai kediaman besar atau pelaburan. Untuk viewing, hubungi Zahir 012-2310119.",
+    "amenities": [
+      "Komuter UKM",
+      "Bangi Gateway",
+      "Evo Mall Bangi",
+      "SK Seksyen 15 Bandar Baru Bangi",
+      "Playground & Surau (walking distance)"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Bangi",
+      "PLUS Highway",
+      "LEKAS Highway",
+      "SILK Highway"
+    ],
+    "map_url": "https://www.google.com/maps?q=Seksyen+15,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-03",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
