@@ -1030,6 +1030,36 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0023",
+    "title": "Semi Detached 2 Storey Seksyen 3 Tambahan Bandar Baru Bangi",
+    "type": "Rumah Semi-D",
+    "location": "Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1450000,
+    "price_label": "RM1,450,000",
+    "price_old": null,
+    "land_area": "Tanah 40 x 75 | Binaan 4,000 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 7,
+    "bathrooms": 6,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "description": "Rumah Semi-D Tanah 40 x 75 | Binaan 4,000 sqft di Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor dijual pada RM1,450,000. Hakmilik: Leasehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+3+Tambahan+Bandar+Baru+Bangi",
+    "source": "COA",
+    "date": "2026-09-04",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-3.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
