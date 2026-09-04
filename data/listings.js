@@ -6,7 +6,7 @@ window.SITE = {
   "agent": "Zahir MJ",
   "phone": "012-2310119",
   "whatsapp": "60122310119",
-  "domain": "https://zahirmjproperty.github.io/zahir-property/"
+  "domain": "https://zahirmjproperty.com/"
 };
 
 window.LISTINGS = [
@@ -108,7 +108,7 @@ window.LISTINGS = [
     "date": "2026-08-30",
     "images": [
       "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-002-2.jpg"
     ],
     "active": true
   },
@@ -470,9 +470,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0011-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0011-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0011-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0011-3.jpg"
     ],
     "active": true
   },
@@ -521,9 +521,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0012-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0012-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0012-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0012-3.jpg"
     ],
     "active": true
   },
@@ -566,9 +566,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-01",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0013-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0013-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0013-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0013-3.jpg"
     ],
     "active": true
   },
@@ -615,9 +615,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-02",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0014-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0014-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0014-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0014-3.jpg"
     ],
     "active": true
   },
@@ -664,9 +664,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-02",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0015-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0015-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0015-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0015-3.jpg"
     ],
     "active": true
   },
@@ -715,9 +715,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-02",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0016-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0016-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0016-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0016-3.jpg"
     ],
     "active": true
   },
@@ -769,9 +769,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0017-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0017-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0017-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0017-3.jpg"
     ],
     "active": true
   },
@@ -820,9 +820,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0018-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0018-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0018-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0018-3.jpg"
     ],
     "active": true
   },
@@ -869,9 +869,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0019-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0019-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0019-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0019-3.jpg"
     ],
     "active": true
   },
@@ -921,9 +921,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0020-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0020-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0020-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0020-3.jpg"
     ],
     "active": true
   },
@@ -969,9 +969,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0021-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0021-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0021-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0021-3.jpg"
     ],
     "active": true
   },
@@ -1023,9 +1023,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-03",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0022-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0022-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0022-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0022-3.jpg"
     ],
     "active": true
   },
@@ -1053,9 +1053,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0023-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0023-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0023-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0023-3.jpg"
     ],
     "active": true
   },
@@ -1096,7 +1096,7 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0024-1.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-0024-1.jpg"
     ],
     "active": true
   },
@@ -1144,9 +1144,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
+      "https://zahirmjproperty.com/assets/listings/coa-005-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-005-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-005-3.jpg"
     ],
     "active": true
   }
