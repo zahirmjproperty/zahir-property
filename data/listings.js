@@ -54,9 +54,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://lh3.googleusercontent.com/d/1UoLPNh9wAXGxcbl30QalZG_QazQceHID=w1000",
-      "https://lh3.googleusercontent.com/d/1YwYm61wA_PLv5nHzxsij0HnW4M_TkbJ7=w1000",
-      "https://lh3.googleusercontent.com/d/1hKcW9QoStbYR3LuzqlMH52AtcY4qYFRX=w1000"
+      "https://lh3.googleusercontent.com/d/1UoLPNh9wAXGxcbl30QalZG_QazQceHID",
+      "https://lh3.googleusercontent.com/d/1YwYm61wA_PLv5nHzxsij0HnW4M_TkbJ7",
+      "https://lh3.googleusercontent.com/d/1hKcW9QoStbYR3LuzqlMH52AtcY4qYFRX"
     ],
     "active": true
   },
@@ -107,7 +107,7 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
+      "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
     ],
     "active": true
@@ -148,9 +148,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-29",
     "images": [
-      "https://lh3.googleusercontent.com/d/102nycJVF1TmxDqeCaaMKO_92SYGDt-sk=w1000",
-      "https://lh3.googleusercontent.com/d/1rnznwXC1Y-04BA_KDUzYbtpNZ6WEpN70=w1000",
-      "https://lh3.googleusercontent.com/d/1QpvQYX4HA-KpAJWCIx1oQSb_YWcn7Hle=w1000"
+      "https://lh3.googleusercontent.com/d/102nycJVF1TmxDqeCaaMKO_92SYGDt-sk",
+      "https://lh3.googleusercontent.com/d/1rnznwXC1Y-04BA_KDUzYbtpNZ6WEpN70",
+      "https://lh3.googleusercontent.com/d/1QpvQYX4HA-KpAJWCIx1oQSb_YWcn7Hle"
     ],
     "active": true
   },
@@ -193,9 +193,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-30",
     "images": [
-      "https://lh3.googleusercontent.com/d/1zp1PvWqO8Zk0EG0p_Z7JhDEBjA4WDOqP=w1000",
-      "https://lh3.googleusercontent.com/d/1_vvusjTcGrbjeAk3aHLEy2bM08I83OPS=w1000",
-      "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF=w1000"
+      "https://lh3.googleusercontent.com/d/1zp1PvWqO8Zk0EG0p_Z7JhDEBjA4WDOqP",
+      "https://lh3.googleusercontent.com/d/1_vvusjTcGrbjeAk3aHLEy2bM08I83OPS",
+      "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF"
     ],
     "active": true
   },
@@ -240,9 +240,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://lh3.googleusercontent.com/d/1y2jEIUG_IkSX6lKOhn6ucNssgjXQu0ix=w1000",
-      "https://lh3.googleusercontent.com/d/1dNIrxwl8_jPI1Y8N8FCIP1NN4WYnEjAf=w1000",
-      "https://lh3.googleusercontent.com/d/1fRgW12_mqQASggLziR7OY3vsYt5x59cf=w1000"
+      "https://lh3.googleusercontent.com/d/1y2jEIUG_IkSX6lKOhn6ucNssgjXQu0ix",
+      "https://lh3.googleusercontent.com/d/1dNIrxwl8_jPI1Y8N8FCIP1NN4WYnEjAf",
+      "https://lh3.googleusercontent.com/d/1fRgW12_mqQASggLziR7OY3vsYt5x59cf"
     ],
     "active": true
   },
@@ -286,9 +286,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://lh3.googleusercontent.com/d/1emOpurTwbp9DeOEt6lCVf0M4x4S0IYuh=w1000",
-      "https://lh3.googleusercontent.com/d/13pqxvmwccQQVP6IknXgnYme9dyFeJ8Dv=w1000",
-      "https://lh3.googleusercontent.com/d/1rYOTsCCNngpEEXc9Qr7W4yaqzP25bOap=w1000"
+      "https://lh3.googleusercontent.com/d/1emOpurTwbp9DeOEt6lCVf0M4x4S0IYuh",
+      "https://lh3.googleusercontent.com/d/13pqxvmwccQQVP6IknXgnYme9dyFeJ8Dv",
+      "https://lh3.googleusercontent.com/d/1rYOTsCCNngpEEXc9Qr7W4yaqzP25bOap"
     ],
     "active": true
   },
@@ -332,9 +332,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://lh3.googleusercontent.com/d/1ispFVfhBIWFY7YUC4Tw32fLNronJCQuu=w1000",
-      "https://lh3.googleusercontent.com/d/1hem5c0vvVtmSetxfu04xPVtHFjEvcWiT=w1000",
-      "https://lh3.googleusercontent.com/d/1cbmftqVgUwW8FAU7kutjmihR6IwI-yXk=w1000"
+      "https://lh3.googleusercontent.com/d/1ispFVfhBIWFY7YUC4Tw32fLNronJCQuu",
+      "https://lh3.googleusercontent.com/d/1hem5c0vvVtmSetxfu04xPVtHFjEvcWiT",
+      "https://lh3.googleusercontent.com/d/1cbmftqVgUwW8FAU7kutjmihR6IwI-yXk"
     ],
     "active": true
   },
@@ -375,9 +375,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://lh3.googleusercontent.com/d/1QUTywLCGexgS8uUjjNNrP72w3fObysCL=w1000",
-      "https://lh3.googleusercontent.com/d/1u-mvN_LbsWcOqhGHZSfpko31r4hTOgk9=w1000",
-      "https://lh3.googleusercontent.com/d/1AFF_N_CnT28dtfMrlWcwLF-_ga5W71jH=w1000"
+      "https://lh3.googleusercontent.com/d/1QUTywLCGexgS8uUjjNNrP72w3fObysCL",
+      "https://lh3.googleusercontent.com/d/1u-mvN_LbsWcOqhGHZSfpko31r4hTOgk9",
+      "https://lh3.googleusercontent.com/d/1AFF_N_CnT28dtfMrlWcwLF-_ga5W71jH"
     ],
     "active": true
   },
@@ -418,9 +418,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-08-31",
     "images": [
-      "https://lh3.googleusercontent.com/d/1mYNujZGd8ycYzwQZxSnEQDu2ors4j6og=w1000",
-      "https://lh3.googleusercontent.com/d/1GjAF-zpUe7yKlt1kpl1_ZtT_RnAWfEku=w1000",
-      "https://lh3.googleusercontent.com/d/1m9bpRKC5Gngk4g-YSnX-Zsze76r9yjuA=w1000"
+      "https://lh3.googleusercontent.com/d/1mYNujZGd8ycYzwQZxSnEQDu2ors4j6og",
+      "https://lh3.googleusercontent.com/d/1GjAF-zpUe7yKlt1kpl1_ZtT_RnAWfEku",
+      "https://lh3.googleusercontent.com/d/1m9bpRKC5Gngk4g-YSnX-Zsze76r9yjuA"
     ],
     "active": true
   },
@@ -1096,7 +1096,7 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://lh3.googleusercontent.com/d/1K_0ShnI0C1RFKwfrXe1LxyeNJcm833xQ=w1000"
+      "https://lh3.googleusercontent.com/d/1K_0ShnI0C1RFKwfrXe1LxyeNJcm833xQ"
     ],
     "active": true
   },
@@ -1151,7 +1151,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0026",
-    "title": "COA-0026 - Double Storey Terrace Seksyen 16, Bandar Baru Bangi",
+    "title": "Double Storey Terrace Seksyen 16, Bandar Baru Bangi",
     "type": "Double Storey Terrace",
     "location": "Seksyen 16, Bandar Baru Bangi",
     "state": "Selangor",
@@ -1206,7 +1206,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0027",
-    "title": "COA-0027 - 3 Storey Semi-D Taman Tropika 2, Kajang",
+    "title": "3 Storey Semi-D Taman Tropika 2, Kajang",
     "type": "3 Storey Semi-D",
     "location": "Taman Tropika 2, Kajang",
     "state": "Selangor",
@@ -1250,9 +1250,84 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://zahirmjproperty.com/assets/listings/coa-0027-1.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0027-2.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0027-3.jpg"
+      "https://lh3.googleusercontent.com/d/1Gt7cslW7M9zQybMXNvdiyW2Wu5etUz9K",
+      "https://lh3.googleusercontent.com/d/1RMYQhUdg_3x7PCwPfUiiEHveZaMaRSis",
+      "https://lh3.googleusercontent.com/d/1l6LYPcPcpiRnPeE1UwUk0bA8rdSs6L_h"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0028",
+    "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Ramal Ros, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 485000,
+    "price_label": "RM485,000",
+    "price_old": null,
+    "land_area": "Tanah 18 x 65",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "description": "Rumah Teres Tanah 18 x 65 di Taman Ramal Ros, Kajang, Selangor dijual pada RM485,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-05",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-1.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0029",
+    "title": "COA-0029 - Corner Lot Double Storey Taman Seri Bangi, Bandar Baru Bangi",
+    "type": "Double Storey Terrace",
+    "location": "Taman Seri Bangi, Seksyen 8, Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 950000,
+    "price_label": "RM950,000",
+    "price_old": null,
+    "land_area": "Tanah 3,089 kps; Binaan 2,000 kps",
+    "built_up": "2,000 kps",
+    "tenure": "Leasehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corner lot 2 tingkat — tanah 3,089 kps, binaan 2,000 kps",
+      "4 bilik 3 bilik air — kabinet dapur terbina",
+      "Renovasi lengkap dengan kelulusan",
+      "Kawasan gated & guarded (kelab, surau, playground, gelanggang bola keranjang)",
+      "Akses pantas SILK Highway & SKVE Highway"
+    ],
+    "description": "Rumah teres 2 tingkat jenis corner lot dijual di Taman Seri Bangi, Seksyen 8, Bandar Baru Bangi, Selangor — RM950,000 (boleh runding). Keluasan tanah 3,089 kps dengan binaan 2,000 kps, 4 bilik & 3 bilik air, kabinet dapur terbina, serta renovasi lengkap dengan kelulusan. Terletak dalam kawasan gated & guarded yang dilengkapi kelab, surau, playground dan gelanggang bola keranjang — sesuai kediaman keluarga.",
+    "amenities": [
+      "Gated & guarded",
+      "Club house",
+      "Surau & playground",
+      "Basketball court"
+    ],
+    "nearby": [
+      "SILK Highway",
+      "SKVE Highway",
+      "Pusat Bandar Baru Bangi"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Seri+Bangi+Bandar+Baru+Bangi",
+    "source": "COA",
+    "date": "2026-09-05",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1oSLYs25GRGMn62Hk1aNLfGbU30YhjoaJ",
+      "https://lh3.googleusercontent.com/d/1j4OXGkUN1jS-Zv2N3W2caW5-nQlAkpsI",
+      "https://lh3.googleusercontent.com/d/18qFydveEdrN2N9NQn_5EfcsJReGnhRtc"
     ],
     "active": true
   },
@@ -1304,6 +1379,6 @@ window.LISTINGS = [
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-2.jpg",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-005-3.jpg"
     ],
-    "active": true
+    "active": false
   }
 ];
