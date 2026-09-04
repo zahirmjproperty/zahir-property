@@ -145,8 +145,8 @@ a { color: inherit; text-decoration: none; }
   transition: transform .18s, box-shadow .18s;
 }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
-.card-media { position: relative; display: block; aspect-ratio: 16 / 10; background: var(--brand-soft); }
-.card-media img { width: 100%; height: 100%; object-fit: cover; }
+.card-media { position: relative; display: block; height: 0; padding-bottom: 62.5%; background: var(--brand-soft); overflow: hidden; }
+.card-media img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
 .badges { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; flex-wrap: wrap; }
 .badge {
   font-size: 11px; font-weight: 800; letter-spacing: .3px; color: #fff;
@@ -212,8 +212,8 @@ a { color: inherit; text-decoration: none; }
 .detail-top { display: grid; gap: 24px; margin-bottom: 8px; }
 @media (min-width: 900px) { .detail-top { grid-template-columns: 1.1fr .9fr; } }
 .detail-gallery { min-width: 0; }
-.gallery-main { position: relative; border-radius: var(--radius); overflow: hidden; cursor: zoom-in; }
-.gallery-main img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.gallery-main { position: relative; border-radius: var(--radius); overflow: hidden; cursor: zoom-in; height: 0; padding-bottom: 62.5%; }
+.gallery-main img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .g-counter {
   position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,.65); color: #fff;
   font-size: 12.5px; font-weight: 700; padding: 4px 10px; border-radius: 999px;
