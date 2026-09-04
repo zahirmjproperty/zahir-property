@@ -1060,6 +1060,47 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0024",
+    "title": "2.5 Storey Terrace Seri Wirani 8, Bandar Baru Bangi",
+    "type": "Rumah Teres",
+    "location": "Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 620000,
+    "price_label": "RM620,000",
+    "price_old": null,
+    "land_area": "Tanah 1,606 kps; Binaan 2,800 kps",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga turun RM640K → RM620K (nego)",
+      "Teres 2.5 tingkat — 5 bilik 4 bilik air",
+      "Tanah 1,606 kps · Binaan 2,800 kps",
+      "Leasehold (Bumi lot)",
+      "Guarded & gated 24 jam",
+      "Rumah disewa — sedia hasil sewa"
+    ],
+    "description": "Rumah teres 2.5 tingkat di Seri Wirani 8, Bandar Baru Bangi, Selangor. Keluasan tanah 1,606 kps dengan binaan 2,800 kps — 5 bilik 4 bilik air, posisi intermediate. Leasehold (bumi lot). Kawasan guarded & gated 24 jam dengan taman permainan & jogging track. Berdekatan pelbagai kemudahan: PKNS Complex, Giant Bangi, Evo Mall, UKM Bangi, sekolah, hospital (Hospital Islam Az-Zaharah, KPJ Kajang) serta MRT Stadium Kajang & KTM Komuter UKM. Akses mudah ke SILK, LEKAS, SKVE & PLUS. Rumah kini disewa — sesuai untuk pelaburan.",
+    "amenities": [],
+    "nearby": [
+      "PKNS Complex Bangi",
+      "Giant & Evo Mall Bangi",
+      "UKM Bangi",
+      "MRT Stadium Kajang / KTM UKM",
+      "Hospital Az-Zaharah & KPJ Kajang"
+    ],
+    "map_url": "",
+    "source": "COA",
+    "date": "2026-09-04",
+    "images": [
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-0024-1.jpg"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
