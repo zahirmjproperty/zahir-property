@@ -1039,7 +1039,7 @@ window.LISTINGS = [
     "price_label": "RM1,450,000",
     "price_old": null,
     "land_area": "Tanah 40 x 75 | Binaan 4,000 sqft",
-    "built_up": "-",
+    "built_up": "4,000 sqft",
     "tenure": "Leasehold",
     "bedrooms": 7,
     "bathrooms": 6,
@@ -1069,7 +1069,7 @@ window.LISTINGS = [
     "price_label": "RM620,000",
     "price_old": null,
     "land_area": "Tanah 1,606 kps; Binaan 2,800 kps",
-    "built_up": "-",
+    "built_up": "2,800 kps",
     "tenure": "Leasehold",
     "bedrooms": 5,
     "bathrooms": 4,
@@ -1110,7 +1110,7 @@ window.LISTINGS = [
     "price_label": "RM630,000",
     "price_old": null,
     "land_area": "Tanah 1,400 kps (20'x70'); Binaan 1,900 kps",
-    "built_up": "-",
+    "built_up": "1,900 kps",
     "tenure": "Leasehold",
     "bedrooms": 4,
     "bathrooms": 3,
@@ -1143,9 +1143,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://drive.google.com/uc?export=view&id=1eyekKK4MHqLdnf3Pb9RPZFGRnNRw2zNc",
-      "https://drive.google.com/uc?export=view&id=1WY2yWc-KmBa5VHKe6F5nBJiuH0fjEgyw",
-      "https://drive.google.com/uc?export=view&id=1yurif7MOYHLBHz_tSubQmiHY3srJyj3X"
+      "https://lh3.googleusercontent.com/d/1eyekKK4MHqLdnf3Pb9RPZFGRnNRw2zNc",
+      "https://lh3.googleusercontent.com/d/1WY2yWc-KmBa5VHKe6F5nBJiuH0fjEgyw",
+      "https://lh3.googleusercontent.com/d/1yurif7MOYHLBHz_tSubQmiHY3srJyj3X"
     ],
     "active": true
   },
@@ -1159,7 +1159,7 @@ window.LISTINGS = [
     "price_label": "RM499,000",
     "price_old": null,
     "land_area": "Tanah 1,650 kps (22'x75'); Binaan 1,650 kps",
-    "built_up": "-",
+    "built_up": "1,650 kps",
     "tenure": "-",
     "bedrooms": 4,
     "bathrooms": 3,
@@ -1198,9 +1198,9 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://drive.google.com/uc?export=view&id=11kUErQ78Z7dCJd1Retnbd_v-OKfV6oaP",
-      "https://drive.google.com/uc?export=view&id=1uSX0kq-19KdjSyZI-LMAbs5Ff6AfqiEt",
-      "https://drive.google.com/uc?export=view&id=1Y4XS2EXSH5LAgAxkAB_3tgSubpTKnLt5"
+      "https://lh3.googleusercontent.com/d/11kUErQ78Z7dCJd1Retnbd_v-OKfV6oaP",
+      "https://lh3.googleusercontent.com/d/1uSX0kq-19KdjSyZI-LMAbs5Ff6AfqiEt",
+      "https://lh3.googleusercontent.com/d/1Y4XS2EXSH5LAgAxkAB_3tgSubpTKnLt5"
     ],
     "active": true
   },
@@ -1214,7 +1214,7 @@ window.LISTINGS = [
     "price_label": "RM999,000",
     "price_old": null,
     "land_area": "Tanah 2,450 kps (35' x 70'); Binaan 3,250 kps",
-    "built_up": "-",
+    "built_up": "3,250 kps",
     "tenure": "Freehold",
     "bedrooms": 7,
     "bathrooms": 5,
