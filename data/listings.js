@@ -1198,9 +1198,61 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://zahirmjproperty.com/assets/listings/coa-0026-1.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0026-2.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0026-3.jpg"
+      "https://drive.google.com/uc?export=view&id=11kUErQ78Z7dCJd1Retnbd_v-OKfV6oaP",
+      "https://drive.google.com/uc?export=view&id=1uSX0kq-19KdjSyZI-LMAbs5Ff6AfqiEt",
+      "https://drive.google.com/uc?export=view&id=1Y4XS2EXSH5LAgAxkAB_3tgSubpTKnLt5"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0027",
+    "title": "COA-0027 - 3 Storey Semi-D Taman Tropika 2, Kajang",
+    "type": "3 Storey Semi-D",
+    "location": "Taman Tropika 2, Kajang",
+    "state": "Selangor",
+    "price": 999000,
+    "price_label": "RM999,000",
+    "price_old": null,
+    "land_area": "Tanah 2,450 kps (35' x 70'); Binaan 3,250 kps",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 7,
+    "bathrooms": 5,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Semi-D 3 tingkat — 7 bilik 5 bilik air",
+      "Freehold | Strata title | S&P 2010",
+      "Fully furnished & renovated (RM50k)",
+      "Dapur kering kabinet penuh + wet kitchen",
+      "24 jam gated & guarded (surau, playground)",
+      "Tanah 35' x 70' | Binaan 3,250 kps",
+      "Berdekatan UKM, MRT Kajang & Bangi Gateway Mall"
+    ],
+    "description": "Semi-D 3 tingkat dijual di Taman Tropika 2, Kajang, Selangor — RM999,000 (boleh runding). Freehold (strata title), tanah 35' x 70', binaan ~3,250 kps, 7 bilik 5 bilik air. Renovated & fully furnished: dapur kering kabinet penuh, wet kitchen lanjutan, semua bilik ada wardrobe, grilled penuh, parkir berbumbung. Dalam kawasan 24 jam gated & guarded dengan surau, playground & jogging track. Berdekatan UKM, MRT Kajang, Bangi Gateway Mall — akses mudah PLUS & LEKAS.",
+    "amenities": [
+      "UKM Komuter & MRT Kajang",
+      "UKM, GMI & institusi pengajian tinggi",
+      "EPF Training Centre",
+      "Sekolah Agama Sri Amin Bangi",
+      "Bangi Gateway Mall",
+      "Plaza Tol Bangi & Kajang — PLUS, LEKAS"
+    ],
+    "nearby": [
+      "UKM Komuter & MRT Kajang",
+      "UKM, GMI & institusi pengajian tinggi",
+      "EPF Training Centre",
+      "Sekolah Agama Sri Amin Bangi",
+      "Bangi Gateway Mall",
+      "Plaza Tol Bangi & Kajang — PLUS, LEKAS"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Tropika+2+Kajang",
+    "source": "COA",
+    "date": "2026-09-04",
+    "images": [
+      "https://zahirmjproperty.com/assets/listings/coa-0027-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0027-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0027-3.jpg"
     ],
     "active": true
   },
