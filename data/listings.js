@@ -1143,9 +1143,64 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-09-04",
     "images": [
-      "https://zahirmjproperty.com/assets/listings/coa-0025-1.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0025-2.jpg",
-      "https://zahirmjproperty.com/assets/listings/coa-0025-3.jpg"
+      "https://drive.google.com/uc?export=view&id=1eyekKK4MHqLdnf3Pb9RPZFGRnNRw2zNc",
+      "https://drive.google.com/uc?export=view&id=1WY2yWc-KmBa5VHKe6F5nBJiuH0fjEgyw",
+      "https://drive.google.com/uc?export=view&id=1yurif7MOYHLBHz_tSubQmiHY3srJyj3X"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0026",
+    "title": "COA-0026 - Double Storey Terrace Seksyen 16, Bandar Baru Bangi",
+    "type": "Double Storey Terrace",
+    "location": "Seksyen 16, Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 499000,
+    "price_label": "RM499,000",
+    "price_old": null,
+    "land_area": "Tanah 1,650 kps (22'x75'); Binaan 1,650 kps",
+    "built_up": "-",
+    "tenure": "-",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Fully renovated & extended — sedia didiami",
+      "4 bilik 3 bilik air (1 bathtub)",
+      "Dapur kabinet penuh & fully tiled",
+      "Ruang makan, study area & balcony",
+      "Tanah 22' x 75' | Binaan 1,650 kps",
+      "Kip Mall 5 minit | KTM Bangi 10 minit | MRT Kajang 15 minit"
+    ],
+    "description": "Rumah teres 2 tingkat fully renovated & extended dijual di Seksyen 16, Bandar Baru Bangi, Selangor — RM499,000 (boleh runding). Tanah 22' x 75', binaan 1,650 kps, 4 bilik 3 bilik air (1 bathtub). Ruang luas: dapur kabinet penuh (fully tiled), ruang makan, study area, balcony & small hall. Lokasi strategik — 5 minit ke Kip Mall, 10 minit KTM Bangi, 15 minit MRT Kajang, berdekatan UKM/KPTM/UniKL & sekolah. Akses mudah PLUS, LEKAS & SILK.",
+    "amenities": [
+      "Speedmart & shoplots berhampiran",
+      "Surau (solat Jumaat) — dalam jarak berjalan kaki",
+      "SK Jalan 6 & sekolah agama",
+      "Petronas & Shell",
+      "Kip Mall (5 min) | Evo Mall Bangi (10 min) | IOI City Mall (20 min)",
+      "UKM, KPTM Bangi, UniKL",
+      "KTM Bangi (10 min) / MRT Kajang (15 min)",
+      "Akses PLUS, LEKAS & SILK Highway"
+    ],
+    "nearby": [
+      "Speedmart & shoplots berhampiran",
+      "Surau (solat Jumaat) — dalam jarak berjalan kaki",
+      "SK Jalan 6 & sekolah agama",
+      "Petronas & Shell",
+      "Kip Mall (5 min) | Evo Mall Bangi (10 min) | IOI City Mall (20 min)",
+      "UKM, KPTM Bangi, UniKL",
+      "KTM Bangi (10 min) / MRT Kajang (15 min)",
+      "Akses PLUS, LEKAS & SILK Highway"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+16+Bandar+Baru+Bangi",
+    "source": "COA",
+    "date": "2026-09-04",
+    "images": [
+      "https://zahirmjproperty.com/assets/listings/coa-0026-1.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0026-2.jpg",
+      "https://zahirmjproperty.com/assets/listings/coa-0026-3.jpg"
     ],
     "active": true
   },
