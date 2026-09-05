@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Serah Listing — Zahir MJ Property | Jual · Sewa · Develop</title>
 <meta name="description" content="Serahkan listing hartanah anda kepada Zahir MJ Property — jual, sewa atau develop. Isi borang, maklumat terus sampai melalui WhatsApp.">
-<link rel="stylesheet" href="style.css?v=43">
+<link rel="stylesheet" href="style.css?v=44">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 </head>
 <body>
@@ -43,78 +43,17 @@
 </section>
 
 <main class="container main">
-  <div class="form-card">
-    <h2>📋 Borang Serahan Listing</h2>
-    <p class="form-hint">Isi maklumat hartanah anda — <span class="req">*</span> wajib diisi.</p>
-
-    <form id="listingForm">
-      <div class="form-row">
-        <label>Nama Penuh <span class="req">*</span></label>
-        <input type="text" id="fName" placeholder="Nama anda" required>
-      </div>
-
-      <div class="form-row">
-        <label>No. Telefon / WhatsApp <span class="req">*</span></label>
-        <input type="tel" id="fPhone" placeholder="012-3456789" required>
-      </div>
-
-      <div class="form-row">
-        <label>Tujuan <span class="req">*</span></label>
-        <div class="radio-group">
-          <label class="radio"><input type="radio" name="purpose" value="JUAL" checked> 🏷️ Jual</label>
-          <label class="radio"><input type="radio" name="purpose" value="SEWA"> 🔑 Sewa</label>
-          <label class="radio"><input type="radio" name="purpose" value="DEVELOP"> 🏗️ Develop</label>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <label>Jenis Hartanah <span class="req">*</span></label>
-        <select id="fType" required>
-          <option value="">-- Pilih jenis --</option>
-          <option>Tanah</option>
-          <option>Tanah Pertanian</option>
-          <option>Rumah</option>
-          <option>Rumah Semi-D</option>
-          <option>Bangunan Komersial</option>
-          <option>Lain-lain</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label>Lokasi / Alamat Hartanah <span class="req">*</span></label>
-        <input type="text" id="fLocation" placeholder="Cth: Bangi, Selangor" required>
-      </div>
-
-      <div class="form-row">
-        <label>Keluasan</label>
-        <input type="text" id="fSize" placeholder="Cth: 2.5 ekar / 10,000 sqft">
-      </div>
-
-      <div class="form-row">
-        <label>Status Hakmilik</label>
-        <select id="fTenure">
-          <option value="">-- Pilih (jika tahu) --</option>
-          <option>Freehold</option>
-          <option>Leasehold</option>
-          <option>Tidak pasti</option>
-        </select>
-      </div>
-
-      <div class="form-row">
-        <label>Harga Jangkaan (RM)</label>
-        <input type="text" id="fPrice" placeholder="Cth: 1,500,000 (pilihan)">
-      </div>
-
-      <div class="form-row">
-        <label>Butiran Tambahan</label>
-        <textarea id="fNotes" rows="4" placeholder="Contoh: ada bangunan lama, status rezab, tarikh luput pajakan, gambar boleh hantar selepas ini..."></textarea>
-      </div>
-
-      <button type="submit" class="btn-submit">📲 Hantar Maklumat melalui WhatsApp</button>
-      <p class="form-note">Maklumat anda dihantar terus ke WhatsApp Zahir MJ Property (012-2310119). Tiada bayaran untuk penilaian awal.</p>
-    </form>
+  <div class="form-card" style="margin-bottom:18px">
+    <h2>📋 Serah Listing Anda</h2>
+    <p class="form-hint">Isi borang dalam <strong>2 minit — tanpa log masuk</strong>. Pasukan kami akan hubungi anda untuk penilaian percuma.</p>
+    <a class="btn-submit" href="https://docs.google.com/forms/d/e/1FAIpQLSc2GnbC09UQ1HvUlGx14uuIR3QZktdi1u4pjaZcxk5FS8IQXw/viewform" target="_blank" rel="noopener" style="display:block;text-align:center;text-decoration:none;margin:14px 0 8px">📋 Buka Borang Serah Listing</a>
+    <p class="form-note">💾 Dokumen (geran/cukai/pelan) &amp; 📸 gambar: hantar selepas isi borang melalui <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp 012-2310119</a> atau email zahirmj.property@gmail.com — sebutkan nama &amp; lokasi supaya kami padankan.</p>
+  </div>
+  <div class="form-embed" style="background:#fff;border-radius:12px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,.12)">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2GnbC09UQ1HvUlGx14uuIR3QZktdi1u4pjaZcxk5FS8IQXw/viewform?embedded=true" width="100%" height="2800" frameborder="0" marginheight="0" marginwidth="0" loading="lazy" title="Borang Serah Listing">Memuatkan borang...</iframe>
   </div>
 </main>
+
 
 <footer class="site-footer">
   <div class="container footer-grid">
@@ -143,42 +82,6 @@
 </footer>
 
 <script>
-const WA_NUMBER = "60122310119";
-document.getElementById("listingForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-  const name = document.getElementById("fName").value.trim();
-  const phone = document.getElementById("fPhone").value.trim();
-  const purpose = document.querySelector('input[name="purpose"]:checked').value;
-  const type = document.getElementById("fType").value;
-  const location = document.getElementById("fLocation").value.trim();
-  const size = document.getElementById("fSize").value.trim();
-  const tenure = document.getElementById("fTenure").value;
-  const price = document.getElementById("fPrice").value.trim();
-  const notes = document.getElementById("fNotes").value.trim();
-
-  if (!name || !phone || !type || !location) {
-    alert("Sila lengkapkan maklumat yang wajib diisi (*).");
-    return;
-  }
-
-  const lines = [
-    "Assalamualaikum dan salam sejahtera, saya ingin serah listing kepada Zahir MJ Property:",
-    "",
-    "👤 Nama: " + name,
-    "📞 Telefon: " + phone,
-    "🎯 Tujuan: " + purpose,
-    "🏠 Jenis Hartanah: " + type,
-    "📍 Lokasi: " + location
-  ];
-  if (size) lines.push("📐 Keluasan: " + size);
-  if (tenure) lines.push("📜 Hakmilik: " + tenure);
-  if (price) lines.push("💰 Harga Jangkaan: RM" + price);
-  if (notes) lines.push("📝 Butiran: " + notes);
-  lines.push("", "Terima kasih.");
-
-  const msg = encodeURIComponent(lines.join("\n"));
-  window.open("https://wa.me/" + WA_NUMBER + "?text=" + msg, "_blank");
-});
 
 // Mobile nav toggle (dikongsi)
 const toggle = document.getElementById("navToggle");
