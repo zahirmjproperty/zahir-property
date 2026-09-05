@@ -20,6 +20,7 @@
   .field { margin-bottom: 13px; }
   .field label { display:block; font-size: 13.5px; font-weight:600; margin-bottom:5px; }
   .field label .opt { font-weight:400; color:var(--muted); font-size:12px; }
+  .field label .req { font-weight:800; color:var(--red); }
   .field input, .field select { width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink); box-sizing:border-box; font-family:inherit; }
   .field input:focus, .field select:focus { outline:2px solid var(--brand); outline-offset:1px; }
   .rm-prefix { position:relative; }
@@ -98,12 +99,12 @@
           <div class="rm-prefix"><span>RM</span><input type="number" id="fAmaun" min="1" step="0.01" placeholder="0.00" inputmode="decimal"></div>
         </div>
         <div class="field">
-          <label for="fNama">Nama Penuh</label>
+          <label for="fNama">Nama Penuh <span class="req">*</span></label>
           <input type="text" id="fNama" placeholder="cth: Ahmad bin Ali" autocomplete="name">
         </div>
         <div class="field-row" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
           <div class="field">
-            <label for="fTel">No. Telefon <span class="opt">(opsional)</span></label>
+            <label for="fTel">No. Telefon (WhatsApp) <span class="req">*</span></label>
             <input type="tel" id="fTel" placeholder="012-3456789" autocomplete="tel">
           </div>
           <div class="field">
@@ -192,6 +193,8 @@
 
     if (!nama) { show("Sila isi nama penuh anda.", false); return; }
     if (!(amaun >= 1)) { show("Sila isi amaun yang sah (minimum RM1.00).", false); return; }
+    var telDigits = tel.replace(/\D/g, "");
+    if (!tel || !/^01\d{7,9}$/.test(telDigits)) { show("Sila isi no. telefon Malaysia yang sah (cth 012-3456789).", false); return; }
 
     var data = { act: "create", jenis: jenis, amaun_rm: amaun.toFixed(2), nama: nama, tel: tel, emel: emel, rujukan: rujukan };
 
