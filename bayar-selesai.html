@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Status Bayaran — ZMJ Solutions · Zahir MJ Property</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="style.css?v=44">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  .st-wrap { max-width: 560px; margin: 0 auto; padding: 34px 20px 10px; }
+  .st-card { background: var(--card); border:1px solid var(--line); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow); text-align:center; }
+  .st-icon { font-size: 52px; line-height: 1; }
+  .st-card h1 { font-size: 21px; color: var(--brand-dark); margin: 12px 0 8px; }
+  .st-card p { font-size: 14px; color: var(--muted); line-height: 1.6; margin: 0 0 6px; }
+  .st-ref { font-size: 12.5px; color: var(--muted); background: var(--brand-soft); border-radius: 10px; padding: 10px 12px; margin: 14px 0 4px; font-family: monospace; word-break: break-all; }
+  .st-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+  .btn-st { display:inline-block; text-decoration:none; background:var(--brand); color:#fff; font-weight:700; font-size:14px; padding:11px 18px; border-radius:11px; }
+  .btn-st.alt { background:#fff; color:var(--brand-dark); border:1px solid var(--line); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
+      <a href="bayar.html">Bayaran</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main class="container st-wrap">
+  <div class="st-card" id="stCard">
+    <div class="st-icon" id="stIcon">🕓</div>
+    <h1 id="stTitle">Bayaran Sedang Diproses</h1>
+    <p id="stMsg">Terima kasih. Status bayaran anda akan disahkan sebaik sahaja Billplz memaklumkan kepada kami — biasanya dalam beberapa minit.</p>
+    <div class="st-ref" id="stRef"></div>
+    <div class="st-actions">
+      <a class="btn-st" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 WhatsApp Kami</a>
+      <a class="btn-st alt" href="index.html">← Kembali ke Utama</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa. Renovasi &amp; ubah suai rumah.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="bayar.html">Bayaran Dalam Talian</a>
+      <a href="tentang.html">Tentang Kami</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 ZMJ Solutions · Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  var q = new URLSearchParams(window.location.search);
+  var status = (q.get("status") || q.get("billplz_status") || "").toLowerCase();
+  var billId = q.get("bill_id") || q.get("id") || "";
+  var title = document.getElementById("stTitle");
+  var msg = document.getElementById("stMsg");
+  var icon = document.getElementById("stIcon");
+
+  if (status === "paid" || status === "1" || status === "true") {
+    icon.textContent = "✅";
+    title.textContent = "Bayaran Berjaya — Terima Kasih!";
+    msg.textContent = "Bayaran anda telah diterima. Kami akan hubungi anda melalui WhatsApp untuk pengesahan & langkah seterusnya.";
+  } else if (status) {
+    icon.textContent = "⏸️";
+    title.textContent = "Bayaran Belum Selesai";
+    msg.textContent = "Nampaknya bayaran belum diselesaikan. Anda boleh cuba semula atau hubungi kami — kami hantar pautan bayaran baharu.";
+  }
+  if (billId) document.getElementById("stRef").textContent = "Rujukan Bill: " + billId;
+
+  var nt = document.getElementById("navToggle");
+  if (nt) nt.addEventListener("click", function () { document.getElementById("nav").classList.toggle("open"); });
+})();
+</script>
+</body>
+</html>

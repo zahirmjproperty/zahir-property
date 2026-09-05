@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bayaran Dalam Talian — ZMJ Solutions · Zahir MJ Property</title>
+<meta name="description" content="Buat bayaran deposit renovasi, progress bayaran dan yuran perkhidmatan ZMJ Solutions secara selamat — FPX, DuitNow, kad kredit & e-wallet melalui Billplz.">
+<link rel="stylesheet" href="style.css?v=44">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  .by-hero { background: linear-gradient(135deg, var(--brand-dark), var(--brand)); color:#fff; }
+  .by-hero .container { padding: 34px 20px; }
+  .by-hero h1 { margin: 0 0 6px; font-size: 26px; }
+  .by-hero p { margin: 0; opacity: .92; font-size: 14.5px; max-width: 640px; line-height:1.55; }
+  .by-grid { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 22px 0 10px; }
+  @media (min-width: 980px) { .by-grid { grid-template-columns: minmax(0,1.45fr) minmax(0,1fr); align-items:start; } }
+  .by-card { background: var(--card); border:1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+  .by-card h2 { font-size: 17px; color: var(--brand-dark); margin: 0 0 4px; }
+  .by-sub { font-size: 13px; color: var(--muted); margin: 0 0 16px; line-height:1.5; }
+  .field { margin-bottom: 13px; }
+  .field label { display:block; font-size: 13.5px; font-weight:600; margin-bottom:5px; }
+  .field label .opt { font-weight:400; color:var(--muted); font-size:12px; }
+  .field input, .field select { width:100%; padding:10px 12px; font-size:15px; border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink); box-sizing:border-box; font-family:inherit; }
+  .field input:focus, .field select:focus { outline:2px solid var(--brand); outline-offset:1px; }
+  .rm-prefix { position:relative; }
+  .rm-prefix input { padding-left: 46px; }
+  .rm-prefix span { position:absolute; left:12px; top:50%; transform:translateY(-50%); font-size:15px; font-weight:700; color:var(--muted); pointer-events:none; }
+  .by-btn { display:block; width:100%; border:0; cursor:pointer; background:var(--brand); color:#fff; font-size:16px; font-weight:700; padding:13px 16px; border-radius:12px; font-family:inherit; }
+  .by-btn:hover { background:var(--brand-dark); }
+  .by-btn:disabled { opacity:.55; cursor:not-allowed; }
+  .by-secure { text-align:center; font-size:12px; color:var(--muted); margin-top:10px; }
+  .pm-chips { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 4px; }
+  .pm-chip { font-size:11px; font-weight:700; color:var(--brand-dark); background:var(--brand-soft); border:1px solid var(--line); border-radius:20px; padding:4px 10px; }
+  .by-note { font-size:12.5px; color:var(--muted); line-height:1.6; background:var(--brand-soft); border:1px solid var(--line); border-radius:12px; padding:12px 14px; margin-top:14px; }
+  .by-note b { color: var(--brand-dark); }
+  .by-step { display:flex; gap:10px; margin-bottom:12px; align-items:flex-start; }
+  .by-step .n { flex:0 0 22px; height:22px; background:var(--brand); color:#fff; border-radius:50%; font-size:12px; font-weight:800; display:flex; align-items:center; justify-content:center; }
+  .by-step p { margin:0; font-size:13px; color:var(--ink); line-height:1.5; }
+  .banner { display:none; background:#fff4e5; border:1px solid #f0c36d; color:#7a4f01; font-size:13px; border-radius:10px; padding:11px 13px; margin-bottom:14px; line-height:1.5; }
+  .banner.show { display:block; }
+  .banner.ok { background:#e8f5ef; border-color:#9fd6bc; color:#14532d; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
+      <a href="bayar.html" class="active">Bayaran</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="by-hero">
+  <div class="container">
+    <h1>🧾 Bayaran Dalam Talian — ZMJ Solutions</h1>
+    <p>Buat bayaran dengan selamat untuk deposit renovasi, progress bayaran dan yuran perkhidmatan. Pembayaran diproses melalui Billplz — penyedia pembayaran berdaftar di Malaysia (FPX, DuitNow, kad &amp; e-wallet).</p>
+  </div>
+</section>
+
+<main class="container">
+  <div class="by-grid">
+    <div>
+      <div class="by-card">
+        <h2>📝 Maklumat Bayaran</h2>
+        <p class="by-sub">Isi butiran di bawah — anda akan dibawa ke laman pembayaran selamat Billplz.</p>
+        <div class="banner" id="banner"></div>
+        <div class="field">
+          <label for="fJenis">Jenis Bayaran</label>
+          <select id="fJenis">
+            <option value="Deposit Renovasi">Deposit Renovasi (permulaan kerja)</option>
+            <option value="Progress Bayaran Renovasi">Progress Bayaran Renovasi</option>
+            <option value="Yuran Perkhidmatan">Yuran Perkhidmatan / Booking Servis Hartanah</option>
+            <option value="Sewa">Sewa</option>
+            <option value="Bil Utiliti">Bil Utiliti</option>
+            <option value="Lain-lain">Lain-lain / Bayaran Baki</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fAmaun">Amaun <span class="opt">(RM)</span></label>
+          <div class="rm-prefix"><span>RM</span><input type="number" id="fAmaun" min="1" step="0.01" placeholder="0.00" inputmode="decimal"></div>
+        </div>
+        <div class="field">
+          <label for="fNama">Nama Penuh</label>
+          <input type="text" id="fNama" placeholder="cth: Ahmad bin Ali" autocomplete="name">
+        </div>
+        <div class="field-row" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div class="field">
+            <label for="fTel">No. Telefon <span class="opt">(opsional)</span></label>
+            <input type="tel" id="fTel" placeholder="012-3456789" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="fEmel">Emel <span class="opt">(opsional)</span></label>
+            <input type="email" id="fEmel" placeholder="anda@emel.com" autocomplete="email">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fRujukan">No. Rujukan / Invois <span class="opt">(opsional)</span></label>
+          <input type="text" id="fRujukan" placeholder="cth: RUJ-001 / Nama projek">
+        </div>
+        <button class="by-btn" id="byBtn">🔒 Teruskan ke Pembayaran Selamat</button>
+        <p class="by-secure">Dilindungi penyulitan · Diproses Billplz · Tanpa kad = bayar guna FPX/DuitNow</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="by-card">
+        <h2>💳 Cara Bayaran Diterima</h2>
+        <div class="pm-chips">
+          <span class="pm-chip">FPX (semua bank)</span>
+          <span class="pm-chip">DuitNow</span>
+          <span class="pm-chip">Kad Kredit/Debit</span>
+          <span class="pm-chip">e-Wallet (TnG, Grab, Boost)</span>
+        </div>
+        <p class="by-sub">Wang masuk terus ke akaun ZMJ Solutions — pengesahan &amp; resit dihantar selepas bayaran disahkan.</p>
+        <h2 style="margin-top:18px">📌 Langkah</h2>
+        <div class="by-step"><span class="n">1</span><p>Isi butiran &amp; amaun mengikut quotation/invois yang anda terima.</p></div>
+        <div class="by-step"><span class="n">2</span><p>Pilih kaedah bayaran di laman Billplz (FPX paling popular — tanpa yuran kad).</p></div>
+        <div class="by-step"><span class="n">3</span><p>Selesai — kami sahkan melalui WhatsApp &amp; emel. Simpan slip bayaran anda.</p></div>
+        <div class="by-note">
+          <b>Nota pematuhan:</b> Halaman ini untuk bayaran urusniaga ZMJ Solutions (renovasi, khidmat hartanah, sewa/bil hartanah milik sendiri). Urusan <i>earnest deposit / booking</i> ke arah belian hartanah dijalankan melalui peguam atau akaun agensi mengikut Akta 242 — bukan melalui halaman ini. Kutipan bagi pihak pihak lain (cth sewa milik owner) diuruskan melalui akaun yang ditetapkan dalam perjanjian masing-masing. Ada soalan? 📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp kami</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa. Renovasi &amp; ubah suai rumah.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="bayar.html">Bayaran Dalam Talian</a>
+      <a href="tentang.html">Tentang Kami</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 ZMJ Solutions · Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  var WA_NUMBER = "60122310119";
+  /* URL Apps Script web app — back-end cipta bil Billplz (deploy selepas API key siap) */
+  var APP_SCRIPT_URL = "";
+  var $ = function (id) { return document.getElementById(id); };
+  var banner = $("banner");
+  var btn = $("byBtn");
+
+  function show(msg, ok) {
+    banner.textContent = msg;
+    banner.className = "banner show" + (ok ? " ok" : "");
+  }
+
+  $("byBtn").addEventListener("click", async function () {
+    var jenis = $("fJenis").value;
+    var amaun = parseFloat($("fAmaun").value);
+    var nama  = $("fNama").value.trim();
+    var tel   = $("fTel").value.trim();
+    var emel  = $("fEmel").value.trim();
+    var rujukan = $("fRujukan").value.trim();
+
+    if (!nama) { show("Sila isi nama penuh anda.", false); return; }
+    if (!(amaun >= 1)) { show("Sila isi amaun yang sah (minimum RM1.00).", false); return; }
+
+    var data = { act: "create", jenis: jenis, amaun_rm: amaun.toFixed(2), nama: nama, tel: tel, emel: emel, rujukan: rujukan };
+
+    if (APP_SCRIPT_URL.indexOf("http") === 0) {
+      btn.disabled = true;
+      btn.textContent = "Menyediakan pembayaran…";
+      try {
+        var r = await fetch(APP_SCRIPT_URL, {
+          method: "POST",
+          mode: "cors",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(data)
+        });
+        var j = await r.json();
+        if (j && j.ok && j.checkout_url) {
+          window.location.href = j.checkout_url;
+          return;
+        }
+        throw new Error(j && j.error ? j.error : "Gagal");
+      } catch (e) {
+        console.error("Submit error:", e);
+        btn.disabled = false;
+        btn.textContent = "🔒 Teruskan ke Pembayaran Selamat";
+        fallbackWA(data, "Sistem pembayaran sedang sibuk — hantar maklumat anda melalui WhatsApp, kami akan hantar pautan bayaran.");
+        return;
+      }
+    }
+    /* Mod draft / belum deploy — terus ke WhatsApp */
+    fallbackWA(data, "Pautan pembayaran belum aktif — hantar maklumat anda melalui WhatsApp untuk pautan bayaran manual.");
+  });
+
+  function fallbackWA(data, msg) {
+    var waText = "🧾 *Permintaan Pautan Bayaran* (dari laman web)\n" +
+      "Jenis: " + data.jenis +
+      "\nAmaun: RM " + data.amaun_rm +
+      "\nNama: " + data.nama +
+      (data.tel ? "\nTel: " + data.tel : "") +
+      (data.emel ? "\nEmel: " + data.emel : "") +
+      (data.rujukan ? "\nRujukan: " + data.rujukan : "");
+    window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(waText), "_blank");
+    show(msg, false);
+  }
+
+  /* Toggle menu mudah alih (sepadan app.js) */
+  var nt = $("navToggle");
+  if (nt) nt.addEventListener("click", function () { $("nav").classList.toggle("open"); });
+})();
+</script>
+</body>
+</html>
