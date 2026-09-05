@@ -1,12 +1,12 @@
 // Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
 // SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
 window.SITE = {
-  "name": "Zahir MJ Property",
-  "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
-  "agent": "Zahir MJ",
-  "phone": "012-2310119",
-  "whatsapp": "60122310119",
-  "domain": "https://zahirmjproperty.com/"
+ "name": "Zahir MJ Property",
+ "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
+ "agent": "Zahir MJ",
+ "phone": "012-2310119",
+ "whatsapp": "60122310119",
+ "domain": "https://zahirmjproperty.com/"
 };
 
 window.LISTINGS = [
@@ -1376,6 +1376,189 @@ window.LISTINGS = [
    "https://lh3.googleusercontent.com/d/1_Bwl6cuVqIMlLvdfwNiYGvw5hqgEAQwk",
    "https://lh3.googleusercontent.com/d/1JjxjzfaO4-IPyrHnMeLdOEyTR8l1EDeF",
    "https://lh3.googleusercontent.com/d/1Y5n_DGugj6k3kv3Ww7-b4fDtksCZu7Z6"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0031",
+  "title": "2 Storey Bungalow Puncak Mekar Sungai Merab",
+  "type": "Bungalow",
+  "location": "Puncak Mekar, Sungai Merab, Kajang, Selangor",
+  "state": "Selangor",
+  "price": 880000,
+  "price_label": "RM880,000",
+  "price_old": null,
+  "land_area": "Land 6,674 sqft | Built-up 6,000 sqft",
+  "built_up": "-",
+  "tenure": "Leasehold",
+  "bedrooms": 7,
+  "bathrooms": 4,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Below market value (RM930K → RM880K)",
+   "CF Ready & kelulusan majlis",
+   "Individual title",
+   "7 bilik 4 bilik air",
+   "Owner akan repair & touch up",
+   "Partial furnished"
+  ],
+  "description": "Bungalow 2 tingkat di Puncak Mekar, Sungai Merab — lokasi strategik antara Kajang dan Dengkil. Keluasan tanah 6,674 sqft dengan binaan 6,000 sqft, 7 bilik 4 bilik air. Individual title, CF ready dan ada kelulusan majlis. Harga RM880K (below market RM930K) — owner bersedia repair & touch up, partial furnished. 10 minit ke Alamanda Putrajaya, 15 minit ke IOI City Mall, mudah akses SILK, SKVE, MEX & PLUS.",
+  "amenities": [
+   "Partial furnished",
+   "CF Ready",
+   "Ruang luas 6,000 sqft"
+  ],
+  "nearby": [
+   "Alamanda Putrajaya (10 min)",
+   "IOI City Mall Putrajaya (15 min)",
+   "UPM, UKM & UNITEN",
+   "Hospital Serdang & Putrajaya",
+   "SILK, SKVE, MEX, PLUS"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Puncak+Mekar+Sungai+Merab+Kajang",
+  "source": "COA",
+  "date": "2026-09-05",
+  "images": [
+   "https://lh3.googleusercontent.com/d/1-i7lcyhRmPeL0anrtjrDJOuftl69KoIE",
+   "https://lh3.googleusercontent.com/d/1JOO6dofR2TaVNIpiEixzLG3JCmEVRp07",
+   "https://lh3.googleusercontent.com/d/1Dd3TeoOOI5tu3jKXLy1iNMATq9mTyyMO"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0032",
+  "title": "Endlot Double Storey Taman Kajang Utama",
+  "type": "Rumah Teres",
+  "location": "Taman Kajang Utama, Kajang, Selangor",
+  "state": "Selangor",
+  "price": 610000,
+  "price_label": "RM610,000",
+  "price_old": null,
+  "land_area": "Land 22x75 (1,650 sqft)",
+  "built_up": "-",
+  "tenure": "Freehold",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Endlot unit",
+   "Fully renovated",
+   "Freehold",
+   "4 bilik 3 bilik air",
+   "Akses PLUS, LEKAS, MAX, ELITE"
+  ],
+  "description": "Rumah endlot 2 tingkat fully renovated di Taman Kajang Utama, Kajang. Keluasan tanah 22x75 (1,650 sqft), 4 bilik 3 bilik air, freehold. Unit endlot — lebih privasi dan ruang sisi. Akses mudah ke PLUS, LEKAS, MAX & ELITE Highway. Harga RM610K.",
+  "amenities": [
+   "Fully renovated",
+   "Ruang sisi endlot",
+   "Lokasi strategik"
+  ],
+  "nearby": [
+   "PLUS Highway",
+   "LEKAS Highway",
+   "MAX Highway",
+   "ELITE Highway"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Kajang+Utama+Kajang",
+  "source": "COA",
+  "date": "2026-09-05",
+  "images": [
+   "https://lh3.googleusercontent.com/d/1FjCyw81kIADo4qMbeerH9zSrvBBxbSZn",
+   "https://lh3.googleusercontent.com/d/1tJeat2XyuO31QbfY3EwQnXU18D2atsQ1",
+   "https://lh3.googleusercontent.com/d/1hGHZAUW_snOMP2rhl7T2_O2fEnW2P4O4"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0033",
+  "title": "Double Storey Taman Jasmin Kajang",
+  "type": "Rumah Teres",
+  "location": "Taman Jasmin, Kajang, Selangor",
+  "state": "Selangor",
+  "price": 750000,
+  "price_label": "RM750,000",
+  "price_old": null,
+  "land_area": "Land 1,650 sqft | Built-up 1,700 sqft",
+  "built_up": "-",
+  "tenure": "Freehold",
+  "bedrooms": 5,
+  "bathrooms": 3,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Freehold",
+   "5 bilik 3 bilik air",
+   "2 parking",
+   "Akses SILK, LEKAS, PLUS, EKVE",
+   "Harga boleh nego"
+  ],
+  "description": "Rumah teres 2 tingkat intermediate di Taman Jasmin, Kajang. Freehold, binaan 1,700 sqft di atas tanah 1,650 sqft, 5 bilik 3 bilik air, 2 parking. Lokasi senang akses SILK, LEKAS, PLUS & EKVE. Harga RM750K — boleh nego (owner renovation belum siap).",
+  "amenities": [
+   "Intermediate unit",
+   "2 parking",
+   "Binaan 1,700 sqft"
+  ],
+  "nearby": [
+   "SILK Highway",
+   "LEKAS Highway",
+   "PLUS Highway",
+   "EKVE"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Jasmin+Kajang",
+  "source": "COA",
+  "date": "2026-09-05",
+  "images": [
+   "https://lh3.googleusercontent.com/d/19vMFTNLZwQrq-TZY4Wf3eOWiqxuuv4W9",
+   "https://lh3.googleusercontent.com/d/11Vjv40dRMlWse_hvD-pG-jrScSdhjn0-",
+   "https://lh3.googleusercontent.com/d/19nG_zGvJCwc7jXNI-zc3jwcmmPIQ2fuC"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0034",
+  "title": "Corner Lot Double Storey Seksyen 4 Bandar Baru Bangi",
+  "type": "Rumah Teres",
+  "location": "Seksyen 4, Bandar Baru Bangi, Selangor",
+  "state": "Selangor",
+  "price": 800000,
+  "price_label": "RM800,000",
+  "price_old": null,
+  "land_area": "Land 3,433 sqft",
+  "built_up": "-",
+  "tenure": "Leasehold",
+  "bedrooms": 5,
+  "bathrooms": 4,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Corner lot tanah 3,433 sqft",
+   "Gated & guarded",
+   "Renovated kitchen",
+   "Main road",
+   "Individual title",
+   "5 bilik 4 bilik air"
+  ],
+  "description": "Rumah corner lot 2 tingkat di Seksyen 4, Bandar Baru Bangi — tanah 3,433 sqft, 5 bilik 4 bilik air. Dapur renovated, main road, individual title, kawasan gated & guarded. Berdekatan PKNS Bangi, Bangi Golf Resort dan Tenera Hotel; akses PLUS, LEKAS & SILK. Harga RM800K.",
+  "amenities": [
+   "Renovated kitchen",
+   "Gated & guarded",
+   "Main road access"
+  ],
+  "nearby": [
+   "PKNS Bangi",
+   "Bangi Golf Resort",
+   "Tenera Hotel Bangi",
+   "PLUS, LEKAS, SILK Highway"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+4+Bandar+Baru+Bangi",
+  "source": "COA",
+  "date": "2026-09-05",
+  "images": [
+   "https://lh3.googleusercontent.com/d/13rB5ck5qqoKbwdI9FeBU8pk_SXaAqnU5",
+   "https://lh3.googleusercontent.com/d/1iqcBtEjvlfbhif1DGR3Vry-5ih_jL7PM",
+   "https://lh3.googleusercontent.com/d/1FQUxxkK2keY6h95uPDtOtTCJZvIPoUDV"
   ],
   "active": true
  },
