@@ -100,9 +100,11 @@
             <div class="f-radio-row" id="roleRow">
               <label><input type="radio" name="peranan" value="Pemilik hartanah" checked> Pemilik hartanah</label>
               <label><input type="radio" name="peranan" value="Ejen hartanah"> Ejen hartanah</label>
+              <label><input type="radio" name="peranan" value="Lain-lain"> Lain-lain</label>
             </div>
           </div>
           <div class="f-field full hidden" id="agensiField"><label>Nama agensi</label><input type="text" id="f_agensi" placeholder="cth: XYZ Realty"></div>
+          <div class="f-field full hidden" id="perananLainField"><label>Nyatakan peranan anda</label><input type="text" id="f_peranan_lain" placeholder="cth: Wakil pemilik / Pelabur / Pentadbir"></div>
         </div>
       </div>
 
@@ -121,7 +123,7 @@
         </div>
         <div class="f-grid">
           <div class="f-field full"><label>Jenis hartanah</label>
-            <select id="f_jenis"><option value="Tanah Kosong">Tanah Kosong</option><option>Rumah Teres</option><option>Banglo</option><option>Semi-D</option><option>Apartmen/Kondominium</option><option>Kedai/Komersial</option><option>Lain-lain</option></select>
+            <select id="f_jenis"><option value="Tanah Kosong">Tanah Kosong</option><option>Rumah Teres</option><option>Banglo</option><option>Semi-D</option><option>Apartmen/Kondominium</option><option>Flat</option><option>Kedai/Komersial</option><option>Lain-lain</option></select>
           </div>
           <div class="f-field"><label>Negeri</label>
             <select id="f_negeri"><option value="">— Pilih —</option><option>Johor</option><option>Kedah</option><option>Kelantan</option><option>Melaka</option><option>Negeri Sembilan</option><option>Pahang</option><option>Perak</option><option>Perlis</option><option>Pulau Pinang</option><option>Sabah</option><option>Sarawak</option><option>Selangor</option><option>Terengganu</option><option>Kuala Lumpur</option><option>Putrajaya</option><option>Labuan</option></select>
@@ -216,9 +218,11 @@ const WA_FALLBACK = "60122310119";
 // Interaksi peranan (ejen -> nama agensi)
 const roleRadio = document.querySelectorAll('input[name="peranan"]');
 const agensiField = document.getElementById('agensiField');
+const perananLainField = document.getElementById('perananLainField');
 function syncRole(){
   const v = document.querySelector('input[name="peranan"]:checked').value;
   agensiField.classList.toggle('hidden', v !== 'Ejen hartanah');
+  perananLainField.classList.toggle('hidden', v !== 'Lain-lain');
 }
 roleRadio.forEach(r => r.addEventListener('change', syncRole));
 syncRole();
@@ -226,7 +230,7 @@ syncRole();
 // Interaksi jenis hartanah (spec unit utk rumah/unit binaan sahaja)
 const jenisSel = document.getElementById('f_jenis');
 const specUnit = document.getElementById('specUnit');
-const UNIT_TYPES = ['Rumah Teres','Banglo','Semi-D','Apartmen/Kondominium','Lain-lain'];
+const UNIT_TYPES = ['Rumah Teres','Banglo','Semi-D','Apartmen/Kondominium','Flat','Lain-lain'];
 function syncSpec(){
   specUnit.classList.toggle('hidden', !UNIT_TYPES.includes(jenisSel.value));
 }
@@ -266,7 +270,10 @@ document.getElementById('listingForm').addEventListener('submit', async (e) => {
   box.classList.add('hidden');
   if (document.getElementById('f_hp').value) return; // honeypot
 
-  const peranan = document.querySelector('input[name="peranan"]:checked').value;
+  let peranan = document.querySelector('input[name="peranan"]:checked').value;
+  if (peranan === 'Lain-lain') {
+    peranan = document.getElementById('f_peranan_lain').value.trim() || 'Lain-lain';
+  }
   const urusan = document.querySelector('input[name="urusan"]:checked').value;
   const payload = {
     nama: document.getElementById('f_nama').value.trim(),
