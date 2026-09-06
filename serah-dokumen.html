@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Serah Dokumen Urus Niaga — Zahir MJ Property</title>
-<link rel="stylesheet" href="style.css?v=51">
+<link rel="stylesheet" href="style.css?v=52">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 <style>
   .form-wrap{max-width:860px;margin:0 auto;padding:24px 20px}
@@ -32,6 +32,12 @@
   .doc-item .d-name{font-size:14px;font-weight:600;color:#1e293b}
   .doc-item input[type=file]{font-size:12.5px;max-width:230px}
   .doc-item .skip{display:flex;align-items:center;gap:6px;font-size:12px;color:#64748b;white-space:nowrap}
+  @media(max-width:640px){
+    .doc-item{flex-direction:column;align-items:stretch;gap:10px}
+    .doc-item input[type=file]{max-width:100%;width:100%}
+    .doc-item .skip{white-space:normal}
+    .doc-item .d-info{margin-bottom:2px}
+  }
   .btn-submit{width:100%;padding:14px;background:#0c7a4b;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:700;cursor:pointer;margin-top:6px}
   .btn-submit:hover{background:#0a6b42}
   .btn-submit:disabled{background:#94a3b8;cursor:not-allowed}
