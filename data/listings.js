@@ -1751,6 +1751,55 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0039",
+    "title": "Intana Ria Apartment Seksyen 7 Bandar Baru Bangi",
+    "type": "Apartmen",
+    "location": "Seksyen 7, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 250000,
+    "price_label": "RM250,000",
+    "price_old": null,
+    "land_area": "850 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "FULLY FURNISHED — boleh terus sewa",
+      "Harga bawah pasaran (below MV)",
+      "850 sqft, 3 bilik 2 bilik air",
+      "1 parkir & walk up",
+      "Gated & guarded + kolam renang",
+      "Maintenance RM135/bln"
+    ],
+    "description": "Apartment Intana Ria, Seksyen 7 Bandar Baru Bangi — unit Level 4 Blok 1 seluas 850 sqft, FULLY FURNISHED, sesuai untuk pelaburan (beli terus sewa) mahupun didiami sendiri. 3 bilik 2 bilik air, 1 parkir, walk up. Leasehold Bumi Lot dengan harga bawah pasaran — peluang rendah deposit. Kompleks gated & guarded dengan kolam renang dewasa & kanak-kanak, playground, badminton court, dewan komuniti, kafeteria, taska dan surau.",
+    "amenities": [
+      "Kolam renang dewasa & kanak-kanak",
+      "Playground & jogging track",
+      "Badminton court & dewan komuniti",
+      "Kafeteria, taska & surau",
+      "24 jam keselamatan dengan access card"
+    ],
+    "nearby": [
+      "Hospital Annur & Az-Zahrah (500m)",
+      "Balai polis (200m), SK Seksyen 7 (2 min)",
+      "Stesen Komuter UKM & Kajang 2 (1km)",
+      "MRT Kajang (3km), UKM & GMI (2km)",
+      "Putrajaya (15km), Cyberjaya (20km), KLCC (33km)"
+    ],
+    "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-06",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1lSjUsSvGKSj6UIjJ-zb01Ni2bdgKBQZm=w1000",
+      "https://lh3.googleusercontent.com/d/1tOFUCIZa4HHnInVIRVi2ULl24MmISMz8=w1000",
+      "https://lh3.googleusercontent.com/d/1Dhz7TqCnetxXf1hoCWgZqLXPdyoq7MTa=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
