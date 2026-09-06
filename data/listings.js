@@ -1703,6 +1703,54 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0038",
+    "title": "Double Storey Extend Bangi Perdana Seksyen 3",
+    "type": "Rumah Teres",
+    "location": "Bangi Perdana, Seksyen 3, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 590000,
+    "price_label": "RM590,000",
+    "price_old": null,
+    "land_area": "Land 20x70 | Built-up 1,846 sqft (extend 6 kaki belakang)",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Extend 6 kaki belakang (atas+bawah)",
+      "Leasehold Bumi Lot — individual title",
+      "4 bilik 3 bilik air",
+      "Porch 2 kereta",
+      "Kitchen cabinet sedia"
+    ],
+    "description": "Rumah teres 2 tingkat di Bangi Perdana, Seksyen 3, Bandar Baru Bangi. Keluasan tanah 20x70 dengan built-up 1,846 sqft — belakang dah extend 6 kaki atas dan bawah: dapur lebih luas dan bilik atas ada balcony tambahan. 4 bilik 3 bilik air, porch muat 2 kereta. Leasehold Bumi Lot dengan individual title — senang urusan loan. Rumah vacant, boleh terus masuk. Lokasi matang 10 minit ke Bangi Gateway, UKM dan Bangi Sentral, akses terus PLUS Highway.",
+    "amenities": [
+      "Extend 6 kaki belakang",
+      "Kitchen cabinet sedia",
+      "Porch 2 kereta",
+      "Balcony bilik",
+      "Individual title"
+    ],
+    "nearby": [
+      "Bangi Gateway",
+      "UKM Bangi",
+      "Bangi Sentral",
+      "PLUS Highway",
+      "Surau & sekolah berdekatan"
+    ],
+    "map_url": "https://www.google.com/maps?q=Bangi+Perdana,+Seksyen+3,+Bandar+Baru+Bangi,+Selangor",
+    "source": "COA",
+    "date": "2026-09-06",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1AbxM7xmnoHbFGLDOUi2YlrSQcT7Mjsnm=w1000",
+      "https://lh3.googleusercontent.com/d/1-fO2DdW3iRncZRYbC5YBeszqp1xMpLv6=w1000",
+      "https://lh3.googleusercontent.com/d/1S6fXeyGgvBfjbjmpXYgLRWVq8WmCC8lf=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-005",
     "title": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang",
     "type": "Rumah Teres",
