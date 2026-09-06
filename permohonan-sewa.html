@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Permohonan Sewa — Zahir MJ Property</title>
+<link rel="stylesheet" href="style.css?v=51">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  .form-wrap{max-width:820px;margin:0 auto;padding:24px 20px}
+  .form-card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:22px 24px;margin-bottom:20px}
+  .form-card h2{font-size:19px;margin:0 0 4px;color:#0f2744}
+  .form-card .sub{color:#64748b;font-size:13px;margin:0 0 16px}
+  .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.f-grid{grid-template-columns:1fr}}
+  .f-field{display:flex;flex-direction:column;gap:5px}
+  .f-field.full{grid-column:1/-1}
+  .f-field label{font-size:13px;font-weight:600;color:#334155}
+  .f-field label .req{color:#dc2626}
+  .f-field input,.f-field select,.f-field textarea{padding:10px 12px;border:1px solid #cbd5e1;border-radius:8px;font-size:14px;font-family:inherit}
+  .f-field input:focus,.f-field select:focus,.f-field textarea:focus{outline:2px solid #0c7a4b;outline-offset:-1px;border-color:#0c7a4b}
+  .f-hint{font-size:12px;color:#64748b}
+  .f-radio-row{display:flex;flex-wrap:wrap;gap:10px}
+  .f-radio-row label{display:flex;align-items:center;gap:7px;border:1px solid #cbd5e1;border-radius:10px;padding:9px 14px;font-size:13.5px;font-weight:500;cursor:pointer;background:#fff}
+  .f-radio-row label:has(input:checked){border-color:#0c7a4b;background:#ecfdf5;color:#065f46}
+  .consent-item{display:flex;align-items:flex-start;gap:10px;font-size:13.5px;color:#334155;line-height:1.65;margin:8px 0}
+  .consent-item input{flex:0 0 auto;margin-top:3px;width:17px;height:17px;accent-color:#0c7a4b}
+  .consent-item span{flex:1}
+  .consent-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:14px 16px;margin-top:6px}
+  .btn-submit{width:100%;padding:14px;background:#0c7a4b;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:700;cursor:pointer;margin-top:6px}
+  .btn-submit:hover{background:#0a6b42}
+  .btn-submit:disabled{background:#94a3b8;cursor:not-allowed}
+  .step-tag{display:inline-block;background:#0f2744;color:#fff;border-radius:20px;padding:2px 12px;font-size:12px;font-weight:600;margin-bottom:8px}
+  .hidden{display:none}
+  .msg-box{border-radius:10px;padding:14px 16px;font-size:14px;margin-top:14px}
+  .msg-ok{background:#dcfce7;border:1px solid #86efac;color:#166534}
+  .msg-err{background:#fee2e2;border:1px solid #fca5a5;color:#991b1b}
+  .privacy-note{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:12px 16px;font-size:13px;color:#166534;margin-bottom:20px}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
+      <a href="bayar.html">Bayaran</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main class="container main">
+  <nav class="breadcrumb">
+    <a href="index.html">← Kembali ke Senarai</a>
+  </nav>
+
+  <div class="form-wrap">
+    <h1 style="font-size:26px;margin:0 0 4px">🏢 Permohonan Sewa Hartanah</h1>
+    <p style="color:#475569;margin:0 0 14px">Isi maklumat untuk penilaian pemilik hartanah. Maklumat anda dirahsiakan (PDPA) dan digunakan untuk tujuan permohonan sewa sahaja.</p>
+    <div class="privacy-note">🔒 <strong>Privasi:</strong> Maklumat dihantar terus ke Zahir MJ Property dan digunakan untuk penilaian permohonan sewa sahaja, selaras dengan Akta Perlindungan Data Peribadi (PDPA) 2010.</div>
+
+    <form id="tenantForm">
+      <!-- Seksyen A -->
+      <div class="form-card">
+        <span class="step-tag">SEKSYEN A</span>
+        <h2>👤 Maklumat Peribadi</h2>
+        <p class="sub">Identiti & latar belakang asas</p>
+        <div class="f-grid">
+          <div class="f-field full"><label>Nama penuh <span class="req">*</span></label><input type="text" id="f_nama" placeholder="cth: Ahmad bin Ismail" required></div>
+          <div class="f-field"><label>No. Kad Pengenalan <span class="req">*</span></label><input type="text" id="f_ic" placeholder="000000-00-0000" required></div>
+          <div class="f-field"><label>No. Telefon / WhatsApp <span class="req">*</span></label><input type="tel" id="f_tel" placeholder="012-3456789" required></div>
+          <div class="f-field"><label>Emel</label><input type="email" id="f_emel" placeholder="nama@emel.com"></div>
+          <div class="f-field full"><label>Alamat semasa <span class="req">*</span></label><input type="text" id="f_alamat" placeholder="Alamat penuh" required></div>
+          <div class="f-field"><label>Status perkahwinan</label>
+            <select id="f_kahwin"><option value="">— Pilih —</option><option>Bujang</option><option>Berkahwin</option><option>Lain-lain</option></select>
+          </div>
+          <div class="f-field"><label>Bilangan penghuni (dewasa / kanak-kanak) <span class="req">*</span></label><input type="text" id="f_penghuni" placeholder="cth: 2 dewasa, 1 kanak-kanak" required></div>
+          <div class="f-field full"><label>Ada haiwan peliharaan?</label>
+            <div class="f-radio-row">
+              <label><input type="radio" name="haiwan" value="Tiada" checked> Tiada</label>
+              <label><input type="radio" name="haiwan" value="Kucing"> Kucing</label>
+              <label><input type="radio" name="haiwan" value="Anjing"> Anjing</label>
+              <label><input type="radio" name="haiwan" value="Lain-lain"> Lain-lain</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seksyen B -->
+      <div class="form-card">
+        <span class="step-tag">SEKSYEN B</span>
+        <h2>💼 Pekerjaan & Pendapatan</h2>
+        <p class="sub">Untuk menilai keupayaan bayaran sewa (amalan: pendapatan ≥ 3× sewa bulanan)</p>
+        <div class="f-field" style="margin-bottom:14px">
+          <label>Jenis pekerjaan <span class="req">*</span></label>
+          <div class="f-radio-row" id="jobType">
+            <label><input type="radio" name="job" value="Gaji tetap" checked> Gaji tetap</label>
+            <label><input type="radio" name="job" value="Bekerja sendiri"> Bekerja sendiri</label>
+            <label><input type="radio" name="job" value="Kontrak"> Kontrak</label>
+            <label><input type="radio" name="job" value="Warganegara asing"> Warganegara asing</label>
+          </div>
+        </div>
+        <div class="f-grid">
+          <div class="f-field full"><label>Nama majikan / syarikat <span class="req">*</span></label><input type="text" id="f_majikan" placeholder="cth: ABC Sdn Bhd"></div>
+          <div class="f-field"><label>Jawatan</label><input type="text" id="f_jawatan" placeholder="cth: Eksekutif"></div>
+          <div class="f-field"><label>Tempoh bekerja di sini <span class="req">*</span></label><input type="text" id="f_tempoh" placeholder="cth: 2 tahun 3 bulan"></div>
+          <div class="f-field"><label>Pendapatan bersih bulanan (RM) <span class="req">*</span></label><input type="number" id="f_pendapatan" placeholder="5000" min="0"></div>
+          <div class="f-field" id="ssmField"><label>Nama bisnes</label><input type="text" id="f_bisnes" placeholder="cth: Kedai Runcit Ahmad"></div>
+          <div class="f-field" id="passField"><label>Jenis pas / permit kerja</label><input type="text" id="f_pas" placeholder="cth: Employment Pass"></div>
+          <div class="f-field" id="passFieldDate"><label>Tarikh luput pas</label>
+            <div style="display:flex;gap:8px">
+              <select id="f_pasBulan" style="flex:1"><option value="">Bulan</option><option>Januari</option><option>Februari</option><option>Mac</option><option>April</option><option>Mei</option><option>Jun</option><option>Julai</option><option>Ogos</option><option>September</option><option>Oktober</option><option>November</option><option>Disember</option></select>
+              <select id="f_pasTahun" style="flex:1"><option value="">Tahun</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option><option>2031</option><option>2032</option></select>
+            </div>
+          </div>
+        </div>
+        <p class="f-hint" id="jobHint">💡 Gaji tetap: sediakan slip gaji 2-3 bulan terkini.</p>
+      </div>
+
+      <!-- Seksyen C -->
+      <div class="form-card">
+        <span class="step-tag">SEKSYEN C</span>
+        <h2>📎 Dokumen Sokongan (Pilihan)</h2>
+        <p class="sub">Semua dokumen di bawah adalah pilihan (PDF/JPG, maks 10MB setiap satu).</p>
+        <p class="f-hint">📌 Penghantaran dokumen tambahan seperti slip gaji, penyata bank dan surat pengesahan kerja akan mengukuhkan profil permohonan anda serta mempercepatkan pertimbangan pemilik.</p>
+        <div class="f-grid">
+          <div class="f-field full"><label>Slip gaji 2-3 bulan ATAU penyata bank 3 bulan</label><input type="file" id="f_slip" accept=".pdf,.jpg,.jpeg,.png"></div>
+          <div class="f-field full"><label>Surat pengesahan kerja / offer letter (dalam 3 bulan)</label><input type="file" id="f_surat" accept=".pdf,.jpg,.jpeg,.png"></div>
+          <div class="f-field full"><label>CCRIS / CTOS self-report</label><input type="file" id="f_ccris" accept=".pdf,.jpg,.jpeg,.png"></div>
+        </div>
+      </div>
+
+      <!-- Seksyen D -->
+      <div class="form-card">
+        <span class="step-tag">SEKSYEN D</span>
+        <h2>🏠 Keperluan Sewa</h2>
+        <p class="sub">Unit & terma yang diminta</p>
+        <div class="f-grid">
+          <div class="f-field full"><label>Unit diminati (projek / No. Rujukan)</label><input type="text" id="f_unit" placeholder="cth: Intana Ria Apartment — Level 4 Blok 1 (COA-0039)"></div>
+          <div class="f-field"><label>Harga sewa dicadang (RM/bulan)</label><input type="number" id="f_sewa" placeholder="1200" min="0"></div>
+          <div class="f-field"><label>Tarikh mula sewa (cadangan)</label><input type="date" id="f_mula"></div>
+          <div class="f-field"><label>Tempoh sewa</label>
+            <select id="f_tempohSewa"><option value="">— Pilih —</option><option>12 bulan</option><option>24 bulan</option><option>6 bulan</option><option>Lain-lain</option></select>
+          </div>
+          <div class="f-field"><label>Bilangan parkir diperlukan</label><input type="number" id="f_parkir" value="1" min="0" max="3"></div>
+          <div class="f-field full"><label>Tujuan sewa</label>
+            <div class="f-radio-row">
+              <label><input type="radio" name="tujuan" value="Tinggal sendiri"> Tinggal sendiri</label>
+              <label><input type="radio" name="tujuan" value="Keluarga"> Keluarga</label>
+              <label><input type="radio" name="tujuan" value="Korporat / syarikat"> Korporat / syarikat</label>
+            </div>
+          </div>
+          <div class="f-field full"><label>Nota tambahan (pilihan)</label><textarea id="f_nota" rows="2" placeholder="cth: prefer tingkat tinggi, perlu furnished, dll"></textarea></div>
+        </div>
+      </div>
+
+      <!-- Seksyen E -->
+      <div class="form-card">
+        <span class="step-tag">SEKSYEN E</span>
+        <h2>✅ Pengesahan & Persetujuan</h2>
+        <p class="sub">Kebenaran di bawah Akta Perlindungan Data Peribadi (PDPA) 2010</p>
+        <div class="consent-box">
+          <p style="font-size:13px;font-weight:600;color:#1f2937;margin:0 0 10px">Sila sahkan persetujuan anda:</p>
+          <label class="consent-item">
+            <input type="checkbox" id="c1" required>
+            <span>Saya mengesahkan semua maklumat yang diberikan adalah <strong>benar</strong>.</span>
+          </label>
+          <label class="consent-item">
+            <input type="checkbox" id="c2" required>
+            <span>Saya memberi kebenaran kepada ejen untuk menghubungi majikan atau tuan rumah terdahulu bagi tujuan semakan rujukan.</span>
+          </label>
+          <label class="consent-item">
+            <input type="checkbox" id="c3" required>
+            <span>Saya bersetuju maklumat dan dokumen ini disimpan serta digunakan untuk tujuan penilaian permohonan sewa sahaja, selaras dengan Akta Perlindungan Data Peribadi (PDPA) 2010.</span>
+          </label>
+        </div>
+        <!-- honeypot anti-spam -->
+        <input type="text" name="website" id="f_hp" value="" style="display:none" tabindex="-1" autocomplete="off">
+        <button class="btn-submit" type="submit" id="btnHantar">📨 Hantar Permohonan</button>
+        <div id="msgBox" class="hidden"></div>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan &amp; DSR</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script src="data/listings.js?v=51"></script>
+<script>
+// Webhook Apps Script
+const WEBHOOK = "https://script.google.com/macros/s/AKfycby45uCY9H7O3uMRj4lTS2WnsI0MyEAadrn2Kpvrsqg0nD8W8XVvL4Avo8w2w_2qrgnY/exec";
+
+// Interaksi jenis pekerjaan
+const jobRadio = document.querySelectorAll('input[name="job"]');
+const ssmField = document.getElementById('ssmField');
+const passField = document.getElementById('passField');
+const passFieldDate = document.getElementById('passFieldDate');
+const jobHint = document.getElementById('jobHint');
+function syncJob(){
+  const v = document.querySelector('input[name="job"]:checked').value;
+  ssmField.classList.toggle('hidden', v !== 'Bekerja sendiri');
+  passField.classList.toggle('hidden', v !== 'Warganegara asing');
+  passFieldDate.classList.toggle('hidden', v !== 'Warganegara asing');
+  jobHint.textContent = v === 'Gaji tetap' ? '💡 Gaji tetap: sediakan slip gaji 2-3 bulan terkini.' :
+    v === 'Bekerja sendiri' ? '💡 Bekerja sendiri: sediakan penyata bank bisnes 6-12 bulan.' :
+    v === 'Warganegara asing' ? '💡 Asing: pas/work permit mesti meliputi tempoh sewa penuh.' :
+    '💡 Kontrak: sertakan surat tawaran kontrak + baki tempoh.';
+}
+jobRadio.forEach(r => r.addEventListener('change', syncJob));
+syncJob();
+
+function msg(el, ok, text){
+  el.className = ok ? 'msg-box msg-ok' : 'msg-box msg-err';
+  el.textContent = text;
+  el.classList.remove('hidden');
+}
+
+document.getElementById('tenantForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('btnHantar');
+  const box = document.getElementById('msgBox');
+  box.classList.add('hidden');
+  if (document.getElementById('f_hp').value) return; // honeypot
+  const job = document.querySelector('input[name="job"]:checked').value;
+  const tujuan = document.querySelector('input[name="tujuan"]:checked')?.value || '';
+  const haiwan = document.querySelector('input[name="haiwan"]:checked')?.value || '';
+  const pasLuput = (document.getElementById('f_pasBulan').value && document.getElementById('f_pasTahun').value)
+    ? document.getElementById('f_pasBulan').value + ' ' + document.getElementById('f_pasTahun').value : '';
+  const payload = {
+    nama: document.getElementById('f_nama').value.trim(),
+    ic: document.getElementById('f_ic').value.trim(),
+    tel: document.getElementById('f_tel').value.trim(),
+    emel: document.getElementById('f_emel').value.trim(),
+    alamat: document.getElementById('f_alamat').value.trim(),
+    status_kahwin: document.getElementById('f_kahwin').value,
+    penghuni: document.getElementById('f_penghuni').value.trim(),
+    haiwan,
+    jenis_kerja: job,
+    majikan: document.getElementById('f_majikan').value.trim(),
+    jawatan: document.getElementById('f_jawatan').value.trim(),
+    tempoh_kerja: document.getElementById('f_tempoh').value.trim(),
+    pendapatan: document.getElementById('f_pendapatan').value,
+    nama_bisnes: document.getElementById('f_bisnes').value.trim(),
+    pas_jenis: document.getElementById('f_pas').value.trim(),
+    pas_luput: pasLuput,
+    unit: document.getElementById('f_unit').value.trim(),
+    sewa_cadang: document.getElementById('f_sewa').value,
+    mula_sewa: document.getElementById('f_mula').value,
+    tempoh_sewa: document.getElementById('f_tempohSewa').value,
+    parkir: document.getElementById('f_parkir').value,
+    tujuan,
+    nota: document.getElementById('f_nota').value.trim(),
+  };
+  btn.disabled = true;
+  btn.textContent = "⏳ Menghantar...";
+  try {
+    const resp = await fetch(WEBHOOK, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    });
+    const data = await resp.json();
+    if (data.ok) {
+      msg(box, true, "✅ Permohonan anda telah diterima! Kami akan menghubungi anda tidak lama lagi. Terima kasih.");
+      document.getElementById('tenantForm').reset();
+    } else {
+      msg(box, false, "⚠️ " + (data.error || "Permohonan gagal dihantar. Sila cuba lagi."));
+    }
+  } catch (err) {
+    msg(box, false, "⚠️ Ralat rangkaian. Sila cuba lagi, atau hubungi kami terus di WhatsApp 012-2310119.");
+  }
+  btn.disabled = false;
+  btn.textContent = "📨 Hantar Permohonan";
+});
+
+// Mobile nav
+const toggle = document.getElementById("navToggle");
+const nav = document.getElementById("nav");
+if (toggle) toggle.addEventListener("click", () => nav.classList.toggle("open"));
+</script>
+</body>
+</html>

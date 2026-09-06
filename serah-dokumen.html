@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serah Dokumen Urus Niaga — Zahir MJ Property</title>
+<link rel="stylesheet" href="style.css?v=51">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  .form-wrap{max-width:860px;margin:0 auto;padding:24px 20px}
+  .form-card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:22px 24px;margin-bottom:20px}
+  .form-card h2{font-size:19px;margin:0 0 4px;color:#0f2744}
+  .form-card .sub{color:#64748b;font-size:13px;margin:0 0 16px}
+  .step-tag{display:inline-block;background:#0f2744;color:#fff;border-radius:20px;padding:2px 12px;font-size:12px;font-weight:600;margin-bottom:8px}
+  .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.f-grid{grid-template-columns:1fr}}
+  .f-field{display:flex;flex-direction:column;gap:5px}
+  .f-field.full{grid-column:1/-1}
+  .f-field label{font-size:13px;font-weight:600;color:#334155}
+  .f-field label .req{color:#dc2626}
+  .f-field input,.f-field select{padding:10px 12px;border:1px solid #cbd5e1;border-radius:8px;font-size:14px;font-family:inherit}
+  .role-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media(max-width:640px){.role-cards{grid-template-columns:1fr}}
+  .role-card{border:2px solid #e2e8f0;border-radius:12px;padding:14px 16px;cursor:pointer;transition:all .15s}
+  .role-card:hover{border-color:#94a3b8}
+  .role-card.sel{border-color:#0c7a4b;background:#ecfdf5}
+  .role-card .rc-icon{font-size:22px}
+  .role-card .rc-title{font-weight:700;font-size:15px;margin:4px 0 2px;color:#0f2744}
+  .role-card .rc-desc{font-size:12.5px;color:#64748b}
+  .doc-item{display:flex;align-items:center;gap:12px;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;margin-bottom:10px;background:#f8fafc}
+  .doc-item .d-info{flex:1}
+  .doc-item .d-name{font-size:14px;font-weight:600;color:#1e293b}
+  .doc-item input[type=file]{font-size:12.5px;max-width:230px}
+  .doc-item .skip{display:flex;align-items:center;gap:6px;font-size:12px;color:#64748b;white-space:nowrap}
+  .btn-submit{width:100%;padding:14px;background:#0c7a4b;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:700;cursor:pointer;margin-top:6px}
+  .btn-submit:hover{background:#0a6b42}
+  .btn-submit:disabled{background:#94a3b8;cursor:not-allowed}
+  .mock-alert{background:#fef3c7;border:1px solid #f59e0b;color:#92400e;border-radius:10px;padding:12px 16px;font-size:13.5px;margin-top:16px}
+  .hidden{display:none}
+  .privacy-note{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:12px 16px;font-size:13px;color:#166534;margin-bottom:20px}
+  .doc-count{font-size:13px;color:#64748b;margin-bottom:10px}
+  .consent-item{display:flex;align-items:flex-start;gap:10px;font-size:13.5px;color:#334155;line-height:1.65;margin:8px 0}
+  .consent-item input{flex:0 0 auto;margin-top:3px;width:17px;height:17px;accent-color:#0c7a4b}
+  .consent-item span{flex:1}
+  .msg-box{border-radius:10px;padding:14px 16px;font-size:14px;margin-top:14px}
+  .msg-ok{background:#dcfce7;border:1px solid #86efac;color:#166534}
+  .msg-err{background:#fee2e2;border:1px solid #fca5a5;color:#991b1b}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="logo">🏠</span>
+      <span class="brand-text">
+        <strong>Zahir MJ Property</strong>
+        <small>Hartanah Dipercayai</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Listing</a>
+      <a href="kalkulator.html">Kalkulator</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
+      <a href="bayar.html">Bayaran</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main class="container main">
+  <nav class="breadcrumb">
+    <a href="index.html">← Kembali ke Senarai</a>
+  </nav>
+
+  <div class="form-wrap">
+    <h1 style="font-size:26px;margin:0 0 4px">📁 Serah Dokumen Urus Niaga</h1>
+    <p style="color:#475569;margin:0 0 14px">Muat naik dokumen untuk urusan jual beli / sewa. Setiap fail maks 10MB (PDF/JPG/PNG).</p>
+    <div class="privacy-note">🔒 <strong>Privasi:</strong> Dokumen anda dihantar terus ke sistem selamat Zahir MJ Property (Google Drive peribadi) — <strong>bukan</strong> laman awam. Digunakan untuk urusan sahaja (PDPA).</div>
+
+    <form id="docForm">
+      <!-- Langkah 1: Peranan -->
+      <div class="form-card">
+        <span class="step-tag">LANGKAH 1</span>
+        <h2>🧑‍💼 Saya bertindak sebagai</h2>
+        <p class="sub">Checklist dokumen akan berubah mengikut pilihan</p>
+        <div class="role-cards" id="roleCards">
+          <div class="role-card" data-role="Pembeli"><div class="rc-icon">🛒</div><div class="rc-title">Pembeli</div><div class="rc-desc">Beli rumah — loan, SPA, siap belian</div></div>
+          <div class="role-card" data-role="Penjual"><div class="rc-icon">🏷️</div><div class="rc-title">Penjual</div><div class="rc-desc">Jual rumah — geran, cukai, SPA</div></div>
+          <div class="role-card" data-role="Penyewa"><div class="rc-icon">🔑</div><div class="rc-title">Penyewa</div><div class="rc-desc">Sewa rumah — semakan & deposit</div></div>
+          <div class="role-card" data-role="Pemilik"><div class="rc-icon">🏠</div><div class="rc-title">Pemilik (sewa keluar)</div><div class="rc-desc">Sediakan unit untuk disewa</div></div>
+        </div>
+      </div>
+
+      <!-- Langkah 2: Maklumat urusan -->
+      <div class="form-card">
+        <span class="step-tag">LANGKAH 2</span>
+        <h2>📋 Maklumat Urusan</h2>
+        <p class="sub">Rujukan dari listing / urusan anda</p>
+        <div class="f-grid">
+          <div class="f-field"><label>No. Rujukan / Tracking</label><input type="text" id="d_trk" placeholder="cth: COA-0039 (jika ada)"></div>
+          <div class="f-field"><label>Nama penuh <span class="req">*</span></label><input type="text" id="d_nama" placeholder="Nama ikut dokumen" required></div>
+          <div class="f-field"><label>No. Telefon / WhatsApp <span class="req">*</span></label><input type="tel" id="d_tel" placeholder="012-3456789" required></div>
+          <div class="f-field"><label>Emel (untuk resit penerimaan)</label><input type="email" id="d_emel" placeholder="nama@emel.com"></div>
+        </div>
+      </div>
+
+      <!-- Langkah 3: Checklist dinamik -->
+      <div class="form-card">
+        <span class="step-tag">LANGKAH 3</span>
+        <h2>📎 Dokumen Diperlukan</h2>
+        <p class="sub" id="roleLabel">Pilih peranan di Langkah 1 untuk lihat checklist</p>
+        <div class="doc-count" id="docCount"></div>
+        <div id="docList"></div>
+      </div>
+
+      <!-- Langkah 4: Hantar -->
+      <div class="form-card">
+        <span class="step-tag">LANGKAH 4</span>
+        <h2>✅ Pengesahan</h2>
+        <div class="consent-box" style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:14px 18px;margin-bottom:14px">
+          <p style="font-size:13px;font-weight:600;color:#1f2937;margin:0 0 10px">Sila sahkan persetujuan anda:</p>
+          <label class="consent-item">
+            <input type="checkbox" id="dc1" required>
+            <span>Saya mengesahkan dokumen yang dimuat naik adalah <strong>sah dan benar</strong>.</span>
+          </label>
+          <label class="consent-item">
+            <input type="checkbox" id="dc2" required>
+            <span>Saya memberi kebenaran dokumen ini disimpan dan digunakan untuk tujuan urusan hartanah ini sahaja, selaras dengan Akta Perlindungan Data Peribadi (PDPA) 2010.</span>
+          </label>
+        </div>
+        <input type="text" name="website" id="d_hp" value="" style="display:none" tabindex="-1" autocomplete="off">
+        <button class="btn-submit" type="submit" id="btnHantarDoc">📤 Hantar Dokumen</button>
+        <div id="msgBoxDoc" class="hidden"></div>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Zahir MJ Property</h3>
+      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
+    </div>
+    <div>
+      <h3>Pautan</h3>
+      <a href="index.html">Utama</a>
+      <a href="index.html#listing">Senarai Hartanah</a>
+      <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan &amp; DSR</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="jual-sewa-develop.html">Serah Listing</a>
+    </div>
+    <div>
+      <h3>Hubungi</h3>
+      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  </div>
+</footer>
+
+<script>
+// Webhook Apps Script
+const WEBHOOK_DOCS = "https://script.google.com/macros/s/AKfycbzULHQgAwCNUAo0EixVHS9IE0YeV3dj3KZxt0xl2VtZOem9vrFBDnrcnGHyltjNgn9xIw/exec";
+
+// Checklist dokumen per peranan (senarai rujukan — tidak wajib)
+const DOCS = {
+  Pembeli: [
+    'Salinan IC (depan & belakang)', 'Slip gaji 3-6 bulan ATAU EA form 2 tahun',
+    'Penyata bank 3-6 bulan (akaun gaji)', 'EPF statement (i-Akaun)',
+    'CCRIS (eCCRIS BNM) + CTOS', 'Surat pengesahan kerja (dalam 3 bulan)',
+    'SPA ditandatangani', 'Bank Letter of Offer', 'Resit booking / deposit',
+    'Borang KWSP pengeluaran (jika guna)',
+    'Form B + SSM + penyata bisnes (jika bekerja sendiri)',
+    'Pasport penuh + work permit (jika warga asing)'
+  ],
+  Penjual: [
+    'Salinan IC (depan & belakang)', 'Geran / salinan hakmilik',
+    'Resit cukai tanah (quit rent) terkini', 'Resit cukai pintu (assessment) terkini',
+    'SPA salinan', 'Penyata baki pinjaman bank (jika masih ada baki loan)',
+    'Strata title / penyata maintenance (jika hartanah strata)'
+  ],
+  Penyewa: [
+    'Salinan IC (depan & belakang)', 'Slip gaji 3 bulan / penyata bank',
+    'Surat pengesahan kerja / offer letter', 'Rujukan tuan rumah sebelum (nama + telefon)',
+    'Deposit receipt', 'Tenancy agreement ditandatangani'
+  ],
+  Pemilik: [
+    'Salinan IC (depan & belakang)', 'Geran / strata title',
+    'Penyata maintenance terkini (jika hartanah strata)', 'Bil utiliti terkini (TNB/air)',
+    'Inventori / senarai perabot + condition report (foto)',
+    'Tenancy agreement ditandatangani'
+  ]
+};
+const ROLE_NAMES = { Pembeli:'🛒 Pembeli', Penjual:'🏷️ Penjual', Penyewa:'🔑 Penyewa', Pemilik:'🏠 Pemilik (sewa keluar)' };
+
+let currentRole = null;
+const cards = document.querySelectorAll('.role-card');
+const docList = document.getElementById('docList');
+const roleLabel = document.getElementById('roleLabel');
+const docCount = document.getElementById('docCount');
+
+function renderDocs(role){
+  currentRole = role;
+  cards.forEach(c => c.classList.toggle('sel', c.dataset.role === role));
+  roleLabel.textContent = 'Checklist untuk: ' + ROLE_NAMES[role];
+  const items = DOCS[role];
+  docCount.textContent = `${items.length} dokumen biasa bagi urusan ini — muat naik mana-mana yang berkaitan`;
+  docList.innerHTML = items.map((d, i) => `
+    <div class="doc-item">
+      <div class="d-info"><div class="d-name">${d}</div></div>
+      <input type="file" accept=".pdf,.jpg,.jpeg,.png" data-doc="${i}" id="file-${role}-${i}">
+      <label class="skip"><input type="checkbox" data-skip="${i}" onchange="document.getElementById('file-${role}-${i}').disabled = this.checked"> Tiada / tak berkaitan</label>
+    </div>`).join('');
+}
+cards.forEach(c => c.addEventListener('click', () => renderDocs(c.dataset.role)));
+
+function msg(el, ok, text){
+  el.className = ok ? 'msg-box msg-ok' : 'msg-box msg-err';
+  el.textContent = text;
+  el.classList.remove('hidden');
+}
+
+// Baca fail → base64
+function fileToBase64(file){
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve({ name: file.name, mime: file.type || 'application/octet-stream', data: r.result.split(',')[1] });
+    r.onerror = reject;
+    r.readAsDataURL(file);
+  });
+}
+
+document.getElementById('docForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  if (!currentRole) { msg(document.getElementById('msgBoxDoc'), false, "⚠️ Sila pilih peranan anda di Langkah 1."); return; }
+  if (document.getElementById('d_hp').value) return; // honeypot
+  const btn = document.getElementById('btnHantarDoc');
+  const box = document.getElementById('msgBoxDoc');
+  box.classList.add('hidden');
+
+  // Kumpul fail (skip yang ditanda "Tiada")
+  const files = [];
+  const items = DOCS[currentRole];
+  for (let i = 0; i < items.length; i++) {
+    const input = document.getElementById(`file-${currentRole}-${i}`);
+    const skip = document.querySelector(`[data-skip="${i}"]`);
+    if (!input || !input.files || !input.files[0]) continue;
+    if (skip && skip.checked) continue;
+    if (input.files[0].size > 10*1024*1024) {
+      msg(box, false, `⚠️ Fail "${input.files[0].name}" melebihi 10MB. Sila kecilkan atau pilih fail lain.`);
+      return;
+    }
+    files.push(input.files[0]);
+  }
+
+  const payload = {
+    peranan: currentRole,
+    trk: document.getElementById('d_trk').value.trim(),
+    nama: document.getElementById('d_nama').value.trim(),
+    tel: document.getElementById('d_tel').value.trim(),
+    emel: document.getElementById('d_emel').value.trim(),
+    files: []
+  };
+
+  btn.disabled = true;
+  btn.textContent = "⏳ Memuat naik... (" + files.length + " fail)";
+  try {
+    for (const f of files) {
+      payload.files.push(await fileToBase64(f));
+    }
+    const resp = await fetch(WEBHOOK_DOCS, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    });
+    const data = await resp.json();
+    if (data.ok) {
+      msg(box, true, `✅ ${data.saved || 0} dokumen telah diterima! Folder urusan anda telah dibuka. Terima kasih.`);
+      document.getElementById('docForm').reset();
+      docList.innerHTML = '';
+      roleLabel.textContent = 'Pilih peranan di Langkah 1 untuk lihat checklist';
+    } else {
+      msg(box, false, "⚠️ " + (data.error || "Penghantaran gagal. Sila cuba lagi."));
+    }
+  } catch (err) {
+    msg(box, false, "⚠️ Ralat rangkaian. Sila cuba lagi, atau hubungi kami terus di WhatsApp 012-2310119.");
+  }
+  btn.disabled = false;
+  btn.textContent = "📤 Hantar Dokumen";
+});
+
+// Mobile nav
+const toggle = document.getElementById("navToggle");
+const nav = document.getElementById("nav");
+if (toggle) toggle.addEventListener("click", () => nav.classList.toggle("open"));
+</script>
+</body>
+</html>
