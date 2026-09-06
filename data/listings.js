@@ -1,5 +1,4 @@
 // Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
-// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
 window.SITE = {
   "name": "Zahir MJ Property",
   "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
@@ -2060,6 +2059,159 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Ti5SQnTUKS7QoOTg68HGesW8mw-mrlG5=w1000",
       "https://lh3.googleusercontent.com/d/1Vf1Tuefh8acCm18h_DOBJRcDnx1r-d7j=w1000",
       "https://lh3.googleusercontent.com/d/13J_KxD0D0kF2ldlX2j7PfMJaLSefHkQf=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0043",
+    "title": "3 Storey Shoplot TTDI Grove Kajang",
+    "type": "Komersial",
+    "location": "TTDI Grove, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 2480000,
+    "price_label": "RM2,480,000",
+    "price_old": null,
+    "land_area": "22' x 80' (1,760 sqft)",
+    "built_up": "-",
+    "tenure": "Tidak pasti",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corporate office siap bina & fully furnished",
+      "Ground floor tenanted — potensi trafik tinggi",
+      "Facing main road di kawasan komersial utama",
+      "Surau & meeting area disediakan",
+      "Move-in condition"
+    ],
+    "description": "Shoplot 3 tingkat di TTDI Grove, Kajang — bukan shoplot biasa, ini corporate office yang telah siap dibina sepenuhnya dan fully furnished. Ground floor ruang komersial menghadap jalan utama (kini tenanted), Level 1 pejabat moden dengan open workspace dan feature wall bata eksklusif, Level 2 staff lounge dengan pantry lengkap. Sesuai untuk firma guaman, akauntan, agensi hartanah, syarikat pembinaan, klinik atau pusat latihan — terus beroperasi tanpa kos renovasi tambahan.",
+    "amenities": [
+      "Ruang komersial di aras bawah",
+      "Pejabat eksekutif dengan open workspace",
+      "Staff lounge & pantry lengkap (kitchen cabinet, island counter)",
+      "Built-in cabinet & kabinet fail",
+      "Premium lighting & air conditioning",
+      "Surau dalam bangunan"
+    ],
+    "nearby": [
+      "Akses terus SUKE, SILK, BESRAYA, NPE, EKVE, PLUS, LEKAS"
+    ],
+    "map_url": "https://www.google.com/maps?q=TTDI+Grove,+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1AkyyvpB-oSEUlopBOo2A9vfbn_3N8tgH=w1000",
+      "https://lh3.googleusercontent.com/d/1GfXI1afE67wTv9iFKLF_oYOhc-vNZICx=w1000",
+      "https://lh3.googleusercontent.com/d/1q3wTV2UrG1tLkC1oCDAx7zxxrmQq3CWT=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0044",
+    "title": "Double Storey Terrace Presint 9 Putrajaya",
+    "type": "Rumah Teres",
+    "location": "Presint 9, Putrajaya",
+    "state": "WP Putrajaya",
+    "price": 849000,
+    "price_label": "RM849,000",
+    "price_old": null,
+    "land_area": "20' x 70' (1,410 sf) / Built-up 1,618 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Dual frontage menghadap kawasan lapang",
+      "Renovation & upgrade pemilik ~RM200,000",
+      "Fully furnished — 6 unit aircond",
+      "Backyard menghadap garden",
+      "Parking tambahan & 2 akses masuk"
+    ],
+    "description": "Rumah teres 2 tingkat intermediate di Presint 9, Putrajaya dengan dual frontage menghadap kawasan lapang. Fully furnished dengan 6 unit aircond, kitchen cabinet, built-in wardrobe dan anjung hadapan bertutup. Pemilik melabur kira-kira RM200,000 untuk renovation & upgrade — flooring dan bilik air dinaik taraf, keadaan terselenggara baik. Kini disewa dengan penyewa yang menjaga rumah dengan baik.",
+    "amenities": [
+      "4 bilik tidur, 3 bilik air",
+      "Land 20' x 70' (1,410 sf), built-up 1,618 sqft",
+      "Kitchen cabinet & built-in wardrobe",
+      "Covered verandah / anjung hadapan bertutup",
+      "Keadaan terselenggara baik"
+    ],
+    "nearby": [
+      "Ayer@8",
+      "Sekolah Presint 9",
+      "Medan Selera Presint 9",
+      "Hospital Putrajaya",
+      "Alamanda Shopping Centre",
+      "IOI City Mall",
+      "Putrajaya Sentral",
+      "Akses LDP, ELITE, PLUS, MEX"
+    ],
+    "map_url": "https://www.google.com/maps?q=Presint+9,+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1JIW9IIzZ_sKyQVxBvEWTt2u6_mqgY5O5=w1000",
+      "https://lh3.googleusercontent.com/d/17qRkqAzBDAnFgmbc8R2S9--YsuHMPkHb=w1000",
+      "https://lh3.googleusercontent.com/d/1V7VSVymU0iL1CgTmBicH3PhhFdm4wGmk=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0045",
+    "title": "Apartment Anggerik Villa 2, Bandar Teknologi Kajang",
+    "type": "Apartmen",
+    "location": "Bandar Teknologi Kajang, Selangor",
+    "state": "Selangor",
+    "price": 230000,
+    "price_label": "RM230,000",
+    "price_old": null,
+    "land_area": "1,063 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Renovated — terus masuk",
+      "Freehold & Non-Bumi",
+      "Sekuriti 24 jam (akses kad)",
+      "1,063 sqft — 2 bilik, 2 bilik air",
+      "Harga mampu milik"
+    ],
+    "description": "Apartment renovated di Anggerik Villa 2, Bandar Teknologi Kajang — terus masuk! Unit Level 8 (Block C1) seluas 1,063 sqft dengan 2 bilik tidur dan 2 bilik air, 1 parking. Freehold & Non-Bumi, dilengkapi sekuriti 24 jam dengan akses kad. Harga mampu milik berdekatan universiti dan kemudahan utama.",
+    "amenities": [
+      "Level 8 (Block C1)",
+      "1 parking",
+      "Ruang tamu & dapur terbuka",
+      "Sekuriti 24 jam akses kad"
+    ],
+    "nearby": [
+      "Lotus, Mydin, Econsave, Billion",
+      "Universiti Nottingham, Tenby, Reigate",
+      "Petronas, Petron, Shell",
+      "McD, KFC, Pizza Hut",
+      "Klinik Kesihatan Kajang",
+      "Akses PLUS, SILK, LEKAS, Grand Saga, SKVE, BESRAYA"
+    ],
+    "map_url": "https://www.google.com/maps?q=Bandar+Teknologi+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1YR2Y9lhHfkqlt1Z0Pz_Car1ZGcSFTkFt=w1000",
+      "https://lh3.googleusercontent.com/d/12RKzqHjFSP39lZDo51EHRktKm8H94zfx=w1000",
+      "https://lh3.googleusercontent.com/d/1yGzcXg0iXsaEW-6SoJUkJxfub4jJ8S5y=w1000"
     ],
     "active": true
   },
