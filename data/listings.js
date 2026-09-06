@@ -51,6 +51,9 @@ window.LISTINGS = [
       "KPTM"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+4+Tambahan+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-30",
     "images": [
@@ -104,6 +107,9 @@ window.LISTINGS = [
       "UKM"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=D%27Cempaka+Seksyen+9+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-30",
     "images": [
@@ -145,6 +151,9 @@ window.LISTINGS = [
       "Presint 11, Putrajaya"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Presint+11+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-29",
     "images": [
@@ -190,6 +199,9 @@ window.LISTINGS = [
       "Bandar Baru Bangi"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+16+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-30",
     "images": [
@@ -237,6 +249,9 @@ window.LISTINGS = [
       "Taman Permainan (open view)"
     ],
     "map_url": "https://www.google.com/maps?q=Sungai+Jelok,+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -283,11 +298,11 @@ window.LISTINGS = [
       "Pusat perniagaan & kedai"
     ],
     "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
-    "source": "COA",
-    "date": "2026-08-31",
     "project": "intana-ria",
     "project_name": "Intana Ria Apartment",
     "unit": "Level 5",
+    "source": "COA",
+    "date": "2026-08-31",
     "images": [
       "https://lh3.googleusercontent.com/d/1emOpurTwbp9DeOEt6lCVf0M4x4S0IYuh=w1000",
       "https://lh3.googleusercontent.com/d/13pqxvmwccQQVP6IknXgnYme9dyFeJ8Dv=w1000",
@@ -332,6 +347,9 @@ window.LISTINGS = [
       "Kajang"
     ],
     "map_url": "https://www.google.com/maps?q=Puncak+Bangi,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -375,6 +393,9 @@ window.LISTINGS = [
       "Bangi"
     ],
     "map_url": "https://www.google.com/maps?q=Country+Heights,+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -418,6 +439,9 @@ window.LISTINGS = [
       "Presint 14"
     ],
     "map_url": "https://www.google.com/maps?q=Presint+14,+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -470,6 +494,9 @@ window.LISTINGS = [
       "PLUS Highway"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -521,6 +548,9 @@ window.LISTINGS = [
       "PLUS Highway"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-08-31",
     "images": [
@@ -566,6 +596,9 @@ window.LISTINGS = [
       "Bangi Gateway"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-01",
     "images": [
@@ -615,6 +648,9 @@ window.LISTINGS = [
       "ELITE Highway"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-02",
     "images": [
@@ -664,6 +700,9 @@ window.LISTINGS = [
       "SILK Highway"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-02",
     "images": [
@@ -715,6 +754,9 @@ window.LISTINGS = [
       "LEKAS"
     ],
     "map_url": "https://www.google.com/maps/search/Taman+Prima+Saujana+Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-02",
     "images": [
@@ -769,6 +811,9 @@ window.LISTINGS = [
       "PLUS Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Desa+Seri+Saujana,+Sungai+Merab,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -820,6 +865,9 @@ window.LISTINGS = [
       "PLUS Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Sungai+Jelok,+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -869,6 +917,9 @@ window.LISTINGS = [
       "SILK Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Seksyen+15,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -921,6 +972,9 @@ window.LISTINGS = [
       "LEKAS Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Seksyen+3,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -969,6 +1023,9 @@ window.LISTINGS = [
       "SKVE Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Taman+Kajang+Impian,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -1023,6 +1080,9 @@ window.LISTINGS = [
       "KTM Komuter Bangi"
     ],
     "map_url": "https://www.google.com/maps?q=KayuManis+Garden+Villas,+Seksyen+5,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-03",
     "images": [
@@ -1053,6 +1113,9 @@ window.LISTINGS = [
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+3+Tambahan+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-04",
     "images": [
@@ -1096,6 +1159,9 @@ window.LISTINGS = [
       "Hospital Az-Zaharah & KPJ Kajang"
     ],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-04",
     "images": [
@@ -1143,6 +1209,9 @@ window.LISTINGS = [
       "Kemudahan Seksyen 3, Bangi Perdana"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi+Perdana+Seksyen+3+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-04",
     "images": [
@@ -1198,6 +1267,9 @@ window.LISTINGS = [
       "Akses PLUS, LEKAS & SILK Highway"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+16+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-04",
     "images": [
@@ -1250,6 +1322,9 @@ window.LISTINGS = [
       "Plaza Tol Bangi & Kajang — PLUS, LEKAS"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Tropika+2+Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-04",
     "images": [
@@ -1280,6 +1355,9 @@ window.LISTINGS = [
     "amenities": [],
     "nearby": [],
     "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1325,6 +1403,9 @@ window.LISTINGS = [
       "Pusat Bandar Baru Bangi"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Seri+Bangi+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1373,6 +1454,9 @@ window.LISTINGS = [
       "PLUS / ELITE / SILK / LEKAS"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Vista+Hijauan+Taman+Universiti+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1420,6 +1504,9 @@ window.LISTINGS = [
       "SILK, SKVE, MEX, PLUS"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Puncak+Mekar+Sungai+Merab+Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1465,6 +1552,9 @@ window.LISTINGS = [
       "ELITE Highway"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Kajang+Utama+Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1510,6 +1600,9 @@ window.LISTINGS = [
       "EKVE"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Jasmin+Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1556,6 +1649,9 @@ window.LISTINGS = [
       "PLUS, LEKAS, SILK Highway"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+4+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-05",
     "images": [
@@ -1604,6 +1700,9 @@ window.LISTINGS = [
       "SILK Highway"
     ],
     "map_url": "https://www.google.com/maps?q=Vista+Bangi,+Jalan+Reko,+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-06",
     "images": [
@@ -1650,6 +1749,9 @@ window.LISTINGS = [
       "Kajang 2"
     ],
     "map_url": "https://www.google.com/maps?q=Nadayu+92,+Kajang,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-06",
     "images": [
@@ -1696,6 +1798,9 @@ window.LISTINGS = [
       "PLUS / LEKAS / SILK"
     ],
     "map_url": "https://www.google.com/maps?q=Bangi+Golf+Resort,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-06",
     "images": [
@@ -1744,6 +1849,9 @@ window.LISTINGS = [
       "Surau & sekolah berdekatan"
     ],
     "map_url": "https://www.google.com/maps?q=Bangi+Perdana,+Seksyen+3,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
     "source": "COA",
     "date": "2026-09-06",
     "images": [
@@ -1793,15 +1901,165 @@ window.LISTINGS = [
       "Putrajaya (15km), Cyberjaya (20km), KLCC (33km)"
     ],
     "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
-    "source": "COA",
-    "date": "2026-09-06",
     "project": "intana-ria",
     "project_name": "Intana Ria Apartment",
     "unit": "Level 4 Blok 1",
+    "source": "COA",
+    "date": "2026-09-06",
     "images": [
       "https://lh3.googleusercontent.com/d/1lSjUsSvGKSj6UIjJ-zb01Ni2bdgKBQZm=w1000",
       "https://lh3.googleusercontent.com/d/1tOFUCIZa4HHnInVIRVi2ULl24MmISMz8=w1000",
       "https://lh3.googleusercontent.com/d/1Dhz7TqCnetxXf1hoCWgZqLXPdyoq7MTa=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0040",
+    "title": "Shop Unit @ Kajang Impian",
+    "type": "Komersial",
+    "location": "Kajang Impian, Selangor",
+    "state": "Selangor",
+    "price": 2000,
+    "price_label": "RM2,000/sebulan",
+    "price_old": null,
+    "land_area": "20'x70' (1,400 sqft)",
+    "built_up": "-",
+    "tenure": "-",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "SEWA",
+    "highlights": [
+      "1st floor — 20'x70' (≈1,400 sqft)",
+      "4+1 bilik, 2 bilik air",
+      "Fully equipped — sedia guna",
+      "Sewaan RM2,000/sebulan",
+      "Berdekatan JPJ Bangi, Mydin & Seksyen 7 Bangi"
+    ],
+    "description": "Shop unit tingkat 1 di Kajang Impian, Selangor. Ruang 20'x70' dengan 4+1 bilik dan 2 bilik air, fully equipped dan sedia untuk perniagaan. Lokasi strategik berdekatan JPJ Bangi, Mydin dan shoplot Seksyen 7 Bangi. Akses mudah ke Lebuhraya PLUS, SILK dan Cheras-Kajang Highway — 20 minit ke KLIA, 10 minit ke Bandar Baru Bangi dan 20 minit ke pusat bandar Kajang.",
+    "amenities": [
+      "Fully equipped",
+      "4+1 bilik, 2 bilik air",
+      "1st floor shop unit",
+      "Berdekatan JPJ Bangi & Mydin"
+    ],
+    "nearby": [
+      "JPJ Bangi",
+      "Mydin & Shop Lot Seksyen 7 Bangi",
+      "Bandar Baru Bangi",
+      "Lebuhraya PLUS / SILK / Cheras-Kajang"
+    ],
+    "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1piUbWB3ToxODXcwt3vOLMbULiHT69h3_=w1000",
+      "https://lh3.googleusercontent.com/d/19wAY45kQgVQlNgvZ_NNzuNGWgufnl6Un=w1000",
+      "https://lh3.googleusercontent.com/d/1hTYARvqXrMYCrMs7auR11vJDD-6FTVfh=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0041",
+    "title": "Apartment Kita Impian Cybersouth Dengkil",
+    "type": "Apartment",
+    "location": "Dengkil, Selangor",
+    "state": "Selangor",
+    "price": 320000,
+    "price_label": "RM320,000",
+    "price_old": 329000,
+    "land_area": "901 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Turun harga — RM329K → RM320K (NEGO)",
+      "901 sqft, 3 bilik 2 bilik air",
+      "Blok A, Level 14 — 2 parking",
+      "Renovated & partially furnished",
+      "Gated & guarded, 24 jam keselamatan"
+    ],
+    "description": "Apartment 901 sqft di Kita Impian, Cybersouth Dengkil, Selangor. 3 bilik 2 bilik air, Blok A Level 14 dengan 2 parking. Baru dinaik taraf: kabinet dapur, wardrobe terbina, wainscoting, langsir dan cat baru — sebahagian perabot disediakan. Kemudahan: keselamatan 24 jam, kolam renang, taman permainan kanak-kanak, dewan serbaguna dalam komuniti gated & guarded. Sedia didiami, deposit fleksibel — sesuai untuk pembeli rumah pertama.",
+    "amenities": [
+      "Keselamatan 24 jam",
+      "Kolam renang",
+      "Taman permainan kanak-kanak",
+      "Dewan serbaguna",
+      "Gated & guarded community",
+      "Maintenance RM172"
+    ],
+    "nearby": [
+      "Cybersouth, Dengkil",
+      "Bandar Cyberjaya",
+      "Lebuhraya ELITE / MEX",
+      "KLIA (25 min)"
+    ],
+    "map_url": "https://www.google.com/maps?q=Kita+Impian,+Dengkil,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1NU9Szvl4hwwJ6BHzWfkOxxjMKKl0HMON=w1000",
+      "https://lh3.googleusercontent.com/d/1RMXomfASYcNTUb_PZuNWUOCcqfNPOOyB=w1000",
+      "https://lh3.googleusercontent.com/d/1F--WmNpu3lBpaUedfXrKAQFI38-EvYQt=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0042",
+    "title": "2.5 Storey Superlink Corner Presint 16 Putrajaya",
+    "type": "Rumah Teres",
+    "location": "Presint 16, Putrajaya",
+    "state": "WP Putrajaya",
+    "price": 1250000,
+    "price_label": "RM1,250,000",
+    "price_old": 1290000,
+    "land_area": "3,145 sqft (land) / 3,204 sqft (built-up)",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Turun harga — RM1.29M → RM1.25M",
+      "Corner unit 2.5 tingkat — Freehold Non-Bumi",
+      "Tanah luas 3,145 sqft, binaan 3,204 sqft",
+      "5 bilik 4 bilik air — view tasik",
+      "Balkoni hadap tasik & pejabat kerajaan"
+    ],
+    "description": "Rumah teres corner 2.5 tingkat di Presint 16, Putrajaya dengan tanah luas 3,145 sqft dan binaan 3,204 sqft. 5 bilik 4 bilik air, taman luas/land tambahan, carport berbumbung 2 kereta + ruang terbuka 2 kereta. Aircond & grill terpasang, pagar diluluskan, dapur lanjutan diluluskan, cat bumbung baharu. 2 balkoni menghadap tasik dan pejabat kerajaan; belakang rumah terus ke taman permainan kanak-kanak — sesuai untuk keluarga.",
+    "amenities": [
+      "Aircond & grill terpasang",
+      "Pagar diluluskan",
+      "Dapur lanjutan diluluskan",
+      "Cat bumbung baharu",
+      "Carport 2 kereta + ruang terbuka 2 kereta"
+    ],
+    "nearby": [
+      "Tasik Presint 16",
+      "Pejabat kerajaan Putrajaya",
+      "Taman permainan kanak-kanak",
+      "Lebuhraya MEX / ELITE"
+    ],
+    "map_url": "https://www.google.com/maps?q=Presint+16,+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1Ti5SQnTUKS7QoOTg68HGesW8mw-mrlG5=w1000",
+      "https://lh3.googleusercontent.com/d/1Vf1Tuefh8acCm18h_DOBJRcDnx1r-d7j=w1000",
+      "https://lh3.googleusercontent.com/d/13J_KxD0D0kF2ldlX2j7PfMJaLSefHkQf=w1000"
     ],
     "active": true
   },
