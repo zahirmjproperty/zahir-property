@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zahirmjproperty.github.io/zahir-property/sitemap.xml
+Sitemap: https://zahirmjproperty.com/sitemap.xml
