@@ -6,6 +6,36 @@ const WA = SITE.whatsapp || "60" + PHONE;
 
 function fmt(n) { return "RM" + Number(n).toLocaleString("en-MY"); }
 
+// --- Pengumpulan projek (berbilang unit dalam hartanah sama, cth Intana Ria) ---
+function projSlug(l) {
+  if (l.project) return String(l.project).trim().toLowerCase();
+  return (l.title || "").toLowerCase()
+    .replace(/\blevel\s*\d+/g, " ").replace(/\bblok\s*\d+/g, " ")
+    .replace(/\bunit\s*[\w-]+/g, " ").replace(/\b\d{3,4}\s*sqft\b/g, " ")
+    .replace(/\s+/g, " ").trim();
+}
+function sameSpec(a, b) {
+  return a.price === b.price && a.land_area === b.land_area
+    && a.bedrooms === b.bedrooms && a.bathrooms === b.bathrooms;
+}
+function buildProjects(list) {
+  const groups = {};
+  for (const l of list) {
+    const k = projSlug(l);
+    (groups[k] = groups[k] || []).push(l);
+  }
+  const out = [];
+  for (const k in groups) {
+    const g = groups[k];
+    if (g.length >= 2 && !g.slice(1).every(x => sameSpec(g[0], x))) out.push(g);
+  }
+  return out;
+}
+const PROJECTS = buildProjects(DATA);
+function projectOf(l) {
+  return PROJECTS.find(p => p.some(u => u.tracking === l.tracking));
+}
+
 const TYPE_ICON = {
   "Rumah Teres": "🏠", "Rumah Semi-D": "🏡", "Rumah": "🏠",
   "Tanah": "🌳", "Komersial": "🏢", "Bangunan Komersial": "🏢",
@@ -92,9 +122,39 @@ function renderDetail(l) {
   const oldPrice = l.price_old ? `<p class="price-old-line">Harga asal: ${fmt(l.price_old)}</p>` : "";
   const mapSrc = "https://www.google.com/maps?q=" + encodeURIComponent(l.location) + "&output=embed";
 
-  // Unit serupa: sama jenis dulu, kemudian sama negeri
-  const related = DATA.filter(x => x.tracking !== l.tracking && (x.type === l.type || x.state === l.state)).slice(0, 3);
-  const relatedHTML = related.length ? `
+  // Unit lain dalam projek sama (cth Intana Ria) — jika tiada projek, jatuh ke "Unit Serupa"
+  const proj = projectOf(l);
+  let relatedHTML = "";
+  if (proj && proj.length >= 2) {
+    const others = proj.filter(x => x.tracking !== l.tracking);
+    const slug = l.project || projSlug(l);
+    const pname = l.project_name || l.title;
+    const otherCards = others.map(x => {
+      const waX = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan unit ${x.tracking} - ${x.title} (${x.price_label}). Adakah masih tersedia?`);
+      return `
+        <article class="card card-mini">
+          ${x.images && x.images.length
+            ? `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><img src="${x.images[0]}" alt="${x.title}" loading="lazy"></a>`
+            : `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><div class="placeholder ${typeGrad(x)}"><span class="ph-icon">${typeIcon(x)}</span></div></a>`}
+          <div class="card-body">
+            <h3 class="card-title"><a href="listing/${encodeURIComponent(x.tracking)}.html">${x.unit || x.title}</a></h3>
+            <p class="card-loc">📍 ${x.location}</p>
+            <div class="price">${x.price_label}</div>
+            <p class="card-desc">${x.land_area && x.land_area !== "-" ? `📐 ${x.land_area}` : ""}${x.unit ? ` · ${x.unit}` : ""}</p>
+            <a class="btn btn-wa-card" href="https://wa.me/${WA}?text=${waX}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>`;
+    }).join("");
+    relatedHTML = `
+    <section class="detail-section proj-widget">
+      <h2>🏢 Unit Lain di ${pname}</h2>
+      <p class="widget-sub">Projek sama, pilihan lain — bandingkan harga & ciri sebelum decide:</p>
+      <div class="grid grid-3">${otherCards}</div>
+      <p class="widget-all"><a href="projek/${encodeURIComponent(slug)}.html">Lihat Semua Unit (Jadual Perbandingan) →</a></p>
+    </section>`;
+  } else {
+    const related = DATA.filter(x => x.tracking !== l.tracking && (x.type === l.type || x.state === l.state)).slice(0, 3);
+    relatedHTML = related.length ? `
     <section class="detail-section">
       <h2>Unit Serupa</h2>
       <div class="grid grid-3">${related.map(x => `
@@ -110,6 +170,7 @@ function renderDetail(l) {
         </article>`).join("")}
       </div>
     </section>` : "";
+  }
 
   document.getElementById("detailRoot").innerHTML = `
   <article class="detail">

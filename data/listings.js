@@ -285,6 +285,9 @@ window.LISTINGS = [
     "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
     "source": "COA",
     "date": "2026-08-31",
+    "project": "intana-ria",
+    "project_name": "Intana Ria Apartment",
+    "unit": "Level 5",
     "images": [
       "https://lh3.googleusercontent.com/d/1emOpurTwbp9DeOEt6lCVf0M4x4S0IYuh=w1000",
       "https://lh3.googleusercontent.com/d/13pqxvmwccQQVP6IknXgnYme9dyFeJ8Dv=w1000",
@@ -1792,6 +1795,9 @@ window.LISTINGS = [
     "map_url": "https://www.google.com/maps?q=Seksyen+7,+Bandar+Baru+Bangi,+Selangor",
     "source": "COA",
     "date": "2026-09-06",
+    "project": "intana-ria",
+    "project_name": "Intana Ria Apartment",
+    "unit": "Level 4 Blok 1",
     "images": [
       "https://lh3.googleusercontent.com/d/1lSjUsSvGKSj6UIjJ-zb01Ni2bdgKBQZm=w1000",
       "https://lh3.googleusercontent.com/d/1tOFUCIZa4HHnInVIRVi2ULl24MmISMz8=w1000",

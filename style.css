@@ -159,6 +159,14 @@ a { color: inherit; text-decoration: none; }
 .badge-jv { background: var(--purple); }
 .badge-baru { background: var(--red); }
 .badge-promo { background: var(--amber); }
+.badge-proj { background: var(--purple); color: #fff; }
+.card-proj { border: 2px solid var(--purple); box-shadow: 0 4px 14px rgba(124, 58, 237, .15); }
+.price-range { color: var(--muted); font-size: 13px; }
+.proj-widget { border: 2px solid var(--purple); border-radius: 14px; padding: 18px; margin-top: 28px; background: #faf5ff; }
+.proj-widget h2 { color: #5b21b6; }
+.widget-sub { color: #6d28d9; margin: 0 0 12px; }
+.widget-all { margin: 14px 0 0; }
+.widget-all a { color: #5b21b6; font-weight: 600; }
 
 .card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .card-title { font-size: 16px; line-height: 1.35; }
