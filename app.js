@@ -75,8 +75,14 @@ function card(l) {
   const specs = [];
   if (l.bedrooms > 0) specs.push(`🛏️ ${l.bedrooms} bilik`);
   if (l.bathrooms > 0) specs.push(`🚿 ${l.bathrooms} bilik air`);
-  if (l.land_area && l.land_area !== "-") specs.push(`📐 ${l.land_area}`);
-  if (l.built_up && l.built_up !== "-") specs.push(`🏗️ ${l.built_up}`);
+  const STRATA = ['Flat', 'Apartmen', 'Kondo', 'Kondominium', 'Apartment'];
+  if (STRATA.includes(l.type)) {
+    const binaan = (l.built_up && l.built_up !== "-") ? l.built_up : ((l.land_area && l.land_area !== "-") ? l.land_area : "");
+    if (binaan) specs.push(`🏗️ ${binaan}`);
+  } else {
+    if (l.land_area && l.land_area !== "-") specs.push(`📐 ${l.land_area}`);
+    if (l.built_up && l.built_up !== "-") specs.push(`🏗️ ${l.built_up}`);
+  }
   if (l.tenure && l.tenure !== "-") specs.push(`📜 ${l.tenure}`);
 
   const oldPrice = l.price_old ? `<span class="price-old">${fmt(l.price_old)}</span>` : "";

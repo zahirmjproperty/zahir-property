@@ -96,14 +96,23 @@ function galleryHTML(l) {
 }
 
 function specsTable(l) {
+  const STRATA = ['Flat', 'Apartmen', 'Kondo', 'Kondominium', 'Apartment'];
+  const isStrata = STRATA.includes(l.type);
+  const binaan = (l.built_up && l.built_up !== "-") ? l.built_up
+    : ((l.land_area && l.land_area !== "-") ? l.land_area : "");
   const rows = [
     ["Jenis", l.type || "-"],
     ["Bilik Tidur", l.bedrooms > 0 ? l.bedrooms + " bilik" : "Tidak dinyatakan"],
-    ["Bilik Air", l.bathrooms > 0 ? l.bathrooms + " bilik" : "Tidak dinyatakan"],
-    ["Keluasan Tanah", l.land_area && l.land_area !== "-" ? l.land_area : "Tidak dinyatakan"],
-    ["Keluasan Binaan", l.built_up && l.built_up !== "-" ? l.built_up : "Tidak dinyatakan"],
-    ["Hakmilik", l.tenure && l.tenure !== "-" ? l.tenure : "Tidak dinyatakan"]
+    ["Bilik Air", l.bathrooms > 0 ? l.bathrooms + " bilik" : "Tidak dinyatakan"]
   ];
+  if (isStrata) {
+    // Flat/Apartment/Kondo: keluasan tanah = tanah projek, tak applicable — papar binaan sahaja
+    rows.push(["Keluasan Binaan", binaan || "Tidak dinyatakan"]);
+  } else {
+    rows.push(["Keluasan Tanah", l.land_area && l.land_area !== "-" ? l.land_area : "Tidak dinyatakan"]);
+    rows.push(["Keluasan Binaan", l.built_up && l.built_up !== "-" ? l.built_up : "Tidak dinyatakan"]);
+  }
+  rows.push(["Hakmilik", l.tenure && l.tenure !== "-" ? l.tenure : "Tidak dinyatakan"]);
   return `<table class="spec-table">${rows.map(r => `<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join("")}</table>`;
 }
 
