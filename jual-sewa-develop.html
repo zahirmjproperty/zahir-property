@@ -129,6 +129,7 @@
             <select id="f_negeri"><option value="">— Pilih —</option><option>Johor</option><option>Kedah</option><option>Kelantan</option><option>Melaka</option><option>Negeri Sembilan</option><option>Pahang</option><option>Perak</option><option>Perlis</option><option>Pulau Pinang</option><option>Sabah</option><option>Sarawak</option><option>Selangor</option><option>Terengganu</option><option>Kuala Lumpur</option><option>Putrajaya</option><option>Labuan</option></select>
           </div>
           <div class="f-field"><label>Lokasi / kawasan <span class="req">*</span></label><input type="text" id="f_lokasi" placeholder="cth: Bangi, Selangor" required></div>
+          <div class="f-field full"><label>Alamat sebenar hartanah <span class="req">*</span></label><input type="text" id="f_alamat" placeholder="cth: No. 12, Jalan Pulasan 4, Taman Pulasan, 43200 Cheras" required><span style="display:block;font-size:12px;color:#64748b;margin-top:4px">Alamat penuh — untuk semakan dalaman sahaja (tidak dipaparkan kepada awam).</span></div>
           <div class="f-field"><label>Keluasan tanah</label><input type="text" id="f_tanah" placeholder="cth: 1 ekar / 4,356 kp"></div>
           <div class="f-field"><label>Keluasan binaan</label><input type="text" id="f_binaan" placeholder="cth: 2,200 kpsf"></div>
           <div class="f-field"><label>Harga diminta (RM)</label><input type="number" id="f_harga" placeholder="cth: 450000" min="0"></div>
@@ -252,6 +253,7 @@ function buildWaFallback(d){
     d.peranan ? "💼 Peranan: " + d.peranan + (d.nama_agensi ? " (" + d.nama_agensi + ")" : "") : "",
     "📋 Urusan: " + (d.jenis_urusan || "-") + " | " + (d.jenis_hartanah || "-"),
     "📍 Lokasi: " + (d.negeri || "-") + (d.lokasi ? " — " + d.lokasi : ""),
+    d.alamat ? "🏠 Alamat: " + d.alamat : "",
     d.keluasan_tanah ? "📐 Tanah: " + d.keluasan_tanah : "",
     d.keluasan_binaan ? "🏗️ Binaan: " + d.keluasan_binaan : "",
     d.bilik_tidur || d.bilik_air || d.parking ? "🛏️ " + [d.bilik_tidur ? d.bilik_tidur + " bilik" : "", d.bilik_air ? d.bilik_air + " bilik air" : "", d.parking ? d.parking + " parking" : ""].filter(Boolean).join(", ") : "",
@@ -285,6 +287,7 @@ document.getElementById('listingForm').addEventListener('submit', async (e) => {
     jenis_hartanah: document.getElementById('f_jenis').value,
     negeri: document.getElementById('f_negeri').value,
     lokasi: document.getElementById('f_lokasi').value.trim(),
+    alamat: document.getElementById('f_alamat').value.trim(),
     keluasan_tanah: document.getElementById('f_tanah').value.trim(),
     keluasan_binaan: document.getElementById('f_binaan').value.trim(),
     bilik_tidur: document.getElementById('f_bilik').value,
