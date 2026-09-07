@@ -2234,7 +2234,7 @@ window.LISTINGS = [
     "jenis": "JUAL",
     "highlights": ["2 bilik 1 bilik air", "Freehold - tiada sekatan", "+-549 sqft (51 m2)", "Sesuai pembeli pertama / pelaburan", "Harga boleh runding"],
     "description": "Flat 2 bilik 1 bilik air di Flat Taman Masria, Cheras, Selangor - Blok B, Tingkat 1, keluasan lebih kurang 549 sqft. Freehold dan tiada sekatan, sesuai untuk pembeli rumah pertama atau pelaburan sewa. Berdekatan Jalan Cheras dengan akses mudah ke Grand Saga dan SILK Highway, serta kemudahan sekitar Cheras/Balakong. Harga RM140,000 (boleh runding).",
-    "amenities": ["Blok B, Tingkat 1", "Bilik air dan ruang dobi", "Sedia didiami", "Hakmilik strata individu"],
+    "amenities": ["Blok B, Tingkat 1", "Bilik air dan ruang dobi", "Berpenyewa", "Hakmilik strata individu"],
     "nearby": ["Jalan Cheras - akses utama", "Grand Saga dan SILK Highway", "Kemudahan awam, sekolah dan kedai sekitar", "Kawasan Cheras / Balakong"],
     "map_url": "https://www.google.com/maps?q=Taman+Masria,+Cheras,+Selangor",
     "project": "",
