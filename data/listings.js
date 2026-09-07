@@ -2244,8 +2244,8 @@ window.LISTINGS = [
     "date": "2026-09-07",
     "images": [
       "https://lh3.googleusercontent.com/d/1Q8VyoUO8bm8HYa_GsdFhBXnG9g27A-Qs=w1000",
-      "https://lh3.googleusercontent.com/d/1nr5DeFxrwZrM_qasUxy1oFMukgZsoE9Z=w1000",
-      "https://lh3.googleusercontent.com/d/1LFdjD4ISzs1YeJGH_v8zyKQnrnpEGDWn=w1000"
+      "https://lh3.googleusercontent.com/d/1NyiY8zXRRHalV-OiqNW2uubgMDhgS6VW=w1000",
+      "https://lh3.googleusercontent.com/d/15Lf2PjzDz3MZkiY9TKT1RO5CDHQ8UzXC=w1000"
     ],
     "active": true
   },
