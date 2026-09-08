@@ -2105,7 +2105,7 @@ window.LISTINGS = [
   "source": "COA",
   "date": "2026-09-07",
   "images": [
-   "https://lh3.googleusercontent.com/d/1AkyyvpB-oSEUlopBOo2A9vfbn_3N8tgH=w1000",
+   "https://lh3.googleusercontent.com/d/1bZnuCrDS8AwAUc-YDY2pZQSwUT8c23gM=w1000",
    "https://lh3.googleusercontent.com/d/1GfXI1afE67wTv9iFKLF_oYOhc-vNZICx=w1000",
    "https://lh3.googleusercontent.com/d/1q3wTV2UrG1tLkC1oCDAx7zxxrmQq3CWT=w1000"
   ],
