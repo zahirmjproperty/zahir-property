@@ -147,6 +147,9 @@ function projectCard(units) {
 const params = new URLSearchParams(location.search);
 let state = params.get("state") || "";
 let type = params.get("type") || "";
+let deal = (params.get("deal") || "").toUpperCase();
+if (!["JUAL", "SEWA", "JV"].includes(deal)) deal = "";
+const DEAL_LABEL = { JUAL: "Jual", SEWA: "Sewa", JV: "JV" };
 let q = params.get("q") || "";
 let min = params.get("min") || "";
 let max = params.get("max") || "";
@@ -156,6 +159,7 @@ function apply() {
   const items = DATA.filter(l => {
     if (state && l.state !== state) return false;
     if (type && l.type !== type) return false;
+    if (deal && (l.jenis || "").toUpperCase() !== deal) return false;
     const hay = (l.title + " " + l.location + " " + (l.description || "") + " " + l.tracking).toLowerCase();
     if (q && !hay.includes(q.toLowerCase())) return false;
     if (min !== "" && !(l.price >= Number(min))) return false;
@@ -182,8 +186,9 @@ function apply() {
   const empty = document.getElementById("emptyMsg");
   grid.innerHTML = merged.map(x => x.__proj ? projectCard(x.__proj) : card(x)).join("");
   const count = document.getElementById("resultCount");
+  const dealNote = deal ? ` · ${DEAL_LABEL[deal] || deal}` : "";
   count.textContent = merged.length
-    ? `${merged.length} listing dijumpai` + (state ? ` · ${state}` : "") + (type ? ` · ${type}` : "")
+    ? `${merged.length} listing dijumpai` + (state ? ` · ${state}` : "") + (type ? ` · ${type}` : "") + dealNote
     : "Tiada hasil";
   empty.style.display = merged.length ? "none" : "block";
 
@@ -191,6 +196,7 @@ function apply() {
   if (q) p.set("q", q);
   if (state) p.set("state", state);
   if (type) p.set("type", type);
+  if (deal) p.set("deal", deal);
   if (min) p.set("min", min);
   if (max) p.set("max", max);
   if (sort && sort !== "newest") p.set("sort", sort);
@@ -210,6 +216,9 @@ if (gridEl) {
 
   const setVal = (sel, v) => { if (v) sel.value = v; };
   setVal(stSel, state); setVal(tySel, type);
+  const dealBtns = [...document.querySelectorAll(".deal-tab")];
+  const setDealTab = () => dealBtns.forEach(b => b.classList.toggle("active", b.dataset.deal === deal));
+  setDealTab();
   document.getElementById("searchInput").value = q;
   document.getElementById("minPrice").value = min;
   document.getElementById("maxPrice").value = max;
@@ -226,6 +235,11 @@ if (gridEl) {
   ["searchInput", "stateFilter", "typeFilter", "minPrice", "maxPrice", "sortSelect"].forEach(id =>
     document.getElementById(id).addEventListener(id === "searchInput" ? "input" : "change", sync)
   );
+  dealBtns.forEach(b => b.addEventListener("click", () => {
+    deal = b.dataset.deal || "";
+    setDealTab();
+    apply();
+  }));
   document.getElementById("clearBtn").addEventListener("click", () => {
     document.getElementById("searchInput").value = "";
     stSel.value = ""; tySel.value = "";
@@ -233,6 +247,7 @@ if (gridEl) {
     document.getElementById("maxPrice").value = "";
     document.getElementById("sortSelect").value = "newest";
     state = type = q = min = max = ""; sort = "newest";
+    deal = ""; setDealTab();
     apply();
   });
   apply();
