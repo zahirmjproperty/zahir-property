@@ -1956,9 +1956,9 @@ window.LISTINGS = [
   "source": "COA",
   "date": "2026-09-07",
   "images": [
-   "https://lh3.googleusercontent.com/d/1piUbWB3ToxODXcwt3vOLMbULiHT69h3_=w1000",
+   "https://lh3.googleusercontent.com/d/1kMB1QmsGGKV3cgNR17G16I84SuigJOWH=w1000",
    "https://lh3.googleusercontent.com/d/19wAY45kQgVQlNgvZ_NNzuNGWgufnl6Un=w1000",
-   "https://lh3.googleusercontent.com/d/1hTYARvqXrMYCrMs7auR11vJDD-6FTVfh=w1000"
+   "https://lh3.googleusercontent.com/d/1piUbWB3ToxODXcwt3vOLMbULiHT69h3_=w1000"
   ],
   "active": true
  },
