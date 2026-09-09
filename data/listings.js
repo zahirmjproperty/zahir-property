@@ -1,3 +1,7 @@
+// Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
+// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
+window.SITE = {};
+
 window.LISTINGS = [
   {
     "tracking": "COA-0001",
@@ -2616,6 +2620,204 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1dcuQ4Cpye-tnvjICgTFq1KDZ5pKhpRps=w1000",
       "https://lh3.googleusercontent.com/d/1iNIMVXUHyovfc9BykKNf-J6VD6bQPnVX=w1000",
       "https://lh3.googleusercontent.com/d/1zaVQRUTrLKyQdu8MjHwJDYWmTll7gxon=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0054",
+    "title": "Pangsapuri Gapura Bayu Jade Hill Kajang",
+    "type": "Apartmen",
+    "location": "Blok B, Tingkat 11, Pangsapuri Gapura Bayu, Jade Hill, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 315000,
+    "price_label": "RM315,000",
+    "price_old": null,
+    "land_area": "1,000 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Renovated & fully furnished",
+      "3 bilik 2 bilik air",
+      "Freehold (title Open)",
+      "Gated & guarded",
+      "2 parkir",
+      "Dekat MRT Stadium Kajang"
+    ],
+    "description": "Pangsapuri Gapura Bayu (Jade Hill) di Kajang — unit RENOVATED & fully furnished, sedia masuk terus! Keluasan 1,000 sqft dengan 3 bilik & 2 bilik air di Blok B, Tingkat 11. Hakmilik Freehold (title Open), 2 parkir, yuran penyelenggaraan RM180. Dilengkapi kitchen cabinet (hob & hood), wardrobe, sofa, TV cabinet, aircond & fridge. Kawasan gated & guarded dengan surau, playground, gelanggang badminton & dewan serbaguna. Berdekatan 99 Speedmart, TMG Mart, Eaton International School, SK Leftenan Adnan, SRA Sg Ramal dan MRT Stadium Kajang. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
+    "amenities": [
+      "99 Speedmart",
+      "TMG Mart",
+      "Restoran",
+      "Klinik",
+      "Eaton International School",
+      "SK Leftenan Adnan & SRA Sg Ramal",
+      "MRT Stadium Kajang"
+    ],
+    "nearby": [
+      "MRT Stadium Kajang",
+      "Jade Hill",
+      "Kajang"
+    ],
+    "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1wdaIxfek99c9ukwjLVdZr0tg3hi2AOs0=w1000",
+      "https://lh3.googleusercontent.com/d/1YwS4c9gs_8aN_tVAGrDloBQwLuCubNUC=w1000",
+      "https://lh3.googleusercontent.com/d/1Fb8pjPXJHuLnexcr_LpFWYJLeV0BJ_tz=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0055",
+    "title": "LBS Skylake Residence Taman Putra Perdana Puchong",
+    "type": "Apartmen",
+    "location": "Blok A, Tingkat 9, LBS Skylake Residence, Taman Putra Perdana, Puchong, Selangor",
+    "state": "Selangor",
+    "price": 320000,
+    "price_label": "RM320,000",
+    "price_old": null,
+    "land_area": "883 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "TURUN HARGA RM365K → RM320K",
+      "Facing lakeview",
+      "Unit kosong — view anytime",
+      "Fasiliti lengkap: pool, gym, futsal",
+      "2+1 bilik 2 bilik air",
+      "Keselamatan 24 jam"
+    ],
+    "description": "TURUN HARGA — LBS Skylake Residence, Taman Putra Perdana, Puchong! Unit menghadap LAKEVIEW di Blok A, Tingkat 9 (mid level). 883 sqft, 2+1 bilik & 2 bilik air, 2 parkir, built-in kitchen cabinets. Leasehold (hingga 2120), lot Non-Bumi. Fasiliti premium: kolam renang, gym, futsal court, terrace garden, A/V rooms, gelanggang bola keranjang, bilik snooker & ping pong, keselamatan 24 jam. Berdekatan SMK Putra Perdana, Econsave & Masjid Taman Putra Perdana. Unit kosong — viewing anytime. Hubungi Zahir MJ (012-2310119).",
+    "amenities": [
+      "SMK Putra Perdana",
+      "Econsave",
+      "Masjid Taman Putra Perdana",
+      "Kolam renang",
+      "Gym",
+      "Futsal Court"
+    ],
+    "nearby": [
+      "Taman Putra Perdana",
+      "Puchong",
+      "LBS Skylake Residence"
+    ],
+    "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1n_eOhs5Tvh22HTFvaZRIBHtGghSfP-5U=w1000",
+      "https://lh3.googleusercontent.com/d/16nhp-crfFxKXzrPkQ58CES053KgetDF1=w1000",
+      "https://lh3.googleusercontent.com/d/1mYopKSyI441iLDt7tc5yHlKPjrOSl3LO=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0056",
+    "title": "Residensi Zamrud Kajang",
+    "type": "Apartmen",
+    "location": "Blok D, Tingkat 10, Residensi Zamrud, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 285000,
+    "price_label": "RM285,000",
+    "price_old": null,
+    "land_area": "1,023 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga terbaik (CHEAPEST)",
+      "Freehold & Non-Bumi",
+      "3 bilik 2 bilik air",
+      "2 covered parking",
+      "Strata title ready",
+      "Tenanted — sesuai pelabur"
+    ],
+    "description": "Residensi Zamrud, Kajang — unit dalam keadaan baik pada harga terbaik! 1,023 sqft, 3 bilik & 2 bilik air di Blok D, Tingkat 10. Freehold, lot Non-Bumi, 2 covered parking, strata title ready. Unit sedang disewa (tenanted) — sesuai untuk pelabur. Yuran penyelenggaraan RM256. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
+    "amenities": [
+      "Kajang",
+      "Residensi Zamrud",
+      "2 covered parking"
+    ],
+    "nearby": [
+      "Kajang",
+      "SILK Highway",
+      "LEKAS Highway"
+    ],
+    "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1i-5xkjpZN2YduFxSMvNLWgycXZbAcS2p=w1000",
+      "https://lh3.googleusercontent.com/d/16xx0GkntVecAwgwHoaMN8ofMnIq9rpQ5=w1000",
+      "https://lh3.googleusercontent.com/d/1odTJgS9wWv5fun5sdOGa2d-l7rpGHeuq=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0057",
+    "title": "Shop Office Shaftbury Avenue Putrajaya",
+    "type": "Komersial",
+    "location": "Shaftbury Avenue, Putrajaya",
+    "state": "Putrajaya",
+    "price": 430000,
+    "price_label": "RM430,000",
+    "price_old": null,
+    "land_area": "450 sqft (15 x 30 ft)",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Urgent sale below SPA price",
+      "Freehold/Strata",
+      "Siap 2019",
+      "Tingkat 2 — depan Anytime Fitness",
+      "24 jam keselamatan",
+      "Lift & escalator"
+    ],
+    "description": "Shop Office Shaftbury Avenue, Jalan Alamanda, Putrajaya — peluang URGENT sale below SPA price! Built-up 450 sqft (15 x 30 ft) di Tingkat 2, bertentangan Anytime Fitness. Freehold/Strata, siap 2019. Keselamatan 24 jam, lift & escalator. Lokasi strategik di tengah bandar Putrajaya. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
+    "amenities": [
+      "Anytime Fitness",
+      "Jalan Alamanda",
+      "Putrajaya"
+    ],
+    "nearby": [
+      "Putrajaya",
+      "Shaftbury Avenue"
+    ],
+    "map_url": "",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1xlQOHan3pHCKJ8tHE54dezKUoSOY-OdO=w1000",
+      "https://lh3.googleusercontent.com/d/1Q2pk5JboeA6udntXEROPbqn5c3jBO5Yr=w1000",
+      "https://lh3.googleusercontent.com/d/1GDTBoDH-nECo7yS8fGTXuaLSXaSd3_xB=w1000"
     ],
     "active": true
   },
