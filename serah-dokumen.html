@@ -103,6 +103,7 @@
           <div class="role-card" data-role="Pembeli"><div class="rc-icon">🛒</div><div class="rc-title">Pembeli</div><div class="rc-desc">Beli rumah — loan, SPA, siap belian</div></div>
           <div class="role-card" data-role="Penjual"><div class="rc-icon">🏷️</div><div class="rc-title">Penjual</div><div class="rc-desc">Jual rumah — geran, cukai, SPA</div></div>
           <div class="role-card" data-role="Penyewa"><div class="rc-icon">🔑</div><div class="rc-title">Penyewa</div><div class="rc-desc">Sewa rumah — semakan & deposit</div></div>
+          <div class="role-card" data-role="Ejen"><div class="rc-icon">🤝</div><div class="rc-title">Ejen / Broker</div><div class="rc-desc">Serah dokumen utk urusan klien anda — kebenaran, geran, SPA</div></div>
           <div class="role-card" data-role="Pemilik"><div class="rc-icon">🏠</div><div class="rc-title">Pemilik (sewa keluar)</div><div class="rc-desc">Sediakan unit untuk disewa</div></div>
         </div>
       </div>
@@ -210,9 +211,16 @@ const DOCS = {
     'Penyata maintenance terkini (jika hartanah strata)', 'Bil utiliti terkini (TNB/air)',
     'Inventori / senarai perabot + condition report (foto)',
     'Tenancy agreement ditandatangani'
+  ],
+  Ejen: [
+    'Salinan IC (depan & belakang)', 'Surat kebenaran / kebenaran bertulis pemilik',
+    'Geran / salinan hakmilik', 'Resit cukai tanah (quit rent) terkini',
+    'Resit cukai pintu (assessment) terkini', 'SPA salinan (jika ada)',
+    'Penyata baki pinjaman bank (jika masih ada baki loan)',
+    'Dokumen urusan lain yang berkaitan'
   ]
 };
-const ROLE_NAMES = { Pembeli:'🛒 Pembeli', Penjual:'🏷️ Penjual', Penyewa:'🔑 Penyewa', Pemilik:'🏠 Pemilik (sewa keluar)' };
+const ROLE_NAMES = { Pembeli:'🛒 Pembeli', Penjual:'🏷️ Penjual', Penyewa:'🔑 Penyewa', Pemilik:'🏠 Pemilik (sewa keluar)', Ejen:'🤝 Ejen / Broker' };
 
 let currentRole = null;
 const cards = document.querySelectorAll('.role-card');
