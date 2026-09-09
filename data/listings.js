@@ -1,3 +1,14 @@
+// Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
+// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
+window.SITE = {
+ "name": "Zahir MJ Property",
+ "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
+ "agent": "Zahir MJ",
+ "phone": "012-2310119",
+ "whatsapp": "60122310119",
+ "domain": "https://zahirmjproperty.com/"
+};
+
 window.LISTINGS = [
  {
   "tracking": "COA-0001",
@@ -2306,6 +2317,107 @@ window.LISTINGS = [
    "https://lh3.googleusercontent.com/d/1uJIKObta-qhbO_UtgMnfp__d8Lhc6K5q=w1000",
    "https://lh3.googleusercontent.com/d/14GvvmKh2IKIhCKPd8Tt_gdVe1kBt5R-Q=w1000",
    "https://lh3.googleusercontent.com/d/1pSNyzIq713qpZ47Wbv0GLef4reB-yYWA=w1000"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0048",
+  "title": "Semi-D Setia Eco Glades Cyberjaya",
+  "type": "Rumah Semi-D",
+  "location": "Setia Eco Glades, Cyberjaya, Selangor",
+  "state": "Selangor",
+  "price": 2100000,
+  "price_label": "RM2,100,000",
+  "price_old": null,
+  "land_area": "3,381 sqft (Built-Up); Land 3,895 sqft",
+  "built_up": "-",
+  "tenure": "Freehold",
+  "bedrooms": 5,
+  "bathrooms": 5,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Semi-D 2 tingkat — 5 bilik 5 bilik air",
+   "Freehold | Bumi lot",
+   "Fully furnished & move-in ready",
+   "Tanah 3,895 sqft | Binaan 3,381 sqft",
+   "Kejiranan eksklusif Setia Eco Glades",
+   "Persekitaran hijau & taman"
+  ],
+  "description": "Semi-D 2 tingkat dijual di Setia Rimba, Setia Eco Glades, Cyberjaya — RM2,100,000. 5 bilik 5 bilik air, tanah 3,895 sqft dengan binaan 3,381 sqft. Freehold, Bumi lot, fully furnished & move-in ready. Rumah keluarga yang luas dan selesa dalam kejiranan hijau yang tersusun, lengkap dengan persekitaran taman dan komuniti eksklusif Setia Eco Glades.",
+  "amenities": [
+   "Persekitaran taman & landskap hijau",
+   "Komuniti berpagar eksklusif",
+   "Ruang keluarga luas",
+   "Fully furnished"
+  ],
+  "nearby": [
+   "Cyberjaya — pusat teknologi & pendidikan",
+   "Dekat lebuh raya utama (MEX, ELITE)",
+   "Cyberjaya City Centre",
+   "Sekolah & universiti sekitar"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Setia+Eco+Glades+Cyberjaya+Selangor",
+  "project": "",
+  "project_name": "",
+  "unit": "",
+  "source": "COA",
+  "date": "2026-09-09",
+  "images": [
+   "https://lh3.googleusercontent.com/d/1PW_My-4EL_jXRO17v_Z-rrbap2cQBoMM=w1000",
+   "https://lh3.googleusercontent.com/d/1mt6B0MzF34kyUy0pb4q_Ufcw-1dJGpdT=w1000",
+   "https://lh3.googleusercontent.com/d/1HpUAzSveFxjIiTVGG3n_5ecyw3iRPc87=w1000"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0049",
+  "title": "Rumah Teres 2 Tingkat Seksyen 15 Bangi",
+  "type": "Rumah Teres",
+  "location": "Seksyen 15, Bandar Baru Bangi, Selangor",
+  "state": "Selangor",
+  "price": 620000,
+  "price_label": "RM620,000",
+  "price_old": null,
+  "land_area": "±2,200 sqft (Built-Up); Land 22x75 (1,650 sqft)",
+  "built_up": "-",
+  "tenure": "Leasehold",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Teres 2 tingkat — 4 bilik 3 bilik air",
+   "Saiz tanah 22x75 | Binaan ±2,200 sqft",
+   "Renovated: kitchen cabinet & dapur extend",
+   "Facing open — cahaya & udara baik",
+   "Komuniti berpagar (RM50/bulan)",
+   "Jalan kaki ke Surau Ibnu Sina"
+  ],
+  "description": "Rumah teres 2 tingkat dijual di Seksyen 15, Bandar Baru Bangi — RM620,000 (boleh runding). Saiz tanah 22x75, binaan ±2,200 sqft, 4 bilik 3 bilik air, leasehold, facing open. Renovated: kitchen cabinet penuh dan dapur extend. Komuniti berpagar dengan yuran RM50 sebulan. Berdekatan surau Ibnu Sina (jalan kaki), Bangi Gateway, kompleks sukan & stadium Seksyen 15, dan akses mudah ke Lebuhraya PLUS serta sekitar Bangi-Kajang.",
+  "amenities": [
+   "Komuniti berpagar",
+   "Kitchen cabinet penuh",
+   "Dapur extend",
+   "Facing open"
+  ],
+  "nearby": [
+   "Surau Ibnu Sina (jalan kaki)",
+   "Bangi Gateway",
+   "Kompleks sukan & stadium Seksyen 15",
+   "Lebuhraya PLUS",
+   "Kajang & sekitar Bangi"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+15+Bandar+Baru+Bangi+Selangor",
+  "project": "",
+  "project_name": "",
+  "unit": "",
+  "source": "COA",
+  "date": "2026-09-09",
+  "images": [
+   "https://lh3.googleusercontent.com/d/1-61fRcg6v2gm_zZ5NhJLIyMT1HL79ALL=w1000",
+   "https://lh3.googleusercontent.com/d/1Ysgcn2odcjtRfkjaLLCwuPwkf5obkiXR=w1000",
+   "https://lh3.googleusercontent.com/d/18cA8vo2NDXCbUcpqxRrIq4em_-BdL6JB=w1000"
   ],
   "active": true
  },
