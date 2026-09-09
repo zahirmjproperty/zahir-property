@@ -1,14 +1,3 @@
-// Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
-// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
-window.SITE = {
-  "name": "Zahir MJ Property",
-  "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
-  "agent": "Zahir MJ",
-  "phone": "012-2310119",
-  "whatsapp": "60122310119",
-  "domain": "https://zahirmjproperty.com/"
-};
-
 window.LISTINGS = [
   {
     "tracking": "COA-0001",
@@ -2471,6 +2460,162 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/15Ca-myZo8a4t4TUikkbjAUyfPHuodJyy=w1000",
       "https://lh3.googleusercontent.com/d/1zpWMKoLxymsPcI5D4wKHGzXGJO64KHeL=w1000",
       "https://lh3.googleusercontent.com/d/1XcVnOq8s6cdDr0pRozTFE0xQrO_6wU94=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0051",
+    "title": "Pangsapuri Seri Mewah Blok B (Ground Floor) Kajang",
+    "type": "Apartmen",
+    "location": "Blok B, Pangsapuri Seri Mewah, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 235000,
+    "price_label": "RM235,000",
+    "price_old": null,
+    "land_area": "750 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Ground Floor — senang akses, deposit fleksibel",
+      "Freehold | 750 sqft | 3 bilik | 2 bilik air",
+      "1 covered parking, strata title ready",
+      "Kawasan berkawal (security guarded)",
+      "Dekat Giant Saujana Impian & Lotus Kajang"
+    ],
+    "description": "Pangsapuri Seri Mewah, Blok B di Kajang, Selangor — unit Ground Floor dijual RM235,000 (boleh runding). Keluasan 750 sqft dengan 3 bilik tidur dan 2 bilik air, dilengkapi 1 covered parking dan strata title ready. Kawasan berkawal dengan kemudahan surau, sekolah (SMK & SK) serta shoplots berhampiran. Lokasi strategik dengan akses terus ke SILK, LEKAS, PLUS dan CKE Highway. Deposit fleksibel untuk pembeli serius.",
+    "amenities": [
+      "Surau",
+      "Sekolah (SMK & SK)",
+      "Shoplots",
+      "Kawasan berkawal"
+    ],
+    "nearby": [
+      "Giant Saujana Impian",
+      "Lotus Kajang",
+      "SILK Highway",
+      "LEKAS Highway",
+      "PLUS Highway",
+      "CKE Highway"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Pangsapuri+Seri+Mewah+Kajang+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/12Kiqz9j39cewDvJ7bcghzNmCI3wbBh1j=w1000",
+      "https://lh3.googleusercontent.com/d/13Zb1-cyk6mMo4CVj37u0tAVC2uDykLwt=w1000",
+      "https://lh3.googleusercontent.com/d/1pS7WWKaMJvS6Z-I1W08Ljbv69ezPkYxx=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0052",
+    "title": "Townhouse Country Villa (Renovated) Country Heights Kajang",
+    "type": "Rumah Teres",
+    "location": "Country Villa, Country Heights, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 500000,
+    "price_label": "RM500,000",
+    "price_old": null,
+    "land_area": "1,450 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Lakeview + fully renovated + fully furnished",
+      "Upper unit | 1,450 sqft | 3 bilik | 2 bilik air",
+      "1 covered parking, strata title",
+      "Clubhouse: kolam renang, tennis, basketball & lake",
+      "Dekat IOI City Mall Putrajaya"
+    ],
+    "description": "Townhouse Country Villa di Country Heights, Kajang, Selangor — unit upper dijual RM500,000 (boleh runding). Keluasan 1,450 sqft dengan 3 bilik tidur dan 2 bilik air, fully renovated dan fully furnished termasuk kitchen island, built-in wardrobe serta hob & hood. Kemudahan clubhouse lengkap: kolam renang, tennis & basketball courts, playground, jogging track, 24 jam keselamatan, tasik dan padang bola. Berhampiran IOI City Mall, Tanahrata International School, KPJ Kajang, Hospital Serdang serta kampus IUKL, UNITEN dan UPM.",
+    "amenities": [
+      "Kolam Renang",
+      "Tennis & Basketball Courts",
+      "Playground",
+      "Jogging Track",
+      "24 Jam Keselamatan",
+      "Tasik",
+      "Padang Bola"
+    ],
+    "nearby": [
+      "IOI City Mall Putrajaya",
+      "IOI Golf Club",
+      "Tanahrata International School",
+      "KPJ Kajang Specialist Centre",
+      "Hospital Serdang",
+      "Bangi Golf Course",
+      "IUKL / UNITEN / UPM",
+      "MARDI"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Country+Villa+Country+Heights+Kajang+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1aNudc-77I848C7DoO0yZu7T660_sxUfE=w1000",
+      "https://lh3.googleusercontent.com/d/1LTXx8XAlYbgbXYEZSf5--yfVx5cTJylH=w1000",
+      "https://lh3.googleusercontent.com/d/1D9wPo9AxGnhdLRqsq2_D_znojPQeUwTM=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0053",
+    "title": "Teres 2 Tingkat Renovated Seksyen 4 Bandar Baru Bangi",
+    "type": "Double Storey Terrace",
+    "location": "Seksyen 4, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 530000,
+    "price_label": "RM530,000",
+    "price_old": null,
+    "land_area": "1,920 sqft",
+    "built_up": "-",
+    "tenure": "Leasehold",
+    "bedrooms": 6,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga dikurangkan: RM600k → RM560k → RM530k",
+      "Renovated & extend, solar panel",
+      "6 bilik (asal 4) | 3 bilik air | 1,920 sqft",
+      "Land 20' x 75' (1,500 sqft), individual title",
+      "Menghadap playground"
+    ],
+    "description": "Rumah teres 2 tingkat di Seksyen 4, Bandar Baru Bangi, Selangor — dijual RM530,000 (nett). Keluasan binaan 1,920 sqft di atas tanah 20' x 75' (1,500 sqft), dengan 6 bilik tidur (diubah suai dari 4) dan 3 bilik air. Telah diubah suai dan disambung: dapur dipanjangkan 10 kaki, porch hadapan diluaskan serta dilengkapi solar panel. Unit menghadap playground dan sesuai untuk keluarga besar. Hakmilik individu, Leasehold sehingga 2086 (Bumi lot).",
+    "amenities": [
+      "Playground (hadapan rumah)",
+      "Solar Panel",
+      "Porch luas"
+    ],
+    "nearby": [
+      "Seksyen 4 Bandar Baru Bangi",
+      "KTM & Komuter Bangi",
+      "Bangi Sentral",
+      "UKM Bangi",
+      "Hospital Bangi"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+4+Bandar+Baru+Bangi+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1dcuQ4Cpye-tnvjICgTFq1KDZ5pKhpRps=w1000",
+      "https://lh3.googleusercontent.com/d/1iNIMVXUHyovfc9BykKNf-J6VD6bQPnVX=w1000",
+      "https://lh3.googleusercontent.com/d/1zaVQRUTrLKyQdu8MjHwJDYWmTll7gxon=w1000"
     ],
     "active": true
   },
