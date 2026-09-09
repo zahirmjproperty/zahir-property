@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pendaftaran Unit — ZMP | Zahir MJ Property</title>
+<meta name="description" content="Daftar unit sewaan yang diuruskan ZMP tetapi tidak melalui proses jual/beli/sewaan Zahir MJ Property — maklumat pemilik, penyewa & pihak berkaitan.">
+<style>
+  :root { --hijau:#1a7a4a; --hijau-tua:#115a36; --oren:#e8862e; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif; background:#f2f6f4; color:#1d2b24; line-height:1.5; }
+  .topbar { background:linear-gradient(135deg,var(--hijau-tua),var(--hijau)); color:#fff; padding:16px 16px 18px; }
+  .topbar h1 { font-size:19px; margin-bottom:2px; }
+  .topbar p { font-size:12.5px; opacity:.92; }
+  .crumbs { font-size:12px; opacity:.85; margin-top:3px; }
+  .crumbs a { color:#fff; }
+  .wrap { max-width:620px; margin:0 auto; padding:16px 14px 40px; }
+  .card { background:#fff; border-radius:14px; padding:18px 16px; box-shadow:0 1px 4px rgba(0,0,0,.08); margin-bottom:14px; }
+  .card h2 { font-size:15px; color:var(--hijau-tua); margin-bottom:4px; }
+  .card .sub { font-size:12.5px; color:#5a6b61; margin-bottom:10px; }
+  .emelnote { background:#eef6f1; border:1.5px dashed var(--hijau); border-radius:10px; padding:11px 12px; font-size:12.8px; color:#155a35; margin:0 0 12px; }
+  .emelnote b { color:var(--hijau-tua); }
+  label { display:block; font-size:13px; font-weight:600; margin:12px 0 4px; }
+  label .req { color:#c0392b; }
+  input[type=text],input[type=tel],input[type=email],input[type=date],input[type=number],textarea,select { width:100%; padding:11px 12px; border:1.5px solid #cfdcd4; border-radius:10px; font-size:15px; background:#fbfdfc; font-family:inherit; }
+  input:focus,textarea:focus,select:focus { outline:none; border-color:var(--hijau); }
+  textarea { resize:vertical; min-height:64px; }
+  .f2 { display:grid; grid-template-columns:1fr 1fr; column-gap:14px; }
+  @media (max-width:520px){ .f2 { grid-template-columns:1fr; } }
+  .hint { font-size:11.5px; color:#5a6b61; margin-top:3px; }
+  .sec-tag { display:inline-block; background:var(--hijau); color:#fff; border-radius:20px; padding:2px 11px; font-size:11.5px; font-weight:700; margin-bottom:6px; }
+  .auto-note { background:#f0f7f3; border:1px solid #cfe3d8; border-radius:8px; padding:7px 11px; font-size:12px; color:#155a35; margin-top:8px; }
+  .foto-box { border:1.5px dashed #b9c9bf; border-radius:10px; padding:10px; text-align:center; font-size:12.5px; color:#5a6b61; margin-top:6px; background:#fff; }
+  .file-list { font-size:12px; color:var(--hijau-tua); margin-top:6px; white-space:pre-line; }
+  .chk { display:flex; gap:9px; align-items:flex-start; font-size:12.5px; margin-top:12px; font-weight:400; }
+  .chk input { margin-top:2px; width:17px; height:17px; accent-color:var(--hijau); flex:0 0 auto; }
+  .btn { width:100%; padding:14px; background:var(--oren); color:#fff; border:0; border-radius:12px; font-size:16px; font-weight:700; cursor:pointer; margin-top:16px; }
+  .btn:disabled { opacity:.6; cursor:not-allowed; }
+  .mailbtn { display:block; text-align:center; background:var(--hijau); color:#fff; text-decoration:none; border-radius:12px; padding:13px; font-size:15px; font-weight:700; margin-top:12px; }
+  .ok { background:#e5f4ec; border:1px solid #bfe3cf; color:#0e5a33; border-radius:10px; padding:13px; font-size:13.5px; margin-top:12px; display:none; white-space:pre-line; }
+  .ok .ref { font-size:17px; font-weight:800; color:var(--hijau-tua); }
+  .err { background:#fdeaea; border:1px solid #f2c2c2; color:#8c1f1f; border-radius:10px; padding:12px; font-size:13px; margin-top:12px; display:none; }
+  .wa-fallback { display:none; font-size:13px; margin-top:14px; text-align:center; }
+  .wa-fallback a { color:var(--hijau-tua); font-weight:700; }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <h1>🏠 Pendaftaran Unit — Pengurusan ZMP</h1>
+    <p>Daftar unit sewaan di bawah pengurusan ZMP · Zahir MJ Property</p>
+    <div class="crumbs"><a href="index.html">← Portal Urusan</a></div>
+  </div>
+  <div class="wrap">
+
+    <div class="card">
+      <div class="emelnote">📩 Selepas hantar, <b>salinan emel</b> dihantar ke emel anda (No. Rujukan diberikan). Gambar / dokumen / maklumat <b>tambahan</b>: <b>BALAS emel salinan</b> itu — rujukan dipadan automatik. Pertanyaan: WhatsApp <b>012-2310119</b>.</div>
+      <div class="sub" style="margin-bottom:4px">Borang ini untuk unit yang <b>belum pernah</b> melalui proses jual / beli / sewaan Zahir MJ Property — supaya ZMP dapat lengkapkan maklumat pemilik, penyewa & pihak berkaitan sebelum menguruskan unit. Isi bahagian yang anda tahu.</div>
+    </div>
+
+    <form id="f">
+      <!-- 1: pendaftar -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 1</span>
+        <h2>📝 Saya daftarkan unit ini sebagai</h2>
+        <div class="sub">Maklumat anda digunakan untuk salinan emel & hubungan susulan.</div>
+        <label>Peranan anda <span class="req">*</span></label>
+        <select id="peranan" required>
+          <option value="">— pilih —</option>
+          <option value="Pemilik">Pemilik unit</option>
+          <option value="Wakil Pemilik">Wakil pemilik (anak / saudara / pentadbir)</option>
+          <option value="Penyewa">Penyewa</option>
+          <option value="Ejen">Ejen / agensi</option>
+          <option value="Lain">Lain</option>
+        </select>
+        <div class="f2">
+          <div><label>Nama anda <span class="req">*</span></label><input type="text" id="nama" autocomplete="name" placeholder="cth. Ahmad bin Ali" required></div>
+          <div><label>No. WhatsApp <span class="req">*</span></label><input type="tel" id="wa" autocomplete="tel" placeholder="012-3456789" required></div>
+        </div>
+        <label>Emel <span class="req">*</span></label>
+        <input type="email" id="emel" autocomplete="email" placeholder="cth. nama@gmail.com" required>
+      </div>
+
+      <!-- 2: unit -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 2</span>
+        <h2>🏢 Maklumat Unit</h2>
+        <div class="sub">Unit yang diuruskan / hendak diuruskan oleh ZMP.</div>
+        <div class="f2">
+          <div><label>Unit (blok / tingkat / no. unit) <span class="req">*</span></label><input type="text" id="unit" placeholder="cth. Blok A-3-2 / No. 12" required></div>
+          <div><label>Jenis unit</label>
+            <select id="jenis_unit">
+              <option value="">— pilih (jika ada) —</option>
+              <option>Flat</option><option>Apartment</option><option>Kondominium</option>
+              <option>Rumah Teres</option><option>Rumah Berkembar</option><option>Rumah Banglo</option>
+              <option>Kedai</option><option>Pejabat</option><option>Kilang</option><option>Lain</option>
+            </select></div>
+        </div>
+        <label>Nama projek / kawasan <span class="req">*</span></label>
+        <input type="text" id="kawasan" placeholder="cth. Pangsapuri Mewah, Bandar Baru Bangi" required>
+        <label>Alamat penuh / panduan lokasi</label>
+        <input type="text" id="alamat" placeholder="cth. Jalan 3/9, Seksyen 9, 43650 Bangi, Selangor">
+      </div>
+
+      <!-- 3: pemilik -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 3</span>
+        <h2>👤 Pemilik Unit</h2>
+        <div class="sub">Nama & hubungan pemilik berdaftar. Jika anda sendiri pemilik, boleh biarkan kosong — maklumat Langkah 1 akan digunakan.</div>
+        <div class="f2">
+          <div><label>Nama pemilik</label><input type="text" id="n_pemilik" placeholder="Nama penuh pemilik"></div>
+          <div><label>No. telefon pemilik</label><input type="tel" id="t_pemilik" placeholder="012-3456789"></div>
+        </div>
+        <label>Emel pemilik</label>
+        <input type="email" id="e_pemilik" placeholder="cth. pemilik@gmail.com">
+        <div class="auto-note" id="autoPemilik" style="display:none">ℹ️ Anda isi sebagai <b>Pemilik</b> — ruang pemilik di atas boleh dikosongkan; nama / WhatsApp / emel anda akan direkod sebagai pemilik.</div>
+      </div>
+
+      <!-- 4: penyewa -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 4</span>
+        <h2>🏠 Penyewa Semasa</h2>
+        <div class="sub">Jika unit sedang disewa — maklumat penyewa sekarang (pilihan).</div>
+        <div class="f2">
+          <div><label>Nama penyewa</label><input type="text" id="n_penyewa" placeholder="Nama penuh penyewa"></div>
+          <div><label>No. telefon penyewa</label><input type="tel" id="t_penyewa" placeholder="012-3456789"></div>
+        </div>
+        <div class="f2">
+          <div><label>Emel penyewa</label><input type="email" id="e_penyewa" placeholder="cth. penyewa@gmail.com"></div>
+          <div><label>Tarikh mula sewa</label><input type="date" id="t_mula"></div>
+        </div>
+        <label>Sewa bulanan (RM)</label>
+        <input type="number" id="sewa" min="0" step="0.01" placeholder="cth. 1200">
+        <div class="hint">Pilihan — untuk rekod pengurusan sahaja.</div>
+      </div>
+
+      <!-- 5: pihak lain + dokumen -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 5</span>
+        <h2>🤝 Pihak Lain & Dokumen</h2>
+        <label>Pihak berkaitan lain / rujukan</label>
+        <textarea id="pihak_lain" placeholder="cth. ejen yang uruskan sebelum ini, pengurus bangunan, waris/saudara pemilik, notis yang diterima — sertakan nama & no. telefon jika ada"></textarea>
+        <label>Dokumen sokongan (pilihan)</label>
+        <div class="foto-box"><input type="file" id="files" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx" multiple style="width:auto">
+          <div class="hint">Maks 5 fail · setiap fail maks 10MB — surat kebenaran, kontrak sewa sedia ada, salinan geran, bil utiliti, dll.</div>
+        </div>
+        <div class="file-list" id="fileList"></div>
+        <label>Nota tambahan</label>
+        <textarea id="nota" placeholder="Sebarang maklumat lain yang membantu ZMP menguruskan unit ini"></textarea>
+      </div>
+
+      <!-- 6: pengesahan -->
+      <div class="card">
+        <span class="sec-tag">LANGKAH 6</span>
+        <h2>✅ Pengesahan</h2>
+        <div class="chk"><input type="checkbox" id="consent" required>
+          <span>Saya memberi kebenaran kepada ZMP / Zahir MJ Property untuk menyimpan maklumat ini bagi tujuan pengurusan & penyelenggaraan unit, dan saya faham maklumat peribadi tidak akan dikongsi kepada pihak lain tanpa kebenaran. (PDPA)</span></div>
+        <input type="text" name="website" id="website" value="" style="position:absolute;left:-9999px" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn" id="sb">🚀 Hantar Pendaftaran Unit</button>
+        <div class="ok" id="ok"></div>
+        <div class="err" id="err"></div>
+        <div class="wa-fallback" id="wafb">Hantaran gagal. <a id="wafbLink" href="#" target="_blank">Klik sini untuk hantar terus melalui WhatsApp</a></div>
+      </div>
+    </form>
+    <p style="font-size:11px;color:#6a7a71;text-align:center">Setelah dihantar, anda akan terima No. Rujukan & salinan emel. ZMP akan sahkan maklumat sebelum unit diuruskan. ⏱️ Respons dalam 1 hari bekerja.</p>
+  </div>
+
+<script>
+var WEBHOOK = "https://script.google.com/macros/s/AKfycbwafaViIuCpc-Q0XnUpSHgkKVTFcyfPProf0GvSi9C-L22hUsZ_NA-03wXjd2F-GRIS/exec";
+(function(){
+  function $(id){ return document.getElementById(id); }
+  var ok=$('ok'), err=$('err'), wafb=$('wafb');
+
+  function showOk(t){ ok.style.display='block'; ok.innerHTML=t; err.style.display='none'; }
+  function showErr(t){ err.style.display='block'; err.textContent=t; ok.style.display='none'; }
+  function hideMsg(){ ok.style.display='none'; err.style.display='none'; }
+
+  // tunjuk nota auto-pemilik bila peranan = Pemilik
+  $('peranan').addEventListener('change', function(){
+    $('autoPemilik').style.display = this.value === 'Pemilik' ? 'block' : 'none';
+  });
+
+  $('files').addEventListener('change', function(){
+    var out=[]; for(var i=0;i<this.files.length;i++){ var f=this.files[i]; out.push('📄 '+f.name+' ('+(f.size/1048576).toFixed(2)+' MB)'); }
+    $('fileList').textContent = out.join('\n');
+  });
+
+  function fileToB64(file){
+    return new Promise(function(res,rej){
+      var r=new FileReader();
+      r.onload=function(){ res({name:file.name, mime:file.type||'application/octet-stream', b64:r.result.split(',')[1]}); };
+      r.onerror=rej; r.readAsDataURL(file);
+    });
+  }
+
+  $('f').addEventListener('submit', async function(ev){
+    ev.preventDefault(); hideMsg();
+    var peranan=$('peranan').value, nama=$('nama').value.trim(), wa=$('wa').value.trim(), emel=$('emel').value.trim();
+    var unit=$('unit').value.trim(), kawasan=$('kawasan').value.trim();
+    if(!peranan){ showErr('Sila pilih peranan anda di Langkah 1.'); return; }
+    if(nama.length<2){ showErr('Sila isi nama anda di Langkah 1.'); return; }
+    if(!/^0?1\d{8,9}$/.test(wa.replace(/[\s-]/g,''))){ showErr('No. WhatsApp tidak sah.'); return; }
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emel)){ showErr('Emel diperlukan — salinan pendaftaran dihantar ke emel anda.'); return; }
+    if(!unit || unit.length<2 || !kawasan){ showErr('Sila isi Unit dan Nama projek/kawasan di Langkah 2.'); return; }
+    if(!$('consent').checked){ showErr('Sila beri kebenaran PDPA sebelum hantar.'); return; }
+    if($('website').value) return; // honeypot
+
+    // pemilik: auto dari pendaftar jika peranan = Pemilik dan ruang kosong
+    var nPem=$('n_pemilik').value.trim(), tPem=$('t_pemilik').value.trim(), ePem=$('e_pemilik').value.trim();
+    if(peranan==='Pemilik' && !nPem){ nPem=nama; if(!tPem) tPem=wa; if(!ePem) ePem=emel; }
+
+    var files=[];
+    if($('files').files.length){
+      if($('files').files.length>5){ showErr('Maksimum 5 fail dokumen.'); return; }
+      for(var i=0;i<$('files').files.length;i++){
+        if($('files').files[i].size>10*1024*1024){ showErr('Fail "'+$('files').files[i].name+'" melebihi 10MB.'); return; }
+        files.push(await fileToB64($('files').files[i]));
+      }
+    }
+
+    var payload={
+      form:'daftarunit', consent:true, website:$('website').value,
+      peranan:peranan, nama:nama, wa:wa, emel:emel,
+      unit:unit, kawasan:kawasan, alamat:$('alamat').value.trim(), jenis_unit:$('jenis_unit').value,
+      nama_pemilik:nPem, tel_pemilik:tPem, emel_pemilik:ePem,
+      nama_penyewa:$('n_penyewa').value.trim(), tel_penyewa:$('t_penyewa').value.trim(),
+      emel_penyewa:$('e_penyewa').value.trim(), t_mula:$('t_mula').value, sewa:$('sewa').value,
+      pihak_lain:$('pihak_lain').value.trim(), nota:$('nota').value.trim(), files:files
+    };
+
+    var sb=$('sb'); sb.disabled=true; sb.textContent='⏳ Menghantar...';
+    try{
+      var resp=await fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)});
+      var data=await resp.json();
+      if(!data.ok) throw new Error(data.error||'Server menolak');
+      showOk('✅ Pendaftaran unit DITERIMA.<br><span class="ref">'+data.ref+'</span>'+
+        '<br>📩 Salinan emel dihantar — <b>balas emel itu</b> untuk dokumen/maklumat tambahan.'+
+        '<br>ZMP akan sahkan maklumat sebelum unit diuruskan.');
+      $('f').reset(); $('fileList').textContent=''; $('autoPemilik').style.display='none';
+    }catch(ex){
+      showErr('⚠️ Ralat: '+ex.message+'\nSila cuba lagi, atau hantar melalui WhatsApp 012-2310119.');
+      wafb.style.display='block';
+    }
+    sb.disabled=false; sb.textContent='🚀 Hantar Pendaftaran Unit';
+  });
+
+  // demo preview: ?demo=1
+  try{
+    if(new URLSearchParams(location.search).get('demo')==='1'){
+      $('peranan').value='Penyewa'; $('nama').value='Ahmad bin Ali (contoh)'; $('wa').value='012-3456789'; $('emel').value='ahmad@gmail.com';
+      $('unit').value='Blok A-3-2'; $('jenis_unit').value='Apartment'; $('kawasan').value='Pangsapuri Mewah, Bandar Baru Bangi (contoh)';
+      $('alamat').value='Jalan 3/9, Seksyen 9, 43650 Bangi (contoh)';
+      $('n_pemilik').value='Rosli bin Hassan (contoh)'; $('t_pemilik').value='019-8765432'; $('e_pemilik').value='rosli@gmail.com';
+      $('n_penyewa').value='Ahmad bin Ali'; $('t_penyewa').value='012-3456789'; $('e_penyewa').value='ahmad@gmail.com';
+      $('t_mula').value='2026-03-01'; $('sewa').value='1200';
+      $('pihak_lain').value='Ejen sebelum ini: Puan Salina (012-1112223) (contoh)';
+      $('nota').value='Contoh pengisian untuk semakan sahaja.';
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
