@@ -4,9 +4,12 @@
    ============================================================ */
 
 :root {
-  --brand: #0c7a4b;
-  --brand-dark: #085c39;
-  --brand-soft: #e8f5ef;
+  /* Palet korporat ZMJ (PALETTE.md 9/9): navy utama + hijau aksen — ikut logo */
+  --brand: #123a7a;
+  --brand-dark: #0a1f44;
+  --brand-soft: #e8eefb;
+  --accent: #0c7a4b;
+  --accent-soft: #e8f5ef;
   --ink: #16212e;
   --muted: #5f6b7a;
   --bg: #f5f7f9;
