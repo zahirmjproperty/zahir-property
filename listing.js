@@ -50,7 +50,7 @@ const typeIcon = l => TYPE_ICON[l.type] || "🏠";
 const typeGrad = l => TYPE_GRAD[l.type] || "g-teres";
 
 // --- Galeri / Lightbox ---
-let lbIndex = 0, lbImgs = [];
+let lbIndex = 0, lbImgs = [], mainIdx = 0;
 
 function openLightbox(i) {
   if (!lbImgs.length) return;
@@ -71,6 +71,20 @@ function closeLightbox() {
   document.body.style.overflow = "";
 }
 
+function setMain(i) {
+  if (!lbImgs.length) return;
+  mainIdx = (i + lbImgs.length) % lbImgs.length;
+  const img = document.getElementById("mainImg");
+  if (img) img.src = lbImgs[mainIdx];
+  const c = document.querySelector(".g-counter");
+  if (c) c.textContent = (mainIdx + 1) + " / " + lbImgs.length;
+  document.querySelectorAll(".gallery-thumbs .thumb").forEach(t => {
+    const on = Number(t.dataset.i) === mainIdx;
+    t.classList.toggle("active", on);
+    if (on) t.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  });
+}
+
 function galleryHTML(l) {
   const imgs = (l.images || []).filter(Boolean);
   if (!imgs.length) {
@@ -83,12 +97,17 @@ function galleryHTML(l) {
     </div>`;
   }
   lbImgs = imgs;
+  mainIdx = 0;
+  const multi = imgs.length > 1;
   const thumbs = imgs.map((src, i) =>
-    `<button class="thumb" data-i="${i}" aria-label="Gambar ${i + 1}"><img src="${src}" alt="Gambar ${i + 1}" loading="lazy"></button>`
+    `<button class="thumb${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Gambar ${i + 1}"><img src="${src}" alt="Gambar ${i + 1}" loading="lazy"></button>`
   ).join("");
   return `<div class="gallery">
     <div class="gallery-main">
       <img src="${imgs[0]}" alt="${l.title}" id="mainImg">
+      ${multi ? `<button class="g-nav g-prev" id="gPrev" type="button" aria-label="Gambar sebelumnya">&#10094;</button>
+      <button class="g-nav g-next" id="gNext" type="button" aria-label="Gambar seterusnya">&#10095;</button>` : ""}
+      <span class="g-zoom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></span>
       <span class="g-counter">1 / ${imgs.length}</span>
     </div>
     <div class="gallery-thumbs">${thumbs}</div>
@@ -242,16 +261,15 @@ function renderDetail(l) {
     ${relatedHTML}
   </article>`;
 
-  // Galeri events
+  // Galeri events (ala-flymax: nav ◀▶ pada imej utama, thumb = tukar imej sahaja)
   const mainImg = document.getElementById("mainImg");
-  if (mainImg) mainImg.addEventListener("click", () => openLightbox(0));
+  if (mainImg) mainImg.addEventListener("click", () => openLightbox(mainIdx));
+  const gPrev = document.getElementById("gPrev");
+  const gNext = document.getElementById("gNext");
+  if (gPrev) gPrev.addEventListener("click", e => { e.stopPropagation(); setMain(mainIdx - 1); });
+  if (gNext) gNext.addEventListener("click", e => { e.stopPropagation(); setMain(mainIdx + 1); });
   document.querySelectorAll(".gallery-thumbs .thumb").forEach(t => {
-    t.addEventListener("click", () => {
-      const i = Number(t.dataset.i);
-      document.getElementById("mainImg").src = lbImgs[i];
-      document.querySelector(".g-counter").textContent = (i + 1) + " / " + lbImgs.length;
-      openLightbox(i);
-    });
+    t.addEventListener("click", () => setMain(Number(t.dataset.i)));
   });
 }
 
