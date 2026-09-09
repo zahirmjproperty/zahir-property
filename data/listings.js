@@ -1,14 +1,3 @@
-// Data listing Zahir MJ Property - dikemas kini oleh sync_zahir_notion.py
-// SUMBER: Notion DB 'Listing Zahir MJ Property' (Aktif=on/off, Gambar=gambar utama)
-window.SITE = {
-  "name": "Zahir MJ Property",
-  "tagline": "Hartanah Dipercayai — Jual, Beli & Sewa",
-  "agent": "Zahir MJ",
-  "phone": "012-2310119",
-  "whatsapp": "60122310119",
-  "domain": "https://zahirmjproperty.com/"
-};
-
 window.LISTINGS = [
  {
   "tracking": "COA-0001",
@@ -2263,6 +2252,60 @@ window.LISTINGS = [
    "https://lh3.googleusercontent.com/d/1pwxxfdqrPFTgBo-hqKDsQd44AANC7ldr=w1000",
    "https://lh3.googleusercontent.com/d/1P-WVxndxRpA4h2UJAjQ-0VfdnAFd_ss2=w1000",
    "https://lh3.googleusercontent.com/d/1XpWeKnfgvwWfFmIxObNOBb2xV9wUsg-k=w1000"
+  ],
+  "active": true
+ },
+ {
+  "tracking": "COA-0047",
+  "title": "Sri Ixora Apartment Sepakat Indah 2",
+  "type": "Apartmen",
+  "location": "Blok C, Tingkat 15, Sri Ixora Apartment, Sepakat Indah 2, Kajang, Selangor",
+  "state": "Selangor",
+  "price": 285000,
+  "price_label": "RM285,000",
+  "price_old": null,
+  "land_area": "1,028 sqft",
+  "built_up": "-",
+  "tenure": "Freehold",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "status": "BARU",
+  "jenis": "JUAL",
+  "highlights": [
+   "Corner unit — cahaya & pengudaraan baik",
+   "Freehold, Open — strata title ready",
+   "1,028 sqft, 3 bilik 2 bilik air",
+   "Blok C, Tingkat 15 — pemandangan tinggi",
+   "2 parkir berbumbung (side by side)",
+   "Termasuk 2 aircond, move-in condition"
+  ],
+  "description": "Apartmen corner unit di Sri Ixora Apartment, Sepakat Indah 2, Kajang — Blok C, Tingkat 15, seluas 1,028 sqft. 3 bilik 2 bilik air, 2 parkir berbumbung, termasuk 2 unit aircond. Freehold Open, strata title ready, vacant & move-in condition dengan deposit fleksibel. Kemudahan: surau, playground, dewan serbaguna dan keselamatan 24 jam. Berdekatan Mydin, Giant, stesen MRT, hospital dan universiti; akses mudah ke SILK, PLUS, LEKAS dan Cheras-Kajang Highway.",
+  "amenities": [
+   "Surau",
+   "Playground",
+   "Dewan serbaguna",
+   "Keselamatan 24 jam",
+   "2 parkir berbumbung",
+   "2 unit aircond"
+  ],
+  "nearby": [
+   "Mydin & Giant",
+   "Stesen MRT",
+   "Shoplot & stesen minyak",
+   "Hospital & universiti",
+   "SILK, PLUS & LEKAS Highway",
+   "Cheras-Kajang Highway"
+  ],
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Sri+Ixora+Apartment+Sepakat+Indah+2+Kajang+Selangor",
+  "project": "",
+  "project_name": "",
+  "unit": "",
+  "source": "COA",
+  "date": "2026-09-09",
+  "images": [
+   "https://lh3.googleusercontent.com/d/1uJIKObta-qhbO_UtgMnfp__d8Lhc6K5q=w1000",
+   "https://lh3.googleusercontent.com/d/11bS4R9GZOJUg57kcrluazx4MrJnPQtY6=w1000",
+   "https://lh3.googleusercontent.com/d/1Nr0olvG6zEW2Ky0AT_HpZBtM4MevNlYz=w1000"
   ],
   "active": true
  },
