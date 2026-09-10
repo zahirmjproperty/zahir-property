@@ -45,13 +45,13 @@
 </header>
 <div class="wrap">
   <div class="banner">
-    🔒 Pautan ini <b>peribadi untuk Abdul Mun'im</b>. Sila jangan kongsi.
+    🔒 Pautan ini <b>peribadi untuk Madam Mimi</b>. Sila jangan kongsi.
     Kemas kini hanya untuk listing yang disenaraikan bersama kami.
   </div>
   <div id="list"></div>
   <div class="banner" style="margin-top:4px;background:#f0f7ff;border-color:#bcd9f5;border-left-color:#2f6fb0">
     📧 <b>Salinan pengesahan</b> — salinan pengesahan kemas kini ini akan dihantar melalui
-    emel ke alamat: <b>basir@yayasanwp.org.my</b><br>
+    emel ke alamat: <b>(tiada dalam rekod kami — sila isi di bawah)</b><br>
     <span style="color:#b45309"><b>Isi ruang di bawah jika tiada alamat emel atau ada perubahan.</b></span><br>
     Untuk alamat lain, sila maklumkan <b>Zahir MJ Property</b>: <b>zahirmj.property@gmail.com</b>
   </div>
@@ -73,10 +73,10 @@
   </div>
 </div>
 <script>
-var DATA = [{"trk": "COA-0023", "tajuk": "Semi Detached 2 Storey Seksyen 3 Tambahan Bandar Baru Bangi", "harga": "1,450,000", "keluasan": "Tanah 40x75 | Binaan 4,000 sqft", "lokasi": "Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor"}];
-var TOKEN = "7edc024d8709";
+var DATA = [{"trk": "COA-0058", "tajuk": "Apartment Mewah 9 Residence, Kajang", "harga": "275,000", "keluasan": "850 sqft", "lokasi": "Level 11, Mewah 9 Residence, Kajang, Selangor"}];
+var TOKEN = "d0b98ef3829f";
 var BRAND_K = "zahir";
-var AGEN = "Abdul Mun'im";
+var AGEN = "Madam Mimi";
 var WEBHOOK = "";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -128,7 +128,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Abdul Mun'im",
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Madam Mimi",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,
