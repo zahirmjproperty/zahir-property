@@ -58,7 +58,7 @@
   <input id="nama" placeholder="Biarkan kosong jika anda sendiri yang isi">
   <label>No. WhatsApp (jika wakil) — pilihan</label>
   <input id="wa" placeholder="cth: 016-xxxxxxx">
-  <button class="btn" id="btn">📤 Hantar Kemas Kini</button>
+  <button class="btn" id="btn" onclick="hantar()">📤 Hantar Kemas Kini</button>
   <div id="out"></div>
   <div class="ok" id="okbox"></div>
   <div class="foot">
@@ -73,21 +73,55 @@ var BRAND_K = "zahir";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
-  return '<div class="card">'
+  return '<div class="card" id="cd'+i+'">'
    + '<span class="badge">Disemak 10/09/2026</span>'
    + '<h2>'+d.tajuk+'</h2>'
    + '<div class="meta">'+specs.map(function(s){return '<span class="tag">'+s+'</span>';}).join('')+'</div>'
    + '<label>Status terkini</label>'
-   + '<select id="st'+i+'" onchange="toggle('+i+')"><option>Masih available</option><option>Sudah dijual</option><option>Harga berubah</option><option>Tarik diri / batal</option></select>'
+   + '<select id="st'+i+'" onchange="toggle('+i+')"><option value="">Sila pilih pilihan di bawah</option><option>Masih available</option><option>Sudah dijual</option><option>Harga berubah</option><option>Tarik diri / batal</option></select>'
    + '<div class="row hid" id="hh'+i+'"><div><label>Harga baharu (RM)</label><input id="hg'+i+'" inputmode="numeric" placeholder="cth: 430000"></div><div><label>Tarikh berubah</label><input id="tg'+i+'" placeholder="cth: 10/09/2026"></div></div>'
    + '<label>Nota tambahan (pilihan)</label>'
    + '<textarea id="nt'+i+'" placeholder="cth: pembeli minta turun sedikit, boleh runding"></textarea>'
    + '</div>';
 }
 function render(){ document.getElementById('list').innerHTML = DATA.map(card).join(''); }
-function toggle(i){ var show = document.getElementById('st'+i).value === 'Harga berubah'; document.getElementById('hh'+i).className = show ? 'row' : 'row hid'; }
+function toggle(i){
+  var show = document.getElementById('st'+i).value === 'Harga berubah';
+  document.getElementById('hh'+i).className = show ? 'row' : 'row hid';
+  var kad = document.getElementById('cd'+i);
+  if (document.getElementById('st'+i).value) { kad.style.borderColor = '#b7e0c8'; }
+}
 function hantar(){
   var btn = document.getElementById('btn');
+  var belum = [];
+  for (var k = 0; k < DATA.length; k++) {
+    var sel = document.getElementById('st'+k);
+    var kad = document.getElementById('cd'+k);
+    if (!sel.value) {
+      belum.push(DATA[k].trk + ' — ' + DATA[k].tajuk);
+      kad.style.borderColor = '#e11d48';
+      kad.style.borderWidth = '2px';
+    } else {
+      kad.style.borderColor = '#dfe5ec';
+      kad.style.borderWidth = '1px';
+    }
+  }
+  var out = document.getElementById('out');
+  if (belum.length) {
+    out.style.display = 'block';
+    out.textContent = '⚠️ Kemas kini TIDAK diteruskan.
+
+Ada ' + belum.length +
+      ' listing yang tidak ada maklumat kemas kini (status belum dipilih):
+
+  • ' + belum.join('
+  • ') +
+      '
+
+Sila pilih status untuk SEMUA listing, kemudian tekan Hantar Kemas Kini semula.';
+    out.scrollIntoView({behavior:'smooth'});
+    return;
+  }
   var items = DATA.map(function(d,i){
     return {tracking:d.trk, tajuk:d.tajuk, status:document.getElementById('st'+i).value,
             harga_baharu:document.getElementById('hg'+i).value || null,
