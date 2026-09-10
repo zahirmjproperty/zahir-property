@@ -100,8 +100,13 @@
             <label>Peranan anda</label>
             <div class="f-radio-row" id="roleRow">
               <label><input type="radio" name="peranan" value="Pemilik hartanah" checked> Pemilik hartanah</label>
-              <label><input type="radio" name="peranan" value="Ejen hartanah"> Ejen hartanah</label>
+              <label><input type="radio" name="peranan" value="Broker"> Broker</label>
               <label><input type="radio" name="peranan" value="Lain-lain"> Lain-lain</label>
+            </div>
+          </div>
+                    <div class="f-field full" style="margin-top:6px">
+            <div style="background:#fff7ed;border:1px solid #fed7aa;border-left:4px solid #b45309;border-radius:8px;padding:10px 12px;font-size:12.5px;line-height:1.55;color:#7c2d12">
+              ℹ️ <strong>Untuk ejen hartanah:</strong> sila <a href="https://wa.me/60122310119" target="_blank" rel="noopener" style="color:#b45309;font-weight:700">WhatsApp 012-2310119</a> atau <a href="mailto:zahirmj.property@gmail.com" style="color:#b45309;font-weight:700">emel kami</a> untuk dapatkan <strong>borang serahan listing untuk iklan</strong>.
             </div>
           </div>
           <div class="f-field full hidden" id="agensiField"><label>Nama agensi</label><input type="text" id="f_agensi" placeholder="cth: XYZ Realty"></div>
@@ -217,13 +222,13 @@
 const WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 const WA_FALLBACK = "60122310119";
 
-// Interaksi peranan (ejen -> nama agensi)
+// Interaksi peranan (broker -> nama agensi)
 const roleRadio = document.querySelectorAll('input[name="peranan"]');
 const agensiField = document.getElementById('agensiField');
 const perananLainField = document.getElementById('perananLainField');
 function syncRole(){
   const v = document.querySelector('input[name="peranan"]:checked').value;
-  agensiField.classList.toggle('hidden', v !== 'Ejen hartanah');
+  agensiField.classList.toggle('hidden', v !== 'Broker');
   perananLainField.classList.toggle('hidden', v !== 'Lain-lain');
 }
 roleRadio.forEach(r => r.addEventListener('change', syncRole));
@@ -283,7 +288,7 @@ document.getElementById('listingForm').addEventListener('submit', async (e) => {
     tel: document.getElementById('f_tel').value.trim(),
     emel: document.getElementById('f_emel').value.trim(),
     peranan,
-    nama_agensi: peranan === 'Ejen hartanah' ? document.getElementById('f_agensi').value.trim() : '',
+    nama_agensi: peranan === 'Broker' ? document.getElementById('f_agensi').value.trim() : '',
     jenis_urusan: urusan,
     jenis_hartanah: document.getElementById('f_jenis').value,
     negeri: document.getElementById('f_negeri').value,
