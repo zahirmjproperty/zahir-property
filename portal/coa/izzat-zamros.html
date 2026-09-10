@@ -109,16 +109,9 @@ function hantar(){
   var out = document.getElementById('out');
   if (belum.length) {
     out.style.display = 'block';
-    out.textContent = '⚠️ Kemas kini TIDAK diteruskan.
-
-Ada ' + belum.length +
-      ' listing yang tidak ada maklumat kemas kini (status belum dipilih):
-
-  • ' + belum.join('
-  • ') +
-      '
-
-Sila pilih status untuk SEMUA listing, kemudian tekan Hantar Kemas Kini semula.';
+    out.textContent = '⚠️ Kemas kini TIDAK diteruskan.\n\nAda ' + belum.length +
+      ' listing yang tidak ada maklumat kemas kini (status belum dipilih):\n\n  • ' + belum.join('\n  • ') +
+      '\n\nSila pilih status untuk SEMUA listing, kemudian tekan Hantar Kemas Kini semula.';
     out.scrollIntoView({behavior:'smooth'});
     return;
   }
