@@ -277,6 +277,7 @@ function calcPsf(){
   $('psfHint').innerHTML=txt;
 }
 function g(id){return $(id).value.trim()}
+function txt(id){var el=$(id);return el?String(el.textContent||'').trim():''}
 function showMsg(html,cls){var m=$('msg');m.className=cls;m.innerHTML=html;m.scrollIntoView({behavior:'smooth',block:'center'})}
 
 /* jana copy */
@@ -319,6 +320,7 @@ function submitAll(){
   if(IMGS.length<1)miss.push('sekurang-kurangnya 1 gambar');
   if(!$('c_consent').checked)miss.push('kotak persetujuan');
   if(miss.length){ showMsg('⚠️ Sila lengkapkan:<br>• '+miss.join('<br>• '),'err'); return; }
+  if(!txt('cTitle')) buildCopy();
 
   var payload={
     form:'serahlistingcoa',slug:SLUG,token:TOKEN,test:TEST,
@@ -329,7 +331,7 @@ function submitAll(){
     bilik:g('f_bilik'),bilik_air:g('f_air'),parking:g('f_park'),harga:numFloat(g('f_harga')),
     status_hartanah:g('f_status'),furnish:g('f_furnish'),catatan:g('f_extra'),
     video:g('f_video'),tg:g('f_tg'),larang:g('f_larang'),komisen:g('f_komisen'),
-    tajuk:g('cTitle'),deskripsi:g('cDesc').split('\n\n[')[0],
+    tajuk:txt('cTitle'),deskripsi:txt('cDesc').split('\n\n[')[0],
     images:IMGS.map(function(x){return x.url})
   };
   var size=JSON.stringify(payload).length;

@@ -284,6 +284,7 @@ function calcPsf(){
 
 /* jana copy */
 function g(id){return $(id).value.trim()}
+function txt(id){var el=$(id);return el?String(el.textContent||'').trim():''}
 function buildCopy(){
   var jenis=g('f_jenis'),taw=g('f_tawaran'),lok=g('f_lokasi'),neg=g('f_negeri'),
       ten=g('f_tenure'),sek=g('f_sekatan'),tanah=g('f_tanah'),bina=g('f_binaan'),
@@ -334,6 +335,7 @@ function submitAll(){
   if(!g('f_alamat'))miss.push('alamat penuh');
   if(!g('f_harga'))miss.push('harga');
   if(IMGS.length<1)miss.push('sekurang-kurangnya 1 gambar');
+  if(!txt('cTitle')) buildCopy();
   if(!$('c_consent').checked)miss.push('kotak persetujuan');
   var out=$('out');out.style.display='block';
   if(miss.length){
