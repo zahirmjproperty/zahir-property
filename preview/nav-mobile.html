@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>PREVIEW Navigasi Mobile — Zahir MJ Property</title>
+<style>
+ :root{--brand:#123a7a;--brand-dark:#0a1f44;--brand-soft:#e8eefb;--line:#e4e9ee;--muted:#64748b;--gold:#c9a227;--wa:#25d366}
+ *{box-sizing:border-box}
+ body{margin:0;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:#f5f7f9;color:#12263a;padding-bottom:74px}
+ .prev{background:#fef3c7;color:#78350f;font-size:12px;padding:8px 12px;text-align:center;border-bottom:1px solid #fcd34d}
+ header{position:sticky;top:0;z-index:20;background:var(--brand);color:#fff}
+ .hd{display:flex;align-items:center;justify-content:space-between;padding:11px 14px}
+ .hd .brand{font-weight:800;font-size:15.5px}
+ .hd .kanan{display:flex;align-items:center;gap:8px}
+ .hd .wa{background:var(--wa);border-radius:8px;padding:7px 11px;font-size:12px;font-weight:800;text-decoration:none;color:#fff}
+ .burger{border:1px solid rgba(255,255,255,.55);border-radius:8px;padding:5px 10px;font-size:16px;background:none;color:#fff;cursor:pointer}
+ /* A — chips sentiasa nampak */
+ .chips{display:flex;gap:7px;overflow-x:auto;padding:9px 12px;background:#fff;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch}
+ .chip{white-space:nowrap;background:var(--brand-soft);color:var(--brand-dark);border-radius:999px;padding:8px 14px;font-size:12.5px;font-weight:700;text-decoration:none}
+ .chip.aktif{background:var(--brand);color:#fff}
+ /* kandungan contoh */
+ .hero{background:linear-gradient(135deg,#123a7a,#1b4f9c);color:#fff;padding:22px 16px}
+ .hero h1{margin:0 0 6px;font-size:20px}
+ .hero p{margin:0;font-size:13px;opacity:.9}
+ .kad{margin:12px;border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+ .kad .img{height:110px;background:linear-gradient(135deg,#c7d2e3,#8fa3c0)}
+ .kad .isi{padding:11px}
+ .kad h3{margin:0 0 4px;font-size:14.5px}
+ .kad p{margin:0;font-size:12.5px;color:var(--muted)}
+ /* C — panel menu grid */
+ .panel{position:fixed;inset:0;background:rgba(10,20,40,.55);z-index:30;display:none}
+ .panel.buka{display:block}
+ .sheet{background:#fff;border-radius:0 0 16px 16px;padding:14px 14px 18px;max-height:86vh;overflow:auto}
+ .sheet .tajuk{font-size:11.5px;color:var(--muted);font-weight:800;letter-spacing:.6px;margin:2px 0 10px}
+ .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+ .gi{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:13px 6px;text-align:center;text-decoration:none;color:#334155}
+ .gi .ikon{font-size:22px;display:block;margin-bottom:5px}
+ .gi .t{font-size:10.5px;font-weight:700;line-height:1.25;display:block}
+ .cta{display:flex;gap:9px;margin-top:12px}
+ .cta a{flex:1;text-align:center;border-radius:10px;padding:12px;font-size:12.5px;font-weight:800;text-decoration:none}
+ .cta .b1{background:var(--wa);color:#fff}
+ .cta .b2{background:#fff;border:1px solid var(--line);color:#334155}
+ /* B — bottom bar */
+ .bottom{position:fixed;bottom:0;left:0;right:0;z-index:25;display:flex;justify-content:space-around;align-items:center;
+   padding:8px 6px 11px;background:#fff;border-top:1px solid var(--line);box-shadow:0 -3px 12px rgba(0,0,0,.07)}
+ .bi{text-align:center;font-size:10.5px;color:var(--muted);font-weight:700;text-decoration:none}
+ .bi .ikon{font-size:20px;display:block;margin-bottom:2px}
+ .bi.aktif{color:var(--brand)}
+ .bwa{background:var(--wa);color:#fff;border-radius:50%;width:46px;height:46px;display:flex;align-items:center;
+   justify-content:center;font-size:21px;margin-top:-15px;box-shadow:0 4px 14px rgba(37,211,102,.45);text-decoration:none}
+</style></head><body>
+
+<div class="prev">👀 PREVIEW sahaja — ini demo navigasi baharu (laman sebenar belum diubah). Cuba: tap ☰ di atas, dan bar bawah.</div>
+
+<header>
+  <div class="hd">
+    <div class="brand">Zahir MJ Property</div>
+    <div class="kanan">
+      <a class="wa" href="https://wa.me/60122310119">📲 012-2310119</a>
+      <button class="burger" onclick="document.getElementById('panel').classList.add('buka')">☰</button>
+    </div>
+  </div>
+  <div class="chips">
+    <a class="chip aktif" href="#">Utama</a>
+    <a class="chip" href="#">Listing</a>
+    <a class="chip" href="#">Semak Kelayakan</a>
+    <a class="chip" href="#">Serah Listing</a>
+    <a class="chip" href="#">Portal</a>
+    <a class="chip" href="#">Tentang</a>
+  </div>
+</header>
+
+<div class="hero"><h1>Cari Hartanah Idaman Anda</h1><p>Listing terkini — rumah, semi-D, tanah & komersial</p></div>
+
+<div class="kad"><div class="img"></div><div class="isi"><h3>Semi-D Setia Eco Glades</h3><p>RM2,100,000 · Cyberjaya</p></div></div>
+<div class="kad"><div class="img"></div><div class="isi"><h3>Apartment Anggerik Villa 2</h3><p>RM 450,000 · Kuala Pilah</p></div></div>
+
+<!-- C: menu grid bila ☰ ditekan -->
+<div class="panel" id="panel" onclick="if(event.target===this)this.classList.remove('buka')">
+  <div class="sheet">
+    <div class="tajuk">SEMUA PERKHIDMATAN</div>
+    <div class="grid">
+      <a class="gi" href="#"><span class="ikon">🏘️</span><span class="t">Listing</span></a>
+      <a class="gi" href="#"><span class="ikon">✅</span><span class="t">Semak Kelayakan</span></a>
+      <a class="gi" href="#"><span class="ikon">🏠</span><span class="t">Mohon Sewa</span></a>
+      <a class="gi" href="#"><span class="ikon">🧮</span><span class="t">Kalkulator</span></a>
+      <a class="gi" href="#"><span class="ikon">📤</span><span class="t">Serah Listing</span></a>
+      <a class="gi" href="#"><span class="ikon">📄</span><span class="t">Serah Dokumen</span></a>
+      <a class="gi" href="#"><span class="ikon">🏢</span><span class="t">Portal</span></a>
+      <a class="gi" href="#"><span class="ikon">💳</span><span class="t">Bayaran</span></a>
+      <a class="gi" href="#"><span class="ikon">ℹ️</span><span class="t">Tentang</span></a>
+    </div>
+    <div class="cta">
+      <a class="b1" href="https://wa.me/60122310119">📲 WhatsApp 012-2310119</a>
+      <a class="b2" href="#" onclick="document.getElementById('panel').classList.remove('buka')">Tutup</a>
+    </div>
+  </div>
+</div>
+
+<!-- B: bottom bar -->
+<div class="bottom">
+  <a class="bi aktif" href="#"><span class="ikon">🏠</span>Utama</a>
+  <a class="bi" href="#"><span class="ikon">🏘️</span>Listing</a>
+  <a class="bwa" href="https://wa.me/60122310119">💬</a>
+  <a class="bi" href="#"><span class="ikon">✅</span>Kelayakan</a>
+  <a class="bi" href="#"><span class="ikon">📄</span>Serah</a>
+</div>
+
+</body></html>
