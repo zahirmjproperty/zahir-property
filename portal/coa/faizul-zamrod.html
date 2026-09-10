@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Kemas Kini Status Listing — Zahir MJ Property</title>
+<style>
+  :root{--navy:#1b3a5c;--gold:#c9a227;--ok:#177245;--bg:#f5f7fa;--line:#dfe5ec;--muted:#64748b}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:#12263a;font-size:15px}
+  header{background:var(--navy);color:#fff;padding:16px 18px}
+  header h1{margin:0;font-size:17px}
+  header p{margin:6px 0 0;font-size:12.5px;opacity:.85}
+  .wrap{max-width:760px;margin:0 auto;padding:14px}
+  .banner{background:#eef7ff;border:1px solid #bcd9f5;border-left:4px solid #2f6fb0;padding:10px 12px;border-radius:8px;font-size:12.5px;margin-bottom:14px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:13px 14px;margin-bottom:12px}
+  .card h2{margin:0 0 4px;font-size:14.5px}
+  .meta{font-size:12.5px;color:var(--muted);margin-bottom:10px}
+  .tag{display:inline-block;background:#eef3f9;color:#274b70;border-radius:999px;padding:2px 9px;font-size:11.5px;margin-right:6px}
+  label{display:block;font-size:12px;font-weight:600;margin:9px 0 4px;color:#28425e}
+  select,input,textarea{width:100%;padding:10px;border:1px solid #cfd8e3;border-radius:7px;font-size:14px;font-family:inherit;background:#fff}
+  textarea{min-height:50px}
+  .row{display:flex;gap:10px}
+  .row>div{flex:1}
+  .btn{display:block;width:100%;margin-top:16px;background:var(--ok);color:#fff;border:0;border-radius:9px;padding:15px;font-size:15.5px;font-weight:700}
+  .foot{font-size:11.5px;color:var(--muted);text-align:center;padding:8px 0 26px;line-height:1.5}
+  .badge{float:right;font-size:11px;background:#e8f5ee;color:var(--ok);padding:3px 8px;border-radius:6px}
+  #out{display:none;background:#0f172a;color:#a7f3d0;border-radius:10px;padding:14px;font-size:12.5px;white-space:pre-wrap;word-break:break-word;margin-top:14px}
+  .hid{display:none}
+  .ok{background:#e8f5ee;border:1px solid #b7e0c8;color:#14532d;padding:12px;border-radius:9px;margin-top:14px;font-size:13.5px;display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Kemas Kini Status Listing</h1>
+  <p>Zahir MJ Property — Ejen Hartanah Berdaftar · PEA2684 IQI · Pautan peribadi</p>
+</header>
+<div class="wrap">
+  <div class="banner">
+    🔒 Pautan ini <b>peribadi untuk Faizul Zamrod</b>. Sila jangan kongsi.
+    Kemas kini hanya untuk listing yang disenaraikan bersama kami.
+  </div>
+  <div id="list"></div>
+  <div class="banner" style="margin-top:4px;background:#f0f7ff;border-color:#bcd9f5;border-left-color:#2f6fb0">
+    📧 <b>Salinan pengesahan</b> — Kami akan menghantar salinan pengesahan kemas kini ini
+    melalui emel ke alamat yang kami ada dalam rekod.<br>
+    Jika <b>tiada emel dalam rekod kami</b>, atau <b>emel anda telah berubah</b> — sila masukkan
+    di bawah. Jika anda mahu ia dihantar ke <b>alamat emel lain</b>, sila maklumkan
+    <b>Zahir MJ Property</b> melalui emel: <b>zahirmj.property@gmail.com</b>
+  </div>
+  <label style="margin-top:6px">Emel untuk salinan pengesahan (jika tiada / berubah) — pilihan</label>
+  <input id="emel" placeholder="cth: nama@gmail.com">
+  <div style="font-size:11.5px;color:#64748b;margin-top:5px">
+    Emel dalam rekod kami: <b>(tiada dalam rekod)</b> — biarkan kosong jika tidak berubah.
+  </div>
+  <label style="margin-top:6px">Nama anda (jika wakil) — pilihan</label>
+  <input id="nama" placeholder="Biarkan kosong jika anda sendiri yang isi">
+  <label>No. WhatsApp (jika wakil) — pilihan</label>
+  <input id="wa" placeholder="cth: 016-xxxxxxx">
+  <button class="btn" id="btn">📤 Hantar Kemas Kini</button>
+  <div id="out"></div>
+  <div class="ok" id="okbox"></div>
+  <div class="foot">
+    Kami akan kemas kini iklan dalam masa 1 hari bekerja.<br>
+    Sebarang pertanyaan: WhatsApp Zahir MJ Property 012-2310119
+  </div>
+</div>
+<script>
+var DATA = [{"trk": "COA-0049", "tajuk": "Rumah Teres 2 Tingkat Seksyen 15 Bangi", "harga": "620,000", "keluasan": "±2,200 sqft (Built-Up); Land 22x75", "lokasi": "Seksyen 15, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0045", "tajuk": "Apartment Anggerik Villa 2, Bandar Teknologi Kajang", "harga": "230,000", "keluasan": "1,063 sqft", "lokasi": "Bandar Teknologi Kajang, Selangor"}, {"trk": "COA-0044", "tajuk": "Double Storey Terrace Presint 9 Putrajaya", "harga": "849,000", "keluasan": "20' x 70' (1,410 sf) / Built-up 1,618 sqft", "lokasi": "Presint 9, Putrajaya"}, {"trk": "COA-0043", "tajuk": "3 Storey Shoplot TTDI Grove Kajang", "harga": "2,480,000", "keluasan": "22' x 80' (1,760 sqft)", "lokasi": "TTDI Grove, Kajang, Selangor"}, {"trk": "COA-0042", "tajuk": "2.5 Storey Superlink Corner Presint 16 Putrajaya", "harga": "1,250,000", "keluasan": "3,145 sqft", "lokasi": "Presint 16, Putrajaya"}, {"trk": "COA-0041", "tajuk": "Apartment Kita Impian Cybersouth Dengkil", "harga": "320,000", "keluasan": "901 sqft", "lokasi": "Dengkil, Selangor"}, {"trk": "COA-0002", "tajuk": "2 Storey Semi-D D-Cempaka Seksyen 9 Bandar Baru Bangi", "harga": "1,150,000", "keluasan": "Tanah 42x96 (4,101 sqft) | Binaan 4,300 sqft | 5+1B 4A", "lokasi": "Seksyen 9, Bandar Baru Bangi, Selangor"}];
+var TOKEN = "df637d7f1ac2";
+var BRAND_K = "zahir";
+var WEBHOOK = "";
+function card(d,i){
+  var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
+  return '<div class="card">'
+   + '<span class="badge">Disemak 10/09/2026</span>'
+   + '<h2>'+d.tajuk+'</h2>'
+   + '<div class="meta">'+specs.map(function(s){return '<span class="tag">'+s+'</span>';}).join('')+'</div>'
+   + '<label>Status terkini</label>'
+   + '<select id="st'+i+'" onchange="toggle('+i+')"><option>Masih available</option><option>Sudah dijual</option><option>Harga berubah</option><option>Tarik diri / batal</option></select>'
+   + '<div class="row hid" id="hh'+i+'"><div><label>Harga baharu (RM)</label><input id="hg'+i+'" inputmode="numeric" placeholder="cth: 430000"></div><div><label>Tarikh berubah</label><input id="tg'+i+'" placeholder="cth: 10/09/2026"></div></div>'
+   + '<label>Nota tambahan (pilihan)</label>'
+   + '<textarea id="nt'+i+'" placeholder="cth: pembeli minta turun sedikit, boleh runding"></textarea>'
+   + '</div>';
+}
+function render(){ document.getElementById('list').innerHTML = DATA.map(card).join(''); }
+function toggle(i){ var show = document.getElementById('st'+i).value === 'Harga berubah'; document.getElementById('hh'+i).className = show ? 'row' : 'row hid'; }
+function hantar(){
+  var btn = document.getElementById('btn');
+  var items = DATA.map(function(d,i){
+    return {tracking:d.trk, tajuk:d.tajuk, status:document.getElementById('st'+i).value,
+            harga_baharu:document.getElementById('hg'+i).value || null,
+            tarikh:document.getElementById('tg'+i).value || null,
+            nota:document.getElementById('nt'+i).value || null};
+  });
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+                 nama:document.getElementById('nama').value || null,
+                 emel:document.getElementById('emel').value || null,
+                 wa:document.getElementById('wa').value || null,
+                 tarikh_hantar:new Date().toLocaleString('ms-MY'), items:items};
+  btn.disabled = true; btn.textContent = "Menghantar...";
+  void fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)})
+    .then(function(r){ return r.text().then(function(t){ return {s:r.status,t:t}; }); })
+    .then(function(o){
+      btn.style.display='none';
+      var ok = document.getElementById('okbox');
+      ok.style.display='block';
+      ok.innerHTML = '<b>✅ Terima kasih!</b><br>Kemas kini anda telah dihantar. Salinan pengesahan akan dihantar melalui emel.<br><small>Rujukan: '+TOKEN+' · '+new Date().toLocaleString('ms-MY')+'</small>';
+      var out=document.getElementById('out'); out.style.display='block'; out.textContent='HTTP '+o.s+' — '+o.t;
+      ok.scrollIntoView({behavior:'smooth'});
+    })
+    .catch(function(e){
+      btn.disabled=false; btn.textContent="📤 Hantar Kemas Kini";
+      var out=document.getElementById('out'); out.style.display='block'; out.textContent='Ralat: '+e.message+'\nSila cuba lagi atau WhatsApp Zahir MJ Property 012-2310119.';
+    });
+}
+render();
+</script>
+</body>
+</html>
