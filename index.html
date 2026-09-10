@@ -57,6 +57,14 @@
       <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
     </div>
   </div>
+  <div class="navchips">
+    <a class="chip aktif" href="index.html">Utama</a>
+    <a class="chip" href="index.html#listing">Listing</a>
+    <a class="chip" href="semak-kelayakan.html">Semak Kelayakan</a>
+    <a class="chip" href="jual-sewa-develop.html">Serah Listing</a>
+    <a class="chip" href="portal/index.html">Portal</a>
+    <a class="chip" href="tentang.html">Tentang</a>
+  </div>
 </header>
 
 <section class="hero">
@@ -159,6 +167,35 @@
     <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
   </div>
 </footer>
+
+<!-- Navigasi mobile baharu (10/9/2026): menu grid + bottom bar -->
+<div class="menupanel" id="menuPanel">
+  <div class="sheet">
+    <div class="tajuk">SEMUA PERKHIDMATAN</div>
+    <div class="menugrid">
+      <a href="index.html#listing"><span class="ikon">🏘️</span><span class="t">Listing</span></a>
+      <a href="semak-kelayakan.html"><span class="ikon">✅</span><span class="t">Semak Kelayakan</span></a>
+      <a href="permohonan-sewa.html"><span class="ikon">🏠</span><span class="t">Mohon Sewa</span></a>
+      <a href="kalkulator.html"><span class="ikon">🧮</span><span class="t">Kalkulator</span></a>
+      <a href="jual-sewa-develop.html"><span class="ikon">📤</span><span class="t">Serah Listing</span></a>
+      <a href="serah-dokumen.html"><span class="ikon">📄</span><span class="t">Serah Dokumen</span></a>
+      <a href="portal/index.html"><span class="ikon">🏢</span><span class="t">Portal</span></a>
+      <a href="bayar.html"><span class="ikon">💳</span><span class="t">Bayaran</span></a>
+      <a href="tentang.html"><span class="ikon">ℹ️</span><span class="t">Tentang</span></a>
+    </div>
+    <div class="menucta">
+      <a class="b1" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 WhatsApp 012-2310119</a>
+      <a class="b2" href="#" onclick="document.getElementById('menuPanel').classList.remove('buka');return false">Tutup</a>
+    </div>
+  </div>
+</div>
+<div class="bottomnav">
+  <a class="bi aktif" href="index.html"><span class="ikon">🏠</span>Utama</a>
+  <a class="bi" href="index.html#listing"><span class="ikon">🏘️</span>Listing</a>
+  <a class="bi" href="semak-kelayakan.html"><span class="ikon">✅</span>Kelayakan</a>
+  <a class="bi" href="jual-sewa-develop.html"><span class="ikon">📄</span>Serah</a>
+  <a class="bwa" href="https://wa.me/60122310119" target="_blank" rel="noopener">💬</a>
+</div>
 
 <script src="data/listings.js?v=71"></script>
 <script src="app.js?v=62"></script>

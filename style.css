@@ -424,3 +424,30 @@ a { color: inherit; text-decoration: none; }
 .portal-cta p { opacity:.94; max-width:640px; font-size:14.5px; margin:0; }
 .btn-portal { background:#e8862e; color:#fff; border-radius:10px; padding:12px 22px; font-weight:700; text-decoration:none; display:inline-block; white-space:nowrap; }
 .btn-portal:hover { opacity:.92; }
+
+/* ---------- Navigasi mobile baharu (10/9/2026): chips + bottom bar + grid menu ---------- */
+.navchips{display:none;gap:7px;overflow-x:auto;padding:9px 16px;background:#fff;border-top:1px solid var(--line);-webkit-overflow-scrolling:touch}
+.chip{white-space:nowrap;background:var(--brand-soft);color:var(--brand-dark);border-radius:999px;padding:8px 14px;font-size:12.5px;font-weight:700;text-decoration:none}
+.chip.aktif{background:var(--brand);color:#fff}
+.menupanel{position:fixed;inset:0;background:rgba(10,20,40,.55);z-index:60;display:none}
+.menupanel.buka{display:block}
+.menupanel .sheet{background:#fff;border-radius:0 0 16px 16px;padding:14px 14px 18px;max-height:86vh;overflow:auto}
+.menupanel .tajuk{font-size:11.5px;color:var(--muted);font-weight:800;letter-spacing:.6px;margin:2px 0 10px}
+.menugrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.menugrid a{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:13px 6px;text-align:center;text-decoration:none;color:#334155}
+.menugrid .ikon{font-size:22px;display:block;margin-bottom:5px}
+.menugrid .t{font-size:10.5px;font-weight:700;line-height:1.25;display:block}
+.menucta{display:flex;gap:9px;margin-top:12px}
+.menucta a{flex:1;text-align:center;border-radius:10px;padding:12px;font-size:12.5px;font-weight:800;text-decoration:none}
+.menucta .b1{background:#25d366;color:#fff}
+.menucta .b2{background:#fff;border:1px solid var(--line);color:#334155}
+.bottomnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:55;justify-content:space-around;align-items:center;padding:8px 6px 11px;background:#fff;border-top:1px solid var(--line);box-shadow:0 -3px 12px rgba(0,0,0,.07)}
+.bottomnav .bi{text-align:center;font-size:10.5px;color:var(--muted);font-weight:700;text-decoration:none}
+.bottomnav .bi .ikon{font-size:20px;display:block;margin-bottom:2px}
+.bottomnav .bi.aktif{color:var(--brand)}
+.bottomnav .bwa{background:#25d366;color:#fff;border-radius:50%;width:46px;height:46px;display:flex;align-items:center;justify-content:center;font-size:21px;margin-top:-15px;box-shadow:0 4px 14px rgba(37,211,102,.45);text-decoration:none}
+@media (max-width:1020px){
+  .navchips{display:flex}
+  .bottomnav{display:flex}
+  body{padding-bottom:78px}
+}

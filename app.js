@@ -256,4 +256,9 @@ if (gridEl) {
 // Mobile nav toggle (dikongsi semua halaman)
 const toggle = document.getElementById("navToggle");
 const nav = document.getElementById("nav");
-if (toggle) toggle.addEventListener("click", () => nav.classList.toggle("open"));
+if (toggle) toggle.addEventListener("click", () => {
+  const mp = document.getElementById("menuPanel");
+  if (mp) { mp.classList.add("buka"); } else { nav.classList.toggle("open"); }
+});
+const menuPanel = document.getElementById("menuPanel");
+if (menuPanel) menuPanel.addEventListener("click", (e) => { if (e.target === menuPanel) menuPanel.classList.remove("buka"); });
