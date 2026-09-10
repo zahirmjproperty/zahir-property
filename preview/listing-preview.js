@@ -1,7 +1,6 @@
 // Zahir MJ Property — listing.js (halaman butiran: galeri, specs, peta, unit serupa)
 const SITE = window.SITE || {};
 const DATA = (window.LISTINGS || []).filter(l => l.active !== false);
-const PHONE_DISPLAY = SITE.phone || "012-2310119";
 const PHONE = (SITE.phone || "012-2310119").replace(/[-\s]/g, "");
 const WA = SITE.whatsapp || "60" + PHONE;
 
@@ -215,8 +214,8 @@ function renderDetail(l) {
         </div>
         <div class="detail-specs">${specsTable(l)}</div>
         <div class="detail-actions">
-          <a class="btn btn-wa btn-block" href="https://wa.me/${WA}?text=${waMsg}" target="_blank" rel="noopener">📲 WhatsApp Saya — ${PHONE_DISPLAY}</a>
-          <a class="btn btn-call btn-block" href="tel:+${WA}">📞 Panggil ${PHONE_DISPLAY}</a>
+          <a class="btn btn-wa btn-block" href="https://wa.me/${WA}?text=${waMsg}" target="_blank" rel="noopener">📲 WhatsApp Saya — ${SITE.phone}</a>
+          <a class="btn btn-call btn-block" href="tel:+${WA}">📞 Panggil ${SITE.phone}</a>
           <a class="btn btn-share" href="https://wa.me/?text=${shareMsg}" target="_blank" rel="noopener">↗️ Kongsi Listing Ini</a>
         </div>
         <p class="detail-id">Rujukan: ${l.tracking}${l.date ? " · Dikemaskini " + l.date : ""}</p>
