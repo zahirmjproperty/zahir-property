@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0048", "tajuk": "Semi-D Setia Eco Glades Cyberjaya", "harga": "2,100,000", "keluasan": "3,381 sqft (Built-Up); Land 3,895 sqft", "lokasi": "Setia Eco Glades, Cyberjaya, Selangor"}, {"trk": "COA-0040", "tajuk": "Shop Unit @ Kajang Impian", "harga": "2,000", "keluasan": "20'x70'", "lokasi": "Kajang Impian, Selangor"}, {"trk": "COA-0001", "tajuk": "Double Storey Terrace House Seksyen 4 Tambahan Bangi", "harga": "560,000", "keluasan": "Tanah: 20 x 70 sqft | Binaan: 1,580 sqft", "lokasi": "Seksyen 4 Tambahan, Bangi, Selangor"}];
 var TOKEN = "b354f678e546";
 var BRAND_K = "zahir";
+var AGEN = "Fadilah Yusoff";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Fadilah Yusoff",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

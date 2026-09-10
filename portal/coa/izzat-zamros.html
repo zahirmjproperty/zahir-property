@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0046", "tajuk": "Semi-D Seksyen 3 Bandar Baru Bangi", "harga": "1,180,000", "keluasan": "3,000 sqft (Built-Up); Land 3,100 sqft", "lokasi": "Seksyen 3, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0010", "tajuk": "Double Storey Terrace Presint 14 Putrajaya", "harga": "880,000", "keluasan": "Tanah 1,400 sqft (20'x70'); Binaan 1,900 sqft", "lokasi": "Presint 14, Putrajaya"}, {"trk": "COA-0009", "tajuk": "Double Storey Bungalow Country Heights Kajang", "harga": "4,000,000", "keluasan": "Tanah 20,139 sqft; Binaan 14,000 sqft", "lokasi": "Country Heights, Kajang, Selangor"}, {"trk": "COA-0008", "tajuk": "2.5 Storey Semi-D Puncak Bangi Seksyen 6 Bandar Baru Bangi", "harga": "1,590,000", "keluasan": "Tanah 4,187 sqft (51'x80'); Binaan 3,965 sqft", "lokasi": "Puncak Bangi, Seksyen 6, Bandar Baru Bangi, Selangor"}];
 var TOKEN = "bb5ad9dad6ef";
 var BRAND_K = "zahir";
+var AGEN = "Izzat Zamros";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Izzat Zamros",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0022", "tajuk": "3 Storey Semi-D KayuManis Garden Villas Seksyen 5 Bandar Baru Bangi", "harga": "1,150,000", "keluasan": "Tanah 38'x75' (2,850 sqft); Binaan 3,911 sqft", "lokasi": "KayuManis Garden Villas, Seksyen 5, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0021", "tajuk": "Renovated Double Storey Semi-D Taman Kajang Impian", "harga": "998,000", "keluasan": "Tanah 40'x75' (3,000 sqft); Binaan 2,700 sqft", "lokasi": "Taman Kajang Impian, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0016", "tajuk": "Double Storey Terrace House Taman Prima Saujana Kajang", "harga": "575,000", "keluasan": "Tanah 1,540 sqft (22x70) | Binaan 1,847 sqft", "lokasi": "Taman Prima Saujana, Kajang, Selangor"}];
 var TOKEN = "4cc41ca0767d";
 var BRAND_K = "zahir";
+var AGEN = "Muhd Aiman";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Muhd Aiman",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

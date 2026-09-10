@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0053", "tajuk": "Teres 2 Tingkat Renovated Seksyen 4 Bandar Baru Bangi", "harga": "530,000", "keluasan": "1,920 sqft", "lokasi": "Seksyen 4, Bandar Baru Bangi, Selangor"}];
 var TOKEN = "64c8005a2dc4";
 var BRAND_K = "zahir";
+var AGEN = "Ariff Rahmat";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Ariff Rahmat",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

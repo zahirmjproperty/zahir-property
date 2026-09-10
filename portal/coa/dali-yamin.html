@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0018", "tajuk": "Single Storey Semi-D Sungai Jelok, Kajang", "harga": "560,000", "keluasan": "Tanah 40'x80' (3,200 sqft); Binaan ±2,500 sqft", "lokasi": "Sungai Jelok, Kajang, Selangor"}, {"trk": "COA-0017", "tajuk": "Double Storey Semi-D Desa Seri Saujana, Sungai Merab", "harga": "870,000", "keluasan": "Tanah 3,595 sqft; Binaan ±2,572 sqft", "lokasi": "Desa Seri Saujana, Sungai Merab, Selangor"}];
 var TOKEN = "bf5f724eec36";
 var BRAND_K = "zahir";
+var AGEN = "Dali Yamin";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Dali Yamin",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

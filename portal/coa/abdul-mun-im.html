@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0023", "tajuk": "Semi Detached 2 Storey Seksyen 3 Tambahan Bandar Baru Bangi", "harga": "1,450,000", "keluasan": "Tanah 40x75 | Binaan 4,000 sqft", "lokasi": "Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor"}];
 var TOKEN = "7edc024d8709";
 var BRAND_K = "zahir";
+var AGEN = "Abdul Mun'im";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Abdul Mun'im",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

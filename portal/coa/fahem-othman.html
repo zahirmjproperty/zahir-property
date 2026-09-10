@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0051", "tajuk": "Pangsapuri Seri Mewah Blok B (Ground Floor) Kajang", "harga": "235,000", "keluasan": "750 sqft", "lokasi": "Blok B, Pangsapuri Seri Mewah, Kajang, Selangor"}, {"trk": "COA-0047", "tajuk": "Sri Ixora Apartment Sepakat Indah 2", "harga": "285,000", "keluasan": "1,028 sqft", "lokasi": "Sepakat Indah 2, Kajang, Selangor"}, {"trk": "COA-0012", "tajuk": "Double Storey Taman Lestari Putra (LEP 6) Seri Kembangan", "harga": "560,000", "keluasan": "Tanah 18 x 65 | Binaan 1,400 sqft", "lokasi": "Taman Lestari Putra (LEP 6), Seri Kembangan, Selangor"}, {"trk": "COA-0011", "tajuk": "Double Storey Terrace Setia Alam Sari (Ilham 2) Bangi", "harga": "640,000", "keluasan": "Tanah 22 x 75 | Binaan 2,420 sqft", "lokasi": "Setia Alam Sari (Ilham 2), Bangi, Selangor"}, {"trk": "COA-0028", "tajuk": "Double Storey Taman Ramal Ros Sg Ramal Dalam Kajang", "harga": "485,000", "keluasan": "Tanah 18 x 65 | Binaan 1,400 sqft", "lokasi": "Taman Ramal Ros, Sg Ramal Dalam, Kajang, Selangor"}, {"trk": "COA-0006", "tajuk": "Single Storey Taman Ria Sungai Jelok Kajang", "harga": "390,000", "keluasan": "20 x 65 (1,300 sqft); built-up 1,302 sqft", "lokasi": "Sungai Jelok, Kajang, Selangor"}];
 var TOKEN = "cfb7fe540123";
 var BRAND_K = "zahir";
+var AGEN = "Fahem Othman";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Fahem Othman",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0007", "tajuk": "Intana Ria Apartment Seksyen 7 Bandar Baru Bangi", "harga": "280,000", "keluasan": "847 sqft", "lokasi": "Seksyen 7, Bandar Baru Bangi, Selangor"}];
 var TOKEN = "b81e2983f194";
 var BRAND_K = "zahir";
+var AGEN = "Shahir (REN 63956)";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Shahir (REN 63956)",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

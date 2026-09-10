@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0049", "tajuk": "Rumah Teres 2 Tingkat Seksyen 15 Bangi", "harga": "620,000", "keluasan": "±2,200 sqft (Built-Up); Land 22x75", "lokasi": "Seksyen 15, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0045", "tajuk": "Apartment Anggerik Villa 2, Bandar Teknologi Kajang", "harga": "230,000", "keluasan": "1,063 sqft", "lokasi": "Bandar Teknologi Kajang, Selangor"}, {"trk": "COA-0044", "tajuk": "Double Storey Terrace Presint 9 Putrajaya", "harga": "849,000", "keluasan": "20' x 70' (1,410 sf) / Built-up 1,618 sqft", "lokasi": "Presint 9, Putrajaya"}, {"trk": "COA-0043", "tajuk": "3 Storey Shoplot TTDI Grove Kajang", "harga": "2,480,000", "keluasan": "22' x 80' (1,760 sqft)", "lokasi": "TTDI Grove, Kajang, Selangor"}, {"trk": "COA-0042", "tajuk": "2.5 Storey Superlink Corner Presint 16 Putrajaya", "harga": "1,250,000", "keluasan": "3,145 sqft", "lokasi": "Presint 16, Putrajaya"}, {"trk": "COA-0041", "tajuk": "Apartment Kita Impian Cybersouth Dengkil", "harga": "320,000", "keluasan": "901 sqft", "lokasi": "Dengkil, Selangor"}, {"trk": "COA-0002", "tajuk": "2 Storey Semi-D D-Cempaka Seksyen 9 Bandar Baru Bangi", "harga": "1,150,000", "keluasan": "Tanah 42x96 (4,101 sqft) | Binaan 4,300 sqft | 5+1B 4A", "lokasi": "Seksyen 9, Bandar Baru Bangi, Selangor"}];
 var TOKEN = "df637d7f1ac2";
 var BRAND_K = "zahir";
+var AGEN = "Faizul Zamrod";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Faizul Zamrod",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0037", "tajuk": "Double Storey Bungalow Bangi Golf Resort", "harga": "3,200,000", "keluasan": "Built-up 7,500 sqft | Land 12,500 sqft", "lokasi": "Bangi Golf Resort, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0036", "tajuk": "2.5 Storey Superlink Nadayu 92 Kajang", "harga": "780,000", "keluasan": "Built-up 2,700 sqft | Land 1,430 sqft (22x65)", "lokasi": "Nadayu 92, Kajang, Selangor"}];
 var TOKEN = "6df1c63c18c1";
 var BRAND_K = "zahir";
+var AGEN = "Muhammad Syafiq REN 60339, Landsworth Properties (bensapitlisting)";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Muhammad Syafiq REN 60339, Landsworth Properties (bensapitlisting)",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,

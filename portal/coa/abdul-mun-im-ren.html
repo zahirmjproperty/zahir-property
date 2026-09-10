@@ -70,6 +70,7 @@
 var DATA = [{"trk": "COA-0027", "tajuk": "3 Storey Semi-D Taman Tropika 2, Kajang", "harga": "999,000", "keluasan": "Tanah 2,450 kps (35' x 70'); Binaan 3,250 kps", "lokasi": "Taman Tropika 2, Kajang"}, {"trk": "COA-0026", "tajuk": "Double Storey Terrace Seksyen 16, Bandar Baru Bangi", "harga": "499,000", "keluasan": "Tanah 1,650 kps (22'x75'); Binaan 1,650 kps", "lokasi": "Seksyen 16, Bandar Baru Bangi"}];
 var TOKEN = "bf1efa4cea84";
 var BRAND_K = "zahir";
+var AGEN = "Abdul Mun'im REN 43039, IQI Realty, 013-4496487 (CT-0013)";
 var WEBHOOK = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
@@ -121,7 +122,7 @@ function hantar(){
             tarikh:document.getElementById('tg'+i).value || null,
             nota:document.getElementById('nt'+i).value || null};
   });
-  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN,
+  var payload = {form:"coaupdate", brand:BRAND_K, token:TOKEN, agen:"Abdul Mun'im REN 43039, IQI Realty, 013-4496487 (CT-0013)",
                  nama:document.getElementById('nama').value || null,
                  emel:document.getElementById('emel').value || null,
                  wa:document.getElementById('wa').value || null,
