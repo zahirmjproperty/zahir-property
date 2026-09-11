@@ -3187,6 +3187,102 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0059",
+    "title": "Double Storey Terrace Seksyen 8, Bandar Baru Bangi",
+    "type": "Rumah Teres",
+    "location": "Seksyen 8, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 495000,
+    "price_label": "RM495,000",
+    "price_old": null,
+    "land_area": "20 x 65 ft (1,300 sqft)",
+    "built_up": "1,450 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Harga terbaik — RM495,000",
+      "Binaan 1,450 sqft, 4 bilik 3 bilik air",
+      "Extra land 15ft di belakang rumah",
+      "Facing North, gated & guarded"
+    ],
+    "description": "Double storey terrace di Seksyen 8, Bandar Baru Bangi pada harga menarik RM495,000. Keluasan tanah 20 x 65 kaki dengan binaan 1,450 sqft — 4 bilik tidur dan 3 bilik air. Ada extra land 15 kaki di belakang rumah, menghadap North dan terletak dalam kawasan gated & guarded. Lokasi matang: surau hanya 300m, berhampiran masjid, sekolah, klinik, shoplot dan UKM Bangi. Akses mudah melalui SILK, LEKAS dan PLUS Highway. Leasehold Non-Bumi (baki 75 tahun).",
+    "amenities": [
+      "Gated & guarded",
+      "Extra land 15 kaki (backyard)",
+      "Surau hanya 300m",
+      "Masjid, sekolah & klinik sekitar"
+    ],
+    "nearby": [
+      "SILK, LEKAS & PLUS Highway",
+      "UKM Bangi",
+      "Shoplot & klinik",
+      "Bandar Baru Bangi"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+8%2C+Bandar+Baru+Bangi%2C+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-12",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1AJpnqq6OGJ4oBoeMvcAPM9RFwoOY4SMS=w1000",
+      "https://lh3.googleusercontent.com/d/1HXP7ePLXobsVvSzbHdJYNW-EyFoiaAON=w1000",
+      "https://lh3.googleusercontent.com/d/1pHlmgxqz2wHeV7R0z0ZXV6Hv7cNIyeDy=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0060",
+    "title": "Double Storey Semi-D Cluster, Bandar Bukit Mahkota, Bangi",
+    "type": "Rumah Semi-D",
+    "location": "Bandar Bukit Mahkota, Bangi, Selangor",
+    "state": "Selangor",
+    "price": 600000,
+    "price_label": "RM600,000",
+    "price_old": null,
+    "land_area": "35 x 45 ft (1,575 sqft)",
+    "built_up": "1,400 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Renovated — sedia masuk",
+      "TENANTED — ada pulangan sewa",
+      "Freehold Open, tiada sekatan",
+      "Binaan 1,400 sqft, 4 bilik 3 bilik air"
+    ],
+    "description": "Double storey semi-D cluster di Bandar Bukit Mahkota, Bangi — sudah di-renovate dan kini berpenyewa (tenanted), sesuai untuk pelaburan mahupun kediaman sendiri. Keluasan tanah 35 x 45 kaki dengan binaan 1,400 sqft — 4 bilik tidur dan 3 bilik air. Freehold Open tanpa sekatan, dalam kawasan gated & guarded dengan caj penyelenggaraan hanya RM40 sebulan. Akses mudah melalui ELITE dan PLUS Highway, berhampiran masjid, sekolah, klinik dan shoplot. Harga RM600,000 (boleh nego).",
+    "amenities": [
+      "Renovated",
+      "Berpenyewa (tenanted)",
+      "Gated & guarded (RM40/bulan)",
+      "Cluster semi-D"
+    ],
+    "nearby": [
+      "ELITE & PLUS Highway",
+      "Masjid & sekolah",
+      "Klinik & shoplot",
+      "Bandar Bukit Mahkota"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar+Bukit+Mahkota%2C+Bangi%2C+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-12",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1cHB0cNn9RovUvXsUaPRZtKeA6o7mPlnJ=w1000",
+      "https://lh3.googleusercontent.com/d/1j1EuOMWlk1hjghcILyuAKQ7QonipgxPL=w1000",
+      "https://lh3.googleusercontent.com/d/1lE6bSQmg7mDraeblczJd63iN6W7HpVYj=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
