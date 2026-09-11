@@ -3283,6 +3283,106 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0061",
+    "title": "Corner Lot 1.5 Storey Banglo, Seksyen 3, Bandar Baru Bangi",
+    "type": "Bungalow",
+    "location": "Seksyen 3, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1300000,
+    "price_label": "RM1,300,000",
+    "price_old": null,
+    "land_area": "8,342 sqft",
+    "built_up": "±7,000 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Corner lot — tanah luas 8,342 sqft",
+      "Harga di bawah nilai pasaran (below MV)",
+      "Renovasi: attic customized, gazebo & kolam ikan",
+      "Binaan ±7,000 sqft — 5 bilik + 3 bilik tambahan",
+      "Individual title, Bumi Lot"
+    ],
+    "description": "Corner lot 1.5 storey banglo di Seksyen 3, Bandar Baru Bangi pada harga RM1,300,000 — di bawah nilai pasaran. Tanah luas 8,342 kaki persegi dengan binaan lebih kurang 7,000 kaki persegi; 5 bilik tidur, 2 bilik air dan 3 bilik tambahan. Sudah di-renovasi — attic customized, store house luar, gazebo, kolam ikan dan car porch. Individual title (Leasehold, Bumi Lot). Lokasi matang berhampiran Surau Bangi Perdana, SK dan SMK Jalan 3, Klinik Kesihatan Bangi, Bangi Centre dan kedai-kedai sekitar.",
+    "amenities": [
+      "Surau Bangi Perdana",
+      "SK & SMK Jalan 3",
+      "Klinik Kesihatan Bangi",
+      "Bangi Centre & kedai",
+      "Stesen minyak"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Bangi Perdana",
+      "Klinik Kesihatan Bangi",
+      "Bangi Centre"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+3%2C+Bandar+Baru+Bangi%2C+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-12",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1913Q9AK5OzKvuFpt4Vsu7sxeEwnIoNMy=w1000",
+      "https://lh3.googleusercontent.com/d/1pHdFzbecP1vrvTB2SoDJKNHL98lcDLzj=w1000",
+      "https://lh3.googleusercontent.com/d/1grWcnpE5frwGkExPWqPWPbcR9Rbbn69Z=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0062",
+    "title": "Double Storey Low Cost, Taman Bukit Baru, Kajang",
+    "type": "Rumah Teres",
+    "location": "Taman Bukit Baru, Kajang, Selangor",
+    "state": "Selangor",
+    "price": 330000,
+    "price_label": "RM330,000",
+    "price_old": null,
+    "land_area": "14 x 54 ft (756 sqft)",
+    "built_up": "±1,000 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Fully extended — ruang lebih luas",
+      "Freehold Open, tiada sekatan",
+      "3 bilik 2 bilik air",
+      "Deposit flexible, harga boleh nego",
+      "Akses SILK & LEKAS Highway"
+    ],
+    "description": "Double storey low cost di Taman Bukit Baru, Kajang pada harga RM330,000 (boleh nego). Keluasan tanah 14 x 54 kaki dengan binaan lebih kurang 1,000 kaki persegi — 3 bilik tidur dan 2 bilik air, fully extended. Freehold Open tanpa sekatan, sesuai untuk pembeli rumah pertama mahupun pelaburan dengan deposit flexible. Berhampiran sekolah, shoplot, hospital, stesen minyak dan stesen MRT/KTM; akses mudah melalui SILK dan LEKAS Highway.",
+    "amenities": [
+      "Sekolah",
+      "Shoplot",
+      "Hospital",
+      "Stesen minyak",
+      "Stesen MRT & KTM"
+    ],
+    "nearby": [
+      "Kajang",
+      "Taman Bukit Baru",
+      "SILK Highway",
+      "LEKAS Highway"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Bukit+Baru%2C+Kajang%2C+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-12",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1a5Zsl6Q6vWS384EXQsCuEknG9v8DMYYN=w1000",
+      "https://lh3.googleusercontent.com/d/1GrNWbEdkUhHQBKgSxOraDmjPasjBqkva=w1000",
+      "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
