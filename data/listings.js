@@ -3291,7 +3291,7 @@ window.LISTINGS = [
     "price": 1300000,
     "price_label": "RM1,300,000",
     "price_old": null,
-    "land_area": "8,342 sqft",
+    "land_area": "8,342 sqft; Binaan ±7,000 sqft",
     "built_up": "±7,000 sqft",
     "tenure": "Leasehold",
     "bedrooms": 5,
@@ -3319,7 +3319,7 @@ window.LISTINGS = [
       "Klinik Kesihatan Bangi",
       "Bangi Centre"
     ],
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen+3%2C+Bandar+Baru+Bangi%2C+Selangor",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%203%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
     "unit": "",
@@ -3341,7 +3341,7 @@ window.LISTINGS = [
     "price": 330000,
     "price_label": "RM330,000",
     "price_old": null,
-    "land_area": "14 x 54 ft (756 sqft)",
+    "land_area": "14 x 54 ft (756 sqft); Binaan ±1,000 sqft",
     "built_up": "±1,000 sqft",
     "tenure": "Freehold",
     "bedrooms": 3,
@@ -3369,7 +3369,7 @@ window.LISTINGS = [
       "SILK Highway",
       "LEKAS Highway"
     ],
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Taman+Bukit+Baru%2C+Kajang%2C+Selangor",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Bukit%20Baru%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
     "unit": "",
@@ -3379,6 +3379,56 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1a5Zsl6Q6vWS384EXQsCuEknG9v8DMYYN=w1000",
       "https://lh3.googleusercontent.com/d/1GrNWbEdkUhHQBKgSxOraDmjPasjBqkva=w1000",
       "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0063",
+    "title": "2 Storey Terrace, Lyra Residensi, Cyberjaya",
+    "type": "Rumah Teres",
+    "location": "Cyberjaya, Selangor",
+    "state": "Selangor",
+    "price": 849000,
+    "price_label": "RM849,000",
+    "price_old": null,
+    "land_area": "20 x 70 ft (1,400 sqft)",
+    "built_up": "1,817 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Belakang rumah tidak menghadap rumah lain (back open)",
+      "Facing South East",
+      "Landed Cyberjaya bawah RM1 juta",
+      "Brand new — 4 bilik 3 bilik air",
+      "Leasehold"
+    ],
+    "description": "2 storey terrace house di Lyra Residensi, Cyberjaya pada harga RM849,000. Keluasan tanah 20 x 70 kaki dengan binaan 1,817 kaki persegi — 4 bilik tidur dan 3 bilik air, unit brand new yang belum diduduki. Bahagian belakang rumah tidak menghadap rumah lain (back open) dan unit berorientasi South East. Antara landed Cyberjaya yang masih bawah RM1 juta; berhampiran Brainy Bunch Cyberjaya (sekitar 2 minit memandu) serta akses mudah ke sekolah, kedai dan keperluan harian Cyberjaya. Sesuai untuk keluarga mahupun pelaburan.",
+    "amenities": [
+      "Sekolah",
+      "Taska & tadika",
+      "Kedai & keperluan harian",
+      "Kemudahan Cyberjaya",
+      "Taman rekreasi"
+    ],
+    "nearby": [
+      "Cyberjaya",
+      "Putrajaya",
+      "Dengkil",
+      "Bandar Baru Bangi"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Lyra%20Residensi%2C%20Cyberjaya%2C%20Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-12",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1snOGxysP5TLOj8bhsgtbWAmIGfP_-RJw=w1000",
+      "https://lh3.googleusercontent.com/d/12b1cmQ0jO5E2qNXQQ_DcuY22NeH2MNe8=w1000",
+      "https://lh3.googleusercontent.com/d/1dNtW45yJV4wp21f6y_SCujnFJ09RKdiy=w1000"
     ],
     "active": true
   },
