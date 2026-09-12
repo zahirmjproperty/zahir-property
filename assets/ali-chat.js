@@ -1,5 +1,5 @@
 /* ==========================================================================
-   POC "Tanya Ali" — widget chat AI (preview/POC)
+   "Tanya Ali" — widget chat AI · v2 (2026-09-12): medan nama (pilihan) + notis privasi
    Backend: Cloudflare quick tunnel → poc-ai/server.py (kunci API di pelayan)
    ==========================================================================
    Konfigurasi: ALI_API diisi oleh skrip start_poc.sh (URL tunnel).
@@ -16,6 +16,8 @@
   var waNum = WA_DEFAULT[laman];
   var konteksListing = document.body.getAttribute("data-listing") || null;   // cth "MT-0023 | Bungalow Land ..."
   var sejarah = [], kira = 0, sibuk = false;
+  var namaPelawat = "";                      // nama (pilihan) — untuk rujukan kami
+  try { namaPelawat = (localStorage.getItem("ali_nama") || "").trim().slice(0, 40); } catch (e) {}
 
   /* ---------- UI ---------- */
   var css = document.createElement("style");
@@ -69,6 +71,12 @@
   .ali-in button{background:#0C7A4B;color:#fff;border:0;border-radius:11px;width:46px;height:44px;cursor:pointer;font-size:17px}
   body.brand-mt .ali-in button{background:#059669}
   .ali-src{font-size:10.5px;color:#94A3B8;text-align:center;padding:0 10px 8px}
+  .ali-nb{display:none;gap:7px;padding:9px 12px;background:#F8FAFC;border-top:1px solid #E2E8F0;align-items:center}
+  .ali-nb.on{display:flex}
+  .ali-nb span{font-size:12px;color:#64748B;white-space:nowrap}
+  .ali-nb input{flex:1;min-width:80px;font:400 13px 'Inter',sans-serif;border:1.5px solid #E2E8F0;border-radius:9px;padding:8px 10px}
+  .ali-nb button{background:#0F172A;color:#fff;border:0;border-radius:9px;padding:9px 11px;font:600 12.5px 'Inter',sans-serif;cursor:pointer}
+  body.brand-mt .ali-nb button{background:#059669}
   .ali-typing span{display:inline-block;width:6px;height:6px;background:#94A3B8;border-radius:50%;margin-right:3px;
     animation:ali-b 1.2s infinite}
   .ali-typing span:nth-child(2){animation-delay:.15s}.ali-typing span:nth-child(3){animation-delay:.3s}
@@ -91,13 +99,36 @@
       <button class="x" aria-label="Tutup">✕</button></div>
     <div class="ali-body" id="aliBody"></div>
     <div class="ali-chips" id="aliChips"></div>
+    <div class="ali-nb" id="aliNamaBar"><span>Nama anda (pilihan):</span>
+      <input id="aliNamaIn" maxlength="40" placeholder="cth: Ahmad" autocomplete="name">
+      <button id="aliNamaOk" type="button">Simpan</button></div>
     <div class="ali-in"><input id="aliQ" type="text" placeholder="Tulis soalan… cth: ada tanah freehold di Pahang?"
       autocomplete="off"><button id="aliSend" aria-label="Hantar">➤</button></div>
-    <div class="ali-src">Dijawab oleh pembantu AI berdasarkan senarai terkini kami. Sahkan sebelum membuat tawaran. <b>Jangan kongsi maklumat sensitif</b> (IC, nombor akaun).</div>`;
+    <div class="ali-src">Dijawab oleh pembantu AI berdasarkan senarai terkini kami. Sahkan sebelum membuat tawaran. Perbualan direkod untuk rujukan kami (lihat Notis Privasi). <b>Jangan kongsi maklumat sensitif</b> (IC, nombor akaun).</div>`;
   document.body.appendChild(panel);
   var body = panel.querySelector("#aliBody");
   var chips = panel.querySelector("#aliChips");
   var input = panel.querySelector("#aliQ");
+  var namaBar = panel.querySelector("#aliNamaBar");
+  var namaIn = panel.querySelector("#aliNamaIn");
+
+  function tunjukNamaBar() {
+    if (namaPelawat) { namaBar.classList.remove("on"); return; }
+    namaIn.value = ""; namaBar.classList.add("on");
+  }
+  function simpanNama() {
+    var v = (namaIn.value || "").trim().slice(0, 40);
+    if (v) {
+      namaPelawat = v;
+      try { localStorage.setItem("ali_nama", v); } catch (e) {}
+      bubble("Terima kasih, " + v + "! Apa yang boleh saya bantu?", "ai");
+    }
+    namaBar.classList.remove("on");
+  }
+  panel.querySelector("#aliNamaOk").onclick = simpanNama;
+  namaIn.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") { e.preventDefault(); simpanNama(); }
+  });
 
   function esc(s) { return String(s).replace(/[<>&]/g, function (c) { return ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" })[c]; }); }
 
@@ -172,6 +203,7 @@
         ? ["Ada tanah freehold di Pahang?", "Tanah bawah RM1 juta", "Nak lawatan tapak", "Tanya pasukan"]
         : ["Rumah teres bawah RM600k", "Rumah di Bangi", "Kira ansuran bulanan", "Nak lawatan tapak"]);
     }
+    tunjukNamaBar();
     input.focus();
   }
   btn.onclick = buka;
@@ -190,7 +222,8 @@
     tunggu.innerHTML = "<span></span><span></span><span></span>";
     fetch(ALI_API, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ soalan: teks, sejarah: sejarah.slice(-6), laman: laman, listing: konteksListing })
+      body: JSON.stringify({ soalan: teks, sejarah: sejarah.slice(-6), laman: laman, listing: konteksListing,
+        nama: namaPelawat, halaman: location.pathname + location.search })
     }).then(function (r) { return r.json(); }).then(function (d) {
       tunggu.remove();
       if (!d.ok) { bubble(d.ralat || "Maaf, ada masalah teknikal.", "ai"); return; }
