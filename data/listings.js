@@ -4167,6 +4167,68 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0076",
+    "title": "Sunway Gandaria Bandar Baru Bangi (Sewa)",
+    "type": "Apartmen",
+    "location": "Sunway Gandaria, Tingkat 23, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 3500,
+    "price_label": "RM3,500",
+    "price_old": null,
+    "land_area": "1,157 sqft",
+    "built_up": "1,157 sqft",
+    "tenure": "Tidak pasti",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "SEWA",
+    "highlights": [
+      "Fully furnished — sedia masuk",
+      "1,157 sqft · 3 bilik tidur · 2 bilik air",
+      "Tingkat 23 (Type B) — pemandangan tinggi",
+      "2 tempat letak kereta",
+      "Sewa RM3,500 sebulan",
+      "Deposit: 2 bulan sewa + 1 bulan advance + 0.5 bulan utiliti"
+    ],
+    "description": "Unit fully furnished di Sunway Gandaria, Bandar Baru Bangi untuk disewa RM3,500 sebulan. Keluasan 1,157 sqft dengan 3 bilik tidur dan 2 bilik air di tingkat 23 (Type B), lengkap dengan 2 tempat letak kereta. Perabot disediakan termasuk kabinet dapur, peti sejuk, sofa, kabinet TV, set meja makan, kipas siling, penghawa dingin, set katil queen, katil single dan microwave. Kemudahan kondominium: kolam renang, gimnasium, sauna, jacuzzi, dewan serbaguna, taman permainan, kawasan BBQ, surau dan keselamatan 24 jam. Berhampiran Bangi Gateway Mall, Kompleks PKNS Bangi, Masjid Al-Hasanah, Hospital Pakar An-Nur, UKM dan UPM, dengan akses ke lebuh raya SILK, KL-Seremban, ELITE dan SKVE.",
+    "amenities": [
+      "Fully furnished",
+      "2 parking",
+      "Kolam renang & gimnasium",
+      "Sauna & jacuzzi",
+      "Keselamatan 24 jam",
+      "Surau & taman permainan"
+    ],
+    "nearby": [
+      "Bangi Gateway Mall",
+      "Kompleks PKNS Bangi",
+      "Masjid Al-Hasanah",
+      "Hospital Pakar An-Nur",
+      "UKM & UPM",
+      "IOI City Mall Putrajaya",
+      "SILK / ELITE / SKVE"
+    ],
+    "map_url": "https://www.google.com/maps?q=Sunway+Gandaria,+Bandar+Baru+Bangi,+Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-13",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1JzYbzDYd9zNAsOywYCX5wfHOJxKdUhgg=w1000",
+      "https://lh3.googleusercontent.com/d/18mwhQxXQxM3h6xHPc0BRUtohS9iX9pgA=w1000",
+      "https://lh3.googleusercontent.com/d/1YOfl3t58BBwvjGR2nLL1lH1-Dt-Wy0cf=w1000",
+      "https://lh3.googleusercontent.com/d/1nwgvZ-j05s_SdnSs73XjkIiC6iPdHAuk=w1000",
+      "https://lh3.googleusercontent.com/d/1x-NKucIatRtG9YYK01uTxoX0pUdAzFUA=w1000",
+      "https://lh3.googleusercontent.com/d/1JAnGxkHN3TLr5oVWyP17XEnl4DvO1SKI=w1000",
+      "https://lh3.googleusercontent.com/d/1QZ2czro_kPB8SkWAusGDdaUDgBUexhud=w1000",
+      "https://lh3.googleusercontent.com/d/12fql5pB2W1RMQplIPE9qC6p58lKqloxf=w1000",
+      "https://lh3.googleusercontent.com/d/1jPWK7inmQYQ5lW82gcMcfVJZtiFPa1FN=w1000",
+      "https://lh3.googleusercontent.com/d/1V4qpiEPhPIbyNUDghRq0DTCndxMorrhL=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
