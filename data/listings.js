@@ -341,7 +341,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0008",
     "title": "2.5 Storey Semi-D Puncak Bangi Seksyen 6 Bandar Baru Bangi",
-    "type": "Semi-D",
+    "type": "Rumah Semi-D",
     "location": "Puncak Bangi, Bandar Baru Bangi, Selangor",
     "state": "Selangor",
     "price": 1590000,
@@ -1307,7 +1307,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0025",
     "title": "Double Storey Terrace Bangi Perdana Seksyen 3, Bandar Baru Bangi",
-    "type": "Terrace",
+    "type": "Rumah Teres",
     "location": "Bangi Perdana Seksyen 3, Bandar Baru Bangi",
     "state": "Selangor",
     "price": 630000,
@@ -1359,7 +1359,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0026",
     "title": "Double Storey Terrace Seksyen 16, Bandar Baru Bangi",
-    "type": "Double Storey Terrace",
+    "type": "Rumah Teres",
     "location": "Seksyen 16, Bandar Baru Bangi",
     "state": "Selangor",
     "price": 499000,
@@ -1417,7 +1417,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0027",
     "title": "3 Storey Semi-D Taman Tropika 2, Kajang",
-    "type": "3 Storey Semi-D",
+    "type": "Rumah Semi-D",
     "location": "Taman Tropika 2, Kajang",
     "state": "Selangor",
     "price": 999000,
@@ -1510,7 +1510,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0029",
     "title": "Corner Lot Double Storey Taman Seri Bangi, Bandar Baru Bangi",
-    "type": "Double Storey Terrace",
+    "type": "Rumah Teres",
     "location": "Taman Seri Bangi, Seksyen 8, Bandar Baru Bangi",
     "state": "Selangor",
     "price": 950000,
@@ -2159,7 +2159,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0041",
     "title": "Apartment Kita Impian Cybersouth Dengkil",
-    "type": "Apartment",
+    "type": "Apartmen",
     "location": "Dengkil, Selangor",
     "state": "Selangor",
     "price": 320000,
@@ -2857,7 +2857,7 @@ window.LISTINGS = [
   {
     "tracking": "COA-0053",
     "title": "Teres 2 Tingkat Renovated Seksyen 4 Bandar Baru Bangi",
-    "type": "Double Storey Terrace",
+    "type": "Rumah Teres",
     "location": "Seksyen 4, Bandar Baru Bangi, Selangor",
     "state": "Selangor",
     "price": 530000,
