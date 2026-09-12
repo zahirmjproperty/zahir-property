@@ -93,7 +93,7 @@
     <div class="ali-chips" id="aliChips"></div>
     <div class="ali-in"><input id="aliQ" type="text" placeholder="Tulis soalan… cth: ada tanah freehold di Pahang?"
       autocomplete="off"><button id="aliSend" aria-label="Hantar">➤</button></div>
-    <div class="ali-src">AI berdasarkan senarai terkini kami. Sahkan sebelum membuat tawaran.</div>`;
+    <div class="ali-src">Dijawab oleh pembantu AI berdasarkan senarai terkini kami. Sahkan sebelum membuat tawaran. <b>Jangan kongsi maklumat sensitif</b> (IC, nombor akaun).</div>`;
   document.body.appendChild(panel);
   var body = panel.querySelector("#aliBody");
   var chips = panel.querySelector("#aliChips");
