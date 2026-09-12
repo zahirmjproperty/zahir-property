@@ -96,13 +96,6 @@ function card(l) {
     const m = Math.round(loan * r / (1 - Math.pow(1 + r, -n)));
     inst = `<div class="price-inst">~ ${fmt(m)}/bln (anggaran)</div>`;
   }
-  // anggaran ansuran (4.00% p.a., 35 tahun, 90% pembiayaan)
-  let inst = "";
-  if (l.price) {
-    const loan = l.price * 0.9, r = 0.04 / 12, n = 35 * 12;
-    const m = Math.round(loan * r / (1 - Math.pow(1 + r, -n)));
-    inst = `<div class="price-inst">~ ${fmt(m)}/bln (anggaran)</div>`;
-  }
 
   return `
   <article class="card">
@@ -112,7 +105,6 @@ function card(l) {
       <p class="card-loc">📍 ${l.location}</p>
       ${l.description ? `<p class="card-desc">${l.description}</p>` : ""}
       <div class="price-row"><span class="price">${l.price_label}</span>${oldPrice}</div>
-      ${inst}
       ${inst}
       ${specs.length ? `<div class="specs">${specs.join("")}</div>` : ""}
       <div class="card-actions">
