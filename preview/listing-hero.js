@@ -1,0 +1,311 @@
+// Zahir MJ Property — listing.js (halaman butiran: galeri, specs, peta, unit serupa)
+const SITE = window.SITE || {};
+const DATA = (window.LISTINGS || []).filter(l => l.active !== false);
+const PHONE = (SITE.phone || "012-2310119").replace(/[-\s]/g, "");
+const WA = SITE.whatsapp || "60" + PHONE;
+
+function fmt(n) { return "RM" + Number(n).toLocaleString("en-MY"); }
+
+// --- Pengumpulan projek (berbilang unit dalam hartanah sama, cth Intana Ria) ---
+function projSlug(l) {
+  if (l.project) return String(l.project).trim().toLowerCase();
+  return (l.title || "").toLowerCase()
+    .replace(/\blevel\s*\d+/g, " ").replace(/\bblok\s*\d+/g, " ")
+    .replace(/\bunit\s*[\w-]+/g, " ").replace(/\b\d{3,4}\s*sqft\b/g, " ")
+    .replace(/\s+/g, " ").trim();
+}
+function sameSpec(a, b) {
+  return a.price === b.price && a.land_area === b.land_area
+    && a.bedrooms === b.bedrooms && a.bathrooms === b.bathrooms;
+}
+function buildProjects(list) {
+  const groups = {};
+  for (const l of list) {
+    const k = projSlug(l);
+    (groups[k] = groups[k] || []).push(l);
+  }
+  const out = [];
+  for (const k in groups) {
+    const g = groups[k];
+    if (g.length >= 2 && !g.slice(1).every(x => sameSpec(g[0], x))) out.push(g);
+  }
+  return out;
+}
+const PROJECTS = buildProjects(DATA);
+function projectOf(l) {
+  return PROJECTS.find(p => p.some(u => u.tracking === l.tracking));
+}
+
+const TYPE_ICON = {
+  "Rumah Teres": "🏠", "Rumah Semi-D": "🏡", "Rumah": "🏠",
+  "Tanah": "🌳", "Komersial": "🏢", "Bangunan Komersial": "🏢",
+  "Apartment": "🏢", "Kondo": "🏢"
+};
+const TYPE_GRAD = {
+  "Rumah Teres": "g-teres", "Rumah Semi-D": "g-semid", "Rumah": "g-teres",
+  "Tanah": "g-tanah", "Komersial": "g-komersial", "Bangunan Komersial": "g-komersial",
+  "Apartment": "g-komersial", "Kondo": "g-komersial"
+};
+const typeIcon = l => TYPE_ICON[l.type] || "🏠";
+const typeGrad = l => TYPE_GRAD[l.type] || "g-teres";
+
+// --- Galeri / Lightbox ---
+let lbIndex = 0, lbImgs = [], mainIdx = 0;
+
+function openLightbox(i) {
+  if (!lbImgs.length) return;
+  lbIndex = i;
+  const lb = document.getElementById("lightbox");
+  lb.hidden = false;
+  updateLightbox();
+  document.body.style.overflow = "hidden";
+}
+function updateLightbox() {
+  const img = document.getElementById("lbImg");
+  const cap = document.getElementById("lbCaption");
+  img.src = lbImgs[lbIndex];
+  cap.textContent = `Gambar ${lbIndex + 1} / ${lbImgs.length}`;
+}
+function closeLightbox() {
+  document.getElementById("lightbox").hidden = true;
+  document.body.style.overflow = "";
+}
+
+function setMain(i) {
+  if (!lbImgs.length) return;
+  mainIdx = (i + lbImgs.length) % lbImgs.length;
+  const img = document.getElementById("mainImg");
+  if (img) img.src = lbImgs[mainIdx];
+  const c = document.querySelector(".g-counter");
+  if (c) c.textContent = (mainIdx + 1) + " / " + lbImgs.length;
+  document.querySelectorAll(".gallery-thumbs .thumb").forEach(t => {
+    const on = Number(t.dataset.i) === mainIdx;
+    t.classList.toggle("active", on);
+    if (on) t.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  });
+}
+
+function galleryHTML(l) {
+  const imgs = (l.images || []).filter(Boolean);
+  if (!imgs.length) {
+    return `<div class="gallery gallery-empty">
+      <div class="placeholder ph-large ${typeGrad(l)}">
+        <span class="ph-icon">${typeIcon(l)}</span>
+        <span class="ph-text">${l.type || "Hartanah"} — gambar akan dikemaskini</span>
+      </div>
+      <p class="ph-note">Foto sebenar unit akan dimuatkan sebaik sahaja tersedia.</p>
+    </div>`;
+  }
+  lbImgs = imgs;
+  mainIdx = 0;
+  const multi = imgs.length > 1;
+  const thumbs = imgs.map((src, i) =>
+    `<button class="thumb${i === 0 ? " active" : ""}" data-i="${i}" aria-label="Gambar ${i + 1}"><img src="${src}" alt="Gambar ${i + 1}" loading="lazy"></button>`
+  ).join("");
+  return `<div class="gallery">
+    <div class="gallery-main">
+      <img src="${imgs[0]}" alt="${l.title}" id="mainImg">
+      ${multi ? `<button class="g-nav g-prev" id="gPrev" type="button" aria-label="Gambar sebelumnya">&#10094;</button>
+      <button class="g-nav g-next" id="gNext" type="button" aria-label="Gambar seterusnya">&#10095;</button>` : ""}
+      <span class="g-zoom" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></span>
+      <span class="g-counter">1 / ${imgs.length}</span>
+    </div>
+    <div class="gallery-thumbs">${thumbs}</div>
+  </div>`;
+}
+
+function specsTable(l) {
+  const STRATA = ['Flat', 'Apartmen', 'Kondo', 'Kondominium', 'Apartment'];
+  const isStrata = STRATA.includes(l.type);
+  const binaan = (l.built_up && l.built_up !== "-") ? l.built_up
+    : ((l.land_area && l.land_area !== "-") ? l.land_area : "");
+  const rows = [
+    ["Jenis", l.type || "-"],
+    ["Bilik Tidur", l.bedrooms > 0 ? l.bedrooms + " bilik" : "Tidak dinyatakan"],
+    ["Bilik Air", l.bathrooms > 0 ? l.bathrooms + " bilik" : "Tidak dinyatakan"]
+  ];
+  if (isStrata) {
+    // Flat/Apartment/Kondo: keluasan tanah = tanah projek, tak applicable — papar binaan sahaja
+    rows.push(["Keluasan Binaan", binaan || "Tidak dinyatakan"]);
+  } else {
+    rows.push(["Keluasan Tanah", l.land_area && l.land_area !== "-" ? l.land_area : "Tidak dinyatakan"]);
+    rows.push(["Keluasan Binaan", l.built_up && l.built_up !== "-" ? l.built_up : "Tidak dinyatakan"]);
+  }
+  rows.push(["Hakmilik", l.tenure && l.tenure !== "-" ? l.tenure : "Tidak dinyatakan"]);
+  return `<table class="spec-table">${rows.map(r => `<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join("")}</table>`;
+}
+
+function chipList(items) {
+  return items && items.length ? `<div class="chips">${items.map(i => `<span class="chip">${i}</span>`).join("")}</div>` : "";
+}
+
+function renderDetail(l) {
+  document.title = l.title + " — " + (SITE.name || "Zahir MJ Property");
+  const waMsg = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan listing ${l.tracking} - ${l.title} (${l.price_label}). Boleh kongsi maklumat lanjut?`);
+  const shareMsg = encodeURIComponent(`${l.title} - ${l.price_label} — ${SITE.domain || ""}listing/${encodeURIComponent(l.tracking)}.html`);
+  const badges = [];
+  if (l.jenis) badges.push(`<span class="badge badge-${(l.jenis || "jual").toLowerCase()}">${l.jenis}</span>`);
+  if (l.status === "BARU") badges.push('<span class="badge badge-baru">BARU</span>');
+  if (l.status === "PROMOSI") badges.push('<span class="badge badge-promo">⚡ PROMOSI</span>');
+  const oldPrice = l.price_old ? `<p class="price-old-line">Harga asal: ${fmt(l.price_old)}</p>` : "";
+  const mapSrc = "https://www.google.com/maps?q=" + encodeURIComponent(l.location) + "&output=embed";
+
+  // Unit lain dalam projek sama (cth Intana Ria) — jika tiada projek, jatuh ke "Unit Serupa"
+  const proj = projectOf(l);
+  let relatedHTML = "";
+  if (proj && proj.length >= 2) {
+    const others = proj.filter(x => x.tracking !== l.tracking);
+    const slug = l.project || projSlug(l);
+    const pname = l.project_name || l.title;
+    const otherCards = others.map(x => {
+      const waX = encodeURIComponent(`Assalamualaikum dan salam sejahtera, saya berminat dengan unit ${x.tracking} - ${x.title} (${x.price_label}). Adakah masih tersedia?`);
+      return `
+        <article class="card card-mini">
+          ${x.images && x.images.length
+            ? `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><img src="${x.images[0]}" alt="${x.title}" loading="lazy"></a>`
+            : `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><div class="placeholder ${typeGrad(x)}"><span class="ph-icon">${typeIcon(x)}</span></div></a>`}
+          <div class="card-body">
+            <h3 class="card-title"><a href="listing/${encodeURIComponent(x.tracking)}.html">${x.unit || x.title}</a></h3>
+            <p class="card-loc">📍 ${x.location}</p>
+            <div class="price">${x.price_label}</div>
+            <p class="card-desc">${x.land_area && x.land_area !== "-" ? `📐 ${x.land_area}` : ""}${x.unit ? ` · ${x.unit}` : ""}</p>
+            <a class="btn btn-wa-card" href="https://wa.me/${WA}?text=${waX}" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </article>`;
+    }).join("");
+    relatedHTML = `
+    <section class="detail-section proj-widget">
+      <h2>🏢 Unit Lain di ${pname}</h2>
+      <p class="widget-sub">Projek sama, pilihan lain — bandingkan harga & ciri sebelum decide:</p>
+      <div class="grid grid-3">${otherCards}</div>
+      <p class="widget-all"><a href="projek/${encodeURIComponent(slug)}.html">Lihat Semua Unit (Jadual Perbandingan) →</a></p>
+    </section>`;
+  } else {
+    const related = DATA.filter(x => x.tracking !== l.tracking && (x.type === l.type || x.state === l.state)).slice(0, 3);
+    relatedHTML = related.length ? `
+    <section class="detail-section">
+      <h2>Unit Serupa</h2>
+      <div class="grid grid-3">${related.map(x => `
+        <article class="card card-mini">
+          ${x.images && x.images.length
+            ? `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><img src="${x.images[0]}" alt="${x.title}" loading="lazy"></a>`
+            : `<a class="card-media" href="listing/${encodeURIComponent(x.tracking)}.html"><div class="placeholder ${typeGrad(x)}"><span class="ph-icon">${typeIcon(x)}</span></div></a>`}
+          <div class="card-body">
+            <h3 class="card-title"><a href="listing/${encodeURIComponent(x.tracking)}.html">${x.title}</a></h3>
+            <p class="card-loc">📍 ${x.location}</p>
+            <div class="price">${x.price_label}</div>
+          </div>
+        </article>`).join("")}
+      </div>
+    </section>` : "";
+  }
+
+  document.getElementById("detailRoot").innerHTML = `
+  <article class="detail">
+    <div class="detail-top">
+      <div class="detail-gallery">${galleryHTML(l)}</div>
+      <div class="detail-info">
+        <div class="badges">${badges.join("")}</div>
+        <h1>${l.title}</h1>
+        <p class="card-loc">📍 ${l.location}</p>
+        <div class="detail-price">
+          <span class="price price-lg">${l.price_label}</span>
+          ${oldPrice}
+        </div>
+        <div class="detail-specs">${specsTable(l)}</div>
+        <div class="detail-actions">
+          <a class="btn btn-wa btn-block" href="https://wa.me/${WA}?text=${waMsg}" target="_blank" rel="noopener">📲 WhatsApp Saya — ${SITE.phone}</a>
+          <a class="btn btn-call btn-block" href="tel:+${WA}">📞 Panggil ${SITE.phone}</a>
+          <a class="btn btn-share" href="https://wa.me/?text=${shareMsg}" target="_blank" rel="noopener">↗️ Kongsi Listing Ini</a>
+        </div>
+        <p class="detail-id">Rujukan: ${l.tracking}${l.date ? " · Dikemaskini " + l.date : ""}</p>
+      </div>
+    </div>
+
+    ${l.description ? `<section class="detail-section">
+      <h2>Deskripsi</h2>
+      <p class="detail-desc">${l.description}</p>
+    </section>` : ""}
+
+    ${l.highlights && l.highlights.length ? `<section class="detail-section">
+      <h2>Ciri Utama</h2>
+      <ul class="detail-list">${l.highlights.map(h => `<li>${h}</li>`).join("")}</ul>
+    </section>` : ""}
+
+    ${l.amenities && l.amenities.length ? `<section class="detail-section">
+      <h2>Kemudahan Sekitar</h2>
+      ${chipList(l.amenities)}
+    </section>` : ""}
+
+    ${l.nearby && l.nearby.length ? `<section class="detail-section">
+      <h2>Berdekatan</h2>
+      ${chipList(l.nearby)}
+    </section>` : ""}
+
+    <section class="detail-section">
+      <h2>Lokasi</h2>
+      <div class="map-wrap">
+        <iframe src="${mapSrc}" title="Peta lokasi ${l.title}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="cta-card">
+      <h2>Berminat Dengan Listing Ini?</h2>
+      <p>Hubungi saya untuk maklumat lanjut, jadual tinjauan (viewing), atau semak kelayakan pembiayaan anda.</p>
+      <div class="cta-actions">
+        <a class="btn btn-wa" href="https://wa.me/${WA}?text=${waMsg}" target="_blank" rel="noopener">📲 WhatsApp Sekarang</a>
+        <a class="btn btn-outline" href="tel:+${WA}">📞 Panggil</a>
+      </div>
+    </section>
+
+    ${relatedHTML}
+  </article>`;
+
+  // Galeri events (ala-flymax: nav ◀▶ pada imej utama, thumb = tukar imej sahaja)
+  const mainImg = document.getElementById("mainImg");
+  if (mainImg) mainImg.addEventListener("click", () => openLightbox(mainIdx));
+  const gPrev = document.getElementById("gPrev");
+  const gNext = document.getElementById("gNext");
+  if (gPrev) gPrev.addEventListener("click", e => { e.stopPropagation(); setMain(mainIdx - 1); });
+  if (gNext) gNext.addEventListener("click", e => { e.stopPropagation(); setMain(mainIdx + 1); });
+  document.querySelectorAll(".gallery-thumbs .thumb").forEach(t => {
+    t.addEventListener("click", () => setMain(Number(t.dataset.i)));
+  });
+}
+
+// --- Init ---
+const root = document.getElementById("detailRoot");
+if (root) {
+  const id = new URLSearchParams(location.search).get("id") || (location.pathname.match(/listing\/([^/]+)\.html/) || [])[1] || "";
+  const l = DATA.find(x => x.tracking === id);
+  if (!l) {
+    root.innerHTML = `<div class="empty">
+      <p>Listing tidak dijumpai atau telah dikemaskini.</p>
+      <a class="btn btn-wa" href="index.html">← Lihat Semua Listing</a>
+    </div>`;
+  } else {
+    // canonical ke halaman static (SEO)
+    const canon = document.createElement("link");
+    canon.rel = "canonical";
+    canon.href = (SITE.domain || "") + "listing/" + encodeURIComponent(l.tracking) + ".html";
+    document.head.appendChild(canon);
+    renderDetail(l);
+  }
+
+  // Lightbox events
+  document.getElementById("lbClose").addEventListener("click", closeLightbox);
+  document.getElementById("lbPrev").addEventListener("click", e => { e.stopPropagation(); if (lbImgs.length) { lbIndex = (lbIndex - 1 + lbImgs.length) % lbImgs.length; updateLightbox(); } });
+  document.getElementById("lbNext").addEventListener("click", e => { e.stopPropagation(); if (lbImgs.length) { lbIndex = (lbIndex + 1) % lbImgs.length; updateLightbox(); } });
+  document.getElementById("lightbox").addEventListener("click", e => { if (e.target.id === "lightbox") closeLightbox(); });
+  document.addEventListener("keydown", e => {
+    if (document.getElementById("lightbox").hidden) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft") document.getElementById("lbPrev").click();
+    if (e.key === "ArrowRight") document.getElementById("lbNext").click();
+  });
+}
+
+// Mobile nav toggle (dikongsi semua halaman)
+const toggle = document.getElementById("navToggle");
+const nav = document.getElementById("nav");
+if (toggle) toggle.addEventListener("click", () => nav.classList.toggle("open"));
