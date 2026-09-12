@@ -451,3 +451,121 @@ a { color: inherit; text-decoration: none; }
   .bottomnav{display:flex}
   body{padding-bottom:78px}
 }
+
+/* ==========================================================================
+   FASA 1 — naik taraf reka bentuk (12/9/2026, diluluskan Zahir)
+   Ditambah di HUJUNG style.css supaya menang cascade tanpa ubah peraturan lama.
+   ========================================================================== */
+
+@font-face{font-family:'Plus Jakarta Sans';src:url(fonts/PlusJakartaSans-var.woff2) format('woff2');
+  font-weight:600 800;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url(fonts/Inter-var.woff2) format('woff2');
+  font-weight:100 900;font-style:normal;font-display:swap}
+
+:root{
+  --brand:#0F172A; --brand-dark:#0A1120; --brand-soft:#EEF3FA;
+  --accent:#0C7A4B; --accent-soft:#E8F5EF; --gold:#B45309; --gold-soft:#FEF3E2;
+  --ink:#0F172A; --muted:#64748B; --line:#E2E8F0; --bg:#F8FAFC;
+  --font-h:'Plus Jakarta Sans','Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-b:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --r:14px; --r-lg:20px;
+}
+body{font-family:var(--font-b)}
+h1,h2,h3,h4,.price,.card-title,.brand-text strong,.f1-hd{font-family:var(--font-h);letter-spacing:-.01em}
+.hero{background:linear-gradient(135deg,#0A1120 0%,#132844 55%,#0C7A4B 100%)}
+.hero h1{letter-spacing:-.02em}
+
+/* ---------- Hero berimej ---------- */
+.hero-f1{position:relative;color:#fff;isolation:isolate;overflow:hidden}
+.hero-f1 .bg{position:absolute;inset:0;z-index:-2}
+.hero-f1 .bg img{width:100%;height:100%;object-fit:cover}
+.hero-f1 .veil{position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(10,17,32,.88) 0%,rgba(10,17,32,.60) 45%,rgba(10,17,32,.84) 100%)}
+.hero-f1 .inner{padding:56px 0 48px;text-align:center}
+.hero-f1 .eyebrow{display:inline-block;font-family:var(--font-h);font-size:12.5px;font-weight:700;
+  letter-spacing:.10em;text-transform:uppercase;color:#BFE9D5;margin-bottom:14px}
+.hero-f1 h1{font-size:clamp(28px,4.4vw,44px);line-height:1.15;margin-bottom:12px}
+.hero-f1 p.lead{max-width:660px;margin:0 auto 24px;font-size:clamp(15px,1.6vw,17px);color:#DCE3EC}
+.hero-f1 .search-panel{background:#fff;color:var(--ink);box-shadow:0 12px 36px rgba(15,23,42,.22)}
+
+/* ---------- Jalur kepercayaan ---------- */
+.trust-f1{background:#fff;border-bottom:1px solid var(--line)}
+.trust-f1 ul{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:16px 0;margin:0}
+.trust-f1 li{display:flex;gap:10px;align-items:center;font-size:13.5px;font-weight:600;color:var(--brand)}
+.trust-f1 .ic{width:34px;height:34px;border-radius:10px;background:var(--accent-soft);color:var(--accent);
+  display:grid;place-items:center;font-size:16px;flex:0 0 auto}
+
+/* ---------- Kad segmen ---------- */
+.seg-f1{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.seg-f1 .seg{position:relative;border-radius:var(--r-lg);overflow:hidden;min-height:208px;display:flex;
+  align-items:flex-end;color:#fff;text-decoration:none}
+.seg-f1 .seg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;
+  transition:transform .4s}
+.seg-f1 .seg:hover img{transform:scale(1.05)}
+.seg-f1 .seg .ov{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(10,17,32,.10),rgba(10,17,32,.88))}
+.seg-f1 .seg .tx{position:relative;z-index:2;padding:20px}
+.seg-f1 .seg h3{font-size:20px;margin-bottom:5px;color:#fff}
+.seg-f1 .seg p{font-size:13.5px;color:#DCE3EC;margin:0}
+.seg-f1 .seg .n{position:absolute;top:14px;left:16px;z-index:2;background:rgba(255,255,255,.94);
+  color:var(--brand);font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px}
+
+/* ---------- Kad listing: tambahan Fasa 1 ---------- */
+.card{position:relative}
+.card .card-media{position:relative;display:block}
+.phcount{position:absolute;bottom:10px;right:10px;background:rgba(10,17,32,.74);color:#fff;font-size:11.5px;
+  font-weight:600;padding:4px 9px;border-radius:7px;z-index:3}
+.f1-save{position:absolute;top:10px;right:10px;z-index:4;width:34px;height:34px;border-radius:50%;border:0;
+  cursor:pointer;background:rgba(255,255,255,.95);font-size:16px;line-height:1;display:grid;place-items:center;
+  box-shadow:0 2px 8px rgba(15,23,42,.2)}
+.f1-save.on{background:#DC2626;color:#fff}
+.price-inst{font-size:12.5px;color:var(--muted);font-weight:600}
+.f1-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.f1-tags .tg{font-size:11.5px;font-weight:700;padding:5px 9px;border-radius:7px;background:var(--bg);
+  border:1px solid var(--line);color:var(--brand)}
+.f1-tags .tg.g{background:var(--accent-soft);border-color:#BFE6D5;color:#0A6440}
+.f1-tags .tg.gold{background:var(--gold-soft);border-color:#F2D8B0;color:var(--gold)}
+
+/* ---------- Jadual data teknikal ---------- */
+.tech-f1{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;margin:18px 0}
+.tech-f1 .hd{background:var(--brand);color:#fff;padding:14px 18px;font-family:var(--font-h);font-weight:700;
+  font-size:15.5px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.tech-f1 .hd span{font-size:12px;font-weight:600;color:#BFE9D5}
+.tech-f1 table{width:100%;border-collapse:collapse}
+.tech-f1 tr{border-bottom:1px solid var(--line)}
+.tech-f1 tr:last-child{border-bottom:0}
+.tech-f1 tr:nth-child(even){background:#FBFCFD}
+.tech-f1 th{text-align:left;font-size:13.5px;font-weight:600;color:var(--muted);padding:10px 18px;width:42%;
+  vertical-align:top}
+.tech-f1 td{font-size:14.5px;font-weight:600;padding:10px 18px;color:var(--brand)}
+.tech-f1 .verify{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:13px 18px;
+  background:var(--accent-soft);border-top:1px solid #CFE9DC;font-size:13px;color:#0A6440;font-weight:600;flex-wrap:wrap}
+
+/* ---------- Galeri: baiki thumbnail potret ---------- */
+.card-media img, .thumbs img{height:auto}
+.gallery img, .gallery-thumb, .thumb img{width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.detail-media img.kecil, .gal-main img.kecil{object-fit:contain}
+
+/* ---------- Bar melekat mudah alih ---------- */
+.f1-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;gap:10px;padding:9px 12px;
+  background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-top:1px solid var(--line);
+  box-shadow:0 -6px 22px rgba(15,23,42,.10)}
+.f1-bar a{flex:1;display:flex;align-items:center;justify-content:center;min-height:50px;border-radius:11px;
+  font-family:var(--font-h);font-weight:700;font-size:14.5px;text-decoration:none}
+.f1-bar .f1-b1{background:#fff;color:var(--brand);border:1.5px solid var(--line)}
+.f1-bar .f1-b2{background:var(--accent);color:#fff}
+
+/* ---------- Widget AI: jangan bertindih dengan bar ---------- */
+.ali-btn{bottom:84px}
+
+@media(max-width:1000px){
+  .seg-f1{grid-template-columns:1fr}
+  .trust-f1 ul{grid-template-columns:1fr 1fr}
+  .f1-bar{display:flex}
+  body{padding-bottom:74px}
+}
+@media(max-width:640px){
+  .trust-f1 ul{grid-template-columns:1fr}
+  .hero-f1 .inner{padding:38px 0 32px}
+  .tech-f1 th,.tech-f1 td{padding:10px 13px}
+}

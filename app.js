@@ -63,9 +63,12 @@ function mediaHTML(l, link, extra = []) {
   const inner = img
     ? `<img src="${img}" alt="${l.title}" loading="lazy">`
     : `<div class="placeholder ${typeGrad(l)}"><span class="ph-icon">${typeIcon(l)}</span><span class="ph-text">${l.type || "Hartanah"}</span></div>`;
+  const bil = (l.images && l.images.length) ? l.images.length : 0;
+  const kira = bil > 1 ? `<span class="phcount">📷 ${bil}</span>` : "";
   return `<a class="card-media" href="${link}" aria-label="${l.title}">
     ${inner}
     <div class="badges">${badges.join("")}</div>
+    ${kira}
   </a>`;
 }
 
@@ -86,6 +89,20 @@ function card(l) {
   if (l.tenure && l.tenure !== "-") specs.push(`📜 ${l.tenure}`);
 
   const oldPrice = l.price_old ? `<span class="price-old">${fmt(l.price_old)}</span>` : "";
+  // anggaran ansuran (4.00% p.a., 35 tahun, 90% pembiayaan)
+  let inst = "";
+  if (l.price) {
+    const loan = l.price * 0.9, r = 0.04 / 12, n = 35 * 12;
+    const m = Math.round(loan * r / (1 - Math.pow(1 + r, -n)));
+    inst = `<div class="price-inst">~ ${fmt(m)}/bln (anggaran)</div>`;
+  }
+  // anggaran ansuran (4.00% p.a., 35 tahun, 90% pembiayaan)
+  let inst = "";
+  if (l.price) {
+    const loan = l.price * 0.9, r = 0.04 / 12, n = 35 * 12;
+    const m = Math.round(loan * r / (1 - Math.pow(1 + r, -n)));
+    inst = `<div class="price-inst">~ ${fmt(m)}/bln (anggaran)</div>`;
+  }
 
   return `
   <article class="card">
@@ -95,6 +112,8 @@ function card(l) {
       <p class="card-loc">📍 ${l.location}</p>
       ${l.description ? `<p class="card-desc">${l.description}</p>` : ""}
       <div class="price-row"><span class="price">${l.price_label}</span>${oldPrice}</div>
+      ${inst}
+      ${inst}
       ${specs.length ? `<div class="specs">${specs.join("")}</div>` : ""}
       <div class="card-actions">
         <a class="btn btn-wa-card" href="https://wa.me/${WA}?text=${waMsg}" target="_blank" rel="noopener">WhatsApp</a>

@@ -26,7 +26,7 @@
   "address": {"@type": "PostalAddress", "addressCountry": "MY"}
 }
 </script>
-<link rel="stylesheet" href="style.css?v=62">
+<link rel="stylesheet" href="style.css?v=63">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 </head>
 <body>
@@ -65,46 +65,69 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="hero hero-f1">
+  <div class="bg"><img src="assets/hero.jpg" width="1600" height="1067" fetchpriority="high"
+    alt="Rumah teres dua tingkat — contoh listing Zahir MJ Property"></div>
+  <div class="veil"></div>
   <div class="container">
-    <h1>Cari Hartanah Idaman Anda</h1>
-    <p>Listing terkini dari ejen hartanah profesional — rumah, semi-D, tanah &amp; komersial. Semua unit melalui semakan status pemilikan dan harga pasaran.</p>
-    <p style="margin-top:14px"><a class="btn-wa" href="semak-kelayakan.html" style="background:#14452F;border-radius:10px;padding:11px 18px;display:inline-block;text-decoration:none">✅ Semak Kelayakan Pinjaman &amp; DSR — Percuma</a></p>
-    <div class="search-panel" id="searchPanel">
-      <div class="deal-tabs" id="dealTabs">
-        <button type="button" class="deal-tab active" data-deal="">Semua</button>
-        <button type="button" class="deal-tab" data-deal="JUAL">Jual</button>
-        <button type="button" class="deal-tab" data-deal="SEWA">Sewa</button>
-        <button type="button" class="deal-tab" data-deal="JV">JV</button>
-      </div>
-      <div class="search-row">
-        <input type="text" id="searchInput" placeholder="Cari lokasi, jenis hartanah..." autocomplete="off">
-        <select id="stateFilter" aria-label="Negeri">
-          <option value="">Semua Negeri</option>
-        </select>
-        <select id="typeFilter" aria-label="Jenis">
-          <option value="">Semua Jenis</option>
-        </select>
-      </div>
-      <div class="search-row search-row-2">
-        <div class="price-field">
-          <span>Harga min</span>
-          <input type="number" id="minPrice" placeholder="cth: 500000" min="0" step="10000">
+    <div class="inner">
+      <span class="eyebrow">Ejen berdaftar PEA 2684 · Selangor, KL &amp; Putrajaya</span>
+      <h1>Cari Hartanah Idaman Anda</h1>
+      <p class="lead">Listing terkini dari ejen hartanah profesional — rumah, semi-D, tanah &amp; komersial. Semua unit melalui semakan status pemilikan dan harga pasaran.</p>
+      <div class="search-panel" id="searchPanel">
+        <div class="deal-tabs" id="dealTabs">
+          <button type="button" class="deal-tab active" data-deal="">Semua</button>
+          <button type="button" class="deal-tab" data-deal="JUAL">Jual</button>
+          <button type="button" class="deal-tab" data-deal="SEWA">Sewa</button>
+          <button type="button" class="deal-tab" data-deal="JV">JV</button>
         </div>
-        <div class="price-field">
-          <span>Harga maks</span>
-          <input type="number" id="maxPrice" placeholder="cth: 1000000" min="0" step="10000">
+        <div class="search-row">
+          <input type="text" id="searchInput" placeholder="Cari lokasi, jenis hartanah..." autocomplete="off">
+          <select id="stateFilter" aria-label="Negeri"><option value="">Semua Negeri</option></select>
+          <select id="typeFilter" aria-label="Jenis"><option value="">Semua Jenis</option></select>
         </div>
-        <select id="sortSelect" aria-label="Susun">
-          <option value="newest">Terbaru</option>
-          <option value="priceAsc">Harga: Rendah → Tinggi</option>
-          <option value="priceDesc">Harga: Tinggi → Rendah</option>
-        </select>
-        <button class="btn btn-clear" id="clearBtn" type="button">Reset</button>
+        <div class="search-row search-row-2">
+          <div class="price-field"><span>Harga min</span>
+            <input type="number" id="minPrice" placeholder="cth: 500000" min="0" step="10000"></div>
+          <div class="price-field"><span>Harga maks</span>
+            <input type="number" id="maxPrice" placeholder="cth: 1000000" min="0" step="10000"></div>
+          <select id="sortSelect" aria-label="Susun">
+            <option value="newest">Terbaru</option>
+            <option value="priceAsc">Harga: Rendah → Tinggi</option>
+            <option value="priceDesc">Harga: Tinggi → Rendah</option>
+          </select>
+          <button class="btn btn-clear" id="clearBtn" type="button">Reset</button>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="trust-f1"><div class="container"><ul>
+  <li><span class="ic">✅</span>63 listing aktif disemak status pemilikan</li>
+  <li><span class="ic">⚡</span>Balasan WhatsApp pada hari sama</li>
+  <li><span class="ic">🧮</span>Kalkulator &amp; semak kelayakan percuma</li>
+  <li><span class="ic">🤝</span>Ejen berdaftar PEA 2684</li>
+</ul></div></section>
+
+<section class="container" style="padding:34px 0 6px">
+  <h2 class="f1-hd" style="font-size:clamp(20px,2.4vw,26px);margin-bottom:14px">Mula dari mana?</h2>
+  <div class="seg-f1">
+    <a class="seg" href="#listing" data-seg="teres">
+      <img src="assets/seg-rumah.jpg" width="900" height="600" loading="lazy" alt="Rumah subsale">
+      <span class="ov"></span><span class="n">Rumah</span>
+      <span class="tx"><h3>Rumah Subsale</h3><p>Rumah teres, semi-D, banglo &amp; apartmen — unit sedia didiami atau direnovasi.</p></span></a>
+    <a class="seg" href="#listing" data-seg="apartmen">
+      <img src="assets/seg-apartmen.jpg" width="900" height="600" loading="lazy" alt="Apartmen dan kondo">
+      <span class="ov"></span><span class="n">Apartmen</span>
+      <span class="tx"><h3>Apartmen &amp; Kondo</h3><p>Pilihan rumah pertama dan pelaburan sewa di koridor Bangi – Putrajaya – Cyberjaya.</p></span></a>
+    <a class="seg" href="#listing" data-seg="komersial">
+      <img src="assets/seg-komersial.jpg" width="900" height="600" loading="lazy" alt="Hartanah komersial">
+      <span class="ov"></span><span class="n">Komersial</span>
+      <span class="tx"><h3>Komersial</h3><p>Kedai, pejabat &amp; bangunan untuk perniagaan atau pelaburan.</p></span></a>
+  </div>
+</section>
+
 
 <section class="portal-cta">
   <div class="container portal-cta-inner">
@@ -195,6 +218,9 @@
 </div>
 
 <script src="data/listings.js?v=78"></script>
-<script src="app.js?v=62"></script>
+<script src="app.js?v=63"></script>
+<script src="assets/fasa1.js?v=1"></script>
+<script src="assets/ali-config.js?v=1"></script>
+<script src="assets/ali-chat.js?v=1"></script>
 </body>
 </html>
