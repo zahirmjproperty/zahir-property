@@ -273,3 +273,9 @@ if (toggle) toggle.addEventListener("click", () => {
 });
 const menuPanel = document.getElementById("menuPanel");
 if (menuPanel) menuPanel.addEventListener("click", (e) => { if (e.target === menuPanel) menuPanel.classList.remove("buka"); });
+
+// Angka statistik hidup — elak angka tetap (hardcoded) jadi basi di laman utama
+(() => {
+  const el = document.getElementById("statAktif");
+  if (el) el.textContent = DATA.length;
+})();
