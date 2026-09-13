@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Papan Ejen COA — Zahir MJ</title>
+<style>
+:root{--navy:#0f2a43;--navy2:#1b3a5c;--gold:#c9a227;--bg:#0f1419;--card:#161c24;--line:#2a3340;--txt:#e8eef5;--dim:#93a4b8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:9;background:linear-gradient(135deg,var(--navy),var(--navy2));padding:16px 18px 14px;border-bottom:5px solid var(--gold);box-shadow:0 3px 10px rgba(0,0,0,.2)}
+header h1{margin:0;font-size:19px;font-weight:800}
+header p{margin:4px 0 0;font-size:12.5px;color:#cfe0f0}
+.bulat{width:42px;height:42px;border-radius:50%;background:var(--gold);color:#0f2a43;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:14px;float:left;margin-right:12px}
+.stat{display:flex;gap:10px;flex-wrap:wrap;padding:14px 18px 0}
+.stat div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12.5px}
+.stat b{font-size:17px;display:block;color:var(--gold)}
+.panel{padding:14px 18px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tab,.chip{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:99px;padding:7px 14px;font-size:13px;cursor:pointer}
+.tab.on{background:var(--gold);color:#0f2a43;font-weight:700;border-color:var(--gold)}
+input#cari,input.em{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:9px;padding:8px 12px;font-size:13px}
+input#cari{min-width:220px;border-radius:99px}
+.kad{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:10px 18px;padding:12px 14px}
+.kepala{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.kiri{display:flex;gap:11px;align-items:flex-start;min-width:260px;flex:1}
+.lencana{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+.lencana.zahir{background:#1e3a5f;color:#8fc4ff}
+.lencana.mt{background:#1d3b2a;color:#7fe0a5}
+.kad h3{margin:0 0 3px;font-size:15.5px}
+.meta{font-size:12.5px;color:var(--dim);display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.pg{background:#3a3317;color:#ffd76e;border-radius:99px;padding:1px 9px;font-weight:700;font-size:11.5px}
+.emel.ada{color:#7fe0a5}
+.tiada{color:#c98b8b}
+.st{background:#2a2f3a;border-radius:99px;padding:2px 9px}
+.st.wa{background:#14432f;color:#7fe0a5}
+.st.em{background:#1b3a5c;color:#9fd0ff}
+.btn-baris{display:flex;gap:7px;flex-wrap:wrap;margin-top:2px}
+.b{border:1px solid var(--line);background:#1e2632;color:var(--txt);border-radius:9px;padding:7px 12px;font-size:12.5px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.b.wa{background:#0e5c3f;border-color:#12774f;font-weight:700}
+.b.em{background:#1b3a5c;border-color:#2a5580}
+.b:disabled{opacity:.45;cursor:not-allowed}
+details{margin-top:9px}
+summary{cursor:pointer;font-size:12.5px;color:var(--gold)}
+ul.senarai{list-style:none;margin:8px 0 0;padding:0;font-size:12.5px}
+ul.senarai li{padding:4px 0;border-bottom:1px dashed #232c38;display:flex;gap:8px;align-items:center}
+ul.senarai code{background:#0d1219;padding:1px 6px;border-radius:5px;color:#9fd0ff;font-size:11.5px}
+ul.senarai .t{flex:1}
+.h{color:var(--gold)}
+.j{background:#2a2f3a;border-radius:99px;padding:1px 8px;font-size:11px}
+.j.sewa{background:#4a3a12;color:#ffd76e}
+.j.off{background:#4a1d1d;color:#ff9b9b}
+pre.msg{white-space:pre-wrap;background:#0d1219;border:1px solid var(--line);border-radius:9px;padding:11px;font-size:12.5px;line-height:1.5;margin:8px 0 0;color:#dbe6f2;font-family:inherit}
+.nota{background:#1b2b3d;border-left:4px solid var(--gold);padding:10px 14px;margin:12px 18px;border-radius:8px;font-size:12.5px;line-height:1.55}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--gold);color:#0f2a43;font-weight:700;padding:11px 18px;border-radius:10px;z-index:99;max-width:90vw;text-align:center}
+.foot{color:var(--dim);font-size:12px;padding:6px 18px 26px}
+@media(max-width:640px){.kad{margin:10px 10px}.panel{padding:12px 10px}.stat{padding:12px 10px 0}.b{flex:1;text-align:center}}
+</style>
+</head>
+<body>
+<header><div class="bulat" id="bulat">ZM</div><h1 id="tajuk">Papan Ejen COA</h1>
+<p id="sub">Halaman peribadi — memuatkan data…</p></header>
+<div class="stat" id="stat"></div>
+<div id="nota"></div>
+<div class="panel" id="panel"></div>
+<div id="senarai"></div>
+<div class="foot">Sebarang pertanyaan: WhatsApp Zahir MJ (IQI-PEA2684) 012-2310119 · Pautan peribadi, jangan dikongsi.</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+var API = "https://script.google.com/macros/s/AKfycbwafaViIuCpc-Q0XnUpSHgkKVTFcyfPProf0GvSi9C-L22hUsZ_NA-03wXjd2F-GRIS/exec";
+var SB_URL = "https://ntvlqfsisanztdeqhpxh.supabase.co";
+var SB_KEY = "sb_publishable_rPZ8734eOqaX3Mx-yyhN4w_Ta44wsCS";
+var T = new URLSearchParams(location.search).get("t") || "";
+if (T) { try { localStorage.setItem("coa_papan_token", T); } catch (e) {} }
+else { try { T = localStorage.getItem("coa_papan_token") || ""; } catch (e) { T = ""; } }
+var SESI = null, DATA = null;
+
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+function bising(t) { var d = document.createElement("div"); d.className = "toast"; d.textContent = t; document.body.appendChild(d); setTimeout(function () { d.remove(); }, 3600); }
+function ralat(m) { document.getElementById("panjang") ; document.getElementById("senarai").innerHTML = '<div class="nota">' + esc(m) + '</div>'; }
+
+function mula() {
+  if (T) { muat(); return; }
+  /* tiada token — cuba sesi log masuk (Supabase) */
+  try {
+    if (window.supabase && SB_URL && SB_KEY) {
+      var SB = window.supabase.createClient(SB_URL, SB_KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
+      SB.auth.getSession().then(function (r) {
+        if (r && r.data && r.data.session) { SESI = r.data.session; muat(); }
+        else { tiadaAkses(); }
+      }).catch(function () { tiadaAkses(); });
+      return;
+    }
+  } catch (e) {}
+  tiadaAkses();
+}
+
+function tiadaAkses() {
+  document.getElementById("sub").textContent = "Kemasukan diperlukan";
+  document.getElementById("panel").innerHTML = "";
+  document.getElementById("senarai").innerHTML = '<div class="nota"><b>Pautan peribadi diperlukan.</b><br>'
+    + 'Halaman ini untuk pemantauan dalaman. Sila guna pautan peribadi anda (…papan-coa.html?t=…). '
+    + 'Jika anda fikir ini satu kesilapan, hubungi Zahir MJ 012-2310119.</div>';
+}
+
+function muat() {
+  document.getElementById("sub").textContent = "Memuatkan data ejen…";
+  var url = (SESI ? API + "?aksi=papan-coa&access_token=" + encodeURIComponent(SESI.access_token || "") + "&_=" + Date.now()
+                  : API + "?aksi=papan-coa&papan_token=" + encodeURIComponent(T) + "&_=" + Date.now());
+  fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+    if (!d || !d.ok) { ralat(d && d.error ? d.error : "Gagal memuatkan data."); return; }
+    DATA = d; lukis();
+  }).catch(function (e) { ralat("Ralat sambungan: " + e); });
+}
+
+function rekod(id, jenis, emel) {
+  var u = API + "?aksi=papan-coa-rekod&id=" + encodeURIComponent(id) + "&jenis=" + jenis
+        + (emel ? "&emel=" + encodeURIComponent(emel) : "")
+        + (SESI ? "&access_token=" + encodeURIComponent(SESI.access_token || "") : "&papan_token=" + encodeURIComponent(T))
+        + "&_=" + Date.now();
+  return fetch(u).then(function (r) { return r.json(); });
+}
+
+function lukis() {
+  var d = DATA, semua = d.ejen || [], skop = d.skop || "";
+  var mt = skop === "mt";
+  document.getElementById("bulat").textContent = mt ? "MT" : "ZM";
+  document.getElementById("tajuk").textContent = mt ? "Papan Ejen COA — Mr Tanah" : "Papan Ejen COA";
+  document.getElementById("sub").innerHTML = "Akses: <b>" + esc(d.nama || "") + "</b> · skop <b>" + (mt ? "Mr Tanah sahaja" : "ZMP + Mr Tanah") + "</b> · dikemas " + esc(d.masa || "");
+  document.getElementById("nota").innerHTML = '<div class="nota">' + (mt
+    ? 'Paparan <b>Mr Tanah sahaja</b> (skop Fadilah) — ejen / listing jenama ZMP tidak dipaparkan.'
+    : 'Paparan <b>Zahir (ADMIN)</b> — kedua-dua jenama: <b>ZMP</b> (Zahir MJ Property) + <b>MT</b> (Mr Tanah).') + '</div>';
+  var st = d.stat || {};
+  document.getElementById("stat").innerHTML =
+    '<div><b>' + (st.ejen || 0) + '</b>ejen</div><div><b>' + (st.listing || 0) + '</b>listing</div>'
+    + '<div><b>' + (st.ada_tel || 0) + '</b>ada nombor WA</div><div><b>' + (st.ada_emel || 0) + '</b>ada emel</div>'
+    + '<div><b>' + (st.belum || 0) + '</b>belum dihubungi</div>';
+  var p = document.getElementById("panel");
+  p.innerHTML = (mt ? "" :
+      '<button class="tab on" data-b="semua" onclick="tapis(this,\'semua\')">Semua</button>'
+    + '<button class="tab" data-b="zahir" onclick="tapis(this,\'zahir\')">ZMP</button>')
+    + '<button class="tab' + (mt ? ' on' : '') + '" data-b="mt" onclick="tapis(this,\'mt\')">Mr Tanah</button>'
+    + '<button class="chip" onclick="tapisBelum(this)">Belum dihubungi</button>'
+    + '<input id="cari" placeholder="Cari nama / nombor / REN…" oninput="cari()">';
+  var h = "";
+  for (var i = 0; i < semua.length; i++) h += kad(semua[i], i);
+  document.getElementById("senarai").innerHTML = h;
+}
+
+function kad(e, i) {
+  var items = "";
+  for (var k = 0; k < (e.listing || []).length; k++) {
+    var x = e.listing[k];
+    var jn = Array.isArray(x.jenis) ? x.jenis.join("/") : (x.jenis || "JUAL");
+    items += '<li><code>' + esc(x.trk) + '</code> <span class="t">' + esc(String(x.tajuk || "").slice(0, 56)) + '</span>'
+      + '<span class="h">' + esc(x.harga) + '</span><span class="j' + (/SEWA/i.test(String(jn)) ? ' sewa' : '') + '">' + esc(jn) + '</span>'
+      + (x.aktif === false ? '<span class="j off">OFF</span>' : '') + '</li>';
+  }
+  var st = [];
+  if (e.dihubungi_wa) st.push('<span class="st wa">WAZM ' + esc(String(e.dihubungi_wa).slice(0, 10)) + '</span>');
+  if (e.emel_minta) st.push('<span class="st em">Emel diminta ' + esc(String(e.emel_minta).slice(0, 10)) + '</span>');
+  if (e.emel_dihantar) st.push('<span class="st em">Emel dihantar ' + esc(String(e.emel_dihantar).slice(0, 10)) + '</span>');
+  if (!st.length) st.push('<span class="st">belum dihubungi</span>');
+  var waOk = !!e.wa_link;
+  var emOk = !!e.emel;
+  return '<div class="kad" data-brand="' + esc(e.brand) + '" data-hubung="' + (e.dihubungi_wa ? "1" : "0") + '" data-cari="'
+    + esc((e.nama + " " + e.slug + " " + e.telefon + " " + (e.panggilan || "")).toLowerCase()) + '">'
+    + '<div class="kepala"><div class="kiri"><span class="lencana ' + esc(e.brand) + '">' + (e.brand === "mt" ? "MT" : "ZMP") + '</span>'
+    + '<div><h3>' + esc(e.nama) + ' <span class="pg">Panggil: ' + esc(e.panggilan || "") + '</span></h3>'
+    + '<div class="meta"><span>' + (e.telefon ? '&#9742; +' + esc(e.telefon) : '<span class="tiada">&#9742; tiada nombor</span>') + '</span>'
+    + '<span class="' + (e.emel ? 'emel ada' : 'tiada') + '">&#9993; ' + (e.emel ? esc(e.emel) : 'tiada emel dalam rekod') + '</span>'
+    + '<span>&#128203; ' + (e.bilangan || 0) + ' listing</span>' + st.join("") + '</div></div></div>'
+    + '<div class="btn-baris">'
+    + '<a class="b wa" href="' + esc(e.wa_link || "#") + '" target="_blank" rel="noopener" onclick="rekod(\'' + esc(e.id) + '\',\'wa\')"' + (waOk ? '' : ' style="pointer-events:none;opacity:.45"') + '>WAZM</a>'
+    + '<button class="b em" onclick="emelKlik(\'' + esc(e.id) + '\',' + (emOk ? 'true' : 'false') + ')">Hantar emel</button>'
+    + '<a class="b" href="' + esc(e.link) + '" target="_blank" rel="noopener">Halaman ejen</a>'
+    + '<button class="b" onclick="salin(' + i + ')">Salin teks</button>'
+    + '</div></div>'
+    + '<details><summary>Lihat ' + (e.bilangan || 0) + ' listing</summary><ul class="senarai">' + items + '</ul></details>'
+    + '<details><summary>Lihat mesej WAZM (mesej yang akan dihantar)</summary><pre class="msg">' + esc(e.wa_teks || "(tiada mesej)") + '</pre></details></div>';
+}
+
+function emelKlik(id, adaEmel) {
+  if (!adaEmel) {
+    var em = prompt("Ejen ini tiada emel dalam rekod. Masukkan alamat emel untuk dihantar + disimpan:");
+    if (!em) return;
+    rekod(id, "emel", em.trim()).then(function (r) {
+      if (r && r.ok) { bising("Emel akan dihantar ke " + em + " dalam beberapa minit."); muat(); }
+      else { bising((r && r.error) || "Gagal merekod permintaan emel."); }
+    });
+    return;
+  }
+  if (!confirm("Hantar emel kemas kini kepada ejen ini?")) return;
+  rekod(id, "emel").then(function (r) {
+    if (r && r.ok) { bising(r.nota || "Permintaan emel direkod — akan dihantar dalam beberapa minit."); muat(); }
+    else { bising((r && r.error) || "Gagal."); }
+  });
+}
+
+function salin(i) {
+  var e = (DATA.ejen || [])[i];
+  navigator.clipboard.writeText(e.wa_teks || "").then(function () { bising("Teks WAZM disalin untuk " + (e.panggilan || e.nama)); });
+}
+function tapis(el, b) {
+  document.querySelectorAll('.tab[data-b]').forEach(function (t) { t.classList.toggle('on', t === el); });
+  document.querySelectorAll('.kad').forEach(function (k) { k.style.display = (b === 'semua' || k.dataset.brand === b) ? '' : 'none'; });
+}
+function tapisBelum(el) {
+  el.classList.toggle('on');
+  var on = el.classList.contains('on');
+  document.querySelectorAll('.kad').forEach(function (k) { if (on && k.dataset.hubung === '1') k.style.display = 'none'; });
+}
+function cari() {
+  var q = document.getElementById('cari').value.toLowerCase();
+  document.querySelectorAll('.kad').forEach(function (k) { k.style.display = k.dataset.cari.indexOf(q) >= 0 ? '' : 'none'; });
+}
+mula();
+</script>
+</body>
+</html>
