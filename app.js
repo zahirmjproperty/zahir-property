@@ -65,10 +65,14 @@ function mediaHTML(l, link, extra = []) {
     : `<div class="placeholder ${typeGrad(l)}"><span class="ph-icon">${typeIcon(l)}</span><span class="ph-text">${l.type || "Hartanah"}</span></div>`;
   const bil = (l.images && l.images.length) ? l.images.length : 0;
   const kira = bil > 1 ? `<span class="phcount">📷 ${bil}</span>` : "";
+  const pPart = String(l.location || "").split(",").map(t => t.trim()).filter(Boolean);
+  const pShort = pPart.length >= 2 ? pPart[pPart.length - 2] : (pPart[0] || "");
+  const chipHarga = l.price_label ? `<span class="price-chip">${l.price_label}${pShort ? " · " + pShort : ""}</span>` : "";
   return `<a class="card-media" href="${link}" aria-label="${l.title}">
     ${inner}
     <div class="badges">${badges.join("")}</div>
     ${kira}
+    ${chipHarga}
   </a>`;
 }
 
@@ -164,6 +168,8 @@ const DEAL_LABEL = { JUAL: "Jual", SEWA: "Sewa", JV: "JV" };
 let q = params.get("q") || "";
 let min = params.get("min") || "";
 let max = params.get("max") || "";
+let bed = params.get("bed") || "";
+let ten = params.get("tenure") || "";
 let sort = params.get("sort") || "newest";
 
 function apply() {
@@ -175,6 +181,8 @@ function apply() {
     if (q && !hay.includes(q.toLowerCase())) return false;
     if (min !== "" && !(l.price >= Number(min))) return false;
     if (max !== "" && !(l.price <= Number(max))) return false;
+    if (bed !== "" && !(Number(l.bedrooms || 0) >= Number(bed))) return false;
+    if (ten && String(l.tenure || "").toLowerCase() !== ten.toLowerCase()) return false;
     return true;
   });
   if (sort === "priceAsc") items.sort((a, b) => (a.price || 0) - (b.price || 0));
@@ -210,6 +218,8 @@ function apply() {
   if (deal) p.set("deal", deal);
   if (min) p.set("min", min);
   if (max) p.set("max", max);
+  if (bed) p.set("bed", bed);
+  if (ten) p.set("tenure", ten);
   if (sort && sort !== "newest") p.set("sort", sort);
   const qs = p.toString();
   history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
@@ -278,4 +288,46 @@ if (menuPanel) menuPanel.addEventListener("click", (e) => { if (e.target === men
 (() => {
   const el = document.getElementById("statAktif");
   if (el) el.textContent = DATA.length;
+})();
+
+// === FASA 2 (13/9/2026): penapis bilik & pegangan + chip julat harga ===
+(() => {
+  const bedSel = document.getElementById("bedFilter");
+  if (bedSel) {
+    const vals = [...new Set(DATA.map(l => Number(l.bedrooms || 0)).filter(n => n > 0))].sort((a, b) => a - b);
+    vals.forEach(n => { const o = document.createElement("option"); o.value = n; o.textContent = "≥ " + n + " bilik"; bedSel.appendChild(o); });
+    if (vals.length < 4) bedSel.style.display = "none";   // laman tanah: penapis bilik tidak relevan
+    bedSel.value = bed;
+    bedSel.addEventListener("change", () => { bed = bedSel.value; apply(); });
+  }
+  const tenSel = document.getElementById("tenureFilter");
+  if (tenSel) {
+    const vals = [...new Set(DATA.map(l => String(l.tenure || "").trim()).filter(t => t && t !== "-"))].sort();
+    vals.forEach(t => { const o = document.createElement("option"); o.value = t; o.textContent = t; tenSel.appendChild(o); });
+    tenSel.value = ten;
+    tenSel.addEventListener("change", () => { ten = tenSel.value; apply(); });
+  }
+  const chipSet = document.getElementById("priceChips");
+  const minI = document.getElementById("minPrice"), maxI = document.getElementById("maxPrice");
+  const PRESET = [
+    { lbl: "Bawah RM500k", min: "", max: "500000" },
+    { lbl: "RM500k–1j", min: "500000", max: "1000000" },
+    { lbl: "RM1j–2j", min: "1000000", max: "2000000" },
+    { lbl: "Atas RM2j", min: "2000000", max: "" }
+  ];
+  const tandaChip = () => { if (!chipSet) return; [...chipSet.children].forEach(c => c.classList.toggle("active", c.dataset.min === min && c.dataset.max === max)); };
+  if (chipSet && minI && maxI) {
+    PRESET.forEach(p => {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "chipf2"; b.textContent = p.lbl;
+      b.dataset.min = p.min; b.dataset.max = p.max;
+      b.addEventListener("click", () => { minI.value = p.min; maxI.value = p.max; min = p.min; max = p.max; tandaChip(); apply(); });
+      chipSet.appendChild(b);
+    });
+    tandaChip();
+  }
+  const clr = document.getElementById("clearBtn");
+  if (clr) clr.addEventListener("click", () => { if (bedSel) bedSel.value = ""; if (tenSel) tenSel.value = ""; bed = ""; ten = ""; tandaChip(); });
+  if (minI) minI.addEventListener("input", tandaChip);
+  if (maxI) maxI.addEventListener("input", tandaChip);
 })();
