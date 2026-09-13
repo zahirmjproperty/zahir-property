@@ -8,6 +8,27 @@ function fmt(n) {
   return "RM" + Number(n).toLocaleString("en-MY");
 }
 
+// --- Sewa / pajakan (arahan Zahir 14/9/2026) -------------------------------
+// Listing SEWA TIDAK boleh dipaparkan "anggaran ansuran pinjaman /bulan" —
+// angka itu untuk belian, jadi ia mengelirukan (cth sewa RM2,300 dipaparkan
+// "~ RM793/bln (anggaran)"). Ansuran hanya untuk listing JUAL.
+// SEWA_SHOW_BULAN: tampal ' / bulan' pada label sewa yang tiada tempoh
+// (cth "RM2,300" -> "RM2,300 / bulan") supaya jelas ia sewa bulanan.
+const SEWA_SHOW_BULAN = true;
+function dealsOf(l) {
+  const j = l.jenis;
+  return Array.isArray(j) ? j : String(j || "").split(/[/,|]/);
+}
+function isSewa(l) {
+  if (dealsOf(l).some(d => /SEWA|PAJAK/i.test(String(d).trim()))) return true;
+  return /bulan|sebulan/i.test(String(l.price_label || ""));
+}
+function priceLabel(l) {
+  const lbl = l.price_label || "";
+  if (SEWA_SHOW_BULAN && isSewa(l) && lbl && !/bulan|sebulan/i.test(lbl)) return lbl + " / bulan";
+  return lbl;
+}
+
 // --- Pengumpulan projek (berbilang unit dalam hartanah sama, cth Intana Ria) ---
 function projSlug(l) {
   if (l.project) return String(l.project).trim().toLowerCase();
@@ -67,7 +88,7 @@ function mediaHTML(l, link, extra = []) {
   const kira = bil > 1 ? `<span class="phcount">📷 ${bil}</span>` : "";
   const pPart = String(l.location || "").split(",").map(t => t.trim()).filter(Boolean);
   const pShort = pPart.length >= 2 ? pPart[pPart.length - 2] : (pPart[0] || "");
-  const chipHarga = l.price_label ? `<span class="price-chip">${l.price_label}${pShort ? " · " + pShort : ""}</span>` : "";
+  const chipHarga = l.price_label ? `<span class="price-chip">${priceLabel(l)}${pShort ? " · " + pShort : ""}</span>` : "";
   return `<a class="card-media" href="${link}" aria-label="${l.title}">
     ${inner}
     <div class="badges">${badges.join("")}</div>
@@ -93,9 +114,10 @@ function card(l) {
   if (l.tenure && l.tenure !== "-") specs.push(`📜 ${l.tenure}`);
 
   const oldPrice = l.price_old ? `<span class="price-old">${fmt(l.price_old)}</span>` : "";
-  // anggaran ansuran (4.00% p.a., 35 tahun, 90% pembiayaan)
+  // anggaran ansuran (4.00% p.a., 35 tahun, 90% pembiayaan) — JUAL SAHAJA.
+  // SEWA/pajakan: tiada ansuran pinjaman (arahan Zahir 14/9/2026 — mengelirukan).
   let inst = "";
-  if (l.price) {
+  if (l.price && !isSewa(l)) {
     const loan = l.price * 0.9, r = 0.04 / 12, n = 35 * 12;
     const m = Math.round(loan * r / (1 - Math.pow(1 + r, -n)));
     inst = `<div class="price-inst">~ ${fmt(m)}/bln (anggaran)</div>`;
@@ -108,7 +130,7 @@ function card(l) {
       <h3 class="card-title"><a href="${url}">${l.title}</a></h3>
       <p class="card-loc">📍 ${l.location}</p>
       ${l.description ? `<p class="card-desc">${l.description}</p>` : ""}
-      <div class="price-row"><span class="price">${l.price_label}</span>${oldPrice}</div>
+      <div class="price-row"><span class="price">${priceLabel(l)}</span>${oldPrice}</div>
       ${inst}
       ${specs.length ? `<div class="specs">${specs.join("")}</div>` : ""}
       <div class="card-actions">
