@@ -593,4 +593,4 @@ h1,h2,h3,h4,.price,.card-title,.brand-text strong,.f1-hd{font-family:var(--font-
   padding:7px 12px; border-radius:999px; cursor:pointer; }
 .chipf2:hover { border-color:var(--brand); color:var(--brand); }
 .chipf2.active { background:var(--brand); border-color:var(--brand); color:#fff; }
-@media (max-width:640px) { .price-chip { font-size:11.5px; padding:3px 9px; } }
+@media (max-width:640px) { .price-chip { font-size:11.5px; padding:3px 9px; } .search-row-3 select { width:100%; } }
