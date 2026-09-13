@@ -457,9 +457,9 @@ a { color: inherit; text-decoration: none; }
    Ditambah di HUJUNG style.css supaya menang cascade tanpa ubah peraturan lama.
    ========================================================================== */
 
-@font-face{font-family:'Plus Jakarta Sans';src:url(../fonts/PlusJakartaSans-var.woff2) format('woff2');
+@font-face{font-family:'Plus Jakarta Sans';src:url(../fonts/)PlusJakartaSans-var.woff2) format('woff2');
   font-weight:600 800;font-style:normal;font-display:swap}
-@font-face{font-family:'Inter';src:url(../fonts/Inter-var.woff2) format('woff2');
+@font-face{font-family:'Inter';src:url(../fonts/)Inter-var.woff2) format('woff2');
   font-weight:100 900;font-style:normal;font-display:swap}
 
 :root{
