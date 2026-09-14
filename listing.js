@@ -281,7 +281,7 @@ if (root) {
   if (!l) {
     root.innerHTML = `<div class="empty">
       <p>Listing tidak dijumpai atau telah dikemaskini.</p>
-      <a class="btn btn-wa" href="index.html">← Lihat Semua Listing</a>
+      <a class="btn btn-wa" href="/">← Lihat Semua Listing</a>
     </div>`;
   } else {
     // canonical ke halaman static (SEO)
