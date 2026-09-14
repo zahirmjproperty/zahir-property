@@ -104,22 +104,40 @@ function tiadaAkses() {
     + 'Jika anda fikir ini satu kesilapan, hubungi Zahir MJ 012-2310119.</div>';
 }
 
-function muat() {
-  document.getElementById("sub").textContent = "Memuatkan data ejen…";
+function muat(cubaan) {
+  cubaan = cubaan || 0;
+  document.getElementById("sub").textContent = cubaan ? "Cuba semula…" : "Memuatkan data ejen…";
   var url = (SESI ? API + "?aksi=papan-coa&access_token=" + encodeURIComponent(SESI.access_token || "") + "&_=" + Date.now()
                   : API + "?aksi=papan-coa&papan_token=" + encodeURIComponent(T) + "&_=" + Date.now());
-  fetch(url).then(function (r) { return r.json(); }).then(function (d) {
-    if (!d || !d.ok) { ralat(d && d.error ? d.error : "Gagal memuatkan data."); return; }
-    DATA = d; lukis();
-  }).catch(function (e) { ralat("Ralat sambungan: " + e); });
+  fetch(url, { cache: "no-store" })
+    .then(function (r) { return r.text(); })
+    .then(function (t) {
+      var d = null;
+      try { d = JSON.parse(t); } catch (eP) { d = null; }
+      if (!d) throw new Error("perkhidmatan belum sedia");
+      if (!d.ok) { ralat(d.error || "Gagal memuatkan data."); return; }
+      DATA = d; lukis();
+    })
+    .catch(function (e) {
+      if (cubaan < 3) { setTimeout(function () { muat(cubaan + 1); }, 1400); return; }
+      ralat("Ralat sambungan: " + e + " — sila muat semula halaman.");
+    });
 }
 
-function rekod(id, jenis, emel) {
+function rekod(id, jenis, emel, cubaan) {
+  cubaan = cubaan || 0;
   var u = API + "?aksi=papan-coa-rekod&id=" + encodeURIComponent(id) + "&jenis=" + jenis
         + (emel ? "&emel=" + encodeURIComponent(emel) : "")
         + (SESI ? "&access_token=" + encodeURIComponent(SESI.access_token || "") : "&papan_token=" + encodeURIComponent(T))
         + "&_=" + Date.now();
-  return fetch(u).then(function (r) { return r.json(); });
+  return fetch(u, { cache: "no-store" })
+    .then(function (r) { return r.text(); })
+    .then(function (t) {
+      var d = null;
+      try { d = JSON.parse(t); } catch (eP) { d = null; }
+      if (!d && cubaan < 3) return new Promise(function (ok) { setTimeout(ok, 1400); }).then(function () { return rekod(id, jenis, emel, cubaan + 1); });
+      return d || { ok: false, error: "Perkhidmatan belum sedia — cuba lagi sebentar." };
+    });
 }
 
 function lukis() {
