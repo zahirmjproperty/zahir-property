@@ -81,7 +81,7 @@ var WEBHOOK = "";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
   return '<div class="card" id="cd'+i+'">'
-   + '<span class="badge">Disemak 10/09/2026</span>'
+   + '<span class="badge">Disemak 15/09/2026</span>'
    + '<h2>'+d.tajuk+'</h2>'
    + '<div class="meta">'+specs.map(function(s){return '<span class="tag">'+s+'</span>';}).join('')+'</div>'
    + '<label>Status terkini</label>'
