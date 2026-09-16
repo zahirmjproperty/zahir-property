@@ -71,61 +71,6 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-0002",
-    "title": "2 Storey Semi-D D'Cempaka Seksyen 9 Bandar Baru Bangi",
-    "type": "Rumah Semi-D",
-    "location": "Seksyen 9, Bandar Baru Bangi, Selangor",
-    "state": "Selangor",
-    "price": 1150000,
-    "price_label": "RM1,150,000 (Nego)",
-    "price_old": 1250000,
-    "land_area": "Tanah 42x96 (4,101 sqft)",
-    "built_up": "4,300 sqft (approx)",
-    "tenure": "Leasehold",
-    "bedrooms": 6,
-    "bathrooms": 4,
-    "status": "PROMOSI",
-    "jenis": "JUAL",
-    "highlights": [
-      "⚡ Turun RM100K — RM1.25M → RM1.15M (nego)",
-      "Renovated & sedia didiami",
-      "Gated & guarded 24 jam",
-      "Bersebelahan Masjid Al-Hasanah (Masjid Hijau)",
-      "5+1 bilik, 4 bilik air",
-      "Akses PLUS, SILK, SKVE & LEKAS"
-    ],
-    "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi — harga diturunkan RM100K kepada RM1,150,000 (boleh nego, view to offer). Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — 5+1 bilik, 4 bilik air. Kawasan gated & guarded 24 jam, bersebelahan Masjid Al-Hasanah (Masjid Hijau) — berjalan kaki sahaja. Berdekatan EVO Mall, KIP Mall dan PKNS Bangi, restoran, klinik, farmasi, dobi serta sekolah. Akses mudah ke PLUS, SILK, SKVE dan LEKAS Highway. Sesuai untuk keluarga yang mencari ruang luas di lokasi strategik Bandar Baru Bangi. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
-    "amenities": [
-      "Masjid Al-Hasanah",
-      "EVO Mall",
-      "KIP Mall",
-      "PKNS Bangi",
-      "Restoran",
-      "Klinik & Farmasi",
-      "Sekolah & Pusat Pendidikan"
-    ],
-    "nearby": [
-      "Bandar Baru Bangi",
-      "Masjid Al-Hasanah",
-      "EVO Mall",
-      "KIP Mall",
-      "PKNS Bangi",
-      "Bangi Gateway",
-      "UKM"
-    ],
-    "map_url": "https://www.google.com/maps/search/?api=1&query=D%27Cempaka+Seksyen+9+Bandar+Baru+Bangi",
-    "project": "",
-    "project_name": "",
-    "unit": "",
-    "source": "COA",
-    "date": "2026-08-30",
-    "images": [
-      "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
-      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
-    ],
-    "active": true
-  },
-  {
     "tracking": "COA-0003",
     "title": "3 Storey Shoplot Presint 11 Putrajaya",
     "type": "Komersial",
@@ -7469,6 +7414,61 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1LFdjD4ISzs1YeJGH_v8zyKQnrnpEGDWn=w1000"
     ],
     "active": true
+  },
+  {
+    "tracking": "COA-0002",
+    "title": "2 Storey Semi-D D'Cempaka Seksyen 9 Bandar Baru Bangi",
+    "type": "Rumah Semi-D",
+    "location": "Seksyen 9, Bandar Baru Bangi, Selangor",
+    "state": "Selangor",
+    "price": 1150000,
+    "price_label": "RM1,150,000 (Nego)",
+    "price_old": 1250000,
+    "land_area": "Tanah 42x96 (4,101 sqft)",
+    "built_up": "4,300 sqft (approx)",
+    "tenure": "Leasehold",
+    "bedrooms": 6,
+    "bathrooms": 4,
+    "status": "DIJUAL",
+    "jenis": "JUAL",
+    "highlights": [
+      "⚡ Turun RM100K — RM1.25M → RM1.15M (nego)",
+      "Renovated & sedia didiami",
+      "Gated & guarded 24 jam",
+      "Bersebelahan Masjid Al-Hasanah (Masjid Hijau)",
+      "5+1 bilik, 4 bilik air",
+      "Akses PLUS, SILK, SKVE & LEKAS"
+    ],
+    "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi — harga diturunkan RM100K kepada RM1,150,000 (boleh nego, view to offer). Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — 5+1 bilik, 4 bilik air. Kawasan gated & guarded 24 jam, bersebelahan Masjid Al-Hasanah (Masjid Hijau) — berjalan kaki sahaja. Berdekatan EVO Mall, KIP Mall dan PKNS Bangi, restoran, klinik, farmasi, dobi serta sekolah. Akses mudah ke PLUS, SILK, SKVE dan LEKAS Highway. Sesuai untuk keluarga yang mencari ruang luas di lokasi strategik Bandar Baru Bangi. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
+    "amenities": [
+      "Masjid Al-Hasanah",
+      "EVO Mall",
+      "KIP Mall",
+      "PKNS Bangi",
+      "Restoran",
+      "Klinik & Farmasi",
+      "Sekolah & Pusat Pendidikan"
+    ],
+    "nearby": [
+      "Bandar Baru Bangi",
+      "Masjid Al-Hasanah",
+      "EVO Mall",
+      "KIP Mall",
+      "PKNS Bangi",
+      "Bangi Gateway",
+      "UKM"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=D%27Cempaka+Seksyen+9+Bandar+Baru+Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-08-30",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
+      "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
+    ],
+    "active": false
   },
   {
     "tracking": "COA-005",
