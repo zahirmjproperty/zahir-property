@@ -73,7 +73,11 @@
   </div>
 </div>
 <script>
-var DATA = [{"trk": "COA-0049", "tajuk": "Rumah Teres 2 Tingkat Seksyen 15 Bangi", "harga": "620,000", "keluasan": "±2,200 sqft (Built-Up); Land 22x75", "lokasi": "Seksyen 15, Bandar Baru Bangi, Selangor"}, {"trk": "COA-0045", "tajuk": "Apartment Anggerik Villa 2, Bandar Teknologi Kajang", "harga": "230,000", "keluasan": "1,063 sqft", "lokasi": "Bandar Teknologi Kajang, Selangor"}, {"trk": "COA-0044", "tajuk": "Double Storey Terrace Presint 9 Putrajaya", "harga": "849,000", "keluasan": "20' x 70' (1,410 sf) / Built-up 1,618 sqft", "lokasi": "Presint 9, Putrajaya"}, {"trk": "COA-0043", "tajuk": "3 Storey Shoplot TTDI Grove Kajang", "harga": "2,480,000", "keluasan": "22' x 80' (1,760 sqft)", "lokasi": "TTDI Grove, Kajang, Selangor"}, {"trk": "COA-0042", "tajuk": "2.5 Storey Superlink Corner Presint 16 Putrajaya", "harga": "1,250,000", "keluasan": "3,145 sqft", "lokasi": "Presint 16, Putrajaya"}, {"trk": "COA-0041", "tajuk": "Apartment Kita Impian Cybersouth Dengkil", "harga": "320,000", "keluasan": "901 sqft", "lokasi": "Dengkil, Selangor"}];
+// Data TIDAK lagi tertanam — diambil LIVE dari API (arahan Zahir 16/9/2026).
+// Listing yang sudah DIJUAL / tidak aktif tidak lagi keluar di sini secara automatik.
+var API = "https://script.google.com/macros/s/AKfycbzJlyo7cYzIeBWrHCaFvFwj3GcnNM5_jkDtSkYnM6lEafL1sAwQVMmT_O0peHChrk4/exec";
+var DATA = [];
+var DIJAGA = "";
 var TOKEN = "df637d7f1ac2";
 var BRAND_K = "zahir";
 var AGEN = "Faizul Zamrod";
@@ -81,7 +85,7 @@ var WEBHOOK = "";
 function card(d,i){
   var specs = [d.trk, d.harga?("RM "+d.harga):"", d.keluasan, d.lokasi].filter(Boolean);
   return '<div class="card" id="cd'+i+'">'
-   + '<span class="badge">Disemak 16/09/2026</span>'
+   + '<span class="badge">Data: ' + (DIJAGA || '-') + '</span>'
    + '<h2>'+d.tajuk+'</h2>'
    + '<div class="meta">'+specs.map(function(s){return '<span class="tag">'+s+'</span>';}).join('')+'</div>'
    + '<label>Status terkini</label>'
@@ -92,6 +96,27 @@ function card(d,i){
    + '</div>';
 }
 function render(){ document.getElementById('list').innerHTML = DATA.map(card).join(''); }
+function ralat(m){
+  document.getElementById('list').innerHTML = '<div class="card" style="border-color:#f5c2c7;background:#fff5f5">'
+    + '⚠️ Gagal memuatkan senarai terkini (' + m + ').<br>'
+    + '<button class="btn" style="margin-top:10px" onclick="muat()">🔄 Cuba lagi</button></div>';
+}
+function muat(){
+  document.getElementById('list').innerHTML = '<div class="card" style="color:#64748b">⏳ Memuatkan senarai terkini…</div>';
+  fetch(API + '?senarai=1&token=' + encodeURIComponent(TOKEN) + '&t=' + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      if (!j.ok) { ralat(j.error || 'ralat tidak diketahui'); return; }
+      DATA = j.data || []; DIJAGA = j.dijana || '';
+      if (!DATA.length) {
+        document.getElementById('list').innerHTML = '<div class="card">✅ Tiada listing aktif untuk dikemas kini buat masa ini.'
+          + '<div class="meta" style="margin-top:6px">Senarai dikemas kini: ' + (DIJAGA || '-') + '</div></div>';
+        return;
+      }
+      render();
+    })
+    .catch(function(e){ ralat(e.message); });
+}
 function toggle(i){
   var show = document.getElementById('st'+i).value === 'Harga berubah';
   document.getElementById('hh'+i).className = show ? 'row' : 'row hid';
@@ -149,7 +174,7 @@ function hantar(){
       var out=document.getElementById('out'); out.style.display='block'; out.textContent='Ralat: '+e.message+'\nSila cuba lagi atau WhatsApp Zahir MJ Property 012-2310119.';
     });
 }
-render();
+muat();
 </script>
 </body>
 </html>

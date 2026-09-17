@@ -2272,67 +2272,6 @@ window.LISTINGS = [
     "active": true
   },
   {
-    "tracking": "COA-0044",
-    "title": "Double Storey Terrace Presint 9 Putrajaya",
-    "type": "Rumah Teres",
-    "location": "Presint 9, Putrajaya",
-    "state": "Putrajaya",
-    "price": 849000,
-    "price_label": "RM849,000",
-    "price_old": null,
-    "land_area": "20' x 70' (1,410 sf) / Built-up 1,618 sqft",
-    "built_up": "-",
-    "tenure": "Freehold",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "status": "BARU",
-    "jenis": "JUAL",
-    "highlights": [
-      "Dual frontage menghadap kawasan lapang",
-      "Renovation & upgrade pemilik ~RM200,000",
-      "Fully furnished — 6 unit aircond",
-      "Backyard menghadap garden",
-      "Parking tambahan & 2 akses masuk"
-    ],
-    "description": "Rumah teres 2 tingkat intermediate di Presint 9, Putrajaya dengan dual frontage menghadap kawasan lapang. Fully furnished dengan 6 unit aircond, kitchen cabinet, built-in wardrobe dan anjung hadapan bertutup. Pemilik melabur kira-kira RM200,000 untuk renovation & upgrade — flooring dan bilik air dinaik taraf, keadaan terselenggara baik. Kini disewa dengan penyewa yang menjaga rumah dengan baik.",
-    "amenities": [
-      "4 bilik tidur, 3 bilik air",
-      "Land 20' x 70' (1,410 sf), built-up 1,618 sqft",
-      "Kitchen cabinet & built-in wardrobe",
-      "Covered verandah / anjung hadapan bertutup",
-      "Keadaan terselenggara baik"
-    ],
-    "nearby": [
-      "Ayer@8",
-      "Sekolah Presint 9",
-      "Medan Selera Presint 9",
-      "Hospital Putrajaya",
-      "Alamanda Shopping Centre",
-      "IOI City Mall",
-      "Putrajaya Sentral",
-      "Akses LDP, ELITE, PLUS, MEX"
-    ],
-    "map_url": "https://www.google.com/maps?q=Presint+9,+Putrajaya",
-    "project": "",
-    "project_name": "",
-    "unit": "",
-    "source": "COA",
-    "date": "2026-09-07",
-    "images": [
-      "https://lh3.googleusercontent.com/d/1JIW9IIzZ_sKyQVxBvEWTt2u6_mqgY5O5=w1000",
-      "https://lh3.googleusercontent.com/d/17qRkqAzBDAnFgmbc8R2S9--YsuHMPkHb=w1000",
-      "https://lh3.googleusercontent.com/d/1V7VSVymU0iL1CgTmBicH3PhhFdm4wGmk=w1000",
-      "https://lh3.googleusercontent.com/d/1uH4o02eXtztXAZMjg7StAbve5ItzLlJD=w1000",
-      "https://lh3.googleusercontent.com/d/1XH7o3TLRKpMPatfzq-oQg1dj24DDBhfi=w1000",
-      "https://lh3.googleusercontent.com/d/1MvR8QDg7SzkUlJngPe8bcnLycu4zohyr=w1000",
-      "https://lh3.googleusercontent.com/d/1UexBBUZBDhD2kchdMvP9sfasG0WwmXqP=w1000",
-      "https://lh3.googleusercontent.com/d/1wjwr3wZQxwUPAoEyzlClmq0T0BGACqER=w1000",
-      "https://lh3.googleusercontent.com/d/19tpT0PGfmq4rr97nHtNZlOMAMVJ8I8rA=w1000",
-      "https://lh3.googleusercontent.com/d/1fv5BDEiuq9SRP2t30XyVclBN1C2bBmlp=w1000"
-    ],
-    "active": true
-  },
-  {
     "tracking": "COA-0045",
     "title": "Apartment Anggerik Villa 2, Bandar Teknologi Kajang",
     "type": "Apartmen",
@@ -8547,6 +8486,67 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
+    ],
+    "active": false
+  },
+  {
+    "tracking": "COA-0044",
+    "title": "Double Storey Terrace Presint 9 Putrajaya",
+    "type": "Rumah Teres",
+    "location": "Presint 9, Putrajaya",
+    "state": "Putrajaya",
+    "price": 849000,
+    "price_label": "RM849,000",
+    "price_old": null,
+    "land_area": "20' x 70' (1,410 sf) / Built-up 1,618 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Dual frontage menghadap kawasan lapang",
+      "Renovation & upgrade pemilik ~RM200,000",
+      "Fully furnished — 6 unit aircond",
+      "Backyard menghadap garden",
+      "Parking tambahan & 2 akses masuk"
+    ],
+    "description": "Rumah teres 2 tingkat intermediate di Presint 9, Putrajaya dengan dual frontage menghadap kawasan lapang. Fully furnished dengan 6 unit aircond, kitchen cabinet, built-in wardrobe dan anjung hadapan bertutup. Pemilik melabur kira-kira RM200,000 untuk renovation & upgrade — flooring dan bilik air dinaik taraf, keadaan terselenggara baik. Kini disewa dengan penyewa yang menjaga rumah dengan baik.",
+    "amenities": [
+      "4 bilik tidur, 3 bilik air",
+      "Land 20' x 70' (1,410 sf), built-up 1,618 sqft",
+      "Kitchen cabinet & built-in wardrobe",
+      "Covered verandah / anjung hadapan bertutup",
+      "Keadaan terselenggara baik"
+    ],
+    "nearby": [
+      "Ayer@8",
+      "Sekolah Presint 9",
+      "Medan Selera Presint 9",
+      "Hospital Putrajaya",
+      "Alamanda Shopping Centre",
+      "IOI City Mall",
+      "Putrajaya Sentral",
+      "Akses LDP, ELITE, PLUS, MEX"
+    ],
+    "map_url": "https://www.google.com/maps?q=Presint+9,+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-07",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1JIW9IIzZ_sKyQVxBvEWTt2u6_mqgY5O5=w1000",
+      "https://lh3.googleusercontent.com/d/17qRkqAzBDAnFgmbc8R2S9--YsuHMPkHb=w1000",
+      "https://lh3.googleusercontent.com/d/1V7VSVymU0iL1CgTmBicH3PhhFdm4wGmk=w1000",
+      "https://lh3.googleusercontent.com/d/1uH4o02eXtztXAZMjg7StAbve5ItzLlJD=w1000",
+      "https://lh3.googleusercontent.com/d/1XH7o3TLRKpMPatfzq-oQg1dj24DDBhfi=w1000",
+      "https://lh3.googleusercontent.com/d/1MvR8QDg7SzkUlJngPe8bcnLycu4zohyr=w1000",
+      "https://lh3.googleusercontent.com/d/1UexBBUZBDhD2kchdMvP9sfasG0WwmXqP=w1000",
+      "https://lh3.googleusercontent.com/d/1wjwr3wZQxwUPAoEyzlClmq0T0BGACqER=w1000",
+      "https://lh3.googleusercontent.com/d/19tpT0PGfmq4rr97nHtNZlOMAMVJ8I8rA=w1000",
+      "https://lh3.googleusercontent.com/d/1fv5BDEiuq9SRP2t30XyVclBN1C2bBmlp=w1000"
     ],
     "active": false
   },
