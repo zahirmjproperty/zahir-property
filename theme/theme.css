@@ -1,0 +1,40 @@
+/* ZMP Luxury Theme — Zahir MJ Property
+   Obsidian navy + champagne gold. Moden / futuristik / mewah.
+   Dijana daripada mockup-redesign.html (2026-09-21). */
+
+:root {
+  --bg: #06121D;
+  --bg-deep: #030B13;
+  --surface: #0B1B29;
+  --surface-elevated: #102638;
+  --gold: #D8B56A;
+  --gold-light: #F0D28A;
+  --ivory: #F5F1E8;
+  --text: #F4F6F8;
+  --muted: #A7B1BD;
+  --border: rgba(164,193,214,0.24);
+  --whatsapp: #25D366;
+  --whatsapp-dark: #128C7E;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --r: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.5);
+}
+
+/* base */
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-sans);
+       -webkit-font-smoothing: antialiased; margin: 0; }
+h1,h2,h3.editorial { font-family: var(--font-serif); color: var(--ivory); }
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold-light); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.btn-whatsapp { background: var(--whatsapp); color: #04170C; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important;
+    transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

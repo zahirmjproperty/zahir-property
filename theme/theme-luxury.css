@@ -1,0 +1,66 @@
+/* ============================================================
+   Zahir MJ Property — Tema LUXURY (v2)
+   Midnight Navy + Champagne Gold + Electric Cyan
+   Dijana daripada mockup-luxury.html (2026-09-21)
+   Guna: <link rel="stylesheet" href="theme/theme-luxury.css">
+   ============================================================ */
+:root{
+  --navy: #071525;
+  --navy-deep: #040E1B;
+  --blue: #102A46;
+  --blue-soft: #132942;
+  --gold: #E8C57A;
+  --gold-pale: #F6DEA3;
+  --cyan: #63E5FF;
+  --silver: #C8CED8;
+  --warm-white: #F7F5EF;
+  --muted: #AAB4C3;
+  --line: rgba(232,197,122,.22);
+  --line-cool: rgba(99,229,255,.20);
+  --whatsapp: #25D366;
+  --sans: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --head: 'Manrope','Inter',system-ui,sans-serif;
+  --serif: 'Cormorant Garamond','Times New Roman',serif;
+  --r: 16px;
+  --r-lg: 22px;
+  --r-xl: 30px;
+  --glass: linear-gradient(145deg,rgba(19,41,66,.82),rgba(6,18,32,.90));
+  --shadow: 0 18px 50px rgba(0,0,0,.28);
+  --shadow-lg: 0 30px 80px rgba(0,0,0,.45);
+  --wrap: 1240px;
+}
+
+/* Bingkai bercahaya berjalan (travelling luxury border) */
+@property --border-angle{syntax:"<angle>";inherits:false;initial-value:0deg}
+.luxury-border{
+  position:relative;isolation:isolate;
+  border:1px solid var(--line);border-radius:var(--r-lg);
+  background:var(--glass);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08),var(--shadow);
+}
+.luxury-border::before{
+  content:"";position:absolute;inset:-1px;z-index:2;padding:1.5px;border-radius:inherit;pointer-events:none;
+  background:conic-gradient(from var(--border-angle),transparent 0deg 250deg,
+    rgba(99,229,255,.15) 275deg,#63e5ff 298deg,#f6dea3 315deg,#e8c57a 328deg,transparent 350deg 360deg);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+  mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+  mask-composite:exclude;
+  filter:drop-shadow(0 0 5px rgba(99,229,255,.75)) drop-shadow(0 0 9px rgba(232,197,122,.45));
+  animation:border-travel 5s linear infinite;
+}
+.luxury-border:hover::before,.luxury-border:focus-within::before{animation-duration:2.6s}
+@keyframes border-travel{to{--border-angle:360deg}}
+
+/* Tajuk metalik */
+.t-gold{background:linear-gradient(120deg,#F6DEA3 0%,#E8C57A 42%,#B99453 72%,#F6DEA3 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.t-silver{background:linear-gradient(120deg,#FFFFFF 0%,#DCE2EA 45%,#AEB9C6 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+/* Kurangkan kos GPU pada peranti lemah / hormati prefers-reduced-motion */
+@media (max-width:768px){.luxury-border::before{filter:none}}
+@media (prefers-reduced-motion:reduce){
+  .luxury-border::before{animation:none;
+    background:linear-gradient(120deg,rgba(232,197,122,.65),rgba(99,229,255,.45))}
+}

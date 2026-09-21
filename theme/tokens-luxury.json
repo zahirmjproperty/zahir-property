@@ -1,0 +1,86 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "color": {
+    "navy": {
+      "$value": "#071525",
+      "$type": "color"
+    },
+    "navy-deep": {
+      "$value": "#040E1B",
+      "$type": "color"
+    },
+    "blue": {
+      "$value": "#102A46",
+      "$type": "color"
+    },
+    "blue-soft": {
+      "$value": "#132942",
+      "$type": "color"
+    },
+    "gold": {
+      "$value": "#E8C57A",
+      "$type": "color"
+    },
+    "gold-pale": {
+      "$value": "#F6DEA3",
+      "$type": "color"
+    },
+    "cyan": {
+      "$value": "#63E5FF",
+      "$type": "color"
+    },
+    "silver": {
+      "$value": "#C8CED8",
+      "$type": "color"
+    },
+    "warm-white": {
+      "$value": "#F7F5EF",
+      "$type": "color"
+    },
+    "muted": {
+      "$value": "#AAB4C3",
+      "$type": "color"
+    },
+    "line": {
+      "$value": "rgba(232,197,122,.22)",
+      "$type": "color"
+    },
+    "line-cool": {
+      "$value": "rgba(99,229,255,.20)",
+      "$type": "color"
+    },
+    "whatsapp": {
+      "$value": "#25D366",
+      "$type": "color"
+    },
+    "glass": {
+      "$value": "linear-gradient(145deg,rgba(19,41,66,.82),rgba(6,18,32,.90))",
+      "$type": "color"
+    }
+  },
+  "font": {},
+  "radius": {
+    "r": {
+      "$value": "16px",
+      "$type": "dimension"
+    },
+    "r-lg": {
+      "$value": "22px",
+      "$type": "dimension"
+    },
+    "r-xl": {
+      "$value": "30px",
+      "$type": "dimension"
+    }
+  },
+  "shadow": {
+    "shadow": {
+      "$value": "0 18px 50px rgba(0,0,0,.28)",
+      "$type": "shadow"
+    },
+    "lg": {
+      "$value": "0 30px 80px rgba(0,0,0,.45)",
+      "$type": "shadow"
+    }
+  }
+}
