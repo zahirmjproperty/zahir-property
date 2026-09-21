@@ -1,0 +1,357 @@
+/* ============================================================
+   Zahir MJ Property — Halaman Butiran Hartanah (tema LUXURY)
+   Bergantung pada: assets/luxury-base.css  (token + header/footer/drawer)
+   Direka mengikut brief Zahir 21 Sep 2026 (mockup desktop + mobil).
+   ============================================================ */
+
+/* ---------- rangka halaman ---------- */
+.pd{
+  background:
+    radial-gradient(circle at 6% 18%, rgba(99,229,255,.09), transparent 34%),
+    radial-gradient(circle at 94% 10%, rgba(232,197,122,.10), transparent 30%),
+    var(--navy-deep);
+  color: var(--warm-white);
+  padding-bottom: 48px;
+}
+.pd-wrap{ max-width:var(--wrap); margin:0 auto; padding:0 20px; }
+
+/* ---------- breadcrumb ---------- */
+.pd-crumb{
+  display:flex; flex-wrap:wrap; gap:6px; align-items:center;
+  margin:18px 0 8px; font-size:.85rem; color:var(--muted);
+}
+.pd-crumb a{ color:var(--silver); text-decoration:none; }
+.pd-crumb a:hover{ color:var(--gold); }
+.pd-crumb .sep{ opacity:.5 }
+.pd-crumb [aria-current="page"]{ color:var(--warm-white); font-weight:600 }
+.pd-back{ display:inline-flex; gap:6px; align-items:center; margin-bottom:14px;
+  color:var(--silver); text-decoration:none; font-size:.88rem }
+.pd-back:hover{ color:var(--gold) }
+
+/* ---------- hero: galeri + panel ringkasan ---------- */
+.pd-cols{
+  display:grid; grid-template-columns:minmax(0,1.62fr) minmax(360px,1fr);
+  gap:24px; align-items:start;
+  padding:1px;   /* slaid kecil supaya bingkai panel tidak menyentuh tepi bekas */
+}
+/* rel kiri (galeri + kandungan) dan rel kanan (panel ringkasan melekit + panel
+   sokongan). Panel ringkasan duduk dalam rel kanan yang menjangkau SELURUH
+   halaman — itulah yang memberi ruang untuk ia benar-benar melekat. */
+.pd-col{ display:grid; gap:20px; min-width:0; align-content:start }
+
+/* ---------- galeri ---------- */
+.pd-media{
+  position:relative; border-radius:var(--r-lg); overflow:hidden;
+  aspect-ratio:3/2; background:#08192c; border:1px solid var(--line);
+  box-shadow:var(--shadow);
+}
+.pd-media img{
+  width:100%; height:100%; display:block; object-fit:cover;
+  transition:transform .7s cubic-bezier(.2,.7,.2,1);
+}
+.pd-media:hover img{ transform:scale(1.03) }
+.pd-media::after{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(180deg,rgba(4,14,27,.5),transparent 26%,transparent 66%,rgba(4,14,27,.62));
+}
+.pd-nav{
+  position:absolute; top:50%; transform:translateY(-50%); z-index:3;
+  width:46px; height:46px; border-radius:50%; display:grid; place-items:center;
+  background:rgba(4,16,30,.6); border:1px solid rgba(200,206,216,.3);
+  color:var(--warm-white); cursor:pointer; backdrop-filter:blur(10px);
+  transition:background .25s,border-color .25s,color .25s;
+}
+.pd-nav:hover{ background:rgba(232,197,122,.9); border-color:var(--gold); color:#241a06 }
+.pd-nav[disabled]{ opacity:.35; cursor:not-allowed }
+.pd-nav.prev{ left:14px } .pd-nav.next{ right:14px }
+.pd-topact{ position:absolute; top:14px; right:14px; z-index:3; display:flex; gap:8px }
+.pd-icon{
+  width:44px; height:44px; border-radius:50%; display:grid; place-items:center;
+  background:rgba(4,16,30,.62); border:1px solid rgba(200,206,216,.28);
+  color:var(--warm-white); cursor:pointer; backdrop-filter:blur(10px);
+  transition:color .25s,border-color .25s,transform .25s;
+}
+.pd-icon:hover{ transform:translateY(-2px); border-color:var(--gold) }
+.pd-icon[aria-pressed="true"]{ color:var(--gold); border-color:var(--gold) }
+.pd-counter,.pd-fs{
+  position:absolute; bottom:14px; z-index:3;
+  display:inline-flex; align-items:center; gap:7px;
+  padding:8px 13px; border-radius:999px; font-size:.83rem; font-weight:600;
+  background:rgba(4,16,30,.66); border:1px solid rgba(200,206,216,.24);
+  color:var(--warm-white); backdrop-filter:blur(10px);
+}
+.pd-counter{ left:14px }
+.pd-fs{ right:14px; cursor:pointer }
+.pd-fs:hover{ border-color:var(--gold); color:var(--gold) }
+
+/* pratonton kecil */
+.pd-thumbs{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:10px }
+.pd-thumb{
+  position:relative; display:block; padding:0; cursor:pointer; overflow:hidden;
+  aspect-ratio:4/3; border-radius:12px; border:1px solid var(--line); background:#08192c;
+}
+.pd-thumb img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s }
+.pd-thumb:hover img{ transform:scale(1.06) }
+.pd-thumb.is-active{ border-color:var(--gold); box-shadow:0 0 0 1px var(--gold),0 0 18px rgba(232,197,122,.22) }
+.pd-thumb-more{
+  position:absolute; inset:0; display:grid; place-items:center;
+  background:rgba(4,16,30,.68); color:var(--gold);
+  font:700 .95rem/1 var(--head); letter-spacing:.02em;
+}
+.pd-dots{ display:none; gap:7px; justify-content:center; margin-top:12px }
+.pd-dot{ width:7px; height:7px; border-radius:50%; border:0; padding:0;
+  background:rgba(200,206,216,.35); cursor:pointer }
+.pd-dot.is-active{ background:var(--gold); width:20px; border-radius:999px }
+
+/* ---------- panel ringkasan (sticky) ---------- */
+.pd-summary{ position:sticky; top:96px; padding:26px; }
+/* Bingkai berjalan pada panel ini sahaja: bingkai diletak TEPAT pada kotak
+   (inset:0) tanpa drop-shadow luar — cahaya diletak melalui box-shadow pada
+   elemen (ink overflow, tidak menambah lebar skrol). Ini mengekalkan kesan
+   "illuminated border" brief tanpa limpahan mendatar dan tanpa kos GPU besar. */
+.pd-summary.luxury-border{ box-shadow:0 0 26px rgba(99,229,255,.16), 0 0 44px rgba(232,197,122,.10), var(--shadow) }
+.pd-summary.luxury-border::before{ inset:0; filter:none }
+.pd-badges{ display:flex; gap:8px; flex-wrap:wrap }
+.pd-badge{
+  display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:999px;
+  font:700 .72rem/1 var(--head); letter-spacing:.1em; text-transform:uppercase;
+}
+.pd-badge-jual{ background:linear-gradient(135deg,var(--gold-pale),#c99c4a); color:#241a06 }
+.pd-badge-sewa{ background:rgba(99,229,255,.14); color:var(--cyan); border:1px solid var(--line-cool) }
+.pd-badge-baru{ background:rgba(232,197,122,.12); color:var(--gold); border:1px solid var(--line) }
+.pd-title{ margin:14px 0 6px; font:700 clamp(1.35rem,2.4vw,1.85rem)/1.22 var(--head); color:var(--warm-white) }
+.pd-loc{ margin:0; color:var(--silver); font-size:.92rem; display:flex; gap:7px; align-items:flex-start }
+.pd-loc svg{ flex:0 0 auto; margin-top:2px }
+.pd-price{ margin:14px 0 2px; font:800 clamp(1.9rem,3vw,2.5rem)/1 var(--head); color:var(--gold) }
+.pd-price-old{ color:var(--muted); font-size:.95rem; text-decoration:line-through }
+.pd-lead{ margin:12px 0 0; color:var(--silver); font-size:.9rem; line-height:1.6 }
+
+/* enam sel spesifikasi */
+.pd-cells{
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  margin-top:18px; border:1px solid rgba(200,206,216,.16); border-radius:14px; overflow:hidden;
+}
+.pd-cell{ display:flex; gap:10px; align-items:flex-start; padding:13px 14px;
+  border-bottom:1px solid rgba(200,206,216,.12) }
+.pd-cell:nth-child(odd){ border-right:1px solid rgba(200,206,216,.12) }
+.pd-cell:nth-last-child(-n+2){ border-bottom:0 }
+.pd-cell svg{ flex:0 0 auto; color:var(--gold); margin-top:2px }
+.pd-cell-k{ display:block; color:var(--muted); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase }
+.pd-cell-v{ display:block; color:var(--warm-white); font-weight:700; font-size:.94rem; font-family:var(--head) }
+
+/* butang tindakan */
+.pd-actions{ display:grid; gap:10px; margin-top:18px }
+.pd-btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  min-height:50px; padding:12px 18px; border-radius:14px; border:0;
+  font:700 .97rem/1 var(--head); text-decoration:none; cursor:pointer;
+  transition:transform .2s,box-shadow .25s,filter .25s;
+}
+.pd-btn:hover{ transform:translateY(-2px) }
+.pd-btn-wa{ background:linear-gradient(135deg,#25D366,#0f9d58); color:#04160c;
+  box-shadow:0 12px 30px rgba(37,211,102,.24) }
+.pd-btn-call{ background:linear-gradient(135deg,var(--gold-pale),#c99c4a); color:#241a06;
+  box-shadow:0 12px 30px rgba(232,197,122,.22) }
+.pd-btn-ghost{ background:transparent; color:var(--gold); border:1px solid var(--line) }
+.pd-btn-ghost:hover{ border-color:var(--gold) }
+
+/* identiti ejen */
+.pd-agent{ display:flex; gap:12px; align-items:center; margin-top:18px;
+  padding-top:16px; border-top:1px solid var(--line) }
+.pd-agent img{ width:54px; height:54px; border-radius:50%; object-fit:cover; border:1px solid var(--line) }
+.pd-agent-nm{ display:flex; align-items:center; gap:6px; font-weight:700; font-family:var(--head); font-size:.95rem }
+.pd-agent-nm svg{ color:var(--cyan) }
+.pd-agent-rl{ color:var(--muted); font-size:.8rem }
+.pd-meta{ display:flex; flex-wrap:wrap; gap:8px 18px; justify-content:space-between;
+  margin-top:12px; padding-top:12px; border-top:1px dashed rgba(200,206,216,.16);
+  color:var(--muted); font-size:.8rem }
+.pd-meta b{ color:var(--silver); font-weight:600 }
+
+/* ---------- tab kandungan ---------- */
+.pd-tabs{
+  display:flex; gap:8px; margin:26px 0 0; padding:8px;
+  border:1px solid var(--line); border-radius:999px; background:rgba(8,25,44,.72);
+  backdrop-filter:blur(14px); overflow-x:auto; scrollbar-width:none;
+}
+.pd-tabs::-webkit-scrollbar{ display:none }
+.pd-tab{
+  flex:0 0 auto; min-height:44px; padding:11px 20px; border:0; border-radius:999px;
+  background:transparent; color:var(--silver); font:600 .92rem/1 var(--head);
+  text-decoration:none; cursor:pointer; display:inline-flex; align-items:center; gap:8px;
+  transition:color .25s,background .25s;
+}
+.pd-tab:hover{ color:var(--warm-white); background:rgba(200,206,216,.07) }
+.pd-tab.is-active{ background:linear-gradient(135deg,var(--gold-pale),#c99c4a); color:#241a06;
+  box-shadow:0 0 20px rgba(232,197,122,.24) }
+
+/* ---------- kandungan: utama + sisi ---------- */
+
+.pd-sec{ padding:24px 26px }
+/* panel kaca biasa (tanpa animasi) — hanya PANEL RINGKASAN yang ada bingkai
+   bercahaya berjalan, seperti yang diminta dalam brief. Ini juga jauh lebih
+   ringan pada GPU (elak 5 animasi conic-gradient + drop-shadow serentak). */
+.pd-glass{
+  border:1px solid rgba(200,206,216,.18); border-radius:var(--r-lg);
+  background:linear-gradient(145deg,rgba(16,42,70,.72),rgba(6,19,34,.88));
+  box-shadow:0 18px 45px rgba(0,0,0,.26);
+  transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease;
+}
+@media (hover:hover){
+  .pd-glass:hover{ transform:translateY(-3px); border-color:var(--line);
+    box-shadow:0 24px 60px rgba(0,0,0,.34) }
+}
+@media (prefers-reduced-motion:reduce){ .pd-glass{ transition:none } .pd-glass:hover{ transform:none } }
+.pd-sec-h{ display:flex; align-items:center; gap:10px; margin:0 }
+.pd-sec-h h2{ margin:0; font:700 clamp(1.05rem,1.6vw,1.28rem)/1.3 var(--head); color:var(--warm-white) }
+.pd-sec-h svg{ color:var(--gold); flex:0 0 auto }
+.pd-sec-b{ margin-top:14px }
+.pd-sec-desc{ margin:0; color:var(--silver); line-height:1.75; font-size:.97rem; max-width:68ch }
+.pd-sec-toggle{ display:none }
+
+/* senarai ciri */
+.pd-list{ list-style:none; margin:0; padding:0; display:grid; gap:10px }
+.pd-list li{ display:flex; gap:10px; align-items:flex-start; color:var(--silver); font-size:.95rem; line-height:1.55 }
+.pd-list svg{ flex:0 0 auto; margin-top:2px; color:var(--gold) }
+.pd-chips{ display:flex; flex-wrap:wrap; gap:8px }
+.pd-chip{ padding:8px 13px; border-radius:999px; font-size:.84rem; color:var(--silver);
+  background:rgba(200,206,216,.07); border:1px solid rgba(200,206,216,.14) }
+.pd-chip-cool{ color:var(--cyan); border-color:var(--line-cool); background:rgba(99,229,255,.07) }
+
+/* peta */
+.pd-map{ border-radius:16px; overflow:hidden; border:1px solid var(--line); aspect-ratio:16/9; background:#08192c }
+.pd-map iframe{ width:100%; height:100%; border:0; display:block; filter:saturate(.9) }
+.pd-map-cta{ margin-top:14px }
+
+/* nilai pelaburan */
+.pd-invest{ background:linear-gradient(150deg,rgba(232,197,122,.13),rgba(8,25,44,.9)); }
+.pd-invest .pd-list svg{ color:var(--gold-pale) }
+.pd-invest-note{ margin:14px 0 0; padding:13px 15px; border-radius:12px;
+  background:rgba(4,16,30,.5); border:1px solid var(--line);
+  color:var(--silver); font-size:.87rem; line-height:1.6 }
+
+/* pembiayaan */
+.pd-fin p{ margin:0 0 14px; color:var(--silver); font-size:.92rem; line-height:1.65 }
+.pd-fin-facts{ display:flex; gap:16px; flex-wrap:wrap; margin-top:14px;
+  color:var(--muted); font-size:.8rem }
+.pd-fin-facts span{ display:inline-flex; gap:6px; align-items:center }
+.pd-fin-facts svg{ color:var(--gold) }
+
+/* kad ejen (sisi) */
+.pd-agent-card{ text-align:center }
+.pd-agent-card img{ width:92px; height:92px; border-radius:50%; object-fit:cover;
+  border:2px solid var(--line); margin:0 auto 12px; display:block }
+.pd-agent-card q{ display:block; margin:12px 0 16px; color:var(--silver);
+  font-family:var(--serif); font-style:italic; font-size:1.06rem; line-height:1.6 }
+
+/* ---------- hartanah berkaitan ---------- */
+.pd-related{ padding:1px }
+.pd-related-h{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; margin-bottom:16px }
+.pd-related-h h2{ margin:0; font:700 clamp(1.15rem,2vw,1.45rem)/1.25 var(--head) }
+.pd-related-grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px }
+
+/* ---------- bar mobil ---------- */
+.pd-mbar{ display:none }
+
+/* ---------- lightbox ---------- */
+.pd-lb{ position:fixed; inset:0; z-index:120; display:none;
+  background:rgba(3,10,20,.94); backdrop-filter:blur(8px) }
+.pd-lb.is-open{ display:grid; place-items:center }
+.pd-lb img{ max-width:min(94vw,1400px); max-height:82vh; border-radius:14px;
+  border:1px solid var(--line); object-fit:contain }
+.pd-lb-x{ position:absolute; top:18px; right:20px }
+.pd-lb-p,.pd-lb-n{ position:absolute; top:50%; transform:translateY(-50%) }
+.pd-lb-p{ left:20px } .pd-lb-n{ right:20px }
+.pd-lb-cap{ position:absolute; bottom:22px; left:0; right:0; text-align:center;
+  color:var(--silver); font-size:.88rem }
+
+/* sauh: elak tajuk tersembunyi di bawah header/tab melekit */
+#ringkasan,#deskripsi,#ciri-utama,#lokasi{ scroll-margin-top:150px }
+.pd-media:focus-visible{ outline:2px solid var(--gold); outline-offset:3px }
+
+/* ---------- animasi masuk ---------- */
+.pd-rise{ opacity:0; transform:translateY(16px); transition:opacity .6s ease,transform .6s ease }
+.pd-rise.in{ opacity:1; transform:none }
+@media (prefers-reduced-motion:reduce){
+  .pd-rise{ opacity:1; transform:none; transition:none }
+  .pd-media img,.pd-thumb img{ transition:none }
+}
+
+/* ============================================================
+   RESPONSIF
+   ============================================================ */
+@media (max-width:1180px){
+  .pd-cols{ grid-template-columns:minmax(0,1.35fr) minmax(330px,1fr) }
+  .pd-related-grid{ grid-template-columns:repeat(3,minmax(0,1fr)) }
+}
+@media (max-width:1024px){
+  .pd-cols{ grid-template-columns:1fr }
+  .pd-summary{ position:static; top:auto }
+  .pd-related-grid{ grid-template-columns:repeat(2,minmax(0,1fr)) }
+}
+@media (max-width:767px){
+  .pd{ padding-bottom:118px }
+  .pd-wrap{ padding:0 16px }
+  .pd-media{ aspect-ratio:4/3; border-radius:16px }
+  .pd-media::after{ background:linear-gradient(180deg,rgba(4,14,27,.42),transparent 30%,rgba(4,14,27,.6)) }
+  .pd-thumbs{ display:none }
+  .pd-dots{ display:flex }
+  .pd-summary{ padding:20px; border-radius:18px }
+  .pd-cells{ grid-template-columns:repeat(2,minmax(0,1fr)) }
+  .pd-tabs{ position:sticky; top:64px; z-index:45; margin:16px 0 0; border-radius:14px;
+    padding:8px 10px; background:rgba(4,16,30,.92) }
+  /* align-items:stretch WAJIB — jika tidak, item flex (rel) bersaiz fit-content
+     dan anak yang lebar (tab, karusel berkaitan) melebarkan halaman. */
+  .pd-cols{ display:flex; flex-direction:column; gap:12px; align-items:stretch }
+  /* flex items lalai min-width:auto → anak berisi lebar (tab, karusel) memaksa
+     rel menjadi lebih lebar daripada skrin. Set 0 supaya ia mengecil dan
+     menatal di dalam kotaknya sendiri. */
+  .pd-cols [data-ord]{ min-width:0 }
+  /* susun semula ikut keutamaan pembeli mobil (brief): galeri → ringkasan → tab
+     → deskripsi → ciri → pelaburan → lokasi → ejen → pembiayaan → berkaitan */
+  .pd-col{ display:contents }
+  .pd-cols [data-ord="1"]{ order:1 }
+  .pd-cols [data-ord="2"]{ order:2 }
+  .pd-cols [data-ord="3"]{ order:3 }
+  .pd-cols [data-ord="4"]{ order:4 }
+  .pd-cols [data-ord="5"]{ order:5 }
+  .pd-cols [data-ord="6"]{ order:6 }
+  .pd-cols [data-ord="7"]{ order:7 }
+  .pd-cols [data-ord="8"]{ order:8 }
+  .pd-cols [data-ord="9"]{ order:9 }
+  .pd-cols [data-ord="10"]{ order:10 }
+  .pd-col{ gap:12px }
+  .pd-sec{ padding:0; overflow:hidden }
+  .pd-sec-h{ padding:16px 18px; margin:0; justify-content:space-between }
+  .pd-sec-toggle{ display:inline-flex; align-items:center; justify-content:center;
+    width:44px; height:44px; border-radius:12px; border:1px solid rgba(200,206,216,.18);
+    background:rgba(200,206,216,.06); color:var(--silver); cursor:pointer }
+  .pd-sec-toggle svg{ transition:transform .3s }
+  .pd-sec.is-open .pd-sec-toggle svg{ transform:rotate(180deg) }
+  .pd-sec-b{ display:none; padding:0 18px 18px; margin-top:0 }
+  .pd-sec.is-open .pd-sec-b{ display:block }
+  .pd-sec[data-sentiasa="1"] .pd-sec-toggle{ display:none }
+  .pd-sec[data-sentiasa="1"] .pd-sec-b{ display:block; padding-top:0 }
+  .pd-sec[data-sentiasa="1"] .pd-sec-h{ padding-bottom:8px }
+  .pd-related-grid{ display:flex; overflow-x:auto; gap:14px; scroll-snap-type:x mandatory;
+    padding-bottom:6px; scrollbar-width:none }
+  .pd-related-grid::-webkit-scrollbar{ display:none }
+  .pd-related-grid>*{ flex:0 0 84%; scroll-snap-align:center }
+  .pd-map{ aspect-ratio:4/3 }
+  .pd-mbar{
+    position:fixed; left:12px; right:12px; bottom:12px; z-index:90;
+    display:grid; grid-template-columns:1.25fr .75fr; gap:10px; padding:10px;
+    padding-bottom:calc(10px + env(safe-area-inset-bottom));
+    border:1px solid rgba(232,197,122,.3); border-radius:18px;
+    background:rgba(4,16,30,.94); box-shadow:var(--shadow-lg); backdrop-filter:blur(18px);
+  }
+  .pd-mbar .pd-btn{ min-height:48px }
+  body.pd-lock .pd-mbar{ display:none }
+  .pd-lb img{ max-height:66vh }
+  .pd-lb-p{ left:8px } .pd-lb-n{ right:8px }
+}
+@media (max-width:420px){
+  .pd-cells{ grid-template-columns:1fr }
+  .pd-cell:nth-child(odd){ border-right:0 }
+  .pd-cell:not(:last-child){ border-bottom:1px solid rgba(200,206,216,.12) }
+  .pd-related-grid>*{ flex:0 0 88% }
+}
