@@ -218,9 +218,21 @@
 .pd-chip-cool{ color:var(--cyan); border-color:var(--line-cool); background:rgba(99,229,255,.07) }
 
 /* peta */
-.pd-map{ border-radius:16px; overflow:hidden; border:1px solid var(--line); aspect-ratio:16/9; background:#08192c }
-.pd-map iframe{ width:100%; height:100%; border:0; display:block; filter:saturate(.9) }
+.pd-map{ position:relative; border-radius:16px; overflow:hidden; border:1px solid var(--line);
+  aspect-ratio:16/10; min-height:380px; background:#08192c }
+.pd-map iframe{ width:100%; height:100%; border:0; display:block; filter:saturate(.92) }
+/* penanda kawasan (nama kawasan, bukan unit tepat) */
+.pd-map-tag{ position:absolute; left:14px; bottom:14px; z-index:2;
+  display:inline-flex; gap:8px; align-items:center; padding:9px 15px; border-radius:999px;
+  background:rgba(4,16,30,.8); border:1px solid var(--line); color:var(--warm-white);
+  font:600 .85rem/1 var(--head); backdrop-filter:blur(10px) }
+.pd-map-tag svg{ color:var(--gold) }
+.pd-map-legend{ display:flex; flex-wrap:wrap; gap:12px 20px; align-items:center;
+  margin-top:14px; color:var(--muted); font-size:.82rem }
+.pd-map-legend span{ display:inline-flex; gap:7px; align-items:center }
+.pd-map-legend svg{ color:var(--cyan) }
 .pd-map-cta{ margin-top:14px }
+.pd-sub{ margin:22px 0 10px; font:700 .95rem/1.3 var(--head); color:var(--warm-white) }
 
 /* nilai pelaburan */
 .pd-invest{ background:linear-gradient(150deg,rgba(232,197,122,.13),rgba(8,25,44,.9)); }
@@ -336,7 +348,7 @@
     padding-bottom:6px; scrollbar-width:none }
   .pd-related-grid::-webkit-scrollbar{ display:none }
   .pd-related-grid>*{ flex:0 0 84%; scroll-snap-align:center }
-  .pd-map{ aspect-ratio:4/3 }
+  .pd-map{ aspect-ratio:4/3; min-height:280px }
   .pd-mbar{
     position:fixed; left:12px; right:12px; bottom:12px; z-index:90;
     display:grid; grid-template-columns:1.25fr .75fr; gap:10px; padding:10px;
