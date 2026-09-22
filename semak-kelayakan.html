@@ -1,87 +1,220 @@
 <!DOCTYPE html>
 <html lang="ms">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Semak Kelayakan Pinjaman & DSR — Zahir MJ Property</title>
 <meta name="description" content="Semak anggaran kelayakan pinjaman perumahan dan DSR anda secara percuma. Isi maklumat ringkas — pakar kami akan sahkan dan hubungi anda dengan laporan penuh.">
-<link rel="stylesheet" href="style.css?v=67">
-<link rel="icon" href="assets/logo-zmj-monogram.png" type="image/png">
+<link rel="canonical" href="https://zahirmjproperty.com/semak-kelayakan.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Semak Kelayakan Pinjaman & DSR | Zahir MJ Property">
+<meta property="og:description" content="Semak anggaran kelayakan pinjaman perumahan & DSR secara percuma. Isi ringkas — pakar kami hubungi anda dengan laporan penuh.">
+<meta property="og:url" content="https://zahirmjproperty.com/semak-kelayakan.html">
+<meta property="og:site_name" content="Zahir MJ Property">
+<meta property="og:locale" content="ms_MY">
+<meta property="og:image" content="assets/og-card.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#071525">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/logo-zmj-monogram.png">
+<link rel="apple-touch-icon" href="assets/logo-zmj-monogram.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* ===== Borang Semak Kelayakan ===== */
-  .ek-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-  @media (min-width: 980px) { .ek-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: start; } }
-  .ek-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); margin-bottom: 16px; }
-  .ek-card h2 { font-size: 17px; color: var(--brand-dark); margin: 0 0 3px; display: flex; align-items: center; gap: 8px; }
-  .ek-step { font-size: 11px; font-weight: 800; color: #fff; background: var(--brand); border-radius: 20px; padding: 2px 9px; letter-spacing: .4px; }
-  .ek-hint { font-size: 12.5px; color: var(--muted); margin: 4px 0 14px; line-height: 1.5; }
-  .field { margin-bottom: 13px; }
-  .field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 5px; }
-  .field label .opt { font-weight: 400; color: var(--muted); font-size: 12px; }
-  .field input, .field select, .field textarea {
-    width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line);
-    border-radius: 10px; background: #fff; color: var(--ink); box-sizing: border-box; font-family: inherit;
-  }
-  .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
-  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  @media (max-width: 480px) { .field-row { grid-template-columns: 1fr; } }
-  .rm-prefix { position: relative; }
-  .rm-prefix input { padding-left: 44px; }
-  .rm-prefix span { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 700; color: var(--muted); pointer-events: none; }
-  .commit-sub { font-size: 11px; color: var(--muted); margin-top: -7px; margin-bottom: 12px; }
+:root{
+  --navy:#071525; --navy-deep:#040E1B; --blue:#102A46; --blue-soft:#132942;
+  --gold:#E8C57A; --gold-pale:#F6DEA3; --gold-soft:rgba(232,197,122,.1);
+  --cyan:#63E5FF; --green:#34D374;
+  --silver:#C8CED8; --warm-white:#F7F5EF; --muted:#AAB4C3;
+  --line:rgba(232,197,122,.22); --line-cool:rgba(99,229,255,.20);
+  --whatsapp:#25D366;
+  --red:#EF6464; --amber:#F59E0B;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --head:'Manrope','Inter',system-ui,sans-serif;
+  --r:16px; --r-lg:22px;
+  --glass:linear-gradient(145deg,rgba(19,41,66,.82),rgba(6,18,32,.90));
+  --shadow:0 18px 50px rgba(0,0,0,.28);
+  --wrap:1240px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--navy);color:var(--warm-white);
+  font-family:var(--sans);font-size:16px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.15;letter-spacing:-.02em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 24px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:8px}
 
-  /* Meter DSR */
-  .meter-box { background: var(--brand-soft); border: 1px solid var(--line); border-radius: 12px; padding: 13px 15px; margin: 4px 0 6px; }
-  .meter-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-  .meter-row .lbl { font-size: 13px; font-weight: 700; color: var(--brand-dark); }
-  .meter-row .val { font-size: 22px; font-weight: 800; }
-  .meter-track { height: 9px; border-radius: 8px; background: linear-gradient(90deg, #2e9e5b 0%, #2e9e5b 57%, #f2b01e 57%, #f2b01e 71%, #d64545 71%, #d64545 100%); margin: 9px 0 4px; position: relative; }
-  .meter-pin { position: absolute; top: -4px; width: 4px; height: 17px; border-radius: 3px; background: #1f2937; transform: translateX(-50%); transition: left .25s ease; }
-  .meter-scale { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); }
-  .meter-msg { font-size: 13.5px; font-weight: 700; margin-top: 7px; line-height: 1.45; }
-  .mm-green { color: #1e7e45; } .mm-amber { color: #a06b00; } .mm-red { color: #c0392b; }
-  .meter-sub { font-size: 11.5px; color: var(--muted); margin-top: 3px; line-height: 1.45; }
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:46px;padding:13px 24px;border-radius:12px;border:1px solid transparent;
+  font-weight:700;font-size:.94rem;letter-spacing:.01em;cursor:pointer;
+  transition:transform .22s,box-shadow .22s,background .22s;
+  position:relative;
+}
+.btn-gold{background:linear-gradient(135deg,var(--gold-pale),var(--gold) 55%,#D9B463);color:#16233A;box-shadow:0 10px 30px rgba(232,197,122,.28)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,197,122,.42)}
+.btn-wa{background:#25D366;color:#fff;box-shadow:0 8px 24px rgba(37,211,102,.30)}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(37,211,102,.44)}
 
-  /* Panel ringkasan */
-  .ek-summary { position: sticky; top: 14px; }
-  .sum-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 13.5px; }
-  .sum-row:last-of-type { border-bottom: none; }
-  .sum-row .k { color: var(--muted); }
-  .sum-row .v { font-weight: 700; text-align: right; }
-  .sum-row .v.big { font-size: 16px; color: var(--brand-dark); }
-  .verdict { border-radius: 12px; padding: 13px 14px; margin-top: 12px; font-size: 14px; font-weight: 700; line-height: 1.5; }
-  .v-green { background: #eafaf1; color: #155e34; border: 1px solid #b7e4c7; }
-  .v-amber { background: #fff7e0; color: #7a5300; border: 1px solid #f0dfae; }
-  .v-red { background: #fdf0f0; color: #8e2f22; border: 1px solid #f3c4c4; }
-  .v-note { font-size: 11.5px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
-  .btn-main { display: block; width: 100%; background: var(--brand-dark); color: #fff; font-size: 16px; font-weight: 800; border: none; border-radius: 12px; padding: 14px; cursor: pointer; margin-top: 14px; }
-  .btn-main:hover { background: var(--brand); }
-  .btn-main:disabled { background: #9db8ab; cursor: not-allowed; }
-  .wa-alt { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; font-size: 13px; color: var(--brand-dark); text-decoration: none; }
-  .wa-alt:hover { text-decoration: underline; }
-  .priv { font-size: 11.5px; color: var(--muted); margin-top: 12px; line-height: 1.55; text-align: center; }
+/* HEADER */
+.hdr{
+  position:sticky;top:0;z-index:100;
+  background:rgba(7,21,37,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.hdr-inner{display:flex;align-items:center;gap:16px;min-height:64px}
+.hdr .brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.hdr .brand-text strong{font-size:16px;color:var(--warm-white);font-family:var(--head)}
+.hdr .brand-text small{font-size:11px;color:var(--muted);display:block}
+.hdr .nav{display:flex;gap:6px;flex-wrap:wrap}
+.hdr .nav a{padding:6px 14px;color:var(--silver);font-size:14px;font-weight:500;border-radius:8px}
+.hdr .nav a:hover{color:var(--gold);background:rgba(232,197,122,.08)}
+.hdr .nav a.aktif{color:var(--gold);background:rgba(232,197,122,.12)}
+.hdr .btn-wa{font-size:13px;padding:8px 16px;min-height:36px}
 
-  /* Ringkasan ringkas — paparan mobile sahaja (panel penuh di desktop) */
-  .inline-res { display: none; }
-  @media (max-width: 979px) {
-    .inline-res { display: block; background: var(--brand-soft); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-top: 14px; }
-  }
+/* HERO */
+.hero{
+  padding:40px 0 32px;text-align:center;
+  background:linear-gradient(180deg,var(--navy-deep),var(--navy));
+  border-bottom:1px solid var(--line);
+}
+.hero h1{font-size:clamp(22px,3.6vw,36px);margin-bottom:8px}
+.hero p{color:var(--muted);font-size:15px;max-width:620px;margin:0 auto;line-height:1.65}
 
-  /* Skrin berjaya */
-  .ok-wrap { display: none; text-align: center; padding: 30px 18px; }
-  .ok-wrap.show { display: block; }
-  .ok-icon { font-size: 52px; }
-  .ok-wrap h2 { color: var(--brand-dark); font-size: 21px; margin: 10px 0 6px; }
-  .ok-wrap p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0 0 6px; }
-  .form-wrap.hide { display: none; }
-  .err-banner { display: none; background: #fdf0f0; border: 1px solid #f3c4c4; color: #8e2f22; border-radius: 10px; padding: 10px 12px; font-size: 13px; margin-top: 12px; line-height: 1.5; }
-  .err-banner.show { display: block; }
+/* GRID LAYOUT */
+.ek-grid{display:grid;grid-template-columns:1fr;gap:20px}
+@media(min-width:980px){.ek-grid{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:start}}
+
+/* FORM CARDS */
+.form-card{
+  background:var(--glass);border:1px solid var(--line);border-radius:20px;
+  padding:24px;margin-bottom:16px;box-shadow:var(--shadow);
+}
+.form-card h2{font-size:17px;color:var(--gold);margin:0 0 3px;display:flex;align-items:center;gap:8px}
+.ek-step{
+  font-size:11px;font-weight:800;color:var(--gold);border:1px solid rgba(232,197,122,.35);
+  background:rgba(232,197,122,.1);border-radius:20px;padding:2px 9px;letter-spacing:.4px;
+}
+.ek-hint{font-size:12.5px;color:var(--muted);margin:4px 0 14px;line-height:1.5}
+.field{margin-bottom:13px}
+.field label{display:block;font-size:13.5px;font-weight:600;margin-bottom:5px;color:var(--silver)}
+.field label .opt{font-weight:400;color:var(--muted);font-size:12px}
+.field input,.field select,.field textarea{
+  width:100%;padding:10px 14px;font-size:15px;
+  border:1px solid rgba(200,206,216,.2);border-radius:10px;
+  background:rgba(247,245,239,.06);color:var(--warm-white);box-sizing:border-box;font-family:inherit;
+  outline:none;transition:border-color .2s,background .2s;
+}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold);background:rgba(232,197,122,.08)}
+.field select option{background:var(--navy);color:var(--warm-white)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:480px){.field-row{grid-template-columns:1fr}}
+.rm-prefix{position:relative}
+.rm-prefix input{padding-left:44px}
+.rm-prefix span{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:14px;font-weight:700;color:var(--muted);pointer-events:none;z-index:1}
+.commit-sub{font-size:11.5px;color:var(--muted);margin-top:-5px;margin-bottom:12px;line-height:1.5}
+
+/* DSR METER (luxury) */
+.meter-box{
+  background:rgba(99,229,255,.04);border:1px solid rgba(99,229,255,.12);
+  border-radius:12px;padding:13px 15px;margin:4px 0 6px;
+}
+.meter-row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.meter-row .lbl{font-size:13px;font-weight:700;color:var(--silver)}
+.meter-row .val{font-size:22px;font-weight:800;color:var(--gold-pale)}
+.meter-track{
+  height:9px;border-radius:8px;
+  background:linear-gradient(90deg,#2e9e5b 0%,#2e9e5b 57%,#f2b01e 57%,#f2b01e 71%,#d64545 71%,#d64545 100%);
+  margin:9px 0 4px;position:relative;
+}
+.meter-pin{
+  position:absolute;top:-4px;width:4px;height:17px;border-radius:3px;
+  background:var(--gold);transform:translateX(-50%);transition:left .25s ease;
+}
+.meter-scale{display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted)}
+.meter-msg{font-size:13.5px;font-weight:700;margin-top:7px;line-height:1.45}
+.mm-green{color:var(--green)}
+.mm-amber{color:var(--amber)}
+.mm-red{color:var(--red)}
+.meter-sub{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.45}
+
+/* SUMMARY PANEL */
+.ek-summary{position:sticky;top:14px}
+.sum-row{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed rgba(200,206,216,.15);font-size:13.5px}
+.sum-row:last-of-type{border-bottom:none}
+.sum-row .k{color:var(--muted)}
+.sum-row .v{font-weight:700;text-align:right;color:var(--silver)}
+.sum-row .v.big{font-size:16px;color:var(--gold-pale)}
+.verdict{border-radius:12px;padding:13px 14px;margin-top:12px;font-size:14px;font-weight:700;line-height:1.5}
+.v-green{background:rgba(52,211,116,.1);color:var(--green);border:1px solid rgba(52,211,116,.3)}
+.v-amber{background:rgba(245,158,11,.1);color:var(--amber);border:1px solid rgba(245,158,11,.3)}
+.v-red{background:rgba(239,100,100,.1);color:var(--red);border:1px solid rgba(239,100,100,.3)}
+.v-note{font-size:11.5px;color:var(--muted);margin-top:10px;line-height:1.5}
+
+.btn-main{display:block;width:100%;background:linear-gradient(135deg,var(--gold-pale),var(--gold) 55%,#D9B463);color:#16233A;font-size:16px;font-weight:800;border:none;border-radius:12px;padding:14px;cursor:pointer;margin-top:14px;transition:transform .22s,box-shadow .22s}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,197,122,.42)}
+.btn-main:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none;}
+.wa-alt{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;font-size:13px;color:var(--gold);}
+.wa-alt:hover{color:var(--gold-pale)}
+.priv{font-size:11.5px;color:var(--muted);margin-top:12px;line-height:1.55;text-align:center}
+
+/* MOBILE INLINE RESULT */
+.inline-res{display:none}
+@media(max-width:979px){
+  .inline-res{display:block;background:rgba(99,229,255,.04);border:1px solid rgba(99,229,255,.12);border-radius:12px;padding:12px 14px;margin-top:14px}
+  .inline-res h3{font-size:14.5px;color:var(--gold);margin:0 0 4px}
+}
+.form-wrap.hide{display:none}
+.err-banner{display:none;background:rgba(239,100,100,.1);border:1px solid rgba(239,100,100,.3);color:var(--red);border-radius:10px;padding:10px 12px;font-size:13px;margin-top:12px;line-height:1.5}
+.err-banner.show{display:block}
+
+/* SUCCESS SCREEN */
+.ok-wrap{display:none;text-align:center;padding:40px 18px}
+.ok-wrap.show{display:block}
+.ok-icon{font-size:52px}
+.ok-wrap h2{color:var(--gold);font-size:21px;margin:10px 0 6px}
+.ok-wrap p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 6px}
+
+/* FOOTER */
+.ftr{
+  border-top:1px solid var(--line);padding:32px 0 24px;background:var(--navy-deep);
+}
+.ftr-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-bottom:20px}
+.ftr h3{font-size:14px;color:var(--gold);margin-bottom:8px}
+.ftr p,.ftr a{font-size:13px;color:var(--muted);line-height:1.6;display:block}
+.ftr a:hover{color:var(--warm-white)}
+.ftr-bottom{text-align:center;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);opacity:.7}
+
+@media(max-width:640px){
+  .hdr-inner{flex-wrap:wrap}
+  .hdr .nav{order:3;width:100%;justify-content:center;padding-top:6px}
+  .ftr-grid{grid-template-columns:1fr}
+  .commit-sub{margin-top:2px;font-size:11px}
+  .field input,.field select,.field textarea{font-size:14px}
+  .rm-prefix input{padding-left:42px}
+  .rm-prefix span{left:12px;font-size:12px}
+}
+@media(max-width:480px){
+  .ek-grid{gap:12px}
+  .form-card{padding:16px;border-radius:16px}
+  .field-row{grid-template-columns:1fr}
+  .meter-row .val{font-size:18px}
+  .hero h1{font-size:20px}
+  .rm-prefix input{padding-left:48px}
+}
 </style>
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
+<!-- HEADER -->
+<header class="hdr">
+  <div class="wrap hdr-inner">
     <a href="/" class="brand">
       <img src="assets/logo-zmj-monogram.png" alt="ZMP" style="width:32px;height:32px;border-radius:6px;display:block">
       <span class="brand-text">
@@ -89,48 +222,37 @@
         <small>Hartanah Dipercayai</small>
       </span>
     </a>
-    <nav class="nav" id="nav">
-      <a href="/">Utama</a>
-      <a href="https://mrtanah.com/projek-baharu/" title="Projek hartanah baharu dijalankan pemaju — di Mr Tanah">Projek Baharu</a>
+    <nav class="nav">
+      <a href="/" class="aktif">Utama</a>
+      <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
       <a href="/#listing">Listing</a>
       <a href="kalkulator.html">Kalkulator</a>
-      <a href="semak-kelayakan.html" class="active">Semak Kelayakan</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
       <a href="artikel/">Artikel</a>
       <a href="tentang.html">Tentang</a>
-      <div class="navdrop">
-        <button type="button" aria-haspopup="true">Untuk Pemilik &amp; Ejen ▾</button>
-        <div class="menu">
-          <a href="permohonan-sewa.html">Mohon Sewa</a>
-          <a href="portal/index.html">Portal Pengurusan</a>
-          <a href="serah-dokumen.html">Serah Dokumen</a>
-          <a href="bayar.html">Bayaran</a>
-          <a href="jual-sewa-develop.html">Serah Listing</a>
-        </div>
-      </div>
     </nav>
-    <div class="header-actions">
-      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
-    </div>
+    <a class="btn btn-wa" href="https://wa.me/60122310119" target="_blank">📲 012-2310119</a>
   </div>
 </header>
 
-<section class="hero hero-small">
-  <div class="container">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
     <h1>✅ Semak Kelayakan Pinjaman &amp; DSR</h1>
     <p>Isi maklumat ringkas di bawah — <strong>anggaran kelayakan anda dikira serta-merta</strong>. Kemudian pakar kami akan semak secara terperinci dan hubungi anda dengan laporan penuh — <strong>percuma &amp; tanpa komitmen</strong>.</p>
   </div>
 </section>
 
-<main class="container main">
+<main class="wrap" style="padding:24px">
   <div class="ek-grid">
 
     <!-- ===== BORANG ===== -->
     <div class="form-wrap" id="formWrap">
-      <div class="ek-card">
+
+      <!-- LANGKAH 1 -->
+      <div class="form-card">
         <h2><span class="ek-step">LANGKAH 1</span> 👤 Maklumat Diri</h2>
         <p class="ek-hint">Untuk kami kenal pasti &amp; hubungi anda semula.</p>
-
         <div class="field">
           <label for="fNama">Nama Penuh *</label>
           <input type="text" id="fNama" placeholder="cth: Ahmad bin Ismail" autocomplete="name">
@@ -159,10 +281,10 @@
         </div>
       </div>
 
-      <div class="ek-card">
+      <!-- LANGKAH 2 -->
+      <div class="form-card">
         <h2><span class="ek-step">LANGKAH 2</span> 💰 Pendapatan Bulanan</h2>
         <p class="ek-hint">Gunakan angka sebenar — lebih tepat maklumat, lebih tepat semakan kelayakan.</p>
-
         <div class="field">
           <label for="fKerja">Jenis Pendapatan *</label>
           <select id="fKerja">
@@ -173,51 +295,28 @@
             <option>Pesara / pencen</option>
           </select>
         </div>
-
-        <div class="field rm-prefix">
+        <div class="field">
           <label for="fBersih">Pendapatan Bersih Bulanan (RM) *</label>
-          <span>RM</span>
+          <div class="rm-prefix"><span>RM</span>
           <input type="number" id="fBersih" min="0" step="50" inputmode="numeric" placeholder="cth: 4500">
-        </div>
-        <p class="commit-sub">💡 Pendapatan bersih = gaji yang masuk bank <strong>selepas</strong> tolak KWSP/EPF, PERKESO &amp; cukai. Tidak pasti? Anggarkan lebih kurang 90% daripada gaji kasar anda.</p>
-
-        <div class="field rm-prefix">
+        </div></div>
+        <p class="commit-sub">💡 Pendapatan bersih = gaji yang masuk bank <strong>selepas</strong> tolak KWSP/EPF, PERKESO &amp; cukai.</p>
+        <div class="field">
           <label for="fTambah">Pendapatan Tambahan Stabil (RM/bulan) <span class="opt">(opsional)</span></label>
-          <span>RM</span>
+          <div class="rm-prefix"><span>RM</span>
           <input type="number" id="fTambah" min="0" step="50" inputmode="numeric" placeholder="cth: sewa, part-time, elaun tetap">
-        </div>
-        <p class="commit-sub">Contoh: sewa rumah, pendapatan part-time, elaun tetap yang boleh dibuktikan.</p>
+        </div></div>
       </div>
 
-      <div class="ek-card">
-        <h2><span class="ek-step">LANGKAH 3</span> 💳 Komitmen Bulanan Sedia Ada</h2>
+      <!-- LANGKAH 3 -->
+      <div class="form-card">
+        <h2><span class="ek-step">LANGKAH 3</span> 💳 Komitmen Bulanan</h2>
         <p class="ek-hint">Semua bayaran hutang tetap anda setiap bulan. Kalau tiada, biarkan 0.</p>
-
-        <div class="field rm-prefix">
-          <label for="fKereta">Pinjaman Kereta</label>
-          <span>RM</span>
-          <input type="number" id="fKereta" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
-        </div>
-        <div class="field rm-prefix">
-          <label for="fPersonal">Personal Loan / ASB Financing</label>
-          <span>RM</span>
-          <input type="number" id="fPersonal" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
-        </div>
-        <div class="field rm-prefix">
-          <label for="fPTPTN">PTPTN / Pinjaman Pendidikan</label>
-          <span>RM</span>
-          <input type="number" id="fPTPTN" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
-        </div>
-        <div class="field rm-prefix">
-          <label for="fKad">Kad Kredit <span class="opt">(bayaran minimum)</span></label>
-          <span>RM</span>
-          <input type="number" id="fKad" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
-        </div>
-        <div class="field rm-prefix">
-          <label for="fLain">Lain-lain <span class="opt">(pinjaman peribadi lain, dll.)</span></label>
-          <span>RM</span>
-          <input type="number" id="fLain" min="0" step="10" inputmode="numeric" value="0" placeholder="0">
-        </div>
+        <div class="field"><label for="fKereta">Pinjaman Kereta</label><span>RM</span><input type="number" id="fKereta" min="0" step="10" inputmode="numeric" value="0" placeholder="0"></div>
+        <div class="field"><label for="fPersonal">Personal Loan / ASB Financing</label><span>RM</span><input type="number" id="fPersonal" min="0" step="10" inputmode="numeric" value="0" placeholder="0"></div>
+        <div class="field"><label for="fPTPTN">PTPTN / Pinjaman Pendidikan</label><span>RM</span><input type="number" id="fPTPTN" min="0" step="10" inputmode="numeric" value="0" placeholder="0"></div>
+        <div class="field"><label for="fKad">Kad Kredit <span class="opt">(bayaran minimum)</span></label><span>RM</span><input type="number" id="fKad" min="0" step="10" inputmode="numeric" value="0" placeholder="0"></div>
+        <div class="field"><label for="fLain">Lain-lain <span class="opt">(pinjaman peribadi lain, dll.)</span></label><span>RM</span><input type="number" id="fLain" min="0" step="10" inputmode="numeric" value="0" placeholder="0"></div>
 
         <div class="meter-box" id="meterSekarang">
           <div class="meter-row">
@@ -235,10 +334,10 @@
         </div>
       </div>
 
-      <div class="ek-card">
+      <!-- LANGKAH 4 -->
+      <div class="form-card">
         <h2><span class="ek-step">LANGKAH 4</span> 🏠 Matlamat Hartanah</h2>
         <p class="ek-hint">Ceritakan rumah / hartanah yang anda sasarkan.</p>
-
         <div class="field">
           <label for="fBilLoan">Berapa pinjaman rumah yang MASIH AKTIF atas nama anda? *</label>
           <select id="fBilLoan">
@@ -246,9 +345,8 @@
             <option value="1">1 pinjaman rumah aktif</option>
             <option value="2">2 atau lebih pinjaman rumah aktif</option>
           </select>
-          <p class="commit-sub">💡 Penting: untuk pinjaman rumah ke-3 dan seterusnya, bank hadkan pembiayaan kepada 70% (perlu wang pendahuluan 30%).</p>
+          <p class="commit-sub">💡 Penting: untuk pinjaman rumah ke-3 dan seterusnya, bank hadkan pembiayaan kepada 70%.</p>
         </div>
-
         <div class="field">
           <label for="fJenis">Jenis Hartanah Diminati *</label>
           <select id="fJenis">
@@ -258,19 +356,17 @@
             <option>Tanah</option><option>Komersial / Kedai</option><option>Lain-lain</option>
           </select>
         </div>
-
         <div class="field-row">
-          <div class="field rm-prefix">
+          <div class="field">
             <label for="fHarga">Anggaran Harga (RM) *</label>
-            <span>RM</span>
+            <div class="rm-prefix"><span>RM</span>
             <input type="number" id="fHarga" min="1000" step="1000" inputmode="numeric" placeholder="cth: 500000">
-          </div>
+          </div></div>
           <div class="field">
             <label for="fLokasi">Lokasi Pilihan</label>
             <input type="text" id="fLokasi" placeholder="cth: Bangi, Selangor">
           </div>
         </div>
-
         <div class="field-row">
           <div class="field">
             <label for="fDp">Wang Pendahuluan (%)</label>
@@ -281,14 +377,14 @@
             <input type="number" id="fTempoh" value="30" min="5" max="35" step="1" inputmode="numeric">
           </div>
         </div>
-
         <div class="field">
           <label for="fNota">Nota / Masa Sesuai Dihubungi <span class="opt">(opsional)</span></label>
           <textarea id="fNota" rows="2" placeholder="cth: Boleh hubungi selepas 6 petang. Nak beli untuk tinggal sendiri / pelaburan."></textarea>
         </div>
 
+        <!-- Mobile inline summary -->
         <div class="inline-res" id="inlineRes">
-          <h3 style="font-size:14.5px;color:var(--brand-dark);margin:0 0 4px">📊 Ringkasan &amp; Kelayakan Anda</h3>
+          <h3>📊 Ringkasan &amp; Kelayakan Anda</h3>
           <div class="sum-row"><span class="k">Jumlah pinjaman</span><span class="v" id="iPinjaman">—</span></div>
           <div class="sum-row"><span class="k">Anggaran ansuran /bulan</span><span class="v big" id="iAnsuran">—</span></div>
           <div class="sum-row"><span class="k">DSR selepas pinjaman ini</span><span class="v" id="iDsr">—</span></div>
@@ -296,7 +392,8 @@
         </div>
       </div>
 
-      <div class="ek-card">
+      <!-- LANGKAH 5: HANTAR -->
+      <div class="form-card">
         <button class="btn-main" id="btnHantar">🚀 Hantar untuk Semakan Percuma</button>
         <a class="wa-alt" id="waAlt" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 Lebih selesa WhatsApp? Klik untuk terus borak dengan kami</a>
         <p class="priv">🔒 Maklumat anda dirahsiakan &amp; hanya digunakan untuk semakan kelayakan pinjaman. Tiada spam. Dengan menghantar, anda membenarkan Zahir MJ Property (PEA 2684) menghubungi anda mengenai permohonan ini.</p>
@@ -304,39 +401,38 @@
       </div>
     </div>
 
-    <!-- ===== RINGKASAN LIVE ===== -->
+    <!-- ===== RINGKASAN LIVE (DESKTOP SIDEBAR) ===== -->
     <aside class="ek-summary">
-      <div class="ek-card">
+      <div class="form-card">
         <h2>📊 Anggaran Anda</h2>
         <p class="ek-hint" style="margin-bottom:6px">Dikira serta-merta semasa anda mengisi borang.</p>
-
         <div class="sum-row"><span class="k">Jumlah pinjaman</span><span class="v" id="sPinjaman">—</span></div>
         <div class="sum-row"><span class="k">Anggaran ansuran /bulan</span><span class="v big" id="sAnsuran">—</span></div>
-        <div class="sum-row"><span class="k">Kadar anggaran</span><span class="v" id="sKadar">4.20% (purata pasaran)</span></div>
+        <div class="sum-row"><span class="k">Kadar anggaran</span><span class="v" id="sKadar" style="color:var(--gold-pale)">4.20% (purata pasaran)</span></div>
         <div class="sum-row"><span class="k">DSR selepas pinjaman ini</span><span class="v" id="sDsrBaru">—</span></div>
-
         <div class="verdict v-note" id="vKesimpulan" style="display:none"></div>
         <div class="v-note" id="sNota"></div>
-        <div class="v-note">Anggaran ini hanya panduan awal menggunakan kadar purata 11 bank utama (2 Sept 2026). Laporan penuh &amp; sahihan dengan bank disediakan percuma selepas anda hantar borang.</div>
+        <div class="v-note">Anggaran ini hanya panduan awal menggunakan kadar purata 11 bank utama. Laporan penuh &amp; sahihan dengan bank disediakan percuma selepas anda hantar borang.</div>
       </div>
     </aside>
   </div>
 </main>
 
-<!-- ===== SKRIN BERJAYA ===== -->
-<div class="container main ok-wrap" id="okWrap">
-  <div class="ek-card" style="max-width:560px;margin:0 auto">
+<!-- SUCCESS SCREEN -->
+<div class="wrap ok-wrap" id="okWrap">
+  <div class="form-card" style="max-width:560px;margin:0 auto">
     <div class="ok-icon">✅</div>
     <h2>Terima kasih, <span id="okNama">—</span>!</h2>
     <p>Maklumat anda telah <strong>diterima</strong>. Pakar kami akan semak kelayakan &amp; DSR anda secara terperinci dan menghubungi anda <strong>secepat mungkin</strong> (biasanya dalam 1 hari bekerja).</p>
     <p style="font-size:13px;color:var(--muted)">Rujukan anda: <strong id="okRef">—</strong></p>
-    <a class="btn-main" style="text-decoration:none;text-align:center" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 Nak cepat? Terus WhatsApp kami</a>
+    <button class="btn-main" style="text-decoration:none;text-align:center" onclick="window.open('https://wa.me/60122310119','_blank')">📲 Nak cepat? Terus WhatsApp kami</button>
     <a class="wa-alt" href="/">← Kembali ke laman utama</a>
   </div>
 </div>
 
-<footer class="site-footer">
-  <div class="container footer-grid">
+<!-- FOOTER -->
+<footer class="ftr">
+  <div class="wrap ftr-grid">
     <div>
       <h3>Zahir MJ Property</h3>
       <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
@@ -344,38 +440,36 @@
     <div>
       <h3>Pautan</h3>
       <a href="/">Utama</a>
-      <a href="/#listing">Senarai Hartanah</a>
+      <a href="/#listing">Listing</a>
       <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
       <a href="kalkulator.html">Kalkulator Pinjaman</a>
       <a href="semak-kelayakan.html">Semak Kelayakan &amp; DSR</a>
+      <a href="artikel/">Artikel</a>
+      <a href="tentang.html">Tentang</a>
       <a href="dasar-privasi.html">Dasar Privasi</a>
-      <a href="tentang.html">Tentang Kami</a>
-      <a href="jual-sewa-develop.html">Serah Listing</a>
     </div>
     <div>
       <h3>Hubungi</h3>
-      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
-      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+      <p>📞 012-2310119</p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank">WhatsApp</a></p>
+      <p style="font-size:13px;opacity:.85">IQI Realty · PEA 2684</p>
     </div>
   </div>
-  <div class="container footer-bottom">
-    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  <div class="wrap ftr-bottom">
+    <p>© 2026 Zahir MJ Property · Zahiruddin bin Mat Jailaini (PEA 2684) · Ejen berdaftar di bawah IQI Realty Sdn Bhd (E(1)1584)</p>
   </div>
 </footer>
 
 <script>
-/* ===== Semak Kelayakan & DSR — Zahir MJ Property ===== */
-
 // Mobile nav toggle
 (function () {
   const t = document.getElementById("navToggle"), n = document.getElementById("nav");
   if (t && n) t.addEventListener("click", () => n.classList.toggle("open"));
 })();
 
-/* Kadar purata 11 bank (2 Sept 2026, KAJIAN-LOAN-001) — anggaran sahaja. */
+// Kadar purata 11 bank (2 Sept 2026)
 const AVG_RATE = 4.20;
 const WA_NUMBER = "60122310119";
-/* URL Apps Script web app — back-end borang (deploy 2026-09-03). */
 const APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyCl5jkKl8DaOh0Fw6Sfso7MfdQ7mi0RWk_KQoisIu7QWCw-q_t5t0KeA0GCZpmo_Sveg/exec";
 
 const $ = (id) => document.getElementById(id);
@@ -418,7 +512,6 @@ function recalc() {
     $("msgKini").className = "meter-msg " + (dsrKini <= 60 ? "mm-green" : dsrKini <= 70 ? "mm-amber" : "mm-red");
   }
 
-  /* Matlamat */
   const harga = num("fHarga");
   let dpPct = Math.min(90, Math.max(0, parseFloat($("fDp").value) || 0));
   let tahun = Math.min(35, Math.max(1, parseInt($("fTempoh").value, 10) || 1));
@@ -471,7 +564,6 @@ function recalc() {
     $("iKesimpulan").style.display = "none";
   }
 
-  /* WhatsApp alternatif sentiasa dikemas kini */
   const waText = "Assalamualaikum, saya nak semak kelayakan pinjaman.\n" +
     "Nama: " + ($("fNama").value || "-") + "\n" +
     "Pendapatan bersih: " + fmt(inc) + "\n" +
@@ -483,7 +575,7 @@ function recalc() {
 
 ["fBersih","fTambah","fKereta","fPersonal","fPTPTN","fKad","fLain","fHarga","fDp","fTempoh","fBilLoan"].forEach((id) => $(id).addEventListener("input", recalc));
 
-/* ===== Hantar ===== */
+// Validation & submit
 function validasi() {
   const errs = [];
   if (!$("fNama").value.trim()) errs.push("Sila isi nama penuh.");
@@ -547,7 +639,6 @@ $("btnHantar").addEventListener("click", async () => {
       else throw new Error(j && j.error ? j.error : "Gagal");
     } catch (e) {
       console.error("Submit error:", e);
-      /* Fallback: buka WhatsApp dengan data supaya maklumat tak hilang */
       const waText = "🆕 *Permohonan Semak Kelayakan* (hantar manual)\n" +
         "Nama: " + data.nama + "\nTel: " + data.tel +
         (data.emel ? "\nEmel: " + data.emel : "") +
@@ -566,7 +657,6 @@ $("btnHantar").addEventListener("click", async () => {
       return;
     }
   } else {
-    /* Belum deploy Apps Script — hantar via WhatsApp sebagai gantian sementara */
     const waText = "🆕 *Permohonan Semak Kelayakan*\nNama: " + data.nama + "\nTel: " + data.tel + "\nPendapatan bersih: " + fmt(data.bersih) + "\nKomitmen: " + fmt(data.komitmen) + "\nSasaran: " + fmt(data.harga) + " | DP " + data.dp + "% | " + data.tempoh + " thn";
     window.open("https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(waText), "_blank");
     btn.disabled = false;
@@ -576,7 +666,6 @@ $("btnHantar").addEventListener("click", async () => {
     return;
   }
 
-  /* Berjaya */
   $("okNama").textContent = data.nama.split(" ")[0];
   $("okRef").textContent = ref || "SYS-" + Date.now().toString().slice(-6);
   $("formWrap").classList.add("hide");
@@ -590,7 +679,6 @@ recalc();
 <script src="assets/ali-config.js?v=1"></script>
 <script src="assets/ali-chat.js?v=2"></script>
 <script src="/assets/ga4.js" defer></script>
-<!-- Akses: tab Log Masuk / Dashboard + Log Keluar (arahan Zahir 15/09/2026) -->
 <script src="/portal/assets/akses-nav.js" defer></script>
 </body>
 </html>
