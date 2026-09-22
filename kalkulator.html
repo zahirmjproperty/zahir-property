@@ -1,56 +1,213 @@
 <!DOCTYPE html>
 <html lang="ms">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalkulator Pinjaman Perumahan — Zahir MJ Property</title>
-<meta name="description" content="Kira anggaran bayaran bulanan pinjaman perumahan dengan kadar terkini bank-bank utama Malaysia. Lihat kadar terendah, purata & tertinggi — hubungi Zahir MJ Property (PEA 2684) untuk senarai penuh pemberi pinjaman.">
-<link rel="stylesheet" href="style.css?v=67">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<meta name="description" content="Kira anggaran bayaran bulanan pinjaman perumahan secara interaktif. Kadar terkini bank Malaysia, visual jelas & CTA WhatsApp untuk senarai penuh pakej.">
+<link rel="canonical" href="https://zahirmjproperty.com/kalkulator.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator Pinjaman Perumahan | Zahir MJ Property">
+<meta property="og:description" content="Kira anggaran bayaran bulanan pinjaman perumahan secara interaktif dengan kadar terkini bank Malaysia.">
+<meta property="og:url" content="https://zahirmjproperty.com/kalkulator.html">
+<meta property="og:site_name" content="Zahir MJ Property">
+<meta property="og:locale" content="ms_MY">
+<meta property="og:image" content="https://zahirmjproperty.com/assets/og-card.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#071525">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  .calc-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-  @media (min-width: 860px) { .calc-grid { grid-template-columns: 340px 1fr; align-items: start; } }
-  .calc-inputs { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
-  .calc-inputs h2 { font-size: 18px; color: var(--brand-dark); margin-bottom: 4px; }
-  .calc-hint { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
-  .field { margin-bottom: 14px; }
-  .field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 5px; }
-  .field input {
-    width: 100%; padding: 10px 12px; font-size: 15px; border: 1px solid var(--line);
-    border-radius: 10px; background: #fff; color: var(--ink);
-  }
-  .field input:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
-  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .calc-note { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
-  .result-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
-  .result-card h2 { font-size: 18px; color: var(--brand-dark); margin-bottom: 12px; }
-  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 16px; }
-  .stat { background: var(--brand-soft); border-radius: 12px; padding: 12px; }
-  .stat .k { font-size: 12px; color: var(--muted); font-weight: 600; }
-  .stat .v { font-size: 18px; font-weight: 800; color: var(--brand-dark); margin-top: 2px; }
-  .stat .s { font-size: 11.5px; color: var(--muted); }
-  .rate-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; padding: 13px 14px; border-radius: 12px; border: 1px solid var(--line); margin-bottom: 10px; }
-  .rate-row .tag { font-size: 13.5px; font-weight: 800; }
-  .rate-row .val { text-align: right; }
-  .rate-row .rate { font-size: 17px; font-weight: 800; }
-  .rate-row .amt { font-size: 13px; color: var(--muted); }
-  .rr-low { background: #eafaf1; border-color: #b7e4c7; }
-  .rr-low .tag, .rr-low .rate { color: #0e7a3c; }
-  .rr-avg { background: #f0f6ff; border-color: #c9ddf7; }
-  .rr-avg .tag, .rr-avg .rate { color: #2563eb; }
-  .rr-high { background: #fdf0f0; border-color: #f3c4c4; }
-  .rr-high .tag, .rr-high .rate { color: #c0392b; }
-  .lock-note { display: flex; gap: 10px; align-items: flex-start; background: #fff8e6; border: 1px solid #f0dfae; border-radius: 12px; padding: 12px 14px; margin-top: 14px; font-size: 13.5px; line-height: 1.55; }
-  .lock-note strong { color: #8a6400; }
-  .wa-cta { display: block; margin-top: 14px; background: #25d366; color: #fff; font-weight: 700; text-align: center; padding: 13px; border-radius: 12px; font-size: 15px; }
-  .wa-cta:hover { background: #1fb958; }
-  .disc { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.55; }
+:root{
+  --navy:#071525; --navy-deep:#040E1B; --blue:#102A46; --blue-soft:#132942;
+  --gold:#E8C57A; --gold-pale:#F6DEA3; --cyan:#63E5FF;
+  --silver:#C8CED8; --warm-white:#F7F5EF; --muted:#AAB4C3;
+  --line:rgba(232,197,122,.22); --line-cool:rgba(99,229,255,.20);
+  --whatsapp:#25D366;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --head:'Manrope','Inter',system-ui,sans-serif;
+  --r:16px; --r-lg:22px;
+  --glass:linear-gradient(145deg,rgba(19,41,66,.82),rgba(6,18,32,.90));
+  --shadow:0 18px 50px rgba(0,0,0,.28);
+  --wrap:1040px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--navy);color:var(--warm-white);
+  font-family:var(--sans);font-size:16px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.2;letter-spacing:-.02em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 24px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:8px}
+
+/* BUTTONS */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:46px;padding:13px 24px;border-radius:12px;border:1px solid transparent;
+  font-weight:700;font-size:.94rem;letter-spacing:.01em;cursor:pointer;white-space:nowrap;
+  transition:transform .22s,box-shadow .22s,background .22s,color .22s,border-color .22s;
+  position:relative;overflow:hidden;
+}
+.btn-gold{background:linear-gradient(135deg,var(--gold-pale),var(--gold) 55%,#D9B463);color:#16233A;box-shadow:0 10px 30px rgba(232,197,122,.28)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(232,197,122,.42)}
+.btn-ghost{background:rgba(247,245,239,.05);border-color:rgba(200,206,216,.34);color:var(--warm-white);backdrop-filter:blur(8px)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold-pale);transform:translateY(-2px)}
+.btn-wa{background:#25D366;color:#fff;box-shadow:0 8px 24px rgba(37,211,102,.30)}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(37,211,102,.44)}
+.btn-ghost-gold{border-color:var(--gold);color:var(--gold);}
+.btn-ghost-gold:hover{background:rgba(232,197,122,.1);transform:translateY(-2px)}
+
+/* HEADER */
+.hdr{
+  position:sticky;top:0;z-index:100;
+  background:rgba(7,21,37,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.hdr-inner{display:flex;align-items:center;gap:16px;min-height:64px}
+.hdr .brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.hdr .brand .logo{font-size:24px;width:40px;height:40px;display:grid;place-items:center;border-radius:10px}
+.hdr .brand-text strong{font-size:16px;color:var(--warm-white);font-family:var(--head)}
+.hdr .brand-text small{font-size:11px;color:var(--muted);display:block}
+.hdr .nav{display:flex;gap:6px;flex-wrap:wrap}
+.hdr .nav a{padding:6px 14px;color:var(--silver);font-size:14px;font-weight:500;border-radius:8px}
+.hdr .nav a:hover{color:var(--gold);background:rgba(232,197,122,.08)}
+.hdr .nav a.aktif{color:var(--gold);background:rgba(232,197,122,.12)}
+.hdr .btn-wa{font-size:13px;padding:8px 16px;min-height:36px}
+
+/* HERO */
+.hero{
+  padding:56px 0 40px;text-align:center;
+  background:linear-gradient(180deg,var(--navy-deep),var(--navy));
+  border-bottom:1px solid var(--line);
+}
+.hero h1{font-size:clamp(26px,4vw,42px);margin-bottom:10px}
+.hero p{color:var(--muted);font-size:15px;max-width:580px;margin:0 auto;line-height:1.65}
+
+/* CALCULATOR LAYOUT */
+.calc-page{padding:40px 0 60px}
+.calc-grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:860px){.calc-grid{grid-template-columns:380px 1fr;align-items:start}}
+
+/* INPUTS CARD */
+.inputs-card{
+  background:var(--glass);border:1px solid var(--line);border-radius:20px;
+  padding:24px;box-shadow:var(--shadow);
+}
+.inputs-card h2{font-size:18px;color:var(--gold);margin-bottom:4px}
+.inputs-card .hint{font-size:13px;color:var(--muted);margin-bottom:18px}
+.field{margin-bottom:16px}
+.field label{display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:600;color:var(--silver);margin-bottom:6px}
+.field label span.val{color:var(--gold);font-size:15px;font-weight:800}
+.field input[type=number]{
+  width:100%;padding:10px 14px;font-size:16px;
+  background:rgba(247,245,239,.06);border:1px solid var(--line);border-radius:10px;
+  color:var(--warm-white);outline:none;transition:border-color .2s;
+}
+.field input[type=number]:focus{border-color:var(--gold)}
+.field input[type=range]{
+  -webkit-appearance:none;appearance:none;width:100%;height:6px;
+  background:rgba(232,197,122,.15);border-radius:3px;outline:none;margin-top:6px;
+}
+.field input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;appearance:none;width:20px;height:20px;
+  background:var(--gold);border-radius:50%;cursor:pointer;
+  box-shadow:0 0 12px rgba(232,197,122,.4);transition:transform .15s;
+}
+.field input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.15)}
+.field input[type=range]::-moz-range-thumb{
+  width:20px;height:20px;background:var(--gold);border-radius:50%;cursor:pointer;border:none;
+}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.note{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5;opacity:.8}
+
+/* RESULTS CARD */
+.results-card{
+  background:var(--glass);border:1px solid var(--line);border-radius:20px;
+  padding:24px;box-shadow:var(--shadow);
+}
+.results-card h2{font-size:18px;color:var(--gold);margin-bottom:16px}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:20px}
+.stat{
+  background:rgba(232,197,122,.07);border:1px solid rgba(232,197,122,.15);
+  border-radius:14px;padding:14px 16px;text-align:center;
+}
+.stat .k{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.stat .v{font-size:clamp(16px,2vw,20px);font-weight:800;color:var(--gold-pale);margin-top:4px}
+.stat .s{font-size:10px;color:var(--muted);margin-top:2px}
+
+/* RATE ROWS */
+.rate-row{
+  display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;
+  padding:14px 16px;border-radius:14px;border:1px solid;margin-bottom:10px;
+}
+.rate-row .tag{font-size:13px;font-weight:700}
+.rate-row .val{text-align:right}
+.rate-row .rate{font-size:18px;font-weight:800}
+.rate-row .amt{font-size:13px;opacity:.85;margin-top:2px}
+.rr-low{background:rgba(16,185,80,.08);border-color:rgba(16,185,80,.25)}
+.rr-low .tag,.rr-low .rate{color:#34D374}
+.rr-avg{background:rgba(99,229,255,.08);border-color:rgba(99,229,255,.22)}
+.rr-avg .tag,.rr-avg .rate{color:var(--cyan)}
+.rr-high{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.22)}
+.rr-high .tag,.rr-high .rate{color:#EF6464}
+
+/* LOCK NOTE + CTAs */
+.lock-note{
+  display:flex;gap:12px;align-items:flex-start;
+  background:rgba(232,197,122,.07);border:1px solid rgba(232,197,122,.2);
+  border-radius:14px;padding:14px 16px;margin-top:18px;
+  font-size:13px;line-height:1.55;color:var(--silver);
+}
+.lock-note strong{color:var(--gold)}
+.cta-group{display:grid;gap:10px;margin-top:14px}
+.cta-group a{display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:13px;border-radius:12px;font-weight:700;font-size:14px;text-align:center;
+  transition:transform .22s,box-shadow .22s;
+}
+.cta-group a:hover{transform:translateY(-2px)}
+.disc{font-size:12px;color:var(--muted);margin-top:12px;line-height:1.55;opacity:.7}
+
+/* FOOTER */
+.ftr{
+  border-top:1px solid var(--line);padding:32px 0 24px;
+  background:var(--navy-deep);
+}
+.ftr-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-bottom:20px}
+.ftr h3{font-size:14px;color:var(--gold);margin-bottom:8px}
+.ftr p,.ftr a{font-size:13px;color:var(--muted);line-height:1.6;display:block}
+.ftr a:hover{color:var(--warm-white)}
+.ftr-bottom{text-align:center;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);opacity:.7}
+
+/* ANIMATION */
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.stat,.rate-row{animation:fadeIn .4s ease both}
+.rate-row:nth-child(2){animation-delay:.05s}
+.rate-row:nth-child(3){animation-delay:.1s}
+.rate-row:nth-child(4){animation-delay:.15s}
+
+@media(max-width:640px){
+  .hdr-inner{flex-wrap:wrap}
+  .hdr .nav{order:3;width:100%;justify-content:center;padding-top:6px}
+  .ftr-grid{grid-template-columns:1fr}
+  .field-row{grid-template-columns:1fr}
+  .cta-group a{font-size:13px;padding:11px 12px;white-space:normal;line-height:1.3}
+}
 </style>
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
+<!-- HEADER -->
+<header class="hdr">
+  <div class="wrap hdr-inner">
     <a href="/" class="brand">
       <span class="logo">🏠</span>
       <span class="brand-text">
@@ -58,71 +215,65 @@
         <small>Hartanah Dipercayai</small>
       </span>
     </a>
-    <nav class="nav" id="nav">
+    <nav class="nav">
       <a href="/">Utama</a>
-      <a href="https://mrtanah.com/projek-baharu/" title="Projek hartanah baharu dijalankan pemaju — di Mr Tanah">Projek Baharu</a>
+      <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
       <a href="/#listing">Listing</a>
-      <a href="kalkulator.html" class="active">Kalkulator</a>
+      <a href="kalkulator.html" class="aktif">Kalkulator</a>
       <a href="semak-kelayakan.html">Semak Kelayakan</a>
       <a href="artikel/">Artikel</a>
       <a href="tentang.html">Tentang</a>
-      <div class="navdrop">
-        <button type="button" aria-haspopup="true">Untuk Pemilik &amp; Ejen ▾</button>
-        <div class="menu">
-          <a href="permohonan-sewa.html">Mohon Sewa</a>
-          <a href="portal/index.html">Portal Pengurusan</a>
-          <a href="serah-dokumen.html">Serah Dokumen</a>
-          <a href="bayar.html">Bayaran</a>
-          <a href="jual-sewa-develop.html">Serah Listing</a>
-        </div>
-      </div>
     </nav>
-    <div class="header-actions">
-      <a class="btn-wa" href="https://wa.me/60122310119" target="_blank" rel="noopener">📲 012-2310119</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
-    </div>
+    <a class="btn btn-wa" href="https://wa.me/60122310119" target="_blank">📲 012-2310119</a>
   </div>
 </header>
 
-<section class="hero hero-small">
-  <div class="container">
-    <h1>💰 Kalkulator Pinjaman Perumahan</h1>
-    <p>Kira anggaran bayaran bulanan anda dengan <strong>kadar pinjaman perumahan terkini</strong> daripada bank-bank utama Malaysia — tanpa nama bank, hubungi kami untuk senarai penuh.</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <h1>💰 Kalkulator Pinjaman Rumah</h1>
+    <p>Kira anggaran bayaran bulanan dengan kadar terkini bank Malaysia. Gerakkan slider — hasil dikemas kini serta-merta.</p>
   </div>
 </section>
 
-<main class="container main">
-  <div class="calc-grid">
+<!-- CALCULATOR -->
+<main class="calc-page">
+  <div class="wrap calc-grid">
 
-    <div class="calc-inputs">
+    <!-- INPUTS -->
+    <div class="inputs-card">
       <h2>📝 Maklumat Pinjaman</h2>
-      <p class="calc-hint">Isi maklumat untuk kira anggaran bayaran bulanan.</p>
+      <p class="hint">Gerakkan slider atau taip terus nilai.</p>
 
       <div class="field">
-        <label for="price">Harga Hartanah (RM)</label>
-        <input type="number" id="price" value="500000" min="0" step="1000" inputmode="numeric">
+        <label>Harga Hartanah <span id="lPrice" class="val">RM 500,000</span></label>
+        <input type="range" id="price" min="50000" max="2000000" step="10000" value="500000">
+        <input type="number" id="priceN" value="500000" min="0" step="1000" inputmode="numeric" style="margin-top:4px">
       </div>
 
       <div class="field-row">
         <div class="field">
-          <label for="dp">Wang Pendahuluan (%)</label>
-          <input type="number" id="dp" value="10" min="0" max="100" step="1" inputmode="numeric">
+          <label>Wang Pendahuluan <span id="lDp" class="val">10%</span></label>
+          <input type="range" id="dp" min="0" max="50" step="1" value="10">
+          <input type="number" id="dpN" value="10" min="0" max="100" step="1" inputmode="numeric" style="margin-top:4px">
         </div>
         <div class="field">
-          <label for="years">Tempoh (Tahun)</label>
-          <input type="number" id="years" value="35" min="1" max="35" step="1" inputmode="numeric">
+          <label>Tempoh <span id="lYears" class="val">35 thn</span></label>
+          <input type="range" id="years" min="1" max="40" step="1" value="35">
+          <input type="number" id="yearsN" value="35" min="1" max="40" step="1" inputmode="numeric" style="margin-top:4px">
         </div>
       </div>
 
-      <p class="calc-note">ℹ️ Kadar semasa (2 September 2026), kadar asas (SBR) = 2.75%. Anggaran ini hanya panduan.</p>
+      <p class="note">ℹ️ Kadar semasa 2 Sep 2026 · SBR 2.75%. Angka hanya panduan.</p>
     </div>
 
-    <div class="result-card">
-      <h2>📊 Anggaran Bayaran Bulanan</h2>
+    <!-- RESULTS -->
+    <div class="results-card">
+      <h2>📊 Anggaran Bayaran</h2>
       <div class="summary">
         <div class="stat"><div class="k">Jumlah Pinjaman</div><div class="v" id="sLoan">—</div></div>
-        <div class="stat"><div class="k">Bayaran Bulanan (Terendah)</div><div class="v" id="sMonthly">—</div><div class="s">kadar terendah</div></div>
-        <div class="stat"><div class="k">Pendapatan Disyorkan</div><div class="v" id="sIncome">—</div><div class="s">anggaran 70% DSR</div></div>
+        <div class="stat"><div class="k">Bayaran Bulanan</div><div class="v" id="sMonthly">—</div><div class="s" id="sMonthlyLabel">kadar terendah</div></div>
+        <div class="stat"><div class="k">Pendapatan Disyorkan</div><div class="v" id="sIncome">—</div><div class="s">anggaran DSR 70%</div></div>
       </div>
 
       <div class="rate-row rr-low">
@@ -140,19 +291,23 @@
 
       <div class="lock-note">
         <span>🔒</span>
-        <span><strong>Nama pemberi pinjaman &amp; pakej penuh tidak dipaparkan.</strong> Untuk senarai lengkap kadar, terma dan pakej yang sesuai dengan kelayakan anda, hubungi kami — percuma &amp; tanpa sebarang komitmen.</span>
+        <span><strong>Nama bank &amp; pakej penuh tidak dipaparkan.</strong> Untuk senarai lengkap kadar, terma dan pakej yang sesuai dengan kelayakan anda — hubungi kami percuma.</span>
       </div>
 
-      <a class="wa-cta" id="waCta" href="https://wa.me/60122310119?text=..." target="_blank" rel="noopener">📲 Nak tahu bank mana tawarkan kadar terendah? WhatsApp Zahir MJ</a>
-      <a class="wa-cta" style="background:var(--brand-dark);margin-top:14px" href="semak-kelayakan.html">🧮 Nak tahu DSR &amp; kelayakan penuh anda? Semak di sini — percuma</a>
+      <div class="cta-group">
+        <a class="btn btn-gold" id="waCta" href="https://wa.me/60122310119?text=..." target="_blank">📲 WhatsApp — Siapa Bank Terendah?</a>
+        <a class="btn btn-ghost btn-ghost-gold" href="semak-kelayakan.html">🧮 Semak DSR &amp; Kelayakan</a>
+      </div>
+
       <p class="disc">Anggaran ini hanya panduan. Kadar "from" berubah mengikut polisi bank &amp; kelayakan individu. Sahkan dengan kami sebelum membuat keputusan. © Zahir MJ Property · Ejen Hartanah Berdaftar PEA 2684.</p>
     </div>
 
   </div>
 </main>
 
-<footer class="site-footer">
-  <div class="container footer-grid">
+<!-- FOOTER -->
+<footer class="ftr">
+  <div class="wrap ftr-grid">
     <div>
       <h3>Zahir MJ Property</h3>
       <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
@@ -160,27 +315,28 @@
     <div>
       <h3>Pautan</h3>
       <a href="/">Utama</a>
-      <a href="/#listing">Senarai Hartanah</a>
+      <a href="/#listing">Listing</a>
       <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
       <a href="kalkulator.html">Kalkulator Pinjaman</a>
+      <a href="semak-kelayakan.html">Semak Kelayakan</a>
+      <a href="artikel/">Artikel</a>
+      <a href="tentang.html">Tentang</a>
       <a href="dasar-privasi.html">Dasar Privasi</a>
-      <a href="tentang.html">Tentang Kami</a>
-      <a href="jual-sewa-develop.html">Serah Listing</a>
     </div>
     <div>
       <h3>Hubungi</h3>
-      <p>📞 <a href="tel:+60122310119">012-2310119</a></p>
-      <p>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></p>
+      <p>📞 012-2310119</p>
+      <p>📲 <a href="https://wa.me/60122310119" target="_blank">WhatsApp</a></p>
+      <p style="font-size:13px;opacity:.85">IQI Realty · PEA 2684</p>
     </div>
   </div>
-  <div class="container footer-bottom">
-    <p>© 2026 Zahir MJ Property · Ejen Hartanah Berdaftar</p>
+  <div class="wrap ftr-bottom">
+    <p>© 2026 Zahir MJ Property · Zahiruddin bin Mat Jailaini (PEA 2684) &amp; Fadilah Yusof (PEA 2313) · Ejen berdaftar di bawah IQI Realty Sdn Bhd (E(1)1584)</p>
   </div>
 </footer>
 
 <script>
-/* Kadar pinjaman perumahan — floor rate (2 September 2026) · sumber: rates.my.
-   Nama bank dirahsiakan di paparan awam — hanya statistik agregat ditunjukkan. */
+/* Kadar pinjaman perumahan — floor rate (2 Sep 2026) */
 const BANKS = [
   { name: "Bank Islam (Baiti-i)",      rate: 3.55 },
   { name: "AmBank (True Cost)",        rate: 4.00 },
@@ -195,11 +351,9 @@ const BANKS = [
   { name: "Hong Leong (HomeSmart)",    rate: 4.75 },
 ].sort((a, b) => a.rate - b.rate);
 
-(function () { const t = document.getElementById("navToggle"), n = document.getElementById("nav");
-  if (t && n) t.addEventListener("click", () => n.classList.toggle("open"));
-})();
 const $ = (id) => document.getElementById(id);
 const fmt = (n) => "RM " + Math.round(n).toLocaleString("en-MY");
+const fmtNum = (n) => Math.round(n).toLocaleString("en-MY");
 
 function monthly(loan, ratePct, years) {
   const r = ratePct / 100 / 12, n = years * 12;
@@ -209,10 +363,20 @@ function monthly(loan, ratePct, years) {
 
 function recalc() {
   const price = Math.max(0, parseFloat($("price").value) || 0);
-  const dpPct = Math.min(100, Math.max(0, parseFloat($("dp").value) || 0));
-  const years = Math.min(35, Math.max(1, parseInt($("years").value, 10) || 1));
-  const loan = price * (1 - dpPct / 100);
+  const dpPct = Math.min(50, Math.max(0, parseFloat($("dp").value) || 0));
+  const years = Math.min(40, Math.max(1, parseInt($("years").value, 10) || 1));
 
+  // Sync sliders <-> number inputs
+  $("priceN").value = price;
+  $("dpN").value = dpPct;
+  $("yearsN").value = years;
+
+  // Update live labels
+  $("lPrice").textContent = "RM " + fmtNum(price);
+  $("lDp").textContent = dpPct + "%";
+  $("lYears").textContent = years + " thn";
+
+  const loan = price * (1 - dpPct / 100);
   const low = BANKS[0], high = BANKS[BANKS.length - 1];
   const avgRate = BANKS.reduce((s, b) => s + b.rate, 0) / BANKS.length;
 
@@ -222,6 +386,7 @@ function recalc() {
 
   $("sLoan").textContent = fmt(loan);
   $("sMonthly").textContent = fmt(mLow);
+  $("sMonthlyLabel").textContent = "kadar " + low.rate.toFixed(2) + "%";
   $("sIncome").textContent = fmt(mLow / 0.7);
 
   $("rLow").textContent = low.rate.toFixed(2) + "%";
@@ -239,14 +404,30 @@ function recalc() {
   );
 }
 
-["price", "dp", "years"].forEach((id) => $(id).addEventListener("input", recalc));
+// Sync between sliders and number inputs
+function syncSliders() {
+  ["price","dp","years"].forEach(id => {
+    const slider = $(id), num = $(id + "N");
+    slider.addEventListener("input", () => { num.value = slider.value; recalc(); });
+    num.addEventListener("input", () => {
+      let v = parseFloat(num.value) || 0;
+      if (id === "price") v = Math.min(2000000, Math.max(50000, v));
+      if (id === "dp") v = Math.min(50, Math.max(0, v));
+      if (id === "years") v = Math.min(40, Math.max(1, parseInt(v,10)));
+      num.value = v;
+      slider.value = v;
+      recalc();
+    });
+  });
+}
+
+syncSliders();
 recalc();
 </script>
 <script src="assets/fasa1.js?v=1"></script>
 <script src="assets/ali-config.js?v=1"></script>
 <script src="assets/ali-chat.js?v=2"></script>
 <script src="/assets/ga4.js" defer></script>
-<!-- Akses: tab Log Masuk / Dashboard + Log Keluar (arahan Zahir 15/09/2026) -->
 <script src="/portal/assets/akses-nav.js" defer></script>
 </body>
 </html>
