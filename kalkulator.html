@@ -203,30 +203,45 @@ h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.2;letter-spacing:-.02
 }
 </style>
 </head>
-<body>
-
-<!-- HEADER -->
-<header class="hdr">
-  <div class="wrap hdr-inner">
+\1\n<div class="hdr" id="hdr">
+  <div class="hdr-in">
+    <nav class="nav nav-l" aria-label="Navigasi utama">
+      <a href="/">Utama</a>
+      <a href="listing.html">Listing</a>
+      <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
+      <div class="drop" id="drop" data-open="false">
+        <button type="button" class="drop-btn" id="dropBtn" aria-expanded="false" aria-haspopup="true" aria-controls="dropMenu">
+          Lagi ▾
+        </button>
+        <div class="drop-menu" id="dropMenu" role="menu">
+          <a href="kalkulator.html" role="menuitem">Kalkulator</a>
+          <a href="semak-kelayakan.html" role="menuitem">Semak Kelayakan</a>
+          <a href="artikel/" role="menuitem">Artikel</a>
+          <a href="tentang.html" role="menuitem">Tentang</a>
+        </div>
+      </div>
+    </nav>
     <a href="/" class="brand">
-      <img src="assets/logo-zmj-monogram.png" alt="ZMP" style="width:32px;height:32px;border-radius:6px;display:block">
-      <span class="brand-text">
+      <img src="assets/logo-zmj-monogram.png" alt="/" loading="lazy">
+      <div class="brand-text">
         <strong>Zahir MJ Property</strong>
         <small>Hartanah Dipercayai</small>
-      </span>
+      </div>
     </a>
-    <nav class="nav">
-      <a href="/">Utama</a>
-      <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
-      <a href="/#listing">Listing</a>
-      <a href="kalkulator.html" class="aktif">Kalkulator</a>
-      <a href="semak-kelayakan.html">Semak Kelayakan</a>
-      <a href="artikel/">Artikel</a>
-      <a href="tentang.html">Tentang</a>
-    </nav>
-    <a class="btn btn-wa" href="https://wa.me/60122310119" target="_blank">📲 012-2310119</a>
+    <div class="hdr-right">
+      <a class="wa-hdr" href="https://wa.me/60122310119?text=Salam%20dari%20zahirmjproperty.com" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.67.15-.197.3-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.76-1.653-2.059-.173-.3-.018-.463.13-.61.134-.134.298-.336.447-.505.15-.168.197-.3.296-.5.099-.2.05-.37-.025-.52-.075-.15-.67-1.617-.922-2.213-.242-.579-.487-.5-.67-.51-.173-.01-.371-.01-.57-.01s-.523.074-.797.372c-.273.297-1.044 1.02-1.044 2.487s1.07 2.883 1.22 3.082c.15.198 2.105 3.214 5.1 4.504.712.307 1.268.49 1.702.627.724.228 1.383.196 1.903.12.58-.085 1.788-.73 2.04-1.436.25-.706.25-1.312.173-1.435-.077-.128-.29-.2-.587-.352zM12 1.99c6.076 0 11 4.655 11 10.387 0 5.733-4.924 10.388-11 10.388-2.417 0-4.656-.73-6.536-1.982L2.524 22l1.427-3.462C2.704 16.71 2 14.426 2 12.01 2 6.288 6.924 1.637 12 1.99z"/></svg>
+        <span>012-2310119</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
-</header>
+</div>
+
+<!-- HEADER -->
+
 
 <!-- HERO -->
 <section class="hero">
@@ -306,34 +321,7 @@ h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.2;letter-spacing:-.02
 </main>
 
 <!-- FOOTER -->
-<footer class="ftr">
-  <div class="wrap ftr-grid">
-    <div>
-      <h3>Zahir MJ Property</h3>
-      <p>Hartanah Dipercayai — Jual, Beli &amp; Sewa.</p>
-    </div>
-    <div>
-      <h3>Pautan</h3>
-      <a href="/">Utama</a>
-      <a href="/#listing">Listing</a>
-      <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
-      <a href="kalkulator.html">Kalkulator Pinjaman</a>
-      <a href="semak-kelayakan.html">Semak Kelayakan</a>
-      <a href="artikel/">Artikel</a>
-      <a href="tentang.html">Tentang</a>
-      <a href="dasar-privasi.html">Dasar Privasi</a>
-    </div>
-    <div>
-      <h3>Hubungi</h3>
-      <p>📞 012-2310119</p>
-      <p>📲 <a href="https://wa.me/60122310119" target="_blank">WhatsApp</a></p>
-      <p style="font-size:13px;opacity:.85">IQI Realty · PEA 2684</p>
-    </div>
-  </div>
-  <div class="wrap ftr-bottom">
-    <p>© 2026 Zahir MJ Property · Zahiruddin bin Mat Jailaini (PEA 2684) · Ejen berdaftar di bawah IQI Realty Sdn Bhd (E(1)1584)</p>
-  </div>
-</footer>
+
 
 <script>
 /* Kadar pinjaman perumahan — floor rate (2 Sep 2026) */
@@ -429,5 +417,92 @@ recalc();
 <script src="assets/ali-chat.js?v=2"></script>
 <script src="/assets/ga4.js" defer></script>
 <script src="/portal/assets/akses-nav.js" defer></script>
+<footer>
+  <div class="wrap f-grid">
+    <div>
+      <div class="f-brand">
+        <img src="assets/logo-zmj-monogram.png" alt="Zahir MJ Property" loading="lazy">
+        <div>
+          <strong>Zahir MJ Property</strong>
+          <span>Hartanah Dipercayai</span>
+        </div>
+      </div>
+      <p style="color:var(--muted);font-size:.9rem;margin:0;line-height:1.6">Jual, beli dan sewa hartanah di Selangor, Kuala Lumpur dan Putrajaya — dengan bimbingan ejen berdaftar.</p>
+    </div>
+    <div>
+      <h4>Pautan</h4>
+      <ul class="f-list">
+        <li><a href="/">Utama</a></li>
+        <li><a href="listing.html">Senarai Hartanah</a></li>
+        <li><a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a></li>
+        <li><a href="kalkulator.html">Kalkulator Pinjaman</a></li>
+        <li><a href="semak-kelayakan.html">Semak Kelayakan</a></li>
+        <li><a href="artikel/">Artikel</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="dasar-privasi.html">Dasar Privasi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Alat &amp; Perkhidmatan</h4>
+      <ul class="f-list">
+        <li><a href="kalkulator.html">Kalkulator Pinjaman</a></li>
+        <li><a href="semak-kelayakan.html">Semak Kelayakan</a></li>
+        <li><a href="jual-sewa-develop.html">Serah Listing</a></li>
+        <li><a href="permohonan-sewa.html">Mohon Sewa</a></li>
+        <li><a href="serah-dokumen.html">Serah Dokumen</a></li>
+        <li><a href="bayar.html">Bayaran</a></li>
+        <li><a href="https://mrtanah.com/portal/masuk.html">Portal Pengurusan</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi</h4>
+      <ul class="f-list">
+        <li>📞 012-2310119</li>
+        <li>📲 <a href="https://wa.me/60122310119" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li>📧 <a href="mailto:hello@zahirmjproperty.com">hello@zahirmjproperty.com</a></li>
+        <li style="margin-top:6px;font-size:.82rem;color:#7C8798">IQI Realty · PEA 2684</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap f-bot">
+    <span>© 2026 Zahir MJ Property · Zahiruddin bin Mat Jailaini (PEA 2684) · Ejen berdaftar di bawah IQI Realty Sdn Bhd (E(1)1584)</span>
+    <span>Ejen Hartanah Berdaftar · PEA 2684</span>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/60122310119" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.15-1.758-.867-2.03-.967-.273-.099-.471-.15-.67.15-.197.3-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.76-1.653-2.059-.173-.3-.018-.463.13-.61.134-.134.298-.336.447-.505.15-.168.197-.3.296-.5.099-.2.05-.37-.025-.52-.075-.15-.67-1.617-.922-2.213-.242-.579-.487-.5-.67-.51-.173-.01-.371-.01-.57-.01s-.523.074-.797.372c-.273.297-1.044 1.02-1.044 2.487s1.07 2.883 1.22 3.082c.15.198 2.105 3.214 5.1 4.504.712.307 1.268.49 1.702.627.724.228 1.383.196 1.903.12.58-.085 1.788-.73 2.04-1.436.25-.706.25-1.312.173-1.435-.077-.128-.29-.2-.587-.352zM12 1.99c6.076 0 11 4.655 11 10.387 0 5.733-4.924 10.388-11 10.388-2.417 0-4.656-.73-6.536-1.982L2.524 22l1.427-3.462C2.704 16.71 2 14.426 2 12.01 2 6.288 6.924 1.637 12 1.99z"/></svg>
+</a>
+
+<script>
+(function(){'use strict';
+  var hdr=document.getElementById('hdr');
+  function onScroll(){if(hdr){hdr.classList.toggle('is-scrolled',window.scrollY>20)}}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  var drop=document.getElementById('drop');
+  var dropBtn=document.getElementById('dropBtn');
+  var dropMenu=document.getElementById('dropMenu');
+  if(drop&&dropBtn&&dropMenu){
+    dropBtn.addEventListener('click',function(e){e.stopPropagation();var open=drop.classList.toggle('is-open');dropBtn.setAttribute('aria-expanded',open);});
+    document.addEventListener('click',function(e){if(!drop.contains(e.target)){drop.classList.remove('is-open');dropBtn.setAttribute('aria-expanded','false');}});
+  }
+  var burger=document.getElementById('burger');
+  var drawer=document.getElementById('drawer');
+  var drawerClose=document.getElementById('drawerClose');
+  if(burger&&drawer){
+    var panel=document.getElementById('drawerPanel');
+    function openDrawer(){drawer.classList.add('is-open');burger.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';}
+    function closeDrawer(){drawer.classList.remove('is-open');burger.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+    burger.addEventListener('click',openDrawer);
+    if(drawerClose)drawerClose.addEventListener('click',closeDrawer);
+    drawer.addEventListener('click',function(e){if(e.target===drawer)closeDrawer();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&drawer.classList.contains('is-open'))closeDrawer();});
+    if(panel)panel.addEventListener('click',function(e){e.stopPropagation()});
+  }
+  if('IntersectionObserver' in window){
+    var robserver=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');robserver.unobserve(e.target);}});},{threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(function(el){robserver.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
 </body>
 </html>
