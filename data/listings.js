@@ -8385,7 +8385,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0145",
-    "title": "Rumah Teres 1 Tingkat Taman Muhibbah, Kajang — RM360,000",
+    "title": "1 Storey Terrace Taman Muhibbah, Kajang",
     "type": "Rumah Teres",
     "location": "Taman Muhibbah, Kajang, Selangor",
     "state": "Selangor",
@@ -8442,7 +8442,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0146",
-    "title": "Residensi Adelia 4, Bangi Avenue, Kajang — Apartment RM340,000 (Reno)",
+    "title": "Residensi Adelia 4 Bangi Avenue, Kajang",
     "type": "Apartmen",
     "location": "Bangi Avenue, Kajang, Selangor",
     "state": "Selangor",
@@ -8502,7 +8502,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0147",
-    "title": "Shop Apartment Seksyen 15 Bandar Baru Bangi — RM195,000",
+    "title": "Shop Apartment Seksyen 15, Bandar Baru Bangi",
     "type": "Komersial",
     "location": "Seksyen 15, Bandar Baru Bangi, Selangor",
     "state": "Selangor",
@@ -8559,8 +8559,69 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0148",
+    "title": "Conezion Condo Facing IOI City Mall, Putrajaya — RM600,000",
+    "type": "Kondominium",
+    "location": "IOI Resort City, Putrajaya",
+    "state": "WP Putrajaya",
+    "price": 600000,
+    "price_label": "RM600,000",
+    "price_old": null,
+    "land_area": "994 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Conezion Condo menghadap IOI City Mall, Putrajaya — RM600,000",
+      "994 sqft — 3 bilik tidur, 2 bilik air, 2 car park",
+      "Freehold strata — furniture termasuk dalam foto",
+      "Table top & kitchen cabinet disertakan",
+      "Yuran penyelenggaraan RM0.33/sqft sahaja",
+      "Kemudahan premium: mini theater, aqua bed, gym, kolam renang & banyak lagi"
+    ],
+    "description": "Kondominium untuk dijual di Conezion, menghadap IOI City Mall, Putrajaya dengan harga RM600,000. Keluasan 994 kaki persegi menawarkan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Pegangan Freehold strata dengan furniture termasuk dalam foto, table top dan kitchen cabinet disertakan. Yuran penyelenggaraan hanya RM0.33 kaki persegi. Conezion menawarkan kemudahan premium: mini theater, aqua bed, children's art studio, chill-out deck, party room, learning lab, games room, kolam renang, gimnasium, wading pool, dewan serbaguna dan court serbaguna. Lokasi strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN, IUKL, UPM dan MMU Cyberjaya. Sesuai untuk keluarga atau pelaburan premium.",
+    "amenities": [
+      "Furniture termasuk — sedia didiami",
+      "Mini theater, aqua bed & party room",
+      "Kolam renang, gymnasium & wading pool",
+      "Children's art studio & learning lab",
+      "2 car park — 994 sqft, 3 bilik, 2 bilik air",
+      "Yuran penyelenggaraan RM0.33/sqft"
+    ],
+    "nearby": [
+      "IOI City Mall",
+      "The Mines Shopping Centre",
+      "Hospital Putrajaya",
+      "UNITEN, IUKL, UPM, MMU Cyberjaya",
+      "Alamanda Putrajaya",
+      "Hospital Serdang"
+    ],
+    "map_url": "https://www.google.com/maps?q=Conezion+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-24",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1y17btoqw9esQTVLOjXfKdMU71zt9yxqV=w1000",
+      "https://lh3.googleusercontent.com/d/1pDiTsMASJ0qrOS1Xjz_LizCuQDKMo_6y=w1000",
+      "https://lh3.googleusercontent.com/d/1ULpwr5VccALHUmmmWQ4x_QTc0h2oEsn8=w1000",
+      "https://lh3.googleusercontent.com/d/1i-9h0F6P7NJivEwdqpupkW9Boxz0OAj7=w1000",
+      "https://lh3.googleusercontent.com/d/11bz8Yrw5jSa5WhIg252Jsw_7nEbYZHMW=w1000",
+      "https://lh3.googleusercontent.com/d/1yMpAoiaPEZ_kiXv6USB7HrddcpW95355=w1000",
+      "https://lh3.googleusercontent.com/d/19U-wqQH0IcqsWCMpdkomHD9rgTel477R=w1000",
+      "https://lh3.googleusercontent.com/d/1UR9-malx2YR25fCd6kNHEdY7DZSUFubT=w1000",
+      "https://lh3.googleusercontent.com/d/1FscAK3v8epbUCF_nPcI4p5evLadwPTlB=w1000",
+      "https://lh3.googleusercontent.com/d/1koFs6ZCn_iTxN7h2ZhlOqugmVNGQrF2T=w1000"
+    ],
+    "active": true
+  },
+  {
     "tracking": "COA-0151",
-    "title": "Endlot Double Storey Taman Warisan Putra Jenderam Hilir — RM579,000",
+    "title": "Endlot Double Storey Taman Warisan Putra, Jenderam Hilir",
     "type": "Rumah Teres",
     "location": "Taman Warisan Putra, Jenderam Hilir, Dengkil, Selangor",
     "state": "Selangor",
@@ -8618,7 +8679,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0152",
-    "title": "2 Storey Semi-D Lepironia Garden, Setia Eco Glades, Cyberjaya — RM2.5M",
+    "title": "2 Storey Semi-D Lepironia Garden, Setia Eco Glades",
     "type": "Rumah Semi-D",
     "location": "Setia Eco Glades, Cyberjaya, Selangor",
     "state": "Selangor",
@@ -8675,7 +8736,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0153",
-    "title": "Cerrado Southville City, Bangi — Condo Fully Furnished RM345,000",
+    "title": "Cerrado Southville City (Fully Furnished), Bangi",
     "type": "Apartmen",
     "location": "Southville City, Bangi, Selangor",
     "state": "Selangor",
@@ -8731,7 +8792,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0154",
-    "title": "Cyberia Smarthomes Condominium, Cyberjaya — RM250,000",
+    "title": "Cyberia Smarthomes Condominium, Cyberjaya",
     "type": "Kondominium",
     "location": "Cyberjaya, Selangor",
     "state": "Selangor",
@@ -8788,7 +8849,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0155",
-    "title": "Savanna Executive Suite Southville City, Bangi — RM380,000",
+    "title": "Savanna Executive Suite Southville City, Bangi",
     "type": "Servis Apartmen",
     "location": "Southville City, Bangi, Selangor",
     "state": "Selangor",
@@ -8846,7 +8907,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0156",
-    "title": "Conezion Condo Fully Furnished Putrajaya — RM600,000",
+    "title": "Fully Furnished Conezion Condo, Putrajaya",
     "type": "Kondominium",
     "location": "IOI Resort City, Putrajaya",
     "state": "WP Putrajaya",
@@ -8905,7 +8966,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0157",
-    "title": "Pearl Avenue Condominium Sungai Chua, Kajang — RM420,000",
+    "title": "Pearl Avenue Condominium Sungai Chua, Kajang",
     "type": "Kondominium",
     "location": "Sungai Chua, Kajang, Selangor",
     "state": "Selangor",
