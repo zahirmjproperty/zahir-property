@@ -8621,7 +8621,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0149",
-    "title": "Conezion Condo Facing Swimming Pool, Putrajaya — RM470,000 (Partly Furnished)",
+    "title": "Conezion Condo Facing Swimming Pool Putrajaya (Partly Furnished)",
     "type": "Kondominium",
     "location": "IOI Resort City, Putrajaya",
     "state": "WP Putrajaya",
@@ -8675,6 +8675,66 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/15QGyLxN-RNvCOi2C4gauDx4r8Ym9ivia=w1000",
       "https://lh3.googleusercontent.com/d/1JojUwoA8TxW5rKF3xe8HrS7AH8O4RpWI=w1000",
       "https://lh3.googleusercontent.com/d/1oq2ti383wZoz2b4HWG33PB5OuG7AMfCm=w1000"
+    ],
+    "active": true
+  },
+  {
+    "tracking": "COA-0150",
+    "title": "Conezion Condo Facing IOI City Mall, Putrajaya — 986 sqft RM560,000 (Partly Furnished)",
+    "type": "Kondominium",
+    "location": "IOI Resort City, Putrajaya",
+    "state": "WP Putrajaya",
+    "price": 560000,
+    "price_label": "RM560,000",
+    "price_old": null,
+    "land_area": "986 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Conezion Condo menghadap IOI City Mall, Putrajaya — MURAH RM560,000",
+      "986 sqft — 3 bilik tidur, 2 bilik air, 2 car park",
+      "Freehold strata — partly furnished",
+      "Dapur kabinet biru elegan dengan perkakas Electrolux terbina",
+      "Table top & kitchen cabinet disertakan",
+      "Yuran penyelenggaraan RM0.33/sqft — kemudahan premium penuh"
+    ],
+    "description": "Kondominium partly furnished untuk dijual di Conezion, menghadap IOI City Mall, Putrajaya dengan harga RM560,000. Keluasan 986 kaki persegi menawarkan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Pegangan Freehold strata dengan table top dan kitchen cabinet disertakan. Dapur dilengkapi kabinet biru elegan dengan perkakas Electrolux terbina (oven & induction cooktop). Yuran penyelenggaraan hanya RM0.33 kaki persegi. Kemudahan premium: mini theater, aqua bed, children's art studio, chill-out deck, party room, kolam renang, gimnasium dan banyak lagi. Lokasi strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN, IUKL dan UPM. Sesuai untuk keluarga atau pelaburan.",
+    "amenities": [
+      "Partly furnished — sedia didiami",
+      "Dapur kabinet biru + perkakas Electrolux terbina",
+      "2 car park — 986 sqft, 3 bilik, 2 bilik air",
+      "Mini theater, gymnasium & party room",
+      "Kolam renang, wading pool & chill-out deck",
+      "Yuran penyelenggaraan RM0.33/sqft"
+    ],
+    "nearby": [
+      "IOI City Mall",
+      "The Mines Shopping Centre",
+      "Hospital Putrajaya",
+      "UNITEN, IUKL, UPM, MMU Cyberjaya",
+      "Alamanda Putrajaya"
+    ],
+    "map_url": "https://www.google.com/maps?q=Conezion+Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-09-24",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1IqnyRgi-qkIcEsQVFmouPFeWcRDW02M7=w1000",
+      "https://lh3.googleusercontent.com/d/12g4MwTzFguLLXNpFodmwVfNKKYHk_seQ=w1000",
+      "https://lh3.googleusercontent.com/d/1oKPLhb9oj3C2pN_GhdOTLc4IKPQvsMMi=w1000",
+      "https://lh3.googleusercontent.com/d/1onnNhof1HoTXh_zHBwJBcBpd0hIXIeQZ=w1000",
+      "https://lh3.googleusercontent.com/d/1DdXCzfeO3qrmRkB13x66hXCb8z_Cceug=w1000",
+      "https://lh3.googleusercontent.com/d/1__Pq3V-HXl3mKcugk0dUG85lgZAJIozy=w1000",
+      "https://lh3.googleusercontent.com/d/1jpaJABFh-cnMysp97cxe4kZKlMsY0PDn=w1000",
+      "https://lh3.googleusercontent.com/d/1tVVR9EsQHJqq4XNP7E3Q-hDH-6vFzVGp=w1000",
+      "https://lh3.googleusercontent.com/d/1QynG7fhLJKGwVLgs_P7LAOLT2UuRLwID=w1000",
+      "https://lh3.googleusercontent.com/d/1Yq5F4md2YcZSsCuiupX9ApwOBkpL-lOO=w1000"
     ],
     "active": true
   },
