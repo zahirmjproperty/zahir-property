@@ -40,18 +40,18 @@
   .ali-hd small{font-size:11.5px;color:#BFD3E6}
   .ali-hd .x{margin-left:auto;background:none;border:0;color:#fff;font-size:19px;cursor:pointer;line-height:1}
   .ali-body{flex:1;overflow-y:auto;padding:14px;background:#F8FAFC;display:flex;flex-direction:column;gap:10px}
-  .ali-m{max-width:86%;padding:10px 13px;border-radius:14px;white-space:pre-wrap;word-wrap:break-word}
+  .ali-m{max-width:86%;padding:10px 13px;border-radius:14px;white-space:pre-wrap;word-wrap:break-word;color:#1E293B}
   .ali-m.ai{background:#fff;border:1px solid #E2E8F0;border-bottom-left-radius:5px}
   .ali-m.me{background:#0F172A;color:#fff;align-self:flex-end;border-bottom-right-radius:5px}
   body.brand-mt .ali-m.me{background:#059669}
-  .ali-m small.disc{display:block;margin-top:7px;font-size:11px;color:#64748B}
+  .ali-m small.disc{display:block;margin-top:7px;font-size:11px;color:#475569}
   .ali-cards{display:flex;flex-direction:column;gap:8px}
   .ali-card{display:flex;gap:9px;background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:8px;align-items:center}
   .ali-card img{width:58px;height:44px;border-radius:8px;object-fit:cover;flex:0 0 auto;background:#E9EEF3}
-  .ali-card .t{font-size:13.5px;font-weight:600;line-height:1.25}
+  .ali-card .t{font-size:13.5px;font-weight:600;line-height:1.25;color:#0F172A}
   .ali-card .p{font-size:12.5px;color:#0C7A4B;font-weight:700}
   body.brand-mt .ali-card .p{color:#059669}
-  .ali-card .l{font-size:11.5px;color:#64748B}
+  .ali-card .l{font-size:11.5px;color:#475569}
   .ali-cta{display:flex;flex-direction:column;gap:7px;margin-top:2px}
   .ali-form-btn{display:block;text-align:center;background:#fff;border:1.5px solid #0C7A4B;color:#0C7A4B;
     padding:11px 13px;border-radius:11px;font-weight:700;font-size:13.5px}
@@ -70,10 +70,10 @@
   .ali-in input:focus{outline:3px solid #E8F5EF;border-color:#0C7A4B}
   .ali-in button{background:#0C7A4B;color:#fff;border:0;border-radius:11px;width:46px;height:44px;cursor:pointer;font-size:17px}
   body.brand-mt .ali-in button{background:#059669}
-  .ali-src{font-size:10.5px;color:#94A3B8;text-align:center;padding:0 10px 8px}
+  .ali-src{font-size:10.5px;color:#64748B;text-align:center;padding:0 10px 8px}
   .ali-nb{display:none;gap:7px;padding:9px 12px;background:#F8FAFC;border-top:1px solid #E2E8F0;align-items:center}
   .ali-nb.on{display:flex}
-  .ali-nb span{font-size:12px;color:#64748B;white-space:nowrap}
+  .ali-nb span{font-size:12px;color:#475569;white-space:nowrap}
   .ali-nb input{flex:1;min-width:80px;font:400 13px 'Inter',sans-serif;border:1.5px solid #E2E8F0;border-radius:9px;padding:8px 10px}
   .ali-nb button{background:#0F172A;color:#fff;border:0;border-radius:9px;padding:9px 11px;font:600 12.5px 'Inter',sans-serif;cursor:pointer}
   body.brand-mt .ali-nb button{background:#059669}
