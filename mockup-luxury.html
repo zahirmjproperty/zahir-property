@@ -497,7 +497,7 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
   <div class="hdr-in">
     <nav class="nav nav-l" aria-label="Navigasi utama">
       <a href="/" class="is-active" aria-current="page">Utama</a>
-      <a href="listing.html">Listing</a>
+      <a href="senarai.html">Listing</a>
       <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
       <a href="kalkulator.html">Kalkulator</a>
       <div class="drop" id="drop" data-open="false">
@@ -545,7 +545,7 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
       <button class="drawer-close" id="drawerClose" aria-label="Tutup menu">&times;</button>
     </div>
     <a href="/">Utama</a>
-    <a href="listing.html">Listing</a>
+    <a href="senarai.html">Listing</a>
     <a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a>
     <a href="kalkulator.html">Kalkulator</a>
     <a href="semak-kelayakan.html">Semak Kelayakan</a>
@@ -660,7 +660,7 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
         <h2 class="sec-title">Hartanah Pilihan</h2>
         <p class="sec-sub">Kediaman, pelaburan dan ruang perniagaan untuk masa depan yang lebih baik.</p>
       </div>
-      <a class="link-more" href="listing.html">Lihat Semua Listing
+      <a class="link-more" href="senarai.html">Lihat Semua Listing
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
     </div>
@@ -832,7 +832,7 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
         <h4>Pautan</h4>
         <ul class="f-list">
           <li><a href="/">Utama</a></li>
-          <li><a href="listing.html">Senarai Hartanah</a></li>
+          <li><a href="senarai.html">Senarai Hartanah</a></li>
           <li><a href="https://mrtanah.com/projek-baharu/">Projek Baharu</a></li>
           <li><a href="artikel/">Artikel</a></li>
           <li><a href="tentang.html">Tentang Kami</a></li>
@@ -1049,11 +1049,11 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
       return (r && r.images && r.images[0]) || GAMBAR_GANTI[k] || GAMBAR_GANTI.lain;
     };
     var senarai = [
-      {k:'rumah', t:'Rumah Subsale', h:'listing.html?jenis=JUAL&type=rumah'},
-      {k:'apartmen', t:'Apartmen & Kondo', h:'listing.html?jenis=JUAL&type=apartmen'},
-      {k:'komersial', t:'Komersial', h:'listing.html?jenis=JUAL&type=komersial'},
+      {k:'rumah', t:'Rumah Subsale', h:'senarai.html?jenis=JUAL&type=rumah'},
+      {k:'apartmen', t:'Apartmen & Kondo', h:'senarai.html?jenis=JUAL&type=apartmen'},
+      {k:'komersial', t:'Komersial', h:'senarai.html?jenis=JUAL&type=komersial'},
       {k:'tanah', t:'Tanah & Ladang', h:null},
-      {k:'', t:'Untuk Disewa', h:'listing.html?jenis=SEWA'},
+      {k:'', t:'Untuk Disewa', h:'senarai.html?jenis=SEWA'},
       {k:'', t:'Projek Baharu', h:'https://mrtanah.com/projek-baharu/'}
     ];
     grid.innerHTML = senarai.map(function(c){
@@ -1092,7 +1092,7 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
         '<img src="' + img + '" alt="' + esc(p.nama) + '" loading="lazy" onerror="this.onerror=null;this.src=\'assets/seg-apartmen.jpg\'">' +
         '<div class="proj-in"><h3>' + esc(p.nama) + '</h3>' +
         '<p>' + p.unit + ' unit dipasarkan · ' + (p.jenis === 'SEWA' ? 'Untuk disewa' : 'Untuk dijual') + '</p>' +
-        '<a class="link-more" style="margin-top:12px;display:inline-flex" href="listing.html?q=' + encodeURIComponent(p.nama) + '">Lihat unit' +
+        '<a class="link-more" style="margin-top:12px;display:inline-flex" href="senarai.html?q=' + encodeURIComponent(p.nama) + '">Lihat unit' +
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></article>';
     }).join('');
   }
