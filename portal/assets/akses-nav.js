@@ -22,13 +22,10 @@
   var CFG = window.AUTH || {};
   var RUJUKAN = (String(CFG.url || "").replace(/^https?:\/\//, "").split(".")[0]) || "";
   var KUNCI = RUJUKAN ? ("sb-" + RUJUKAN + "-auth-token") : "";
-  /* Halaman akses: satu tempat sahaja (mrtanah.com). Domain lain paut ke sana —
-     localStorage sesi tidak dikongsi antara domain, jadi log masuk mesti berlaku
-     di domain yang sama dengan dashboard. */
-  var DOMAIN_AKSES = "https://mrtanah.com";
-  var HALAMAN_AKSES = (/(^|\.)mrtanah\.com$/.test(location.hostname) || location.protocol === "file:")
-    ? "/portal/masuk.html"
-    : DOMAIN_AKSES + "/portal/masuk.html";
+  /* Halaman akses: kini SATU tempat sahaja — Zentra Property Group (portal Zentra).
+     Portal Mr Tanah lama sudah dipindahkan; pautkan terus ke Zentra. */
+  var DOMAIN_AKSES = "https://zentrapropertygroup.com";
+  var HALAMAN_AKSES = DOMAIN_AKSES;
 
   function bacaToken() {
     if (!KUNCI) return "";
