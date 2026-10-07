@@ -116,13 +116,15 @@
         (ref ? '<span class="p-ref" title="Rujukan listing">' + esc(ref) + "</span>" : "") +
       "</a>" +
       '<div class="p-body">' +
-        '<div class="p-top">' +
-          '<div style="min-width:0">' +
-            '<h3 class="p-title"><a href="' + url + '">' + esc(l.title) + "</a></h3>" +
-            '<div class="p-price">' + harga(l) + "</div>" +
+        '<a class="p-hit" href="' + url + '" aria-label="Lihat butiran: ' + esc(l.title) + '">' +
+          '<div class="p-top">' +
+            '<div style="min-width:0">' +
+              '<h3 class="p-title">' + esc(l.title) + "</h3>" +
+              '<div class="p-price">' + harga(l) + "</div>" +
+            "</div>" +
+            '<div class="p-loc">' + ICO.pin + "<span>" + esc(lokasi(l)) + "</span></div>" +
           "</div>" +
-          '<div class="p-loc">' + ICO.pin + "<span>" + esc(lokasi(l)) + "</span></div>" +
-        "</div>" +
+        "</a>" +
         '<div class="p-specs">' +
           specs.map(function (s) { return "<span>" + s + "</span>"; }).join("") +
         "</div>" +
