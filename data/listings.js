@@ -10246,7 +10246,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0174",
-    "title": "Rumah Teres 2 Tingkat Taman Seri Mewah, Kajang — Facing Open, Extended Kitchen",
+    "title": "Rumah Teres 2 Tingkat Taman Seri Mewah, Kajang",
     "type": "Rumah Teres",
     "location": "Taman Seri Mewah, Kajang",
     "state": "Selangor",
@@ -10306,7 +10306,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0175",
-    "title": "Semi-D 2.5 Tingkat Bangi Lakehill Villas, Bandar Baru Bangi — Renovated, Tenanted",
+    "title": "Semi-D 2.5 Tingkat Bangi Lakehill Villas, Bandar Baru Bangi",
     "type": "Rumah Semi-D",
     "location": "Bangi Lakehill Villas, Bandar Baru Bangi",
     "state": "Selangor",
@@ -10366,7 +10366,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0176",
-    "title": "Kilang 2 Tingkat Corporate Link, Nouvelle Industrial Park, Meru, Klang — Freehold",
+    "title": "Kilang 2 Tingkat Corporate Link, Nouvelle Industrial Park, Meru, Klang",
     "type": "Kilang",
     "location": "Nouvelle Industrial Park, Meru, Klang",
     "state": "Selangor",
@@ -10419,6 +10419,121 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1TncHJka4G5e9e5yxs8_p9rdzbbJotBRn=w1000",
       "https://lh3.googleusercontent.com/d/1Exf4uzS5DFaIMGK-Xgl5W0ZLaLMc7bsE=w1000",
       "https://lh3.googleusercontent.com/d/1nfYB-PzOMyAGprEwc5mb9t1jdy5Pvf_m=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0177",
+    "title": "Detached Factory Warehouse Corner Lot, Elmina Business Park, Bandar Elmina, Shah Alam",
+    "type": "Kilang",
+    "location": "Elmina Business Park, Bandar Elmina, Shah Alam",
+    "state": "Selangor",
+    "price": 12500000,
+    "price_label": "RM12,500,000",
+    "price_old": null,
+    "land_area": "12,000 sqft (binaan) | tanah 32,840 sqft (3,051 sqm)",
+    "built_up": "12,000 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Kilang detached corner lot di Elmina Business Park, Bandar Elmina, Shah Alam",
+      "Freehold (Individual Title) — binaan 12,000 kaki persegi di atas tanah 32,840 kaki persegi",
+      "Siling tinggi 30 kaki (9 meter) — sesuai untuk gudang dan operasi ringan",
+      "Kapasiti kuasa elektrik 200 Amp, floor loading 15 kN/m²",
+      "Hadapan barat daya, akses terus ke LATAR, NKVE, GUTHRIE dan DASH",
+      "Berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial"
+    ],
+    "description": "Kilang detached corner lot untuk dijual di Elmina Business Park, Bandar Elmina, Shah Alam. Unit ini menawarkan binaan 12,000 kaki persegi di atas tanah seluas 32,840 kaki persegi (3,051 meter persegi) dengan pegangan Freehold dan Individual Title. Ketinggian siling 30 kaki (9 meter) membolehkan penyimpanan bertingkat, manakala kapasiti kuasa 200 Amp serta floor loading 15 kN/m² menampung keperluan operasi industri ringan dan pergudangan. Lokasinya menghadap barat daya dengan akses mudah ke lebuhraya LATAR, NKVE, GUTHRIE dan DASH, serta berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial seperti restoran dan deretan kedai. Sesuai untuk syarikat yang mahukan premis industri moden dalam taman perniagaan yang sedang membangun. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
+    "amenities": [
+      "Binaan 12,000 sqft, tanah 32,840 sqft (3,051 sqm)",
+      "Siling 30 kaki (9 m)",
+      "Kapasiti kuasa 200 Amp",
+      "Floor loading 15 kN/m²",
+      "Freehold — Individual Title",
+      "Corner lot (hadapan barat daya)"
+    ],
+    "nearby": [
+      "Elmina Lakeside Mall",
+      "Bandar Elmina Township",
+      "Kawasan komersial, restoran dan deretan kedai",
+      "Akses LATAR, NKVE, GUTHRIE dan DASH"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Elmina%20Business%20Park%2C%20Bandar%20Elmina%2C%20Shah%20Alam",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-11",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1HWnNYR-dKpoHMbEwcTivc0ybR1F21Dy5=w1000",
+      "https://lh3.googleusercontent.com/d/16vKUxHtzVjYE3D5fz5NGdI5YU0CARBQS=w1000",
+      "https://lh3.googleusercontent.com/d/1KqmizCYl4Iqc5x-spJzzup-HOyQEcqDl=w1000",
+      "https://lh3.googleusercontent.com/d/1yyX9HVYkVx2SYrnStorh8ehlr7ZEK-RN=w1000",
+      "https://lh3.googleusercontent.com/d/1eXWKBRJOnRv9PjMH7F2jpuWW85oIh346=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0178",
+    "title": "Detached Factory Warehouse 1 Ekar, Elmina Business Park, Bandar Elmina, Shah Alam",
+    "type": "Kilang",
+    "location": "Elmina Business Park, Bandar Elmina, Shah Alam",
+    "state": "Selangor",
+    "price": 25000000,
+    "price_label": "RM25,000,000",
+    "price_old": null,
+    "land_area": "37,355 sqft (binaan) | tanah 1.1809 ekar (51,441 sqft)",
+    "built_up": "37,355 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Kilang detached warehouse di Elmina Business Park, Bandar Elmina, Shah Alam",
+      "Freehold (Individual Title) — binaan 37,355 kaki persegi di atas tanah 1.1809 ekar",
+      "Siling tinggi 39 kaki (12 meter) — ruang gudang yang luas dan fleksibel",
+      "Kapasiti kuasa elektrik 400 Amp, floor loading 30 kN/m², sistem sprinkle disediakan",
+      "Hadapan selatan, akses terus ke LATAR, NKVE, GUTHRIE dan DASH",
+      "Berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial"
+    ],
+    "description": "Kilang detached warehouse untuk dijual di Elmina Business Park, Bandar Elmina, Shah Alam. Unit ini menawarkan binaan 37,355 kaki persegi di atas tanah seluas 1.1809 ekar (51,441 kaki persegi / 4,779 meter persegi) dengan pegangan Freehold dan Individual Title. Ketinggian siling 39 kaki (12 meter) serta floor loading 30 kN/m² membolehkan operasi industri yang lebih berat dan penyimpanan bervolume besar, ditambah kapasiti kuasa 400 Amp dan sistem sprinkle yang telah disediakan. Lokasinya menghadap selatan dengan akses mudah ke lebuhraya LATAR, NKVE, GUTHRIE dan DASH, serta berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial seperti restoran dan deretan kedai. Sesuai untuk syarikat yang memerlukan premis industri berskala besar dalam taman perniagaan yang sedang membangun. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
+    "amenities": [
+      "Binaan 37,355 sqft, tanah 1.1809 ekar (51,441 sqft)",
+      "Siling 39 kaki (12 m)",
+      "Kapasiti kuasa 400 Amp",
+      "Floor loading 30 kN/m²",
+      "Sistem sprinkle disediakan",
+      "Freehold — Individual Title"
+    ],
+    "nearby": [
+      "Elmina Lakeside Mall",
+      "Bandar Elmina Township",
+      "Kawasan komersial, restoran dan deretan kedai",
+      "Akses LATAR, NKVE, GUTHRIE dan DASH"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Elmina%20Business%20Park%2C%20Bandar%20Elmina%2C%20Shah%20Alam",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-11",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1D2y6TsdwUXFV9-_5tDndPG-wSSbCB-dM=w1000",
+      "https://lh3.googleusercontent.com/d/1-Kh5TdNDHSKyH1ljhIeiaf5anaPyqAqB=w1000",
+      "https://lh3.googleusercontent.com/d/1BN2SNrJsG5jcwI2RbaaC6GB3Ukvtalej=w1000",
+      "https://lh3.googleusercontent.com/d/1gUpi1Owpd9yY-jvnL9xEyoSbPYqo62Ch=w1000",
+      "https://lh3.googleusercontent.com/d/1ygU1oKg0HsS1SvTGFKFCE7jOF8plBnZM=w1000",
+      "https://lh3.googleusercontent.com/d/19VtYsRLEO_RPNy1P2eN3ZMRaYsB1Cjy3=w1000",
+      "https://lh3.googleusercontent.com/d/1CLoAEirr8eTQrCvVu_1RaAm_nRjZSSvg=w1000",
+      "https://lh3.googleusercontent.com/d/1V37rtxV9IfVkfP1d9nlpKi-WPvVlbi5o=w1000",
+      "https://lh3.googleusercontent.com/d/1wK1POT7IU5NUdTMrXgSSjDvOo2YW63Hg=w1000",
+      "https://lh3.googleusercontent.com/d/1uAENh0FrocLkZiG4pjuZlrVYfSK9TVJe=w1000"
     ],
     "video": "",
     "active": true
