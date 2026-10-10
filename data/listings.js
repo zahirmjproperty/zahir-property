@@ -10185,6 +10185,66 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0173",
+    "title": "Rumah Teres 2 Tingkat Bangi Avenue 1, Kajang — Renovated & Extended",
+    "type": "Rumah Teres",
+    "location": "Bangi Avenue 1, Kajang",
+    "state": "Selangor",
+    "price": 605000,
+    "price_label": "RM605,000",
+    "price_old": null,
+    "land_area": "2,000 sqft (20' x 70')",
+    "built_up": "2,000 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Rumah teres 2 tingkat di Bangi Avenue 1, Kajang — RM605,000 (nego)",
+      "Renovated & extended — dapur diperbesarkan, family area tambahan",
+      "Freehold (Open), tanah 20' x 70', binaan ~2,000 kaki persegi",
+      "4 bilik tidur dan 4 bilik air — sesuai untuk keluarga besar",
+      "Auto gate, penghawa dingin, kabinet dapur premium",
+      "Kawasan Gated & Guarded 24 jam — keselamatan terjaga"
+    ],
+    "description": "Rumah teres dua tingkat untuk dijual di Bangi Avenue 1, Kajang pada harga RM605,000 (masih boleh dirunding). Unit ini telah diubah suai dan diperbesarkan (renovated & extended) dengan dapur yang lebih luas serta ruang family tambahan, menjadikannya selesa untuk keluarga besar. Pegangan Freehold (Open) dengan keluasan tanah 20' x 70' dan binaan kira-kira 2,000 kaki persegi, menawarkan 4 bilik tidur dan 4 bilik air. Kemudahan sedia ada termasuk auto gate, penghawa dingin dan kabinet dapur premium, manakala kawasan perumahan dijaga Gated & Guarded 24 jam. Lokasinya strategik berhampiran UIS Bandar Sri Putra, USIM, surau, Jaya Grocer, Pasaraya CS dan Bangi Wonderland, dengan akses mudah ke Lebuhraya PLUS dan LEKAS. Hubungi kami untuk urusan viewing.",
+    "amenities": [
+      "Tanah 20' x 70', binaan ~2,000 kaki persegi",
+      "4 bilik tidur, 4 bilik air + family area",
+      "Renovated & extended — dapur diperbesarkan",
+      "Auto gate, penghawa dingin, kabinet dapur premium",
+      "Freehold (Open)",
+      "Gated & Guarded 24 jam"
+    ],
+    "nearby": [
+      "UIS Bandar Sri Putra dan USIM",
+      "Surau, Jaya Grocer, Pasaraya CS",
+      "Bangi Wonderland",
+      "Akses Lebuhraya PLUS dan LEKAS"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi%20Avenue%201%2C%20Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-11",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1Go2SS2y_No-C7UPoNo4LvWhORIzUOjAL=w1000",
+      "https://lh3.googleusercontent.com/d/1x6KOBTHh_BMC2t-t9CPNx-tk6e2yHlFt=w1000",
+      "https://lh3.googleusercontent.com/d/1Nt5D3QOuGTJK5U5Ic7-CYe5PI-BJZGw9=w1000",
+      "https://lh3.googleusercontent.com/d/1RFooBg4LPQJJOMrMQnXMiikBULQZjoOS=w1000",
+      "https://lh3.googleusercontent.com/d/1Ry8ywp_SQsQAyxCaLl9Ug8GpmQevBiMw=w1000",
+      "https://lh3.googleusercontent.com/d/1DeT6Cpv7KVIz6SwPjvu-dgt5wP2jvSCr=w1000",
+      "https://lh3.googleusercontent.com/d/13aP4sg_H9I-Qjs5jYtvoHb0fjozjume4=w1000",
+      "https://lh3.googleusercontent.com/d/1plMD8z1V_eLzrx7mMNFjLBDojPaT-orZ=w1000",
+      "https://lh3.googleusercontent.com/d/1T14cJzeu01gz0T19-3V0KSSqhNMoukK4=w1000",
+      "https://lh3.googleusercontent.com/d/177D3GwnVBB3luCSIYkRw0OXCARj-F9E_=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
