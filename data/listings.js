@@ -68,6 +68,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1G7wV7MWxDXIrGZ8jEH7C_8rYgaBhHIB1=w1000",
       "https://lh3.googleusercontent.com/d/15GPrp6It1WdDpXUza1ruXKOn2W9p8EHx=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -120,6 +121,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1GrDLGuettiFYI4HI685YqDcp1ORoHzX1=w1000",
       "https://lh3.googleusercontent.com/d/126BKiOOOmvUCoQy8t4VsTOv7l_RWBU4M=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -168,6 +170,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1_vvusjTcGrbjeAk3aHLEy2bM08I83OPS=w1000",
       "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -225,6 +228,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1tCeMh_AD69VFfEmCjZn9dmhJttitqOCX=w1000",
       "https://lh3.googleusercontent.com/d/1UgaiMZJUeJLzC6PRFs3eEZgmaLpUgXhU=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -281,6 +285,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1f1Wi9nQG3yFtcN59WZBEiIksBqfma6NN=w1000",
       "https://lh3.googleusercontent.com/d/1mYT8Kw8Gz9A6u7IBxGFAV-MqOiZ7jJHd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -337,6 +342,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1W9LJvCDL7Uu07-KWQkrCT8W-ygWdEEBE=w1000",
       "https://lh3.googleusercontent.com/d/19ocTatN2C2KtEbNPekPQAaGbIGZ4YEXK=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -390,6 +396,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1kWOIOyOTyLBUTAAp76i6iGA9Y1dSSnHl=w1000",
       "https://lh3.googleusercontent.com/d/1RnB1VaWSVgOUqBDd0ksvN4rfMcvX685n=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -443,6 +450,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/14Ezjbt8hXZtuVwPb6vGrJkOjLxDu6StH=w1000",
       "https://lh3.googleusercontent.com/d/1EL34TpStJaJ0jDirDlxpalismK1y6eeW=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -503,6 +511,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FmdQ-MXwkQ4tHgMUHrDXenwrbEuS7QA0=w1000",
       "https://lh3.googleusercontent.com/d/1L4XYrLZPwKUy2KbXwBCRYh_TjKizRNMO=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -564,6 +573,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1pNOU_fSj7NvjWOzXz8saiY386HExYDOF=w1000",
       "https://lh3.googleusercontent.com/d/1Nqa9pwQ006p4iB_SXd6ZiF8-eOGz3d4n=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -619,6 +629,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1RrEGdY2y0xmEMP5AIIDjvTaVewZfve4Y=w1000",
       "https://lh3.googleusercontent.com/d/1ik1xM6RlgQFBlN4oppBo2vjPPnUBkf0X=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -677,6 +688,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1KTOvJ4_Err9cOK2CbGv4IK7utM2f_HGz=w1000",
       "https://lh3.googleusercontent.com/d/1wdqP91Jzjnsnsv8Iiksom9aw-jmvfQra=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -736,6 +748,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1BpenSygfV0edx6SE59URLy_Bd4wKqe4F=w1000",
       "https://lh3.googleusercontent.com/d/1ST5eeyMVNvJ9pe63VxZsHn2jr0jk78W6=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -797,6 +810,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/12HCQmjNe-ALW4jtdOWB2T5gxdeH5M_42=w1000",
       "https://lh3.googleusercontent.com/d/1wVnbyfDMMrVCkjyQD55rE30CVDfMGU7g=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -860,6 +874,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FBCKrIcbGVJSI8kf5mnOv1lHwYUNHxKj=w1000",
       "https://lh3.googleusercontent.com/d/1Fgre9P9CABTL843UZSBNSqCw7DNvc_iF=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -920,6 +935,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/13CxMRB5pGKdfPgaUe5zlIyzlGgATvlFg=w1000",
       "https://lh3.googleusercontent.com/d/1J0apAEisrD9GKoG_dGgE_f9_-XtFdY3N=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -979,6 +995,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1PrtsSsf-aqiXc3JK7Mqo7eEtnfqgh4AE=w1000",
       "https://lh3.googleusercontent.com/d/1-CV-C-nJjGmhTXo64_B5G8mWmaWUxFX3=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1041,6 +1058,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1cp8jQcnarjJV8aGUfKbJIcxzfXYcw71V=w1000",
       "https://lh3.googleusercontent.com/d/1aQy1nf9TWRRiP3w2CcoBmviGWVDb1O7h=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1099,6 +1117,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1RI9dFBZeWYCaV66GmFV8l69_zjsigfGA=w1000",
       "https://lh3.googleusercontent.com/d/1y03oDQo4GCPZfuzkFrpLyLfFwbt1dhxD=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1163,6 +1182,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1MYZmzuQkrulB0xGJRHrFBaY7bVjkL7Rj=w1000",
       "https://lh3.googleusercontent.com/d/1uXIaUe0oa4_qd8KTrnSwE7pfwsi1F-8P=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1203,6 +1223,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/15Uijx_2bstuJccoIXKfNkPgWFvve1Vtn=w1000",
       "https://lh3.googleusercontent.com/d/1ureNLLBJbSJF9lsodInJhuKaBiopR2q4=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1247,6 +1268,7 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1K_0ShnI0C1RFKwfrXe1LxyeNJcm833xQ=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1299,6 +1321,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1WY2yWc-KmBa5VHKe6F5nBJiuH0fjEgyw=w1000",
       "https://lh3.googleusercontent.com/d/1yurif7MOYHLBHz_tSubQmiHY3srJyj3X=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1357,6 +1380,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1uSX0kq-19KdjSyZI-LMAbs5Ff6AfqiEt=w1000",
       "https://lh3.googleusercontent.com/d/1Y4XS2EXSH5LAgAxkAB_3tgSubpTKnLt5=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1412,6 +1436,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1RMYQhUdg_3x7PCwPfUiiEHveZaMaRSis=w1000",
       "https://lh3.googleusercontent.com/d/1l6LYPcPcpiRnPeE1UwUk0bA8rdSs6L_h=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1450,6 +1475,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1p8z0bgUISl0G0pWZ2YsVLu_DSt5bg8P8=w1000",
       "https://lh3.googleusercontent.com/d/16J5Lpk8GYPExKmldvcsbTXbzzqYRiHSo=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1505,6 +1531,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1QMz3-pc1BFsx27z4Syugk_wLlG0N36cQ=w1000",
       "https://lh3.googleusercontent.com/d/1s-O9_IT2MdOlHZVAuSkICF7UH8DfbEyl=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1563,6 +1590,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1BSuJtq_eB7w-REDGhzsysSh3UxAroF_j=w1000",
       "https://lh3.googleusercontent.com/d/15EoztooZtBjUvenOAWSGQi6NgxVie-AX=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1614,6 +1642,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Dd3TeoOOI5tu3jKXLy1iNMATq9mTyyMO=w1000",
       "https://lh3.googleusercontent.com/d/142OOJQiUg24vrr8hcW7m7QyQ7aPEbSA7=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1663,6 +1692,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FjCyw81kIADo4qMbeerH9zSrvBBxbSZn=w1000",
       "https://lh3.googleusercontent.com/d/1f56gKaa1E37bMRKyLPQmuGC_FvAvn89K=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1714,6 +1744,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1VRNNB9RG9anqfGB78yKxA8b3sTyuaaSc=w1000",
       "https://lh3.googleusercontent.com/d/18GwySc3oiRiFcREslakeLpWH1l_DuWm1=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1764,6 +1795,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FQUxxkK2keY6h95uPDtOtTCJZvIPoUDV=w1000",
       "https://lh3.googleusercontent.com/d/14HF-kbicmq3nNPzIKFQZkMq8vYfG8GXn=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1817,6 +1849,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1GMecYHvd92fGdXsib46H_44_ilsmQlGK=w1000",
       "https://lh3.googleusercontent.com/d/1hTQu3lajqzbDqLmPIjcwm9yKlyTpItzR=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1873,6 +1906,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1-GwbOU82OBRJYotmnX49aB-ED3SQhoCj=w1000",
       "https://lh3.googleusercontent.com/d/1zbYw-UccuDE4iUsiXBtCnmgTEj154F3k=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1929,6 +1963,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1HXZgqmH-xk5aB_MuApDgVOoDBucYJ-ch=w1000",
       "https://lh3.googleusercontent.com/d/1bnDFuo72NU8AxFm27Ky9lNYvVcA6tH2L=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -1985,6 +2020,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1uKnR41rCKDmZvViAhOz-JgQ19bxwfJtd=w1000",
       "https://lh3.googleusercontent.com/d/1AuKuDCzB1mAEZjtseKUWXDSLSimqOBoJ=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2044,6 +2080,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1e3q6fj5YALOXioxJi4Sz04rnTgorU8qy=w1000",
       "https://lh3.googleusercontent.com/d/1mextPkDeETNpLExCC0zo91_VIDD3nDo1=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2099,6 +2136,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Gx9uA7U06F2Ia3GFjuuKcJcAx1VpKz1u=w1000",
       "https://lh3.googleusercontent.com/d/1g2h2jMgSVxM6Y1-0G4KEG3FwtZpUk-IN=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2157,6 +2195,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1NW6CkIyN-YZJySUrWq9v3D_0Qeg1hwmA=w1000",
       "https://lh3.googleusercontent.com/d/1NU9Szvl4hwwJ6BHzWfkOxxjMKKl0HMON=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2214,6 +2253,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Q0E6aILp9mbR1Mtc1682Ne1XtQXynRhY=w1000",
       "https://lh3.googleusercontent.com/d/1w_dCUaSeWfKh75VKhCOMryNoI563R0Z2=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2269,6 +2309,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1MzsouVpnFUNkx0HR1xAy8_ZiSFyO8_3d=w1000",
       "https://lh3.googleusercontent.com/d/1XMd-Ev2TWOf_Z9Dyhd6qMuOyMWEEAcCU=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2327,6 +2368,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1KanPL3upQ-zdk4VUopEOPSKb38LTnfae=w1000",
       "https://lh3.googleusercontent.com/d/1czCfGk0lkpEzIImON_Xnm7ujnBbOUBIz=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2384,6 +2426,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1L8JnHCwlAm7T9Y43fNKem8zw1DVuwbGt=w1000",
       "https://lh3.googleusercontent.com/d/1UhHJ1j9IWZCpXawJeGSFYTQ4mefgmLzE=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2445,6 +2488,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1E5ZXKWPYlw1lzez1xCHmZggO9vcZIU7q=w1000",
       "https://lh3.googleusercontent.com/d/1hK2IXzjWQMIhUb8aQlAAZsKUE1a8_49X=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2497,6 +2541,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1RdeojSebu3xL-V9srMIA5exHs6rFEcAL=w1000",
       "https://lh3.googleusercontent.com/d/1p6RJIz0CoParHbGcW0baFO2nYq_R8QCZ=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2555,6 +2600,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1smJcS9_n634RXd8wd699n2iGPkYGa1Ai=w1000",
       "https://lh3.googleusercontent.com/d/185xevezGZn5Ltzq7uMfyTgpF44Tq56_Q=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2615,6 +2661,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1aeYg0GnKsFh9LhJFCEejo2nc4EU3PJez=w1000",
       "https://lh3.googleusercontent.com/d/1ygqvvUu5GOrl51B3MO_iy6suiScvTuw3=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2673,6 +2720,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/13fSjo5TAbj3fj2gNkfTGUqjIFtMN-k51=w1000",
       "https://lh3.googleusercontent.com/d/1q8k4iCoau-9w1FYfnHLJ6DIz8GE1wiNL=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2736,6 +2784,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1NbprLHdrhRK7MfFmyLeXWgc1iS4hfEdJ=w1000",
       "https://lh3.googleusercontent.com/d/1w-sb8tZISsduV9OHPAKRRr_hG7qbl5k0=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2792,6 +2841,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/159V2-XjztaXFVWxE1Lvsn4UWgJ9P5NMo=w1000",
       "https://lh3.googleusercontent.com/d/1gbPULrTBb6kBvRN6gqoG77mRGBLX_dWy=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2851,6 +2901,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1sdPE_9PPuWHBHhdzUkBbuqaLgqgMUOCM=w1000",
       "https://lh3.googleusercontent.com/d/1bbY9x7LDOCQZHzggOQJNPlmf2IJhZfPH=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2909,6 +2960,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1HZZz10PoiJOO7eF6sNjfxFgwm_8yeibI=w1000",
       "https://lh3.googleusercontent.com/d/1SPtUDIDXILT9wrXkHtDEdwCNmPcyhp8R=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -2964,6 +3016,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1i-5xkjpZN2YduFxSMvNLWgycXZbAcS2p=w1000",
       "https://lh3.googleusercontent.com/d/1z7dyaKNLhKDuiVxS-rw-Ng2PZz6HBUDE=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3018,6 +3071,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1yTHOebSTIcjIL3u1LUNI_x0agfgfPBAN=w1000",
       "https://lh3.googleusercontent.com/d/1m-w7SZHpGpiEHNGnk_di-A40LsTFiJyn=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3073,6 +3127,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1AnNi8rSzQUaPvFixO8Gv9PBY4yvP75W-=w1000",
       "https://lh3.googleusercontent.com/d/16Hw4t5pOoBlmtfth1zd1QdEjWzmY747a=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3121,6 +3176,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1HXP7ePLXobsVvSzbHdJYNW-EyFoiaAON=w1000",
       "https://lh3.googleusercontent.com/d/1pHlmgxqz2wHeV7R0z0ZXV6Hv7cNIyeDy=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3169,6 +3225,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1j1EuOMWlk1hjghcILyuAKQ7QonipgxPL=w1000",
       "https://lh3.googleusercontent.com/d/1lE6bSQmg7mDraeblczJd63iN6W7HpVYj=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3219,6 +3276,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1pHdFzbecP1vrvTB2SoDJKNHL98lcDLzj=w1000",
       "https://lh3.googleusercontent.com/d/1grWcnpE5frwGkExPWqPWPbcR9Rbbn69Z=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3269,6 +3327,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1GrNWbEdkUhHQBKgSxOraDmjPasjBqkva=w1000",
       "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3326,6 +3385,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/141A9sPmXnta4vBvnU27qE3yXndjLKfZP=w1000",
       "https://lh3.googleusercontent.com/d/1fQaEeN9LYN841wpUcM03N8rP76cxDjOq=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3390,6 +3450,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1ZMEYgx0MOyEO03jVP7ty9J2km-876U8v=w1000",
       "https://lh3.googleusercontent.com/d/15xCFnLOZu1aL6kFOQyTF3mstfWZcIbWT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3448,6 +3509,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/17S_oFBM6skgGg19qUQJ-X4wzA9Y3PN8p=w1000",
       "https://lh3.googleusercontent.com/d/155okvoWFGwXAZmGjD_--5-p1W9vrhh0u=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3513,6 +3575,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/14U5EtEJBdzaZj1ijjmWDYlicCvr8rFeg=w1000",
       "https://lh3.googleusercontent.com/d/11qkdAlbtH-UKRkTHl9N6mYbIi2iIbQp2=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3573,6 +3636,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Zp6IP1eyHn8E4vSaB6n1sEkdcn__oXQU=w1000",
       "https://lh3.googleusercontent.com/d/1MH8FJrdeRYitYV_ZiZfJOXZVnM30VPeo=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3631,6 +3695,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1uC7_zKu-PGEm7rwIMBCn0jPVyXOH3FqX=w1000",
       "https://lh3.googleusercontent.com/d/1PGF2BBHIeFMPSOJqu8ESPjKqfHyWTZrj=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3690,6 +3755,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1o-K_jyEUq5hw5sZofNn4NgjSC9i8jibR=w1000",
       "https://lh3.googleusercontent.com/d/1SpTC3_bSdVaUEH4R8BWBMADv5GiZXEt_=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3750,6 +3816,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1fkRVLCmDpBxgL-xypXGnLCZrEZs-mYZU=w1000",
       "https://lh3.googleusercontent.com/d/1LACtB12IZVYmvLwq1f59kPvXKLgQPEhR=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3811,6 +3878,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1w50WyKMTDjCVK-9S5Dmzs5uTCQnwPBow=w1000",
       "https://lh3.googleusercontent.com/d/1EesTKgXXCoHMyrAIUP5BInpArZIbaK1k=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3873,6 +3941,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1kaRvrOeWr32oYYR6dRBamdx_SgN6fJIa=w1000",
       "https://lh3.googleusercontent.com/d/1Free15cEpGw-J-PQyQl0R02TXSKRvCSi=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3928,6 +3997,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1jmX7oCpqWUcEEI6VHlNQigqvOCzFJKo5=w1000",
       "https://lh3.googleusercontent.com/d/1BiH4_pg-fOPz7RkffKU17fnftBGY6UcY=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -3989,6 +4059,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1RnJJfgT1xZmn7vzkmqDa3ZOgrnktSu4k=w1000",
       "https://lh3.googleusercontent.com/d/1u6IlB-EEHNAQ60oBva_WkNd-Pt5QjP6a=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4048,6 +4119,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Q3OM3XHryFix3OpxE4lvsuyfDrpGyKqV=w1000",
       "https://lh3.googleusercontent.com/d/1x9ispGH77UGeGMSnBw6L99wW1L7s8BsY=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4110,6 +4182,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1jPWK7inmQYQ5lW82gcMcfVJZtiFPa1FN=w1000",
       "https://lh3.googleusercontent.com/d/1V4qpiEPhPIbyNUDghRq0DTCndxMorrhL=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4171,6 +4244,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Wi7FTuQe4UJUsRDtNe60MgsA4bbb0fVo=w1000",
       "https://lh3.googleusercontent.com/d/19eNfGtpJEXh6iQvKYfuzk1sD2cZBumK-=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4233,6 +4307,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1m1_1bCfJPI-LmEwY9eqL_IDgEYgFU5aE=w1000",
       "https://lh3.googleusercontent.com/d/1hWpw0J1PThJgzvECjfzezlm6oP5a4yjT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4295,6 +4370,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1gYcQkRD7B88Mmre6R2YQ3ks7EmGd1VbK=w1000",
       "https://lh3.googleusercontent.com/d/1wctoUGmYA31kw-t_-rNstzfrC1XoWb9-=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4354,6 +4430,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1CGBYNOTWp4C1VuoHyxMAaNL0CQdZOk8B=w1000",
       "https://lh3.googleusercontent.com/d/1Ad7l5iOzFYu82IF43VVBlF_yrx-sgJwA=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4414,6 +4491,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/17JHK3CRyRJOTpArz2i5myx7IqQW5HNR8=w1000",
       "https://lh3.googleusercontent.com/d/1RSQUkCg7APnfekMCfblEaueW4LqVydKz=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4473,6 +4551,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1nYv5BGYottCJ0lKuvuOARc_sYepnX4c8=w1000",
       "https://lh3.googleusercontent.com/d/1hFetlwE-uNJS8l4hIbdXAc7PIFJs1hVG=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4533,6 +4612,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/10QK7mc-uNAdsdbWD5nBIVkxKLrbnvRIf=w1000",
       "https://lh3.googleusercontent.com/d/1xr_vrHxn4vFsp3-uVcQO--Ut5MkOJOKs=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4593,6 +4673,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Nl_zIr04cEaSc7O1fQh49Wep3_aA3BJJ=w1000",
       "https://lh3.googleusercontent.com/d/1GIhqTwgcPUU6f02XKaOSqRV0ELCkl5Jx=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4651,6 +4732,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1rlBXnbUeBPWa5-x815IuJMjwWJtUYNXo=w1000",
       "https://lh3.googleusercontent.com/d/1USaIbFSkKVna1S_b-hNCeUyGA7gRhx7j=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4713,6 +4795,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1fFupw-woFcZh9btFguwU_xWsO2S4DWaM=w1000",
       "https://lh3.googleusercontent.com/d/11oP-oZocCrcNwxk0rnRDWwZwvBeVhhcV=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4776,6 +4859,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1AhWw47MVG7X2QTBf6sPLPhXeGQL6ZU6H=w1000",
       "https://lh3.googleusercontent.com/d/1cY1G0bh5896msyDhWgVXCpM0mQ5Crw0Q=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4837,6 +4921,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1GhCF-eeEz98HdPmgFyaXy8sAMnv5BfW-=w1000",
       "https://lh3.googleusercontent.com/d/1r31hedSbKZ6AQX0Raizq_UMdzgvzt0EG=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4896,6 +4981,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1T-VDXMYkHHiu7VV1fC4cyFX4nTXfMnuV=w1000",
       "https://lh3.googleusercontent.com/d/1AZog58DFcD6yY8eN7D5NDJpODPM3cF9t=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -4954,6 +5040,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Bl-d-zeGAZY0XwrDzWDb6gDDA-XUBs_c=w1000",
       "https://lh3.googleusercontent.com/d/1Gu_-OjDYEgPTNIhQfKClETz9b2TXtZae=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5018,6 +5105,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1gSwmj671YvEjXBsuDKi5xmmrbdffrGBb=w1000",
       "https://lh3.googleusercontent.com/d/1D4BxpygAq3SlxYTta081_EGljk2S_xrq=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5084,6 +5172,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1-iDBSQviRjMVdpambMl3McEObszxRazv=w1000",
       "https://lh3.googleusercontent.com/d/15c3GN533maNFN8q8_zqDIRxHo4-rU6c8=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5150,6 +5239,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/18AOCllVZPoBoBSrDkRAFyp5fvhS3V_xm=w1000",
       "https://lh3.googleusercontent.com/d/1YqtkU7YRA86QQlJpSDeo0cyDAKCdKfj9=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5211,6 +5301,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1c-NQXEeSD9Qva6Di3TGegetd5fQB9bpc=w1000",
       "https://lh3.googleusercontent.com/d/1grfIDdAzRz-5DUUKNoVeFRpafzP4Tj12=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5272,6 +5363,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Xg9TinXhHRyKq6mLraukM6D-Z2ldjN9R=w1000",
       "https://lh3.googleusercontent.com/d/1S266ugW6E4fQVgjftMWufvLChvMiiaSx=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5337,6 +5429,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1K0vLvOP3_R9OZW-ge0g11rE9ViIXo3ye=w1000",
       "https://lh3.googleusercontent.com/d/1z2XiQgU1-rOH0gal3ZO8gXXnak5iCODf=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5400,6 +5493,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1vCICB6iyou4FKj7x11800aLHd63zjY-o=w1000",
       "https://lh3.googleusercontent.com/d/18WgFSUs_HztVBaqDYGZIgKuN3-NCyDiB=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5461,6 +5555,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1aM9Gs2ql-ielavDArF_1g4B3G0__3odG=w1000",
       "https://lh3.googleusercontent.com/d/1RT04rCWtOuK3Er9i4MGpMTVUJ7JtfoOP=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5526,6 +5621,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Qwqc0x5cPnV14P2SI5heuCuPVdwShFhs=w1000",
       "https://lh3.googleusercontent.com/d/1kIJLntMtCfAiMlS8AUDr3E7D3F8jmd0_=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5589,6 +5685,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1rmFl6QERHnA8WCQRCQvt-t0kkuSQ0-j4=w1000",
       "https://lh3.googleusercontent.com/d/1PlkufZPRvj0q5Zaf5jzMsdG697FHtMvC=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5648,6 +5745,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1kspnuL89-wPBu__dWiYCpalGIou6xgKB=w1000",
       "https://lh3.googleusercontent.com/d/1bD8UJi5oxkaNItWHnF_YDKvbOkOB_Dsq=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5702,6 +5800,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/14UFfZ9ptzxxQXGdYyr7TnvMvlrRiLS08=w1000",
       "https://lh3.googleusercontent.com/d/1U_c_0GYqiEEj7t3m0PdVHemjpmJt3rMU=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5765,6 +5864,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1AmQZtEDSTD7V1qNCTI3uOWOFZAoT01uN=w1000",
       "https://lh3.googleusercontent.com/d/1-37Jh0zo7KhMcD7e_rikqo965eQ7GogN=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5826,6 +5926,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/16olARwYkJTPhZHXLCn9SUxrvH2zN43hl=w1000",
       "https://lh3.googleusercontent.com/d/1gQv3-b5XKd18o-F9RczIYFQOdveRG2eg=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5889,6 +5990,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1EenroFsw2t1qZWe7_ixzLABay77Ck2gO=w1000",
       "https://lh3.googleusercontent.com/d/1REGve4gzqx7fC0K8z7jxwSPPoh3BphmS=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -5952,6 +6054,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1J1o78sOPSdnK79EOhMWVrNvNhxN0xsM1=w1000",
       "https://lh3.googleusercontent.com/d/1ynC9245a870EvWLL4-RHmsiYKb7vgZcH=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6015,6 +6118,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1d4Pv1nBcLLJmgY3ynuKgg2-nm4ahNy4h=w1000",
       "https://lh3.googleusercontent.com/d/1yUDNDzM8YYusX0hqSxbjb43kJeDiLNDU=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6079,6 +6183,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1t951ZC2UoUc27gd1oSV7vxePKShaW1Ri=w1000",
       "https://lh3.googleusercontent.com/d/1hK-H8P4Cfv3x-I7Kb7Y9wP7SAGILRdhs=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6139,6 +6244,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1lhusuZDHizNxQHswz8qakKYka3x63OkL=w1000",
       "https://lh3.googleusercontent.com/d/1mmS0rG-CnV5uM1r77xrOPbKI_KnWGXMy=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6202,6 +6308,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/19jlTQPOnpccs0CkRYGMmQWkL4UlGcjRe=w1000",
       "https://lh3.googleusercontent.com/d/1nogHb3r_8D8KmA1ZXs3R_zaBF6G56DuR=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6264,6 +6371,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Ficb9U4BL1NLXrkVFZAHlDuTIonLt8d8=w1000",
       "https://lh3.googleusercontent.com/d/1yiLQ7OiW47XUCM96SGXgrrJUo2uG9EX3=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6326,6 +6434,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1xH7Rq2qm_npn5iEHFbLfdfw1IBjizeQ8=w1000",
       "https://lh3.googleusercontent.com/d/1wRedOHLYHtBpKaZNoCkc8lg7rOR0Au3y=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6383,6 +6492,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1BPi6HoE7nI42_GXDh6xB33te1-THAflt=w1000",
       "https://lh3.googleusercontent.com/d/1Bgyv5LJpoyaBsQ_3EKmiE8RhtZIcBEwN=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6443,6 +6553,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1unOG6T-CjERQttW9mlZCPtvcWBfzvuj5=w1000",
       "https://lh3.googleusercontent.com/d/1JZ2rLj0g1f6fZvshO6iQZEFG-F-1Wcvw=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6503,6 +6614,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1vD_bcwspNxsLgRU4_zTjqWr8ddcxrmhH=w1000",
       "https://lh3.googleusercontent.com/d/1aIOs_bLMt4i1KiaW-JHypRRQM1Cj4eFl=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6572,6 +6684,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1zINjE9cEfbzMFieywS9nKU8R2hnrZaBb=w1000",
       "https://lh3.googleusercontent.com/d/1mZAYCgXH2sIUgG7mtICrOI_aiW1VC7dH=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6635,6 +6748,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1cdiLe-E4zFD_Ev5_eImoYYP0AdsjsOFD=w1000",
       "https://lh3.googleusercontent.com/d/1laCrpQh88Rmns881ywsnlDVxAKU7zRuT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6703,6 +6817,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Qdv9Bcb9XPg6vA88S6TkoTXqOAP2V47i=w1000",
       "https://lh3.googleusercontent.com/d/1o1JYIPm824kSgdX3hgRJdr5co8m4lujc=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6762,6 +6877,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Kgxm4StRb6hcwlHi57BQyYoeh2wW-EM0=w1000",
       "https://lh3.googleusercontent.com/d/1vYHw79RNHtTQ5nhUArRC0vZXiQJYoRM7=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6831,6 +6947,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/18nOT5fA_HjLqvlAq1F1TFbyxr78kZFe1=w1000",
       "https://lh3.googleusercontent.com/d/1fLem3Grr10liWHEAtaw396AeWd1IkWEd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6898,6 +7015,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/16GkXVxt_3MQqIEwtIG2O9PJ3g_YKrfyJ=w1000",
       "https://lh3.googleusercontent.com/d/1pNcFITJpceBRQQVsuunrXlh3cXbit0zy=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -6962,6 +7080,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1V8uxMlQKX1IVEo18zkEiYw6Bi_poh_9l=w1000",
       "https://lh3.googleusercontent.com/d/1BaSd9PYpuklrbcz9oQ1jjRWLpxEmpcBl=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7032,6 +7151,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1_fiRiBTb3USrJQKb6BMmdrtZkDYD4-56=w1000",
       "https://lh3.googleusercontent.com/d/1UtSgH6UbyNxDf3oQhCM74FIjpIjBDucy=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7098,6 +7218,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1E0FxRkKZPYIKbZaA4lLugt5KIRyIhJH2=w1000",
       "https://lh3.googleusercontent.com/d/1GUSEsATTOXatuG0KYA38fap3FG8Tw_Ym=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7167,6 +7288,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1cT7s3Bj-GM5AlluVEkWJRJTGUhMovR4p=w1000",
       "https://lh3.googleusercontent.com/d/1V8wFUg08GAopcIxFyzkLL7JysO4R_ltr=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7236,6 +7358,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1ml1E298lvAO7KNF-cyA2yG5rbyK4j0eN=w1000",
       "https://lh3.googleusercontent.com/d/1K014jg56B7tYqR2qO2XBt-s4T3JtYM_O=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7301,6 +7424,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1ghgWLh6xL4oRi-8b2ozMn4D99SjN4rsf=w1000",
       "https://lh3.googleusercontent.com/d/1dRYDDxMKHq24eEZZ122O7-VpLUIq-Bw3=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7367,6 +7491,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1mdafaBlpv5eOSXZb-AFVDgnZZKGg_V-U=w1000",
       "https://lh3.googleusercontent.com/d/1Pt0hbysPBgO5YYlOhkgvQUiz3MdWLrmT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7426,6 +7551,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1rBvLjph-aza4opT0QYDsYr27_CH0PHXn=w1000",
       "https://lh3.googleusercontent.com/d/1U5N6KrncK_wdzJb-5jcHsBXUng1OJdxB=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7496,6 +7622,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1b_YhsJE8uZY3tPGVAe1RGF4jEs1AUhP-=w1000",
       "https://lh3.googleusercontent.com/d/17gMbDzK_uy_z-pNSuKirWNQu7708OUMV=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7566,6 +7693,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1tRXr-n4O1yHb7ohdI8Xa-OiOkldTWpak=w1000",
       "https://lh3.googleusercontent.com/d/1SQlkQGHDWwjpGwadYBHXfgFkwE57vnUj=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7627,6 +7755,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/19daPGCLFsX071B6sxyGuSYJmnLe_9UoN=w1000",
       "https://lh3.googleusercontent.com/d/10O1Y6qsA_tpqoLHMhhUSzr4LoGlWUoUI=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7692,6 +7821,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1iCr2-jeuPSZ5eaBR3739HoMJdSwexlQh=w1000",
       "https://lh3.googleusercontent.com/d/1XXSxvGqiDPSETADbQBDz39VE6DH8RdGQ=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7754,6 +7884,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1i2E1o5mwwdsoKH-9e9EPsYkJiQd6VUUf=w1000",
       "https://lh3.googleusercontent.com/d/1SfqU6FAfZ3C-IsImSTwWEjM89ipRlp1W=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7818,6 +7949,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1qIkx9mVSXzbi-F4eUXjoNHo2I5qaw3BC=w1000",
       "https://lh3.googleusercontent.com/d/1XegmHwoSuZRzyR4-9MddE-ifg0ahmCa2=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7885,6 +8017,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Unk6fzabgtjL_lAhUa1dGuSEhiX20uBF=w1000",
       "https://lh3.googleusercontent.com/d/1brkSndwiXr_rAYVl32j_-qXdiCiqYC7S=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -7951,6 +8084,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1-v_4nH5i5J2eyftPSYomw_fxmBjNAkMO=w1000",
       "https://lh3.googleusercontent.com/d/1xGyMvwz5h_pgME_k9Ft6IQ6gzEJr57Vn=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8016,6 +8150,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1BQ10E4XE_Vpt2j6Eil-3rcmOHplDuWoD=w1000",
       "https://lh3.googleusercontent.com/d/1kvpBkU-pvNM81ROk_vNzc654d4Ocu4hu=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8078,6 +8213,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1pme-ReBQjuNCMdKrmFeHheLle5I6cjSd=w1000",
       "https://lh3.googleusercontent.com/d/1sT7ZD0AmVQf9KzT10ugKcmb9u8naBA6n=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8140,6 +8276,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1EAmpiCGaWQ-3_tW2h4o9z-cab67yzV9K=w1000",
       "https://lh3.googleusercontent.com/d/12yV-CcQ1YEI_D33Vv_DcIHjoe48XYggd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8201,6 +8338,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1PpenwwghCFzVO1mUe2Yy-TQXcJfg7oFl=w1000",
       "https://lh3.googleusercontent.com/d/1KkoPNFla280qAKvzLEya6but0fC59oPm=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8263,6 +8401,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1dVxsdoWunGzWuCj6cscjw2H-iJgPfOly=w1000",
       "https://lh3.googleusercontent.com/d/1dxshETEZMKcVoSwPJOMRJJcARLHRTZBk=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8324,6 +8463,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1e8tw_dKHQCvHfINP-rG-8_Yge9BXxpjx=w1000",
       "https://lh3.googleusercontent.com/d/1q3lpLnFgKSOh3wIZLaHiaqCWhxoq_67f=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8381,6 +8521,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1Ipbwsev6qtxo-Ie5_IbxInYOMB9EuYaY=w1000",
       "https://lh3.googleusercontent.com/d/1uZOSgiK2e_fYbXMv1UAkwRqfCI1Whpku=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8438,6 +8579,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1j48OGA0xCbaF4FtJGEq-2mdhYLPJ_9-r=w1000",
       "https://lh3.googleusercontent.com/d/1chP2IzV5hrTQhlU64yhpJRKAS6PR2eK6=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8498,6 +8640,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/19yJUlzTNvMcpPTRmN8kFTok4bmO4ymtN=w1000",
       "https://lh3.googleusercontent.com/d/1WmrX2iH-9gGfVJ3kmDeHpzTZmo_ZKnhX=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8556,6 +8699,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1HzfvpJS-5Z1nEmoLy209vS7b2L2SuSuC=w1000",
       "https://lh3.googleusercontent.com/d/1S6nFK1OaZGRBqjpGuAF6uV1oL3VMkvex=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8617,6 +8761,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FscAK3v8epbUCF_nPcI4p5evLadwPTlB=w1000",
       "https://lh3.googleusercontent.com/d/1koFs6ZCn_iTxN7h2ZhlOqugmVNGQrF2T=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8676,6 +8821,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1JojUwoA8TxW5rKF3xe8HrS7AH8O4RpWI=w1000",
       "https://lh3.googleusercontent.com/d/1oq2ti383wZoz2b4HWG33PB5OuG7AMfCm=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8736,6 +8882,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1QynG7fhLJKGwVLgs_P7LAOLT2UuRLwID=w1000",
       "https://lh3.googleusercontent.com/d/1Yq5F4md2YcZSsCuiupX9ApwOBkpL-lOO=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8794,6 +8941,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1LdhjzpyHknMj9MgiR57aFCtQtXcgoXdL=w1000",
       "https://lh3.googleusercontent.com/d/10p4--5prhaYO3lJ7U3nl2SxFoj2XLwUT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8851,6 +8999,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1GGZyWeyeYJruvA29XmbgHSWUnPCkOxyj=w1000",
       "https://lh3.googleusercontent.com/d/1jDcKPAtTcqjHRY_4y1w6BzMImgT4DK5P=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8907,6 +9056,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1TS3AwClBkXYpOGHqvnpCn4SP5sez77pH=w1000",
       "https://lh3.googleusercontent.com/d/1SS2D4MzQXNVK5Ca8KHksp5bKi4X0Te8c=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -8964,6 +9114,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1FGmix76b_5h0RrU8tnNg39IFCqCjNERG=w1000",
       "https://lh3.googleusercontent.com/d/16jPYSHmX-5t7xJ-xBIj0ZgQ2C_0a1Vrq=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9022,6 +9173,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1AVEW0morR-qKTxp7B-Jhz8wELTfkNkWo=w1000",
       "https://lh3.googleusercontent.com/d/1op2ayExfsk8BFhX6okY9z-LtEYoLfbZd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9081,6 +9233,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/12gWRj5yHW4PgqAqd4R1acXtoZJ4tId8T=w1000",
       "https://lh3.googleusercontent.com/d/16USyNVh6_P5T7RAZWU3_0gPtlhQkHBJ0=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9138,6 +9291,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1N7CrlNZY2BrIWRa80sZPtgB0deOzLAco=w1000",
       "https://lh3.googleusercontent.com/d/12wjdH_tRYk8j7_7xjOfVHp7BhNf9WLVd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9196,6 +9350,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1tnFWStf9bWzWUa2UgvJ2KQv7updRrou-=w1000",
       "https://lh3.googleusercontent.com/d/1Q1aVCuIV-Seih-m1gWJZutsUzg1BUt8b=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9256,6 +9411,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1P2EV870FfVLNZvy2GKAVkr9QvSRyoefM=w1000",
       "https://lh3.googleusercontent.com/d/104t0kuhiq7Hrg9KK_QqIdRXV6AInHeI2=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9318,6 +9474,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1R-XgfTTExAY3_xfX4rY2PaI2l-gNrCJM=w1000",
       "https://lh3.googleusercontent.com/d/15MSTkz_4FhfxjEnQc0ddLi40u7L6UyQS=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9377,6 +9534,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1eL44xnXWlxZA20OrnJTDwtRsBVtjYNqp=w1000",
       "https://lh3.googleusercontent.com/d/1MBzbBl05uqP_KcTHYZbaVTNkh46-lpzS=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9436,6 +9594,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1aF54cjPtZ8DHILz7__l7vyG_FjCSel_I=w1000",
       "https://lh3.googleusercontent.com/d/1CFuiJNM8sZdiROj5Ub_8IW7Tw7ncmM_6=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9496,6 +9655,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1tEdQwmo60kcKomu66MZvi-TWjm3It8YK=w1000",
       "https://lh3.googleusercontent.com/d/1ckFnvvuTJTbvFZQPaslRcsr0W6FmS3ff=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9556,6 +9716,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1X0IQvb-QB5g4RlgmqEKrN0meSwKM215w=w1000",
       "https://lh3.googleusercontent.com/d/1CnW8hKuO7xiTbdNVnTuR1KdTHCa7VgGT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9615,6 +9776,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1TxVgpGR4H1RSdY4OijwM2hubYYvxZxXD=w1000",
       "https://lh3.googleusercontent.com/d/1GXjQj_5qQ1cI8LUEe9o4rvziDGCcTMBd=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9674,6 +9836,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1ru5s3nHd5dclV7ETnF62fCvbnBUD-qyP=w1000",
       "https://lh3.googleusercontent.com/d/1t6cHBPQdt0L4NoK8tL4KPCl9NujWNchJ=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9733,13 +9896,14 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1h-bk4AUws6YaKFb2VwqvPe2RuyYob626=w1000",
       "https://lh3.googleusercontent.com/d/1kQvOjdxr7hjhIhpKasoeIcZl8yQecUEf=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
     "tracking": "COA-0168",
-    "title": "Bungalow Banyan Close, Bandar Bukit Mahkota, Bangi — Freehold & Renovasi Mewah",
+    "title": "Bungalow Banyan Close, Bandar Bukit Mahkota, Bangi",
     "type": "Rumah Banglo",
-    "location": "Banyan Close, Bandar Bukit Mahkota, Bangi",
+    "location": "Banyan Close, Bandar Bukit Mahkota, Bangi, Selangor",
     "state": "Selangor",
     "price": 3400000,
     "price_label": "RM3,400,000",
@@ -9793,13 +9957,14 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1ubf9wbdt77nYw1T6chdhDjDQCiCZg2-Y=w1000",
       "https://lh3.googleusercontent.com/d/1fSBCpHCREsEP0ufrhhCu4uWCqwcduOTT=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
     "tracking": "COA-0169",
-    "title": "Rumah Teres 2 Tingkat, Bandar Bukit Mahkota Seksyen 2, Bangi — Freehold, Renovated",
+    "title": "Double Storey Terrace, Bandar Bukit Mahkota Seksyen 2, Bangi",
     "type": "Rumah Teres 2 Tingkat",
-    "location": "Bandar Bukit Mahkota Seksyen 2, Bangi",
+    "location": "Bandar Bukit Mahkota Seksyen 2, Bangi, Selangor",
     "state": "Selangor",
     "price": 385000,
     "price_label": "RM385,000",
@@ -9851,6 +10016,172 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1KdaDVra16N1hmU3P11qM6VekuxOkSgAZ=w1000",
       "https://lh3.googleusercontent.com/d/1SOuj0QZ9LSi42Ir0eGSn1dSTAmIwp_Ib=w1000"
     ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0170",
+    "title": "Kedai 3 Tingkat Medan Pusat Bandar Seksyen 9, Bandar Baru Bangi",
+    "type": "Komersial",
+    "location": "Seksyen 9, Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 2400000,
+    "price_label": "RM2,400,000",
+    "price_old": 2450000,
+    "land_area": "1,430 sqft (22' x 65')",
+    "built_up": "4,290 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "3 Tingkat Shop Lot",
+      "Pusat Bandar Seksyen 9",
+      "Luas Binaan ~4,290 sqft",
+      "Potensi Sewa ~RM10,000/bulan",
+      "Yield ~5%",
+      "Lokasi Tumpuan"
+    ],
+    "description": "Kedai tiga tingkat di Medan Pusat Bandar Seksyen 9, Bandar Baru Bangi - lokasi tumpuan yang tepat di tengah pusat bandar. Keluasan tanah 1,430 kaki persegi (22' x 65') dengan luas binaan anggaran 4,290 kaki persegi. Potensi sewa semasa anggaran RM10,000 sebulan dengan yield sekitar 5%. Berhampiran pusat beli-belah dan kawasan komersial utama Bangi.",
+    "amenities": [],
+    "nearby": [
+      "Sunway Gandaria",
+      "Kipmall PKNS Bangi",
+      "Evo Mall",
+      "Bangi Sentral"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%209%2C%20Bandar%20Baru%20Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1YMf5gHXHHX87s7hI7-r8SD_oMqFVJUZN=w1000",
+      "https://lh3.googleusercontent.com/d/10lQqwMtlI4cqW5oY5QWyRPojb4BccRqP=w1000",
+      "https://lh3.googleusercontent.com/d/1Xsgjs0nDmiUS8iGvrR5cBtsc_gsS4w0X=w1000",
+      "https://lh3.googleusercontent.com/d/1lH7-Ncts_-NhcHwd_tH9Q9s3-SeVjN3b=w1000",
+      "https://lh3.googleusercontent.com/d/1oMGRSio3wPMVt4SLfXmQOQof6Ax_xfPG=w1000",
+      "https://lh3.googleusercontent.com/d/1nxXKIDFCTnJ_O_gGAzQqG2QxZmkvKRa4=w1000",
+      "https://lh3.googleusercontent.com/d/1xCvKaGsCDICJRrllcKupV8Wn_M6FSeZH=w1000",
+      "https://lh3.googleusercontent.com/d/1gfo4NM-Gy2E74Ls1RTKB6rnD1nC-zqVV=w1000",
+      "https://lh3.googleusercontent.com/d/1boWo_cx_Tzbkm-yWV56RzzfsqfMJ8xIR=w1000",
+      "https://lh3.googleusercontent.com/d/1Dnon-2aqlm4O-kwBPdmlQSo6zL7ktS_j=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0171",
+    "title": "Kedai 4 Tingkat Bangi Sentral Seksyen 9, Bandar Baru Bangi",
+    "type": "Komersial",
+    "location": "Bangi Sentral, Seksyen 9, Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 3300000,
+    "price_label": "RM3,300,000",
+    "price_old": null,
+    "land_area": "1,680 sqft (24' x 70')",
+    "built_up": "7,329 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "4 Tingkat dengan Lif",
+      "Menghadap Jalan Utama",
+      "Bangi Sentral Seksyen 9",
+      "Luas Binaan ~7,329 sqft",
+      "Sewa Semasa RM17,000/bulan",
+      "Yield 6.18%"
+    ],
+    "description": "Kedai empat tingkat dengan lif di Bangi Sentral, Seksyen 9, Bandar Baru Bangi. Menghadap jalan utama di kawasan tumpuan yang sibuk. Keluasan tanah 1,680 kaki persegi (24' x 70') dengan luas binaan anggaran 7,329 kaki persegi; unit tingkat bawah mempunyai ruang bawah tanah. Sewa semasa berjumlah RM17,000 sebulan dengan yield 6.18%. Peluang pelaburan komersial yang kukuh di lokasi strategik Bangi.",
+    "amenities": [],
+    "nearby": [
+      "Sunway Gandaria",
+      "Kipmall PKNS Bangi",
+      "Evo Mall",
+      "Bangi Sentral"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi%20Sentral%2C%20Seksyen%209%2C%20Bandar%20Baru%20Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1XUIKrFycZaa5A-cjpLkApNfxYLeiPYvi=w1000",
+      "https://lh3.googleusercontent.com/d/17aIOYmj7rKrqkWRt7d1o9aH27d9W7xgL=w1000",
+      "https://lh3.googleusercontent.com/d/1s2JY3rUzesZ6EEBuhtFgqbfHdXLgt3NS=w1000",
+      "https://lh3.googleusercontent.com/d/1WKhfH5t4U-eQMNtnOOlwr0kj0tABS1dU=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0172",
+    "title": "Rumah Teres 2.5 Tingkat Sri Wirani Seksyen 8, Bandar Baru Bangi",
+    "type": "Rumah Teres",
+    "location": "Sri Wirani, Seksyen 8, Bandar Baru Bangi",
+    "state": "Selangor",
+    "price": 660000,
+    "price_label": "RM660,000",
+    "price_old": 698000,
+    "land_area": "2,800 sqft (22' x 75')",
+    "built_up": "2,800 sqft",
+    "tenure": "Leasehold",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Fully Furnished",
+      "Renovated & Extended",
+      "5 Bilik / 4 Bilik Air",
+      "Binaan ~2,800 sqft",
+      "Gated & Guarded 24 Jam",
+      "7 Unit Aircond",
+      "Wardrobe & 3 Seksyen Kitchen Cabinet"
+    ],
+    "description": "Rumah teres 2.5 tingkat fully furnished dan renovasi extended di Sri Wirani, Seksyen 8, Bandar Baru Bangi. Keluasan tanah 22' x 75' dengan luas binaan anggaran 2,800 kaki persegi serta 5 bilik tidur dan 4 bilik air. Taman berpagar dan berkawal 24 jam, strata ready, lengkap dengan 7 unit penghawa dingin, wardrobe dan tiga seksyen kabinet dapur, serta dapur yang telah diperluas. Lokasi mudah ke sekolah, pasaraya dan lebuh raya utama.",
+    "amenities": [
+      "Gated & Guarded",
+      "Strata Ready",
+      "7 Unit Aircond",
+      "Wardrobe",
+      "3 Section Kitchen Cabinet",
+      "Kitchen Extend"
+    ],
+    "nearby": [
+      "SK Seksyen 7 Bangi",
+      "JPJ Seksyen 7",
+      "Pasaraya CS",
+      "Mydin",
+      "UKM Bangi",
+      "Plaza Tol Sungai Ramal",
+      "LEKAS Highway",
+      "PLUS Highway"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Sri%20Wirani%2C%20Seksyen%208%2C%20Bandar%20Baru%20Bangi",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-10",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1zL4cleQfMfzEGadRU4LKbhYJASuFTrBY=w1000",
+      "https://lh3.googleusercontent.com/d/17_lcZ1s3kdpsuayXi2w0Sy7hqEbmnTpU=w1000",
+      "https://lh3.googleusercontent.com/d/1FEqG8OTGR2vB3bO_7rfQQodaIZdIt81C=w1000",
+      "https://lh3.googleusercontent.com/d/17gk7DJ91_2gW3AEl_U2J9b_VzAWnkCgk=w1000",
+      "https://lh3.googleusercontent.com/d/1VW0TG4zTcfEusOYFpYqCKuHMIkZwuWv_=w1000",
+      "https://lh3.googleusercontent.com/d/1g-icTfqfmW8A1hwbLtzoisjYh-L-nF3n=w1000",
+      "https://lh3.googleusercontent.com/d/1lf6T0NvfZtw7F9vIPEOWcQxu1-FqgtRM=w1000",
+      "https://lh3.googleusercontent.com/d/1Bz5hp89YAyXNOj340y9JLYLRh_GJM1m1=w1000",
+      "https://lh3.googleusercontent.com/d/1vGhSqueJejNOz5vti4xhBrijkWpJLqQ4=w1000",
+      "https://lh3.googleusercontent.com/d/1RYq64KqqpXOldHse-BlZ7h31kwWqpdzr=w1000"
+    ],
+    "video": "",
     "active": true
   },
   {
@@ -9902,6 +10233,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1nr5DeFxrwZrM_qasUxy1oFMukgZsoE9Z=w1000",
       "https://lh3.googleusercontent.com/d/1LFdjD4ISzs1YeJGH_v8zyKQnrnpEGDWn=w1000"
     ],
+    "video": "",
     "active": true
   },
   {
@@ -9957,6 +10289,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1BlIJn9vCzPWj6rlC4PGTtY8nElRLsmCc=w1000",
       "https://zahirmjproperty.github.io/zahir-property/assets/listings/coa-002-2.jpg"
     ],
+    "video": "",
     "active": false
   },
   {
