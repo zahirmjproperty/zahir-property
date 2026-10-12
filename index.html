@@ -1059,7 +1059,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
   }
 
   function akhir(senarai, keGrid){
-    var maks = keGrid ? 24 : 6;
+    var maks = 24;   // 24 kad sekali papar (sama seperti MT)
     var utama = senarai.slice(0, maks);
     render(utama, keGrid);
   }
