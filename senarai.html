@@ -245,7 +245,7 @@ h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.15;letter-spacing:-.0
   background:linear-gradient(135deg,var(--gold-pale),var(--gold) 60%,#D9B463);
   color:#16233A;box-shadow:0 8px 24px rgba(232,197,122,.30);
 }
-.search-form{display:grid;grid-template-columns:1.7fr 1fr 1fr .85fr auto;gap:12px;align-items:end}
+.search-form{display:grid;grid-template-columns:1.7fr 1fr 1fr auto;gap:12px;align-items:end}
 .f{display:flex;flex-direction:column;gap:6px;position:relative}
 .f-ico{position:absolute;left:14px;bottom:15px;width:19px;height:19px;pointer-events:none;opacity:.75}
 .f-ico svg{width:19px;height:19px;stroke:var(--gold);fill:none;stroke-width:1.7}
@@ -563,7 +563,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
    (index.html menyembunyikannya <=1180px kerana susunannya 5 lajur). */
 .search-form .f-bilik{display:flex}
 @media (max-width:1180px){
-  .search-form{grid-template-columns:1.4fr 1fr 1fr .85fr auto}
+  .search-form{grid-template-columns:1.4fr 1fr 1fr auto}
 }
 @media (max-width:900px){
   .search-form{grid-template-columns:1fr 1fr}
@@ -670,11 +670,6 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
         <span class="sr">Jenis hartanah</span>
         <select id="fJenis"></select>
       </label>
-      <label class="f">
-        <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 12 22l-9-9V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.4"/></svg></span>
-        <span class="sr">Julat harga</span>
-        <select id="fHarga"></select>
-      </label>
       <label class="f f-bilik">
         <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-5h18v5"/><path d="M3 13V8a2 2 0 0 1 2-2h6v7"/><circle cx="7" cy="9" r="1.3"/></svg></span>
         <span class="sr">Bilangan bilik</span>
@@ -759,7 +754,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
 </a>
 
 <script src="data/listings.js?v=546580ec"></script>
-<script src="assets/senarai.js?v=1"></script>
+<script src="assets/senarai.js?v=2"></script>
 <script src="assets/ali-config.js?v=1"></script>
 <script src="assets/ali-chat.js?v=2"></script>
 <script src="/assets/ga4.js" defer></script>

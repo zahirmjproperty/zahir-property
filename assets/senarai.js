@@ -135,15 +135,6 @@
   /* ---------- tapisan ---------- */
   var JENIS = ["JUAL", "SEWA", "JV"];
 
-  var HARGA = {
-    JUAL: [["", "Julat Harga"], ["0-300000", "Bawah RM300k"], ["300000-500000", "RM300k – RM500k"],
-           ["500000-800000", "RM500k – RM800k"], ["800000-1500000", "RM800k – RM1.5j"],
-           ["1500000-0", "Atas RM1.5j"]],
-    SEWA: [["", "Julat Harga"], ["0-1500", "Bawah RM1,500"], ["1500-2500", "RM1,500 – RM2,500"],
-           ["2500-0", "Atas RM2,500"]],
-    JV: [["", "Julat Harga"]]
-  };
-
   var JENIS_HARTANAH = [["", "Jenis Hartanah"], ["rumah", "Rumah / Teres / Semi-D"],
                         ["apartmen", "Apartmen & Kondo"], ["komersial", "Komersial"], ["tanah", "Tanah"]];
 
@@ -157,12 +148,12 @@
   }
 
   /* ---------- baca / tulis keadaan pada URL ---------- */
-  var KUNCI = ["jenis", "q", "type", "harga", "bilik", "sort"];
+  var KUNCI = ["jenis", "q", "type", "bilik", "sort"];
 
   function bacaURL() {
     var p = new URLSearchParams(location.search);
     var s = { jenis: (p.get("jenis") || "JUAL").toUpperCase(), q: p.get("q") || "",
-              type: p.get("type") || "", harga: p.get("harga") || "",
+              type: p.get("type") || "",
               bilik: p.get("bilik") || "", sort: p.get("sort") || "terbaru" };
     if (JENIS.indexOf(s.jenis) === -1) s.jenis = "JUAL";
     return s;
@@ -171,7 +162,7 @@
   function tulisURL(s) {
     var p = new URLSearchParams();
     if (s.jenis && s.jenis !== "JUAL") p.set("jenis", s.jenis);
-    ["q", "type", "harga", "bilik"].forEach(function (k) { if (s[k]) p.set(k, s[k]); });
+    ["q", "type", "bilik"].forEach(function (k) { if (s[k]) p.set(k, s[k]); });
     if (s.sort && s.sort !== "terbaru") p.set("sort", s.sort);
     var qs = p.toString();
     history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
@@ -277,7 +268,6 @@
         var t = e.target.closest(".tab"); if (!t) return;
         S.jenis = t.getAttribute("data-jenis");
         S.harga = "";
-        isiHarga();
         Array.prototype.forEach.call(tabs.querySelectorAll(".tab"), function (x) {
           x.setAttribute("aria-selected", String(x === t));
         });
@@ -291,18 +281,12 @@
     if (s) { s.innerHTML = opsyen(SUSUNAN, S.sort); }
     var fj = el("fJenis");
     if (fj) { fj.innerHTML = opsyen(JENIS_HARTANAH, S.type); }
-    isiHarga();
-  }
-
-  function isiHarga() {
-    var sel = el("fHarga"); if (!sel) return;
-    sel.innerHTML = opsyen(HARGA[S.jenis] || HARGA.JUAL, S.harga);
   }
 
   function ikat() {
     var frm = el("searchForm");
     if (frm) frm.addEventListener("submit", function (e) { e.preventDefault(); hantar(); });
-    ["q", "fJenis", "fHarga", "fBilik", "fSusun"].forEach(function (id) {
+    ["q", "fJenis", "fBilik", "fSusun"].forEach(function (id) {
       var n = el(id); if (!n) return;
       n.addEventListener("change", function () { hantar(); });
     });
@@ -317,7 +301,7 @@
   function hantar() {
     S.q = (el("q") && el("q").value.trim()) || "";
     S.type = (el("fJenis") && el("fJenis").value) || "";
-    S.harga = (el("fHarga") && el("fHarga").value) || "";
+    S.harga = "";
     S.bilik = (el("fBilik") && el("fBilik").value) || "";
     S.sort = (el("fSusun") && el("fSusun").value) || "terbaru";
     tulisURL(S); papar();
