@@ -1079,7 +1079,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
     if (keGrid && grid) grid.scrollIntoView({behavior:'smooth', block:'start'});
     if (window.__pasangFav) window.__pasangFav();
     observeReveal();
-    renderMore(keGrid ? window.__totalPadan : 0);
+    renderMore(window.__totalPadan || 0);
   }
 
   function akhir(senarai, keGrid){
