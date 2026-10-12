@@ -360,13 +360,13 @@ a.p-hit:hover{color:var(--gold-pale)}
   border:1px solid rgba(200,206,216,.14);display:flex;align-items:flex-end;
   transition:transform .3s,border-color .3s;
 }
-.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5;transition:transform .5s,opacity .3s}
-.cat:hover img{transform:scale(1.05);opacity:.62}
+.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.8;transition:transform .5s,opacity .3s}
+.cat:hover img{transform:scale(1.05);opacity:.92}
 .cat:hover{border-color:rgba(232,197,122,.5);transform:translateY(-4px)}
-.cat::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,14,27,.94),rgba(4,14,27,.25))}
+.cat::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,14,27,.86) 0%,rgba(4,14,27,.46) 45%,rgba(4,14,27,.08) 100%)}
 .cat-in{position:relative;z-index:2;padding:18px 20px;width:100%}
-.cat-in h3{margin:0;font-size:1.05rem;font-weight:700}
-.cat-in p{margin:3px 0 0;color:var(--gold);font-size:.82rem;font-weight:600}
+.cat-in h3{margin:0;font-size:1.05rem;font-weight:700;text-shadow:0 2px 12px rgba(0,0,0,.9),0 1px 3px rgba(0,0,0,.95)}
+.cat-in p{margin:3px 0 0;color:var(--gold);font-size:.82rem;font-weight:600;text-shadow:0 1px 8px rgba(0,0,0,.95),0 1px 2px rgba(0,0,0,1)}
 
 /* ---------- MENGAPA / PROJEK / CTA ---------- */
 .why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
