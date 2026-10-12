@@ -11142,6 +11142,64 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0203",
+    "title": "Kilang/Warehouse Single Storey Terrace Presint Diplomatik, Putrajaya",
+    "type": "Kilang / Gudang",
+    "location": "Presint Diplomatik, Putrajaya",
+    "state": "Putrajaya",
+    "price": 1500000,
+    "price_label": "RM1,500,000",
+    "price_old": null,
+    "land_area": "Tanah 1,916 sqft",
+    "built_up": "Tanah 1,916 sqft",
+    "tenure": "Freehold",
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [
+      "Unit kilang/gudang single storey terrace — lot service industry",
+      "Tanah 1,916 sqft, Freehold, Non-Bumi",
+      "Sedang disewa RM3,900/bulan — potensi pulangan segera",
+      "Sesuai untuk workshop, warehouse atau showroom",
+      "Lokasi Presint Diplomatik, Putrajaya — akses mudah ke Putrajaya & Cyberjaya"
+    ],
+    "description": "Unit kilang/gudang single storey terrace di Presint Diplomatik, Putrajaya untuk dijual. Lot service industry dengan keluasan tanah 1,916 kaki persegi, status Freehold dan terbuka kepada semua pembeli (Non-Bumi). Unit ini sedang disewa pada kadar RM3,900 sebulan, memberi potensi pulangan sewa segera kepada pembeli. Sangat sesuai untuk kegunaan workshop, stor gudang mahupun showroom perniagaan.",
+    "amenities": [
+      "Lot service industry",
+      "Freehold",
+      "Non-Bumi",
+      "Sedang disewa RM3,900/bulan",
+      "Akses jalan utama"
+    ],
+    "nearby": [
+      "Putrajaya",
+      "Cyberjaya",
+      "Presint Diplomatik",
+      "Dengkil"
+    ],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Presint%20Diplomatik%2C%20Putrajaya",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-13",
+    "images": [
+      "https://lh3.googleusercontent.com/d/19U_sD78HMmDog7TEfdmiIUIHhwSwBMxG=w1000",
+      "https://lh3.googleusercontent.com/d/1zQ-m0TRjaZgHbdwCgG3ITCpD7NbAddPJ=w1000",
+      "https://lh3.googleusercontent.com/d/1qqgcEusD9P5RrhodfYwpM1IdbO0gnr85=w1000",
+      "https://lh3.googleusercontent.com/d/1s9BPniPK-7HRfaZpiN-AeABdLYKf2eWW=w1000",
+      "https://lh3.googleusercontent.com/d/15ucL3bXH1-Cuqfa-t-HFr2DycwFTUDg2=w1000",
+      "https://lh3.googleusercontent.com/d/18DuOK1wkvyLMwpY8b_vAA5bdlxfPVcdQ=w1000",
+      "https://lh3.googleusercontent.com/d/1IFBsuAdgDHm7oft-jBCiyt8SE0E77S28=w1000",
+      "https://lh3.googleusercontent.com/d/1IwsGBJyDvnzBTOHUAlpcCgbxC_c9hJRt=w1000",
+      "https://lh3.googleusercontent.com/d/1zyLYyNqpRknZgqIp9Bt-Spgl5RvFCG9q=w1000",
+      "https://lh3.googleusercontent.com/d/1JodX9G_lXzZ4PFJXP9vb6VoTLyRSPDP0=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
