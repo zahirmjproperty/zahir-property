@@ -1041,6 +1041,27 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
     };
   }
 
+  /* ---------- PAGINATION "Tunjuk Lagi" ---------- */
+  var shownCount = 24;          // bilangan kad sedang dipapar
+  var lastSig = null;           // tandatangan penapis — reset bila penapis berubah
+  function renderMore(total){
+    var grid = el('gridProp'); if (!grid || !grid.parentNode) return;
+    var wrap = el('moreWrap');
+    if (!wrap){
+      wrap = document.createElement('div');
+      wrap.id = 'moreWrap';
+      wrap.style.cssText = 'text-align:center;margin:26px 0 0';
+      grid.parentNode.insertBefore(wrap, grid.nextSibling);
+    }
+    var baki = total - shownCount;
+    if (baki <= 0){ wrap.innerHTML = ''; wrap.style.display = 'none'; return; }
+    wrap.style.display = 'block';
+    wrap.innerHTML = '<button type="button" id="moreBtn" class="btn btn-gold" style="padding:13px 30px">' +
+      'Tunjuk Lagi <span style="opacity:.75;font-weight:600">(' + baki + ' lagi)</span></button>';
+    var btn = el('moreBtn');
+    if (btn) btn.addEventListener('click', function(){ shownCount += 24; cari(false); });
+  }
+
   function render(senarai, keGrid){
     var grid = el('gridProp'); if (!grid) return;
     var notis = el('hasilKira');
@@ -1052,15 +1073,22 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
     } else {
       grid.innerHTML = senarai.map(kad).join('');
     }
-    if (notis) notis.textContent = senarai.length + ' hartanah dipaparkan';
+    if (notis) notis.textContent = (senarai.length < (window.__totalPadan || 0))
+      ? ('Menunjuk ' + senarai.length + ' daripada ' + window.__totalPadan + ' hartanah')
+      : (senarai.length + ' hartanah dipaparkan');
     if (keGrid && grid) grid.scrollIntoView({behavior:'smooth', block:'start'});
     if (window.__pasangFav) window.__pasangFav();
     observeReveal();
+    renderMore(keGrid ? window.__totalPadan : 0);
   }
 
   function akhir(senarai, keGrid){
-    var maks = 24;   // 24 kad sekali papar (sama seperti MT)
-    var utama = senarai.slice(0, maks);
+    // Reset batch bila penapis/susunan berubah (bukan bila "Tunjuk Lagi" diklik)
+    var f = bacaTapis();
+    var sig = [f.jenis, f.q, f.kategori, f.bilik].join('|');
+    if (sig !== lastSig){ lastSig = sig; shownCount = 24; }
+    window.__totalPadan = senarai.length;
+    var utama = senarai.slice(0, shownCount);
     render(utama, keGrid);
   }
 
