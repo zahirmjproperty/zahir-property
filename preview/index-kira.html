@@ -244,7 +244,30 @@ h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.15;letter-spacing:-.0
   background:linear-gradient(135deg,var(--gold-pale),var(--gold) 60%,#D9B463);
   color:#16233A;box-shadow:0 8px 24px rgba(232,197,122,.30);
 }
-.search-form{display:grid;grid-template-columns:1.7fr 1fr 1fr auto;gap:12px;align-items:end}
+.search-form{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:12px;align-items:end}
+.search-form .f-q{grid-column:1/5}
+.btn-search{grid-column:5;grid-row:1}
+.btn-reset{grid-column:5;grid-row:2;min-height:52px;padding:0 16px;border-radius:13px;border:1px solid var(--line);
+  background:rgba(247,245,239,.05);color:var(--silver);font-family:var(--head);font-weight:700;font-size:.85rem;cursor:pointer;
+  transition:background .22s,color .22s}
+.btn-reset:hover{background:rgba(247,245,239,.10);color:var(--warm-white)}
+/* --- autolengkap carian --- */
+.cadangan{position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:30;
+  background:rgba(6,18,32,.98);border:1px solid var(--line);border-radius:13px;overflow:hidden;
+  box-shadow:0 18px 44px rgba(0,0,0,.55)}
+.cadangan button{display:flex;width:100%;gap:10px;align-items:center;justify-content:space-between;
+  padding:11px 14px;background:none;border:0;color:var(--warm-white);font-family:var(--sans);font-size:.92rem;
+  text-align:left;cursor:pointer}
+.cadangan button:hover,.cadangan button[aria-selected="true"]{background:rgba(232,197,122,.12)}
+.cadangan .c-jenis{color:var(--muted);font-size:.75rem;letter-spacing:.04em;text-transform:uppercase}
+.cadangan .c-n{color:var(--gold-pale);font-weight:700;font-size:.78rem;white-space:nowrap}
+/* --- cip penapis aktif --- */
+.cip-cari{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0 0}
+.cip-cari button{display:inline-flex;align-items:center;gap:7px;min-height:34px;padding:0 13px;border-radius:999px;
+  border:1px solid var(--line);background:rgba(232,197,122,.10);color:var(--gold-pale);
+  font-family:var(--head);font-weight:700;font-size:.8rem;cursor:pointer}
+.cip-cari button:hover{background:rgba(232,197,122,.20)}
+.cip-cari button span{opacity:.75;font-size:.95rem;line-height:1}
 .f{display:flex;flex-direction:column;gap:6px;position:relative}
 .f-ico{position:absolute;left:14px;bottom:15px;width:19px;height:19px;pointer-events:none;opacity:.75}
 .f-ico svg{width:19px;height:19px;stroke:var(--gold);fill:none;stroke-width:1.7}
@@ -463,7 +486,10 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
 }
 @media (max-width:1180px){
   .nav a{padding:9px 9px;font-size:.83rem}
-  .search-form{grid-template-columns:1.4fr 1fr 1fr auto}
+  .search-form{grid-template-columns:repeat(3,1fr) auto}
+  .search-form .f-q{grid-column:1/4}
+  .btn-search{grid-column:4;grid-row:1}
+  .btn-reset{grid-column:4;grid-row:2}
   .search-form .f-bilik{display:none}
 }
 @media (max-width:1024px){
@@ -483,8 +509,11 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
   .hero{min-height:720px;background-position:66% center}
   .hero-inner{padding:34px 0 22px}
   .hero-lead{max-width:100%}
-  .search-form{grid-template-columns:1fr;gap:11px}
+  .search-form{grid-template-columns:1fr 1fr;gap:11px}
+  .search-form .f-q{grid-column:1/-1}
   .search-form .f-bilik{display:flex}
+  .btn-search{grid-column:1/-1;grid-row:auto}
+  .btn-reset{grid-column:1/-1;grid-row:auto}
   .btn-search{width:100%}
   .sec{padding:56px 0}
   .sec-head{margin-bottom:24px}
@@ -645,10 +674,11 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
         <button class="tab" role="tab" data-jenis="JV" aria-selected="false">JV</button>
       </div>
       <form class="search-form" id="searchForm" role="search">
-        <label class="f">
+        <label class="f f-q" style="position:relative">
           <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
-          <span class="sr">Cari lokasi, projek atau jenis hartanah</span>
-          <input id="q" type="search" placeholder="Cari lokasi, projek atau jenis hartanah" autocomplete="off">
+          <span class="sr">Cari lokasi, bandar, projek atau jenis hartanah</span>
+          <input id="q" type="search" placeholder="Cari lokasi, bandar atau projek — cth. &quot;seksyen 16 bangi&quot;" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="cadanganQ" aria-autocomplete="list">
+          <div class="cadangan" id="cadanganQ" role="listbox" aria-label="Cadangan carian" hidden></div>
         </label>
         <label class="f">
           <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 4l9 6.5"/><path d="M5 10v9h14v-9"/></svg></span>
@@ -660,6 +690,16 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
             <option value="komersial">Komersial</option>
             <option value="tanah">Tanah</option>
           </select>
+        </label>
+        <label class="f">
+          <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 12 22l-9-9V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.4"/></svg></span>
+          <span class="sr">Negeri</span>
+          <select id="fNegeri"><option value="">Semua Negeri</option></select>
+        </label>
+        <label class="f">
+          <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>
+          <span class="sr">Julat harga</span>
+          <select id="fHarga"></select>
         </label>
         <label class="f f-bilik">
           <span class="f-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 18v-5h18v5"/><path d="M3 13V8a2 2 0 0 1 2-2h6v7"/><circle cx="7" cy="9" r="1.3"/></svg></span>
@@ -675,7 +715,9 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
           Cari Hartanah
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </button>
+        <button class="btn-reset" type="reset" id="btnReset" title="Kosongkan semua penapis">Set semula</button>
       </form>
+      <div class="cip-cari" id="cipCari" aria-live="polite"></div>
       <p class="search-note">Semua listing melalui semakan status pemilikan dan harga pasaran.</p>
     </section>
   </div>
@@ -924,6 +966,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
 </a>
 
 <script src="listings-kira.js?v=1"></script>
+<script src="../assets/carian-praktikal.js?v=1"></script>
 <script>
 (function(){
   "use strict";
@@ -1021,29 +1064,38 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
 
   /* ---------- tapis ---------- */
   var jenisAktif = 'JUAL';
-  function padan(l, f){
-    if (f.jenis && f.jenis !== 'JV' && l.jenis !== f.jenis) return false;
-    if (f.jenis === 'JV') return false;
-    if (f.q){
-      var hay = [l.title, l.location, l.state, l.type, l.project_name, l.unit].join(' ').toLowerCase();
-      if (hay.indexOf(f.q) === -1) return false;
-    }
-    if (f.kategori && kategori(l) !== f.kategori) return false;
-    if (f.bilik && Number(l.bedrooms || 0) < Number(f.bilik)) return false;
-    if (f.harga){
-      var p = f.harga.split('-'), min = Number(p[0]), max = Number(p[1] || 0);
-      if (min && Number(l.price) < min) return false;
-      if (max && Number(l.price) > max) return false;
-    }
-    return true;
-  }
+  var CP = window.CarianPraktikal;
+  function padan(l, f){ return CP.padan(l, f); }
   function bacaTapis(){
     return {
       jenis: jenisAktif,
-      q: (el('q') && el('q').value.trim().toLowerCase()) || '',
+      q: (el('q') && el('q').value.trim()) || '',
       kategori: (el('fJenis') && el('fJenis').value) || '',
+      negeri: (el('fNegeri') && el('fNegeri').value) || '',
+      harga: (el('fHarga') && el('fHarga').value) || '',
       bilik: (el('fBilik') && el('fBilik').value) || ''
     };
+  }
+
+  function teksOpsyen(sel){
+    if (!sel || sel.selectedIndex < 0) return '';
+    return sel.options[sel.selectedIndex].text;
+  }
+
+  /* cip penapis aktif — pengguna nampak apa yang menapis, boleh buang satu-satu */
+  function paparCip(f){
+    var box = el('cipCari'); if (!box) return;
+    var cip = [];
+    if (f.q) cip.push(['q', 'Carian: “' + f.q + '”']);
+    if (f.kategori) cip.push(['fJenis', teksOpsyen(el('fJenis'))]);
+    if (f.negeri) cip.push(['fNegeri', f.negeri]);
+    if (f.harga) cip.push(['fHarga', teksOpsyen(el('fHarga'))]);
+    if (f.bilik) cip.push(['fBilik', f.bilik + '+ bilik']);
+    box.innerHTML = cip.length
+      ? cip.map(function(c){
+          return '<button type="button" data-cip="' + c[0] + '">' + esc(c[1]) + ' <span aria-hidden="true">×</span></button>';
+        }).join('') + '<button type="button" data-cip="__semua">Kosongkan semua</button>'
+      : '';
   }
 
   /* ---------- PAGINATION "Tunjuk Lagi" ---------- */
@@ -1074,13 +1126,18 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
       var jv = jenisAktif === 'JV';
       grid.innerHTML = '<div class="empty"><h3>' + (jv ? 'Belum ada listing JV di sini' : 'Tiada hartanah sepadan') + '</h3>' +
         '<p>' + (jv ? 'Untuk kerjasama JV / pemaju, hubungi kami di WhatsApp — kami bantu padankan projek.'
-                     : 'Cuba longgarkan penapis, atau hubungi kami — kami boleh carikan untuk anda.') + '</p></div>';
+                     : 'Cuba longgarkan penapis, atau hubungi kami — kami boleh carikan untuk anda.') + '</p>' +
+        (jv ? '' : '<p style="margin-top:14px"><button type="button" class="btn-reset" id="kosongkanKosong">Kosongkan penapis</button></p>') +
+        '</div>';
+      var kk = el('kosongkanKosong');
+      if (kk) kk.addEventListener('click', function(){ kosongkan(); });
     } else {
       grid.innerHTML = senarai.map(kad).join('');
     }
     if (notis) notis.textContent = (senarai.length < (window.__totalPadan || 0))
       ? ('Menunjuk ' + senarai.length + ' daripada ' + window.__totalPadan + ' listing')
       : (senarai.length + ' listing dijumpai');
+    paparCip(bacaTapis());
     if (keGrid && grid) grid.scrollIntoView({behavior:'smooth', block:'start'});
     if (window.__pasangFav) window.__pasangFav();
     observeReveal();
@@ -1273,18 +1330,140 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
   }
 
   /* ---------- FORM CARIAN ---------- */
+  function kosongkan(){
+    ['q','fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
+      var n = el(id); if (!n) return;
+      if (n.tagName === 'SELECT') n.selectedIndex = 0; else n.value = '';
+    });
+    jenisAktif = 'JUAL';
+    Array.prototype.forEach.call(document.querySelectorAll('.search-tabs .tab'), function(t){
+      t.setAttribute('aria-selected', String(t.getAttribute('data-jenis') === 'JUAL'));
+    });
+    isiHarga();
+    tutupCadangan();
+    cari(false);
+  }
+
+  /* opsyen negeri dijana dari data (bukan senarai tetap) */
+  function isiNegeri(){
+    var sel = el('fNegeri'); if (!sel) return;
+    var set = {};
+    L.forEach(function(l){ var n = CP.negeri(l); if (n) set[n] = 1; });
+    var senarai = Object.keys(set).sort();
+    sel.innerHTML = '<option value="">Semua Negeri</option>' +
+      senarai.map(function(n){ return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+  }
+
+  /* jalur harga ikut tab Beli/Sewa */
+  function isiHarga(){
+    var sel = el('fHarga'); if (!sel) return;
+    var dipilih = sel.value;
+    sel.innerHTML = CP.jalurHarga(jenisAktif).map(function(o){
+      return '<option value="' + o[0] + '">' + esc(o[1]) + '</option>';
+    }).join('');
+    if (dipilih && sel.querySelector('option[value="' + dipilih + '"]')) sel.value = dipilih;
+  }
+
+  /* ---------- AUTOLENGKAP ---------- */
+  var indeks = CP.binaIndeks(L);
+  var cadanganKini = [], cadanganIdx = -1;
+
+  function tutupCadangan(){
+    var box = el('cadanganQ'), inp = el('q');
+    if (box) { box.hidden = true; box.innerHTML = ''; }
+    if (inp) inp.setAttribute('aria-expanded', 'false');
+    cadanganKini = []; cadanganIdx = -1;
+  }
+
+  function pilihCadangan(c){
+    var inp = el('q'); if (!inp) return;
+    inp.value = c.teks;
+    tutupCadangan();
+    cari(false);
+  }
+
+  function bukaCadangan(){
+    var box = el('cadanganQ'), inp = el('q'); if (!box || !inp) return;
+    cadanganKini = CP.cadangan(indeks, inp.value, 7);
+    if (!cadanganKini.length) { tutupCadangan(); return; }
+    cadanganIdx = -1;
+    box.innerHTML = cadanganKini.map(function(c, i){
+      return '<button type="button" role="option" aria-selected="false" data-i="' + i + '">' +
+        '<span>' + esc(c.teks) + ' <span class="c-jenis">' + esc(c.jenis) + '</span></span>' +
+        '<span class="c-n">' + c.n + '</span></button>';
+    }).join('');
+    box.hidden = false;
+    inp.setAttribute('aria-expanded', 'true');
+  }
+
+  function sorotCadangan(i){
+    var box = el('cadanganQ'), inp = el('q'); if (!box) return;
+    var btns = box.querySelectorAll('button');
+    if (!btns.length) return;
+    cadanganIdx = (i + btns.length) % btns.length;
+    Array.prototype.forEach.call(btns, function(b, j){ b.setAttribute('aria-selected', String(j === cadanganIdx)); });
+    if (inp) inp.value = cadanganKini[cadanganIdx].teks;
+  }
+
   var frm = el('searchForm');
-  if (frm) frm.addEventListener('submit', function(e){ e.preventDefault(); cari(true); });
-  ['q','fJenis','fBilik'].forEach(function(id){
+  if (frm) frm.addEventListener('submit', function(e){ e.preventDefault(); tutupCadangan(); cari(true); });
+
+  var inpQ = el('q');
+  if (inpQ){
+    inpQ.addEventListener('input', bukaCadangan);
+    inpQ.addEventListener('focus', function(){ if (inpQ.value) bukaCadangan(); });
+    inpQ.addEventListener('keydown', function(e){
+      var box = el('cadanganQ');
+      if (!box || box.hidden) return;
+      if (e.key === 'ArrowDown'){ e.preventDefault(); sorotCadangan(cadanganIdx + 1); }
+      else if (e.key === 'ArrowUp'){ e.preventDefault(); sorotCadangan(cadanganIdx - 1); }
+      else if (e.key === 'Enter' && cadanganIdx > -1){ e.preventDefault(); pilihCadangan(cadanganKini[cadanganIdx]); }
+      else if (e.key === 'Escape'){ tutupCadangan(); }
+    });
+    document.addEventListener('click', function(e){
+      if (!e.target.closest || !e.target.closest('.f-q')) tutupCadangan();
+    });
+    var boxQ = el('cadanganQ');
+    if (boxQ) boxQ.addEventListener('mousedown', function(e){
+      var b = e.target.closest && e.target.closest('button[data-i]');
+      if (!b) return;
+      e.preventDefault();
+      pilihCadangan(cadanganKini[Number(b.getAttribute('data-i'))]);
+    });
+  }
+
+  ['fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
     var n = el(id);
     if (!n) return;
     n.addEventListener('change', function(){ cari(false); });
   });
 
+  /* cip: buang satu penapis atau semua */
+  var boxCip = el('cipCari');
+  if (boxCip) boxCip.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('button[data-cip]');
+    if (!b) return;
+    var id = b.getAttribute('data-cip');
+    if (id === '__semua') return kosongkan();
+    var n = el(id); if (!n) return;
+    if (n.tagName === 'SELECT') n.selectedIndex = 0; else n.value = '';
+    cari(false);
+  });
+
+  var btnReset = el('btnReset');
+  if (btnReset) btnReset.addEventListener('click', function(e){ e.preventDefault(); kosongkan(); });
+
+  /* tab: jalur harga mesti ikut tab (handler tab asal jalan dahulu, jadi jalankan
+     isiHarga + cari sekali lagi supaya penapis harga tidak terbawa antara Beli/Sewa) */
+  var tabsBox = document.querySelector('.search-tabs');
+  if (tabsBox) tabsBox.addEventListener('click', function(){ isiHarga(); cari(false); });
+
   /* ---------- INIT ---------- */
   var th = el('tahun'); if (th) th.textContent = new Date().getFullYear();
   // Angka jumlah listing aktif — hidup dari data (bukan angka tetap)
   var stat = el('statAktif'); if (stat) stat.textContent = L.length;
+  isiNegeri();
+  isiHarga();
   kategoriKad();
   projekKad();
   cari(false);

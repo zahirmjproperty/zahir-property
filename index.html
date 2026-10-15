@@ -964,6 +964,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
 </a>
 
 <script src="data/listings.js?v=8bd73bf6"></script>
+<script src="assets/carian-praktikal.js?v=1"></script>
 <script>
 (function(){
   "use strict";
@@ -1327,18 +1328,140 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
   }
 
   /* ---------- FORM CARIAN ---------- */
+  function kosongkan(){
+    ['q','fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
+      var n = el(id); if (!n) return;
+      if (n.tagName === 'SELECT') n.selectedIndex = 0; else n.value = '';
+    });
+    jenisAktif = 'JUAL';
+    Array.prototype.forEach.call(document.querySelectorAll('.search-tabs .tab'), function(t){
+      t.setAttribute('aria-selected', String(t.getAttribute('data-jenis') === 'JUAL'));
+    });
+    isiHarga();
+    tutupCadangan();
+    cari(false);
+  }
+
+  /* opsyen negeri dijana dari data (bukan senarai tetap) */
+  function isiNegeri(){
+    var sel = el('fNegeri'); if (!sel) return;
+    var set = {};
+    L.forEach(function(l){ var n = CP.negeri(l); if (n) set[n] = 1; });
+    var senarai = Object.keys(set).sort();
+    sel.innerHTML = '<option value="">Semua Negeri</option>' +
+      senarai.map(function(n){ return '<option value="' + esc(n) + '">' + esc(n) + '</option>'; }).join('');
+  }
+
+  /* jalur harga ikut tab Beli/Sewa */
+  function isiHarga(){
+    var sel = el('fHarga'); if (!sel) return;
+    var dipilih = sel.value;
+    sel.innerHTML = CP.jalurHarga(jenisAktif).map(function(o){
+      return '<option value="' + o[0] + '">' + esc(o[1]) + '</option>';
+    }).join('');
+    if (dipilih && sel.querySelector('option[value="' + dipilih + '"]')) sel.value = dipilih;
+  }
+
+  /* ---------- AUTOLENGKAP ---------- */
+  var indeks = CP.binaIndeks(L);
+  var cadanganKini = [], cadanganIdx = -1;
+
+  function tutupCadangan(){
+    var box = el('cadanganQ'), inp = el('q');
+    if (box) { box.hidden = true; box.innerHTML = ''; }
+    if (inp) inp.setAttribute('aria-expanded', 'false');
+    cadanganKini = []; cadanganIdx = -1;
+  }
+
+  function pilihCadangan(c){
+    var inp = el('q'); if (!inp) return;
+    inp.value = c.teks;
+    tutupCadangan();
+    cari(false);
+  }
+
+  function bukaCadangan(){
+    var box = el('cadanganQ'), inp = el('q'); if (!box || !inp) return;
+    cadanganKini = CP.cadangan(indeks, inp.value, 7);
+    if (!cadanganKini.length) { tutupCadangan(); return; }
+    cadanganIdx = -1;
+    box.innerHTML = cadanganKini.map(function(c, i){
+      return '<button type="button" role="option" aria-selected="false" data-i="' + i + '">' +
+        '<span>' + esc(c.teks) + ' <span class="c-jenis">' + esc(c.jenis) + '</span></span>' +
+        '<span class="c-n">' + c.n + '</span></button>';
+    }).join('');
+    box.hidden = false;
+    inp.setAttribute('aria-expanded', 'true');
+  }
+
+  function sorotCadangan(i){
+    var box = el('cadanganQ'), inp = el('q'); if (!box) return;
+    var btns = box.querySelectorAll('button');
+    if (!btns.length) return;
+    cadanganIdx = (i + btns.length) % btns.length;
+    Array.prototype.forEach.call(btns, function(b, j){ b.setAttribute('aria-selected', String(j === cadanganIdx)); });
+    if (inp) inp.value = cadanganKini[cadanganIdx].teks;
+  }
+
   var frm = el('searchForm');
-  if (frm) frm.addEventListener('submit', function(e){ e.preventDefault(); cari(true); });
-  ['q','fJenis','fBilik'].forEach(function(id){
+  if (frm) frm.addEventListener('submit', function(e){ e.preventDefault(); tutupCadangan(); cari(true); });
+
+  var inpQ = el('q');
+  if (inpQ){
+    inpQ.addEventListener('input', bukaCadangan);
+    inpQ.addEventListener('focus', function(){ if (inpQ.value) bukaCadangan(); });
+    inpQ.addEventListener('keydown', function(e){
+      var box = el('cadanganQ');
+      if (!box || box.hidden) return;
+      if (e.key === 'ArrowDown'){ e.preventDefault(); sorotCadangan(cadanganIdx + 1); }
+      else if (e.key === 'ArrowUp'){ e.preventDefault(); sorotCadangan(cadanganIdx - 1); }
+      else if (e.key === 'Enter' && cadanganIdx > -1){ e.preventDefault(); pilihCadangan(cadanganKini[cadanganIdx]); }
+      else if (e.key === 'Escape'){ tutupCadangan(); }
+    });
+    document.addEventListener('click', function(e){
+      if (!e.target.closest || !e.target.closest('.f-q')) tutupCadangan();
+    });
+    var boxQ = el('cadanganQ');
+    if (boxQ) boxQ.addEventListener('mousedown', function(e){
+      var b = e.target.closest && e.target.closest('button[data-i]');
+      if (!b) return;
+      e.preventDefault();
+      pilihCadangan(cadanganKini[Number(b.getAttribute('data-i'))]);
+    });
+  }
+
+  ['fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
     var n = el(id);
     if (!n) return;
     n.addEventListener('change', function(){ cari(false); });
   });
 
+  /* cip: buang satu penapis atau semua */
+  var boxCip = el('cipCari');
+  if (boxCip) boxCip.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('button[data-cip]');
+    if (!b) return;
+    var id = b.getAttribute('data-cip');
+    if (id === '__semua') return kosongkan();
+    var n = el(id); if (!n) return;
+    if (n.tagName === 'SELECT') n.selectedIndex = 0; else n.value = '';
+    cari(false);
+  });
+
+  var btnReset = el('btnReset');
+  if (btnReset) btnReset.addEventListener('click', function(e){ e.preventDefault(); kosongkan(); });
+
+  /* tab: jalur harga mesti ikut tab (handler tab asal jalan dahulu, jadi jalankan
+     isiHarga + cari sekali lagi supaya penapis harga tidak terbawa antara Beli/Sewa) */
+  var tabsBox = document.querySelector('.search-tabs');
+  if (tabsBox) tabsBox.addEventListener('click', function(){ isiHarga(); cari(false); });
+
   /* ---------- INIT ---------- */
   var th = el('tahun'); if (th) th.textContent = new Date().getFullYear();
   // Angka jumlah listing aktif — hidup dari data (bukan angka tetap)
   var stat = el('statAktif'); if (stat) stat.textContent = L.length;
+  isiNegeri();
+  isiHarga();
   kategoriKad();
   projekKad();
   cari(false);
