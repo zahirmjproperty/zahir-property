@@ -1430,10 +1430,12 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
     });
   }
 
-  ['fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
+  /* 'q' kekal pada 'change' (cetus bila blur/Enter) — 'input' dikhaskan untuk
+     autolengkap sahaja supaya kad tidak berkelip pada setiap ketukan */
+  ['q','fJenis','fNegeri','fHarga','fBilik'].forEach(function(id){
     var n = el(id);
     if (!n) return;
-    n.addEventListener('change', function(){ cari(false); });
+    n.addEventListener('change', function(){ tutupCadangan(); cari(false); });
   });
 
   /* cip: buang satu penapis atau semua */
