@@ -245,7 +245,30 @@ h1,h2,h3,h4{font-family:var(--head);margin:0;line-height:1.15;letter-spacing:-.0
   background:linear-gradient(135deg,var(--gold-pale),var(--gold) 60%,#D9B463);
   color:#16233A;box-shadow:0 8px 24px rgba(232,197,122,.30);
 }
-.search-form{display:grid;grid-template-columns:1.7fr 1fr 1fr auto;gap:12px;align-items:end}
+.search-form{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:12px;align-items:end}
+.search-form .f-q{grid-column:1/5}
+.btn-search{grid-column:5;grid-row:1}
+.btn-reset{grid-column:5;grid-row:2;min-height:52px;padding:0 16px;border-radius:13px;border:1px solid var(--line);
+  background:rgba(247,245,239,.05);color:var(--silver);font-family:var(--head);font-weight:700;font-size:.85rem;cursor:pointer;
+  transition:background .22s,color .22s}
+.btn-reset:hover{background:rgba(247,245,239,.10);color:var(--warm-white)}
+/* --- autolengkap carian --- */
+.cadangan{position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:30;
+  background:rgba(6,18,32,.98);border:1px solid var(--line);border-radius:13px;overflow:hidden;
+  box-shadow:0 18px 44px rgba(0,0,0,.55)}
+.cadangan button{display:flex;width:100%;gap:10px;align-items:center;justify-content:space-between;
+  padding:11px 14px;background:none;border:0;color:var(--warm-white);font-family:var(--sans);font-size:.92rem;
+  text-align:left;cursor:pointer}
+.cadangan button:hover,.cadangan button[aria-selected="true"]{background:rgba(232,197,122,.12)}
+.cadangan .c-jenis{color:var(--muted);font-size:.75rem;letter-spacing:.04em;text-transform:uppercase}
+.cadangan .c-n{color:var(--gold-pale);font-weight:700;font-size:.78rem;white-space:nowrap}
+/* --- cip penapis aktif --- */
+.cip-cari{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0 0}
+.cip-cari button{display:inline-flex;align-items:center;gap:7px;min-height:34px;padding:0 13px;border-radius:999px;
+  border:1px solid var(--line);background:rgba(232,197,122,.10);color:var(--gold-pale);
+  font-family:var(--head);font-weight:700;font-size:.8rem;cursor:pointer}
+.cip-cari button:hover{background:rgba(232,197,122,.20)}
+.cip-cari button span{opacity:.75;font-size:.95rem;line-height:1}
 .f{display:flex;flex-direction:column;gap:6px;position:relative}
 .f-ico{position:absolute;left:14px;bottom:15px;width:19px;height:19px;pointer-events:none;opacity:.75}
 .f-ico svg{width:19px;height:19px;stroke:var(--gold);fill:none;stroke-width:1.7}
@@ -464,7 +487,10 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
 }
 @media (max-width:1180px){
   .nav a{padding:9px 9px;font-size:.83rem}
-  .search-form{grid-template-columns:1.4fr 1fr 1fr auto}
+  .search-form{grid-template-columns:repeat(3,1fr) auto}
+  .search-form .f-q{grid-column:1/4}
+  .btn-search{grid-column:4;grid-row:1}
+  .btn-reset{grid-column:4;grid-row:2}
   .search-form .f-bilik{display:none}
 }
 @media (max-width:1024px){
@@ -484,8 +510,11 @@ footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:va
   .hero{min-height:720px;background-position:66% center}
   .hero-inner{padding:34px 0 22px}
   .hero-lead{max-width:100%}
-  .search-form{grid-template-columns:1fr;gap:11px}
+  .search-form{grid-template-columns:1fr 1fr;gap:11px}
+  .search-form .f-q{grid-column:1/-1}
   .search-form .f-bilik{display:flex}
+  .btn-search{grid-column:1/-1;grid-row:auto}
+  .btn-reset{grid-column:1/-1;grid-row:auto}
   .btn-search{width:100%}
   .sec{padding:56px 0}
   .sec-head{margin-bottom:24px}
