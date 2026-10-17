@@ -22,9 +22,14 @@
     }
   }, true);
 
-  // --- Konversi: hantar borang (Serah Listing / Semak Kelayakan / dsb.) ---
+  // --- Konversi: hantar borang SEBENAR sahaja ---
+  // JANGAN kira borang carian/penapis (searchForm) — dahulu setiap carian dalaman
+  // jadi "lead" palsu (57 hantar_borang MT). Tapis role=search + id/name search|filter|cari|tapis.
   document.addEventListener("submit", function (e) {
     var f = e.target;
+    if (!f || f.getAttribute("role") === "search") return;
+    var idn = ((f.id || "") + " " + (f.name || "")).toLowerCase();
+    if (/search|filter|cari|tapis/.test(idn)) return;
     gtag("event", "hantar_borang", { borang: (f.id || f.name || "tanpa-nama"),
       halaman: location.pathname });
   }, true);
