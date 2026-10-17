@@ -259,7 +259,7 @@ function renderThumbs(){
   var b=$('thumbs');b.innerHTML='';
   IMGS.forEach(function(im,i){
     var f=document.createElement('figure');
-    f.innerHTML='<img src="'+im.url+'"><figcaption>IMG_'+(i+1<10?'0':'')+(i+1)+'.jpg</figcaption><button onclick="rmImg('+i+')">×</button>';
+    f.innerHTML='<img src="'+im.url+'" alt="Pratonton gambar '+ (i+1) +'"><figcaption>IMG_'+(i+1<10?'0':'')+(i+1)+'.jpg</figcaption><button onclick="rmImg('+i+')">×</button>';
     b.appendChild(f);
   });
   var t=IMGS.reduce(function(a,x){return a+x.out},0);
