@@ -13013,6 +13013,7 @@ window.LISTINGS = [
     "source": "COA",
     "date": "2026-10-15",
     "images": [
+      "https://lh3.googleusercontent.com/d/13pqEoWtnuYeWFj_sYDyNS_LVn3YEDhxc=w1000",
       "https://lh3.googleusercontent.com/d/1rPYGihub_h56HCDjew6mdnG9blMt7J7l=w1000",
       "https://lh3.googleusercontent.com/d/11kxpeEqFTseAlGF1qd-J10Y5LyQivUFN=w1000",
       "https://lh3.googleusercontent.com/d/1aVghkYY-6yhnM0F6iHun-YmFEQGp1x0s=w1000",
@@ -13021,8 +13022,7 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1wLd_tGWcJq6BL39IOSRndddONHZZPwYL=w1000",
       "https://lh3.googleusercontent.com/d/1j4HhwppBpkswwJsFZwqLeU_8unbamRMw=w1000",
       "https://lh3.googleusercontent.com/d/1BUGgfBA55ujqK-ke3zitypnJOu7QKcZe=w1000",
-      "https://lh3.googleusercontent.com/d/1s_I61W219y6cYsb_RSIxoFjAwLTg6Q2r=w1000",
-      "https://lh3.googleusercontent.com/d/1qO_l4trUnrqUCgljIJMVeNKkHbfUIrpl=w1000"
+      "https://lh3.googleusercontent.com/d/1s_I61W219y6cYsb_RSIxoFjAwLTg6Q2r=w1000"
     ],
     "video": "",
     "active": true
