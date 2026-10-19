@@ -964,7 +964,7 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
 </a>
 
 <script src="data/listings.js?v=8bd73bf6"></script>
-<script src="assets/carian-praktikal.js?v=1"></script>
+<script src="assets/carian-praktikal.js?v=2"></script>
 <script>
 (function(){
   "use strict";
@@ -1122,6 +1122,31 @@ body:has(.ali-panel.on) .wa-float{opacity:0;visibility:hidden;pointer-events:non
     var notis = el('hasilKira');
     if (!senarai.length){
       var jv = jenisAktif === 'JV';
+      // Kod listing yang sepadan tapi sudah tidak aktif (DIJUAL/DISEWA) — beritahu
+      // sebab sebenar, jangan suruh pengguna "longgarkan penapis" (mengelirukan).
+      var f0 = bacaTapis();
+      var kodCari = (f0.q || '').trim();
+      var mati = null;
+      if (kodCari && /^[a-z]{2,4}[\s-]?\d{2,}$/i.test(kodCari)) {
+        var kunci = kodCari.toLowerCase().replace(/[\s-]/g, '');
+        mati = (window.LISTINGS || []).filter(function(l){
+          return l.active === false &&
+            String(l.tracking || '').toLowerCase().replace(/[\s-]/g, '') === kunci;
+        })[0] || null;
+      }
+      if (mati) {
+        grid.innerHTML = '<div class="empty"><h3>Unit ini sudah ' +
+          esc(String(mati.status || 'tidak tersedia').toLowerCase()) + '</h3>' +
+          '<p><strong>' + esc(mati.tracking) + '</strong> — ' + esc(mati.title) + '</p>' +
+          '<p>Unit ini tiada dalam senarai aktif. Kami boleh carikan pilihan lain yang serupa.</p>' +
+          '<p style="margin-top:14px"><a class="btn btn-wa" href="https://wa.me/60122310119?text=' +
+          encodeURIComponent('Saya berminat dengan unit seperti ' + mati.tracking + ' (' + mati.title + '). Ada pilihan lain?') +
+          '" target="_blank" rel="noopener">📲 Tanya pilihan serupa</a></p></div>';
+        if (notis) notis.textContent = '0 listing aktif — ' + mati.tracking + ' sudah ' + String(mati.status || 'tidak tersedia').toLowerCase();
+        paparCip(f0);
+        renderMore(0);
+        return;
+      }
       grid.innerHTML = '<div class="empty"><h3>' + (jv ? 'Belum ada listing JV di sini' : 'Tiada hartanah sepadan') + '</h3>' +
         '<p>' + (jv ? 'Untuk kerjasama JV / pemaju, hubungi kami di WhatsApp — kami bantu padankan projek.'
                      : 'Cuba longgarkan penapis, atau hubungi kami — kami boleh carikan untuk anda.') + '</p>' +

@@ -68,6 +68,10 @@
   function tokenPadan(l, t) {
     if (hay(l).indexOf(t) > -1) return true;
     if (t.length < 4) return false;          // jangan teka untuk kata pendek
+    // Token berangka / kod listing (cth '0001', 'coa0001') mesti TEPAT.
+    // Tanpa ini, '0001' dianggap salah eja '0003' (jarak suntingan 1) dan SEMUA
+    // kod listing padan — carian kod pulang seluruh katalog. Kod = pengecam, bukan perkataan.
+    if (/^\d+$/.test(t)) return false;
     var max = t.length >= 8 ? 2 : 1, k = kataUnik(l);
     for (var i = 0; i < k.length; i++) {
       if (Math.abs(k[i].length - t.length) > max) continue;
