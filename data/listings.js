@@ -107,7 +107,8 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1zp1PvWqO8Zk0EG0p_Z7JhDEBjA4WDOqP=w1000",
       "https://lh3.googleusercontent.com/d/1_vvusjTcGrbjeAk3aHLEy2bM08I83OPS=w1000",
-      "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF=w1000"
+      "https://lh3.googleusercontent.com/d/1r64Zuz8ufxZPsR4jb1D2djHR4Fl52_KF=w1000",
+      "https://lh3.googleusercontent.com/d/1I8spL46R2EEx1Lb8ARNP0-dYWE_4MF7e=w1000"
     ],
     "video": "",
     "active": true
@@ -513,7 +514,8 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1_Nqf_cpUw8ait-ycjFxCMmDynMX4JzZV=w1000",
       "https://lh3.googleusercontent.com/d/1P1SQhjy3kyX1ZMxh1Ty6HD6wRX62gews=w1000",
       "https://lh3.googleusercontent.com/d/1KTOvJ4_Err9cOK2CbGv4IK7utM2f_HGz=w1000",
-      "https://lh3.googleusercontent.com/d/1wdqP91Jzjnsnsv8Iiksom9aw-jmvfQra=w1000"
+      "https://lh3.googleusercontent.com/d/1wdqP91Jzjnsnsv8Iiksom9aw-jmvfQra=w1000",
+      "https://lh3.googleusercontent.com/d/1P1SQhjy3kyX1ZMxh1Ty6HD6wRX62gews=w1000"
     ],
     "video": "",
     "active": true
@@ -634,7 +636,8 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1sC-Nh0IQvUB19_Rxl8WE2Pie6y6nJ5EY=w1000",
       "https://lh3.googleusercontent.com/d/1-8y3sYIo4rU9q_2n_zq3srKoEgteSenj=w1000",
       "https://lh3.googleusercontent.com/d/13CxMRB5pGKdfPgaUe5zlIyzlGgATvlFg=w1000",
-      "https://lh3.googleusercontent.com/d/1J0apAEisrD9GKoG_dGgE_f9_-XtFdY3N=w1000"
+      "https://lh3.googleusercontent.com/d/1J0apAEisrD9GKoG_dGgE_f9_-XtFdY3N=w1000",
+      "https://lh3.googleusercontent.com/d/13CxMRB5pGKdfPgaUe5zlIyzlGgATvlFg=w1000"
     ],
     "video": "",
     "active": true
@@ -1783,7 +1786,8 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1MIoZqbwuioQWc9RMDp6F4QKY51WBHwxf=w1000",
       "https://lh3.googleusercontent.com/d/1ETl9gmsmFCTpNW5c2iSE0mn-C04Gzjao=w1000",
       "https://lh3.googleusercontent.com/d/1Gx9uA7U06F2Ia3GFjuuKcJcAx1VpKz1u=w1000",
-      "https://lh3.googleusercontent.com/d/1g2h2jMgSVxM6Y1-0G4KEG3FwtZpUk-IN=w1000"
+      "https://lh3.googleusercontent.com/d/1g2h2jMgSVxM6Y1-0G4KEG3FwtZpUk-IN=w1000",
+      "https://lh3.googleusercontent.com/d/1ImoTvnI4F3Ri0wQwQhSnE-yo1xCXNd1o=w1000"
     ],
     "video": "",
     "active": true
@@ -2823,6 +2827,13 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1AJpnqq6OGJ4oBoeMvcAPM9RFwoOY4SMS=w1000",
       "https://lh3.googleusercontent.com/d/1HXP7ePLXobsVvSzbHdJYNW-EyFoiaAON=w1000",
+      "https://lh3.googleusercontent.com/d/1pHlmgxqz2wHeV7R0z0ZXV6Hv7cNIyeDy=w1000",
+      "https://lh3.googleusercontent.com/d/1eWTkTxeddrJPKVLxtGaWr8qJAvTOWsU_=w1000",
+      "https://lh3.googleusercontent.com/d/1hQ1aekYxSdvWyUZ3Rq7HgxxwY7ti406U=w1000",
+      "https://lh3.googleusercontent.com/d/1cXS9L3so0QanPhTQTCOgWDuU2OzezXqS=w1000",
+      "https://lh3.googleusercontent.com/d/1HXP7ePLXobsVvSzbHdJYNW-EyFoiaAON=w1000",
+      "https://lh3.googleusercontent.com/d/1XpusXXXGN0WHGGmBNwwVL9yrrKqmU5Jz=w1000",
+      "https://lh3.googleusercontent.com/d/12jYp_g2vDVOJ3A35EAdqwTWkU6XO28ZY=w1000",
       "https://lh3.googleusercontent.com/d/1pHlmgxqz2wHeV7R0z0ZXV6Hv7cNIyeDy=w1000"
     ],
     "video": "",
@@ -2872,7 +2883,14 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1cHB0cNn9RovUvXsUaPRZtKeA6o7mPlnJ=w1000",
       "https://lh3.googleusercontent.com/d/1j1EuOMWlk1hjghcILyuAKQ7QonipgxPL=w1000",
-      "https://lh3.googleusercontent.com/d/1lE6bSQmg7mDraeblczJd63iN6W7HpVYj=w1000"
+      "https://lh3.googleusercontent.com/d/1lE6bSQmg7mDraeblczJd63iN6W7HpVYj=w1000",
+      "https://lh3.googleusercontent.com/d/1_oglNmNxX4xhDo1632Jqz22rGTVz3igz=w1000",
+      "https://lh3.googleusercontent.com/d/1zbsh9WW777leQJAPpIw1dF07eUkmIkMN=w1000",
+      "https://lh3.googleusercontent.com/d/1sdII6XSyzEZNCl_avhmVciiODeypjFm5=w1000",
+      "https://lh3.googleusercontent.com/d/10fx-eaDgfRWQ0deuH78NBLdjz900l7Z2=w1000",
+      "https://lh3.googleusercontent.com/d/1j1EuOMWlk1hjghcILyuAKQ7QonipgxPL=w1000",
+      "https://lh3.googleusercontent.com/d/10rs8X2gxCGEkeuzYbDL6eDQ06goQp0ip=w1000",
+      "https://lh3.googleusercontent.com/d/1YMjMMCtfyGMjHXi9cztKwVtc5vhGEcFr=w1000"
     ],
     "video": "",
     "active": true
@@ -2923,7 +2941,14 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1913Q9AK5OzKvuFpt4Vsu7sxeEwnIoNMy=w1000",
       "https://lh3.googleusercontent.com/d/1pHdFzbecP1vrvTB2SoDJKNHL98lcDLzj=w1000",
-      "https://lh3.googleusercontent.com/d/1grWcnpE5frwGkExPWqPWPbcR9Rbbn69Z=w1000"
+      "https://lh3.googleusercontent.com/d/1grWcnpE5frwGkExPWqPWPbcR9Rbbn69Z=w1000",
+      "https://lh3.googleusercontent.com/d/1Pt4rco5Y5rLsU_z9STJGwaF2aQYfW6Ya=w1000",
+      "https://lh3.googleusercontent.com/d/1PLq6x-le17A6VEULHcf7TpU7EBTHUUOO=w1000",
+      "https://lh3.googleusercontent.com/d/1aPn4qOYVbvhvZE8QvWMrCJiyHtgcbiU9=w1000",
+      "https://lh3.googleusercontent.com/d/1p8IwxQEaJsp7Ib4uUhrN_vQl7Ebmfazw=w1000",
+      "https://lh3.googleusercontent.com/d/1-lmhvaY1L_q9czrfrcYb9KOeocut0ucw=w1000",
+      "https://lh3.googleusercontent.com/d/1F9MINwd8gV8jwsnpIISUjGfr26pzmaX9=w1000",
+      "https://lh3.googleusercontent.com/d/1hXMoquGJ4k1Pvxxwpc03WrNH1ctqDzoz=w1000"
     ],
     "video": "",
     "active": true
@@ -2974,7 +2999,14 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1a5Zsl6Q6vWS384EXQsCuEknG9v8DMYYN=w1000",
       "https://lh3.googleusercontent.com/d/1GrNWbEdkUhHQBKgSxOraDmjPasjBqkva=w1000",
-      "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000"
+      "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000",
+      "https://lh3.googleusercontent.com/d/1KM0wTxnqf_KB94ZTrvjrJ2flpq_fr99C=w1000",
+      "https://lh3.googleusercontent.com/d/1RGlT1kGXv-AK-l-oHFmGBpPaA6vjyXnR=w1000",
+      "https://lh3.googleusercontent.com/d/1apAdddT0oeNlAgs9ZuOFD2-QTEL-Nxip=w1000",
+      "https://lh3.googleusercontent.com/d/10i_eI__iSxE-GoiNHMmzEYtAv7VnbYq6=w1000",
+      "https://lh3.googleusercontent.com/d/1bY4WtR-BIjgotYUFxzfblFACq6pQHy2N=w1000",
+      "https://lh3.googleusercontent.com/d/1mrCd_4vS5w-kbNVyyDS82lJgx39QsFE6=w1000",
+      "https://lh3.googleusercontent.com/d/1qCa9grveswWbUvaoJxP1bme-HkRIKA-i=w1000"
     ],
     "video": "",
     "active": true
@@ -17091,6 +17123,88 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0350",
+    "title": "Vista Seri Putra Apartment, Bandar Seri Putra, Bangi",
+    "type": "Apartment",
+    "location": "Bandar Seri Putra, Bangi, Selangor",
+    "state": "Selangor",
+    "price": 286000,
+    "price_label": "RM286,000",
+    "price_old": null,
+    "land_area": "856 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "description": "Apartment 856 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM286,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar%20Seri%20Putra%2C%20Bangi%2C%20Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1OF1hGHOiYHUq8jhc_gfWv3BtApWL2lps=w1000",
+      "https://lh3.googleusercontent.com/d/1ocVUEXp3jRurLuo1GoRczbedfYSKKBQx=w1000",
+      "https://lh3.googleusercontent.com/d/1XsUjsJcf190mbJgyOqk5kfV0vAx4S3g-=w1000",
+      "https://lh3.googleusercontent.com/d/10zIatApQcPTIITS_LR9Ut1iXIu4fLUhd=w1000",
+      "https://lh3.googleusercontent.com/d/1dtKF9ZNgKu_a-SWWWnt9OPfvEhpST9yA=w1000",
+      "https://lh3.googleusercontent.com/d/1R0w0UYIUiBLBU__oMjhpFibXUz5UJAjO=w1000",
+      "https://lh3.googleusercontent.com/d/1Mhb1clcPql1M7r4dFxEW4NF84b4lztoF=w1000",
+      "https://lh3.googleusercontent.com/d/14-HAUMokscdOFeGM-eJqKwTzI5pr-f73=w1000",
+      "https://lh3.googleusercontent.com/d/1P04RWqNlW-YYc2cOTds8tZi-anu7oSMz=w1000",
+      "https://lh3.googleusercontent.com/d/1VIvtE9Kk_hd9T_oI1-okGobkXku37ASp=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0351",
+    "title": "Palmyra @ Palmera Residence, Laman Puteri 3, Bandar Puteri Bangi",
+    "type": "Kondominium",
+    "location": "Bandar Puteri Bangi, Bangi, Selangor",
+    "state": "Selangor",
+    "price": 395000,
+    "price_label": "RM395,000",
+    "price_old": null,
+    "land_area": "1,066 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "description": "Kondominium 1,066 sqft di Bandar Puteri Bangi, Bangi, Selangor dijual pada RM395,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar%20Puteri%20Bangi%2C%20Bangi%2C%20Selangor",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-10-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/14t6kJdsyj9Vkmtp_ppJn-Sp_RKl7Dxdd=w1000",
+      "https://lh3.googleusercontent.com/d/1DXi0VrulJmIWVGYlyHagdwnEmVtfbbI-=w1000",
+      "https://lh3.googleusercontent.com/d/1plpOOT4DROKjGjzplUqv5NSByi970YUi=w1000",
+      "https://lh3.googleusercontent.com/d/1QrSBMbH3Gg1YQVsvMjLjiMhnu2IjW7gk=w1000",
+      "https://lh3.googleusercontent.com/d/1oPDTIonzKWReg-EVE73f1kDx9HGDbm7m=w1000",
+      "https://lh3.googleusercontent.com/d/1BixA3g6PmmTAkFA8uix7ojD-OL775nOB=w1000",
+      "https://lh3.googleusercontent.com/d/1yPwXQTo_sOEHd111VJy2SUfzho8Goaqp=w1000",
+      "https://lh3.googleusercontent.com/d/1_QQ3m1yTMoDC_zeRQPjLMr-LfqeRIYW6=w1000",
+      "https://lh3.googleusercontent.com/d/12M-dHtQ_oBAmcBOwYwp-ddNccTR21S5r=w1000",
+      "https://lh3.googleusercontent.com/d/1iHSTz6fnYV4lIDosLxT6gcS3jWKXRYM5=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
@@ -17137,7 +17251,12 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1NyiY8zXRRHalV-OiqNW2uubgMDhgS6VW=w1000",
       "https://lh3.googleusercontent.com/d/15Lf2PjzDz3MZkiY9TKT1RO5CDHQ8UzXC=w1000",
       "https://lh3.googleusercontent.com/d/1nr5DeFxrwZrM_qasUxy1oFMukgZsoE9Z=w1000",
-      "https://lh3.googleusercontent.com/d/1LFdjD4ISzs1YeJGH_v8zyKQnrnpEGDWn=w1000"
+      "https://lh3.googleusercontent.com/d/1LFdjD4ISzs1YeJGH_v8zyKQnrnpEGDWn=w1000",
+      "https://lh3.googleusercontent.com/d/11xpCY4DdFnTIFNTElY8TiNYJqpacjz8N=w1000",
+      "https://lh3.googleusercontent.com/d/1H5eA_d8mwreYNFd4mwMN47AW8GDtvG_x=w1000",
+      "https://lh3.googleusercontent.com/d/1h4e0lL9X1jnF-SwqAXLbaDvsmd1wS32x=w1000",
+      "https://lh3.googleusercontent.com/d/13Sm-BelrsXe9x9lxLgYWisWtSQQoiqoR=w1000",
+      "https://lh3.googleusercontent.com/d/1srkqMLyw8lRb821R371K4V8N62JgKYr6=w1000"
     ],
     "video": "",
     "active": true
@@ -17492,7 +17611,8 @@ window.LISTINGS = [
       "https://lh3.googleusercontent.com/d/1NvoKHkwyVH4jPdcjYM8LR62DKRGkbw53=w1000",
       "https://lh3.googleusercontent.com/d/1TxGTR_CDAfiW1E-tVONyUU6ven7OsUqz=w1000",
       "https://lh3.googleusercontent.com/d/1FBCKrIcbGVJSI8kf5mnOv1lHwYUNHxKj=w1000",
-      "https://lh3.googleusercontent.com/d/1Fgre9P9CABTL843UZSBNSqCw7DNvc_iF=w1000"
+      "https://lh3.googleusercontent.com/d/1Fgre9P9CABTL843UZSBNSqCw7DNvc_iF=w1000",
+      "https://lh3.googleusercontent.com/d/1FBCKrIcbGVJSI8kf5mnOv1lHwYUNHxKj=w1000"
     ],
     "video": "",
     "active": false
