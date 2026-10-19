@@ -597,7 +597,7 @@ h1,h2,h3,h4,.price,.card-title,.brand-text strong,.f1-hd{font-family:var(--font-
 
 /* baca-seterusnya — pautan dalaman artikel (SEO: elak halaman jalan mati) */
 .baca-set { margin-top:8px; }
-.baca-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:12px; }
-.baca-kad { display:block; padding:12px 14px; min-width:0; box-sizing:border-box; border:1px solid #e3e8ee; border-left:3px solid var(--brand,#0f172a); border-radius:10px; background:#fff; text-decoration:none; transition:border-color .15s,box-shadow .15s,transform .15s; }
+.baca-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-top:12px; align-items:stretch; }
+.baca-kad { display:flex; align-items:center; padding:12px 14px; min-width:0; box-sizing:border-box; border:1px solid #e3e8ee; border-left:3px solid var(--brand,#0f172a); border-radius:10px; background:#fff; text-decoration:none; transition:border-color .15s,box-shadow .15s,transform .15s; }
 .baca-kad:hover { border-color:var(--brand,#0f172a); box-shadow:0 4px 14px rgba(15,23,42,.10); transform:translateY(-1px); }
 .baca-tajuk { display:block; font-size:13.5px; font-weight:600; line-height:1.4; color:#0f172a; }
