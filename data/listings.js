@@ -12037,7 +12037,12 @@ window.LISTINGS = [
     "bathrooms": 7,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "🔥GOOD CONDITION",
+      "🔥LIKE NEW",
+      "Gated & Guarded",
+      "Facing South"
+    ],
     "description": "Rumah Teres 3 Tingkat Binaan 3,234 sqft | Tanah 1,400 sqft (20' x 70') di Taman Bangi Avenue, Kajang, Selangor dijual pada RM600,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12177,10 +12182,19 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Facing open"
+    ],
     "description": "Apartment 933 sqft di Goodview Heights, Kajang, Selangor dijual pada RM320,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Shoplots",
+      "Hospital",
+      "Petrol Station",
+      "SILK Highway",
+      "LEKAS Highway",
+      "CKE Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Goodview%20Heights%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12218,10 +12232,23 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Kitchen Extended",
+      "Fully Renovated",
+      "Facing Direction : NorthEast"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,690 sqft (26 x 65) di D'Sentral, Bandar Seri Putra, Kajang, Selangor dijual pada RM650,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Masjid Bandar Seri Putra",
+      "Sekolah Rendah/Menengah & Agama",
+      "LOTUS Bandar Puteri",
+      "Bangi Wonderland Theme Park",
+      "UKM",
+      "PLUS Highway (exit Putra Mahkota)",
+      "Jalan Bangi Lama (UKM-Bangi Lama)",
+      "LEKAS Highway (exit Bangi)"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=D%27Sentral%2C%20Bandar%20Seri%20Putra%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12300,9 +12327,16 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Kitchen Cabinet"
+    ],
     "description": "Apartment 1,044 sqft di Taman Putra Impian, Bandar Seri Putra, Selangor dijual pada RM285,000. Hakmilik: Leasehold.",
-    "amenities": [],
+    "amenities": [
+      "Surau",
+      "Swimming pool",
+      "Nursery",
+      "Playground"
+    ],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Putra%20Impian%2C%20Bandar%20Seri%20Putra%2C%20Selangor",
     "project": "",
@@ -12344,7 +12378,14 @@ window.LISTINGS = [
     "highlights": [],
     "description": "Rumah Teres 2 Tingkat 1,400 sqft (20 x 70) di Taman Sutera, Kajang, Selangor dijual pada RM500,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Masjid Taman Sutera",
+      "SK & SMK Taman Cheras Jaya",
+      "LEKAS Highway",
+      "PLUS Highway",
+      "Cheras-Kajang Highway",
+      "SILK Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Sutera%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12385,7 +12426,17 @@ window.LISTINGS = [
     "highlights": [],
     "description": "Rumah Banglo 5,096 sqft di Taman Astana Indah, Sungai Ramal, Kajang, Selangor dijual pada RM1,100,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Masjid Al-Falah",
+      "SK Sungai Ramal",
+      "SMK Sungai Ramal",
+      "UNITEN",
+      "MRT Kajang",
+      "UKM Bangi",
+      "PLUS Highway",
+      "LEKAS Highway",
+      "SILK Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Astana%20Indah%2C%20Sungai%20Ramal%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12423,7 +12474,9 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Gated & Guarded"
+    ],
     "description": "Rumah Teres 3 Tingkat 1,540 sqft (22 x 70) di Nadayu 92, Kajang, Selangor dijual pada RM790,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12464,10 +12517,23 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Gated & Guarded Area"
+    ],
     "description": "Rumah Semi-D 2,310 sqft (33 x 70) di Parkfield Residence, Kajang, Selangor dijual pada RM1,290,000. Hakmilik: Freehold.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "Clubhouse",
+      "Playground",
+      "Jogging Track",
+      "Multipurpose Hall"
+    ],
+    "nearby": [
+      "UKM",
+      "UNiTEN",
+      "Hospital Serdang",
+      "Rafflesia International School",
+      "SK & SMK Kajang Utama"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Parkfield%20Residence%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12505,10 +12571,17 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Gated & Guarded",
+      "Facing SW"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,540 sqft (22 x 70) di Serene Height, Bangi, Selangor dijual pada RM590,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "KTM Bangi",
+      "UKM Bangi",
+      "Bangi Wonderland"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Serene%20Height%2C%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12546,10 +12619,28 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Balcony Facing Golf Course",
+      "Renovated"
+    ],
     "description": "Rumah Teres 2 Tingkat 4,370 sqft di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM950,000. Hakmilik: Leasehold.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "4 hours CCTV surveillance and patrolling",
+      "Landscaped Golf Course",
+      "Jogging Track",
+      "ADT Security System",
+      "Gated & Guarded"
+    ],
+    "nearby": [
+      "Masjid Hijau, Surau Munawarah BGR",
+      "Bangi Resort Hotel",
+      "Bangi Golf",
+      "Kipmall Shopping Centre",
+      "Gateway Mall",
+      "Mrt Station",
+      "UKM",
+      "Hospital Kajang/Serdang"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi%20Golf%20Resort%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12587,7 +12678,10 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated Unit",
+      "Facing Direction Northwest"
+    ],
     "description": "Rumah Semi-D 3,035 sqft (built-up 2,800 sqft) di Anjung Suasana, Bandar Seri Putra, Bangi, Selangor dijual pada RM798,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12628,7 +12722,9 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Facing Direction South"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,300 sqft (20 x 65); built-up 1,810 sqft di Pallida, Setia Ecohill 1, Semenyih, Selangor dijual pada RM679,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12669,7 +12765,10 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "2 Storey Superlink Corner Lot",
+      "Partly Furnished"
+    ],
     "description": "Rumah Teres 2 Tingkat 2,240 sqft (32 x 70); built-up 3,032 sqft di Sejati Lakeside Phase 3, Cyberjaya, Selangor dijual pada RM1,950,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12710,7 +12809,11 @@ window.LISTINGS = [
     "bathrooms": 4,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Partly Furnished",
+      "Gated & Guarded",
+      "Facing Direction North"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,650 sqft (22 x 75); built-up 2,420 sqft di Setia Alam Sari, Ilham 2, Kajang/Bangi, Selangor dijual pada RM645,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12754,7 +12857,9 @@ window.LISTINGS = [
     "highlights": [],
     "description": "Apartment 1,262 sqft di Miro Residence, Taman Putra, Kajang, Selangor dijual pada RM419,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Major Expressway: North South Expressway (PLUS), Silk Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Miro%20Residence%2C%20Taman%20Putra%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12833,7 +12938,10 @@ window.LISTINGS = [
     "bathrooms": 1,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated Unit",
+      "Extended Kitchen"
+    ],
     "description": "Rumah Teres 1,430 sqft (22'x65') di Taman Seri Mewah, Klang, Selangor dijual pada RM325,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12874,10 +12982,20 @@ window.LISTINGS = [
     "bathrooms": 6,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Extended Kitchen"
+    ],
     "description": "Rumah Semi-D 4,187 sqft (51'x80') di Puncak Bangi Seksyen 6, Bandar Baru Bangi, Selangor dijual pada RM1,590,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Bangi Golf Club",
+      "Bangi Commercial Centre",
+      "Hospital and Clinics",
+      "Shoplots",
+      "Supermarket",
+      "Universities",
+      "Schools"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Puncak%20Bangi%20Seksyen%206%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12915,7 +13033,10 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated",
+      "Extended Kitchen"
+    ],
     "description": "Rumah Semi-D 3,600 sqft (45'x80') di Bangi Lakehill Villas, Bandar Baru Bangi, Selangor dijual pada RM1,600,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -12958,8 +13079,20 @@ window.LISTINGS = [
     "jenis": "JUAL",
     "highlights": [],
     "description": "Servis Apartmen 1,080 sqft di Residensi Adelia 1, Taman Bangi Avenue, Selangor dijual pada RM305,000. Hakmilik: Freehold.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "Swimming Pool",
+      "Playground",
+      "Gym",
+      "Futsal Court"
+    ],
+    "nearby": [
+      "Bangi Wonderland",
+      "Bangi Avenue Convention",
+      "KUIS, USIM, UKM, KPTM, UNITEN, GMI, IUKL",
+      "Pasaraya CS Bangi Avenue",
+      "Lotus Bandar Puteri Bangi",
+      "KLIA"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Residensi%20Adelia%201%2C%20Taman%20Bangi%20Avenue%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -12997,7 +13130,9 @@ window.LISTINGS = [
     "bathrooms": 8,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Swimming Pool"
+    ],
     "description": "Rumah Banglo 20,139 sqft (built-up 14,000 sqft) di Country Heights, Kajang, Selangor dijual pada RM4,000,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13038,10 +13173,16 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Build in Kitchen Cabinet"
+    ],
     "description": "Apartment 870 sqft di Villa Tropika, Sungai Tangkas, Kajang, Selangor dijual pada RM250,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "KTM Station UKM",
+      "Bangi Gateway",
+      "99 Speedmart"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Villa%20Tropika%2C%20Sungai%20Tangkas%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13079,10 +13220,23 @@ window.LISTINGS = [
     "bathrooms": 6,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Fully Renovated",
+      "Swimming Pool"
+    ],
     "description": "Rumah Semi-D 3,400 sqft (40'x85') di Lambaian Residence, Kajang, Selangor dijual pada RM1,760,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Schools",
+      "Masjid & Surau",
+      "GMI College",
+      "KWSP Centre",
+      "Commercial Area & Banks",
+      "Petrol Stations",
+      "Semenyih - Alam Sari",
+      "LEKAS Highway",
+      "PLUS Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Lambaian%20Residence%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13120,9 +13274,21 @@ window.LISTINGS = [
     "bathrooms": 6,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated",
+      "Facing North",
+      "Gated & Guarded",
+      "Backyard Direct Access To Playground"
+    ],
     "description": "Rumah Semi-D 4,305 sqft di Sejati Residences, Cyberjaya, Selangor dijual pada RM2,190,000. Hakmilik: Freehold.",
-    "amenities": [],
+    "amenities": [
+      "24/7 Security",
+      "Clubhouse",
+      "Swimming Pool",
+      "Surau",
+      "Multipurpose Hall",
+      "Jogging Track"
+    ],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Sejati%20Residences%2C%20Cyberjaya%2C%20Selangor",
     "project": "",
@@ -13201,10 +13367,32 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "SEWA",
-    "highlights": [],
+    "highlights": [
+      "Partially furnished",
+      "gated n guarded"
+    ],
     "description": "Rumah 1,788 sqft di Bandar Puteri Bangi, Selangor dijual pada RM1,850. Hakmilik: Tidak pasti.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "Car park",
+      "24 hours security",
+      "Playground",
+      "Jogging track"
+    ],
+    "nearby": [
+      "Lotus Bangi",
+      "Restaurant",
+      "Shoplot",
+      "Masjid",
+      "Petronas",
+      "McDonald's",
+      "Pasaraya CS",
+      "KTM Bangi",
+      "IOI City Mall",
+      "Bangi Wonderland water park",
+      "PLUS Highway",
+      "NILAI",
+      "KLIA"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar%20Puteri%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13242,7 +13430,10 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "REDUCED PRICED",
+      "Gated & Guarded Community"
+    ],
     "description": "Rumah Semi-D 3,034 sqft di Mutiara Villa, Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM1,250,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13283,7 +13474,9 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Vacant"
+    ],
     "description": "Rumah Teres 1,300 sqft (20'x65') di J1 Residence, Jenderam, Dengkil, Selangor dijual pada RM435,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13324,10 +13517,21 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Gated & Guarded 24h Security"
+    ],
     "description": "Apartment 941 sqft di Plaza Indah, Taman Sepakat Indah, Kajang, Selangor dijual pada RM275,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Sekolah",
+      "Hospital",
+      "MRT & KTM Station",
+      "Seksyen 7 Bangi",
+      "SILK Highway",
+      "LEKAS Highway",
+      "PLUS Highway",
+      "Grand Saga Highway"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Plaza%20Indah%2C%20Taman%20Sepakat%20Indah%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13365,9 +13569,28 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Balcony & Yard",
+      "Renovated",
+      "Vacant Unit",
+      "Balcony Facing Facilities"
+    ],
     "description": "Servis Apartmen 900 sqft di Residensi Mutiara Kajang 2, Kajang, Selangor dijual pada RM330,000. Hakmilik: Freehold.",
-    "amenities": [],
+    "amenities": [
+      "Double Storey Clubhouse",
+      "3 Tier Security System",
+      "Gymnasium",
+      "Multipurpose Hall",
+      "Swimming Pool",
+      "Playground",
+      "Sundeck",
+      "Wading",
+      "Gazebo",
+      "Board Games Area",
+      "Outdoor Gym Equipment",
+      "Musolla",
+      "Dobby"
+    ],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Residensi%20Mutiara%20Kajang%202%2C%20Kajang%2C%20Selangor",
     "project": "",
@@ -13447,7 +13670,10 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Balcony Facing Golf Course",
+      "Renovated"
+    ],
     "description": "Rumah Teres 4,370 sqft (24 x 75) di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM950,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -13488,10 +13714,20 @@ window.LISTINGS = [
     "bathrooms": 4,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Facing: South"
+    ],
     "description": "Rumah Teres 1,540 sqft (22x70) | Built-up 2,480 sqft di TTDI Grove, Kajang, Selangor dijual pada RM799,000. Hakmilik: Freehold.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "24 Hours Security",
+      "Playground"
+    ],
+    "nearby": [
+      "GIANT & Lotus Kajang",
+      "10 min to Kajang Hospital, KPJ Kajang",
+      "12 min to MRT Stadium Kajang Station",
+      "15 min to MRT, KTM Kajang Station"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=TTDI%20Grove%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13529,9 +13765,19 @@ window.LISTINGS = [
     "bathrooms": 1,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Fully furnished"
+    ],
     "description": "Servis Apartmen 601 sqft di Domain 2 Residence, Cyberjaya, Selangor dijual pada RM197,000. Hakmilik: Freehold.",
-    "amenities": [],
+    "amenities": [
+      "24hours security",
+      "Excess card",
+      "Playground",
+      "Swimming pool",
+      "Gym",
+      "Dobi",
+      "Shop and restaurant"
+    ],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Domain%202%20Residence%2C%20Cyberjaya%2C%20Selangor",
     "project": "",
@@ -13569,10 +13815,22 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated & extended"
+    ],
     "description": "Rumah Teres 1,300 sqft (20' x 65') | Built-up 1,800 sqft di Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM480,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "KIPMall, Bangi Gateway, PKNS Bangi, Evo Mall",
+      "UKM, GMI, KPTM, UniKL, UPM, UNITEN, KLUST",
+      "SK Jalan 7, SMK Jalan Reko, SK & SMK Jalan 4, SK & SMK Jalan 3",
+      "SR & SM Sri Al-Amin Bangi, Tanarata & Rafflesia International Schools",
+      "Klinik Kesihatan Bangi, Hospital An-Nur, Hospital Az-Zahrah",
+      "Eateries, banks, petrol stations, clinics, laundry shops, workshop, etc",
+      "Bandar Baru Bangi Business Centre, Danau & Bangi Golf Club",
+      "Taman Tasik Cempaka",
+      "Surau Al-Amin, Masjid Al-Hasanah, Masjid Al-Falah"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%208%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13610,10 +13868,23 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "NEWLY REPAINTED HOUSE, READY TO MOVE IN",
+      "FACING OPEN, NOT FACING OTHER HOUSE (EXTRA PARKING)"
+    ],
     "description": "Rumah Teres 1,300 sqft (20 x 65) | Built-up 1,455 sqft di Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM510,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "KIPMall, Bangi Gateway, PKNS Bangi, Evo Mall",
+      "UKM, GMI, KPTM, UniKL, UPM, UNITEN, KLUST",
+      "SK Jalan 7, SMK Jalan Reko, SK & SMK Jalan 4, SK & SMK Jalan 3",
+      "SR & SM Sri Al-Amin Bangi, Tanarata & Rafflesia International Schools",
+      "Klinik Kesihatan Bangi, Hospital An-Nur, Hospital Az-Zahrah",
+      "Eateries, banks, petrol stations, clinics, laundry shops, workshop, etc",
+      "Bandar Baru Bangi Business Centre, Danau & Bangi Golf Club",
+      "Taman Tasik Cempaka",
+      "Surau Al-Amin, Masjid Al-Hasanah, Masjid Al-Falah"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%208%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13651,10 +13922,22 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Non gated & guarded"
+    ],
     "description": "Rumah Teres 1,200 sqft (20 x 60) | Built-up 1,500 sqft di Seksyen 5, Bukit Mahkota, Bangi, Selangor dijual pada RM450,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Lotus's Bdr Puteri, Pasaraya CS, Star Grocer & Pasar Raya Impian Bangi Avenue",
+      "UIS, UKM, UniKL, KPTM, USIM",
+      "SK Bkt Mahkota, SK Bangi, SK, SRA & SMK Bdr Seri Putra",
+      "Sri Al-Amin Putra Mahkota, As Syakirin Bdr Seri Putra, Az-Zahra Bdr Puteri",
+      "Klinik Kesihatan Bandar Seri Putra, Police Station",
+      "Eateries, shop lots, clinics, pharmacies, laundry, bank, petrol stations, etc",
+      "Bukit Mahkota Club House",
+      "Bangi Avenue Convention Center (BACC), Bangi Wonderland",
+      "Masjid Bukit Mahkota, Masjid Bandar Seri Putra, Masjid UIS"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%205%2C%20Bukit%20Mahkota%2C%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13695,7 +13978,17 @@ window.LISTINGS = [
     "highlights": [],
     "description": "Rumah Teres 1,400 sqft (20 x 70) | Built-up 2,200 sqft di Bangi Avenue 1, Seksyen 1, Kajang, Selangor dijual pada RM612,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Pasaraya CS, Star Grocer & Pasar Raya Impian Bangi Avenue, Lotus's Bdr Puteri",
+      "UIS, UKM, UniKL, MFI, KPTM, USIM, UNITEN",
+      "SK Bangi, SK Bkt Mahkota, SK, SRA & SMK Bdr Seri Putra",
+      "Sri Al-Amin Putra Mahkota, As Syakirin Bdr Seri Putra, Az-Zahra Bdr Puteri",
+      "Bank Simpanan Nasional, Petron, Petronas",
+      "Klinik Kesihatan Bandar Seri Putra, Police Station",
+      "Restaurants, shop lots, workshop, laundry, 99 Speedmart",
+      "Family Mart, Coffee Bean, Richeese Factory, Nandos etc",
+      "Bangi Avenue Convention Center (BACC), Bangi Wonderland"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi%20Avenue%201%2C%20Seksyen%201%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13733,10 +14026,21 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated unit & partially furnished"
+    ],
     "description": "Rumah Teres 3 Tingkat 1,560 sqft (24 x 65) | Built-up 3,150 sqft di Taman Tropika 2, Kajang, Selangor dijual pada RM780,000. Hakmilik: Freehold (Strata).",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "KIPmall Bangi, Bangi Gateway, PKNS Bangi, Evo Mall",
+      "GMI, UKM, UPM, UNITEN, KPTM",
+      "SR & SM Sri Al-Amin Bangi, Greenview Islamic, Tanarata International",
+      "Hospital An-Nur, Hospital Az-Zahrah, Bangi Health Clinics",
+      "Shoplot (eateries, convenience shops, pharmacy, clinics, laundry etc)",
+      "KTM Station (UKM), MRT Station (Kajang), Kajang Bus Terminal",
+      "Danau Golf Course",
+      "Surau Taman Universiti"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Tropika%202%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13774,10 +14078,21 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "OPEN FACING (PLAYGROUND) NOT FACING OTHER UNIT",
+      "Renovated, extended & partially furnished"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,540 sqft (22 x 70) | Built-up 2,500 sqft di TTDI Grove 4 (Zinnia), Kajang, Selangor dijual pada RM787,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Mydin Mall, Billion Supermarket",
+      "Giant Saujana Impian, Lotus's Kajang",
+      "SK Kantan Permai, SK Sri Jelok, SMK Saujana Impian",
+      "Hospital Kajang, KPJ Kajang Specialist Hospital",
+      "MRT Saujana Impian",
+      "Saujana Impian Golf Club",
+      "Shoplot (eateries, clinics, workshop, laundery, mini marts etc)"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=TTDI%20Grove%204%20%28Zinnia%29%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13815,10 +14130,21 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "FACING OPEN SPACE (EXTRA PARKING AREA)"
+    ],
     "description": "Rumah Teres 2 Tingkat 1,650 sqft (22 x 75) | Built-up 2,400 sqft di Seksyen 16, Bandar Baru Bangi, Selangor dijual pada RM750,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Kipmall, Bangi Gateway, PKNS Bangi, EVO Mall",
+      "SK Jalan 6, SK & SMK Jalan 2, Sekolah Agama (ABIM, KAFA)",
+      "UKM, UNITEN, KPTM, UniKL, GMI, UPM",
+      "Klinik Kesihatan Bangi, Hospital An-Nur, Hospital Az-Zahrah,",
+      "Restaurants, mini market, clinics, laundry, workshop, bank, petrol stations, post office etc",
+      "KTM Station (UKM), MRT Station (Kajang), Kajang Bus Terminal",
+      "Bangi Golf Resort & Hotel, Tanamera Hotel, Danau Golf UKM",
+      "Surau at-Taqwa"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%2016%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13856,10 +14182,21 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Currently vacant"
+    ],
     "description": "Rumah Teres 2,400 sqft (32 x 75) | Built-up 1,000 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM597,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Kipmall, Bangi Gateway, PKNS Bangi, Evo Mall",
+      "UKM, KPTM, GMI, MFI, KLIUC, UNITEN, UPM",
+      "SK & SMK Seksyen 2, SK & SMK Seksyen 3, SK & SMK Seksyen 4",
+      "Klinik Kesihatan Bangi, Hospital An-Nur, Hospital Az-Zahrah",
+      "Eateries, petrol stations, cafe, mini market, laundry shops, workshop, etc",
+      "Surau Al-Ittihad, Masjid Al-Umm",
+      "Pasar Awam Seksyen 1",
+      "KTM Station (Kajang & UKM), MRT Station (Kajang), Kajang Bus Terminal"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%201%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13938,10 +14275,21 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Fully furnished (now turned into a homestay)"
+    ],
     "description": "Rumah Teres 1,920 sqft (24 x 80) | Built-up 3,200 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM850,000. Hakmilik: Leasehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Kipmall, Bangi Gateway, PKNS Bangi, Evo Mall",
+      "UKM, UPM, UNITEN, KPTM, GMI, MFI, KLIUC",
+      "SK & SMK Seksyen 2, SK & SMK Seksyen 3, SK & SMK Seksyen 4",
+      "Klinik Kesihatan Bangi, Hospital An-Nur, Hospital Az-Zahrah",
+      "Eateries, petrol stations, banks, mini market, laundry shops, workshop, etc",
+      "Surau An-Nur, Masjid Al-Umm",
+      "Pasar Awam Seksyen 1",
+      "KTM Station (Kajang & UKM), MRT Station (Kajang), Kajang Bus Terminal"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Seksyen%201%2C%20Bandar%20Baru%20Bangi%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -13979,10 +14327,22 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "OPEN FACING, NOT FACING OTHER UNIT",
+      "Special corner lot, huge land",
+      "Move in condition",
+      "Gated & Guarded"
+    ],
     "description": "Rumah Teres 5,425 sqft | Built-up 2,871 sqft di TTDI Grove, Kajang, Selangor dijual pada RM1,380,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Mydin Mall, Billion Supermarket, Giant Saujana Impian, Tesco Kajang",
+      "SK Kantan Permai, SK Sri Jelok, SMK Saujana Impian",
+      "Hospital Kajang, KPJ Kajang Specialist Hospital",
+      "MRT Saujana Impian",
+      "Saujana Impian Golf Club",
+      "Shoplot within walking distance"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=TTDI%20Grove%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -14020,10 +14380,26 @@ window.LISTINGS = [
     "bathrooms": 4,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Full kitchen cabinet"
+    ],
     "description": "Rumah Teres 3,261 sqft | Built-up 2,100 sqft di Bangi Avenue 1, Seksyen 1, Kajang, Selangor dijual pada RM770,000. Hakmilik: Freehold.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "24 hours security (with Access Card System)",
+      "Playground",
+      "Badminton, Takraw Court, Futsal Courts",
+      "Surau (under construction)"
+    ],
+    "nearby": [
+      "Pasaraya CS Bangi Avenue, Tesco Bandar Puteri Bangi",
+      "UIS, UKM, UniKL, MFI, KPTM, USIM, UNITEN",
+      "SK Bangi, SK Bkt Mahkota, SK, SRA & SMK Bdr Seri Putra",
+      "Bank Simpanan Nasional, Petron, Petronas",
+      "Klinik Kesihatan Bandar Seri Putra, Police Station",
+      "Restaurants, shop lots, workshop, laundry, 99 Speedmart",
+      "Coffee Bean, Richeese Factory, Nandos etc",
+      "Bangi Avenue Convention Center (BACC), Bangi Wonderland"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bangi%20Avenue%201%2C%20Seksyen%201%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
