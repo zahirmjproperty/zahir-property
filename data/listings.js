@@ -22407,7 +22407,15 @@ window.LISTINGS = [
     "bathrooms": 6,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "GOLF COURSE VIEW",
+      "SPACIOUS LAND AREA",
+      "EXCLUSIVE DESIGN",
+      "2 Living Hall",
+      "Seperated Maid Room",
+      "High Ceiling with natural sky light",
+      "Double Frontage"
+    ],
     "description": "Kediaman 12,500 sqft di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM3,200,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
