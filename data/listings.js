@@ -25141,7 +25141,9 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
-      "🔥REDUCE FROM 680K TO 650K Slightly Nego"
+      "🔥REDUCE FROM 680K TO 650K Slightly Nego",
+      "Basic Unit",
+      "Tenanted = RM1,500 /Monthly"
     ],
     "description": "Rumah Semi-D 3,740 sqft di Pinggiran Putra, Putrajaya dijual pada RM650,000. Hakmilik: Leasehold.",
     "amenities": [],
@@ -25197,8 +25199,10 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
+      "24H security (Fully access card)",
       "Balcony",
-      "2 lift"
+      "2 lift",
+      "Open View"
     ],
     "description": "Apartment - di Kajang, Selangor dijual pada RM245,000. Hakmilik: Freehold.",
     "amenities": [
