@@ -126,6 +126,8 @@
 
     
 
+    
+
     <h2 class="sec">📊 Bandingkan Unit Tersedia</h2>
     <div class="units-wrap">
       <table class="units">
@@ -198,12 +200,39 @@
   </div>
 </footer>
 
+<style>
+  .video-wrap{position:relative;display:block;border-radius:14px;overflow:hidden;background:#0b1220;aspect-ratio:16/9;cursor:pointer;box-shadow:0 6px 22px rgba(15,39,68,.18);max-width:760px}
+  .video-wrap img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s cubic-bezier(.2,.7,.3,1)}
+  .video-wrap:hover img{transform:scale(1.04)}
+  .video-play{position:absolute;inset:0;margin:auto;width:74px;height:74px;border-radius:50%;border:0;
+    background:rgba(255,255,255,.94);color:#0f2744;font-size:26px;line-height:1;cursor:pointer;
+    box-shadow:0 8px 26px rgba(0,0,0,.36);display:flex;align-items:center;justify-content:center;
+    padding-left:5px;transition:transform .2s ease,background .2s ease}
+  .video-wrap:hover .video-play{transform:scale(1.08);background:#fff}
+  .video-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:980px}
+  @media(max-width:760px){.video-grid{grid-template-columns:1fr}}
+  .video-src{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.68);color:#fff;
+    font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 10px;border-radius:999px}
+</style>
 <script src="../assets/fasa1.js?v=1"></script>
 <script>window.ALI_LAMAN="zmp";window.ALI_LISTING_BASE="listing/";</script>
 <script src="../assets/ali-config.js?v=2"></script>
 <script src="../assets/ali-chat.js?v=6"></script>
 <script>
 document.getElementById('navToggle')?.addEventListener('click', () => document.getElementById('nav').classList.toggle('open'));
+/* Facade video YouTube — iframe dimuat hanya bila diklik (jimat data & laju). */
+document.querySelectorAll('.video-wrap').forEach(function(f){
+  f.addEventListener('click', function(){
+    var id = f.getAttribute('data-yt'); if (!id) return;
+    var w = document.createElement('iframe');
+    w.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+    w.setAttribute('title', f.getAttribute('data-tajuk') || 'Video');
+    w.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    w.setAttribute('allowfullscreen', '');
+    w.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0';
+    f.innerHTML = ''; f.appendChild(w);
+  }, {once: true});
+});
 </script>
 <script src="../assets/ga4.js" defer></script>
 <script src="/portal/assets/auth-config.js" defer></script>

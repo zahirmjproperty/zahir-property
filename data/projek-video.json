@@ -1,0 +1,6 @@
+{
+ "_nota": "Video promosi per PROJEK (bukan per listing). Kunci = slug projek (nama fail /projek/<slug>.html). Nilai = senarai URL YouTube. Dijana/dibaca oleh gen_site_seo.py semasa membina halaman projek.",
+ "simfoni-1-bandar-teknologi-kajang": [
+  "https://youtu.be/SoT0F2rr1n4"
+ ]
+}
