@@ -25386,22 +25386,26 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [
-      "Staircase to the house with gate and access card -more security",
-      "Basic Unit with Good Ventilation Space"
+      "912 sqft — 3 bilik tidur, 1 bilik air",
+      "Tingkat 2, Blok K (walk-up)",
+      "Freehold, status open",
+      "Unit basic — pengudaraan baik",
+      "Tangga berpagar + access card (keselamatan tambahan)",
+      "Sesuai untuk pelaburan"
     ],
-    "description": "Apartment - di Taman Kajang Utama, Kajang, Selangor dijual pada RM220,000. Hakmilik: Freehold.",
+    "description": "Shop apartment di Pangsapuri Kayangan, Taman Kajang Utama, Kajang — 912 kaki persegi dengan 3 bilik tidur dan 1 bilik air, terletak di tingkat 2 Blok K (walk-up). Unit basic dengan pengudaraan yang baik, dan akses tangga berpagar serta access card untuk keselamatan tambahan. Freehold, status open. Lokasi berhampiran Klinik Komuniti Kajang Utama, 99 Speedmart, 7-Eleven, kedai makan, Surau Al Taqwa dan Surau Al Muhajirin, SMK Kajang Utama serta Reko Sentral; mudah diakses ke Bandar Baru Bangi, Kajang Silk dan lebuh raya LEKAS/PLUS. Harga RM220,000 (boleh runding) — sesuai untuk pelaburan.",
     "amenities": [],
     "nearby": [
       "Klinik Komuniti Kajang Utama",
       "99 Speedmart",
-      "7 eleven groceries stores",
-      "Restaurant and cafe",
+      "7-Eleven",
+      "Kedai makan & kafe",
       "Surau Al Taqwa & Surau Al Muhajirin",
       "SMK Kajang Utama",
       "Reko Sentral",
       "Bandar Baru Bangi",
       "Kajang Silk",
-      "LEKAS Plus"
+      "LEKAS / PLUS"
     ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Kajang%20Utama%2C%20Kajang%2C%20Selangor",
     "project": "",
