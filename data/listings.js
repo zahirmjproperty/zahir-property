@@ -25376,7 +25376,7 @@ window.LISTINGS = [
     "location": "Taman Kajang Utama, Kajang, Selangor",
     "state": "Selangor",
     "price": 220000,
-    "price_label": "RM220,000",
+    "price_label": "RM220,000 (Nego)",
     "price_old": null,
     "land_area": "-",
     "built_up": "912 sqft",
