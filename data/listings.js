@@ -25385,10 +25385,24 @@ window.LISTINGS = [
     "bathrooms": 1,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Staircase to the house with gate and access card -more security",
+      "Basic Unit with Good Ventilation Space"
+    ],
     "description": "Apartment - di Taman Kajang Utama, Kajang, Selangor dijual pada RM220,000. Hakmilik: Freehold.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Klinik Komuniti Kajang Utama",
+      "99 Speedmart",
+      "7 eleven groceries stores",
+      "Restaurant and cafe",
+      "Surau Al Taqwa & Surau Al Muhajirin",
+      "SMK Kajang Utama",
+      "Reko Sentral",
+      "Bandar Baru Bangi",
+      "Kajang Silk",
+      "LEKAS Plus"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Kajang%20Utama%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
