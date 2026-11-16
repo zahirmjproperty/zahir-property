@@ -25644,7 +25644,7 @@ window.LISTINGS = [
       "Type: Double Storey Terrace House Corner",
       "Corner Lot"
     ],
-    "description": "Rumah Teres 2 Tingkat 2,831 sqft di Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor dijual pada RM830,000. Hakmilik: Leasehold.",
+    "description": "Rumah teres dua tingkat corner lot yang telah diubah suai penuh di Seksyen 3 Tambahan, Bandar Baru Bangi — keluasan tanah 2,831 kaki persegi, binaan ±2,000 kaki persegi, 4 bilik tidur dan 4 bilik air. Kos pengubahsuaian RM362,500 termasuk tambah ruang dapur, kitchen cabinet, plaster siling seluruh rumah, 3 tandas diubah suai, almari bilik utama, 4 unit aircond, porch diperbesar berturap, 2 pintu pagar (1 autogate) dan keliling pagar batu. Pintu utama kayu jati, 2 pintu keselamatan, boleh parkir 4 kereta. Kawasan guarded, tepi open space. Sedia duduki (ready to move in). Leasehold. Harga RM810,000 (nego) — harga telah direvisi oleh owner.",
     "amenities": [],
     "nearby": [
       "Ar Raudhah Surau 150 m",
