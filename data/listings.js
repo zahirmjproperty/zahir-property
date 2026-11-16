@@ -26298,10 +26298,28 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Dapur basah dilanjutkan 10 kaki",
+      "Balkoni lebar berjeriji",
+      "Kabinet dapur built-in",
+      "Lantai penuh jubin + penghawa dingin penuh",
+      "5 minit ke Bandar Kajang"
+    ],
     "description": "Rumah teres dua tingkat intermediate di Taman Sri Jelok, Kajang — tanah 1,540 kaki persegi (22' x 70'), binaan 1,540 kaki persegi, 5 bilik tidur dan 3 bilik air. Leasehold Non-Bumi. Dapur basah dilanjutkan 10 kaki, balkoni lebar berjeriji, kabinet dapur built-in, lantai penuh jubin dan penyaman udara penuh. 5 minit ke Bandar Kajang, dekat MRT Kajang/Stadium Kajang/Sungai Jernih. Harga RM480,000 (turun daripada RM490,000).",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "MRT Kajang Station",
+      "MRT Stadium Kajang Station",
+      "MRT Sungai Jernih Station",
+      "McDonald's",
+      "Shop lot berdekatan",
+      "Stesen minyak Shell/BHP",
+      "Bank"
+    ],
+    "nearby": [
+      "Bandar Kajang (5 minit)",
+      "Semenyih (10 minit)",
+      "Balakong (15 minit)"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Sri%20Jelok%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
