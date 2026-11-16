@@ -26141,8 +26141,13 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
-    "description": "Kondominium di Mutiara Heights, Kajang, Selangor dijual pada RM470,000. Hakmilik: Freehold.",
+    "highlights": [
+      "Ready to move in",
+      "No Progressive Interest",
+      "Free Mortgage Advisory service",
+      "Snp& Loan Legal Fees can finance into Loan"
+    ],
+    "description": "Kondominium Oasis 2 di Mutiara Heights, Kajang — binaan 1,250 kaki persegi, 3 bilik tidur dan 2 bilik air, 2 tempat letak kereta. Freehold, berperabot penuh, reka bentuk moden, sedia untuk didingati. Ansuran anggaran RM1,660 sebulan; 0% bayaran pendahuluan dan khidmat nasihat pinjaman percuma ditawarkan ejen. Harga RM470,000 (nilai bank RM550,000).",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Mutiara%20Heights%2C%20Kajang%2C%20Selangor",
@@ -26187,10 +26192,17 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
-    "description": "Townhouse 1,650 sqft (22' x 75') di Cybersouth, Dengkil, Selangor dijual pada RM400,000.",
+    "highlights": [
+      "Gated & Guarded"
+    ],
+    "description": "Townhouse Kita Mekar di Cybersouth, Dengkil — unit atas (upper unit), binaan 1,104 kaki persegi atas tanah 1,650 kaki persegi (22' x 75'), 3 bilik tidur dan 2 bilik air. Gated & guarded, yuran penyelenggaraan RM100 sebulan. Sesuai untuk FULL LOAN. Berdekatan Cyberjaya, Putrajaya, DPULZE, Tamarind Square dan IOI City Mall; akses MAX, ELITE dan SKVE. Harga RM400,000 (boleh runding).",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Cyberjaya & Putrajaya (short drive)",
+      "DPULZE Shopping Centre",
+      "Tamarind Square",
+      "IOI City Mall"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Cybersouth%2C%20Dengkil%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -26232,10 +26244,18 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
-    "description": "Rumah Semi-D 3,200 sqft (40' x 80') di Bandar Seri Putra, Kajang, Selangor dijual pada RM880,000. Hakmilik: Freehold.",
+    "highlights": [
+      "Condition: Fully renovated"
+    ],
+    "description": "Semi-D dua tingkat telah diubah suai sepenuhnya di Bandar Seri Putra, Kajang — tanah 3,200 kaki persegi (40' x 80'), binaan asal ±2,850 kaki persegi berkembang melebihi 3,200 kaki persegi selepas pengubahsuaian, 7 bilik tidur dan 5 bilik air. Freehold Non-Bumi. Berdekatan SK/SMK/SRA Bandar Seri Putra, KUIS, KTM Bangi danPLUS Highway (exit Bandar Seri Putra). Harga RM880,000 (nilai bank RM1,200,000).",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Primary School SK Bandar Seri Putra – ~1.0 km",
+      "Secondary School SMK Bandar Seri Putra – ~1.2 km",
+      "Religious School SRA Bandar Seri Putra – ~1.0 km",
+      "Public Transport",
+      "KTM Bangi Station – ~5.5 km"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar%20Seri%20Putra%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -26279,7 +26299,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
-    "description": "Rumah Teres 2 Tingkat 1,540 sqft (22' x 70') di Taman Sri Jelok, Kajang, Selangor dijual pada RM480,000. Hakmilik: Leasehold.",
+    "description": "Rumah teres dua tingkat intermediate di Taman Sri Jelok, Kajang — tanah 1,540 kaki persegi (22' x 70'), binaan 1,540 kaki persegi, 5 bilik tidur dan 3 bilik air. Leasehold Non-Bumi. Dapur basah dilanjutkan 10 kaki, balkoni lebar berjeriji, kabinet dapur built-in, lantai penuh jubin dan penyaman udara penuh. 5 minit ke Bandar Kajang, dekat MRT Kajang/Stadium Kajang/Sungai Jernih. Harga RM480,000 (turun daripada RM490,000).",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Sri%20Jelok%2C%20Kajang%2C%20Selangor",
