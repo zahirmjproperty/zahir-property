@@ -27813,7 +27813,9 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": ["Leasehold Bumi"],
+    "highlights": [
+      "Leasehold Bumi"
+    ],
     "pelan": [],
     "description": "Kediaman 75 sqft di Double Storey Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM490,000. Hakmilik: Leasehold.",
     "amenities": [],
@@ -27852,7 +27854,9 @@ window.LISTINGS = [
     "bathrooms": 7,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": ["Leasehold Bumi"],
+    "highlights": [
+      "Leasehold Bumi"
+    ],
     "pelan": [],
     "description": "Kediaman 5490 sqft di Taman Impian Putra, Bandar Seri Putra, Bangi/Kajang dijual pada RM1,100,000. Hakmilik: Leasehold.",
     "amenities": [],
@@ -27946,9 +27950,11 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": ["Freehold Bumi"],
+    "highlights": [
+      "Freehold Bumi"
+    ],
     "pelan": [],
-    "description": "Kediaman 1300 sqft di UNIT TERMURAH! 2 STOREY INTERMEDIATE TAMAN KASIH SUNGAI SEKAMAT KAJANG dijual pada RM495,000. Hakmilik: Freehold.",
+    "description": "Rumah Teres 2 Tingkat 20' x 65' (1,300 sqft) di Taman Kasih Sungai Sekamat, Kajang dijual pada RM495,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=UNIT%20TERMURAH%21%202%20STOREY%20INTERMEDIATE%20TAMAN%20KASIH%20SUNGAI%20SEKAMAT%20KAJANG",
@@ -27993,9 +27999,11 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": ["Freehold Bumi"],
+    "highlights": [
+      "Freehold Bumi"
+    ],
     "pelan": [],
-    "description": "Kediaman di Residensi Zamrud Sg Tangkas, Kajang 2 (Near Bangi) dijual pada RM320,000. Hakmilik: Freehold.",
+    "description": "Servis Apartmen di Residensi Zamrud Sg Tangkas, Kajang 2 (Near Bangi) dijual pada RM320,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Residensi%20Zamrud%20Sg%20Tangkas%2C%20Kajang%202%20%28Near%20Bangi%29",
@@ -28037,7 +28045,7 @@ window.LISTINGS = [
     "jenis": "JUAL",
     "highlights": [],
     "pelan": [],
-    "description": "Kediaman 17,500 sqft di Double Storey Bungalow Country Heights, Jalan Pelangi Pagi, Kajang dijual pada RM4. Hakmilik: Freehold.",
+    "description": "Bungalow 17,300 sqft di Double Storey Bungalow Country Heights, Jalan Pelangi Pagi, Kajang dijual pada RM4,000,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Double%20Storey%20Bungalow%20Country%20Heights%2C%20Jalan%20Pelangi%20Pagi%2C%20Kajang",
@@ -28084,7 +28092,7 @@ window.LISTINGS = [
     "jenis": "JUAL",
     "highlights": [],
     "pelan": [],
-    "description": "Kediaman 1072 sqft di Unit kosong saya pegang kunci. View anytime. dijual pada RM360,000. Hakmilik: Freehold.",
+    "description": "Kondominium di Mutiara Ville Condominium, Cyberjaya dijual pada RM360,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Unit%20kosong%20saya%20pegang%20kunci.%20View%20anytime.",
