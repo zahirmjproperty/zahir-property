@@ -1,0 +1,16 @@
+{
+ "_komen": "Galeri projek berkurasi. Kunci = slug projek (sama seperti /projek/<slug>.html). Setiap galeri item = {url, kapsyen}. hero = gambar utama halaman. sumber = nota rujukan. TAMBAH projek baharu di sini; penjana gen_site_seo.py akan guna jika ada, jika tidak fallback ke dHash (projek-unit.json).",
+ "cerrado-southville-city": {
+  "sumber": "Gambar dari 5 listing Cerrado ZMP (COA-0153, COA-0288, COA-0344, COA-0392, COA-0451) — dikurasi 19 Nov 2026. Kapsyen disemak melalui klasifikasi AI + semakan manusia.",
+  "hero": "https://lh3.googleusercontent.com/d/1hlR3xVLAFb6Ikl2Ff782gFV--k6u6DPR=w1600",
+  "galeri": [
+   {"url": "https://lh3.googleusercontent.com/d/19IsGQz9lsYI0UlyYts6Ciy6CdKqGGG6L=w1200", "kapsyen": "Kolam renang lap dengan menara kediaman di latar"},
+   {"url": "https://lh3.googleusercontent.com/d/1hlR3xVLAFb6Ikl2Ff782gFV--k6u6DPR=w1200", "kapsyen": "Fasad menara dari aras kolam"},
+   {"url": "https://lh3.googleusercontent.com/d/1sLG6wivhG_X_cjZfyxiZ7YZM_2RMLgjm=w1200", "kapsyen": "Dek kolam & pavilion gim"},
+   {"url": "https://lh3.googleusercontent.com/d/11gK1ro6WLMuGf-515onDZdv2VnmlXtpu=w1200", "kapsyen": "Susun atur dek fasiliti dari tingkat atas"},
+   {"url": "https://lh3.googleusercontent.com/d/15xYl2sny9sH8Xos7uL8NSdZirHX4otMr=w1200", "kapsyen": "Dek kolam, landskap & laluan pejalan kaki"},
+   {"url": "https://lh3.googleusercontent.com/d/1lWaIKK2d2NZ7HjpNXjNkBxVuTZrW-rKb=w1200", "kapsyen": "Kolam & kawasan hijau Southville City"},
+   {"url": "https://lh3.googleusercontent.com/d/1NihiGx4cMMpCp-jQtXNXsVZ2LvctygVZ=w1200", "kapsyen": "Pemandangan dari balkoni unit"}
+  ]
+ }
+}
