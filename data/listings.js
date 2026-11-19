@@ -32,6 +32,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Leasehold Bumi"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat yang telah direfurbish di Seksyen 4 Tambahan, Bangi — VACANT dan boleh masuk terus! Unit basic (4 bilik, 3 bilik air) dengan keluasan tanah 20x70 dan binaan 1,580 sqft, status Leasehold Bumi. Lokasi strategik berdekatan kedai makan, surau Al Ikhlas, pusat kesihatan dan sekolah — mudah akses ke Bangi Gateway, UKM, NIOSH, GMI dan KPTM. Sesuai untuk keluarga atau pelaburan sewa. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Kedai Makan",
@@ -96,6 +97,7 @@ window.LISTINGS = [
       "5+1 bilik, 4 bilik air",
       "Akses PLUS, SILK, SKVE & LEKAS"
     ],
+    "pelan": [],
     "description": "Semi-D 2 tingkat yang telah direnovated di D'Cempaka, Seksyen 9 Bandar Baru Bangi — harga diturunkan RM100K kepada RM1,150,000 (boleh nego, view to offer). Keluasan tanah 42x96 (4,101 sqft) dengan binaan 4,300 sqft — 5+1 bilik, 4 bilik air. Kawasan gated & guarded 24 jam, bersebelahan Masjid Al-Hasanah (Masjid Hijau) — berjalan kaki sahaja. Berdekatan EVO Mall, KIP Mall dan PKNS Bangi, restoran, klinik, farmasi, dobi serta sekolah. Akses mudah ke PLUS, SILK, SKVE dan LEKAS Highway. Sesuai untuk keluarga yang mencari ruang luas di lokasi strategik Bandar Baru Bangi. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Masjid Al-Hasanah",
@@ -151,6 +153,7 @@ window.LISTINGS = [
       "Freehold — unit intermediate",
       "Potensi sewa pasaran RM11,400/bulan"
     ],
+    "pelan": [],
     "description": "Shoplot 3 tingkat di Presint 11, Putrajaya — pelaburan komersial dengan ROI 4%-5%. Unit intermediate, menghadap jalan utama, status freehold. Keseluruhan tingkat kini disewakan RM9,000/bulan (ROI 4%); sewa pasaran blok sama mencecah RM11,400/bulan (ROI 5%). Berdekatan bank, kedai runcit, pasar raya dan klinik.",
     "amenities": [
       "Bank",
@@ -205,6 +208,7 @@ window.LISTINGS = [
       "Dapur lanjutan (extended kitchen)",
       "Berpenyewa — sesuai pelaburan"
     ],
+    "pelan": [],
     "description": "Rumah teres satu tingkat di Seksyen 16, Bandar Baru Bangi — TURUN HARGA kepada RM440,000 sahaja (dari RM450K)! Rumah telah direnovated dan sedia untuk didiami, berdekatan surau hanya 400m. Keluasan 22 x 70 dengan 3 bilik tidur, 2 bilik air dan dapur lanjutan (extended kitchen). Kini berpenyewa — sesuai untuk pembeli keluarga mahupun pelabur yang mahu hasil sewa serta-merta. Lokasi strategik berdekatan UKM Bangi, masjid, sekolah, stesen minyak dan shoplot, dengan akses mudah ke SILK, LEKAS dan PLUS Highway. Untuk maklumat lanjut atau tempahan viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Masjid",
@@ -256,6 +260,7 @@ window.LISTINGS = [
       "Termasuk 2 aircond, wardrobe, TV cabinet",
       "Turun harga RM395K → RM390K"
     ],
+    "pelan": [],
     "description": "Rumah teres satu tingkat fully renovated di Taman Ria, Sungai Jelok, Kajang — menghadap taman permainan (open view), deposit fleksibel. Tanah 20x65, binaan 1,302 sqft, 3 bilik 1 bilik air. Termasuk 2 aircond, wardrobe & TV cabinet. Turun harga RM395K ke RM390,000. Akses mudah ke SILK & LEKAS Highway.",
     "amenities": [
       "Sekolah — berhampiran",
@@ -315,6 +320,7 @@ window.LISTINGS = [
       "Gated & guarded + kolam renang",
       "Walk-in distance ke surau"
     ],
+    "pelan": [],
     "description": "Apartment Intana Ria, Seksyen 7 Bandar Baru Bangi — unit level 5 walk up seluas 847 sqft dengan permintaan sewa tinggi. 3 bilik 2 bilik air, 1 parkir, walk-in distance ke surau. Kompleks gated & guarded dengan dewan komuniti dan kolam renang. Berhampiran sekolah, stesen minyak, pejabat kerajaan dan pusat perniagaan.",
     "amenities": [
       "Dewan komuniti",
@@ -370,6 +376,7 @@ window.LISTINGS = [
       "7 bilik 6 bilik air",
       "Extended kitchen"
     ],
+    "pelan": [],
     "description": "Semi-D 2.5 tingkat yang telah diubah suai di Puncak Bangi, Seksyen 6 Bandar Baru Bangi. Keluasan tanah 4,187 sqft (51'x80') dengan binaan 3,965 sqft. 7 bilik 6 bilik air, extended kitchen. Berhampiran Bangi Golf Club, pusat komersial, hospital dan universiti; akses pantas ke PLUS, Kajang Silk, SKVE dan BESRAYA. Untuk viewing, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Bangi Golf Club",
@@ -427,6 +434,7 @@ window.LISTINGS = [
       "Freehold Open",
       "24/7 Security"
     ],
+    "pelan": [],
     "description": "Bungalow 2 tingkat mewah di Country Heights, Kajang — tanah 20,139 sqft dengan binaan 14,000 sqft. 8 bilik 8 bilik air, swimming pool, parking luas dan keselamatan 24/7. Freehold Open, menghadap selatan. Nilai pasaran RM5.5 juta. Peluang memiliki kediaman eksklusif. Hubungi Zahir MJ (012-2310119) untuk viewing.",
     "amenities": [
       "Swimming Pool",
@@ -481,6 +489,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Basic unit"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat (intermediate) di Presint 14, Putrajaya — FACING OPEN, Freehold Open, basic unit. Keluasan tanah 1,400 sqft (20'x70') dengan binaan 1,900 sqft, 4 bilik 3 bilik air. Lokasi dalam kawasan pentadbiran Persekutuan, mudah akses ke seluruh Putrajaya dan Cyberjaya. Hubungi Zahir MJ (012-2310119) untuk viewing.",
     "amenities": [
       "Facing Open",
@@ -537,6 +546,7 @@ window.LISTINGS = [
       "Renovated",
       "Termasuk 4x AC, 4x Water Heater, Autogate, Kitchen Cabinet"
     ],
+    "pelan": [],
     "description": "Double storey terrace yang telah direnovated di Setia Alam Sari (Ilham 2), Bangi. Keluasan tanah 22 x 75 dengan binaan 2,420 sqft, 5 bilik 4 bilik air. Freehold (non-bumi). Termasuk 4 unit aircond, 4 unit water heater, autogate dan kitchen cabinet. Berdekatan UKM, GMI, Bangi Gateway, KIP Mall, EVO Mall & Bangi Wonderland — mudah akses ke SILK dan PLUS Highway.",
     "amenities": [
       "Shoplot",
@@ -598,6 +608,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Extended kitchen"
     ],
+    "pelan": [],
     "description": "Double storey teres END LOT yang telah direnovated di Taman Lestari Putra (LEP 6), Seri Kembangan. Keluasan tanah 18 x 65 dengan binaan 1,400 sqft, 4 bilik 3 bilik air, extended kitchen. Berdekatan surau, Aeon Mall, Giant, sekolah, stesen MRT — mudah akses ke SKVE, LDP, MEX dan PLUS Highway.",
     "amenities": [
       "Surau",
@@ -660,6 +671,7 @@ window.LISTINGS = [
       "Gated & guarded 24 jam",
       "Keluasan tanah 8,557 sqft"
     ],
+    "pelan": [],
     "description": "Corner lot bungalow 2 tingkat di Banyan Close, Bukit Mahkota, Bangi, Kajang. Keluasan tanah 8,557 sqft dengan binaan ~5,000 sqft, 5+1 bilik 6 bilik air. Freehold (open) dengan individual title. Kawasan gated & guarded dengan keselamatan 24 jam. Keadaan rumah elok — sesuai untuk keluarga besar atau pelaburan.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -717,6 +729,7 @@ window.LISTINGS = [
       "Gated & guarded community",
       "4 bilik 3 bilik air, binaan ±2,100 sqft"
     ],
+    "pelan": [],
     "description": "Corner lot teres 2 tingkat dijual di Bandar Seri Putra, Kajang (berdekatan Bangi) — RM850,000. Freehold, open title dengan hakmilik individu. Keluasan tanah ±3,810 sqft dan binaan ±2,100 sqft, 4 bilik 3 bilik air. Dapur telah diperluas (extended kitchen), bersebelahan surau, dan dalam komuniti berpagar & berkawal (gated & guarded).",
     "amenities": [
       "Surau (bersebelahan)",
@@ -775,6 +788,7 @@ window.LISTINGS = [
       "Extended kitchen",
       "Berpenyewa (tenanted)"
     ],
+    "pelan": [],
     "description": "Double storey terrace house di Taman Sri Jelok, Kajang. Keluasan tanah 22 x 70 (1,540 sqft) dengan binaan ~1,400 sqft, 5 bilik 3 bilik air. Leasehold (non-bumi), extended kitchen, tenanted. Harga dikurangkan daripada RM435,000 kepada RM415,000. Berdekatan sekolah, masjid, hospital, stesen minyak dan kedai runcit — mudah akses ke Cheras-Kajang, LEKAS dan SILK Highway.",
     "amenities": [
       "Sekolah",
@@ -836,6 +850,7 @@ window.LISTINGS = [
       "350m berjalan kaki ke surau",
       "Dekat jalan utama"
     ],
+    "pelan": [],
     "description": "Double storey terrace house facing playground dijual di Taman Prima Saujana, Kajang (Seksyen 4, Prima Seberang) — RM575,000. Freehold open title, tanah 22 x 70 (1,540 sqft), binaan ±1,847 sqft, 5 bilik 3 bilik air. Unit intermediate yang telah diubah suai (renovated) dan separa perabot. Menghadap playground, 350m ke surau dan berdekatan jalan utama. Mudah akses ke SILK, PLUS, Cheras-Kajang Highway dan LEKAS. Berhampiran Giant, Lotus Kajang, Masjid Prima Saujana, SMK Saujana Impian, SK Kantan Permai dan MRT Sungai Jernih.",
     "amenities": [
       "Giant",
@@ -899,6 +914,7 @@ window.LISTINGS = [
       "Halaman luas",
       "Bersebelahan Putrajaya"
     ],
+    "pelan": [],
     "description": "Double storey semi-D dijual di Desa Seri Saujana, Sungai Merab, Selangor — RM870,000 (boleh runding). Leasehold Malay Reserve (sehingga 6 Sept 2106), tanah 3,595 sqft, binaan ±2,572 sqft, 5 bilik 5 bilik air (4 bilik air individu). Unit gated & guarded dengan halaman luas, bersebelahan Putrajaya. Berhampiran IOI City Mall, Alamanda Putrajaya, UPM/UKM/UNITEN, Hospital Serdang & Putrajaya serta Institut Kanser Negara. Mudah akses ke SILK, SKVE, MEX dan PLUS. Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "IOI City Mall",
@@ -965,6 +981,7 @@ window.LISTINGS = [
       "Car porch besar 4 kereta + 2 main gate",
       "Berhampiran MRT Kajang & hospital"
     ],
+    "pelan": [],
     "description": "Single storey semi-D dijual di Sungai Jelok, Kajang, Selangor — harga baharu RM560,000 (turun dari RM570,000; nilai pasaran ±RM600,000). Freehold open title, tanah 40'x80' (3,200 sqft), binaan ±2,500 sqft, 4 bilik 2 bilik air, dapur fully extended (kabinet, aircond, autogate), car porch besar muat 4 kereta serta 2 main gate. Rumah memerlukan sedikit pengubahsuaian (refurbish) — sesuai pembeli yang mahu nilai tambah. Berhampiran MRT Kajang, Hospital Kajang & HTAN, Metro Point dan SK Sri Jelok; mudah akses SILK, LEKAS, Kajang Bypass dan PLUS. Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "MRT Kajang",
@@ -1026,6 +1043,7 @@ window.LISTINGS = [
       "Playground & surau dalam jarak berjalan kaki",
       "Mudah akses PLUS (Exit Bangi), LEKAS & SILK"
     ],
+    "pelan": [],
     "description": "Double storey link bungalow dijual di Seksyen 15, Bandar Baru Bangi, Selangor — RM999,000 (boleh runding). Freehold-leasehold Bumi Lot, tanah 2,863 sqft (44'x65'), binaan ±2,600 sqft, 4+1 bilik 4 bilik air. Rumah yang luas dan terang (open facing) dalam kawasan gated & guarded Garden Homes, berhampiran playground dan surau. Berdekatan Komuter UKM, Bangi Gateway, Evo Mall Bangi dan SK Seksyen 15; mudah akses PLUS Highway (Exit Bangi), LEKAS dan SILK. Sesuai kediaman besar atau pelaburan. Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "Komuter UKM",
@@ -1086,6 +1104,7 @@ window.LISTINGS = [
       "Dry & wet kitchen, mini garden + gazebo, kolam ikan",
       "CCTV, autogate; dekat UKM/UPM & KTM/MRT"
     ],
+    "pelan": [],
     "description": "Bungalow fully furnished dijual di Seksyen 3, Bandar Baru Bangi, Selangor — RM2,500,000 (boleh runding). Rumah bungalow 2 tingkat di atas tanah 14,014 sqft dengan binaan ±7,000 sqft, 8 bilik tidur (lengkap wardrobe) dan 5 bilik air, 3 stor dan 3 dewan. Dilengkapi dry & wet kitchen, mini garden dengan gazebo, kolam ikan, CCTV dan autogate; halaman luas muat lebih 10 kereta. Fully furnished — sedia untuk didiami. Berhampiran sekolah, institusi pengajian (UKM, MFI, GMI, UNITEN, UPM), kawasan komersial, stesen KTM & MRT, Bangi Gateway, Bangi Sentral dan PKNS Bangi. Mudah akses ke Bandar Baru Bangi, Putrajaya serta lebuh raya PLUS, SILK dan LEKAS. Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "Bangi Gateway",
@@ -1149,6 +1168,7 @@ window.LISTINGS = [
       "4 bilik 4 bilik air",
       "Dekat Seksyen 7 BB Bangi"
     ],
+    "pelan": [],
     "description": "Renovated double storey semi-D dijual di Taman Kajang Impian, Bandar Baru Bangi, Selangor — RM998,000 (boleh runding). Freehold open lot, tanah 40'x75' (3,000 sqft), binaan 2,700 sqft, 4 bilik 4 bilik air. Rumah telah diubah suai (renovated) dengan plaster ceiling dan kitchen cabinet; kawasan gated & guarded 24 jam dan kini bertenan (tenanted) — sesuai pelabur yang mahu pendapatan sewa serta-merta. Berhampiran Seksyen 7 Bandar Baru Bangi (SK Seksyen 7, 99 Speedmart, McDonald's); mudah akses SILK, PLUS dan SKVE Highway. Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "SK Seksyen 7",
@@ -1208,6 +1228,7 @@ window.LISTINGS = [
       "Partly furnished (electrical fittings + kitchen cabinet)",
       "Loan & lawyer boleh diuruskan (100% refundable jika loan ditolak)"
     ],
+    "pelan": [],
     "description": "3 storey semi-D dijual di KayuManis Garden Villas, Seksyen 5, Bandar Baru Bangi, Selangor — harga baharu RM1,150,000 (turun dari RM1,850,000). Freehold, tanah 38'x75' (2,850 sqft), binaan 3,911 sqft, 5+1 bilik 5 bilik air, partly furnished (electrical fittings dan kitchen cabinet), facing open. Berhampiran UKM, UNITEN, Kompleks PKNS Bangi, Bangi Sentral, KWSP, surau Nur Idaman, SK Jalan 4 dan SMK Jalan Reko; mudah akses Jalan Reko, Persiaran Bangi/Kajang, PLUS, MRT Kajang 2 dan KTM Komuter Bangi. Urusan loan dan lawyer boleh diaturkan (100% refundable jika loan ditolak). Untuk viewing, hubungi Zahir 012-2310119.",
     "amenities": [
       "UKM",
@@ -1266,6 +1287,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Semi-D Tanah 40 x 75 | Binaan 4,000 sqft di Seksyen 3 Tambahan, Bandar Baru Bangi, Selangor dijual pada RM1,450,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -1314,6 +1336,7 @@ window.LISTINGS = [
       "Guarded & gated 24 jam",
       "Rumah disewa — sedia hasil sewa"
     ],
+    "pelan": [],
     "description": "Rumah teres 2.5 tingkat di Seri Wirani 8, Bandar Baru Bangi, Selangor. Keluasan tanah 1,606 kps dengan binaan 2,800 kps — 5 bilik 4 bilik air, posisi intermediate. Leasehold (bumi lot). Kawasan guarded & gated 24 jam dengan taman permainan & jogging track. Berdekatan pelbagai kemudahan: PKNS Complex, Giant Bangi, Evo Mall, UKM Bangi, sekolah, hospital (Hospital Islam Az-Zaharah, KPJ Kajang) serta MRT Stadium Kajang & KTM Komuter UKM. Akses mudah ke SILK, LEKAS, SKVE & PLUS. Rumah kini disewa — sesuai untuk pelaburan.",
     "amenities": [],
     "nearby": [
@@ -1359,6 +1382,7 @@ window.LISTINGS = [
       "Penyelenggaraan rendah RM70/bulan",
       "Berdekatan UKM & MRT/KTM Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat dijual di Bangi Perdana Seksyen 3, Bandar Baru Bangi, Selangor - RM630,000 (boleh runding). Leasehold (bumi lot, baki 79 tahun), tanah 1,400 kps (20' x 70'), binaan 1,900 kps, 4 bilik 3 bilik air. Hakmilik individu, penyelenggaraan RM70/bulan. Lokasi strategik berdekatan UKM, KPTM, GMI-PKNS Bangi, hospital, masjid, KTM UKM & MRT Kajang - mudah akses ke seluruh Lembah Klang.",
     "amenities": [
       "UKM / KPTM / GMI-PKNS Bangi",
@@ -1412,6 +1436,7 @@ window.LISTINGS = [
       "Tanah 22' x 75' | Binaan 1,650 kps",
       "Kip Mall 5 minit | KTM Bangi 10 minit | MRT Kajang 15 minit"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat fully renovated & extended dijual di Seksyen 16, Bandar Baru Bangi, Selangor — RM499,000 (boleh runding). Tanah 22' x 75', binaan 1,650 kps, 4 bilik 3 bilik air (1 bathtub). Ruang luas: dapur kabinet penuh (fully tiled), ruang makan, study area, balcony & small hall. Lokasi strategik — 5 minit ke Kip Mall, 10 minit KTM Bangi, 15 minit MRT Kajang, berdekatan UKM/KPTM/UniKL & sekolah. Akses mudah PLUS, LEKAS & SILK.",
     "amenities": [
       "Speedmart & shoplots berhampiran",
@@ -1472,6 +1497,7 @@ window.LISTINGS = [
       "Tanah 35' x 70' | Binaan 3,250 kps",
       "Berdekatan UKM, MRT Kajang & Bangi Gateway Mall"
     ],
+    "pelan": [],
     "description": "Semi-D 3 tingkat dijual di Taman Tropika 2, Kajang, Selangor — RM999,000 (boleh runding). Freehold (strata title), tanah 35' x 70', binaan ~3,250 kps, 7 bilik 5 bilik air. Renovated & fully furnished: dapur kering kabinet penuh, wet kitchen lanjutan, semua bilik ada wardrobe, grilled penuh, parkir berbumbung. Dalam kawasan 24 jam gated & guarded dengan surau, playground & jogging track. Berdekatan UKM, MRT Kajang, Bangi Gateway Mall — akses mudah PLUS & LEKAS.",
     "amenities": [
       "UKM Komuter & MRT Kajang",
@@ -1520,6 +1546,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres Tanah 18 x 65 di Taman Ramal Ros, Kajang, Selangor dijual pada RM485,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -1565,6 +1592,7 @@ window.LISTINGS = [
       "Kawasan gated & guarded (kelab, surau, playground, gelanggang bola keranjang)",
       "Akses pantas SILK Highway & SKVE Highway"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat jenis corner lot dijual di Taman Seri Bangi, Seksyen 8, Bandar Baru Bangi, Selangor — RM950,000 (boleh runding). Keluasan tanah 3,089 kps dengan binaan 2,000 kps, 4 bilik & 3 bilik air, kabinet dapur terbina, serta renovasi lengkap dengan kelulusan. Terletak dalam kawasan gated & guarded yang dilengkapi kelab, surau, playground dan gelanggang bola keranjang — sesuai kediaman keluarga.",
     "amenities": [
       "Gated & guarded",
@@ -1621,6 +1649,7 @@ window.LISTINGS = [
       "Fasiliti lengkap: kolam renang, gimnasium, surau, playground, dewan serbaguna",
       "Berhampiran GMI, UKM Bangi, KTM UKM & BACC — akses PLUS/ELITE/SILK/LEKAS"
     ],
+    "pelan": [],
     "description": "Kondominium Vista Hijauan dijual di Taman Universiti, Bangi, Selangor — RM370,000 nett (turun daripada RM390,000). Unit servis apartmen Blok B aras 4, Freehold, binaan 1,116 kps dengan 3 bilik & 2 bilik air serta 2 parkir bersebelahan. Unit baharu tidak pernah dihuni, bersih dan sedia didiami. Penduduk menikmati kolam renang & wading pool, gimnasium, surau, playground kanak-kanak dan dewan serbaguna. Berhampiran German Malaysia Institute (GMI), UKM Bangi, stesen KTM UKM serta Bangi Avenue Convention Centre — akses mudah ke PLUS, ELITE, SILK dan LEKAS.",
     "amenities": [
       "Kolam renang & wading pool",
@@ -1681,6 +1710,7 @@ window.LISTINGS = [
       "Owner akan repair & touch up",
       "Partial furnished"
     ],
+    "pelan": [],
     "description": "Bungalow 2 tingkat di Puncak Mekar, Sungai Merab — lokasi strategik antara Kajang dan Dengkil. Keluasan tanah 6,674 sqft dengan binaan 6,000 sqft, 7 bilik 4 bilik air. Individual title, CF ready dan ada kelulusan majlis. Harga RM880K (below market RM930K) — owner bersedia repair & touch up, partial furnished. 10 minit ke Alamanda Putrajaya, 15 minit ke IOI City Mall, mudah akses SILK, SKVE, MEX & PLUS.",
     "amenities": [
       "Partial furnished",
@@ -1732,6 +1762,7 @@ window.LISTINGS = [
       "4 bilik 3 bilik air",
       "Akses PLUS, LEKAS, MAX, ELITE"
     ],
+    "pelan": [],
     "description": "Rumah endlot 2 tingkat fully renovated di Taman Kajang Utama, Kajang. Keluasan tanah 22x75 (1,650 sqft), 4 bilik 3 bilik air, freehold. Unit endlot — lebih privasi dan ruang sisi. Akses mudah ke PLUS, LEKAS, MAX & ELITE Highway. Harga RM610K.",
     "amenities": [
       "Fully renovated",
@@ -1782,6 +1813,7 @@ window.LISTINGS = [
       "Akses SILK, LEKAS, PLUS, EKVE",
       "Harga boleh nego"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat intermediate di Taman Jasmin, Kajang. Freehold, binaan 1,700 sqft di atas tanah 1,650 sqft, 5 bilik 3 bilik air, 2 parking. Lokasi senang akses SILK, LEKAS, PLUS & EKVE. Harga RM750K — boleh nego (owner renovation belum siap).",
     "amenities": [
       "Intermediate unit",
@@ -1836,6 +1868,7 @@ window.LISTINGS = [
       "Individual title",
       "5 bilik 4 bilik air"
     ],
+    "pelan": [],
     "description": "Rumah corner lot 2 tingkat di Seksyen 4, Bandar Baru Bangi — tanah 3,433 sqft, 5 bilik 4 bilik air. Dapur renovated, main road, individual title, kawasan gated & guarded. Berdekatan PKNS Bangi, Bangi Golf Resort dan Tenera Hotel; akses PLUS, LEKAS & SILK. Harga RM800K.",
     "amenities": [
       "Renovated kitchen",
@@ -1886,6 +1919,7 @@ window.LISTINGS = [
       "2 parking",
       "Sedia sewa pertengahan Sept 2026"
     ],
+    "pelan": [],
     "description": "Apartmen fully furnished di Vista Bangi, Jalan Reko, Bangi. Unit tingkat 24 dengan 3 bilik 2 bilik air dan 2 parking. Lengkap dengan 3 pendingin hawa, kabinet dapur, peti sejuk, mesin basuh, almari, 2 katil queen dan meja belajar. Menghadap jalan utama — akses mudah ke Bandar Baru Bangi, UKM dan lebuh raya SILK/LEKAS/PLUS.",
     "amenities": [
       "Fully furnished",
@@ -1940,6 +1974,7 @@ window.LISTINGS = [
       "Built-up 2,700 sqft",
       "Strata title"
     ],
+    "pelan": [],
     "description": "Superlink 2.5 tingkat fully renovated di Nadayu 92, Kajang. Keluasan tanah 22 x 65 (1,430 sqft) dengan built-up 2,700 sqft, 4 bilik 5 bilik air. Freehold non-bumi, partly furnished, menghadap barat daya. Kawasan strategik berdekatan SILK Highway, Kajang 2 dan pusat bandar Kajang.",
     "amenities": [
       "Fully renovated",
@@ -1997,6 +2032,7 @@ window.LISTINGS = [
       "View golf course",
       "Kawasan golf resort eksklusif"
     ],
+    "pelan": [],
     "description": "Bungalow 2 tingkat di Bangi Golf Resort, Bandar Baru Bangi. Keluasan tanah 12,500 sqft dengan built-up 7,500 sqft, 8 bilik 6 bilik air. Leasehold (bumi lot) dengan pemandangan golf course dan kawalan keselamatan RM200/bulan. Kawasan eksklusif berdekatan Tenera Hotel, PKNS Bangi serta akses PLUS, LEKAS dan SILK.",
     "amenities": [
       "View golf course",
@@ -2054,6 +2090,7 @@ window.LISTINGS = [
       "Porch 2 kereta",
       "Kitchen cabinet sedia"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat di Bangi Perdana, Seksyen 3, Bandar Baru Bangi. Keluasan tanah 20x70 dengan built-up 1,846 sqft — belakang dah extend 6 kaki atas dan bawah: dapur lebih luas dan bilik atas ada balcony tambahan. 4 bilik 3 bilik air, porch muat 2 kereta. Leasehold Bumi Lot dengan individual title — senang urusan loan. Rumah vacant, boleh terus masuk. Lokasi matang 10 minit ke Bangi Gateway, UKM dan Bangi Sentral, akses terus PLUS Highway.",
     "amenities": [
       "Extend 6 kaki belakang",
@@ -2112,6 +2149,7 @@ window.LISTINGS = [
       "Gated & guarded + kolam renang",
       "Maintenance RM135/bln"
     ],
+    "pelan": [],
     "description": "Apartment Intana Ria, Seksyen 7 Bandar Baru Bangi — unit Level 4 Blok 1 seluas 850 sqft, FULLY FURNISHED, sesuai untuk pelaburan (beli terus sewa) mahupun didiami sendiri. 3 bilik 2 bilik air, 1 parkir, walk up. Leasehold Bumi Lot dengan harga bawah pasaran — peluang rendah deposit. Kompleks gated & guarded dengan kolam renang dewasa & kanak-kanak, playground, badminton court, dewan komuniti, kafeteria, taska dan surau.",
     "amenities": [
       "Kolam renang dewasa & kanak-kanak",
@@ -2171,6 +2209,7 @@ window.LISTINGS = [
       "Sewaan RM2,000/sebulan",
       "Berdekatan JPJ Bangi, Mydin & Seksyen 7 Bangi"
     ],
+    "pelan": [],
     "description": "Shop unit tingkat 1 di Kajang Impian, Selangor. Ruang 20'x70' dengan 4+1 bilik dan 2 bilik air, fully equipped dan sedia untuk perniagaan. Lokasi strategik berdekatan JPJ Bangi, Mydin dan shoplot Seksyen 7 Bangi. Akses mudah ke Lebuhraya PLUS, SILK dan Cheras-Kajang Highway — 20 minit ke KLIA, 10 minit ke Bandar Baru Bangi dan 20 minit ke pusat bandar Kajang.",
     "amenities": [
       "Fully equipped",
@@ -2228,6 +2267,7 @@ window.LISTINGS = [
       "Renovated & partially furnished",
       "Gated & guarded, 24 jam keselamatan"
     ],
+    "pelan": [],
     "description": "Apartment 901 sqft di Kita Impian, Cybersouth Dengkil, Selangor. 3 bilik 2 bilik air, Blok A Level 14 dengan 2 parking. Baru dinaik taraf: kabinet dapur, wardrobe terbina, wainscoting, langsir dan cat baru — sebahagian perabot disediakan. Kemudahan: keselamatan 24 jam, kolam renang, taman permainan kanak-kanak, dewan serbaguna dalam komuniti gated & guarded. Sedia didiami, deposit fleksibel — sesuai untuk pembeli rumah pertama.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -2287,6 +2327,7 @@ window.LISTINGS = [
       "5 bilik 4 bilik air — view tasik",
       "Balkoni hadap tasik & pejabat kerajaan"
     ],
+    "pelan": [],
     "description": "Rumah teres corner 2.5 tingkat di Presint 16, Putrajaya dengan tanah luas 3,145 sqft dan binaan 3,204 sqft. 5 bilik 4 bilik air, taman luas/land tambahan, carport berbumbung 2 kereta + ruang terbuka 2 kereta. Aircond & grill terpasang, pagar diluluskan, dapur lanjutan diluluskan, cat bumbung baharu. 2 balkoni menghadap tasik dan pejabat kerajaan; belakang rumah terus ke taman permainan kanak-kanak — sesuai untuk keluarga.",
     "amenities": [
       "Aircond & grill terpasang",
@@ -2345,6 +2386,7 @@ window.LISTINGS = [
       "Surau & meeting area disediakan",
       "Move-in condition"
     ],
+    "pelan": [],
     "description": "Shoplot 3 tingkat di TTDI Grove, Kajang — bukan shoplot biasa, ini corporate office yang telah siap dibina sepenuhnya dan fully furnished. Ground floor ruang komersial menghadap jalan utama (kini tenanted), Level 1 pejabat moden dengan open workspace dan feature wall bata eksklusif, Level 2 staff lounge dengan pantry lengkap. Sesuai untuk firma guaman, akauntan, agensi hartanah, syarikat pembinaan, klinik atau pusat latihan — terus beroperasi tanpa kos renovasi tambahan.",
     "amenities": [
       "Ruang komersial di aras bawah",
@@ -2401,6 +2443,7 @@ window.LISTINGS = [
       "1,063 sqft — 2 bilik, 2 bilik air",
       "Harga mampu milik"
     ],
+    "pelan": [],
     "description": "Apartment renovated di Anggerik Villa 2, Bandar Teknologi Kajang — terus masuk! Unit Level 8 (Block C1) seluas 1,063 sqft dengan 2 bilik tidur dan 2 bilik air, 1 parking. Freehold & Non-Bumi, dilengkapi sekuriti 24 jam dengan akses kad. Harga mampu milik berdekatan universiti dan kemudahan utama.",
     "amenities": [
       "Level 8 (Block C1)",
@@ -2460,6 +2503,7 @@ window.LISTINGS = [
       "9 unit aircond",
       "Kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Double storey semi-D fully renovated di Seksyen 3, Bandar Baru Bangi. 7 bilik tidur, 5 bilik air, 9 unit aircond, kolam renang dan kitchen cabinet. Land area 3,100 sqft (40'×78'), built-up 3,000 sqft. Berdekatan UKM, Bangi Gateway dan EVO Mall.",
     "amenities": [
       "Swimming pool",
@@ -2519,6 +2563,7 @@ window.LISTINGS = [
       "2 parkir berbumbung (side by side)",
       "Termasuk 2 aircond, move-in condition"
     ],
+    "pelan": [],
     "description": "Apartmen corner unit di Sri Ixora Apartment, Sepakat Indah 2, Kajang — Blok C, Tingkat 15, seluas 1,028 sqft. 3 bilik 2 bilik air, 2 parkir berbumbung, termasuk 2 unit aircond. Freehold Open, strata title ready, vacant & move-in condition dengan deposit fleksibel. Kemudahan: surau, playground, dewan serbaguna dan keselamatan 24 jam. Berdekatan Mydin, Giant, stesen MRT, hospital dan universiti; akses mudah ke SILK, PLUS, LEKAS dan Cheras-Kajang Highway.",
     "amenities": [
       "Surau",
@@ -2581,6 +2626,7 @@ window.LISTINGS = [
       "Kejiranan eksklusif Setia Eco Glades",
       "Persekitaran hijau & taman"
     ],
+    "pelan": [],
     "description": "Semi-D 2 tingkat dijual di Setia Rimba, Setia Eco Glades, Cyberjaya — RM2,100,000. 5 bilik 5 bilik air, tanah 3,895 sqft dengan binaan 3,381 sqft. Freehold, Bumi lot, fully furnished & move-in ready. Rumah keluarga yang luas dan selesa dalam kejiranan hijau yang tersusun, lengkap dengan persekitaran taman dan komuniti eksklusif Setia Eco Glades.",
     "amenities": [
       "Persekitaran taman & landskap hijau",
@@ -2634,6 +2680,7 @@ window.LISTINGS = [
       "Komuniti berpagar (RM50/bulan)",
       "Jalan kaki ke Surau Ibnu Sina"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat dijual di Seksyen 15, Bandar Baru Bangi — RM620,000 (boleh runding). Saiz tanah 22x75, binaan ±2,200 sqft, 4 bilik 3 bilik air, leasehold, facing open. Renovated: kitchen cabinet penuh dan dapur extend. Komuniti berpagar dengan yuran RM50 sebulan. Berdekatan surau Ibnu Sina (jalan kaki), Bangi Gateway, kompleks sukan & stadium Seksyen 15, dan akses mudah ke Lebuhraya PLUS serta sekitar Bangi-Kajang.",
     "amenities": [
       "Komuniti berpagar",
@@ -2693,6 +2740,7 @@ window.LISTINGS = [
       "Gated & guarded, kolam renang & outdoor gym",
       "Blok D, Tingkat 7"
     ],
+    "pelan": [],
     "description": "Apartment fully renovated di Miro 2 Residence, Blok D, Tingkat 7, Kajang, Selangor — dijual RM400,000 NETT. Keluasan 1,262 sqft dengan 3 bilik tidur dan 2 bilik air, lengkap dengan 1 reserved parking lot. Hakmilik Freehold, tiada sekatan (open). Unit telah diubah suai sepenuhnya dan sedia untuk didiami. Kemudahan fasiliti lengkap termasuk multipurpose hall, kolam renang, outdoor gym, playground kanak-kanak, BBQ pit serta kawasan berpagar dan berkawal (gated & guarded).",
     "amenities": [
       "Multipurpose Hall",
@@ -2753,6 +2801,7 @@ window.LISTINGS = [
       "Kawasan berkawal (security guarded)",
       "Dekat Giant Saujana Impian & Lotus Kajang"
     ],
+    "pelan": [],
     "description": "Pangsapuri Seri Mewah, Blok B di Kajang, Selangor — unit Ground Floor dijual RM235,000 (boleh runding). Keluasan 750 sqft dengan 3 bilik tidur dan 2 bilik air, dilengkapi 1 covered parking dan strata title ready. Kawasan berkawal dengan kemudahan surau, sekolah (SMK & SK) serta shoplots berhampiran. Lokasi strategik dengan akses terus ke SILK, LEKAS, PLUS dan CKE Highway. Deposit fleksibel untuk pembeli serius.",
     "amenities": [
       "Surau",
@@ -2812,6 +2861,7 @@ window.LISTINGS = [
       "Clubhouse: kolam renang, tennis, basketball & lake",
       "Dekat IOI City Mall Putrajaya"
     ],
+    "pelan": [],
     "description": "Townhouse Country Villa di Country Heights, Kajang, Selangor — unit upper dijual RM500,000 (boleh runding). Keluasan 1,450 sqft dengan 3 bilik tidur dan 2 bilik air, fully renovated dan fully furnished termasuk kitchen island, built-in wardrobe serta hob & hood. Kemudahan clubhouse lengkap: kolam renang, tennis & basketball courts, playground, jogging track, 24 jam keselamatan, tasik dan padang bola. Berhampiran IOI City Mall, Tanahrata International School, KPJ Kajang, Hospital Serdang serta kampus IUKL, UNITEN dan UPM.",
     "amenities": [
       "Kolam Renang",
@@ -2876,6 +2926,7 @@ window.LISTINGS = [
       "Land 20' x 75' (1,500 sqft), individual title",
       "Menghadap playground"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat di Seksyen 4, Bandar Baru Bangi, Selangor — dijual RM530,000 (nett). Keluasan binaan 1,920 sqft di atas tanah 20' x 75' (1,500 sqft), dengan 6 bilik tidur (diubah suai dari 4) dan 3 bilik air. Telah diubah suai dan disambung: dapur dipanjangkan 10 kaki, porch hadapan diluaskan serta dilengkapi solar panel. Unit menghadap playground dan sesuai untuk keluarga besar. Hakmilik individu, Leasehold sehingga 2086 (Bumi lot).",
     "amenities": [
       "Playground (hadapan rumah)",
@@ -2934,6 +2985,7 @@ window.LISTINGS = [
       "2 parkir",
       "Dekat MRT Stadium Kajang"
     ],
+    "pelan": [],
     "description": "Pangsapuri Gapura Bayu (Jade Hill) di Kajang — unit RENOVATED & fully furnished, sedia masuk terus! Keluasan 1,000 sqft dengan 3 bilik & 2 bilik air di Blok B, Tingkat 11. Hakmilik Freehold (title Open), 2 parkir, yuran penyelenggaraan RM180. Dilengkapi kitchen cabinet (hob & hood), wardrobe, sofa, TV cabinet, aircond & fridge. Kawasan gated & guarded dengan surau, playground, gelanggang badminton & dewan serbaguna. Berdekatan 99 Speedmart, TMG Mart, Eaton International School, SK Leftenan Adnan, SRA Sg Ramal dan MRT Stadium Kajang. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "99 Speedmart",
@@ -2994,6 +3046,7 @@ window.LISTINGS = [
       "2+1 bilik 2 bilik air",
       "Keselamatan 24 jam"
     ],
+    "pelan": [],
     "description": "TURUN HARGA — LBS Skylake Residence, Taman Putra Perdana, Puchong! Unit menghadap LAKEVIEW di Blok A, Tingkat 9 (mid level). 883 sqft, 2+1 bilik & 2 bilik air, 2 parkir, built-in kitchen cabinets. Leasehold (hingga 2120), lot Non-Bumi. Fasiliti premium: kolam renang, gym, futsal court, terrace garden, A/V rooms, gelanggang bola keranjang, bilik snooker & ping pong, keselamatan 24 jam. Berdekatan SMK Putra Perdana, Econsave & Masjid Taman Putra Perdana. Unit kosong — viewing anytime. Hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "SMK Putra Perdana",
@@ -3053,6 +3106,7 @@ window.LISTINGS = [
       "Strata title ready",
       "Tenanted — sesuai pelabur"
     ],
+    "pelan": [],
     "description": "Residensi Zamrud, Kajang — unit dalam keadaan baik pada harga terbaik! 1,023 sqft, 3 bilik & 2 bilik air di Blok D, Tingkat 10. Freehold, lot Non-Bumi, 2 covered parking, strata title ready. Unit sedang disewa (tenanted) — sesuai untuk pelabur. Yuran penyelenggaraan RM256. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Kajang",
@@ -3109,6 +3163,7 @@ window.LISTINGS = [
       "24 jam keselamatan",
       "Lift & escalator"
     ],
+    "pelan": [],
     "description": "Shop Office Shaftbury Avenue, Jalan Alamanda, Putrajaya — peluang URGENT sale below SPA price! Built-up 450 sqft (15 x 30 ft) di Tingkat 2, bertentangan Anytime Fitness. Freehold/Strata, siap 2019. Keselamatan 24 jam, lift & escalator. Lokasi strategik di tengah bandar Putrajaya. Untuk viewing & maklumat lanjut, hubungi Zahir MJ (012-2310119).",
     "amenities": [
       "Anytime Fitness",
@@ -3163,6 +3218,7 @@ window.LISTINGS = [
       "Gated & guarded 24 jam dengan access card",
       "Low density apartment"
     ],
+    "pelan": [],
     "description": "Apartment fully furnished 3 bilik 2 bilik air di tingkat atas (Level 11) Mewah 9 Residence, Kajang — menghadap kawasan lapang dan bukit Kajang. 850 sqft, 2 parkir, Freehold Bumi, gated & guarded 24 jam. Lengkap perabot: aircond 3 unit, queen bed 2, dapur extended, mesin basuh, peti sejuk, dining set, sofa set + TV. Sedia untuk terus duduk, sesuai keluarga atau pelaburan sewa. Harga jualan RM275,000 (boleh runding).",
     "amenities": [
       "Gated & guarded",
@@ -3218,6 +3274,7 @@ window.LISTINGS = [
       "Extra land 15ft di belakang rumah",
       "Facing North, gated & guarded"
     ],
+    "pelan": [],
     "description": "Double storey terrace di Seksyen 8, Bandar Baru Bangi pada harga menarik RM495,000. Keluasan tanah 20 x 65 kaki dengan binaan 1,450 sqft — 4 bilik tidur dan 3 bilik air. Ada extra land 15 kaki di belakang rumah, menghadap North dan terletak dalam kawasan gated & guarded. Lokasi matang: surau hanya 300m, berhampiran masjid, sekolah, klinik, shoplot dan UKM Bangi. Akses mudah melalui SILK, LEKAS dan PLUS Highway. Leasehold Non-Bumi (baki 75 tahun).",
     "amenities": [
       "Gated & guarded",
@@ -3272,6 +3329,7 @@ window.LISTINGS = [
       "Freehold Open, tiada sekatan",
       "Binaan 1,400 sqft, 4 bilik 3 bilik air"
     ],
+    "pelan": [],
     "description": "Double storey semi-D cluster di Bandar Bukit Mahkota, Bangi — sudah di-renovate dan kini berpenyewa (tenanted), sesuai untuk pelaburan mahupun kediaman sendiri. Keluasan tanah 35 x 45 kaki dengan binaan 1,400 sqft — 4 bilik tidur dan 3 bilik air. Freehold Open tanpa sekatan, dalam kawasan gated & guarded dengan caj penyelenggaraan hanya RM40 sebulan. Akses mudah melalui ELITE dan PLUS Highway, berhampiran masjid, sekolah, klinik dan shoplot. Harga RM600,000 (boleh nego).",
     "amenities": [
       "Renovated",
@@ -3328,6 +3386,7 @@ window.LISTINGS = [
       "Binaan ±7,000 sqft — 5 bilik + 3 bilik tambahan",
       "Individual title, Bumi Lot"
     ],
+    "pelan": [],
     "description": "Corner lot 1.5 storey banglo di Seksyen 3, Bandar Baru Bangi pada harga RM1,300,000 — di bawah nilai pasaran. Tanah luas 8,342 kaki persegi dengan binaan lebih kurang 7,000 kaki persegi; 5 bilik tidur, 2 bilik air dan 3 bilik tambahan. Sudah di-renovasi — attic customized, store house luar, gazebo, kolam ikan dan car porch. Individual title (Leasehold, Bumi Lot). Lokasi matang berhampiran Surau Bangi Perdana, SK dan SMK Jalan 3, Klinik Kesihatan Bangi, Bangi Centre dan kedai-kedai sekitar.",
     "amenities": [
       "Surau Bangi Perdana",
@@ -3386,6 +3445,7 @@ window.LISTINGS = [
       "Deposit flexible, harga boleh nego",
       "Akses SILK & LEKAS Highway"
     ],
+    "pelan": [],
     "description": "Double storey low cost di Taman Bukit Baru, Kajang pada harga RM330,000 (boleh nego). Keluasan tanah 14 x 54 kaki dengan binaan lebih kurang 1,000 kaki persegi — 3 bilik tidur dan 2 bilik air, fully extended. Freehold Open tanpa sekatan, sesuai untuk pembeli rumah pertama mahupun pelaburan dengan deposit flexible. Berhampiran sekolah, shoplot, hospital, stesen minyak dan stesen MRT/KTM; akses mudah melalui SILK dan LEKAS Highway.",
     "amenities": [
       "Sekolah",
@@ -3443,6 +3503,7 @@ window.LISTINGS = [
       "Brand new — 4 bilik 3 bilik air",
       "Leasehold"
     ],
+    "pelan": [],
     "description": "2 storey terrace house di Lyra Residensi, Cyberjaya pada harga RM849,000. Keluasan tanah 20 x 70 kaki dengan binaan 1,817 kaki persegi — 4 bilik tidur dan 3 bilik air, unit brand new yang belum diduduki. Bahagian belakang rumah tidak menghadap rumah lain (back open) dan unit berorientasi South East. Antara landed Cyberjaya yang masih bawah RM1 juta; berhampiran Brainy Bunch Cyberjaya (sekitar 2 minit memandu) serta akses mudah ke sekolah, kedai dan keperluan harian Cyberjaya. Sesuai untuk keluarga mahupun pelaburan.",
     "amenities": [
       "Sekolah",
@@ -3501,6 +3562,7 @@ window.LISTINGS = [
       "4 bilik tidur + 4 bilik air",
       "Freehold berstatus Open"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat end lot di cul-de-sac Taman Reko Mutiara, Kajang, Selangor. Unit telah diubah suai sepenuhnya — lantai berjubin penuh, grille, plaster ceiling dan skimcoat, table top, kabinet dapur bersama hood dan hob, awning, tembok batu, autogate serta security door. Keluasan tanah 2,800 sqft dengan halaman luas, 4 bilik tidur dan 4 bilik air, ruang dobi dan balkoni. Freehold berstatus Open — sesuai untuk keluarga yang mahukan keselesaan berdekatan bandar Kajang dan Bangi.",
     "amenities": [
       "Halaman luas & halaman belakang",
@@ -3566,6 +3628,7 @@ window.LISTINGS = [
       "Gated & guarded (RM50/bulan)",
       "Unit kosong — segera masuk"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Bangi Avenue 2, Bandar Baru Bangi, Selangor. Keluasan tanah 20' x 65' dengan ruang binaan lebih kurang 2,100 sqft, mengandungi 4 bilik tidur, 4 bilik air dan 1 bilik stor. Unit telah diubah suai dan sebahagiannya berperabot, berhadapan arah timur laut dan terletak dalam kawasan berpagar dengan pengawal (RM50 sebulan). Freehold berstatus Open, unit kosong dan sedia untuk dimiliki.",
     "amenities": [
       "Renovated",
@@ -3627,6 +3690,7 @@ window.LISTINGS = [
       "Gated & guarded, sekuriti 24 jam + lif",
       "Freehold | Non-Bumi"
     ],
+    "pelan": [],
     "description": "Apartmen end lot tingkat rendah di Anggerik Villa 2, Bandar Teknologi Kajang, Selangor — unit lebih luas iaitu 1,152 sqft dengan balkoni. Mempunyai 3 bilik tidur dan 2 bilik air, kabinet dapur serta kipas dan lampu asas, master title dan 1 tempat letak kereta berbumbung. Kemudahan kawasan termasuk taman permainan, kawalan keselamatan 24 jam, lif dan konsep gated & guarded. Yuran penyelenggaraan bersama sinking RM120. Freehold berstatus Non-Bumi. Unit sedang disewakan.",
     "amenities": [
       "End lot tingkat rendah",
@@ -3692,6 +3756,7 @@ window.LISTINGS = [
       "Anggaran pulangan kasar 4.56% setahun",
       "Tanah komersial utama Seksyen 8"
     ],
+    "pelan": [],
     "description": "Shoplot empat tingkat berserta basement di Seri Bangi, Seksyen 8, Bandar Baru Bangi, Selangor — menghadap jalan utama. Ruang lantai lebih kurang 4,125 sqft dengan penyewa sedia ada yang menjana pendapatan sewa RM11,400 sebulan (tingkat bawah dan basement RM7,200, tingkat 1 RM2,500, tingkat 2 RM1,700). Terletak di atas tanah komersial utama Seksyen 8 dengan akses mudah ke Kajang dan Seri Kembangan, Putrajaya serta Cyberjaya melalui PLUS, BESRAYA, SILK, LEKAS, SKVE dan LDP.",
     "amenities": [
       "4 tingkat + basement",
@@ -3753,6 +3818,7 @@ window.LISTINGS = [
       "Harga turun daripada RM595,000",
       "Kawasan berpagar: taman permainan, jogging track, kelab, keselamatan 24 jam"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat (intermediate) di Casa View, Cybersouth, Cyberjaya, Selangor. Keluasan tanah 20 kaki x 70 kaki (lebih kurang 1,400 sqft) dengan binaan lebih kurang 1,800 sqft, menempatkan 4 bilik tidur dan 3 bilik air. Unit asas berhakmilik strata dengan pajakan (non-bumi), menghadap ke selatan, dan yuran penyelenggaraan RM120 sebulan. Kawasan kediaman berpagar dengan taman permainan, jogging track, kelab penduduk dan pengawal keselamatan 24 jam. Berhampiran IOI City Mall, D'Pulze, SJK(C) Union Cyberjaya dan Limkokwing University; akses mudah melalui LDP, MEX, NKVE, SKVE dan ELITE. Harga telah diturunkan daripada RM595,000 kepada RM580,000 (nett).",
     "amenities": [
       "Taman permainan",
@@ -3812,6 +3878,7 @@ window.LISTINGS = [
       "Hakmilik pajakan (Malay reserved)",
       "Harga termurah di pasaran — RM705,000 (boleh runding)"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat (intermediate) di M3 Residence, Sungai Merab, Kajang, Selangor. Unit hampir baharu dengan status kosong (vacant possession) — belum diduduki, \"just like new\". Keluasan tanah 20 kaki x 87 kaki (1,780 sqft) dan binaan 1,890 sqft, menempatkan 4 + 1 bilik tidur serta 3 bilik air. Hakmilik pajakan (Malay reserved). Berhampiran UniTEN, UPM, Hospital Serdang, Hospital Putrajaya, IOI City Mall dan SK Desa Putra, dengan akses mudah melalui PLUS, SILK, SKVE dan LEKAS. Harga diminta RM705,000 (boleh runding).",
     "amenities": [
       "Unit hampir baharu / belum diduduki",
@@ -3873,6 +3940,7 @@ window.LISTINGS = [
       "Sedang disewakan RM950 sebulan — sesuai untuk pelaburan",
       "Yuran penyelenggaraan RM83 sebulan"
     ],
+    "pelan": [],
     "description": "Pangsapuri Sutera di Taman Kajang Utama, Kajang, Selangor — unit Blok B, tingkat 3 (walk-up), keluasan 980 kaki persegi dengan 3 bilik tidur dan 2 bilik air. Hakmilik bebas (freehold) secara strata, lengkap dengan balkoni dan yard, satu tempat letak kereta serta kabinet dapur. Unit sedang disewakan pada kadar RM950 sebulan — sesuai untuk pelaburan sewa. Yuran penyelenggaraan RM83 sebulan. Berhampiran surau, SMK/SK Kajang Utama dan MRT Kajang; kawasan berpagar dengan taman permainan.",
     "amenities": [
       "Keluasan 980 sqft",
@@ -3935,6 +4003,7 @@ window.LISTINGS = [
       "Harga turun daripada RM560,000 kepada RM550,000",
       "Termasuk 5 unit penghawa dingin & 2 pemanas air"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Taman Saujana Impian, Kajang, Selangor — unit menghadap corner lot dengan ruang parkir tambahan. Keluasan tanah 20 kaki x 80 kaki (1,600 sqft) dan binaan 1,600 sqft, menempatkan 5 bilik tidur (4 bilik asal serta 1 bilik extend) dan 3 bilik air. Unit telah diubah suai (renovated) dengan dapur extend penuh, dan disertakan 5 unit penghawa dingin serta 2 pemanas air. Berada dalam kawasan berpagar, berhampiran masjid (±400 m) dan taman permainan (±50 m), dengan akses mudah ke sekolah, kedai, stesen minyak serta lebuh raya SILK, LEKAS, PLUS dan Cheras-Kajang. Harga telah diturunkan daripada RM560,000 kepada RM550,000.",
     "amenities": [
       "Renovated + dapur extend penuh",
@@ -3997,6 +4066,7 @@ window.LISTINGS = [
       "Harga turun daripada RM590,000 kepada RM570,000 (nego)",
       "Akses mudah ke SILK, LEKAS & Grand Saga"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Taman Kajang Perdana, Kajang, Selangor. Unit telah diubah suai (renovated) dengan dapur extend penuh dan ditawarkan secara partial furnished — termasuk 3 unit penghawa dingin, kitchen cabinet, table top dan 1 wardrobe terbina. Keluasan tanah 22 kaki x 60 kaki dengan binaan 2,000 sqft, menempatkan 4 bilik tidur dan 3 bilik air. Kedudukannya berhampiran surau, sekolah, shoplot, stesen minyak dan Lotus's Kajang, dengan akses mudah ke lebuh raya SILK, LEKAS dan Grand Saga. Harga telah diturunkan daripada RM590,000 kepada RM570,000 (nego).",
     "amenities": [
       "Renovated + dapur extend penuh",
@@ -4060,6 +4130,7 @@ window.LISTINGS = [
       "Maintenance RM320.10 sebulan",
       "Kemudahan: sekuriti 24 jam, playground, dewan serbaguna & jogging track"
     ],
+    "pelan": [],
     "description": "Semi-D cluster tiga tingkat di Parkfield Residences, Tropicana Heights, Kajang, Selangor. Unit Freehold berstrata (Non-Bumi) ini mempunyai keluasan tanah 33 kaki x 70 kaki dan binaan 3,097 sqft, dengan 5+1 bilik tidur serta 5 bilik air. Unit telah diubah suai (renovated) dan sedia untuk diduduki. Kemudahan kediaman merangkumi sekuriti 24 jam, playground, dewan serbaguna dan jogging track, dengan maintenance RM320.10 sebulan.",
     "amenities": [
       "Sekuriti 24 jam",
@@ -4115,6 +4186,7 @@ window.LISTINGS = [
       "Gated & guarded — RM50 sebulan",
       "Unit diserahkan seperti dilihat (you get what you see)"
     ],
+    "pelan": [],
     "description": "The Strata Townhouse di Bandar Puteri Bangi, Selangor — unit bawah townhouse 1.5 tingkat dengan hakmilik Freehold (Non-Bumi). Keluasan tanah 26 kaki x 65 kaki (1,690 sqft) dan binaan 1,539 sqft, menempatkan 3 bilik tidur, 3 bilik air serta 2 bilik stor. Kawasan kediaman berpagar dan berkawal (gated & guarded) dengan bayaran RM50 sebulan. Berhampiran Lotus's Bandar Puteri Bangi, shoplot, Pasaraya CS Bangi Avenue, Star Grocer, Bangi Wonderland serta masjid, dan mudah diakses melalui lebuh raya PLUS (Exit Putra Mahkota), LEKAS dan ELITE.",
     "amenities": [
       "Gated & guarded (RM50/bulan)",
@@ -4178,6 +4250,7 @@ window.LISTINGS = [
       "Gated & guarded",
       "Harga turun daripada RM1.3 juta kepada RM1.19 juta"
     ],
+    "pelan": [],
     "description": "Rumah tiga tingkat di The Mulia Residence, Cyberjaya, Selangor. Unit Freehold (Non-Bumi) dengan kedudukan facing open ini mempunyai keluasan tanah 22 kaki x 70 kaki (1,540 sqft) dan binaan 2,386 sqft, menempatkan 5 bilik tidur dan 4 bilik air serta kitchen cabinet terbina. Kawasan kediaman berpagar dan berkawal (gated & guarded). Berhampiran Masjid Cyber 10 dan D'Pulze Shopping Centre, serta kemudahan petrol station, kedai runcit dan restoran. Harga telah diturunkan daripada RM1.3 juta kepada RM1.19 juta.",
     "amenities": [
       "Gated & guarded",
@@ -4237,6 +4310,7 @@ window.LISTINGS = [
       "Sewa RM3,500 sebulan",
       "Deposit: 2 bulan sewa + 1 bulan advance + 0.5 bulan utiliti"
     ],
+    "pelan": [],
     "description": "Unit fully furnished di Sunway Gandaria, Bandar Baru Bangi untuk disewa RM3,500 sebulan. Keluasan 1,157 sqft dengan 3 bilik tidur dan 2 bilik air di tingkat 23 (Type B), lengkap dengan 2 tempat letak kereta. Perabot disediakan termasuk kabinet dapur, peti sejuk, sofa, kabinet TV, set meja makan, kipas siling, penghawa dingin, set katil queen, katil single dan microwave. Kemudahan kondominium: kolam renang, gimnasium, sauna, jacuzzi, dewan serbaguna, taman permainan, kawasan BBQ, surau dan keselamatan 24 jam. Berhampiran Bangi Gateway Mall, Kompleks PKNS Bangi, Masjid Al-Hasanah, Hospital Pakar An-Nur, UKM dan UPM, dengan akses ke lebuh raya SILK, KL-Seremban, ELITE dan SKVE.",
     "amenities": [
       "Fully furnished",
@@ -4300,6 +4374,7 @@ window.LISTINGS = [
       "Ask RM340,000",
       "Kemudahan lengkap: kolam renang, gimnasium, jacuzzi, dewan serbaguna"
     ],
+    "pelan": [],
     "description": "Serviced apartment di Savanna Suites, Southville City, Bangi (Selangor) untuk dijual pada harga RM340,000. Keluasan 950 sqft dengan 3 bilik tidur dan 2 bilik air, unit intermediate dan lengkap fully furnished — sesuai untuk kediaman sendiri atau pelaburan sewa. Status Freehold, Non-Bumi. Kemudahan penduduk termasuk kolam renang, gimnasium, jacuzzi, reflexology park, dewan serbaguna, taman permainan, kawasan BBQ dan yoga deck. Berhampiran 7-Eleven, 99 Speedmart, kedai makan, klinik dan farmasi, sekolah serta universiti, dengan akses mudah ke lebuh raya MEX, SILK, SKVE, LEKAS dan ELITE.",
     "amenities": [
       "Fully furnished",
@@ -4362,6 +4437,7 @@ window.LISTINGS = [
       "Freehold · Bumi lot",
       "Sedia masuk (intake 4 Februari 2026)"
     ],
+    "pelan": [],
     "description": "Service residence corner unit di Savanna Suites, Blok C2, Tingkat 11, Southville City, Bangi (Selangor) untuk disewa RM2,000 sebulan. Keluasan 1,017 sqft dengan 3 bilik tidur dan 2 bilik air, dilengkapi balkoni dan 2 tempat letak kereta. Status Freehold, Bumi lot, intake 4 Februari 2026. Kemudahan kondominium termasuk kolam renang, gimnasium, jacuzzi, reflexology park, dewan serbaguna, taman permainan, kawasan BBQ dan yoga deck. Berhampiran 7-Eleven, 99 Speedmart, kedai makan, klinik dan farmasi, sekolah serta universiti, dengan akses ke lebuh raya MEX, SILK, SKVE, LEKAS dan ELITE.",
     "amenities": [
       "Corner unit",
@@ -4425,6 +4501,7 @@ window.LISTINGS = [
       "Lokasi dalam Bangi Gateway, Seksyen 15 Bandar Baru Bangi",
       "Akses mudah: Tol Bangi 3 minit, Putrajaya 15 minit"
     ],
+    "pelan": [],
     "description": "Office suite untuk dijual di Bangi Gateway, Seksyen 15, Bandar Baru Bangi (Selangor). Unit terletak di Tingkat 7 dengan keluasan ±899 sqft dan 2 bilik air — sesuai untuk pejabat, pusat operasi perniagaan atau pelaburan sewa. Status Leasehold sehingga 4 Oktober 2104. Market value RM630,000, kini ditawarkan pada harga RM430,000 (masih boleh dirunding). Lokasi sangat strategik: dalam Bangi Gateway Shopping Complex, berhampiran Little Bangi, Hospital An-Nur, Klinik, Masjid Teras Jernang, sekolah rendah & menengah, UKM, Petronas Seksyen 15 dan Kompleks Sukan Seksyen 15. Mudah diakses — Tol Bangi hanya 3 minit, Putrajaya 15 minit, Dengkil 16 minit dan Kajang 20 minit.",
     "amenities": [
       "Tingkat 7",
@@ -4488,6 +4565,7 @@ window.LISTINGS = [
       "Hadapan Utara · belakang menghadap taman permainan",
       "Presint 11 Putrajaya — berhampiran Taman Saujana Hijauan & SK Putrajaya Presint 11(3)"
     ],
+    "pelan": [],
     "description": "Rumah 2 tingkat superlink untuk dijual di Pelangi Resident, Presint 11, Putrajaya. Keluasan binaan 2,742 sqft dengan tanah 28x80, menawarkan 5 bilik tidur dan 6 bilik air — sesuai untuk keluarga besar. Status hakmilik Freehold Open, unit dalam keadaan separa perabot dan telah diubah suai. Orientasi hadapan Utara dan bahagian belakang menghadap taman permainan. Harga permintaan RM1,290,000. Lokasi di Presint 11 Putrajaya dengan kemudahan sekitar Taman Saujana Hijauan, SK Putrajaya Presint 11(3), Surau Al-Firdaus dan Kompleks Kejiranan Presint 11.",
     "amenities": [
       "2,742 sqft binaan",
@@ -4548,6 +4626,7 @@ window.LISTINGS = [
       "Separa perabot — 3 unit penghawa dingin, pemanas air, kabinet dapur, almari setiap bilik",
       "Facing open (menghadap taman permainan) · arah Barat Laut"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat (intermediate) untuk dijual di TTDI Grove 4 (Zinnia), Kajang, Selangor. Keluasan binaan 2,502 sqft dengan tanah 1,540 sqft (22x70), menawarkan 4+1 bilik tidur dan 3 bilik air. Unit telah diubah suai dan diperluas dengan kelulusan MP Kajang, dalam keadaan separa perabot termasuk 3 unit penghawa dingin, pemanas air, table top, kabinet dapur dan almari di setiap bilik. Orientasi Barat Laut dengan pemandangan terbuka menghadap taman permainan. Harga permintaan kini RM770,000 — turun daripada RM787,000 (masih boleh dirunding).",
     "amenities": [
       "2,502 sqft binaan",
@@ -4609,6 +4688,7 @@ window.LISTINGS = [
       "Dekat pasar raya (Giant, CS Hypermarket) & McDonald's",
       "Akses mudah ke Kajang Town, SILK & Lebuhraya Grand Saga"
     ],
+    "pelan": [],
     "description": "Rumah teres 1 tingkat untuk dijual di Taman Kantan Permai, Kajang, Selangor. Keluasan binaan ±1,150 sqft dengan tanah 20x70 (1,400 sqft), menawarkan 2 bilik tidur dan 2 bilik air. Unit telah diubah suai dengan extended di bahagian depan dan dapur — sedia untuk didiami. Lokasi dalam kawasan kediaman yang tenang, berhampiran SK Kantan Permai, masjid, dewan komuniti, serta pasar raya seperti Giant, CS Hypermarket dan Family Mart. Akses mudah ke Kajang Town melalui SILK dan Lebuhraya Grand Saga. Harga permintaan RM380,000 (boleh dirunding).",
     "amenities": [
       "1,150 sqft binaan",
@@ -4669,6 +4749,7 @@ window.LISTINGS = [
       "Kawasan gated & guarded",
       "Dekat MRT Sungai Jernih, LEKAS & Grand Saga"
     ],
+    "pelan": [],
     "description": "Rumah superlink 2 tingkat (intermediate) untuk dijual di Prima Saujana, Kajang, Selangor. Tanah seluas 1,798 sqft (25x70) dengan 5+1 bilik tidur dan 4 bilik air — sesuai untuk keluarga besar. Unit dalam keadaan separa perabot dengan dapur yang telah diubah suai, di dalam kawasan kediaman gated & guarded. Kemudahan sekitar termasuk Lotus's, CS dan Checkers Supermarket, SMK & SK Saujana Impian, Masjid Prima Saujana, serta MRT Sungai Jernih. Akses pantas melalui LEKAS, Grand Saga dan SILK ke Kajang Town, Putrajaya dan Kuala Lumpur. Harga permintaan RM618,000.",
     "amenities": [
       "Superlink 2 tingkat",
@@ -4730,6 +4811,7 @@ window.LISTINGS = [
       "Deposit fleksibel · booking RM1,000 sahaja",
       "Dekat MRT (Sungai Jernih / Stadium Kajang) & LEKAS"
     ],
+    "pelan": [],
     "description": "Rumah teres 2.5 tingkat untuk dijual di Puncak Saujana, Kajang, Selangor. Tanah 20x80 (1,600 sqft) dengan 4 bilik tidur dan 3 bilik air, telah fully extended dan berada dalam kawasan gated & guarded. Unit diserahkan dalam keadaan separa perabot termasuk kabinet dapur, almari, penghawa dingin dan sofa. Pembelian lebih mudah dengan deposit fleksibel dan booking serendah RM1,000. Lokasi strategik berhampiran sekolah, masjid, bank, klinik, hospital, pasar raya (CS, Checkers, Lotus's) serta MRT Sungai Jernih dan Stadium Kajang; akses melalui LEKAS, Grand Saga dan Lebuhraya Persekutuan. Harga permintaan RM620,000 (boleh dirunding).",
     "amenities": [
       "2.5 tingkat teres",
@@ -4791,6 +4873,7 @@ window.LISTINGS = [
       "Freehold — bukan Bumi Lot",
       "Harga turun RM680,000 → RM630,000"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat (intermediate) untuk dijual di Prima Saujana, Kajang, Selangor. Tanah 20x60 (1,200 sqft) dengan 4 bilik tidur dan 3 bilik air, serta 1 lot parking berbumbung. Unit telah diubah suai termasuk dapur renovated dan kabinet dapur — sedia untuk didiami. Status hakmilik Freehold bukan Bumi Lot. Lokasi berhampiran SK & SMK Saujana Impian, masjid dan surau, pasar raya (Lotus's, CS, Giant), MRT Sungai Jernih, Metro Point dan Metro Plaza Kajang. Akses melalui LEKAS, Grand Saga dan SILK. Harga permintaan kini RM630,000 — turun daripada RM680,000.",
     "amenities": [
       "2 tingkat teres",
@@ -4851,6 +4934,7 @@ window.LISTINGS = [
       "7 unit aircond, tangki air tambahan 900 gelen & solar",
       "Kawasan 24 jam security — gated & guarded"
     ],
+    "pelan": [],
     "description": "Semi-D 2 tingkat yang telah diubah suai sepenuhnya untuk dijual di Taman Tropika 2, Kajang, Selangor. Unit ini berdiri di atas tanah 35' x 70' (2,450 sqft) berstatus Freehold Non-Bumi, menawarkan 5+1 bilik tidur dan 5 bilik air — cukup luas untuk keluarga besar. Kerja pengubahsuaian merangkumi dapur basah berkabinet 25x7, kabinet dapur kering penuh, built-in wardrobe di 3 bilik, kabinet ruang keluarga dan penambahan tangki air 900 gelen. Unit juga diserahkan secara separuh berperabot dengan 7 unit aircond, kabinet kasut dan sistem solar. Kawasan kediaman berpagar dan berkawal 24 jam. Lokasi strategik berhampiran surau, 99 Speedmart, 7-Eleven, Bangi Gateway, Bangi Sentral, KIP Mall, Econsave, PKNS dan Bangi Utama; berdekatan UKM, GMI, Kolej Polytech MARA, UniKL dan MFI serta stesen komuter UKM, MRT Kajang dan Hentian Bas Kajang. Akses mudah melalui LEKAS, SILK, PLUS dan SKVE. Harga permintaan RM990,000 (NETT).",
     "amenities": [
       "5+1 bilik tidur",
@@ -4914,6 +4998,7 @@ window.LISTINGS = [
       "Fasiliti lengkap: kolam renang, sauna, gym, dewan serbaguna",
       "Sedia masuk (ready move-in)"
     ],
+    "pelan": [],
     "description": "Serviced apartment Savanna Executive Suites @ Southville City, Bangi untuk disewa pada kadar RM2,200 sebulan. Unit di Block D1 (aras sederhana, dengan French balcony) ini mempunyai keluasan binaan 956 sqft dengan 3 bilik tidur dan 2 bilik air, serta 2 tempat letak kereta berbumbung. Unit diserahkan secara separuh berperabot — sofa set, kabinet TV, meja makan, dapur basah dan kering berkabinet, dapur memasak, peti sejuk, mesin basuh, katil queen dan single, meja belajar serta 4 unit penghawa dingin dan 2 pemanas air. Fasiliti kondominium merangkumi kawalan keselamatan 24 jam (gated & guarded), kolam renang, sauna, gimnasium lengkap, taman permainan, ruang barbeku, dewan serbaguna, minimart dan akses lif. Lokasi strategik dengan akses terus ke Lebuhraya PLUS melalui Southville City Interchange serta berhampiran UKM Bangi, UniKL MFI, KUIS dan KLIA. Syarat penyewa: Muslim / pelajar perempuan sahaja, maksimum 6 pax. Unit sedia untuk diduduki.",
     "amenities": [
       "956 sqft binaan",
@@ -4978,6 +5063,7 @@ window.LISTINGS = [
       "Unit basic — sedia untuk diubah suai mengikut citarasa sendiri",
       "Deposit flexible"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat untuk dijual di Taman Sri Kejora, Sungai Chua, Kajang, Selangor. Unit ini berdiri di atas tanah 20' x 70' (1,400 sqft) dengan keluasan binaan lebih kurang 1,593 sqft, berstatus Freehold Non-Bumi, menawarkan 4 bilik tidur dan 3 bilik air. Unit dalam keadaan basic dengan laman belakang 5-8 kaki, menghadap open dan menghadap utara — sesuai untuk pembeli yang ingin mengubah suai mengikut citarasa sendiri. Kemudahan berdekatan termasuk SK Seksyen 7, restoran, Surau Al-Islah, deretan kedai, JPJ Bangi, Speedmart, Shell, Petronas, 7-Eleven, CS Jaya Grocer, dobi, Mydin dan Pustaka Rakyat. Akses mudah melalui Lebuhraya SILK, PLUS dan LEKAS. Harga permintaan RM450,000 dan deposit flexible.",
     "amenities": [
       "4 bilik tidur · 3 bilik air",
@@ -5038,6 +5124,7 @@ window.LISTINGS = [
       "7 bilik tidur & 2 bilik air",
       "Harga diturunkan dari RM1,500,000"
     ],
+    "pelan": [],
     "description": "Bungalow 1.5 tingkat corner lot di Seksyen 3, Bandar Baru Bangi dengan tanah 8,342 sqft dan binaan 4,300 sqft. Reka bentuk individual berkonsep split level dengan 3 ruang tamu berasingan, 7 bilik tidur dan 2 bilik air. Selesa untuk keluarga besar dan lokasi matang berhampiran pusat pengajian, surau dan kemudahan harian. Harga baru RM1,300,000 (turun dari RM1,500,000).",
     "amenities": [
       "Ruang tamu split level (3 ruang berasingan)",
@@ -5098,6 +5185,7 @@ window.LISTINGS = [
       "Unit basic — sedia untuk dihias ikut citarasa",
       "Harga di bawah pasaran (turun dari RM520,000)"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat freehold di Sungai Sekamat, Kajang. Tanah 20 x 65 (1,300 sqft) dengan binaan lebih kurang 1,400 sqft, 4 bilik tidur dan 3 bilik air. Unit basic yang sesuai untuk keluarga atau pelaburan, lokasi strategik berhampiran MRT dan kemudahan awam. Harga RM500,000 sahaja.",
     "amenities": [
       "Ruang tamu & ruang makan",
@@ -5157,6 +5245,7 @@ window.LISTINGS = [
       "Binaan 2,800 sqft",
       "Nilai baik — rumah perlu refurbished"
     ],
+    "pelan": [],
     "description": "Bungalow 2 tingkat freehold (Malay Reserve) di Sungai Ramal, Kajang. Tanah 5,096 sqft dan binaan lebih kurang 2,800 sqft dengan 5 bilik tidur, 4 bilik air dan 1 store. Unit intermediate yang memerlukan kerja naik taraf — peluang baik untuk pembeli yang mahu mengubah suai mengikut citarasa sendiri. Harga RM1,100,000 NETT.",
     "amenities": [
       "Ruang tamu luas",
@@ -5223,6 +5312,7 @@ window.LISTINGS = [
       "Diubah suai untuk sewa bilik, permintaan tinggi",
       "Harga RM380,000 (boleh runding)"
     ],
+    "pelan": [],
     "description": "Kondo Vista Bangi di Jalan Reko, Kajang — unit freehold 850 sqft yang diubah suai untuk sewa bilik dengan 5 bilik tidur dan 2 bilik air. Diserahkan fully furnished (katil, almari baju, meja belajar, peti sejuk, mesin basuh, hob memasak, pemanas air, WiFi). Permintaan sewa tinggi kerana berhampiran UKM, GMI dan UniKL. Sesuai untuk pelaburan sewa.",
     "amenities": [
       "Kolam renang",
@@ -5291,6 +5381,7 @@ window.LISTINGS = [
       "Harga diturunkan dari RM1,400,000",
       "Sedang disewa (tenanted) — sesuai untuk pelaburan"
     ],
+    "pelan": [],
     "description": "Semi-D 3 tingkat di Nadayu 92 Fasa 2, Kajang 2 — intermediate lot, freehold strata title. Built-up 4,579 sqft dengan tanah 40' x 90' (3,600 sqft), 5 bilik tidur dan 5 bilik air serta 1 bilik utility dan 1 stor. Dapur telah diubah suai, aircond di setiap bilik dan ruang tamu, 2 balkoni dan car porch besar. Kawasan gated & guarded dengan kolam renang, dewan serbaguna, playground, CCTV dan access card. Menghadap selatan. Harga baharu RM1,200,000 (turun dari RM1,400,000).",
     "amenities": [
       "Kolam renang",
@@ -5358,6 +5449,7 @@ window.LISTINGS = [
       "Kolam renang besar",
       "Gated & guarded 24 jam (maintenance RM300/bln)"
     ],
+    "pelan": [],
     "description": "Bungalow 2 tingkat di Perdana Lakeview East, Cyberjaya — freehold, non-bumi, menghadap timur dengan pemandangan tasik. Tanah 90' x 126' dengan built-up lebih kurang 5,700 sqft, 5+1 bilik tidur dan 7 bilik air. Unit telah diubah suai, semi-furnished dengan smart home dan kolam renang besar. Kawasan 24 jam gated & guarded, maintenance RM300 sebulan. Lokasi premium berhampiran pusat membeli-belah, hospital, sekolah antarabangsa dan universiti, dengan akses mudah ke MEX, ELITE dan LDP.",
     "amenities": [
       "Kolam renang besar",
@@ -5421,6 +5513,7 @@ window.LISTINGS = [
       "Tiada aircond (penyewa bawa sendiri)",
       "Sedia diduduki hujung September 2026"
     ],
+    "pelan": [],
     "description": "Apartmen untuk disewa di Vista Bangi, Jalan Reko, Bangi. Unit tingkat 33 dengan 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta, menghadap sungai. Perabot disediakan: kabinet dapur, peti sejuk, mesin basuh, 2 pemanas air, penyangkut baju setiap bilik, 1 katil queen dan katil single serta 4 meja belajar. Tiada aircond. Sewa RM2,200 sebulan (boleh runding), sedia diduduki hujung September 2026. Akses mudah ke Bandar Baru Bangi, UKM Bangi dan lebuh raya SILK/LEKAS/PLUS.",
     "amenities": [
       "Kabinet dapur",
@@ -5483,6 +5576,7 @@ window.LISTINGS = [
       "Gated & guarded 24 jam (security fee RM100/bln)",
       "Dekat Bangi Avenue, Bandar Seri Putra, KUIS, USIM & UKM"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat corner lot di Kasih Residence, Setia Alamsari, Bangi. Unit basic yang belum pernah diduduki (siap sekitar 2021) dengan tanah 4,217 sqft dan built-up 2,000 sqft. Menghadap selatan di lokasi cul-de-sac — tanah lapang, sesuai untuk keluarga. Terdiri daripada 4 bilik tidur dan 4 bilik air serta 1 bilik stor. Pegangan freehold, open lot, individual title dan kawasan gated & guarded 24 jam dengan security fee RM100 sebulan. Lokasi strategik berhampiran Bangi Avenue, Bandar Seri Putra, Bukit Mahkota dan Bangi Lama, dengan akses mudah ke lebuh raya LEKAS dan PLUS serta jarak dekat ke KUIS, USIM, UKM, UniKL MFI dan UNITEN.",
     "amenities": [
       "Corner lot",
@@ -5549,6 +5643,7 @@ window.LISTINGS = [
       "Maintenance rendah RM242/bln",
       "Kemudahan lengkap: kolam, gim, dewan serbaguna, badminton, security 24 jam"
     ],
+    "pelan": [],
     "description": "Kondominium Residensi Zamrud, Kajang — unit di Blok D, tingkat 10 dengan pemandangan tanpa halangan (no block view). Built-up 1,023 sqft, 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta. Pegangan freehold dengan strata title ready dan maintenance fee RM242 sebulan. Unit sedang disewa (tenanted) — pilihan baik untuk pelaburan atau kediaman sendiri. Kemudahan kondominium termasuk kolam renang, gimnasium, dewan serbaguna, gelanggang badminton dan kawalan keselamatan 24 jam dengan access card. Lokasi berhampiran KTM Kajang 2 dan MRT Kajang, dengan akses mudah ke LEKAS, SILK, Grand Saga, SKVE dan PLUS.",
     "amenities": [
       "Kolam renang",
@@ -5613,6 +5708,7 @@ window.LISTINGS = [
       "Kawasan gated & guarded, menghadap utara",
       "Dekat KipMall Bangi, SK Seksyen 7 & Bangi Golf Club"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat intermediate di Seksyen 7, Bandar Baru Bangi — lokasi matang dengan kemudahan lengkap. Built-up lebih kurang 1,400 sqft dengan tanah 22' x 75', 3 bilik tidur dan 3 bilik air. Unit basic, menghadap utara dan berada dalam kawasan gated & guarded. Pegangan leasehold Bumi Lot. Harga diminta di bawah nilai pasaran — peluang baik untuk pemilik pertama atau pelaburan. Berhampiran SK Seksyen 7, KipMall Bangi, Surau Darul Mahabbah dan Bangi Golf Club.",
     "amenities": [
       "Gated & guarded",
@@ -5675,6 +5771,7 @@ window.LISTINGS = [
       "3 unit aircond, 5 kipas siling, kabinet dapur penuh tinggi (hood & hob)",
       "Clubhouse, kolam renang, gim, playground & bilik mesyuarat"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat end lot di Setia Safiro, Cyber 10, Cyberjaya — terletak di tepi sungai dengan tiada rumah terus di belakang, memberi privasi tinggi dan pengudaraan yang baik. Tanah 1,400 sqft (20' x 70') dengan built-up 1,960 sqft, 4 bilik tidur dan 3 bilik air. Kelengkapan termasuk 3 unit aircond Samsung, 5 kipas siling, wardrobe terbina di bilik utama, 2 unit pemanas air, kabinet dapur penuh tinggi dengan hood & hob, kabinet ruang makan dengan microwave Livinox dan oven Electrolux serta langsir. Kawasan kediaman berpagar dengan kemudahan clubhouse, kolam renang, gimnasium, playground dan bilik mesyuarat. Berhampiran Tamarind Square, DPULZE Shopping Mall, Hospital Cyberjaya dan sekolah, dengan akses mudah ke ELITE dan MEX serta Lebuhraya Putrajaya–Cyberjaya.",
     "amenities": [
       "End lot tepi sungai",
@@ -5741,6 +5838,7 @@ window.LISTINGS = [
       "Penyelenggaraan rendah: RM132 sebulan, hakmilik strata",
       "Dekat Hospital Sg Chua, sekolah, Masjid Sg Ramal, PLUS/LEKAS & UKM/UPM"
     ],
+    "pelan": [],
     "description": "Kondominium Kenaria, Kajang — unit semi-furnished di tingkat 5 dengan keluasan 850 sqft, 3 bilik tidur dan 2 bilik air. Unit ini menghadap kolam renang (bukan jalan utama) dan disediakan kabinet dapur, kipas siling, lampu, 1 pemanas air serta kabinet ruang tamu terbina. Pemilik mendapat 1 tempat letak kereta dan 1 tempat letak motosikal berserta 2 kad akses. Penyelenggaraan bulanan hanya RM132 dan unit ini berhakmilik strata. Lokasi strategik: berhampiran Hospital Sungai Chua, sekolah, Masjid Sungai Ramal serta akses mudah ke lebuhraya PLUS/LEKAS dan universiti UKM/UPM. Sesuai untuk keluarga atau pelabur yang mencari unit sedia diduduki pada harga berpatutan.",
     "amenities": [
       "Semi-furnished",
@@ -5805,6 +5903,7 @@ window.LISTINGS = [
       "Katil single & meja belajar disediakan",
       "Sedia masuk hujung September 2026"
     ],
+    "pelan": [],
     "description": "Sewa kondominium Vista Bangi, Jalan Reko, Kajang — 850 sqft, 3 bilik tidur dan 2 bilik air, terletak di tingkat 30 (unit B9) dengan pemandangan menghadap sungai yang lapang dan berangin. Unit disewakan dalam keadaan furnished termasuk kabinet dapur, peti sejuk, mesin basuh, almari, kipas siling, lampu, katil single dan meja belajar. Terdapat 1 unit aircond di bilik utama dan 1 unit pemanas air. Penyewa mendapat 2 tempat letak kereta. Unit sedia diduduki hujung September 2026, sesuai untuk keluarga kecil atau pekerja di kawasan Kajang/Bangi yang memerlukan akses mudah ke UKM, GMI dan MRT/KTM.",
     "amenities": [
       "Furnished",
@@ -5865,6 +5964,7 @@ window.LISTINGS = [
       "Menghadap UKM, pemandangan ke arah Semenyih",
       "Sewa RM2,300 sebulan"
     ],
+    "pelan": [],
     "description": "Sewa kondominium Vista Bangi, Jalan Reko, Kajang — unit B-34-07 di tingkat 34 dengan built-up lebih besar iaitu 1,000 sqft, 3 bilik tidur dan 2 bilik air. Unit dalam keadaan partial furnished, kosong dan sedia dimasuki pada bila-bila masa. Diselenggarakan dengan 3 unit aircond (2 di bilik tidur dan 1 di ruang tamu) untuk keselesaan seisi rumah. Parkir jenis tandem disediakan. Pemandangan unit menghadap UKM dan ke arah Semenyih — lokasi sangat sesuai untuk keluarga, pensyarah atau pelajar pascasiswazah yang ingin tinggal berhampiran kampus dengan akses ke MRT/KTM dan lebuhraya SILK, LEKAS serta PLUS.",
     "amenities": [
       "Partial furnished",
@@ -5920,6 +6020,7 @@ window.LISTINGS = [
       "Harga bawah nilai pasaran — RM380,000 (boleh runding)",
       "Kemudahan lengkap: kolam renang, gim, sauna, dewan, surau, shoplot"
     ],
+    "pelan": [],
     "description": "Peluang pelaburan di Vista Bangi, Jalan Reko, Kajang — unit kondominium 850 sqft yang telah diubah suai (renovated) dan diserahkan fully furnished dengan 5 bilik tidur dan 2 bilik air, sesuai untuk subletter atau pelabur yang mahu pulangan sewa serta-merta memandangkan permintaan tinggi daripada penuntut UKM dan pekerja sekitar. Unit disertakan 2 tempat letak kereta dan lokasinya dalam jarak berjalan kaki ke stesen MRT dan KTM. Harga permintaan RM380,000 (bawah nilai pasaran, boleh dirunding). Kemudahan kondominium lengkap termasuk kolam renang, gimnasium, dewan serbaguna, playground, surau, nursery, sauna, bilik teater dan shoplot dalam kawasan. Akses pantas: 3 minit ke SILK, 5 minit ke LEKAS/PLUS.",
     "amenities": [
       "Fully furnished & renovated",
@@ -5984,6 +6085,7 @@ window.LISTINGS = [
       "3 katil queen size, almari baju & meja belajar",
       "Berdekatan UKM/GMI serta stesen MRT & KTM — sesuai pelajar dan pekerja"
     ],
+    "pelan": [],
     "description": "Kondominium Vista Bangi di Jalan Reko, Kajang, Selangor untuk disewa pada RM2,500 sebulan. Unit di tingkat 38 ini mempunyai 3 bilik tidur dan 2 bilik air dengan 2 tempat letak kereta. Disewakan dalam keadaan furnished — 4 unit penghawa dingin (3 bilik dan ruang tamu), kabinet dapur, kipas siling dan lampu, peti sejuk, mesin basuh, pemanas air, 3 katil queen size, almari baju serta meja belajar. Kedudukan strategik berhampiran UKM dan GMI, dengan stesen MRT dan KTM dalam jarak berjalan kaki, serta mudah diakses ke Lebuhraya SILK, LEKAS dan PLUS. Pilihan sesuai untuk pelajar, pekerja atau keluarga kecil yang mahukan keselesaan serta lokasi yang lebih dekat dengan pusat pengajian dan pengangkutan awam.",
     "amenities": [
       "2 tempat letak kereta",
@@ -6046,6 +6148,7 @@ window.LISTINGS = [
       "Gated & guarded, hanya 10 meter dari clubhouse",
       "Berdekatan MMU, Tamarind Square dan akses MEX/LDP/SKVE"
     ],
+    "pelan": [],
     "description": "Rumah superlink dua tingkat di Maple Residence, Persiaran Laman View, Cyberjaya, Selangor. Ditawarkan pada RM1,250,000 (boleh runding) dengan binaan 2,000 kaki persegi (23 x 85) dan kawasan tanah 2,000 kaki persegi. Unit ini berstatus freehold Bumi Lot dan strata title sudah sedia. Ia telah melalui pengubahsuaian utama termasuk plaster ceiling (siling rata), bilik cuci dan dapur kering. Mempunyai 4 bilik tidur dan 4 bilik air, dalam kawasan gated & guarded dengan kemudahan clubhouse, kolam renang, gym, sauna, jacuzzi, surau serta taman permainan — dan hanya 10 meter dari clubhouse. Lokasi tumpuan Cyberjaya: 4 minit ke Masjid Cyberjaya, 7 minit ke MMU, 5 minit ke Tamarind Square dan King Henry VIII School, serta 5 minit ke MEX Highway untuk ke Kuala Lumpur dan Putrajaya.",
     "amenities": [
       "24 jam keselamatan",
@@ -6110,6 +6213,7 @@ window.LISTINGS = [
       "Grill penuh dan awning, tingkat 3 (walk-up), 1 parkir terbuka",
       "Berdekatan MRT, Mydin/Giant, hospital dan universiti"
     ],
+    "pelan": [],
     "description": "Apartmen Sri Ros Blok C di Sepakat Indah 2, Kajang, Selangor — pilihan mampu milik pada RM200,000 (nett). Keluasan 854 kaki persegi dengan 3 bilik tidur dan 2 bilik air, terletak di tingkat 3 (walk-up) dan disertakan 1 tempat letak kereta terbuka serta kawalan keselamatan 24 jam. Unit telah ditambah baik: lantai fully tiles di ruang tamu, dapur dan bilik utama, lengkap dengan kabinet dapur, 2 unit penghawa dingin (ruang tamu dan bilik utama), 2 unit pemanas air, cooker hood serta hob, grill penuh dan awning. Kemudahan dalam kawasan termasuk taman permainan, mini market dan gelanggang badminton. Lokasinya dekat dengan Mydin, Giant, stesen MRT, shoplot, stesen minyak dan hospital, dengan akses mudah ke Lebuhraya Cheras–Kajang, SILK, PLUS dan LEKAS.",
     "amenities": [
       "Kawalan keselamatan 24 jam",
@@ -6174,6 +6278,7 @@ window.LISTINGS = [
       "Kabinet dapur, katil queen + single, kelengkapan sedia ada",
       "Kemudahan: kolam renang, gym, badminton, surau, kedai & dobi"
     ],
+    "pelan": [],
     "description": "Kondominium Canopy Hill di Kajang 2 (berhampiran Bandar Baru Bangi), Selangor untuk disewa pada RM1,400 sebulan. Unit seluas 590 kaki persegi dengan 3 bilik tidur dan 1 bilik air di Blok A, tingkat 16, serta 1 tempat letak kereta berbumbung di tahap 2. Unit disewakan fully furnished — kabinet dapur kemas, 1 katil queen dan 1 katil single, penapis air Coway, 3 unit penghawa dingin dan kunci pintu pintar. Deposit 2+1+0.5 ditambah perjanjian sewa. Kemudahan dalam kawasan termasuk 7-Eleven, mart, dobi dan restoran, kolam renang, gym, gelanggang badminton, surau serta gelanggang bola keranjang dan futsal. Lokasi dekat Bandar Baru Bangi dan akses mudah ke Lebuhraya SILK serta LEKAS.",
     "amenities": [
       "Fully furnished",
@@ -6238,6 +6343,7 @@ window.LISTINGS = [
       "3 unit penghawa dingin, mesin basuh, katil queen + super single + single",
       "Kemudahan: kolam renang, gym, badminton, surau, kedai & dobi"
     ],
+    "pelan": [],
     "description": "Kondominium Canopy Hill di Kajang 2 (berhampiran Bandar Baru Bangi), Selangor untuk disewa pada RM1,400 sebulan. Unit seluas 590 kaki persegi di Blok A, tingkat 18, mempunyai 3 bilik tidur dan 1 bilik air, serta 1 tempat letak kereta berbumbung. Unit disewakan fully furnished — telah diubah suai kepada 3 bilik, lengkap dengan kabinet dapur, 3 unit penghawa dingin, mesin basuh, 1 katil queen, 1 katil super single dan 1 katil single. Deposit sewa 2+1+0.5+TA. Kemudahan kediaman termasuk kolam renang, gym, gelanggang badminton, surau, gelanggang bola keranjang dan futsal, serta kedai 7E, mart, dobi, restoran dan kedai buku di dalam kawasan.",
     "amenities": [
       "Fully furnished",
@@ -6303,6 +6409,7 @@ window.LISTINGS = [
       "Katil 3 single + 1 double decker",
       "Kemudahan: kolam renang, gym, badminton, surau, kedai & dobi"
     ],
+    "pelan": [],
     "description": "Kondominium Canopy Hill di Kajang 2 (berhampiran Bandar Baru Bangi), Selangor untuk disewa pada RM1,300 sebulan. Unit 590 kaki persegi di Blok A, tingkat 20, dengan 2 bilik tidur dan 1 bilik air, serta 1 tempat letak kereta berbumbung. Disewakan fully furnished — kabinet dapur kemas, mesin basuh, 2 unit penghawa dingin, 3 katil single dan 1 katil double decker. Deposit sewa 1+1+0.5+TA. Kemudahan kediaman termasuk kolam renang, gym, gelanggang badminton, surau, gelanggang bola keranjang dan futsal, serta kedai 7E, mart, dobi, restoran dan kedai buku di dalam kawasan.",
     "amenities": [
       "Fully furnished",
@@ -6364,6 +6471,7 @@ window.LISTINGS = [
       "Kabinet dapur + 1 katil queen & 1 katil single",
       "Kemudahan: kolam renang, gym, badminton, surau, kedai & dobi"
     ],
+    "pelan": [],
     "description": "Kondominium Canopy Hill di Kajang 2 (berhampiran Bandar Baru Bangi), Selangor untuk disewa pada RM1,250 sebulan dengan deposit rendah (1+1+0.5+TA). Unit 590 kaki persegi di Blok A, tingkat 19, menghadap kolam renang (pool view), dengan 2 bilik tidur dan 1 bilik air serta 1 tempat letak kereta berbumbung. Unit disewakan dalam keadaan furnished — kabinet dapur kemas, 1 katil queen dan 1 katil single, mesin basuh akan disediakan; unit ini tidak disertakan penghawa dingin. Kemudahan kediaman termasuk kolam renang, gym, gelanggang badminton, surau, gelanggang bola keranjang dan futsal, serta kedai 7E, mart, dobi, restoran dan kedai buku di dalam kawasan.",
     "amenities": [
       "Pool view",
@@ -6428,6 +6536,7 @@ window.LISTINGS = [
       "Tiada RPGT (nota agen)",
       "Akses Dengkil Bypass, ELITE & Lebuh KLIA"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat (intermediate) di Casa View, Cybersouth Dengkil, Selangor — ditawarkan pada RM680,000 (boleh runding). Unit berkeluasan tanah 20 kaki x 70 kaki dengan binaan 1,959 kaki persegi, mempunyai 4 bilik tidur dan 3 bilik air, berstatus Leasehold (open) dan menghadap South-East. Unit kini disewakan pada RM2,000 sebulan. Kemudahan kawasan termasuk clubhouse, playground, gelanggang futsal dan jogging track. Berhampiran SMK & SK Dengkil, SMK & SK Cyberjaya, Masjid Dengkil dan Cyberjaya, Hospital Cyberjaya dan Hospital Putrajaya, UiTM Dengkil, Xiamen University, serta Dpulze, Kip Mall dan Alamanda. Akses mudah melalui Dengkil Bypass, ELITE, Jalan Dengkil-Banting dan Lebuh KLIA.",
     "amenities": [
       "Clubhouse",
@@ -6492,6 +6601,7 @@ window.LISTINGS = [
       "Berhampiran SMK & SK Dengkil/Cyberjaya, Hospital Cyberjaya & Putrajaya",
       "Akses Dengkil Bypass, ELITE & Lebuh KLIA"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat (intermediate) di Casa View, Cybersouth Dengkil, Selangor — ditawarkan pada RM780,000 (boleh runding). Unit berkeluasan tanah 22 kaki x 75 kaki dengan binaan 2,200 kaki persegi, mempunyai 5 bilik tidur dan 4 bilik air, serta 3 balkoni di bilik-bilik tingkat atas. Status tanah Leasehold (Bumi Lot), menghadap North-West dan berada dalam kawasan berpagar serta berkawal. Unit kini disewakan pada RM2,000 sebulan. Kemudahan kawasan termasuk clubhouse, playground, gelanggang futsal dan jogging track. Berhampiran SMK & SK Dengkil, SMK & SK Cyberjaya, Masjid Dengkil dan Cyberjaya, Hospital Cyberjaya dan Hospital Putrajaya, UiTM Dengkil, Xiamen University, serta Dpulze, Kip Mall dan Alamanda. Akses mudah melalui Dengkil Bypass, ELITE, Jalan Dengkil-Banting dan Lebuh KLIA.",
     "amenities": [
       "Clubhouse",
@@ -6555,6 +6665,7 @@ window.LISTINGS = [
       "Berjalan kaki ke deretan kedai",
       "Akses PLUS, SILK, LEKAS & Cheras-Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat (intermediate) di Seksyen 8, Bandar Baru Bangi (Seri Bangi), Selangor — ditawarkan pada RM650,000 (nett). Unit mempunyai tanah seluas 22 kaki x 75 kaki dengan binaan 2,320 kaki persegi, 4 bilik tidur dan 3 bilik air. Status tanah Leasehold (Bumi Lot) dan berada dalam kawasan berpagar serta berkawal. Lokasi hanya jarak berjalan kaki ke deretan kedai, dengan akses mudah melalui Lebuhraya PLUS, SILK, LEKAS dan Cheras-Kajang.",
     "amenities": [
       "Gated & guarded",
@@ -6614,6 +6725,7 @@ window.LISTINGS = [
       "Parking berbumbung & keselamatan 24 jam",
       "Akses MRT/KTM Kajang, KTM UKM, PLUS, BESRAYA, LEKAS, SILK & LDP"
     ],
+    "pelan": [],
     "description": "Apartmen medium cost (ready strata) di Blok D, tingkat 9, Apartment Bangi Idaman, Seksyen 5 Bandar Baru Bangi, Selangor — ditawarkan pada RM275,000. Unit basic berkeluasan binaan 857 kaki persegi dengan 3 bilik tidur dan 2 bilik air. Status tanah Leasehold (Bumi Lot), kawasan berpagar dan berkawal, maintenance fee RM99 sebulan. Kemudahan termasuk playground, surau, dobi, jogging track, parking berbumbung dan keselamatan 24 jam. Lokasi mudah diakses melalui MRT Kajang, KTM Kajang 2, KTM Komuter UKM, Lebuhraya PLUS (tol Kajang/Bangi), BESRAYA, LEKAS, SILK dan LDP.",
     "amenities": [
       "Playground",
@@ -6674,6 +6786,7 @@ window.LISTINGS = [
       "900m ke Surau Al Ikhwan, SK & SMK Jalan Empat Bangi",
       "Akses SILK (arah Kajang) & PLUS (Bandar Baru Bangi)"
     ],
+    "pelan": [],
     "description": "Rumah semi-D 2.5 tingkat di Kayumanis Garden Villas, Seksyen 5, Bandar Baru Bangi, Selangor — ditawarkan pada RM1.18 juta (boleh runding). Unit mempunyai tanah seluas 35 kaki x 75 kaki dengan binaan 3,900 kaki persegi, 5+1 bilik tidur dan 6 bilik air, berstatus FREEHOLD (Non-Bumi) dengan hakmilik individual. Unit baru dicat dan direfurbish, berada dalam kawasan berpagar serta berkawal. Lokasi hanya 900 meter ke Surau Al Ikhwan serta SK & SMK Jalan Empat Bangi, dan jarak berjalan kaki ke kedai, restoran, Speedmart dan klinik; berhampiran Econsave, KTM Kajang 2, MRT Kajang dan KTM UKM. Akses mudah melalui Lebuhraya SILK (arah Kajang) dan Lebuhraya PLUS (Bandar Baru Bangi).",
     "amenities": [
       "Gated & guarded",
@@ -6736,6 +6849,7 @@ window.LISTINGS = [
       "Maintenance fee RM258 sebulan",
       "Berjalan kaki ke Bangi Gateway, UniKL & KPTM"
     ],
+    "pelan": [],
     "description": "Kondominium Residensi Ostia di Bandar Baru Bangi, Selangor — ditawarkan pada RM319,000 (nett). Unit berkeluasan 600 kaki persegi di tingkat 18 ini mempunyai 2 bilik tidur dan 1 bilik air, disertakan kabinet dapur serta 2 tempat letak kereta berbumbung. Status tanah leasehold (Bumi Lot) dengan maintenance fee RM258 sebulan. Penghuni boleh menikmati kemudahan kolam renang, gymnasium, playground, surau, dewan serbaguna, BBQ area, games room, grocery mart dan dobi. Lokasi hanya berjalan kaki ke Bangi Gateway, UniKL, KPTM dan Masjid Teras Jernang, serta berhampiran EVO Mall, KIPMall Bangi, Hospital Pakar An-Nur dan Masjid Al-Hasanah. Akses mudah melalui Lebuhraya PLUS dan SILK.",
     "amenities": [
       "Kolam renang",
@@ -6806,6 +6920,7 @@ window.LISTINGS = [
       "Gated & guarded, maintenance fee RM200+",
       "Kemudahan clubhouse: kolam renang, gym, jogging track"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat end lot (unit baharu) di Lambaian Dua, Kajang, Selangor — ditawarkan pada RM670,000. Unit mempunyai binaan 2,200 kaki persegi atas tanah 22 kaki x 75 kaki, dengan 4 bilik tidur dan 4 bilik air. Status hakmilik strata (freehold) dan unit masih dalam tempoh kecacatan (bare unit). Kawasan kediaman berpagar dan berkawal dengan maintenance fee RM200+ sebulan, serta kemudahan clubhouse termasuk kolam renang, gymnasium dan jogging track. Berhampiran GMI, NIOSH, KTM UKM, UKM, Bangi Gateway dan KIPMall; akses mudah melalui Lebuhraya SILK, LEKAS dan PLUS.",
     "amenities": [
       "Gated & guarded",
@@ -6869,6 +6984,7 @@ window.LISTINGS = [
       "Keselamatan 24 jam, kolam renang, gym, playground",
       "Berdekatan Ayer@8, Hospital Putrajaya & Alamanda"
     ],
+    "pelan": [],
     "description": "Tamara Residence, Presint 8, Putrajaya — untuk disewa pada RM2,400 sebulan, fully furnished dan sedia untuk dimasuki. Unit seluas 1,205 kaki persegi ini terletak di Blok A, tingkat 6, dengan 3 bilik tidur dan 2 bilik air, 2 lot tempat letak kereta di level 5, serta dilengkapi kabinet dapur, aircond, balkoni dan yard. Kemudahan kediaman termasuk keselamatan 24 jam, kolam renang, gymnasium, playground, surau As-Syifa, dewan serbaguna, minimart, tadika & taska serta lif. Lokasi strategik berhampiran Ayer@8 Commercial Centre, Hospital Putrajaya, Tasik Putrajaya, Alamanda Shopping Centre, IOI City Mall Putrajaya, Putra Mosque, dan akses mudah ke MEX, LDP, SKVE, ELITE serta ERL/MRT Putrajaya Sentral. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + ½ bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -6938,6 +7054,7 @@ window.LISTINGS = [
       "Kolam renang, gym, playground, minimart",
       "Keselamatan 24 jam & lif"
     ],
+    "pelan": [],
     "description": "Tamarind Suites, Cyberjaya — studio untuk disewa pada RM1,150 sebulan (partially furnished, sedia masuk). Keluasan binaan 490 kaki persegi dengan 1 bilik air, 1 unit aircond, kabinet dapur beserta hood & hob serta 1 tempat letak kereta. Kemudahan kediaman termasuk kolam renang, gymnasium, playground, minimart, dewan serbaguna, lif dan keselamatan 24 jam. Berhampiran Hospital Cyberjaya, MRT Cyberjaya, Multimedia University & UoC, D'Pulze Shopping Mall, Tamarind Square, ERL/MRT Putrajaya Sentral dan IOI Mall Putrajaya; akses mudah melalui MEX, LDP, ELITE, PLUS dan SKVE. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + ½ bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -6999,6 +7116,7 @@ window.LISTINGS = [
       "Tadika & taska, gelanggang sukan, dewan serbaguna, playground",
       "10 minit ke Hospital Putrajaya, IOI City Mall & Alamanda"
     ],
+    "pelan": [],
     "description": "Flora Rosa Residence, Presint 11, Putrajaya — unit untuk disewa pada RM2,800 sebulan (partially furnished). Unit seluas 1,184 kaki persegi di Blok C, tingkat 6 ini mempunyai 3 bilik tidur, 2 bilik air, 2 balkoni serta 2 tempat letak kereta. Unit sedia dimasuki pada Disember 2026. Penghuni menikmati kemudahan keselamatan 24 jam dalam kawasan berpagar, kolam renang, gymnasium, tadika & taska, gelanggang sukan, dewan serbaguna dan playground. Lokasi strategik di Presint 11 berhampiran Sasana Commercial Centre, Kompleks Kejiranan Presint 11, SK & SMK Presint 11, Hospital Putrajaya, IOI City Mall Putrajaya dan Alamanda Shopping Centre; akses mudah melalui MEX, SKVE, ELITE, PLUS serta ERL/MRT Putrajaya Sentral. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + ½ bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -7069,6 +7187,7 @@ window.LISTINGS = [
       "Gated & guarded 24 jam, playground, surau, dewan serbaguna, minimart",
       "10 minit ke Cyberjaya & Putrajaya, sesuai pekerja data center"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Casa Green, Cybersouth (Dengkil), Selangor — untuk disewa pada RM3,200 sebulan, fully furnished dan baru siap renovasi. Binaan 1,545 kaki persegi dengan 3 bilik tidur dan 3 bilik air, lengkap dengan 4 unit aircond Daikin, 3 water heater beserta booster pump, gril keselamatan untuk seluruh rumah dan sesuai untuk penghuni yang mempunyai haiwan peliharaan. Kawasan kediaman berpagar dan berkawal 24 jam dengan playground, surau, dewan serbaguna dan minimart. Lokasi hanya 10 minit ke Cyberjaya dan Putrajaya, sesuai untuk pekerja data center, rumah syarikat, pelajar dan mereka yang bekerja dari rumah. Berhampiran D'Pulze Shopping Mall, Tamarind Square, IOI City Mall, Alamanda Shopping Centre, UiTM Dengkil, Hospital Putrajaya & Hospital Cyberjaya, MMU, UOC, UniKop, City University, Heriot-Watt University Putrajaya dan Xiamen University; akses mudah melalui LDP, SKVE, MEX, ELITE dan PLUS ke KLIA T1 & T2. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + 1 bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Gated & guarded 24 jam",
@@ -7137,6 +7256,7 @@ window.LISTINGS = [
       "Warganegara Malaysia sahaja, sedia masuk November 2026",
       "Berdekatan MRT Cyberjaya, D'Pulze & Tamarind Square"
     ],
+    "pelan": [],
     "description": "Idaman Residensi (Selangorku), Blok A tingkat 10 unit hujung di Cyberjaya, Selangor — untuk disewa pada RM1,700 sebulan (harga tetap), partially furnished. Unit seluas 1,000 kaki persegi ini mempunyai 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta, serta dilengkapi gril, kabinet dapur, kipas & lampu, peti sejuk, langsir, kabinet TV, sofa 3 tempat duduk dan 1 unit aircond di bilik utama. Terbuka kepada warganegara Malaysia sahaja dan sedia dimasuki pada November 2026. Kemudahan kediaman termasuk keselamatan 24 jam, lif, playground, surau, minimart dan dewan serbaguna. Lokasi berhampiran MRT Cyberjaya, SJK & SMK Cyberjaya, MMU, Limkokwing University, Universiti Cyberjaya, Hospital Cyberjaya & Hospital Putrajaya, D'Pulze Shopping Mall, Tamarind Square, The Street Mall, Centrus @ CBD Perdana, IOI City Mall dan Alamanda Putrajaya; akses mudah melalui MEX, ELITE, SKVE, NKVE dan LDP. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + ½ bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -7203,6 +7323,7 @@ window.LISTINGS = [
       "Keselamatan 24 jam, gated community, kolam renang & gymnasium",
       "Muslim tempatan sahaja — sedia masuk September 2026"
     ],
+    "pelan": [],
     "description": "Flora Rosa Residence, Presint 11, Putrajaya — unit fully furnished untuk disewa pada RM2,400 sebulan. Unit seluas 1,184 kaki persegi di Blok B1, tingkat 4 ini mempunyai 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta, lengkap dengan 4 unit aircond, mesin basuh, peti sejuk, kabinet dapur dengan hood & hob, water heater, katil queen, almari dan meja makan. Terbuka kepada muslim tempatan sahaja dan sedia dimasuki pada September 2026. Kemudahan kediaman termasuk keselamatan 24 jam dalam kawasan berpagar, kolam renang, gymnasium, tadika & taska, gelanggang sukan, dewan serbaguna dan playground. Lokasi strategik di Presint 11 berhampiran Sasana Commercial Centre, Kompleks Kejiranan Presint 11, SK & SMK Presint 11, Hospital Putrajaya, IOI City Mall Putrajaya dan Alamanda Shopping Centre; akses mudah melalui MEX, SKVE, ELITE, PLUS serta ERL/MRT Putrajaya Sentral. Deposit: 1 bulan sewa lanjutan + 2 bulan cagaran + ½ bulan utiliti + perjanjian sewa.",
     "amenities": [
       "Fully furnished",
@@ -7275,6 +7396,7 @@ window.LISTINGS = [
       "Berhampiran IOI City Mall, Alamanda & pejabat kerajaan Putrajaya",
       "5 minit ke Cyberjaya; akses MEX, LDP & KLIA"
     ],
+    "pelan": [],
     "description": "Apartmen Larai di Presint 6, Putrajaya — unit Blok 2A tingkat bawah berkeluasan 1,500 kaki persegi dengan 4 bilik tidur dan 3 bilik air. Status hakmilik Freehold bertaraf strata (Non-Bumi Lot) serta dilengkapi 1 tempat letak kereta, kipas siling dan kabinet dapur. Yuran penyelenggaraan hanya RM175 sebulan. Kawasan kediaman berpagar dengan kawalan keselamatan 24 jam menggunakan kad akses, lengkap dengan taman permainan, surau, gelanggang badminton, kedai dobi, restoran dan minimart. Lokasi strategik: 15 minit ke IOI City Mall, 10 minit ke Alamanda Shopping Mall, 5 minit ke Heriot-Watt University/PICC/Pullman, 10-15 minit ke pejabat-pejabat kerajaan Putrajaya, serta sekitar 18 minit ke MMU, Universiti Cyberjaya dan LimKokWing. Akses mudah melalui MEX dan LDP — Cyberjaya 5 minit, Puchong 15 minit, Kajang/Bangi 20 minit dan KLIA T1 & T2.",
     "amenities": [
       "Kawalan keselamatan 24 jam (kad akses)",
@@ -7341,6 +7463,7 @@ window.LISTINGS = [
       "2 tempat letak kereta, komuniti berpagar & berkawal",
       "Deposit: 1 bulan sewa + 2 bulan deposit + ½ bulan utiliti"
     ],
+    "pelan": [],
     "description": "Mirage by The Lake, Cyberjaya — unit untuk disewa RM1,600 sebulan di Blok B3, tingkat 7. Berkeluasan 1,108 kaki persegi dengan 2 bilik tidur dan 2 bilik air, dilengkapi 4 unit penghawa dingin, balkoni, 2 tempat letak kereta dan pemandangan ke arah Seri Puteri serta lebuh raya. Komuniti kediaman berpagar dan berkawal. Terma sewa: 1 bulan sewa pendahuluan, 2 bulan deposit sewa, ½ bulan deposit utiliti dan perjanjian sewa. Kemudahan penduduk termasuk keselamatan 24 jam, lif, kolam renang, taman permainan, gimnasium, sauna, kawasan BBQ, minimart, dewan serbaguna, club house, jogging track serta gelanggang tenis dan squash. Berhampiran D'Pulze Mall, MMU, LimKokWing, SJKC Union, King Henry VIII, Hospital Putrajaya, IOI City Mall, Xiamen University, Alamanda, MRT/ERL Putrajaya Sentral dan MRT Cyberjaya; akses MEX, LDP, ELITE serta KLIA T1 & T2.",
     "amenities": [
       "Kolam renang",
@@ -7413,6 +7536,7 @@ window.LISTINGS = [
       "Kemudahan lengkap: kolam renang, gimnasium, sauna & club house",
       "Berhampiran Tamarind Square, D'Pulze & MRT Cyberjaya"
     ],
+    "pelan": [],
     "description": "Rumah teres tiga tingkat (intermediate) di The Mulia Residence, Cyberjaya — ditawarkan pada RM1,350,000. Unit berkeluasan binaan 2,400 kaki persegi dengan 4 bilik tidur serta 1 bilik utiliti dan 4 bilik air, lengkap dengan yard dan balkoni. Unit kosong (bare unit) dan sedia untuk dihias mengikut citarasa sendiri. Status Freehold, Non-Bumi Lot, hakmilik strata. Kemudahan kediaman termasuk tempat letak kereta, keselamatan 24 jam, kolam renang, taman permainan, gimnasium, sauna, kawasan BBQ, minimart, dewan serbaguna, club house, jogging track dan gelanggang tenis. Berhampiran Tamarind Square, D'Pulze Shopping Centre, Shaftsbury Square, Hospital Cyberjaya, MMU dan MRT Cyberjaya serta ERL/MRT Putrajaya Sentral; akses MEX, ELITE, Lebuhraya Utara-Selatan, Damansara-Puchong, SILK dan KLIA T1 & T2.",
     "amenities": [
       "Kolam renang",
@@ -7483,6 +7607,7 @@ window.LISTINGS = [
       "Freehold bertaraf strata, Bumi Lot",
       "Kawasan berpagar & berkawal, akses trek jogging Tasik Putrajaya"
     ],
+    "pelan": [],
     "description": "Cyber Heights Villa (Suria 6), Cyberjaya — unit tingkat bawah untuk dijual pada RM690,000. Berkeluasan binaan 1,638 kaki persegi dengan 3 bilik tidur dan 2 bilik air, 2 tempat letak kereta di hadapan unit, serta balkoni menghadap kawasan hijau (bukan menghadap unit lain). Unit telah diubah suai sepenuhnya (fully renovated). Status Freehold bertaraf strata, Bumi Lot. Kawasan kediaman berpagar dan berkawal dengan keselamatan 24 jam, taman permainan besar untuk kanak-kanak dan akses ke trek jogging serta berbasikal Tasik Putrajaya. Berhampiran D'Pulze, Tamarind Square, IOI City Mall, Alamanda, Shaftsbury Square (restoran, klinik, 99 Speedmart, Starbucks, Maybank), Sekolah Seri Puteri, Abedeen Academy, Hospital Cyberjaya, Hospital Putrajaya, MRT Cyberjaya serta ERL/MRT Putrajaya Sentral; akses MEX, ELITE, LDP dan KLIA T1 & T2.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -7548,6 +7673,7 @@ window.LISTINGS = [
       "Diubah suai: kabinet dapur, kabinet TV, kabinet terbina semua bilik, 4 unit aircond, langsir",
       "Balkoni menarik, yuran penyelenggaraan RM290"
     ],
+    "pelan": [],
     "description": "Kondominium Lake Point Residence di Cyberjaya — unit tingkat tinggi dengan pemandangan KL, binaan lebih kurang 1,054 kaki persegi, 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta berbumbung. Hakmilik Freehold bertaraf strata (strata ready) dengan balkoni yang menarik. Unit telah diubah suai dan dijaga rapi: kabinet dapur dengan table top, kabinet TV terbina, kabinet terbina di semua bilik, kabinet dinding dan sink di yard, 4 unit penghawa dingin serta langsir yang ditempah khas. Yuran penyelenggaraan RM290 sebulan. Lokasi Cyberjaya dengan akses mudah ke Putrajaya, lebuhraya MEX dan ELITE serta KLIA.",
     "amenities": [
       "Kolam renang",
@@ -7614,6 +7740,7 @@ window.LISTINGS = [
       "Unit sedang disewa (tenanted) — sesuai untuk pelaburan",
       "Harga paling murah di pasaran (pengiklan) — full loan / zero deposit"
     ],
+    "pelan": [],
     "description": "Residensi Damai di Bandar Teknologi Kajang — unit di Level 12, binaan 818 kaki persegi, 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta. Hakmilik Freehold, bukan Bumi Lot. Unit sedang disewa (tenanted) — pilihan sesuai untuk pembeli pelaburan yang mahukan pulangan sewa sedia ada. Menurut pengiklan, harga paling murah di pasaran dengan pakej full loan dan zero deposit. Lokasi Bandar Teknologi Kajang dengan akses ke lebuhraya serta kemudahan sekitar Kajang dan Bangi.",
     "amenities": [
       "Tempat letak kereta",
@@ -7675,6 +7802,7 @@ window.LISTINGS = [
       "Kolam renang, gimnasium, gelanggang tenis, dewan serbaguna",
       "Sedia masuk Oktober 2026"
     ],
+    "pelan": [],
     "description": "Kita Impian, Cybersouth — unit Blok B, Level 10, binaan 901 kaki persegi, 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta (2 akses kad). Unit dicat dan dilengkapi separuh perabot: kipas siling, lampu dan gril keselamatan — sedia untuk dimasuki mulai Oktober 2026. Sewa RM1,400 sebulan dengan 1 bulan advance rental, 2 bulan deposit sewa, ½ bulan utiliti dan perjanjian sewaan. Kemudahan komuniti termasuk kolam renang, gimnasium, gelanggang tenis, taman permainan, dewan serbaguna, kawasan BBQ, trek jogging dan keselamatan 24 jam. Berhampiran Cybersouth Shoplots, UiTM Dengkil, sekolah Dengkil serta pusat beli-belah Cyberjaya dan Putrajaya.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -7746,6 +7874,7 @@ window.LISTINGS = [
       "Kolam renang, gimnasium, minimart & club house",
       "Berhampiran UiTM Dengkil, MMU & ERL/MRT Putrajaya Sentral"
     ],
+    "pelan": [],
     "description": "Kita Ria, Cybersouth, Selangor — unit Blok B, Level 4, binaan 601 kaki persegi, 2 bilik tidur dan 2 bilik air serta 2 tempat letak kereta. Unit mempunyai balkoni dan yard, 2 unit penghawa dingin, kipas siling dan lampu, disediakan separuh perabot — sedia untuk dimasuki. Sewa RM1,350 sebulan dengan 1 bulan advance rental, 2 bulan deposit sewa, ½ bulan utiliti dan perjanjian sewaan. Kemudahan komuniti termasuk kolam renang, gimnasium, taman permainan, dewan serbaguna, kawasan BBQ, minimart, club house, trek jogging dan keselamatan 24 jam. Lokasi berhampiran klinik, restoran dan farmasi, dengan akses mudah ke Cybersouth, Putrajaya, Cyberjaya dan Kota Warisan.",
     "amenities": [
       "Keselamatan 24 jam",
@@ -7817,6 +7946,7 @@ window.LISTINGS = [
       "Tempat letak kereta basement, keselamatan 24 jam",
       "McDonald's & Starbucks 24 jam; Putrajaya Convention Centre berdekatan"
     ],
+    "pelan": [],
     "description": "Ruang komersial aras bawah (ground floor) di Z1 Tower 1, OCHRE Putrajaya — unit kosong (bare unit) seluas lebih kurang 1,453 kaki persegi yang sesuai untuk perniagaan F&B mahupun pejabat. Kedudukannya bertentangan Alamanda Shopping Mall di Presint 1, Putrajaya, menjadikannya mudah dikunjungi pelanggan. Akses melalui lebuhraya MEX, ELITE, SKVE dan LDP dengan jarak dekat ke pejabat-pejabat kerajaan. Kemudahan sekitar termasuk tempat letak kereta basement, keselamatan 24 jam, McDonald's dan Starbucks yang beroperasi 24 jam, Putrajaya Convention Centre, Putrajaya Botanical Gardens serta Putrajaya Bridge.",
     "amenities": [
       "Tempat letak kereta basement",
@@ -7879,6 +8009,7 @@ window.LISTINGS = [
       "Peti sejuk, langsir, kipas siling & lampu",
       "Keselamatan 24 jam, kawasan berpagar & berkawal"
     ],
+    "pelan": [],
     "description": "Apartmen Villa Tropika di Sungai Tangkas, Kajang untuk disewa — binaan lebih kurang 870 kaki persegi dengan 3 bilik tidur dan 2 bilik air serta 1 tempat letak kereta. Unit separuh lengkap perabot: lampu dan kipas, railing langsir, kabinet dapur penuh dengan hob dan hood terbina, peti sejuk serta grill bersalut serbuk. Kemudahan termasuk lif, kawasan berpagar dan berkawal, keselamatan 24 jam dan surau. Lokasi dalam jarak berjalan kaki ke KTM UKM, Sekolah Sri Al-Amin, Speedmart, 7-Eleven dan kedai makan; berdekatan UKM, GMI, NIOSH, ESSET/KWSP serta Hentian Kajang. 5–10 minit ke Bandar Kajang, Bandar Baru Bangi, Bangi Gateway, Econsave Reko Sentral, KPJ Kajang dan Hospital An-Nur Hasanah; 10–15 km ke UNITEN, Putrajaya dan Hospital Serdang. Akses melalui PLUS, SILK dan LEKAS.",
     "amenities": [
       "Lif",
@@ -7945,6 +8076,7 @@ window.LISTINGS = [
       "Menerima penyewa pelajar (student friendly)",
       "3 minit ke UKM & Komuter UKM"
     ],
+    "pelan": [],
     "description": "Kondominium Vista Bangi di Bandar Baru Bangi untuk disewa — unit saiz besar lebih kurang 1,000 kaki persegi di Level 17, dengan 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta di level 5. Unit lengkap perabot dan penghawa dingin sepenuhnya, termasuk mesin basuh, peti sejuk dan televisyen. Kemudahan kondominium mencakupi kolam renang dan gimnasium dalam kawasan berpagar dan berkawal. Di aras bawah terdapat Speedmart, restoran dan klinik. Lokasi hanya 3 minit ke UKM dan Komuter UKM — sesuai untuk pelajar dan pekerja, dan tuan rumah menerima penyewa pelajar.",
     "amenities": [
       "Kolam renang",
@@ -8008,6 +8140,7 @@ window.LISTINGS = [
       "Kabinet dapur, mesin basuh, dapur gas, 2 pemanas air",
       "1 tempat letak kereta berbumbung; boleh masuk bila-bila masa"
     ],
+    "pelan": [],
     "description": "Kondominium Saville di Kajang untuk disewa — unit lengkap perabot di tingkat 23A (tingkat tertinggi bangunan), binaan lebih kurang 1,004 kaki persegi dengan 3 bilik tidur dan 2 bilik air serta balkoni menghadap kolam renang. Unit dilengkapi grill penuh dan 1 tempat letak kereta berbumbung. Kelengkapan termasuk katil, meja belajar dan kabinet, penghawa dingin di semua bilik serta unit 2HP di ruang tamu, kabinet dapur, mesin basuh, dapur gas dan 2 pemanas air. Lokasi di Kajang dengan akses mudah ke MRT, Pusat Bandar Kajang, sekolah, kedai dan lebuh raya utama. Unit boleh dimasuki pada bila-bila masa; penyewa minimum 2 tahun.",
     "amenities": [
       "Kolam renang",
@@ -8074,6 +8207,7 @@ window.LISTINGS = [
       "Yuran penyelenggaraan RM270 sebulan",
       "Kemudahan lengkap: kolam renang, gimnasium, dewan serbaguna"
     ],
+    "pelan": [],
     "description": "Kondominium Vista Hijauan di Taman Universiti Bangi — unit baharu yang belum pernah diduduki dan masih dalam keadaan basic unit. Binaan lebih kurang 1,007 kaki persegi dengan 3 bilik tidur dan 2 bilik air, serta 2 tempat letak kereta berbumbung yang bersebelahan. Hakmilik Freehold dan strata telah dikeluarkan. Kediaman ini dilengkapi kemudahan penduduk termasuk kolam renang dan wading pool, gimnasium, taman permainan kanak-kanak, surau, taska serta dewan serbaguna, dengan kawalan keselamatan 24 jam. Lokasinya berhampiran UKM Bangi, German Malaysia Institute, stesen KTM UKM dan Bangi Avenue Convention Centre — sesuai untuk keluarga mahupun pelaburan sewa.",
     "amenities": [
       "Kolam renang",
@@ -8141,6 +8275,7 @@ window.LISTINGS = [
       "Dalam keadaan tenanted (sedang disewa)",
       "Gated & guarded — kemudahan kolam renang, taman permainan, keselamatan 24 jam"
     ],
+    "pelan": [],
     "description": "Apartment Cemara di Kajang Utama — unit tingkat 3 (walk-up) seluas 950 kaki persegi dengan 3 bilik tidur, 2 bilik air dan 1 stor, serta 1 tempat letak kereta. Hakmilik Freehold dengan strata title yang telah siap. Unit telah diubah suai dan dijaga rapi: kabinet dapur, fully grilled, almari terbina di setiap bilik serta tingkap dan sliding door bertinted. Kawasan kediaman berpagar dan berkawal (gated & guarded) dengan kolam renang, taman permainan dan keselamatan 24 jam. Lokasi Kajang Utama mempunyai akses mudah ke Mydin, Giant, stesen MRT, kedai dan hospital melalui SILK, PLUS, LEKAS, LDP dan SKVE. Unit sedang disewa — sesuai untuk pelaburan sewa.",
     "amenities": [
       "Kolam renang",
@@ -8208,6 +8343,7 @@ window.LISTINGS = [
       "Freehold, non bumi, strata title ready",
       "Dalam keadaan tenanted (sedang disewa)"
     ],
+    "pelan": [],
     "description": "Almyra Residence di Bandar Puteri Bangi — unit Blok AR4 tingkat 6, seluas lebih kurang 1,044 kaki persegi dengan 3 bilik tidur dan 3 bilik air, serta 2 tempat letak kereta berbumbung. Unit ini berada pada tingkat yang sama dengan kemudahan penduduk dan mempunyai balkoni menghadap kawasan hijau. Hakmilik Freehold (non bumi) dengan strata title yang telah siap, dan unit sedang disewa. Kemudahan kediaman termasuk kolam renang, gimnasium, jogging track, taman permainan serta dewan dan gelanggang serbaguna. Berhampiran sekolah, kedai, Tesco, Bangi Wonderland dan KTM Bangi, dengan akses ELITE, LEKAS dan Putra Mahkota.",
     "amenities": [
       "Kolam renang",
@@ -8273,6 +8409,7 @@ window.LISTINGS = [
       "Dekat sekolah, hospital dan pusat beli-belah Alamanda",
       "Akses mudah melalui Lebuh Perdana Barat, MEX, LDP dan ELITE"
     ],
+    "pelan": [],
     "description": "Pangsapuri Putra Harmoni di Presint 9, Putrajaya — unit Blok D seluas lebih kurang 700 kaki persegi dengan 3 bilik tidur dan 2 bilik air. Lokasinya sangat strategik dalam Presint 9: berhampiran SK Rendah Agama Al Najah, SK Presint 9, Putrajaya Sentral, Hospital Putrajaya, Institut Kanser Negara, IPD Putrajaya dan Alamanda Shopping Mall. Akses mudah melalui Jalan P9 / Lebuh Perdana Barat serta lebuhraya MEX, LDP dan ELITE — sesuai untuk kediaman keluarga atau pelaburan sewa di kawasan Putrajaya.",
     "amenities": [
       "Lif",
@@ -8337,6 +8474,7 @@ window.LISTINGS = [
       "Unit sedang disewa (tenanted) — sesuai untuk pelaburan",
       "Yuran penyelenggaraan RM242 sebulan; akses SILK & CKE"
     ],
+    "pelan": [],
     "description": "Pangsapuri Sutera Bayu di Taman Bukit Palma, Kajang — unit tingkat 8 seluas lebih kurang 800 kaki persegi dengan 3 bilik tidur dan 2 bilik air. Harga telah diturunkan daripada RM250,000 kepada RM230,000. Unit dalam keadaan disewa (tenanted), sesuai untuk tujuan pelaburan. Kemudahan termasuk 2 tempat letak kereta (1 berbumbung), tabletop dapur, balkoni, serta kawasan kediaman berpagar dengan pengawal 24 jam; yuran penyelenggaraan RM242 sebulan. Lokasi strategik: 8 km ke stesen MRT Bukit Dukung dan 12 km ke Hospital Kajang, berhampiran sekolah, masjid dan pusat beli-belah (Lotus's Kajang dan Pasaraya CS Kajang). Akses mudah melalui Lebuhraya Kajang SILK dan CKE.",
     "amenities": [
       "2 tempat letak kereta (1 berbumbung)",
@@ -8400,6 +8538,7 @@ window.LISTINGS = [
       "Kolam renang, gimnasium, gelanggang badminton & futsal",
       "5 minit ke UiTM Dengkil & PICC; 20 minit ke KLIA"
     ],
+    "pelan": [],
     "description": "Unit fully furnished untuk disewa di Kita Impian, Cybersouth, Dengkil — 3 bilik tidur dan 2 bilik air dengan balkoni menghadap kolam. Kelengkapan lengkap termasuk 2 unit aircond, katil dan tilam (king, queen dan single), almari baju, kitchen cabinet, televisyen dan kabinet, sofa, meja makan, peti ais, mesin basuh, dapur memasak, pinggan mangkuk serta periuk dan kuali. Kemudahan penduduk: kolam renang dewasa dan kanak-kanak, gimnasium, taman permainan, gelanggang badminton dan futsal, 2 tempat letak kereta serta 2 access card. Deposit sewa: 1 bulan sewa + 1 bulan sekuriti (boleh dipulangkan) + 0.5 bulan utiliti (boleh dipulangkan) + perjanjian sewa. Lokasi: 5 minit ke UiTM Dengkil dan PICC, 10 minit ke Putrajaya dan Cyberjaya, 20 minit ke KLIA.",
     "amenities": [
       "Fully furnished",
@@ -8462,6 +8601,7 @@ window.LISTINGS = [
       "5 minit berjalan ke stesen KTM Kajang 2 — terus ke KL",
       "Kolam renang, sauna, taman permainan & keselamatan 24 jam"
     ],
+    "pelan": [],
     "description": "Mirai Residences, Kajang 2 — unit partially furnished untuk disewa, seluas lebih kurang 840 kaki persegi dengan 3 bilik tidur dan 2 bilik air serta 1 tempat letak kereta. Kelengkapan sedia ada termasuk 2 unit aircond, kipas siling, lampu, kitchen cabinet, mesin basuh, langsir, grill serta casement window di bahagian yard dan foyer. Kemudahan penduduk: kolam renang, sauna, taman permainan kanak-kanak, multipurpose hall, reading pods, meditation deck dan keselamatan 24 jam. Lokasinya hanya 5 minit berjalan ke stesen KTM Kajang 2 yang terus ke Kuala Lumpur, berhampiran kedai, klinik, pusat bandar Kajang, sekolah dan Reigate International School, dengan akses mudah ke SILK, Kajang Bypass dan LEKAS. Deposit: 1 bulan sewa + 2 bulan sekuriti (boleh dipulangkan) + 0.5 bulan utiliti (boleh dipulangkan) + perjanjian sewa.",
     "amenities": [
       "Kolam renang",
@@ -8525,6 +8665,7 @@ window.LISTINGS = [
       "Tersedia mulai pertengahan November",
       "Berhampiran Bangi, Kajang, Putrajaya & Nilai"
     ],
+    "pelan": [],
     "description": "Residensi Adelia 3 di Bangi Avenue, Kajang, Selangor untuk disewa pada RM1,400 sebulan. Unit seluas lebih kurang 1,045 kaki persegi ini mempunyai 3 bilik tidur dan 3 bilik air serta balkoni, lengkap dengan 2 tempat letak kereta. Unit dalam keadaan partially furnished dengan kawalan keselamatan 24 jam, dan bakal tersedia mulai pertengahan November. Akses mudah ke Bangi, Kajang, Putrajaya, Nilai dan Kuala Lumpur melalui lebuhraya PLUS, SILK dan LEKAS.",
     "amenities": [
       "Kolam renang",
@@ -8587,6 +8728,7 @@ window.LISTINGS = [
       "Kawasan berpagar & berkawal dengan kemudahan clubhouse",
       "Yuran penyelenggaraan RM280 sebulan"
     ],
+    "pelan": [],
     "description": "Rumah teres 3 tingkat untuk dijual di The Mulia Residence, Cyberjaya, Selangor — dengan keluasan binaan lebih kurang 2,386 kaki persegi atas tanah 1,540 kaki persegi (22' x 70'). Unit menghadap open (arah barat laut) ini menawarkan 5 bilik tidur dan 4 bilik air, lengkap dengan kabinet dapur terbina. Kediaman berpagar dan berkawal dengan kemudahan clubhouse, serta yuran penyelenggaraan RM280 sebulan. Pegangan Freehold dan bukan bumi lot. Harga permintaan RM1,190,000.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -8645,6 +8787,7 @@ window.LISTINGS = [
       "Menghadap timur — pencahayaan semula jadi baik",
       "Sedia FULL LOAN untuk pembeli yang layak"
     ],
+    "pelan": [],
     "description": "Rumah teres 1 tingkat untuk dijual di Taman Muhibbah, Kajang, Selangor dengan harga RM360,000 sahaja. Unit ini BUKAN menghadap rumah lain, menawarkan privasi lebih dengan halaman belakang yang luas. Tanah 1,300 kaki persegi (20' x 65') menempatkan 3 bilik tidur dan 2 bilik air. Pegangan Freehold, bukan bumi lot, dan menghadap timur. Lokasi strategik berdekatan dengan kemudahan asas, sekolah, dan lebuh raya utama. Sesuai untuk pembeli rumah pertama atau pelabur. Hubungi kami untuk jadual viewing.",
     "amenities": [
       "Bukan menghadap rumah lain (open view)",
@@ -8703,6 +8846,7 @@ window.LISTINGS = [
       "2 covered parking side by side berhampiran lif",
       "Yuran penyelenggaraan RM210 sebulan sahaja"
     ],
+    "pelan": [],
     "description": "Apartment brand new untuk dijual di Residensi Adelia 4, Bangi Avenue, Kajang pada harga RM340,000 (Nett). Unit Blok D - Level 26 (D-26-11) seluas 1,045 kaki persegi ini menghadap kawasan terbuka dan berhampiran club house. 3 bilik tidur, 3 bilik air, 2 tempat letak kereta berbumbung bersebelahan yang dekat dengan lif. Unit telah diubah suai dan dilengkapi partial furnished — peti sejuk, 3 pendingin udara, 3 pemanas air dan TV. Pegangan Freehold bukan bumi lot, yuran penyelenggaraan hanya RM210 sebulan. Berdekatan kedai, sekolah dan lebuh raya. Harga nett — sesuai untuk didiami atau pelaburan.",
     "amenities": [
       "Kolam renang, clubhouse & surau",
@@ -8764,6 +8908,7 @@ window.LISTINGS = [
       "Berjalan kaki ke stesen minyak, Family Mart, Speedmart, 7-Eleven",
       "1.1 km ke PLUS Highway (Bangi)"
     ],
+    "pelan": [],
     "description": "Shop apartment untuk dijual di Seksyen 15, Bandar Baru Bangi, Selangor dengan harga RM195,000 (boleh runding). Keluasan 753 kaki persegi (70 m²) di tingkat 3 (top floor), dengan 3 bilik tidur dan 2 bilik air. Strata ready. Sebelum ini digunakan sebagai kelas tuisyen Al-Quran — sangat sesuai untuk kediaman, kelas tuisyen atau perniagaan kecil. Lokasi sangat strategik: berjalan kaki ke Petronas, Family Mart, Speedmart dan 7-Eleven, berdekatan Bangi Gateway, KPTM, MFI, GMI, UKM dan Hospital Pakar An-Nur. Lebuh raya PLUS (Bangi) hanya 1.1 km. Pegangan Leasehold (bumi lot).",
     "amenities": [
       "Tingkat 3 top floor — 3 bilik, 2 bilik air",
@@ -8823,6 +8968,7 @@ window.LISTINGS = [
       "Yuran penyelenggaraan RM0.33/sqft sahaja",
       "Kemudahan premium: mini theater, aqua bed, gym, kolam renang & banyak lagi"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Conezion, menghadap IOI City Mall, Putrajaya dengan harga RM600,000. Keluasan 994 kaki persegi menawarkan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Pegangan Freehold strata dengan furniture termasuk dalam foto, table top dan kitchen cabinet disertakan. Yuran penyelenggaraan hanya RM0.33 kaki persegi. Conezion menawarkan kemudahan premium: mini theater, aqua bed, children's art studio, chill-out deck, party room, learning lab, games room, kolam renang, gimnasium, wading pool, dewan serbaguna dan court serbaguna. Lokasi strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN, IUKL, UPM dan MMU Cyberjaya. Sesuai untuk keluarga atau pelaburan premium.",
     "amenities": [
       "Furniture termasuk — sedia didiami",
@@ -8885,6 +9031,7 @@ window.LISTINGS = [
       "Table top & kitchen cabinet disertakan",
       "Yuran penyelenggaraan RM0.33/sqft — kemudahan premium penuh"
     ],
+    "pelan": [],
     "description": "Kondominium partly furnished untuk dijual di Conezion, menghadap kolam renang, Putrajaya dengan harga murah RM470,000. Unit tingkat 12 seluas 780 kaki persegi ini menawarkan 2 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Pegangan Freehold strata dengan peti sejuk, mesin basuh, table top dan kitchen cabinet termasuk. Yuran penyelenggaraan hanya RM0.33 kaki persegi. Kemudahan premium: mini theater, aqua bed, children's art studio, chill-out deck, party room, kolam renang, gimnasium dan banyak lagi. Lokasi strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN, IUKL dan UPM. Sesuai untuk profesional, keluarga kecil atau pelaburan.",
     "amenities": [
       "Menghadap kolam renang (swimming pool view)",
@@ -8945,6 +9092,7 @@ window.LISTINGS = [
       "Table top & kitchen cabinet disertakan",
       "Yuran penyelenggaraan RM0.33/sqft — kemudahan premium penuh"
     ],
+    "pelan": [],
     "description": "Kondominium partly furnished untuk dijual di Conezion, menghadap IOI City Mall, Putrajaya dengan harga RM560,000. Keluasan 986 kaki persegi menawarkan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Pegangan Freehold strata dengan table top dan kitchen cabinet disertakan. Dapur dilengkapi kabinet biru elegan dengan perkakas Electrolux terbina (oven & induction cooktop). Yuran penyelenggaraan hanya RM0.33 kaki persegi. Kemudahan premium: mini theater, aqua bed, children's art studio, chill-out deck, party room, kolam renang, gimnasium dan banyak lagi. Lokasi strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN, IUKL dan UPM. Sesuai untuk keluarga atau pelaburan.",
     "amenities": [
       "Partly furnished — sedia didiami",
@@ -9006,6 +9154,7 @@ window.LISTINGS = [
       "Sedia penyewa — pendapatan sewa lebih kurang RM2,000/bulan",
       "Berhampiran Putrajaya, Alamanda, IOI City Mall & lebuh raya utama"
     ],
+    "pelan": [],
     "description": "Endlot double storey untuk dijual di Taman Warisan Putra, Jenderam Hilir, Dengkil, Selangor pada harga RM579,000. Unit endot dengan tanah 2,411 kaki persegi dan binaan 1,640 kaki persegi ini menawarkan 7+1 bilik tidur dan 3 bilik air. Pegangan Freehold (Malay Reserved). Sedia penyewa dengan pendapatan sewa lebih kurang RM2,000 sebulan — sesuai untuk pelabur yang mahukan cash flow serta-merta. Lokasi strategik: 15 minit ke Putrajaya, 25 minit ke Alamanda & IOI City Mall, berhampiran UPM, UKM dan Hospital Serdang. Akses mudah ke SILK, SKVE, MEX dan PLUS Highway. Hubungi kami untuk viewing.",
     "amenities": [
       "Endlot — privasi & ruang sisi luas",
@@ -9065,6 +9214,7 @@ window.LISTINGS = [
       "Rekaan kontemporari dengan ruang luas & pencahayaan optimum",
       "Lokasi premium di Cyberjaya — pusat pendidikan & komersial"
     ],
+    "pelan": [],
     "description": "Rumah semi-D 2 tingkat eksklusif untuk dijual di Lepironia Garden, Setia Eco Glades, Cyberjaya, Selangor pada harga RM2,500,000. Keluasan binaan 3,363 kaki persegi atas tanah 4,098.9 kaki persegi, menawarkan 4+1 bilik tidur dan 5 bilik air. Pegangan Freehold (bumi lot). Kediaman ini terletak dalam komuniti set Eco Glades yang terkenal dengan landskap hijau dan persekitaran premium. Setia Eco Glades menawarkan gaya hidup mewah dengan akses mudah ke pusat komersial, sekolah antarabangsa dan lebuh raya utama. Sesuai untuk pembeli yang inginkan kediaman eksklusif di lokasi strategik.",
     "amenities": [
       "Komuniti berpagar & berlandskap premium",
@@ -9123,6 +9273,7 @@ window.LISTINGS = [
       "Kemudahan premium: kolam renang, gym, landskap tropika",
       "Berhampiran KLIA, Nilai, Dengkil & lebuh raya utama"
     ],
+    "pelan": [],
     "description": "Kondominium fully furnished untuk dijual di Cerrado, Southville City, Bangi, Selangor pada harga RM345,000. Keluasan 656 kaki persegi menawarkan 2 bilik tidur dan 1 bilik air, lengkap dengan perabot — sedia untuk terus didiami. Pegangan Freehold dalam township Southville City yang direka bertaraf antarabangsa dengan landskap tropika, kolam renang, gimnasium dan kemudahan lifestyle premium. Lokasi strategik di antara Kuala Lumpur, Nilai dan KLIA — sesuai untuk keluarga, profesional atau pelabur. Hubungi kami untuk viewing.",
     "amenities": [
       "Fully furnished — sedia didiami",
@@ -9180,6 +9331,7 @@ window.LISTINGS = [
       "Kemudahan lengkap & persekitaran hijau",
       "Kawasan pembangunan pesat — sesuai hunian & sewa"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Cyberia Smarthomes, Cyberjaya, Selangor dengan harga RM250,000. Unit tingkat 11 (Blok C) seluas 926 kaki persegi ini menawarkan 3 bilik tidur dan 2 bilik air. Terletak di Cyberjaya — pusat teknologi dan pendidikan negara — dengan persekitaran hijau dan kemudahan kediaman moden. Lokasi sangat strategik berdekatan universiti, syarikat teknologi, pusat komersial dan lebuh raya utama (MEX, PLUS, ELITE). Sesuai untuk kediaman sendiri, staff Cyberjaya atau pelaburan sewa. Hubungi kami untuk viewing.",
     "amenities": [
       "Konsep smart home & persekitaran hijau",
@@ -9238,6 +9390,7 @@ window.LISTINGS = [
       "2 covered parking — Southville City township premium",
       "Freehold — sesuai didiami atau pelaburan"
     ],
+    "pelan": [],
     "description": "Executive suite untuk dijual di Savanna Executive Suite, Southville City, Bangi, Selangor pada harga RM380,000. Unit corner (end lot) seluas 1,017 kaki persegi ini menawarkan 3 bilik tidur dan 2 bilik air, dengan tambahan ruang untuk pekerja rumah. Dilengkapi 4 pendingin udara dan 2 pemanas air, serta 2 tempat letak kereta berbumbung. Pegangan Freehold dalam township Southville City yang premium dengan kemudahan lengkap. Lokasi strategik antara KL, Nilai dan KLIA. Sesuai untuk kediaman keluarga atau pelaburan. Hubungi kami untuk viewing.",
     "amenities": [
       "Unit corner (end lot) — ruang & privasi",
@@ -9297,6 +9450,7 @@ window.LISTINGS = [
       "Facilities premium: kolam renang, gym, mini theater",
       "Freehold strata — lokasi pusat Putrajaya"
     ],
+    "pelan": [],
     "description": "Kondominium fully furnished untuk dijual di Conezion, IOI Resort City, Putrajaya pada harga RM600,000. Unit tingkat tinggi seluas 986 kaki persegi ini menawarkan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Unit lengkap dengan perabot — sedia untuk terus didiami. Conezion menawarkan kemudahan premium termasuk kolam renang, gimnasium, mini theater, party room dan learning lab. Lokasi sangat strategik bersebelahan IOI City Mall, berdekatan The Mines, Hospital Putrajaya, UNITEN dan UPM. Pegangan Freehold strata. Sesuai untuk keluarga atau pelaburan premium.",
     "amenities": [
       "Fully furnished — sedia didiami",
@@ -9357,6 +9511,7 @@ window.LISTINGS = [
       "Tingkat 3A — unit selesa & terang",
       "Lokasi strategik Sungai Chua — senang akses lebuh raya"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Pearl Avenue, Sungai Chua, Kajang, Selangor pada harga RM420,000. Keluasan 1,100 kaki persegi menawarkan 3 bilik tidur dan 2 bilik air, TAMBAHAN sky garden seluas 923.94 kaki persegi — ruang terbuka eksklusif untuk keluarga. Tingkat 3A, pegangan Freehold bukan bumi lot. Lokasi sangat strategik di Sungai Chua, Kajang — berhampiran sekolah, pasar, pusat komersial dan mudah diakses melalui lebuh raya utama (SILK, PLUS, LEKAS, KAJANG-SEREMBAN). Sesuai untuk kediaman keluarga atau pelaburan sewa. Hubungi kami untuk viewing.",
     "amenities": [
       "Sky garden 923.94 sqft tambahan",
@@ -9415,6 +9570,7 @@ window.LISTINGS = [
       "Taman matang dan tenang — sesuai didiami atau pelaburan",
       "Berhampiran UKM, Bangi Gateway, EVO Mall & Kompleks PKNS Bangi"
     ],
+    "pelan": [],
     "description": "Semi-D dua tingkat untuk dijual di Garden Homes, Seksyen 15, Bandar Baru Bangi, Selangor pada harga RM1,100,000. Unit intermediate dengan keluasan binaan 2,780 kaki persegi di atas tanah 2,600 kaki persegi (40 kaki x 65 kaki), menawarkan 4 + 1 bilik tidur dan 4 bilik air. Taman perumahan yang matang, tenang dan berkonsep gated & guarded — sesuai untuk kediaman keluarga mahupun pelaburan. Lokasi sangat strategik: hanya 0.5 km ke Bangi Gateway, 0.7 km ke SK Jalan Enam dan 1.2 km ke UKM Bangi, dengan akses mudah ke Hospital Pakar An-Nur, Hospital Islam Az-Zahrah, EVO Mall, Kompleks PKNS Bangi dan KIPMall Bangi. Mudah dihubungi melalui Plaza Tol Bangi/PLUS (1–2 km) serta lebuh raya PLUS, LEKAS dan SILK ke Kajang, Putrajaya, Cyberjaya, Kuala Lumpur, Seremban dan KLIA. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Binaan 2,780 sqft di atas tanah 2,600 sqft (40' x 65')",
@@ -9474,6 +9630,7 @@ window.LISTINGS = [
       "Baki pajakan 81 tahun, bumi lot",
       "Perabot termasuk sofa, meja makan, kitchen cabinet, almari & aircond"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat corner lot untuk dijual di Garden Homes, Seksyen 15, 43650 Bandar Baru Bangi pada harga RM880,000 (boleh dirunding). Unit corner dengan tanah tambahan seluas 2,616 kaki persegi (dimensi 22 kaki x 65 kaki) dan binaan anggaran 1,600 kaki persegi, menawarkan 4 bilik tidur dan 3 bilik air. Unit telah diubah suai dan diserahkan separuh berperabot — antaranya sofa, meja makan, plaster ceiling, kabinet TV, penghawa dingin, lampu dan kipas, kitchen cabinet, set katil, almari dan pemanas air, serta set hood & hob. Pegangan leasehold dengan baki pajakan 81 tahun, bumi lot. Taman kediaman matang di Seksyen 15 Bandar Baru Bangi — berhampiran UKM, Bangi Gateway, sekolah dan pusat beli-belah, dengan akses mudah ke lebuh raya PLUS, LEKAS dan SILK. Sesuai untuk didiami atau pelaburan sewa. Hubungi kami untuk viewing.",
     "amenities": [
       "Corner lot + tanah tambahan (2,616 sqft)",
@@ -9536,6 +9693,7 @@ window.LISTINGS = [
       "9 unit aircond, 4 pemanas air, wardrobe terbina & wet + dry kitchen",
       "Kawasan gated & guarded (kad akses) — sedang disewakan (tenanted)"
     ],
+    "pelan": [],
     "description": "Rumah semi-D dua tingkat untuk dijual di Desa Villa Merab, Sungai Merab, Bangi/Putrajaya pada harga RM799,000. Unit ini menawarkan tanah seluas 2,454 kaki persegi dan binaan 3,000 kaki persegi dengan 5 + 1 bilik tidur dan 4 bilik air. Unit telah diubah suai sepenuhnya — plaster ceiling, cornice, lantai penuh berjubin, grill, kipas siling, lampu, reka bentuk dalaman moden dan kitchen island. Dilengkapi 9 unit penghawa dingin, 4 pemanas air, wardrobe terbina, table top serta dapur basah dan kering. Balkoni berbentuk U di bilik tidur utama. Pegangan Freehold (Malay Reserve) dalam kawasan gated & guarded dengan kad akses. Lokasi sangat strategik: hanya 7 km ke Putrajaya, 3 km ke Bandar Baru Bangi dan 5 km ke Plaza Tol Bangi. Unit sedang disewakan (tenanted) — sesuai untuk pelaburan sewa atau kediaman keluarga. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 2,454 sqft, binaan 3,000 sqft",
@@ -9599,6 +9757,7 @@ window.LISTINGS = [
       "Separuh berperabot: kabinet dapur, 2 aircond, wardrobe, katil, meja makan, peti sejuk, langsir & lampu",
       "Yuran penyelenggaraan RM326 sebulan — paling berbaloi di kawasan ini"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Aura Residence, Presint 8, Putrajaya pada harga RM500,000. Unit intermediate seluas 750 kaki persegi ini menawarkan 2 bilik tidur dan 2 bilik air dengan pemandangan Masjid Putra dan tasik — antara unit paling berbaloi di projek ini. Pegangan Freehold (Open) dengan hakmilik strata dalam proses penyempurnaan. Diserahkan separuh berperabot: kabinet dapur, 2 unit penghawa dingin, wardrobe, rangka katil, meja makan, peti sejuk, set langsir serta lampu dan kipas. Termasuk 2 tempat letak kereta dengan yuran penyelenggaraan RM326 sebulan. Lokasi di Presint 8 Putrajaya menempatkan anda berhampiran pusat pentadbiran kerajaan, Alamanda, masjid dan tasik Putrajaya, dengan akses mudah ke lebuh raya dan Cyberjaya. Nota dalaman: SPA Jun 2022 — sebarang markup perlu ambil kira RPGT (pemilik boleh pertimbangkan untuk waive). Hubungi kami untuk urusan viewing.",
     "amenities": [
       "750 sqft (binaan) — 2 bilik tidur, 2 bilik air",
@@ -9659,6 +9818,7 @@ window.LISTINGS = [
       "Sesuai untuk kediaman atau pelaburan sewa di hab teknologi Cyberjaya",
       "Harga jualan segera — peluang untuk pembeli yang bertindak pantas"
     ],
+    "pelan": [],
     "description": "Servis apartmen untuk dijual segera di Aspire Residence, Cyberjaya pada harga RM330,000. Unit seluas 900 kaki persegi ini menawarkan 3 bilik tidur dan 2 bilik air serta 2 tempat letak kereta — susun atur yang praktikal untuk keluarga kecil mahupun pelaburan sewa. Lokasi sangat strategik di Cyberjaya: hanya 1.8 km ke Tamarind Square, 2.0 km ke MMU Cyberjaya, 2.5 km ke D'Pulze Shopping Centre, 3.5 km ke SK Cyberjaya dan 4.0 km ke Hospital Cyberjaya. Akses mudah melalui MEX, ELITE, LDP dan Lebuhraya Putrajaya–Cyberjaya. Cyberjaya merupakan hab teknologi dan pendidikan dengan permintaan sewa yang stabil — sesuai untuk pemilik yang mencari pulangan sewa atau kediaman berhampiran tempat kerja. Jualan segera — hubungi kami untuk urusan viewing.",
     "amenities": [
       "900 sqft (binaan) — 3 bilik tidur, 2 bilik air",
@@ -9719,6 +9879,7 @@ window.LISTINGS = [
       "Freehold (Open) — 1 tempat letak kereta, keselamatan 24 jam",
       "Yuran penyelenggaraan rendah RM160 sebulan — berbaloi untuk pelaburan"
     ],
+    "pelan": [],
     "description": "Apartmen untuk dijual di Sri Lavender, Taman Sepakat Indah 2, Kajang pada harga RM290,000 (boleh dirunding). Unit seluas 1,045 kaki persegi ini menawarkan 3 bilik tidur dan 2 bilik air, telah diubah suai dan diserahkan penuh berperabot — termasuk kabinet dapur, 4 unit penghawa dingin, wardrobe dan set katil queen, 2 unit pemanas air serta sofa penuh. Pegangan Freehold (Open) dengan 1 tempat letak kereta, balkoni dan keselamatan 24 jam. Yuran penyelenggaraan hanya RM160 sebulan. Kemudahan dalam kawasan termasuk surau, taman permainan, dobi dan dewan serbaguna. Lokasi strategik berhampiran SK Seksyen 7 Bangi, Pasaraya CS & Mydin, Sungai Chua, JPJ Bangi, Hospital Kajang serta UKM dan UniKL, dengan akses mudah ke LEKAS, PLUS, SKVE dan NKVE. Sesuai untuk kediaman atau pelaburan sewa. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "1,045 sqft — 3 bilik tidur, 2 bilik air",
@@ -9780,6 +9941,7 @@ window.LISTINGS = [
       "Leasehold (Bumi Lot)",
       "Berhampiran SK Bandar Teknologi, Mydin, Billion, SEDUDUK Square & Klinik Kesihatan"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat end lot untuk dijual di Bandar Teknologi, Kajang pada harga RM650,000. Unit Type Zenia-X ini menawarkan tanah seluas 26 kaki x 65 kaki dengan binaan anggaran 2,000 kaki persegi, mengandungi 4 bilik tidur dan 4 bilik air serta ruang keluarga. End lot memberi tanah tambahan di sisi rumah, dan unit telah diubah suai. Pegangan Leasehold (Bumi Lot). Lokasi strategik berhampiran SK Bandar Teknologi, Pasaraya Mydin dan Billion, SEDUDUK Square serta Klinik Kesihatan, dengan akses mudah ke lebuh raya SILK dan LEKAS. Sesuai untuk kediaman keluarga. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 26' x 65', binaan anggaran 2,000 sqft",
@@ -9841,6 +10003,7 @@ window.LISTINGS = [
       "Balkoni menghadap kolam — termasuk 3 unit aircond dan 1 pemanas air",
       "Kemudahan lengkap: kolam renang, gimnasium, jogging track, playground dan gelanggang bola keranjang"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Cyberia Smarthomes, Cyberjaya pada harga RM315,000 (masih boleh dirunding). Unit seluas 1,065 kaki persegi di Level 8, Blok B3 ini menawarkan 3 bilik tidur dan 2 bilik air dengan balkoni menghadap kawasan kolam. Pemilik baharu telah membuat pengubahsuaian penuh — jubin seluruh rumah dan kabinet dapur semuanya baharu, jadi kondisi unit adalah tip-top dan boleh terus didiami. Pegangan Freehold (Bumi Lot) dengan strata title yang sudah sedia, disertakan 1 tempat letak kereta berbumbung serta 3 unit penghawa dingin dan 1 pemanas air. Pengurusan baharu juga telah mengehadkan bilangan penduduk asing di Cyberia, menjadikan persekitaran lebih selesa untuk keluarga. Lokasi strategik berhampiran Multimedia University, Tamarind Square dan D-Puzzle Shopping Centre, dengan akses mudah ke lebuh raya ELITE, MEX, LDP, PLUS dan SKVE. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "1,065 sqft (binaan) — 3 bilik tidur, 2 bilik air, balkoni kolam view",
@@ -9901,6 +10064,7 @@ window.LISTINGS = [
       "Leasehold Bumi Lot (baki 82 tahun) — unit kosong, separuh berperabot",
       "Lokasi matang berhampiran Mydin, Masjid dan SK Bandar Teknologi Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat untuk dijual di Taman Anggerik Perdana, Bandar Teknologi Kajang pada harga RM515,000 (masih boleh dirunding). Unit ini telah diubah suai dan diperluas — dapur dan ruang tamu dibesarkan dengan kelulusan, manakala bilik tidur 2 dan 3 diperluas di tingkat atas, menjadikan ruang keluarga lebih praktikal dan selesa. Keluasan tanah 20 kaki x 70 kaki dengan binaan lebih kurang 1,600 kaki persegi, menawarkan 4 bilik tidur dan 3 bilik air. Pegangan Leasehold Bumi Lot dengan baki pajakan lebih kurang 82 tahun. Unit berada dalam keadaan kosong dan diserahkan separuh berperabot, sesuai untuk keluarga yang mahukan rumah siap diubah suai tanpa kerja tambahan. Persekitaran matang dengan kemudahan harian berhampiran seperti Mydin Hypermarket, Masjid Bandar Teknologi Kajang, SK Bandar Teknologi Kajang dan Klinik Kesihatan Kajang. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 20 x 70 kaki | binaan lebih kurang 1,600 sqft",
@@ -9962,6 +10126,7 @@ window.LISTINGS = [
       "2 tempat letak kereta bersebelahan di tingkat 2",
       "Freehold (Non Bumi) — wifi dan air cuckoo turut disediakan"
     ],
+    "pelan": [],
     "description": "Kondominium untuk dijual di Idaman Abadi, Kajang pada harga RM290,000, dan juga ditawarkan untuk sewa pada RM1,600 sebulan. Unit di Blok D tingkat 24 ini menghadap kolam dan berada dalam keadaan strata ready, dengan keluasan 1,022 kaki persegi yang menempatkan 3 bilik tidur dan 3 bilik air. Unit diserahkan fully furnished — sofa, TV, katil, almari pakaian terbina, mesin basuh, 3 unit penghawa dingin serta pemanas air di setiap bilik air. Disertakan juga 2 tempat letak kereta bersebelahan di tingkat 2, wifi dan penapis air cuckoo. Pegangan Freehold (Non Bumi). Lokasi di Kajang menawarkan akses mudah ke pusat bandar, sekolah dan kemudahan harian, sesuai untuk penghunian sendiri atau pelaburan sewa. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "1,022 sqft (binaan) — 3 bilik tidur, 3 bilik air",
@@ -10022,6 +10187,7 @@ window.LISTINGS = [
       "Kemudahan eksklusif: movie room, bilik pejabat, surau dan 3 ruang dapur",
       "Porch besar berbumbung, taman peribadi dan kawasan berpagar (guarded & exclusive)"
     ],
+    "pelan": [],
     "description": "Bungalow untuk dijual di Banyan Close, Bandar Bukit Mahkota, Bangi pada harga RM3.4 juta (masih boleh dirunding). Rumah ini berdiri di atas tanah seluas 18,524 kaki persegi dengan binaan 7,040 kaki persegi serta telah melalui renovasi mewah bernilai lebih RM1.3 juta. Unit ini menawarkan 8+1 bilik tidur dan 7 bilik air, lengkap dengan movie room, bilik pejabat, surau serta 3 ruang dapur — semuanya fully built-in dan fully aircond. Reka bentuk dalaman bergaya premium dengan chandelier, siling tinggi dan tangga kayu berserta tempered glass memberi nuansa eksklusif sejak dari pintu masuk. Porch berbumbung yang luas, taman peribadi untuk majlis keluarga dan kawasan berpagar menjadikannya sesuai untuk kediaman keluarga besar mahupun rumah tetamu. Lokasi di Bandar Bukit Mahkota, Bangi dengan akses mudah ke lebuh raya. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 18,524 sqft | binaan 7,040 sqft",
@@ -10083,6 +10249,7 @@ window.LISTINGS = [
       "Dapur atas dan bawah dilanjutkan, lengkap dengan kabinet dapur",
       "Lokasi strategik berhampiran KUIS, Lotus's dan sekolah"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat untuk dijual di Bandar Bukit Mahkota Seksyen 2, Bangi/Kajang pada harga RM385,000. Unit intermediate ini berdiri di atas tanah 18 kaki x 55 kaki dengan binaan lebih kurang 1,500 kaki persegi, menawarkan 4 bilik tidur dan 3 bilik air. Dapur di tingkat atas dan bawah telah dilanjutkan serta lengkap dengan kabinet dapur, menjadikan ruang memasak lebih luas dan selesa. Pegangan Freehold dengan hakmilik individu memberi ketenangan kepada pembeli. Lokasi sangat strategik — berhampiran KUIS, Lotus's, sekolah Bandar Bukit Mahkota dan SMK Bandar Seri Putra, dengan akses mudah ke lebuh raya PLUS dan LEKAS. Sesuai untuk kediaman keluarga mahupun pelaburan. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 18' x 55' | binaan lebih kurang 1,500 sqft",
@@ -10142,6 +10309,7 @@ window.LISTINGS = [
       "Yield ~5%",
       "Lokasi Tumpuan"
     ],
+    "pelan": [],
     "description": "Kedai tiga tingkat di Medan Pusat Bandar Seksyen 9, Bandar Baru Bangi - lokasi tumpuan yang tepat di tengah pusat bandar. Keluasan tanah 1,430 kaki persegi (22' x 65') dengan luas binaan anggaran 4,290 kaki persegi. Potensi sewa semasa anggaran RM10,000 sebulan dengan yield sekitar 5%. Berhampiran pusat beli-belah dan kawasan komersial utama Bangi.",
     "amenities": [],
     "nearby": [
@@ -10195,6 +10363,7 @@ window.LISTINGS = [
       "Sewa Semasa RM17,000/bulan",
       "Yield 6.18%"
     ],
+    "pelan": [],
     "description": "Kedai empat tingkat dengan lif di Bangi Sentral, Seksyen 9, Bandar Baru Bangi. Menghadap jalan utama di kawasan tumpuan yang sibuk. Keluasan tanah 1,680 kaki persegi (24' x 70') dengan luas binaan anggaran 7,329 kaki persegi; unit tingkat bawah mempunyai ruang bawah tanah. Sewa semasa berjumlah RM17,000 sebulan dengan yield 6.18%. Peluang pelaburan komersial yang kukuh di lokasi strategik Bangi.",
     "amenities": [],
     "nearby": [
@@ -10243,6 +10412,7 @@ window.LISTINGS = [
       "7 Unit Aircond",
       "Wardrobe & 3 Seksyen Kitchen Cabinet"
     ],
+    "pelan": [],
     "description": "Rumah teres 2.5 tingkat fully furnished dan renovasi extended di Sri Wirani, Seksyen 8, Bandar Baru Bangi. Keluasan tanah 22' x 75' dengan luas binaan anggaran 2,800 kaki persegi serta 5 bilik tidur dan 4 bilik air. Taman berpagar dan berkawal 24 jam, strata ready, lengkap dengan 7 unit penghawa dingin, wardrobe dan tiga seksyen kabinet dapur, serta dapur yang telah diperluas. Lokasi mudah ke sekolah, pasaraya dan lebuh raya utama.",
     "amenities": [
       "Gated & Guarded",
@@ -10307,6 +10477,7 @@ window.LISTINGS = [
       "Auto gate, penghawa dingin, kabinet dapur premium",
       "Kawasan Gated & Guarded 24 jam — keselamatan terjaga"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat untuk dijual di Bangi Avenue 1, Kajang pada harga RM605,000 (masih boleh dirunding). Unit ini telah diubah suai dan diperbesarkan (renovated & extended) dengan dapur yang lebih luas serta ruang family tambahan, menjadikannya selesa untuk keluarga besar. Pegangan Freehold (Open) dengan keluasan tanah 20' x 70' dan binaan kira-kira 2,000 kaki persegi, menawarkan 4 bilik tidur dan 4 bilik air. Kemudahan sedia ada termasuk auto gate, penghawa dingin dan kabinet dapur premium, manakala kawasan perumahan dijaga Gated & Guarded 24 jam. Lokasinya strategik berhampiran UIS Bandar Sri Putra, USIM, surau, Jaya Grocer, Pasaraya CS dan Bangi Wonderland, dengan akses mudah ke Lebuhraya PLUS dan LEKAS. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 20' x 70', binaan ~2,000 kaki persegi",
@@ -10367,6 +10538,7 @@ window.LISTINGS = [
       "Dapur diperbesarkan (extended kitchen)",
       "Berjalan kaki ke Surau At Taqwa; dekat SK/SMK Kajang Utama"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat intermediate untuk dijual di Taman Seri Mewah, Kajang pada harga RM480,000. Unit ini menghadap kawasan lapang (facing open) dan terletak bersebelahan end lot, memberikan pencahayaan dan pengudaraan yang lebih baik. Pegangan Freehold (Open Title) dengan tanah 18' x 65' dan binaan kira-kira 1,654 kaki persegi, menawarkan 4 bilik tidur, 3 bilik air serta 1 store room, lengkap dengan dapur yang telah diperbesarkan. Kedudukannya hanya berjalan kaki ke Surau At Taqwa serta berdekatan SK & SMK Kajang Utama, SJKC Bandar Kajang 2, mini mart dan restoran. Akses mudah ke lebuhraya SILK, LEKAS, PLUS dan EKVE, serta stesen KTM & MRT Kajang. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 18' x 65', binaan ~1,654 kaki persegi",
@@ -10427,6 +10599,7 @@ window.LISTINGS = [
       "Seal shade (car porch) — kenderaan terlindung",
       "Kawasan Gated & Guarded; unit dalam keadaan tenanted"
     ],
+    "pelan": [],
     "description": "Semi-detached dua setengah tingkat untuk dijual di Bangi Lakehill Villas, Bandar Baru Bangi pada harga RM1,600,000 (masih boleh dirunding). Unit ini telah diubah suai (renovated) dengan dapur yang diperbesarkan sepenuhnya, dan menawarkan 6 bilik tidur serta 5 bilik air — selesa untuk keluarga besar. Keluasan tanah 45' x 80' dengan binaan kira-kira 4,500 kaki persegi. Terdapat seal shade (car porch) untuk perlindungan kenderaan, manakala kawasan perumahan dijaga Gated & Guarded. Unit kini dalam keadaan tenanted. Lokasi strategik berhampiran masjid, sekolah, shoplot, stesen minyak, hospital dan universiti, dengan akses ke lebuhraya PLUS, SKVE dan SILK. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Tanah 45' x 80', binaan ~4,500 kaki persegi",
@@ -10487,6 +10660,7 @@ window.LISTINGS = [
       "1-ton cargo lift; siling 23 kaki (aras bawah) dan 13 kaki (aras atas)",
       "Layout kilang + gudang + pejabat; 4 tandas"
     ],
+    "pelan": [],
     "description": "Kilang link dua tingkat (corporate link factory / warehouse / office) untuk dijual di Nouvelle Industrial Park, Meru, Klang pada harga RM2,300,000. Unit Type A intermediate ini berpegangan Freehold (Non-Bumi Lot) dengan keluasan binaan 4,380 kaki persegi dan tanah 2,940 kaki persegi (28' x 105'). Kemudahan termasuk private loading area 780 kaki persegi, 1-ton cargo lift dan motorised roller shutter, dengan siling setinggi 23 kaki di aras bawah dan 13 kaki di aras atas. Layoutnya menggabungkan ruang kilang, gudang dan pejabat, serta 4 tandas. Lokasi berhampiran Klang Sentral, Setia City Mall, AEON Bukit Raja, North Port dan West Port, dengan akses ke NKVE, Federal Highway, Selat Klang Highway, Guthrie Corridor dan SKVE. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Binaan 4,380 kaki persegi, tanah 2,940 kaki persegi (28' x 105')",
@@ -10546,6 +10720,7 @@ window.LISTINGS = [
       "Hadapan barat daya, akses terus ke LATAR, NKVE, GUTHRIE dan DASH",
       "Berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial"
     ],
+    "pelan": [],
     "description": "Kilang detached corner lot untuk dijual di Elmina Business Park, Bandar Elmina, Shah Alam. Unit ini menawarkan binaan 12,000 kaki persegi di atas tanah seluas 32,840 kaki persegi (3,051 meter persegi) dengan pegangan Freehold dan Individual Title. Ketinggian siling 30 kaki (9 meter) membolehkan penyimpanan bertingkat, manakala kapasiti kuasa 200 Amp serta floor loading 15 kN/m² menampung keperluan operasi industri ringan dan pergudangan. Lokasinya menghadap barat daya dengan akses mudah ke lebuhraya LATAR, NKVE, GUTHRIE dan DASH, serta berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial seperti restoran dan deretan kedai. Sesuai untuk syarikat yang mahukan premis industri moden dalam taman perniagaan yang sedang membangun. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
     "amenities": [
       "Binaan 12,000 sqft, tanah 32,840 sqft (3,051 sqm)",
@@ -10601,6 +10776,7 @@ window.LISTINGS = [
       "Hadapan selatan, akses terus ke LATAR, NKVE, GUTHRIE dan DASH",
       "Berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial"
     ],
+    "pelan": [],
     "description": "Kilang detached warehouse untuk dijual di Elmina Business Park, Bandar Elmina, Shah Alam. Unit ini menawarkan binaan 37,355 kaki persegi di atas tanah seluas 1.1809 ekar (51,441 kaki persegi / 4,779 meter persegi) dengan pegangan Freehold dan Individual Title. Ketinggian siling 39 kaki (12 meter) serta floor loading 30 kN/m² membolehkan operasi industri yang lebih berat dan penyimpanan bervolume besar, ditambah kapasiti kuasa 400 Amp dan sistem sprinkle yang telah disediakan. Lokasinya menghadap selatan dengan akses mudah ke lebuhraya LATAR, NKVE, GUTHRIE dan DASH, serta berdekatan Elmina Lakeside Mall, Bandar Elmina dan kawasan komersial seperti restoran dan deretan kedai. Sesuai untuk syarikat yang memerlukan premis industri berskala besar dalam taman perniagaan yang sedang membangun. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
     "amenities": [
       "Binaan 37,355 sqft, tanah 1.1809 ekar (51,441 sqft)",
@@ -10661,6 +10837,7 @@ window.LISTINGS = [
       "Taman berpagar dan berpengawal, maintenance anggaran RM280 sebulan",
       "Akses mudah ke MEX, PLUS, LDP, ELITE, SILK, SKVE dan NKVE"
     ],
+    "pelan": [],
     "description": "Rumah teres tiga tingkat (Type B) untuk dijual di The Mulia Residence, Cyberjaya pada harga RM1,450,000. Unit ini telah diubah suai dan diserahkan dalam keadaan partially furnished, dengan pegangan Freehold (Strata Title) dan persetujuan Bumi Lot. Keluasan binaan 2,386 kaki persegi di atas tanah 1,540 kaki persegi (22' x 70') menyediakan ruang 5 bilik tidur (4+1) dan 4 bilik air termasuk powder room, sesuai untuk keluarga besar. Kediaman ini terletak dalam taman berpagar dan berpengawal dengan bayaran maintenance anggaran RM280 sebulan. Lokasinya berhubung dengan rangkaian lebuhraya utama seperti MEX, Lebuhraya Utara-Selatan, LDP, ELITE, SILK, SKVE dan NKVE, memudahkan perjalanan ke Cyberjaya, Putrajaya dan Lembah Klang. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
     "amenities": [
       "Rumah teres 3 tingkat (Type B) — diubah suai",
@@ -10721,6 +10898,7 @@ window.LISTINGS = [
       "Maintenance anggaran RM300 sebulan",
       "Berdekatan IOI City Mall Putrajaya, IOI Golf Club, Hospital Serdang dan UPM"
     ],
+    "pelan": [],
     "description": "Townhouse unit tingkat atas (corner) di Country Villas, Country Heights, Kajang untuk dijual pada harga RM420,000 (boleh runding). Unit Phase 2 ini berpegangan Leasehold (Bumi Lot) dengan keluasan 1,453 kaki persegi, menawarkan 3 bilik tidur dan 2 bilik air dalam keadaan fully fitted serta 1 tempat letak kereta berbumbung. Bayaran maintenance anggaran RM300 sebulan. Lokasinya sangat strategik berhampiran IOI City Mall Putrajaya dan IOI Golf Club, Tanahrata International School, KPJ Kajang Specialist Centre, Hospital Serdang, Bangi Golf Course serta institusi pengajian seperti IUKL, UNITEN, UPM dan MARDI. Akses mudah melalui lebuhraya PLUS, SILK dan SKVE. Sesuai untuk kediaman keluarga mahupun pelaburan. Hubungi kami untuk urusan lawatan.",
     "amenities": [
       "Townhouse tingkat atas (corner), Phase 2",
@@ -10783,6 +10961,7 @@ window.LISTINGS = [
       "Strata ready",
       "Berdekatan SK Sri Jelok, Prima Saujana dan Lotus Kajang; akses MRR2, LEKAS dan Cheras-Kajang"
     ],
+    "pelan": [],
     "description": "Townhouse dua tingkat (unit tingkat bawah) untuk dijual di Kajang Perdana, Kajang pada harga RM340,000. Unit ini berpegangan Leasehold (Bumi Lot) dengan keluasan binaan 990 kaki persegi, mengandungi 3 bilik tidur dan 3 bilik air, 1 yard serta 2 tempat letak kereta. Orientasi menghadap tenggara dan status strata ready. Kawasan ini berdekatan SK Sri Jelok, deretan kedai Kajang Perdana, Surau Seri Jelok, pasar raya Giant Prima Saujana, Lotus Kajang serta kawasan komersial Prima Saujana dan TTDI Groove. Akses jalan raya melalui MRR2, LEKAS dan Cheras-Kajang menghubungkan ke Kajang, Cheras dan Lembah Klang. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
     "amenities": [
       "Townhouse 2 tingkat (unit tingkat bawah)",
@@ -10844,6 +11023,7 @@ window.LISTINGS = [
       "1 lot tempat letak kereta",
       "Berdekatan PASTI, SK/SMK Kajang Utama, Bandar Baru Bangi dan MRT Kajang"
     ],
+    "pelan": [],
     "description": "Apartmen Cemara unit tingkat bawah untuk dijual di Taman Kajang Utama, Kajang pada harga RM325,000 (sedikit boleh runding). Unit ini berpegangan Freehold dengan Strata Title, berkeluasan 960 kaki persegi dan menawarkan 3+1 bilik tidur serta 2 bilik air, lengkap dengan 1 lot tempat letak kereta. Kawasan kediaman ini menyediakan kemudahan kolam renang, taman permainan dan kawalan keselamatan 24 jam. Lokasinya amat memudahkan urusan harian kerana berdekatan PASTI, SK Kajang Utama dan SMK Kajang Utama, serta hanya beberapa minit ke Bandar Baru Bangi dan MRT Kajang. Sesuai untuk keluarga muda mahupun pelaburan sewa. Hubungi kami untuk maklumat lanjut dan urusan lawatan.",
     "amenities": [
       "Unit tingkat bawah",
@@ -10903,6 +11083,7 @@ window.LISTINGS = [
       "Dekat UKM & KTM UKM",
       "Sewa RM2,200 sebulan"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat partially furnished untuk disewa di Seksyen 3, Bandar Baru Bangi. Unit mempunyai 4 bilik tidur dan 3 bilik air dengan keluasan binaan 1,650 kaki persegi di atas tanah 20 x 70 kaki. Berada dalam kawasan kediaman matang yang berdekatan surau, kedai serbaneka, pasar basah, sekolah dan UKM. Akses mudah ke stesen KTM UKM serta lebuh raya di sekitar Bangi.",
     "amenities": [
       "Partially furnished",
@@ -10961,6 +11142,7 @@ window.LISTINGS = [
       "Kolam, gim, dewan & gelanggang",
       "Sewa RM2,200 sebulan"
     ],
+    "pelan": [],
     "description": "Unit baharu partially furnished di Residensi Jernih, Sungai Jernih, Kajang — hanya jalan kaki ke stesen MRT Sg Jernih dan KPJ Kajang Specialist Centre. Unit seluas 850 kaki persegi di tingkat 11 dengan 3 bilik tidur, 2 bilik air dan 1 tempat letak kereta. Penghuni boleh menikmati kemudahan kolam renang, gimnasium, dewan serbaguna, gelanggang bola keranjang dan badminton serta taman permainan. Akses mudah melalui Lebuhraya Grand Saga dan SILK.",
     "amenities": [
       "Partially furnished",
@@ -11027,6 +11209,7 @@ window.LISTINGS = [
       "Lantai SPC di dapur dan semua bilik, disertakan 1 tempat letak kereta",
       "Unit sedang disewakan — sesuai untuk pembeli yang mahukan pulangan sewa"
     ],
+    "pelan": [],
     "description": "Apartment yang telah direnovasi di Vista Seri Putra, Bandar Seri Putra, Bangi dengan harga RM235,000 (masih boleh dirunding). Unit ini menawarkan ruang binaan 856 kaki persegi dengan 3 bilik tidur dan 2 bilik air dalam keadaan sedia didiami. Terletak di Blok C, tingkat 2, unit menghadap kawasan hijau serta pemandangan sekolah agama — suasana tenang dan sesuai untuk keluarga. Sebahagian perabot dan kelengkapan disertakan seperti 2 unit aircond, water heater, almari terbina dalam, peti sejuk, mesin basuh, hood dan dapur, manakala lantai SPC dipasang di dapur dan semua bilik. Pegangan Freehold dengan strata title yang sudah sedia, serta 1 tempat letak kereta disediakan. Unit kini disewakan, menjadikannya pilihan baik untuk pelaburan sewa mahupun kediaman sendiri. Kemudahan penduduk termasuk kolam renang, taman permainan, surau, kafe dan kawalan keselamatan 24 jam. Lokasi strategik berhampiran masjid, pusat membeli-belah, kedai, klinik dan stesen minyak dengan akses mudah ke lebuh raya ELITE, PLUS dan LEKAS. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Renovated & sedia didiami (move-in condition)",
@@ -11089,6 +11272,7 @@ window.LISTINGS = [
       "Kemudahan penduduk: kolam renang, gimnasium, dewan serbaguna, surau & masjid, taman permainan",
       "Berdekatan UKM, GMI, Kolej Poly-Tech Mara Bangi, UPM dan IUKL"
     ],
+    "pelan": [],
     "description": "Kondominium fully furnished untuk disewa di Vista Hijauan, Taman Universiti, Bangi pada kadar RM1,900 sebulan. Unit ini menawarkan binaan 1,007 kaki persegi dengan 3 bilik tidur serta bilik cucian dan 2 bilik air, lengkap dengan perabot dan peralatan elektrik — termasuk katil queen, katil bertingkat, almari di semua bilik, sofa, meja makan, kabinet dapur, TV Android, peti sejuk, mesin basuh, dapur dan water boiler. Dua tempat letak kereta berbumbung disediakan, manakala keselamatan 24 jam dengan kad akses RFID memberi ketenangan kepada penghuni. Penduduk boleh menikmati kemudahan kolam renang, gimnasium, dewan serbaguna, surau dan masjid (solat Jumaat), serta taman permainan kanak-kanak. Lokasi sangat sesuai untuk pelajar dan kakitangan universiti kerana berhampiran UKM, German-Malaysia Institute (GMI), Kolej Poly-Tech Mara Bangi, UPM dan IUKL, dengan akses mudah ke lebuh raya SILK, MEX, PLUS, LEKAS, SKVE dan ELITE. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Fully furnished — perabot & peralatan elektrik lengkap",
@@ -11148,6 +11332,7 @@ window.LISTINGS = [
       "Berdekatan Metro Point & Metro Plaza Kajang, kedai dan klinik",
       "Akses mudah ke lebuh raya SILK, LEKAS, PLUS dan MRT Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat untuk disewa di Taman Bukit Kajang Baru, Kajang pada kadar RM1,600 sebulan. Unit ini menawarkan keluasan binaan kira-kira 1,800 kaki persegi dengan 3 bilik tidur dan 3 bilik air. Keadaan partially furnished memudahkan penghuni berpindah masuk — disertakan lampu dan kipas, kabinet dapur, water heater, dapur basah dan kering serta almari. Terdapat 2 tempat letak kereta berbumbung dan sebuah balkoni untuk kegunaan keluarga. Lokasi strategik berhampiran Metro Point dan Metro Plaza Kajang, kedai serbaneka, klinik serta institusi pengajian seperti UniKL MESTECH dan New Era University College. Akses perjalanan juga mudah melalui lebuh raya SILK, LEKAS dan PLUS, Jalan Semenyih serta MRT Kajang. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Partially furnished (lampu & kipas, kabinet dapur, water heater, almari)",
@@ -11208,6 +11393,7 @@ window.LISTINGS = [
       "Berdekatan Masjid Bandar Seri Putra, KTM Komuter Bangi Lama serta SK/SMK Bandar Seri Putra",
       "Akses mudah ke Lebuhraya PLUS; dekat Lotus's Bangi, KUIS, UKM dan USIM"
     ],
+    "pelan": [],
     "description": "Pangsapuri Mawar di Bandar Seri Putra, Bangi ditawarkan untuk dijual pada harga RM220,000 (masih boleh dirunding). Unit ini menawarkan ruang binaan 725 kaki persegi dengan 3 bilik tidur dan 2 bilik air, serta disertakan kabinet dapur. Pegangan Freehold dan terletak di tingkat 3, unit ini sesuai untuk keluarga kecil mahupun pembeli rumah pertama. Persekitaran kejiranan yang tenang dengan kawalan keselamatan 24 jam dan tempat letak kereta disediakan (1 kereta dan 1 motosikal), di samping taman permainan kanak-kanak. Lokasi strategik berdekatan Masjid Bandar Seri Putra, surau, KTM Komuter Bangi Lama, SK/SMK Bandar Seri Putra, mini market serta pusat makanan seperti McDonald's, KFC dan Pizza. Akses mudah ke Lebuhraya PLUS, manakala Lotus's Bangi, Bangi Wonderland, KUIS, UKM dan USIM berada berdekatan. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Kabinet dapur disertakan",
@@ -11272,6 +11458,7 @@ window.LISTINGS = [
       "Unit basic yang sedang disewakan — sesuai untuk pelaburan",
       "Yuran penyelenggaraan RM330 sebulan; dekat pusat bandar Kajang dan SILK Highway"
     ],
+    "pelan": [],
     "description": "End lot 3 tingkat Superlink di Taman Nadayu 92, Kajang ditawarkan untuk dijual pada harga RM1,150,000 (masih boleh dirunding). Unit ini menawarkan ruang binaan 3,748 kaki persegi dengan tanah 34 kaki x 75 kaki (2,550 kaki persegi) serta tanah tambahan sekitar 9 kaki, menempatkan 4+1 bilik tidur dan 4 bilik air dalam keadaan basic unit. Pegangan Freehold non-bumi dengan strata title, dan unit kini sedang disewakan — menjadikannya pilihan menarik untuk pelaburan mahupun kediaman sendiri. Kemudahan penduduk termasuk kawalan keselamatan 24 jam, clubhouse dan taman permainan, dengan yuran penyelenggaraan RM330 sebulan. Kedudukannya strategik berhampiran pusat bandar Kajang dan Kajang 2, dengan akses mudah ke SILK Highway. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "3 tingkat Superlink, end lot",
@@ -11334,6 +11521,7 @@ window.LISTINGS = [
       "Berdekatan masjid, sekolah, shoplot, stesen minyak, hospital dan universiti",
       "Akses mudah ke lebuh raya PLUS, SKVE dan SILK"
     ],
+    "pelan": [],
     "description": "Bungalow dua tingkat di Seksyen 1, Bandar Baru Bangi ditawarkan untuk dijual pada harga RM1,050,000. Unit ini berdiri di atas tanah seluas 7,889 kaki persegi dengan ruang binaan 4,500 kaki persegi, menempatkan 5 bilik tidur dan 4 bilik air. Keadaannya telah direnovasi dan menghadap arah terbuka (facing open) yang memberikan pengudaraan serta pencahayaan semula jadi yang baik. Pegangan Leasehold bumi, dan unit kini sedang disewakan. Lokasinya strategik berhampiran masjid, sekolah, shoplot, stesen minyak, hospital dan universiti, dengan akses mudah ke lebuh raya PLUS, SKVE dan SILK. Sesuai untuk keluarga besar yang mahukan kediaman luas dan selesa di Bandar Baru Bangi. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Bungalow 2 tingkat, renovated",
@@ -11396,6 +11584,7 @@ window.LISTINGS = [
       "Dekat Lotus's Kajang",
       "Akses mudah ke lebuh raya SILK, LEKAS dan Grand Saga"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Taman Kajang Perdana, Kajang ditawarkan untuk dijual pada harga RM480,000. Unit ini berdiri di atas tanah 22 kaki x 75 kaki dengan ruang binaan lebih kurang 2,000 kaki persegi, menempatkan 4 bilik tidur dan 3 bilik air dalam keadaan basic unit. Pegangan Freehold open memberi kelebihan dari segi pemilikan, manakala keadaan basic membolehkan pembeli mengubah suai mengikut citarasa sendiri. Persekitaran Taman Kajang Perdana lengkap dengan surau, sekolah, shoplot dan stesen minyak, serta berdekatan Lotus's Kajang. Akses mudah ke lebuh raya SILK, LEKAS dan Grand Saga memudahkan perjalanan ke pusat bandar Kajang dan kawasan sekitarnya. Hubungi kami untuk urusan viewing.",
     "amenities": [
       "Rumah teres 2 tingkat",
@@ -11456,6 +11645,7 @@ window.LISTINGS = [
       "2 minit ke EVO Mall & Bangi Sentral",
       "10 minit ke UKM, UNITEN & Bandar Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat (unit intermediate) yang telah direnovasi di Seksyen 8, Bandar Baru Bangi — dijual pada RM600,000 (boleh runding). Keluasan tanah 20' x 70' dalam kawasan gated & guarded dengan komuniti Muslim, serta dilengkapi aircond dan CCTV. Lokasi matang berhampiran EVO Mall, Bangi Sentral, PKNS Bangi, UKM, UNITEN, GMI dan UniKL, hanya 2 minit ke pusat komersial Bandar Baru Bangi dan 10 minit ke Bandar Kajang. Akses mudah melalui PLUS dan SILK Highway ke Putrajaya dan Kuala Lumpur.",
     "amenities": [
       "Aircond",
@@ -11522,6 +11712,7 @@ window.LISTINGS = [
       "Kolam, gim, dewan serbaguna & surau",
       "Maintenance fee ditanggung pemilik"
     ],
+    "pelan": [],
     "description": "Apartment fully furnished untuk disewa di Jernih Residence, Kajang — 850 kaki persegi di aras 41 dengan 3 bilik tidur, 2 bilik air dan 2 tempat letak kereta. Unit lengkap dengan perabot dan kelengkapan termasuk almari, meja belajar, kipas siling, peti sejuk, dapur elektrik, microwave, kabinet dapur dan TV cabinet. Penghuni menikmati kolam renang, gimnasium, dewan serbaguna, taman permainan, surau serta kedai dan minimart di aras bawah. Hanya 50m berjalan kaki ke stesen MRT Sungai Jernih, berhampiran KPJ Kajang, Lotus's Kajang dan Hospital Kajang. Maintenance fee ditanggung pemilik.",
     "amenities": [
       "Fully furnished",
@@ -11587,6 +11778,7 @@ window.LISTINGS = [
       "Sedang disewakan RM2,000 sebulan — pulangan segera",
       "Freehold, bukan Bumi Lot"
     ],
+    "pelan": [],
     "description": "Corner unit di Cristal Serin Condominium, Cyberjaya — binaan 1,521 kaki persegi dengan 3+1 bilik tidur dan 3 bilik air. Unit ini mempunyai 2 balkoni dan terletak berdekatan lif. Dilengkapi kabinet dapur dengan island, pemanas air serta penghawa dingin. Kini disewakan pada RM2,000 sebulan — sesuai untuk pelaburan mahupun kediaman sendiri. Yuran penyelenggaraan RM560 sebulan. Akses mudah melalui MEX, KESAS dan Sungai Besi Expressway, berhampiran ELC International School, Dpulze Shopping Mall, Cyberjaya Park dan MMU.",
     "amenities": [
       "Corner unit",
@@ -11651,6 +11843,7 @@ window.LISTINGS = [
       "Sedang disewakan RM1,100 sebulan",
       "Strata sedia, kabinet dapur & almari terbina"
     ],
+    "pelan": [],
     "description": "Apartment Taman Putra Impian di Bandar Seri Putra, Bangi — binaan 1,044 kaki persegi dengan 3 bilik tidur dan 3 bilik air, termasuk 2 bilik utama. Unit di Blok B tingkat 12 ini mempunyai balkoni dengan pemandangan kolam yang menarik. Nilai bank RM350,000 (RHB) sementara harga permintaan hanya RM310,000 — di bawah nilai pasaran. Disewakan pada RM1,100 sebulan. Yuran penyelenggaraan RM220 sebulan. Siap 2019, strata sedia. Akses mudah melalui PLUS, ELITE dan LEKAS, berhampiran Masjid Bandar Seri Putra, sekolah, KUIS, Lotus Bandar Puteri dan Bangi Wonderland.",
     "amenities": [
       "Balkoni pandangan kolam",
@@ -11715,6 +11908,7 @@ window.LISTINGS = [
       "Kemudahan lengkap: kolam, gimnasium, jacuzzi, sauna, kelab",
       "Akses MEX, ELITE, SKVE dan LDP"
     ],
+    "pelan": [],
     "description": "3 tingkat linked house di Lake Point Residence, Cyberjaya — tanah dan binaan 22x70 (2,896 kaki persegi) dengan 5+1 bilik tidur dan 5 bilik air. Unit telah melalui renovasi terperinci bernilai RM15,000. Kawasan gated & guarded dengan keselamatan 24 jam, lengkap dengan kolam renang, gimnasium, jacuzzi, sauna & bilik stim, kelab, dewan serbaguna, gelanggang badminton, taman permainan kanak-kanak, surau dan parkir berbumbung. Berhampiran DPULZE Shopping Centre, Hospital Cyberjaya, University of Cyberjaya, SK & SMK Cyberjaya. Akses mudah melalui MEX, ELITE, SKVE dan LDP.",
     "amenities": [
       "3 tingkat linked house",
@@ -11781,6 +11975,7 @@ window.LISTINGS = [
       "5 unit penghawa dingin, auto gate, plaster ceiling",
       "Yuran keselamatan rendah RM50 sebulan"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat yang telah direnovasi di Taman Puncak Saujana, Seksyen 5, Kajang. Tanah 20' x 70' (1,400 kaki persegi) dengan binaan lebih kurang 1,800 kaki persegi — 4 bilik tidur, 4 bilik air dan 1 bilik utiliti. Unit intermediate yang fully extended: dapur dan porch berjubin penuh, kabinet dapur dengan table top, plaster ceiling dan auto gate. Dilengkapi 5 unit penghawa dingin dan diserahkan dalam keadaan fully furnished. Freehold dengan hakmilik individu — terbuka kepada pembeli Bumi dan bukan Bumi. Yuran keselamatan hanya RM50 sebulan. Berhampiran Surau Al-Ukhuwwah (100m), SK Taman Kantan Permai, SMK Saujana Impian, CS Hypermarket dan Giant Prima Saujana. Akses mudah melalui SILK, LEKAS dan Kajang Bypass.",
     "amenities": [
       "Renovated & fully extended",
@@ -11851,6 +12046,7 @@ window.LISTINGS = [
       "Yuran penyelenggaraan rendah RM100 sebulan",
       "Bipath berbasikal & jogging, taman permainan dalam kawasan"
     ],
+    "pelan": [],
     "description": "Townhouse 1.5 tingkat unit tingkat bawah (ground floor) yang telah direnovasi di The Strata, Bandar Puteri Bangi. Keluasan tanah 3,552 kaki persegi dengan binaan 1,536 kaki persegi — 3 bilik tidur dan 3 bilik air. Hakmilik Freehold jenis open lot, terbuka kepada pembeli Bumi dan bukan Bumi. Projek siap pada 2021 oleh IOI Properties Group, kawasan berpagar dan berpengawal (gated & guarded) dengan yuran penyelenggaraan hanya RM100 sebulan. Kemudahan dalam kawasan termasuk laluan berbasikal dan jogging serta taman permainan kanak-kanak. Berhampiran SK Bukit Mahkota, SK Bandar Seri Putra, Hospital Pakar An-Nur, Tesco Bandar Puteri Bangi dan Bangi Wonderland Theme Park. Akses mudah melalui Lebuhraya PLUS, LEKAS dan ELITE serta KTM Bangi.",
     "amenities": [
       "Unit ground floor direnovasi",
@@ -11916,6 +12112,7 @@ window.LISTINGS = [
       "1 tempat letak kereta, unit kosong (vacant)",
       "Yuran penyelenggaraan RM430 sebulan"
     ],
+    "pelan": [],
     "description": "Kondominium Puteri Palma di IOI Resort City, Putrajaya untuk dijual. Unit telah direnovasi dengan pemandangan terbuka (open view). Keluasan binaan 1,617 kaki persegi — 2 bilik tidur (asalnya 3 bilik, diubah suai) dan 2 bilik air, terletak di Blok B tingkat 11 (aras tinggi). Unit mempunyai 2 balkoni dan 1 tempat letak kereta. Hakmilik Freehold dengan strata title, terbuka kepada pembeli Non-Bumi. Unit dalam keadaan kosong dan sedia untuk dilihat. Kemudahan kondominium termasuk pengawal keselamatan 24 jam, kolam renang, gimnasium dan taman permainan. Yuran penyelenggaraan RM430 sebulan. Lokasi strategik dalam IOI Resort City — berhampiran IOI City Mall, Hospital Putrajaya dan akses mudah melalui Lebuhraya LDP dan SKVE.",
     "amenities": [
       "Renovated, open view",
@@ -11981,6 +12178,7 @@ window.LISTINGS = [
       "Freehold",
       "Tersusun, kawasan matang dengan kemudahan lengkap"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D cluster dua tingkat yang telah direnovasi sepenuhnya di Seksyen 6, Bandar Bukit Mahkota, Bangi. Keluasan binaan lebih kurang 1,575 kaki persegi dengan tanah 35' x 50'. Unit mempunyai 4 bilik tidur dan 3 bilik air, menghadap bungalow (facing bungalow) — pemandangan terbuka dan tidak sesak. Hakmilik Freehold. Berada dalam kawasan perumahan matang Bandar Bukit Mahkota dengan kemudahan lengkap — pusat komersial, sekolah, tadika, kedai, restoran, masjid dan kemudahan rekreasi. Akses mudah melalui Lebuhraya LEKAS serta Lebuhraya PLUS melalui Bangi/Kajang, memudahkan perjalanan ke Bangi, Kajang, Putrajaya dan Nilai.",
     "amenities": [
       "Fully renovated",
@@ -12043,6 +12241,7 @@ window.LISTINGS = [
       "Gated & Guarded",
       "Facing South"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat Binaan 3,234 sqft | Tanah 1,400 sqft (20' x 70') di Taman Bangi Avenue, Kajang, Selangor dijual pada RM600,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12084,6 +12283,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 865 sqft di Bandar Teknologi Kajang, Selangor dijual pada RM350,000. Hakmilik: Freehold.",
     "amenities": [
       "24 Hours Security",
@@ -12148,6 +12348,7 @@ window.LISTINGS = [
       "Sesuai untuk workshop, warehouse atau showroom",
       "Lokasi Presint Diplomatik, Putrajaya — akses mudah ke Putrajaya & Cyberjaya"
     ],
+    "pelan": [],
     "description": "Unit kilang/gudang single storey terrace di Presint Diplomatik, Putrajaya untuk dijual. Lot service industry dengan keluasan tanah 1,916 kaki persegi, status Freehold dan terbuka kepada semua pembeli (Non-Bumi). Unit ini sedang disewa pada kadar RM3,900 sebulan, memberi potensi pulangan sewa segera kepada pembeli. Sangat sesuai untuk kegunaan workshop, stor gudang mahupun showroom perniagaan.",
     "amenities": [
       "Lot service industry",
@@ -12202,6 +12403,7 @@ window.LISTINGS = [
     "highlights": [
       "Facing open"
     ],
+    "pelan": [],
     "description": "Apartment 933 sqft di Goodview Heights, Kajang, Selangor dijual pada RM320,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -12254,6 +12456,7 @@ window.LISTINGS = [
       "Fully Renovated",
       "Facing Direction : NorthEast"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,690 sqft (26 x 65) di D'Sentral, Bandar Seri Putra, Kajang, Selangor dijual pada RM650,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -12304,6 +12507,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 785 sqft di Blok D, Bandar Seri Putra, Kajang, Selangor dijual pada RM250,000. Hakmilik: Freehold.",
     "amenities": [
       "24hrs Security Guard",
@@ -12369,6 +12573,7 @@ window.LISTINGS = [
     "highlights": [
       "Kitchen Cabinet"
     ],
+    "pelan": [],
     "description": "Apartment 1,044 sqft di Taman Putra Impian, Bandar Seri Putra, Selangor dijual pada RM285,000. Hakmilik: Leasehold.",
     "amenities": [
       "Surau",
@@ -12415,6 +12620,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,400 sqft (20 x 70) di Taman Sutera, Kajang, Selangor dijual pada RM500,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -12463,6 +12669,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Banglo 5,096 sqft di Taman Astana Indah, Sungai Ramal, Kajang, Selangor dijual pada RM1,100,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -12516,6 +12723,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat 1,540 sqft (22 x 70) di Nadayu 92, Kajang, Selangor dijual pada RM790,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12559,6 +12767,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & Guarded Area"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 2,310 sqft (33 x 70) di Parkfield Residence, Kajang, Selangor dijual pada RM1,290,000. Hakmilik: Freehold.",
     "amenities": [
       "Clubhouse",
@@ -12614,6 +12823,7 @@ window.LISTINGS = [
       "Gated & Guarded",
       "Facing SW"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,540 sqft (22 x 70) di Serene Height, Bangi, Selangor dijual pada RM590,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -12662,6 +12872,7 @@ window.LISTINGS = [
       "Balcony Facing Golf Course",
       "Renovated"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 4,370 sqft di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM950,000. Hakmilik: Leasehold.",
     "amenities": [
       "4 hours CCTV surveillance and patrolling",
@@ -12721,6 +12932,7 @@ window.LISTINGS = [
       "Renovated Unit",
       "Facing Direction Northwest"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,035 sqft (built-up 2,800 sqft) di Anjung Suasana, Bandar Seri Putra, Bangi, Selangor dijual pada RM798,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12764,6 +12976,7 @@ window.LISTINGS = [
     "highlights": [
       "Facing Direction South"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,300 sqft (20 x 65); built-up 1,810 sqft di Pallida, Setia Ecohill 1, Semenyih, Selangor dijual pada RM679,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12808,6 +13021,7 @@ window.LISTINGS = [
       "2 Storey Superlink Corner Lot",
       "Partly Furnished"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 2,240 sqft (32 x 70); built-up 3,032 sqft di Sejati Lakeside Phase 3, Cyberjaya, Selangor dijual pada RM1,950,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12853,6 +13067,7 @@ window.LISTINGS = [
       "Gated & Guarded",
       "Facing Direction North"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,650 sqft (22 x 75); built-up 2,420 sqft di Setia Alam Sari, Ilham 2, Kajang/Bangi, Selangor dijual pada RM645,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -12894,6 +13109,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 1,262 sqft di Miro Residence, Taman Putra, Kajang, Selangor dijual pada RM419,000. Hakmilik: Freehold.",
     "amenities": [
       "Multipurpose Hall",
@@ -12954,6 +13170,7 @@ window.LISTINGS = [
       "🔥 Ground (Pool & Parking Selevel!)",
       "🔥 EXTRA Space outdoor area"
     ],
+    "pelan": [],
     "description": "Kondominium 1,150 sqft di Ceria Residence, Cyberjaya, Selangor dijual pada RM620,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -13007,6 +13224,7 @@ window.LISTINGS = [
       "Renovated Unit",
       "Extended Kitchen"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,430 sqft (22'x65') di Taman Seri Mewah, Klang, Selangor dijual pada RM325,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13050,6 +13268,7 @@ window.LISTINGS = [
     "highlights": [
       "Extended Kitchen"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 4,187 sqft (51'x80') di Puncak Bangi Seksyen 6, Bandar Baru Bangi, Selangor dijual pada RM1,590,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -13102,6 +13321,7 @@ window.LISTINGS = [
       "Renovated",
       "Extended Kitchen"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,600 sqft (45'x80') di Bangi Lakehill Villas, Bandar Baru Bangi, Selangor dijual pada RM1,600,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -13143,6 +13363,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen 1,080 sqft di Residensi Adelia 1, Taman Bangi Avenue, Selangor dijual pada RM305,000. Hakmilik: Freehold.",
     "amenities": [
       "Swimming Pool",
@@ -13209,6 +13430,7 @@ window.LISTINGS = [
     "highlights": [
       "Swimming Pool"
     ],
+    "pelan": [],
     "description": "Rumah Banglo 20,139 sqft (built-up 14,000 sqft) di Country Heights, Kajang, Selangor dijual pada RM4,000,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13252,6 +13474,7 @@ window.LISTINGS = [
     "highlights": [
       "Build in Kitchen Cabinet"
     ],
+    "pelan": [],
     "description": "Apartment 870 sqft di Villa Tropika, Sungai Tangkas, Kajang, Selangor dijual pada RM250,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -13300,6 +13523,7 @@ window.LISTINGS = [
       "Fully Renovated",
       "Swimming Pool"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,400 sqft (40'x85') di Lambaian Residence, Kajang, Selangor dijual pada RM1,760,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -13356,6 +13580,7 @@ window.LISTINGS = [
       "Gated & Guarded",
       "Backyard Direct Access To Playground"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 4,305 sqft di Sejati Residences, Cyberjaya, Selangor dijual pada RM2,190,000. Hakmilik: Freehold.",
     "amenities": [
       "24/7 Security",
@@ -13404,6 +13629,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "SEWA",
     "highlights": [],
+    "pelan": [],
     "description": "Kedai 2,230 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM8,000. Hakmilik: Tidak pasti.",
     "amenities": [],
     "nearby": [
@@ -13456,6 +13682,7 @@ window.LISTINGS = [
       "Partially furnished",
       "gated n guarded"
     ],
+    "pelan": [],
     "description": "Rumah 1,788 sqft di Bandar Puteri Bangi, Selangor dijual pada RM1,850. Hakmilik: Tidak pasti.",
     "amenities": [
       "Car park",
@@ -13519,6 +13746,7 @@ window.LISTINGS = [
       "REDUCED PRICED",
       "Gated & Guarded Community"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,034 sqft di Mutiara Villa, Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM1,250,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13562,6 +13790,7 @@ window.LISTINGS = [
     "highlights": [
       "Vacant"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,300 sqft (20'x65') di J1 Residence, Jenderam, Dengkil, Selangor dijual pada RM435,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -13605,6 +13834,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & Guarded 24h Security"
     ],
+    "pelan": [],
     "description": "Apartment 941 sqft di Plaza Indah, Taman Sepakat Indah, Kajang, Selangor dijual pada RM275,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -13660,6 +13890,7 @@ window.LISTINGS = [
       "Vacant Unit",
       "Balcony Facing Facilities"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 900 sqft di Residensi Mutiara Kajang 2, Kajang, Selangor dijual pada RM330,000. Hakmilik: Freehold.",
     "amenities": [
       "Double Storey Clubhouse",
@@ -13715,6 +13946,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "SEWA",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah 1,104 sqft di Kita Mekar, Cybersouth, Dengkil, Selangor dijual pada RM1,500. Hakmilik: Tidak pasti.",
     "amenities": [],
     "nearby": [
@@ -13766,6 +13998,7 @@ window.LISTINGS = [
       "Balcony Facing Golf Course",
       "Renovated"
     ],
+    "pelan": [],
     "description": "Rumah Teres 4,370 sqft (24 x 75) di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM950,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -13809,6 +14042,7 @@ window.LISTINGS = [
     "highlights": [
       "Facing: South"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,540 sqft (22x70) | Built-up 2,480 sqft di TTDI Grove, Kajang, Selangor dijual pada RM799,000. Hakmilik: Freehold.",
     "amenities": [
       "24 Hours Security",
@@ -13860,6 +14094,7 @@ window.LISTINGS = [
     "highlights": [
       "Fully furnished"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 601 sqft di Domain 2 Residence, Cyberjaya, Selangor dijual pada RM197,000. Hakmilik: Freehold.",
     "amenities": [
       "24hours security",
@@ -13910,6 +14145,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated & extended"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,300 sqft (20' x 65') | Built-up 1,800 sqft di Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM480,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -13964,6 +14200,7 @@ window.LISTINGS = [
       "NEWLY REPAINTED HOUSE, READY TO MOVE IN",
       "FACING OPEN, NOT FACING OTHER HOUSE (EXTRA PARKING)"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,300 sqft (20 x 65) | Built-up 1,455 sqft di Seksyen 8, Bandar Baru Bangi, Selangor dijual pada RM510,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14017,6 +14254,7 @@ window.LISTINGS = [
     "highlights": [
       "Non gated & guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,200 sqft (20 x 60) | Built-up 1,500 sqft di Seksyen 5, Bukit Mahkota, Bangi, Selangor dijual pada RM450,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14068,6 +14306,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 1,400 sqft (20 x 70) | Built-up 2,200 sqft di Bangi Avenue 1, Seksyen 1, Kajang, Selangor dijual pada RM612,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14157,6 +14396,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated unit & partially furnished"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat 1,560 sqft (24 x 65) | Built-up 3,150 sqft di Taman Tropika 2, Kajang, Selangor dijual pada RM780,000. Hakmilik: Freehold (Strata).",
     "amenities": [],
     "nearby": [
@@ -14210,6 +14450,7 @@ window.LISTINGS = [
       "OPEN FACING (PLAYGROUND) NOT FACING OTHER UNIT",
       "Renovated, extended & partially furnished"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,540 sqft (22 x 70) | Built-up 2,500 sqft di TTDI Grove 4 (Zinnia), Kajang, Selangor dijual pada RM787,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14261,6 +14502,7 @@ window.LISTINGS = [
     "highlights": [
       "FACING OPEN SPACE (EXTRA PARKING AREA)"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,650 sqft (22 x 75) | Built-up 2,400 sqft di Seksyen 16, Bandar Baru Bangi, Selangor dijual pada RM750,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14313,6 +14555,7 @@ window.LISTINGS = [
     "highlights": [
       "Currently vacant"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2,400 sqft (32 x 75) | Built-up 1,000 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM597,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14363,6 +14606,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat 1,300 sqft (20 x 65) | Built-up 1,600 sqft di Taman Tenaga, Kajang, Selangor dijual pada RM560,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -14406,6 +14650,7 @@ window.LISTINGS = [
     "highlights": [
       "Fully furnished (now turned into a homestay)"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,920 sqft (24 x 80) | Built-up 3,200 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM850,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14461,6 +14706,7 @@ window.LISTINGS = [
       "Move in condition",
       "Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 5,425 sqft | Built-up 2,871 sqft di TTDI Grove, Kajang, Selangor dijual pada RM1,380,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14511,6 +14757,7 @@ window.LISTINGS = [
     "highlights": [
       "Full kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3,261 sqft | Built-up 2,100 sqft di Bangi Avenue 1, Seksyen 1, Kajang, Selangor dijual pada RM770,000. Hakmilik: Freehold.",
     "amenities": [
       "24 hours security (with Access Card System)",
@@ -14568,6 +14815,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated & extended unit"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,400 sqft (20 x 70) | Built-up 1,000 sqft di Taman Desa Saujana, Sungai Merab, Kajang, Selangor dijual pada RM430,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14622,6 +14870,7 @@ window.LISTINGS = [
       "Renovated & extended unit",
       "Fully furnished as per pictures"
     ],
+    "pelan": [],
     "description": "Rumah Teres 1,400 sqft (20 x 70) | Built-up 1,680 sqft di Hillpark 3 (Cassia), Bandar Teknologi Kajang, Semenyih, Selangor dijual pada RM610,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14674,6 +14923,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated & extended unit"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3,175 sqft | Built-up 2,070 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM720,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14724,6 +14974,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 6,200 sqft | Built-up 5,155 sqft di Jalan Seri Putra 9, Bandar Seri Putra, Kajang, Selangor dijual pada RM2,500,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14801,6 +15052,7 @@ window.LISTINGS = [
       "Renovated & extended unit",
       "Spacious land (side and back), living & family areas"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 4,147 sqft | Built-up 3,595 sqft di Jalan 6/5, Seksyen 6, Bandar Baru Bangi, Selangor dijual pada RM1,680,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -14851,6 +15103,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 1,400 sqft (20 x 70) | Built-up 2,145 sqft di Bangi Avenue 1, Seksyen 1, Kajang, Selangor dijual pada RM515,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -14937,6 +15190,7 @@ window.LISTINGS = [
       "Separate living & dining areas, dry & wet kitchens",
       "CCTV installed"
     ],
+    "pelan": [],
     "description": "Bungalow 8,730 sqft | Built-up 4,000 sqft di Seksyen 2, Bandar Baru Bangi, Selangor dijual pada RM1,450,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -15021,6 +15275,7 @@ window.LISTINGS = [
     "highlights": [
       "Family area at 1st & 2nd floor"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,200 sqft (40 x 80) | Built-up 3,015 sqft di Taman Ramal Suria, Sungai Ramal, Kajang, Selangor dijual pada RM1,290,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -15113,6 +15368,7 @@ window.LISTINGS = [
       "Solar system (newly installed)",
       "CCTV installed"
     ],
+    "pelan": [],
     "description": "Bungalow 10,100 sqft | Built-up 6,000 sqft di Seksyen 2, Bandar Baru Bangi, Selangor dijual pada RM1,350,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -15197,6 +15453,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & guarded area"
     ],
+    "pelan": [],
     "description": "Bungalow 9,980 sqft | Built-up 6,500 sqft di Seksyen 4, Bandar Baru Bangi, Selangor dijual pada RM2,400,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -15249,6 +15506,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 11,772 sqft | Built-up 2,400 sqft di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM1,850,000. Hakmilik: Leasehold.",
     "amenities": [
       "Mosque"
@@ -15337,6 +15595,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 5,000 sqft | Built-up 6,900 sqft di Desa Villa Merab, Kampung Sungai Merab Luar, Kajang, Selangor dijual pada RM1,800,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -15404,6 +15663,7 @@ window.LISTINGS = [
       "Swimming Pool & Gazebo",
       "CCTV / Alarm System / 2 Autogate"
     ],
+    "pelan": [],
     "description": "Bungalow 10,000 sqft | Built-up 6,000 sqft di Seksyen 2, Bandar Baru Bangi, Selangor dijual pada RM2,200,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [
@@ -15459,6 +15719,7 @@ window.LISTINGS = [
     "highlights": [
       "Swimming pool"
     ],
+    "pelan": [],
     "description": "Bungalow 10,880 sqft | Built-up 5,700 sqft di Seksyen 4, Bandar Baru Bangi, Selangor dijual pada RM1,900,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -15513,6 +15774,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 12,120 sqft | Built-up 5,800 sqft di Mutiara Bangi, Seksyen 2, Bandar Baru Bangi, Selangor dijual pada RM2,100,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -15554,6 +15816,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 750 sqft di Residensi Melor, Seksyen 5, Bandar Baru Bangi, Selangor dijual pada RM230,000. Hakmilik: Leasehold.",
     "amenities": [
       "24 hours security (Guarded & Gated) with Access Card",
@@ -15648,6 +15911,7 @@ window.LISTINGS = [
     "highlights": [
       "Partly furnished inclusive of 2 unit airconds, Water heater, TV cabinet, Kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Apartmen 1,063 sqft di Anggerik Villa 2, Bandar Teknologi Kajang, Selangor dijual pada RM255,000. Hakmilik: Freehold.",
     "amenities": [
       "Gated & Guarded",
@@ -15704,6 +15968,7 @@ window.LISTINGS = [
     "highlights": [
       "Partly furnished"
     ],
+    "pelan": [],
     "description": "Apartmen 1,127 sqft di Hijauan Heights, Jalan Vista Emas 3, Kajang, Selangor dijual pada RM300,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -15758,6 +16023,7 @@ window.LISTINGS = [
       "11th Floor with lift (mid floor)",
       "Partially furnished"
     ],
+    "pelan": [],
     "description": "Apartmen 1,006 sqft di PR1MA Presint 11, Putrajaya dijual pada RM450,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "24 hours security (with Access Card System)",
@@ -15816,6 +16082,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 1,740 sqft (20x87) | Built-up 1,890 sqft di M3 Residence, Sungai Merab, Kajang, Selangor dijual pada RM705,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -15866,6 +16133,7 @@ window.LISTINGS = [
       "Jenis: Double Storey Terrace",
       "Keadaan: Original, No Renovation"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 1,400 sqft (20x70) | Built-up 1,890 sqft di Taman Saujana Sekata, Sungai Merab, Bangi, Selangor dijual pada RM635,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -15916,6 +16184,7 @@ window.LISTINGS = [
     "highlights": [
       "✨ PROPERTY HIGHLIGHTS"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 768 sqft di DeCentrum, Jalan Ikram-UNITEN, Taman Uniten Suria, Kajang, Selangor dijual pada RM330,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -15961,6 +16230,7 @@ window.LISTINGS = [
       "Spacious family hall, living and dining area",
       "CCTV points (8 points without dvd & camera)"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Land 6,441.88 sqft | Built-up 5,059 sqft di Saujana Heights, Kajang, Selangor dijual pada RM1,850,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -16015,6 +16285,7 @@ window.LISTINGS = [
     "highlights": [
       "With kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 901 sqft di Shaftsbury Residence, Cyber 6, Cyberjaya, Selangor dijual pada RM495,000. Hakmilik: Freehold.",
     "amenities": [
       "24 hour security",
@@ -16080,6 +16351,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated and Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 22 x 70 | Built-up 2,174 sqft di Serene Heights, Bangi, Selangor dijual pada RM850,000. Hakmilik: Freehold.",
     "amenities": [
       "Jogging track",
@@ -16138,6 +16410,7 @@ window.LISTINGS = [
     "highlights": [
       "Fully furnished"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 956 sqft di Savanna Executive Suites, Southville City, Bangi, Selangor dijual pada RM2,200. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -16181,6 +16454,7 @@ window.LISTINGS = [
     "highlights": [
       "Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 22 x 75 | Built-up 1,647 sqft di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM490,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -16232,6 +16506,7 @@ window.LISTINGS = [
       "Fully furnished",
       "Block A1 | Level 12 (with lift)"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 956 sqft di Almyra Residence, Bandar Puteri Bangi, Selangor dijual pada RM1,600. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -16275,6 +16550,7 @@ window.LISTINGS = [
     "highlights": [
       "Basic Unit - gated and guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 1,883 sqft (22x85) | Built-up ~1,646 sqft di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM580,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -16333,6 +16609,7 @@ window.LISTINGS = [
     "highlights": [
       "Guarded Neighbourhood"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 20 x 70 | Built-up ~1,900 sqft di Bangi Perdana, Seksyen 3, Bandar Baru Bangi, Selangor dijual pada RM680,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -16376,6 +16653,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & guarded"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Land 40 x 65 (2,600 sqft) | Built-up ~2,780 sqft di Garden Homes, Seksyen 15, Bandar Baru Bangi, Selangor dijual pada RM1,100,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -16420,6 +16698,7 @@ window.LISTINGS = [
       "Spacious Backyard",
       "Fully renovated"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Land 40 x 80 (3,200 sqft) | Built-up ~2,900 sqft di Presint 14, Putrajaya dijual pada RM1,500,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -16475,6 +16754,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Semi-D Land 45 x 75 (3,375 sqft) | Built-up ~2,500 sqft di Sejati Lakeside 2, Cyberjaya, Selangor dijual pada RM1,800,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -16529,6 +16809,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated;"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Land 36 x 75 (2,701 sqft) | Built-up 2,407 sqft di Sejati Lakeside 2, Cyberjaya, Selangor dijual pada RM1,650,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -16578,6 +16859,7 @@ window.LISTINGS = [
     "highlights": [
       "BERBALOI!!!MURAH!!"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat Built-up 1,190 sqft (15.8 x 75) di Taman Kajang Perdana, Kajang, Selangor dijual pada RM370,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -16626,6 +16908,7 @@ window.LISTINGS = [
       "24hours Cctv",
       "Lift"
     ],
+    "pelan": [],
     "description": "Kedai Built-up 1,507 sqft di Ostia Bangi, Seksyen 14, Bandar Baru Bangi, Selangor dijual pada RM1,200,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -16670,6 +16953,7 @@ window.LISTINGS = [
       "Fully furnished",
       "Move in ready"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 825 sqft di Cerrado Residence, Southville City, Bangi, Selangor dijual pada RM2,300. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "24 hour security",
@@ -16735,6 +17019,7 @@ window.LISTINGS = [
       "Facing North",
       "Gated rm60pm"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 3,326 sqft | Built-up 2,800 sqft di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM850,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -16776,6 +17061,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen 1,017 sqft di Savanna Executive Suites, Southville City, Bangi, Selangor dijual pada RM410,000. Hakmilik: Freehold.",
     "amenities": [
       "2 Covered Parking side by side",
@@ -16844,6 +17130,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Semi-D Land 5,124 sqft | Built-up 3,908 sqft di New Haven, Presint 18, Putrajaya dijual pada RM1,900,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -16898,6 +17185,7 @@ window.LISTINGS = [
       "Facing Direction South",
       "1 Swimming Pool"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 20 x 60 di Casawood, Cybersouth, Dengkil, Selangor dijual pada RM700,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -16944,6 +17232,7 @@ window.LISTINGS = [
       "Balcony view swimming pool",
       "Vacant"
     ],
+    "pelan": [],
     "description": "Pangsapuri 1,044 sqft di Putra Impian, Bandar Seri Putra, Kajang, Selangor dijual pada RM300,000. Hakmilik: Leasehold.",
     "amenities": [
       "Swimming pool",
@@ -16991,6 +17280,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Pangsapuri 904 sqft di Residensi PRIMA, Taman Kajang Utama, Kajang, Selangor dijual pada RM300,000. Hakmilik: Freehold.",
     "amenities": [
       "Playground",
@@ -17048,6 +17338,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated : Yard to Wet Kitchen"
     ],
+    "pelan": [],
     "description": "Pangsapuri 850 sqft di PRIMA Lakefront Homes, Cyberjaya, Selangor dijual pada RM340,000. Hakmilik: Freehold.",
     "amenities": [
       "24 hours security",
@@ -17101,6 +17392,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Land 20 x 70 | Built-up 1,900 sqft di Presint 14, Putrajaya dijual pada RM880,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -17156,6 +17448,7 @@ window.LISTINGS = [
     "highlights": [
       "Fully Furnished"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 460 sqft di Tamarind Suites, Persiaran Multimedia, Cyber 10, Cyberjaya, Selangor dijual pada RM265,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -17197,6 +17490,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Built-up 1,400 sqft (20 x 70) di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM450,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -17256,6 +17550,7 @@ window.LISTINGS = [
     "highlights": [
       "Fully Renovated"
     ],
+    "pelan": [],
     "description": "Bungalow Land 4,542 sqft | Built-up 1,880 sqft di Jenderam Hulu, Dengkil, Selangor dijual pada RM499,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -17310,6 +17605,7 @@ window.LISTINGS = [
       "Facing side view (river & ukm golf )",
       "dining table"
     ],
+    "pelan": [],
     "description": "Servis Apartmen Tidak dinyatakan di Vista Bangi, Reko, Selangor dijual pada RM2,300. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -17353,6 +17649,7 @@ window.LISTINGS = [
     "highlights": [
       "Kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Kondominium 990 sqft di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM357,000. Hakmilik: Leasehold.",
     "amenities": [
       "24 Hrs gated & guarded",
@@ -17424,6 +17721,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovation : Kitchen Cabinet, Fully Tiles,"
     ],
+    "pelan": [],
     "description": "Apartmen 950 sqft di Taman Sepakat Indah 2, Sungai Chua, Kajang, Selangor dijual pada RM269,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -17478,6 +17776,7 @@ window.LISTINGS = [
     "highlights": [
       "Balcony"
     ],
+    "pelan": [],
     "description": "Apartmen 1,148 sqft di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM240,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -17531,6 +17830,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Pangsapuri 750 sqft di Pangsapuri Melor, Seksyen 5, Bandar Baru Bangi, Selangor dijual pada RM260,000. Hakmilik: Leasehold.",
     "amenities": [
       "Playground",
@@ -17589,6 +17889,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 850 sqft di Apartment Intana Ria, Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM250,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -17661,6 +17962,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovation : Table top"
     ],
+    "pelan": [],
     "description": "Apartment 743 sqft di Taman Kajang Sentral, Kajang, Selangor dijual pada RM180,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -17704,6 +18006,7 @@ window.LISTINGS = [
     "highlights": [
       "Floor 8 (corner unit)"
     ],
+    "pelan": [],
     "description": "Kondominium 860 sqft di Residensi Permai, Bandar Teknologi Kajang, Selangor dijual pada RM320,000. Hakmilik: Leasehold.",
     "amenities": [
       "Swimming Pool",
@@ -17755,6 +18058,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 750 sqft di Apartment Seri Tanjung, Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM195,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -17807,6 +18111,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 1,127 sqft di Hijauan Heights, Sungai Tangkas, Kajang, Selangor dijual pada RM290,000. Hakmilik: Freehold.",
     "amenities": [
       "Gated & guarded",
@@ -17872,6 +18177,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 850 sqft di Apartment Intana Ria, Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM235,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -17945,6 +18251,7 @@ window.LISTINGS = [
       "Kitchen cabinet & Table top",
       "FACING OPEN"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat 2,988 sqft di Avens Residence, Southville City, Bangi, Selangor dijual pada RM930,000. Hakmilik: Freehold.",
     "amenities": [
       "24 Hrs Gated and guarded",
@@ -18001,6 +18308,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 2,070 sqft di Seksyen 1, Bandar Baru Bangi, Selangor dijual pada RM720,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -18061,6 +18369,7 @@ window.LISTINGS = [
       "Renovated",
       "SEMI-FURNISHED"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 2,625 sqft di Taman Tropika 2, Sungai Tangkas, Kajang, Selangor dijual pada RM990,000. Hakmilik: Freehold.",
     "amenities": [
       "24 Hrs gated & guarded",
@@ -18122,6 +18431,7 @@ window.LISTINGS = [
       "Facing Morning Sun",
       "Extended kitchen"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,800 sqft di Seksyen 4, Bandar Baru Bangi, Selangor dijual pada RM700,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -18182,6 +18492,7 @@ window.LISTINGS = [
       "Lift with access card",
       "Vacant"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 969 sqft di Vista Bangi, Jalan Reko, Kajang, Selangor dijual pada RM445,000. Hakmilik: Freehold.",
     "amenities": [
       "24 Hours Security",
@@ -18244,6 +18555,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 3,250 sqft di Seksyen 9, Bandar Bukit Mahkota, Bangi, Selangor dijual pada RM1,600,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -18295,6 +18607,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Bungalow 6,000 sqft di Seksyen 2, Bandar Baru Bangi, Selangor dijual pada RM1,350,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -18348,6 +18661,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartmen 1,116 sqft di Residensi Vista Hijauan, Kajang, Selangor dijual pada RM355,000. Hakmilik: Freehold.",
     "amenities": [
       "Barbeque Area",
@@ -18415,6 +18729,7 @@ window.LISTINGS = [
       "24 Hour Gated and Guarded",
       "Renovation: Fully grilled, new waterproofing toilet, new wiring inside room, kitchen cabinet. table top"
     ],
+    "pelan": [],
     "description": "Apartmen 1,011 sqft di Pangsapuri Sutera, Kajang, Selangor dijual pada RM200,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -18471,6 +18786,7 @@ window.LISTINGS = [
       "Have 3 Balcony",
       "Fully furnished"
     ],
+    "pelan": [],
     "description": "Townhouse 2,420 sqft (24 x 85) di Tropicana Heights, Kajang, Selangor dijual pada RM663,000. Hakmilik: Freehold.",
     "amenities": [
       "Club house",
@@ -18530,6 +18846,7 @@ window.LISTINGS = [
       "FULL LOAN",
       "View: Balcony with a top floor scenic outlook"
     ],
+    "pelan": [],
     "description": "Apartmen 947 sqft di Sri Cempaka Apartment, Kajang, Selangor dijual pada RM310,000. Hakmilik: Freehold.",
     "amenities": [
       "2-tier gated & guarded",
@@ -18585,6 +18902,7 @@ window.LISTINGS = [
     "highlights": [
       "TERMURAHHHH"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Tanah 40x90 (3,600 sqft) | Binaan 3,856 sqft di Perdana Lakeview, Cyberjaya, Selangor dijual pada RM1,600,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -18631,6 +18949,7 @@ window.LISTINGS = [
       "Facing Direction : North",
       "Vacant"
     ],
+    "pelan": [],
     "description": "Rumah Teres Tanah 2,873 sqft | Binaan ±900 sqft di Seksyen 5, Bandar Baru Bangi, Selangor dijual pada RM560,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -18677,6 +18996,7 @@ window.LISTINGS = [
       "Gated Guarded",
       "Move in condition"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 2,831 sqft | Binaan ¹2,000 sqft di Seksyen 3, Bandar Baru Bangi, Selangor dijual pada RM790,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -18718,6 +19038,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 5,414 sqft | Binaan ¹1,922 sqft di Seksyen 8 Tambahan, Bandar Baru Bangi, Selangor dijual pada RM1,200,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -18762,6 +19083,7 @@ window.LISTINGS = [
       "2 Living Hall + Surau Area",
       "Gated Guarded (140 monthly)"
     ],
+    "pelan": [],
     "description": "Bungalow Tanah 9,386 sqft | Binaan ¹5,000 sqft di Puncak Pinggiran Putra, Kajang-Putrajaya, Selangor dijual pada RM1,800,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -18807,6 +19129,7 @@ window.LISTINGS = [
       "Have Balcony",
       "Facing North and Facing Surau"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 15x50 | Binaan ¹1,000 sqft di Taman Bukit Kajang, Kajang, Selangor dijual pada RM360,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -18851,6 +19174,7 @@ window.LISTINGS = [
       "Have Swimming Pool",
       "22 KVA Solar Panel Installed"
     ],
+    "pelan": [],
     "description": "Bungalow Tanah 13,045 sqft | Binaan ¹8,500 sqft di Impian Golf and Country Resort, Saujana Impian, Kajang, Selangor dijual pada RM4,500,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -18895,6 +19219,7 @@ window.LISTINGS = [
       "2 Balcony",
       "Kitchen Cabinet with Kitchen Islands"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat Tanah 5,045 sqft | Binaan ¹4,548 sqft di Sentosa Villa, Kajang, Selangor dijual pada RM1,270,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -18955,6 +19280,7 @@ window.LISTINGS = [
       "Facing North",
       "Gated Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Tanah 40x85 (3,400 sqft) | Binaan ¹3,900 sqft di Jacaranda Garden Residence, Cyberjaya, Selangor dijual pada RM1,620,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -18998,6 +19324,7 @@ window.LISTINGS = [
     "highlights": [
       "Facing South"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D Tanah 36x75 (2,700 sqft) | Binaan ¹2,400 sqft di Sejati Lakeside 2, Cyberjaya, Selangor dijual pada RM1,490,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -19039,6 +19366,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 1,540 sqft (22x75) | Binaan ¹1,487 sqft di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM470,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -19097,6 +19425,7 @@ window.LISTINGS = [
       "Fully furnished",
       "Gated and guarded"
     ],
+    "pelan": [],
     "description": "Bungalow Tanah 10,000 sqft | Binaan 7,000 sqft di Country Heights, Kajang, Selangor dijual pada RM5,020,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -19147,6 +19476,7 @@ window.LISTINGS = [
       "Autogated",
       "Facing SE"
     ],
+    "pelan": [],
     "description": "Bungalow Tanah 5,788 sqft | Binaan ¹4,000 sqft di Amandarii Anjung Residensi, Saujana Impian, Kajang, Selangor dijual pada RM1,850,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -19201,6 +19531,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 20x70 (1,400 sqft) | Binaan ¹1,959 sqft di Casa View, Cybersouth, Dengkil, Selangor dijual pada RM580,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -19269,6 +19600,7 @@ window.LISTINGS = [
     "highlights": [
       "Facing open"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat Tanah 20x80 (1,600 sqft) | Binaan ¹1,900 sqft di Taman Sri Minang, Kajang, Selangor dijual pada RM569,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -19322,6 +19654,7 @@ window.LISTINGS = [
     "highlights": [
       "Semi Furnished"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 949 sqft di Sunway Gandaria, Seksyen 9, Bandar Baru Bangi, Selangor dijual pada RM630,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -19381,6 +19714,7 @@ window.LISTINGS = [
       "2 CAR PARKs",
       "Gated & guarded"
     ],
+    "pelan": [],
     "description": "Kondominium 1,127 sqft di Hijauan Heights, Kajang, Selangor dijual pada RM285,000. Hakmilik: Freehold.",
     "amenities": [
       "Swimming pool",
@@ -19436,6 +19770,7 @@ window.LISTINGS = [
       "FULL LOAN",
       "FLEXIBLE DEPOSIT"
     ],
+    "pelan": [],
     "description": "Apartmen 1,000 sqft di Sri Lavender Apartment, Taman Sepakat Indah, Kajang, Selangor dijual pada RM445,000. Hakmilik: Freehold.",
     "amenities": [
       "Covered parking",
@@ -19502,6 +19837,7 @@ window.LISTINGS = [
       "L-Shape Balcony",
       "Ready to Move In: ASAP"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 1,181 sqft di Southville City, Bangi, Selangor dijual pada RM2,100. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "Swimming Pool",
@@ -19556,6 +19892,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 1,040 sqft (tanah 1,300 sqft) di Jenderam, Sepang, Selangor dijual pada RM421,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -19614,6 +19951,7 @@ window.LISTINGS = [
       "Spacious Backyard",
       "Basic Kitchen Cabinet (will be install)"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,890 sqft (tanah 3,560 sqft) di Sungai Merab, Bangi, Selangor dijual pada RM920,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -19665,6 +20003,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen 858 sqft di Bandar Bukit Mahkota, Bangi, Selangor dijual pada RM289,000. Hakmilik: Freehold.",
     "amenities": [
       "Badminton Court",
@@ -19724,6 +20063,7 @@ window.LISTINGS = [
     "highlights": [
       "🔥 Price Reduce"
     ],
+    "pelan": [],
     "description": "Kondominium 890 sqft di Southville City, Bangi, Selangor dijual pada RM2,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "Swimming Pool",
@@ -19775,6 +20115,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "SEWA",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium 930 sqft di Kajang 2, Kajang, Selangor dijual pada RM1,300. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "Swimming Pool (Adult & Children)",
@@ -19832,6 +20173,7 @@ window.LISTINGS = [
     "highlights": [
       "24Hrs Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,800 sqft (tanah 22' x 75') di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM490,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -19892,6 +20234,7 @@ window.LISTINGS = [
       "Renovation : Table top, Kitchen Cabinet & wainscoting wall",
       "Extended Kitchen & Living Area With Approval"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,600 sqft (tanah 20' x 70') di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM515,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -19948,6 +20291,7 @@ window.LISTINGS = [
       "Corner unit",
       "Partially Furnished"
     ],
+    "pelan": [],
     "description": "Apartment 1,044 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM279,000. Hakmilik: Leasehold.",
     "amenities": [
       "Swimming Pool",
@@ -20006,6 +20350,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium 850 sqft di Kajang, Selangor dijual pada RM315,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -20064,6 +20409,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 856 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM286,000. Hakmilik: Freehold.",
     "amenities": [
       "Playground",
@@ -20124,6 +20470,7 @@ window.LISTINGS = [
       "Corner Unit",
       "Fully Furnished"
     ],
+    "pelan": [],
     "description": "Kondominium 1,066 sqft di Bandar Puteri Bangi, Bangi, Selangor dijual pada RM395,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -20185,6 +20532,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 650 sqft di Kajang Prima, Kajang, Selangor dijual pada RM185,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -20237,6 +20585,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 1,044 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM285,000. Hakmilik: Leasehold.",
     "amenities": [
       "Swimming Pool",
@@ -20297,6 +20646,7 @@ window.LISTINGS = [
     "highlights": [
       "Partial Furnished"
     ],
+    "pelan": [],
     "description": "Apartment 947 sqft di Sepakat Indah 2, Kajang, Selangor dijual pada RM315,000. Hakmilik: Freehold.",
     "amenities": [
       "Lift",
@@ -20355,6 +20705,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium 1,250 sqft di Mutiara Heights, Kajang, Selangor dijual pada RM375,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -20415,6 +20766,7 @@ window.LISTINGS = [
     "highlights": [
       "Renovated"
     ],
+    "pelan": [],
     "description": "Kondominium 1,250 sqft di Mutiara Heights, Kajang, Selangor dijual pada RM520,000. Hakmilik: Freehold.",
     "amenities": [
       "Swimming pool",
@@ -20477,6 +20829,7 @@ window.LISTINGS = [
     "highlights": [
       "Partially Furnished"
     ],
+    "pelan": [],
     "description": "Kondominium 980 sqft di Taman Sutera, Kajang, Selangor dijual pada RM380,000. Hakmilik: Freehold.",
     "amenities": [
       "Gymnasium",
@@ -20538,6 +20891,7 @@ window.LISTINGS = [
       "Fully Furnished",
       "Renovated"
     ],
+    "pelan": [],
     "description": "Kondominium 968 sqft di Cyberjaya, Sepang, Selangor dijual pada RM550,000. Hakmilik: Freehold.",
     "amenities": [
       "24 hour security",
@@ -20601,6 +20955,7 @@ window.LISTINGS = [
       "Partially Furnished",
       "Facing Greenery"
     ],
+    "pelan": [],
     "description": "Apartment 870 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM250,000. Hakmilik: Leasehold.",
     "amenities": [
       "Surau",
@@ -20659,6 +21014,7 @@ window.LISTINGS = [
     "highlights": [
       "Partially Furnished"
     ],
+    "pelan": [],
     "description": "Apartment 955 sqft di Bandar Seri Putra, Bangi, Selangor dijual pada RM255,000. Hakmilik: Leasehold.",
     "amenities": [
       "Surau",
@@ -20719,6 +21075,7 @@ window.LISTINGS = [
       "Partial Furnished",
       "Facing Pool"
     ],
+    "pelan": [],
     "description": "Kondominium 862 sqft di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM299,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -20779,6 +21136,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium 1,045 sqft di Bangi Avenue, Kajang, Selangor dijual pada RM335,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -20831,6 +21189,7 @@ window.LISTINGS = [
     "highlights": [
       "Vacant"
     ],
+    "pelan": [],
     "description": "Pangsapuri 655 sqft di Taman Damai Mewah, Kajang, Selangor dijual pada RM150,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -20884,6 +21243,7 @@ window.LISTINGS = [
       "Corner Unit",
       "Renovated"
     ],
+    "pelan": [],
     "description": "Pangsapuri 820 sqft di Taman Putra, Kajang, Selangor dijual pada RM260,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -20937,6 +21297,7 @@ window.LISTINGS = [
       "Renovated",
       "Full Extend Kitchen"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,654 sqft (tanah 18' x 65') di Taman Seri Mewah, Kajang, Selangor dijual pada RM480,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -20988,6 +21349,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Flat 650 sqft di Taman Kajang Prima, Kajang, Selangor dijual pada RM120,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -21057,6 +21419,7 @@ window.LISTINGS = [
     "highlights": [
       "Vacant"
     ],
+    "pelan": [],
     "description": "Flat 650 sqft di Taman Kajang Prima, Kajang, Selangor dijual pada RM120,000. Hakmilik: Freehold.",
     "amenities": [
       "Surau",
@@ -21124,6 +21487,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 750 sqft di Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM250,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -21165,6 +21529,7 @@ window.LISTINGS = [
     "highlights": [
       "Balcony"
     ],
+    "pelan": [],
     "description": "Apartment 798 sqft di Taman Jasmin, Kajang, Selangor dijual pada RM175,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -21217,6 +21582,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 650 sqft di Sungai Tangkas, Kajang, Selangor dijual pada RM168,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -21268,6 +21634,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Apartment 1,000 sqft di Taman Sutera, Kajang, Selangor dijual pada RM200,000. Hakmilik: Freehold.",
     "amenities": [
       "Nursery Day Care",
@@ -21331,6 +21698,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Apartment 903 sqft di Jalan Reko, Kajang, Selangor dijual pada RM219,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -21389,6 +21757,7 @@ window.LISTINGS = [
       "Partially furnished with good view.",
       "Kitchen cabinet & table top."
     ],
+    "pelan": [],
     "description": "Kondominium 1,020 sqft di Tropicana Heights, Kajang, Selangor dijual pada RM295,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [
       "24 hours security.",
@@ -21442,6 +21811,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen Tidak dinyatakan di Southville City, Bangi, Selangor dijual pada RM370,000. Hakmilik: Freehold.",
     "amenities": [
       "Swimming Pool",
@@ -21497,6 +21867,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated and guarded (Access card system)"
     ],
+    "pelan": [],
     "description": "Servis Apartmen 1,008 sqft di Jalan Reko, Kajang, Selangor dijual pada RM430,000. Hakmilik: Freehold.",
     "amenities": [
       "Infinity pool",
@@ -21557,6 +21928,7 @@ window.LISTINGS = [
       "ada balcony",
       "⁠24 hours gated & guarded area"
     ],
+    "pelan": [],
     "description": "Pangsapuri 800 sqft di Taman Bukit Palma, Kajang, Selangor dijual pada RM230,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -21598,6 +21970,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium 997 sqft di IOI Resort City, Putrajaya, Sepang, Selangor dijual pada RM600,000. Hakmilik: Tidak dinyatakan.",
     "amenities": [],
     "nearby": [],
@@ -21641,6 +22014,7 @@ window.LISTINGS = [
     "highlights": [
       "🌟 Selling price RM 2.25mil"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 2,823 sqft (tanah 4,445 sqft) di Cyberjaya, Sepang, Selangor dijual pada RM2,250,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -21682,6 +22056,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 2,420 sqft (tanah 1,650 sqft) di Alam Sari, Bangi, Selangor dijual pada RM650,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -21730,6 +22105,7 @@ window.LISTINGS = [
       "Accessibility",
       "Free Bus"
     ],
+    "pelan": [],
     "description": "Apartment di Taman Sepakat Indah 2, Kajang, Selangor untuk dijual pada RM320,000 — keluasan 947 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Non-Bumi Lot. Ciri utama: Maintenance RM165; Top Floor; Renovated Unit. Antara kemudahan lain: Fully Furnished; Accessibility; Free Bus. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -21778,6 +22154,7 @@ window.LISTINGS = [
       "Partial Furnished",
       "2 unit covered car parks"
     ],
+    "pelan": [],
     "description": "Kondominium di Kajang 2, Kajang, Selangor untuk dijual pada RM365,000 — keluasan 1,023 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Non-Bumi Lot. Ciri utama: Condominium Residensi Zamrud @ Kajang 2; Block D Level 5; Maintenance RM242. Antara kemudahan lain: Fully Renovated; Partial Furnished; 2 unit covered car parks. Kemudahan kawasan: Gated & guarded, Gymnasium, Surau, Playground. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gated & guarded",
@@ -21831,6 +22208,7 @@ window.LISTINGS = [
       "⁠Facing Open",
       "Fully Renovated"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Taman Kajang Utama, Kajang, Selangor untuk dijual pada RM270,000 — keluasan 850 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold. Ciri utama: ⁠850spqft; ⁠Block A Level 2; ⁠Maintenance RM110. Antara kemudahan lain: ⁠1 unit car park; ⁠Facing Open; Fully Renovated. Kemudahan kawasan: ⁠Gated & Guarded, ⁠Surau, ⁠Playground. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "⁠Gated & Guarded",
@@ -21876,6 +22254,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kondominium di Bandar Teknologi Kajang, Selangor untuk dijual pada RM330,000 — keluasan 860 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold. Kemudahan kawasan: Gymnasium, Playground, Badminton Court. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gymnasium",
@@ -21926,6 +22305,7 @@ window.LISTINGS = [
       "Vacant Unit",
       "Facing Direction Southwest"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Setia Alam Sari, Bandar Baru Bangi, Selangor untuk dijual pada RM1,200,000 — keluasan 1,923 sq ft (binaan) / 4,217 sq ft (22' x 80') (tanah), 4 bilik tidur, 4 bilik air, Freehold, Open. Ciri utama: BIG LAND; Basic Unit; Vacant Unit. Antara kemudahan lain: Facing Direction Southwest. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -21974,6 +22354,7 @@ window.LISTINGS = [
       "Kitchen Extended",
       "Built-in Wardrobe"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Kajang Perdana 8B, Kajang, Selangor untuk dijual pada RM570,000 — keluasan 2,000 sq ft (anggaran binaan) / 20' x 60' (ukuran) (tanah), 4 bilik tidur, 3 bilik air, Freehold, Open. Ciri utama: FLEXIBLE DEPOSIT; RENOVATED & EXTENDED; Renovation. Antara kemudahan lain: Kitchen Cabinet; Kitchen Extended; Built-in Wardrobe. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -22020,6 +22401,7 @@ window.LISTINGS = [
       "Newly VP January",
       "Facing Direction South"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Akina, Kajang, Selangor untuk dijual pada RM1,200,000 — keluasan 1,772 sq ft (binaan) / 3,229 sq ft (20' x 75') (tanah), 4 bilik tidur, 3 bilik air, Freehold, Non-Bumi Lot. Ciri utama: FACING OPEN; Bare Unit; Newly VP January. Antara kemudahan lain: Facing Direction South. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -22066,6 +22448,7 @@ window.LISTINGS = [
       "Partial Furnished",
       "Kitchen Extended"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D di Seksyen 6, Bandar Baru Bangi, Selangor untuk dijual pada RM1,600,000 — keluasan 3,600 sq ft (anggaran binaan) / 45' x 80' (ukuran, bukan kaki persegi) (tanah), 6 bilik tidur, 5 bilik air, Leasehold, Bumi Lot. Ciri utama: Cheapest; Fully Renovated; Partial Furnished. Antara kemudahan lain: Kitchen Extended. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -22114,6 +22497,7 @@ window.LISTINGS = [
       "Maintenance RM50",
       "Facing Direction South"
     ],
+    "pelan": [],
     "description": "Townhouse di Bandar Puteri Bangi, Selangor untuk dijual pada RM499,000 — keluasan 1,539 sq ft (binaan), 3 bilik tidur, 3 bilik air, Freehold, Non-Bumi Lot. Ciri utama: FACING OPEN; RENOVATED UNIT; FLEXIBLE DEPOSIT. Antara kemudahan lain: Lower Unit; Maintenance RM50; Facing Direction South. Kemudahan kawasan: Gated & Guarded, Playground, Jogging Track. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gated & Guarded",
@@ -22166,6 +22550,7 @@ window.LISTINGS = [
       "Includes",
       "Plater Ceiling"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Setia Alam Sari, Kajang / Bangi, Selangor untuk dijual pada RM645,000 — keluasan 2,420 sq ft (binaan) / 22' x 75' (ukuran, bukan kaki persegi) (tanah), 5 bilik tidur, 4 bilik air, Freehold, Open. Ciri utama: Renovated Unit; Flexible Deposit; Gated & Guarded. Antara kemudahan lain: Facing Direction North; Includes; Plater Ceiling. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -22212,6 +22597,7 @@ window.LISTINGS = [
       "Includes",
       "Auto Gate, Lights, Fans, 6x Airconds, Kitchen Cabinet, Hood & Hob, Water Heater, Curtains, Water Pump, Fridge, Washing Machine, Microwave, Dishwasher, Bar Table & Stool"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Sejati Lakeside, Cyberjaya, Selangor untuk dijual pada RM1,950,000 — keluasan 3,032 sq ft (binaan) / 32' x 70' (ukuran, bukan kaki persegi) (tanah), 4 bilik tidur, 5 bilik air, Freehold, Bumi Lot. Ciri utama: Big Land Size; Individual Title; Includes. Antara kemudahan lain: Auto Gate, Lights, Fans, 6x Airconds, Kitchen Cabinet, Hood & Hob, Water Heater, Curtains, Water Pump, Fridge, Washing Machine, Microwave, Dishwasher, Bar Table & Stool. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -22253,6 +22639,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Semi-D di Sejati Lakeside 2, Cyberjaya, Selangor untuk dijual pada RM1,550,000 — keluasan 2,407 sq ft (anggaran binaan) / 2,700 sq ft (36' x 75') (tanah), 4 bilik tidur, 4 bilik air, Freehold, Bumi Lot. Kemudahan kawasan: + Masjid Cyberjaya. Berdekatan: + MEX Highway, + LDP, + ELITE Highway, + SKVE, TERMS & CONDITIONS. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "+ Masjid Cyberjaya"
@@ -22308,6 +22695,7 @@ window.LISTINGS = [
       "+ Ready strata",
       "+ Maintenance fees monthly RM300"
     ],
+    "pelan": [],
     "description": "Servis Apartmen di Southville City, Bangi, Selangor untuk dijual pada RM380,000 — keluasan 825 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Bumi Lot. Ciri utama: + Ready strata; + Maintenance fees monthly RM300. Kemudahan kawasan: + BBQ area, + Playground & landscape garden. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "+ BBQ area",
@@ -22354,6 +22742,7 @@ window.LISTINGS = [
     "highlights": [
       "TERMURAH MACAM BARU Teres 1 Tingkat Taman Jenderam Lestari Dengkil"
     ],
+    "pelan": [],
     "description": "Rumah Teres di Taman Jenderam Lestari, Dengkil, Selangor untuk dijual pada RM410,000 — keluasan 800 sq ft (anggaran binaan) / 1,300 sq ft (20' x 65') (tanah), 3 bilik tidur, 2 bilik air, Freehold, Melayu Reserved. Ciri utama: TERMURAH MACAM BARU Teres 1 Tingkat Taman Jenderam Lestari Dengkil. Kemudahan kawasan: + Masjid As-Syakirin. Berdekatan: + ELITE highway, + KLIA Extension, + PLUS highway, + SKVE highway, + MEX highway. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "+ Masjid As-Syakirin"
@@ -22410,6 +22799,7 @@ window.LISTINGS = [
       "Dengkil, Selangor",
       "4 Rooms"
     ],
+    "pelan": [],
     "description": "Rumah Teres di Cybersouth, Dengkil, Selangor untuk dijual pada RM450,000 — keluasan 1,094 sq ft (binaan) / 1,400 sq ft (20' x 70') (tanah), 4 bilik tidur, 2 bilik air, Leasehold, Melayu Reserved. Ciri utama: PRICE GO DOWN; Dengkil, Selangor; 4 Rooms. Kemudahan kawasan: Surau dalam kawasan CyberSouth, Masjid Dengkil. Berdekatan: ELITE Highway, MEX Highway, SKVE, LDP, Putrajaya. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Surau dalam kawasan CyberSouth",
@@ -22466,6 +22856,7 @@ window.LISTINGS = [
       "CORNERLOT RENOVATED Apartment Kajang Perdana",
       "Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Apartment di Kajang Perdana, Kajang, Selangor untuk dijual pada RM199,000 — keluasan 650 sq ft (binaan), 2 bilik tidur, 1 bilik air, Leasehold, Bumi Lot. Ciri utama: CORNERLOT RENOVATED Apartment Kajang Perdana; Gated & Guarded. Berdekatan: Lekas Highway, PLUS Highway, SILK Highway, Cheras - Kajang Expressway. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -22518,6 +22909,7 @@ window.LISTINGS = [
       "3 Rooms",
       "FULLY FURNISH RESIDENSI IDAMAN ABADI, KAJANG 2"
     ],
+    "pelan": [],
     "description": "Kondominium di Kajang 2, Kajang, Selangor untuk dijual pada RM330,000 — keluasan 1,022 sq ft (binaan), 3 bilik tidur, 3 bilik air, Freehold, Bumi Lot. Ciri utama: New Listing; FULLY FURNISH RESIDENSI IDAMAN ABADI KAJANG 2; Kajang, Selangor. Antara kemudahan lain: 3 Rooms; FULLY FURNISH RESIDENSI IDAMAN ABADI, KAJANG 2. Kemudahan kawasan: Gymnasium, Playground, Surau, Clubhouse, Jogging Track. Berdekatan: Kajang 2 KTM, MRT /KTM Kajang, Mydin Hypermarket, Econsave, Giant, Hospital Kajang. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gymnasium",
@@ -22574,6 +22966,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen di DeCentrum, Kajang, Selangor untuk dijual pada RM330,000 — keluasan 768 sq ft (binaan), 1 bilik tidur, 2 bilik air, Freehold. Kemudahan kawasan: Landscaped Garden & BBQ Area, Surau & Playground. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Landscaped Garden & BBQ Area",
@@ -22618,6 +23011,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Taman Putra Impian, Bandar Seri Putra, Selangor untuk dijual pada RM450,000 — keluasan 1,600 sq ft (binaan) / 1,302 sq ft (tanah), 4 bilik tidur, 3 bilik air, Leasehold. Kemudahan kawasan: Surau Al-Ikhlas, Masjid Bdr Seri Putra. Berdekatan: SK, SRA & SMK Bdr Seri Putra, Klinik Kesihatan Bandar Seri Putra, Universiti Islam Selangor (UIS), Bandar Seri Putra commercial centre, Bangi Avenue Convention Center (BACC), Bangi Wonderland. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Surau Al-Ikhlas, Masjid Bdr Seri Putra"
@@ -22677,6 +23071,7 @@ window.LISTINGS = [
       "Family Mart, Speedmart, 7 Eleven, Cartel Coffee",
       "Sport Complex Seksyen 15, Bangi Gateway"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Seksyen 15, Bandar Baru Bangi, Selangor untuk dijual pada RM515,000 — keluasan 1,542 sq ft (anggaran binaan) / 1,250 sq ft (20' x 67.5') (tanah), 4 bilik tidur, 3 bilik air, Leasehold, Bumi Lot. Ciri utama: Partial furnished; > kitchen cabinet, fridge, few sets of bed & mattress; Amenities (by walking distance). Antara kemudahan lain: Petronas Station; Family Mart, Speedmart, 7 Eleven, Cartel Coffee; Sport Complex Seksyen 15, Bangi Gateway. Berdekatan: Institut Latihan & Kehakiman Perundangan (ILKAP), NIOSH, Mahkamah Bandar Baru Bangi, UKM, KPTM Bangi, GMI, ACCESSIBILITY. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -22727,6 +23122,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen di Almyra Residence, Laman Puteri 3, Bandar Puteri Bangi, Selangor untuk dijual pada RM370,000 — keluasan 1,055 sq ft (binaan), 3 bilik tidur, 3 bilik air, Freehold. Kemudahan kawasan: ▶ Green turf playground, ▶ Gymnasium, ▶ Surau, * Masjid Bandar Seri Putra. Berdekatan: * LOTUS Hypermarket Bandar Puteri, * Sekolah Rendah Agama Bandar Seri Putra, * Sekolah Menengah Bandar Seri Putra, * Universiti Islam Selangor (1.3 Km), * Restaurant, private schools, shop lots, clinics, petrol station, banks and many more. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "▶ Green turf playground",
@@ -22789,6 +23185,7 @@ window.LISTINGS = [
       "Grill ready",
       "24-hour security with CCTV surveillance"
     ],
+    "pelan": [],
     "description": "Servis Apartmen di MKH Boulevard, Kajang, Selangor untuk dijual pada RM460,000 — keluasan 850 sq ft (binaan), 2 bilik tidur, 2 bilik air, Leasehold. Ciri utama: * near to Hospital Kajang; * continuous rental demand; 2 Carpark. Antara kemudahan lain: Fully Furnished unit with a nice view; Grill ready; 24-hour security with CCTV surveillance. Berdekatan: PLUS / SILK highway, MRT Kajang (stadium), Legal & Loan can be arranged, 10 mins walking distance to Hospital Kajang, 15 mins walking distance to MRT/ KTM station. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -22838,6 +23235,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Setia Alam Sari, Bangi, Selangor untuk dijual pada RM1,250,000 — keluasan 2,550 sq ft (binaan) / 3,799 sq ft (tanah), 4 bilik tidur, 5 bilik air, Freehold. Berdekatan: * LEKAS Highway, * PLUS Highway, * Kajang SILK, * Bangi-Putrajaya Expressway (soon), Loan application can be arranged. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -22895,6 +23293,7 @@ window.LISTINGS = [
       "2 car park",
       "Grill-ready"
     ],
+    "pelan": [],
     "description": "Kondominium di Residensi Permai @ Hillpark, Bandar Teknologi Kajang, Selangor untuk dijual pada RM320,000 — keluasan 900 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Non-Bumi Lot. Ciri utama: * Flexible deposit and below MV; DETAILS & FEATURES; Level 16. Antara kemudahan lain: Balcony with green view; 2 car park; Grill-ready. Kemudahan kawasan: Surau / Multipurpose Hall, Gym / Swimming pool / Playground, Walking distance to Surau Insaniah Hillpark. Berdekatan: SILK Highway / LEKAS / Kajang-Seremban Highway, Easy access to Bandar Kajang, SK Bandar Teknologi, 6km to MRT Kajang, 4km to KTM Kajang 2. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Surau / Multipurpose Hall",
@@ -22956,6 +23355,7 @@ window.LISTINGS = [
       "Unit is beside lift (easy for mobility)",
       "TENANTED"
     ],
+    "pelan": [],
     "description": "Apartment di Vista Hijauan, Bangi, Selangor untuk dijual pada RM420,000 — keluasan 1,116 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Bumi Lot. Ciri utama: New apartment @ Vista Hijauan, Bangi; *same floor with facilities area / suitable for homestay; Brand new house. Antara kemudahan lain: Balcony (view facing UKM); Unit is beside lift (easy for mobility); TENANTED. Kemudahan kawasan: Playground, Jogging Track, Surau, Gymnasium Room, within 2km to UKM/ GMI/ Masjid GMI. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Playground",
@@ -23010,6 +23410,7 @@ window.LISTINGS = [
       "Semi Furnished",
       "Kitchen Cabinet"
     ],
+    "pelan": [],
     "description": "Servis Apartmen di Southville City, Bangi, Selangor untuk dijual pada RM330,000 — keluasan 956 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Bumi Lot. Ciri utama: Partial furnished & nice unit @ Savanna Executives Suites, Southville City; Block B1 - Level 25; Bangi. Antara kemudahan lain: Specifications; Semi Furnished; Kitchen Cabinet. Kemudahan kawasan: Masjid Kariah Bangi. Berdekatan: Schools & Higher Education Centres (Bangi), Bangi KTM Station, Patrol Station, Accessibility, PLUS (own Southville exit within 1km). Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Masjid Kariah Bangi"
@@ -23067,6 +23468,7 @@ window.LISTINGS = [
       "Water Heater",
       "facing playground"
     ],
+    "pelan": [],
     "description": "Townhouse di Taman Tropika 2, Bangi, Selangor untuk dijual pada RM380,000 — keluasan 836 sq ft (binaan), 3 bilik tidur, 2 bilik air, Freehold, Bumi Lot. Ciri utama: 1st Floor (end lot); Strata title ready; 836sf. Antara kemudahan lain: Aircond at each room; Water Heater; facing playground. Kemudahan kawasan: Playground, Surau. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Playground, Surau"
@@ -23110,6 +23512,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Servis Apartmen di Cyber 6, Cyberjaya, Selangor untuk dijual pada RM250,000 — keluasan 53.76 m2 (kira-kira 579 sq ft — kiraan), 2 bilik tidur, 1 bilik air. Kemudahan kawasan: 2 acres facilities include skyline view gym, lush jogging trails, BBQ pits, children playground. Berdekatan: 350 meters to Shaftbury Square, 2.6km to Dpulze Shopping Complex, 3.9km to Multimedia University, 4.2km to Hospital Cyberjaya. Hubungi Zahir MJ Property untuk temu janji melihat unit. Harga telah diselaraskan kepada RM250,000.",
     "amenities": [
       "2 acres facilities include skyline view gym",
@@ -23163,6 +23566,7 @@ window.LISTINGS = [
       "Strata Title Ready",
       "Maintenance Fee RM110"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Jenderam, Dengkil, Selangor untuk dijual pada RM245,000 — keluasan 930 sq ft (binaan), 3 bilik tidur, 2 bilik air, Leasehold, Bumi Lot. Ciri utama: LEVEL 1 Pangsapuri Jenderam Indah, Dengkil; FLEXIBLE DEPOSIT; FULL LOAN. Antara kemudahan lain: Blok A | Level 1 with Lift; Strata Title Ready; Maintenance Fee RM110. Berdekatan: SK & SMK Dengkil, Petrol Station, UITM Dengkil, Klinik. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -23216,6 +23620,7 @@ window.LISTINGS = [
       "Kitchen cabinet",
       "3 Airconds"
     ],
+    "pelan": [],
     "description": "Servis Apartmen di Kajang, Selangor untuk dijual pada RM360,000 — keluasan 860 sq ft (binaan), 2 bilik tidur, 2 bilik air, Leasehold, Bumi Lot. Ciri utama: MKH Boulevard, Kajang Selangor; FLEXIBLE DEPOSIT; WALKING DISTANCE TO KTM. Antara kemudahan lain: Level 9 | Block A; Kitchen cabinet; 3 Airconds. Kemudahan kawasan: Gymnasium indoor and out door, BBQ Area. Berdekatan: 600 meter walking distance to KTM Kajang / MRT Kajang, Surrounding by colleges and universities, Walking distance to Pasar Kajang, Pekan Kajang and Hospital Kajang, Bank, clinics, shop, restaurants , ACCESSIBILITIES. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gymnasium indoor and out door",
@@ -23276,6 +23681,7 @@ window.LISTINGS = [
       "Block E | Level 10",
       "3 Tier Security"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Taman Kajang Putra, Kajang, Selangor untuk dijual pada RM420,000 — keluasan 1,245 sq ft (binaan), 4 bilik tidur, 2 bilik air, Freehold, Non-Bumi Lot. Ciri utama: RENOVATED! Pangsapuri Miro, Taman Kajang Putra Selangor; FLEXIBLE DEPOSIT; LOW DENSITY. Antara kemudahan lain: FACING OPEN VIEW; Block E | Level 10; 3 Tier Security. Kemudahan kawasan: Children’s Playground, Gated & Guarded, Guardhouse, Guardhouse CCTV. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Children’s Playground",
@@ -23329,6 +23735,7 @@ window.LISTINGS = [
       "Kitchen Cabinet",
       "Build in wardrobe"
     ],
+    "pelan": [],
     "description": "Apartment di Cybersouth, Dengkil, Selangor untuk dijual pada RM320,000 — keluasan 901 sq ft (binaan), 3 bilik tidur, 2 bilik air, Leasehold, Melayu Reserved. Ciri utama: REPOST; FLEXIBLE DEPOSIT; FULL LOAN. Antara kemudahan lain: Blok A | Level 14; Kitchen Cabinet; Build in wardrobe. Kemudahan kawasan: Gated & Guarded, Playground, BBQ Area. Berdekatan: SK & SMK Dengkil, Masjid Pekan Dengkil, Klinik Kesihatan Dengkil, Hospital Putrajaya, 20 mins to KLIA. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gated & Guarded",
@@ -23386,6 +23793,7 @@ window.LISTINGS = [
       "FULLY EXTENDED",
       "Facing South"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Taman Sutera, Kajang, Selangor untuk dijual pada RM630,000 — keluasan 2,000 sq ft (anggaran binaan) / 20' x 70' (ukuran) (tanah), 4 bilik tidur, 3 bilik air, Freehold, Open. Ciri utama: WALKING DISTANCE TO MASJID; FULLY EXTENDED; Facing South. Kemudahan kawasan: Masjid Taman Sutera. Berdekatan: SILK highway, MRT station Bukit Dukong, Grand Saga highway. Nota jujur: satu bilik di tingkat atas ada sedikit jubin meletup, dan rumah ini diubah suai oleh pemilik tanpa CF. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Masjid Taman Sutera"
@@ -23437,6 +23845,7 @@ window.LISTINGS = [
       "FLEXIBLE DEPOSIT",
       "Strata Title"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Kita Mekar, Cybersouth, Dengkil, Selangor untuk dijual pada RM520,000 — keluasan 1,447 sq ft (binaan) / 20' x 60' (ukuran) (tanah), 4 bilik tidur, 3 bilik air, Leasehold, Melayu Reserved. Ciri utama: BRAND NEW HOUSE; FLEXIBLE DEPOSIT; Strata Title. Kemudahan kawasan: Gated Guarded, BBQ Area, Playground. Berdekatan: UITM Dengkil, SK & SMK Dengkil, Hospital Putrajaya. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gated Guarded",
@@ -23491,6 +23900,7 @@ window.LISTINGS = [
       "Facing South",
       "House facing T Junction"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Taman Prima Saujana, Kajang, Selangor untuk dijual pada RM620,000 — keluasan 1,900 sq ft (binaan) / 1,200 sq ft (20' x 60') (tanah), 4 bilik tidur, 3 bilik air, Freehold, Open. Ciri utama: Tenanted; Kitchen Extended; Facing South. Antara kemudahan lain: House facing T Junction. Kemudahan kawasan: Surau/ Masjid. Berdekatan: School (Primary & Secondary), Petrol Station, MRT kajang, Hypermarket (Giant, Tesco), Hospital/Clinic. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Surau/ Masjid"
@@ -23544,6 +23954,7 @@ window.LISTINGS = [
     "highlights": [
       "BRAND NEW"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D di Sejati Lakeside 2, Cyber 10, Cyberjaya, Selangor untuk dijual pada RM1,500,000 — keluasan 2,407 sq ft (binaan) / 2,700 sq ft (36' x 75') (tanah), 4 bilik tidur, 4 bilik air, Freehold, Non-Bumi Lot. Ciri utama: BRAND NEW. Berdekatan: Masjid Cyberjaya 10, Hospital Cyberjaya, Petrol Pump, Shoplot, Tasik Cyberjaya, MEX, ELITE, SILK, NKV, SKVE, NSKE Highway, LDP Highway. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -23592,6 +24003,7 @@ window.LISTINGS = [
       "RENOVATED UNIT",
       "*Owner pictures*"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Casa Green, Cybersouth, Cyberjaya, Selangor untuk dijual pada RM550,000 — keluasan 1,545 sq ft (binaan) / 1,170 sq ft (18' x 65') (tanah), 3 bilik tidur, 3 bilik air, Leasehold, Non-Bumi Lot. Ciri utama: NON BUMI LOT; RENOVATED UNIT; *Owner pictures*. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -23636,6 +24048,7 @@ window.LISTINGS = [
       "FULLY FURNISHED",
       "GOOD FOR INVESTMENT"
     ],
+    "pelan": [],
     "description": "Apartment di Domain 5, Neocyber, Cyberjaya, Selangor untuk dijual pada RM300,000 — keluasan 581 sq ft (binaan), 3 bilik tidur, 1 bilik air, Freehold, Non-Bumi Lot. Ciri utama: FULLY FURNISHED; GOOD FOR INVESTMENT. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -23677,6 +24090,7 @@ window.LISTINGS = [
     "highlights": [
       "BELOW MARKET VALUE"
     ],
+    "pelan": [],
     "description": "Rumah Teres 3 Tingkat di Bangi Avenue 3, Seksyen 7, Bangi, Selangor untuk dijual pada RM620,000 — keluasan 3,234 sq ft (binaan) / 1,400 sq ft (20' x 70') (tanah), 7 bilik tidur, 7 bilik air, Freehold, Open. Ciri utama: BELOW MARKET VALUE. Kemudahan kawasan: Playground. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Playground"
@@ -23720,6 +24134,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Setia Eco Glade, Cyberjaya, Selangor untuk dijual pada RM1,260,000 — keluasan 2,963 sq ft (binaan) / 2,730 sq ft (26' x 105') (tanah), 4 bilik tidur, 4 bilik air, Freehold, Non-Bumi Lot. Berdekatan: Hospital Cyberjaya (3.3KM) Dpulze Mall (5.8KM) SK & SMK Cyberjaya (5KM), KLIA (27KM), IOI City Mall 19KM. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [
@@ -23767,6 +24182,7 @@ window.LISTINGS = [
       "FLEXIBLE BOOKING",
       "Kajang, Selangor"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Taman Prima Saujana, Kajang, Selangor untuk dijual pada RM640,000 — keluasan 1,800 sq ft (anggaran binaan) / 1,540 sq ft (22' x 70') (tanah), 4 bilik tidur, 3 bilik air, Freehold, Open. Ciri utama: RENOVATED UNIT; FLEXIBLE BOOKING; Kajang, Selangor. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [],
     "nearby": [],
@@ -23812,6 +24228,7 @@ window.LISTINGS = [
       "FULLY FURNISHED",
       "Cassia Garden Ressidence Cyberjaya, Selangor"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat di Cassia Garden Residence, Cyberjaya, Selangor untuk dijual pada RM1,185,000 — keluasan 2,845 sq ft (binaan) / 1,920 sq ft (24' x 80') (tanah), 4 bilik tidur, 4 bilik air, Freehold, Non-Bumi Lot. Ciri utama: RENOVATED UNIT; FULLY FURNISHED; Cassia Garden Ressidence Cyberjaya, Selangor. Kemudahan kawasan: Gated & Guarded 24 hours, Club house, jogging track, playground, badminton & futsal court, cctv. Hubungi Zahir MJ Property untuk temu janji melihat unit.",
     "amenities": [
       "Gated & Guarded 24 hours, Club house, jogging track, playground, badminton & futsal court, cctv"
@@ -23862,6 +24279,7 @@ window.LISTINGS = [
       "Yuran penyelenggaraan RM200 sebulan",
       "Freehold, lot open - akses lebuh raya PLUS"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Apartment Putra 1, Bandar Seri Putra, Bangi, dengan keluasan binaan 1,044 kaki persegi. Unit di Blok 6, tingkat 1 ini mempunyai 3 bilik tidur dan 2 bilik air, serta 2 tempat letak kereta berbumbung. Balkoni menghadap pemandangan terbuka tanpa halangan. Unit telah diubah suai dengan permukaan meja dan kabinet dapur, serta kipas siling di setiap bilik. Yuran penyelenggaraan RM200 sebulan. Kawasan berpagar dan berkawal dengan kolam renang, sauna, gimnasium, surau, gelanggang bola keranjang, dewan serbaguna dan minimart. Berhampiran sekolah rendah dan menengah, Masjid Bandar Seri Putra, stesen minyak, restoran dan hypermarket, dengan akses ke lebuh raya PLUS. Hakmilik freehold, lot open, unit intermediate.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -23926,6 +24344,7 @@ window.LISTINGS = [
       "Leasehold - lot Melayu Reserved (pembeli bukan Melayu tidak layak)",
       "Akses LDP, SKVE, ELITE; dekat Hospital Putrajaya"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Kita Ria, Cybersouth, Dengkil - unit tingkat bawah (ground floor) di Blok A, dengan keluasan binaan 901 kaki persegi. Unit ini mempunyai 3 bilik tidur dan 2 bilik air, serta 2 tempat letak kereta berbumbung. Yuran penyelenggaraan RM200 sebulan ke atas. Kemudahan komuniti termasuk kawasan berpagar dan berkawal, taman permainan, kolam renang, gelanggang futsal dan dewan serbaguna. Berhampiran sekolah rendah dan menengah, Masjid Pekan Dengkil, Klinik Kesihatan Dengkil dan Hospital Putrajaya, dengan akses ke lebuh raya LDP, SKVE dan ELITE. Hakmilik leasehold, lot Melayu Reserved (Malay Reserve) - pembeli bukan Melayu tidak layak. Unit intermediate.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -23986,6 +24405,7 @@ window.LISTINGS = [
       "Freehold, lot open",
       "Dekat KTM Komuter & MRT Kajang, Mydin / Econsave / CS Grocer"
     ],
+    "pelan": [],
     "description": "Unit corner di Residensi Mutiara Kajang, Kajang - Blok A, tingkat 8, dengan balkoni dan keluasan binaan 930 kaki persegi. Unit ini mempunyai 3 bilik tidur (asalnya 4 bilik) dan 3 bilik air, serta 2 tempat letak kereta berbumbung. Telah diubah suai sepenuhnya: siling plaster di ruang tamu dan bilik utama, 2 almari pakaian terbina, serta ruang dapur besar dengan permukaan meja dan kabinet dapur. Yuran penyelenggaraan RM204 sebulan. Kemudahan termasuk kawasan berpagar dan berkawal, kolam renang, gimnasium lengkap, taman permainan kanak-kanak, taman landskap dan tempat letak kereta pelawat berbumbung. Berhampiran sekolah rendah dan menengah, KTM Komuter, MRT Kajang, hypermarket (Mydin, Econsave, CS Grocer), stesen minyak dan hospital. Hakmilik freehold, lot open, unit corner.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -24048,6 +24468,7 @@ window.LISTINGS = [
       "Leasehold - lot Bumiputera sahaja (bukan Bumiputera tidak layak)",
       "Jarak berjalan kaki ke Mydin; akses PLUS, SILK, LEKAS"
     ],
+    "pelan": [],
     "description": "Pangsapuri di Anggerik Residensi, Bandar Teknologi Kajang - tingkat 9, keluasan 1,012 kaki persegi, dengan 3 bilik tidur dan 2 bilik air. Hakmilik strata sudah sedia. Unit diubah suai dengan permukaan meja dan kabinet dapur, dan disertakan 1 tempat letak kereta terbuka. Kemudahan termasuk kawasan berpagar dan berkawal, taman permainan dan dewan serbaguna mini. Berhampiran sekolah rendah dan menengah, Mydin (dalam jarak berjalan kaki), stesen minyak, hospital dan klinik, dengan akses ke lebuh raya PLUS, SILK dan LEKAS. Hakmilik leasehold, lot Bumiputera (Bumi Lot) - pembeli bukan Bumiputera tidak layak. Unit intermediate.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -24106,6 +24527,7 @@ window.LISTINGS = [
       "Freehold, bukan lot Bumiputera",
       "Harga baru RM1,600,000 (turun daripada RM1,800,000)"
     ],
+    "pelan": [],
     "description": "Banglo dua tingkat baharu di Seksyen 9, Bandar Bukit Mahkota, Bangi, dengan kolam renang persendirian. Unit siap dengan CCC dan menawarkan 8 bilik tidur serta 5 bilik air, di atas tanah kira-kira 7,997.6 kaki persegi dan binaan kira-kira 3,000 kaki persegi. Hakmilik freehold dan bukan lot Bumiputera. Harga telah diturunkan daripada RM1,800,000 kepada RM1,600,000. Berhampiran Lotus's Bandar Puteri Bangi, Masjid Bukit Mahkota, sekolah kebangsaan dan klinik kesihatan, dengan akses mudah ke lebuh raya PLUS, ELITE dan LEKAS. Nota: luas tanah dan binaan adalah anggaran seperti dinyatakan oleh ejen sumber.",
     "amenities": [
       "Kolam renang persendirian",
@@ -24166,6 +24588,7 @@ window.LISTINGS = [
       "Freehold, hakmilik terbuka (open title)",
       "Akses PLUS, SILK, LEKAS dan Bangi Bypass"
     ],
+    "pelan": [],
     "description": "Banglo dua tingkat di Banyan Close, Bandar Bukit Mahkota, Bangi, dengan keluasan binaan 4,580 kaki persegi di atas tanah kira-kira 8,500 kaki persegi. Menawarkan 4+1 bilik tidur dan 6 bilik air dalam kawasan berpagar dan berkawal. Hakmilik freehold dengan hakmilik terbuka (open title). Berhampiran Masjid Bandar Seri Putra, Masjid At-Taqwa Bandar Bukit Mahkota, Sekolah Rendah Agama dan Sekolah Kebangsaan Bandar Seri Putra, dengan akses ke lebuh raya PLUS, SILK, LEKAS serta Bangi Bypass.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -24226,6 +24649,7 @@ window.LISTINGS = [
       "Leasehold, lot Bumiputera",
       "Dekat MRT & KTM Kajang, Hospital Kajang dan Metro Point"
     ],
+    "pelan": [],
     "description": "Rumah teres satu tingkat di Taman Permai, Kajang, dengan keluasan binaan 1,000 kaki persegi dan ukuran tanah 20' x 65'. Terdiri daripada 3 bilik tidur dan 3 bilik air, dengan dapur yang telah diperluas. Hakmilik leasehold, lot Bumiputera. Lokasi berhampiran MRT dan KTM Kajang, Hospital Kajang, Metro Point Kajang serta sekolah kebangsaan, dengan akses mudah ke lebuh raya SILK, LEKAS dan PLUS.",
     "amenities": [
       "Rumah teres satu tingkat",
@@ -24286,6 +24710,7 @@ window.LISTINGS = [
       "Kabinet dapur terbina (built-in)",
       "Kawasan berpagar dan berkawal, freehold"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat di Setia Alam Sari (fasa Avis 1), Bangi, dengan keluasan binaan 1,826 kaki persegi dan ukuran tanah 22' x 80'. Unit menghadap terbuka dan mengadap Utara, menawarkan 4 bilik tidur dan 4 bilik air serta kabinet dapur terbina. Kawasan berpagar dan berkawal, hakmilik freehold. Berhampiran EPF Learning Centre, Danau Golf Course, German Malaysia Institute dan Bangi Wonderland Themepark, dengan akses ke lebuh raya LEKAS dan SILK.",
     "amenities": [
       "Kawasan berpagar & berkawal",
@@ -24347,6 +24772,7 @@ window.LISTINGS = [
       "kitchen cabinet",
       "new toilet"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat yang telah diubah suai dan diperluas di Taman Kantan Permai, Kajang, Selangor. Keluasan tanah 828 sq ft dan keluasan binaan 1,000 sq ft, dengan 2 bilik tidur dan 1 bilik air. Hakmilik Leasehold (berakhir Januari 2089), status Bumi Lot, dan dikategorikan LOW COST (untuk pembeli rumah pertama sahaja). Kerja naik taraf merangkumi ruang tamu yang diperluas, siling plaster, awning porch kereta, jubin baharu, dapur diperluas dengan kabinet, dan bilik air baharu. Berdekatan SK Kantan Permai, SMK Saujana Impian, Surau Kantan Permai, Lotus Kajang, MRT Stadium Kajang dan MRT Sungai Jernih, dengan akses ke Lebuhraya SILK, PLUS, Grand Saga dan Kajang Bypass. Harga permintaan RM390,000 (turun daripada RM395,000).",
     "amenities": [],
     "nearby": [
@@ -24404,6 +24830,7 @@ window.LISTINGS = [
       "RENOVATION: plaster ceiling, kitchen cabinet, attic, sliding divider, wardrobe",
       "Gated Guarded"
     ],
+    "pelan": [],
     "description": "Terres Tanah 20' x 70' (1,400 sq ft) | Binaan 1,400 sq ft di Taman Puncak Saujana, Kajang, Selangor dijual pada RM730,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -24447,6 +24874,7 @@ window.LISTINGS = [
     "highlights": [
       "kitchen installed with kitchen cabinet"
     ],
+    "pelan": [],
     "description": "Terres Tanah 22' x 70' (1,540 sq ft) | Binaan 2,002 sq ft di Taman Vista Emas, Bangi, Selangor dijual pada RM550,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -24513,6 +24941,7 @@ window.LISTINGS = [
     "highlights": [
       "Balcony"
     ],
+    "pelan": [],
     "description": "Serviced Residence Binaan 1,073 sqft di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM325,000. Hakmilik: Leasehold.",
     "amenities": [
       "Gated & Guarded",
@@ -24586,6 +25015,7 @@ window.LISTINGS = [
       "Level 9 ( Near Lift )",
       "Balcony"
     ],
+    "pelan": [],
     "description": "Serviced Residence Binaan 1,073 sqft di Bandar Teknologi Kajang, Kajang, Selangor dijual pada RM325,000. Hakmilik: Freehold.",
     "amenities": [
       "Gated & Guarded",
@@ -24662,6 +25092,7 @@ window.LISTINGS = [
       "Sambungan dapur + balkoni sedia",
       "3 bilik | 3 bilik air"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat yang telah diubah suai di Jalan Jelok, Taman Kajang Baru, Kajang. Luas tanah 863 sq ft (15' x 55'), luas binaan kira-kira 1,700 sq ft dengan 3 bilik tidur dan 3 bilik air. Antara renovasi yang telah dibuat: pendawaian baru sepenuhnya, awning porch kereta, lantai jubin penuh, sambungan kawasan dapur dan balkoni sedia ada. Lokasi strategik berdekatan sekolah rendah & menengah, bank, stesen minyak, restoran, Hospital Kajang, KPJ Kajang, MPKJ dan Stadium Kajang. Harga RM395,000. Bantu hubungi Zahir 012-2310119.",
     "amenities": [
       "Sekolah rendah & menengah",
@@ -24716,6 +25147,7 @@ window.LISTINGS = [
       "Sambungan penuh dapur belakang, siling plaster, balkoni tingkat 2",
       "3 bilik | 4 bilik air"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat yang telah diubah suai sepenuhnya dengan kelulusan majlis di Seksyen 7, Bandar Baru Bangi. Luas tanah 1,650 sq ft (22' x 75'), luas binaan kira-kira 2,000 sq ft dengan 3 bilik tidur dan 4 bilik air. Kawasan gated & guarded dengan yuran RM45 sebulan. Renovasi termasuk sambungan penuh di kawasan dapur belakang, siling plaster ceiling dan balkoni di tingkat 2. Berdekatan sekolah rendah & menengah, hospital, stesen minyak, bank, mall dan hypermarket. Harga RM800,000. Bantu hubungi Zahir 012-2310119.",
     "amenities": [
       "Sekolah rendah & menengah",
@@ -24770,6 +25202,7 @@ window.LISTINGS = [
       "Porche jubin penuh + awning, plaster ceiling, kabinet dapur",
       "4 bilik | 3 bilik air"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat yang telah diubah suai di Taman Prima Saujana, Kajang, menghadap simpang jalan. Luas tanah 1,200 sq ft (20' x 60'), luas binaan 1,900 sq ft dengan 4 bilik tidur dan 3 bilik air. Rumah ini bersewa (tenanted) — sesuai untuk pelabur yang mahu pendapatan segera. Renovasi: porch kereta jubin penuh dengan awning, plaster ceiling dan table top dengan kabinet dapur. Berdekatan sekolah rendah & menengah, stesen minyak, MRT Kajang, hypermarket (Giant, Tesco), hospital/klinik, minimart, hypermall serta surau/masjid. Harga RM630,000. Bantu hubungi Zahir 012-2310119.",
     "amenities": [
       "Sekolah rendah & menengah",
@@ -24824,6 +25257,7 @@ window.LISTINGS = [
       "Deposit fleksibel",
       "2 bilik | 2 bilik air"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat Low Cost Selangor di Taman Cuepacs, Kajang. Luas tanah 770 sq ft (14' x 55'), luas binaan kira-kira 900 sq ft dengan 2 bilik tidur dan 2 bilik air. Terdapat tanah tambahan di kawasan belakang seluas 6-7 kaki. Renovasi: awning porch kereta dan lantai jubin penuh. Deposit fleksibel dipatuhi. Berdekatan sekolah rendah & menengah, Hospital Kajang, stesen minyak dan masjid. Harga RM295,000 (nett). Bantu hubungi Zahir 012-2310119.",
     "amenities": [
       "Sekolah rendah & menengah",
@@ -24873,6 +25307,7 @@ window.LISTINGS = [
       "Kitchen extended, Kitchen cabinet",
       "Facing: North East"
     ],
+    "pelan": [],
     "description": "Kediaman 1650 sqft di Taman Kajang Prima, Kajang, Selangor dijual pada RM500,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -24930,6 +25365,7 @@ window.LISTINGS = [
       "Extra land at backyard",
       "Vacant"
     ],
+    "pelan": [],
     "description": "Kediaman 1300 sqft di Taman Kasih, Sungai Sekamat, Kajang, Selangor dijual pada RM495,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -24990,6 +25426,7 @@ window.LISTINGS = [
       "High Ceiling with natural sky light",
       "Double Frontage"
     ],
+    "pelan": [],
     "description": "Kediaman 12,500 sqft di Bangi Golf Resort, Bandar Baru Bangi, Selangor dijual pada RM3,200,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -25033,6 +25470,7 @@ window.LISTINGS = [
     "highlights": [
       "Corner Double Storey"
     ],
+    "pelan": [],
     "description": "Kediaman 3000 sqft di Renovated Corner Unit Seksyen 4 Bandar Baru Bangi dijual pada RM900,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -25088,6 +25526,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 930 sqft di Brand New Residensi Mutiara Kajang 2 dijual pada RM350,000. Hakmilik: Freehold.",
     "amenities": [
       "Double Storey Clubhouse",
@@ -25145,6 +25584,7 @@ window.LISTINGS = [
       "Basic Unit",
       "Tenanted = RM1,500 /Monthly"
     ],
+    "pelan": [],
     "description": "Rumah Semi-D 3,740 sqft di Pinggiran Putra, Putrajaya dijual pada RM650,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -25204,6 +25644,7 @@ window.LISTINGS = [
       "2 lift",
       "Open View"
     ],
+    "pelan": [],
     "description": "Apartment - di Kajang, Selangor dijual pada RM245,000. Hakmilik: Freehold.",
     "amenities": [
       "Covered parking 1",
@@ -25267,6 +25708,7 @@ window.LISTINGS = [
       "Fully Fans and Down Light",
       "Fully Air-condition"
     ],
+    "pelan": [],
     "description": "Apartment - di Kajang, Selangor dijual pada RM360,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -25329,6 +25771,7 @@ window.LISTINGS = [
       "Extended Living Room",
       "with Balcony & Extended Kitchen (with Approval)"
     ],
+    "pelan": [],
     "description": "Rumah Teres 2 Tingkat 1,540 sqft (22' x 70') di Seksyen 9, Bandar Baru Bangi, Selangor dijual pada RM750,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [
@@ -25393,6 +25836,7 @@ window.LISTINGS = [
       "Tangga berpagar + access card (keselamatan tambahan)",
       "Sesuai untuk pelaburan"
     ],
+    "pelan": [],
     "description": "Shop apartment di Pangsapuri Kayangan, Taman Kajang Utama, Kajang — 912 kaki persegi dengan 3 bilik tidur dan 1 bilik air, terletak di tingkat 2 Blok K (walk-up). Unit basic dengan pengudaraan yang baik, dan akses tangga berpagar serta access card untuk keselamatan tambahan. Freehold, status open. Lokasi berhampiran Klinik Komuniti Kajang Utama, 99 Speedmart, 7-Eleven, kedai makan, Surau Al Taqwa dan Surau Al Muhajirin, SMK Kajang Utama serta Reko Sentral; mudah diakses ke Bandar Baru Bangi, Kajang Silk dan lebuh raya LEKAS/PLUS. Harga RM220,000 (boleh runding) — sesuai untuk pelaburan.",
     "amenities": [],
     "nearby": [
@@ -25456,6 +25900,7 @@ window.LISTINGS = [
       "SILK Highway",
       "PLUS Highway"
     ],
+    "pelan": [],
     "description": "Bungalow dua tingkat di Bangi Golf Resort, Bandar Baru Bangi — kawasan tanah seluas 12,500 kaki persegi dengan binaan 9,250 kaki persegi, 7 bilik tidur dan 6 bilik air. Menghadap padang golf, reka bentuk moden klasik mewah, sebahagian berperabot, dengan 2 ruang tamu. Yuran penyelenggaraan RM200 sebulan. Mudah diakses melalui SILK dan PLUS.",
     "amenities": [],
     "nearby": [
@@ -25511,6 +25956,7 @@ window.LISTINGS = [
     "highlights": [
       "Strata Pending Perfection"
     ],
+    "pelan": [],
     "description": "Service apartment berperabot penuh di Cerrado Residence Suites, Southville City, Bangi — Blok B tingkat 28, 656 kaki persegi dengan 2 bilik tidur dan 1 bilik air, 2 tempat letak kereta. Yuran penyelenggaraan RM225 sebulan. Kemudahan termasuk kolam renang, gim, sauna, dewan serbaguna dan keselamatan 24 jam. Berdekatan KTM Bangi, UKM, UPM dan IOI City Mall Putrajaya. Hakmilik strata menunggu kebaharuan (strata pending perfection).",
     "amenities": [
       "24 Hours Security",
@@ -25575,6 +26021,7 @@ window.LISTINGS = [
       "Sofa & Dining Table",
       "Wardrobes & Study Table"
     ],
+    "pelan": [],
     "description": "Apartmen di Sentral Residence, Taman Kajang Sentral, Kajang — 1,090 kaki persegi dengan 3 bilik tidur dan 2 bilik air, 2 tempat letak kereta. Unit telah diubah suai (renovated) dan kosong (vacant), sebahagian berperabot dengan 4 unit aircond, 2 pemanas air, kabinet dapur, peti sejuk, sofa, meja makan, almari dan meja belajar. Yuran penyelenggaraan RM180 sebulan. Kemudahan termasuk kolam renang, gim, sky lounge, taman landskap dan keselamatan 24 jam. Hakmilik strata menunggu kebaharuan (strata pending perfection).",
     "amenities": [
       "BBQ Area",
@@ -25644,6 +26091,7 @@ window.LISTINGS = [
       "Type: Double Storey Terrace House Corner",
       "Corner Lot"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat corner lot yang telah diubah suai penuh di Seksyen 3 Tambahan, Bandar Baru Bangi — keluasan tanah 2,831 kaki persegi, binaan ±2,000 kaki persegi, 4 bilik tidur dan 4 bilik air. Kos pengubahsuaian RM362,500 termasuk tambah ruang dapur, kitchen cabinet, plaster siling seluruh rumah, 3 tandas diubah suai, almari bilik utama, 4 unit aircond, porch diperbesar berturap, 2 pintu pagar (1 autogate) dan keliling pagar batu. Pintu utama kayu jati, 2 pintu keselamatan, boleh parkir 4 kereta. Kawasan guarded, tepi open space. Sedia duduki (ready to move in). Leasehold. Harga RM810,000 (nego) — harga telah direvisi oleh owner.",
     "amenities": [],
     "nearby": [
@@ -25728,6 +26176,7 @@ window.LISTINGS = [
       "24 hours security",
       "Gymnasium and many more"
     ],
+    "pelan": [],
     "description": "Kondominium di New Vista Hijauan, UKM Bangi, Selangor dijual pada RM419,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -25788,6 +26237,7 @@ window.LISTINGS = [
       "3 unit aircond",
       "Katil + tilam, TV, set sofa, meja makan"
     ],
+    "pelan": [],
     "description": "Pangsapuri Anggun, Bandar Baru Bangi — 1,193 kaki persegi, 3+1 bilik (termasuk stor), 2 bilik air, unit tingkat tinggi dengan pengudaraan baik dan pemandangan menarik. Telah diubah suai dan berperabot penuh: kabinet dapur dengan hob & hood, plaster siling, 3 unit aircond, katil berserta tilam, TV, set sofa, meja makan dan lain-lain. Sedia duduki di tengah Bandar Baru Bangi.",
     "amenities": [],
     "nearby": [
@@ -25852,6 +26302,7 @@ window.LISTINGS = [
       "Lift access with security",
       "Management & maintenance office for each block"
     ],
+    "pelan": [],
     "description": "Apartment di Savanna Executive Suites, Southville City, Dengkil, Selangor dijual pada RM399,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [
@@ -25906,6 +26357,7 @@ window.LISTINGS = [
     "highlights": [
       "Tenanted"
     ],
+    "pelan": [],
     "description": "Semi-D cluster 3 tingkat di Parkfield Residence, Tropicana Heights, Kajang — binaan 3,009 kaki persegi atas tanah 2,314 kaki persegi (30' x 70'), 7 bilik tidur (5+2) dan 5 bilik air (4+1). Freehold Non-Bumi dengan strata title. Berstatus tenanted, yuran penyelenggaraan RM320.10 sebulan. Kemudahan termasuk keselamatan 24 jam, clubhouse, taman permainan, dewan pelbagai guna dan litar joging. Harga RM1,090,000 (turun daripada RM1.18 juta, boleh runding).",
     "amenities": [
       "Security 24 hours",
@@ -25968,6 +26420,7 @@ window.LISTINGS = [
       "16 Units CCTV",
       "Auto Gate"
     ],
+    "pelan": [],
     "description": "Bungalow Baiduri dua tingkat di Puncak Pinggiran Putra, Sungai Merab, berhampiran Putrajaya — tanah 12,809 kaki persegi dengan binaan ±6,000 kaki persegi, 6 bilik tidur (termasuk bilik pembantu dan bilik pengawal/pemandu) dan 8 bilik air. Leasehold sehingga 2106, Malay Reserved. telah diubah suai sepenuhnya dengan kelulusan, lokasi hujung jalan (end road), 16 unit CCTV, auto gate dan keselamatan 24 jam (yuran RM140 sebulan). Mudah ke Putrajaya, Bandar Baru Bangi dan Kajang melalui PLUS, SILK, MEX, SKVE dan ELITE. Harga RM1,490,000.",
     "amenities": [],
     "nearby": [
@@ -26039,6 +26492,7 @@ window.LISTINGS = [
       "Klinik Kesihatan Batu 14",
       "IKBN Dusun Tua"
     ],
+    "pelan": [],
     "description": "Bungalow villa setingkat di Batu 15, Hulu Langat, Selangor — binaan ±3,000 kaki persegi atas tanah ±10,890 kaki persegi (±1/4 ekar), 5 bilik tidur dan 3 bilik air. Freehold Malay Reserved, berperabot penuh. Tanah tinggi bebas banjir, 20 meter ke sungai. Rumah tiada CF. Berdekatan SMK Abd Jalil, maahad tahfiz, klinik kesihatan dan IKBN Dusun Tua; akses mudah ke Grand Saga, PLUS dan LEKAS. Harga RM950,000 (boleh runding).",
     "amenities": [],
     "nearby": [],
@@ -26092,6 +26546,7 @@ window.LISTINGS = [
       "Putrajaya Highway",
       "* Owners are welcome to list"
     ],
+    "pelan": [],
     "description": "Bungalow 2.5 tingkat di Perdana Lakeview East, Cyberjaya — binaan 5,800 kaki persegi atas tanah 8,977 kaki persegi, 7 bilik tidur (6+1) dan 7 bilik air. Freehold, menghadap barat, ada bilik pekebun, yuran penyelenggaraan RM450 sebulan. Berdekatan pusat perniagaan, universiti dan pusat membeli-belah; akses MEX, ELITE dan Putrajaya Highway. Harga RM5,200,000. (Nota: gambar telah diedit menggunakan AI tanpa menukar struktur susun atur — mengikut penjual.)",
     "amenities": [],
     "nearby": [
@@ -26147,6 +26602,7 @@ window.LISTINGS = [
       "Free Mortgage Advisory service",
       "Snp& Loan Legal Fees can finance into Loan"
     ],
+    "pelan": [],
     "description": "Kondominium Oasis 2 di Mutiara Heights, Kajang — binaan 1,250 kaki persegi, 3 bilik tidur dan 2 bilik air, 2 tempat letak kereta. Freehold, berperabot penuh, reka bentuk moden, sedia untuk didingati. Ansuran anggaran RM1,660 sebulan; 0% bayaran pendahuluan dan khidmat nasihat pinjaman percuma ditawarkan ejen. Harga RM470,000 (nilai bank RM550,000).",
     "amenities": [],
     "nearby": [],
@@ -26195,6 +26651,7 @@ window.LISTINGS = [
     "highlights": [
       "Gated & Guarded"
     ],
+    "pelan": [],
     "description": "Townhouse Kita Mekar di Cybersouth, Dengkil — unit atas (upper unit), binaan 1,104 kaki persegi atas tanah 1,650 kaki persegi (22' x 75'), 3 bilik tidur dan 2 bilik air. Gated & guarded, yuran penyelenggaraan RM100 sebulan. Sesuai untuk FULL LOAN. Berdekatan Cyberjaya, Putrajaya, DPULZE, Tamarind Square dan IOI City Mall; akses MAX, ELITE dan SKVE. Harga RM400,000 (boleh runding).",
     "amenities": [],
     "nearby": [
@@ -26247,6 +26704,7 @@ window.LISTINGS = [
     "highlights": [
       "Condition: Fully renovated"
     ],
+    "pelan": [],
     "description": "Semi-D dua tingkat telah diubah suai sepenuhnya di Bandar Seri Putra, Kajang — tanah 3,200 kaki persegi (40' x 80'), binaan asal ±2,850 kaki persegi berkembang melebihi 3,200 kaki persegi selepas pengubahsuaian, 7 bilik tidur dan 5 bilik air. Freehold Non-Bumi. Berdekatan SK/SMK/SRA Bandar Seri Putra, KUIS, KTM Bangi danPLUS Highway (exit Bandar Seri Putra). Harga RM880,000 (nilai bank RM1,200,000).",
     "amenities": [],
     "nearby": [
@@ -26305,6 +26763,7 @@ window.LISTINGS = [
       "Lantai penuh jubin + penghawa dingin penuh",
       "5 minit ke Bandar Kajang"
     ],
+    "pelan": [],
     "description": "Rumah teres dua tingkat intermediate di Taman Sri Jelok, Kajang — tanah 1,540 kaki persegi (22' x 70'), binaan 1,540 kaki persegi, 5 bilik tidur dan 3 bilik air. Leasehold Non-Bumi. Dapur basah dilanjutkan 10 kaki, balkoni lebar berjeriji, kabinet dapur built-in, lantai penuh jubin dan penyaman udara penuh. 5 minit ke Bandar Kajang, dekat MRT Kajang/Stadium Kajang/Sungai Jernih. Harga RM480,000 (turun daripada RM490,000).",
     "amenities": [
       "MRT Kajang Station",
@@ -26359,6 +26818,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 75 sqft di https://t.me/HarisNoorisListing dijual pada RM900,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -26405,6 +26865,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 957 sqft di https://t.me/HarisNoorisListing dijual pada RM330,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -26448,6 +26909,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 863 sqft di https://t.me/HarisNoorisListing dijual pada RM350,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -26494,6 +26956,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 775 sqft di https://t.me/HarisNoorisListing dijual pada RM170,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -26535,6 +26998,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman di Murah] Below MV Residensi Zamrud @ Kajang 2 For Sales dijual pada RM345,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -26574,6 +27038,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 1300 sqft di DOUBLE STOREY TERRACE HOUSE SEKSYEN 8 BANDAR BARU BANGI FOR SALE dijual pada RM535,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -26625,6 +27090,7 @@ window.LISTINGS = [
       "Facing other house",
       "5-8 feet backyard"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat di Taman Kasih, Sungai Sekamat, Kajang — tanah 20' x 65', binaan ±1,600 kaki persegi, 4 bilik tidur dan 3 bilik air. Unit basic menghadap selatan dengan halaman belakang 5–8 kaki. Freehold Open. Berdekatan Surau An-Nur (100m), SK Seri Sekamat, Klinik Kesihatan Sungai Sekamat dan MRT Bukit Dukung; akses SILK dan lebuh raya Cheras-Kajang. Harga RM495,000 — deposit fleksibel.",
     "amenities": [],
     "nearby": [
@@ -26687,6 +27153,7 @@ window.LISTINGS = [
       "Ada Balkoni & Yard",
       "FULLY FURNISHED"
     ],
+    "pelan": [],
     "description": "Kondominium Oasis 2 Residence di Mutiara Heights, Kajang — 1,300 kaki persegi, 3 bilik tidur, 2 bilik air, tingkat 6 dengan balkoni dan yard, 2 lot parking. Freehold Non-Bumi, strata ready, berperabot penuh. Yuran penyelenggaraan RM338.50/bulan. Kemudahan kolam renang, gimnasium, dewan serbaguna dan keselamatan 24 jam; berdekatan Pasaraya CS, KPJ Kajang dan MRT Sungai Jernih. Harga RM550,000.",
     "amenities": [
       "👨🏻✈️ 24hours security",
@@ -26757,6 +27224,7 @@ window.LISTINGS = [
       "24 Hour Security,",
       "Cable TV"
     ],
+    "pelan": [],
     "description": "Servis apartmen The Place di Cyberjaya — 721 kaki persegi, 2 bilik tidur, 1 bilik air, tingkat 17, telah diubah suai. Freehold Non-Bumi. Berjalan kaki ke MRT; 5 minit ke IOI City Mall dan Limkok Wing, 8 minit ke D'Pulze. Akses mudah ke PLUS dan stesen KTM/MRT. Harga RM315,000 — deposit fleksibel.",
     "amenities": [],
     "nearby": [
@@ -26838,6 +27306,7 @@ window.LISTINGS = [
       "15 minutes to Kajang Town",
       "20 minutes to Putrajaya / Cyberjaya"
     ],
+    "pelan": [],
     "description": "Rumah teres 2 tingkat corner lot di Seksyen 4, Bandar Baru Bangi — tanah 3,110 kaki persegi (lebar 40 kaki, panjang 65–85 kaki), binaan ±1,600 kaki persegi, 5 bilik tidur, 3 bilik air, 1 stor dan 1 parking berbumbung. Bumi Lot, Leasehold hingga 2104, geran individu. Sedang disewa RM1,700/bulan. Berdekatan Bangi Central, KTM UKM, MRT Kajang, UKM dan Hospital Az-Zahrah. Harga RM730,000 (boleh runding).",
     "amenities": [],
     "nearby": [],
@@ -26876,6 +27345,7 @@ window.LISTINGS = [
       "Basic unit :",
       "Grilled"
     ],
+    "pelan": [],
     "description": "Kondominium Aspire Residence di Cyberjaya untuk SEWA — 900 kaki persegi, 3 bilik tidur, 2 bilik air, endlot berhampiran lif, menghadap timur (sunrise), 3 lot parking. Unit basic berlampu siling, kipas, penghawa dingin ruang tamu & master, berjeriji dan pemanas air. Sewa RM1,500/bulan (deposit 2+1+0.5 utiliti + perjanjian + SST 8%), masuk segera.",
     "amenities": [
       "Swimming pool",
@@ -26945,6 +27415,7 @@ window.LISTINGS = [
     "highlights": [
       "kitchen cabinet with hod and hob"
     ],
+    "pelan": [],
     "description": "Kondominium Aspire Residence Cyber 10 di Cyberjaya — 900 kaki persegi, 3 bilik tidur, 2 bilik air, Blok 1 tingkat 8, 2 parking tingkat bawah berhampiran pintu masuk. Freehold Bumi Lot. Kabinet dapur dengan hob & hood, lampu, kipas dan 2 pemanas air. Harga RM355,000 (boleh runding).",
     "amenities": [
       "clubhouse",
@@ -27004,6 +27475,7 @@ window.LISTINGS = [
       "1 aircond",
       "Currently tenanted. Can view on weekend"
     ],
+    "pelan": [],
     "description": "Apartmen PR1MA One @ Laman View, Cyber 9 Cyberjaya — 900 kaki persegi, 3 bilik tidur, 2 bilik air, 2 parking berbumbung. Kabinet dapur penuh dengan hob & hood, lampu dan kipas semua bilik, berjeriji, 1 penghawa dingin. Sedang disewa (viewing hujung minggu). Berdekatan Tamarind Square, D'Pulze dan Hospital Cyberjaya. Harga RM370,000.",
     "amenities": [],
     "nearby": [
@@ -27068,6 +27540,7 @@ window.LISTINGS = [
       "Attractive Discount",
       "Booking RM2,000 only"
     ],
+    "pelan": [],
     "description": "Rumah superlink 2 tingkat BARU di Bangi Golf Resort menghadap padang golf — tanah 24' x 80' hingga 120', binaan 2,691–3,407 kaki persegi, 5 bilik tidur, 4–5 bilik air. Leasehold. Pakej termasuk yuran guaman SPA & pinjaman percuma, disbursement percuma, MOT percuma dan diskaun menarik; booking RM2,000 sahaja. Harga bermula RM1,280,000 — unit terhad.",
     "amenities": [],
     "nearby": [
@@ -27116,6 +27589,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 2,200 sqft di For Sale : Brand New Double Storey Terrace House (Chaseni Type), Lambaian Dua Residence, Jalan Lambaian 1, Kajang, Selangor dijual pada RM800,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -27162,6 +27636,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 466 sqft di Tiara Imperio Residence, Kajang dijual pada RM265,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -27198,6 +27673,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "SEWA",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 454 sqft di Fully Furnished EVO SOHO Suites @ Bangi ditawarkan untuk disewa pada RM280,000 / bulan. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -27244,6 +27720,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 1419 sqft di Renovated Duplex Townhouse @ Taman Sabha Impian, Kajang dijual pada RM465,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -27290,6 +27767,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 3,243 sqft di Arawani - Bandar Puteri Bangi dijual pada RM1,790,000. Hakmilik: Freehold.",
     "amenities": [],
     "nearby": [],
@@ -27336,6 +27814,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 75 sqft di Double Storey Seksyen 7, Bandar Baru Bangi, Selangor dijual pada RM490,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -27374,6 +27853,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 5490 sqft di Taman Impian Putra, Bandar Seri Putra, Bangi/Kajang dijual pada RM1,100,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -27420,6 +27900,7 @@ window.LISTINGS = [
     "status": "BARU",
     "jenis": "JUAL",
     "highlights": [],
+    "pelan": [],
     "description": "Kediaman 1491 sqft di Double Storey Terrace Intermediate Kita Harmoni dijual pada RM575,000. Hakmilik: Leasehold.",
     "amenities": [],
     "nearby": [],
@@ -27450,6 +27931,188 @@ window.LISTINGS = [
     "active": true
   },
   {
+    "tracking": "COA-0487",
+    "title": "UNIT TERMURAH! 2 STOREY INTERMEDIATE TAMAN KASIH SUNGAI SEKAMAT KAJANG",
+    "type": "Kediaman",
+    "location": "UNIT TERMURAH! 2 STOREY INTERMEDIATE TAMAN KASIH SUNGAI SEKAMAT KAJANG",
+    "state": "Selangor",
+    "price": 495000,
+    "price_label": "RM495,000",
+    "price_old": null,
+    "land_area": "1300 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "pelan": [],
+    "description": "Kediaman 1300 sqft di UNIT TERMURAH! 2 STOREY INTERMEDIATE TAMAN KASIH SUNGAI SEKAMAT KAJANG dijual pada RM495,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=UNIT%20TERMURAH%21%202%20STOREY%20INTERMEDIATE%20TAMAN%20KASIH%20SUNGAI%20SEKAMAT%20KAJANG",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-11-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/10F0IPn-iufROYY2ealQ55LcZKuoqM8hf=w1000",
+      "https://lh3.googleusercontent.com/d/1G2OYEFaMuZYs4mSEaadO2rCtYoRCE_gd=w1000",
+      "https://lh3.googleusercontent.com/d/15TyXZard69JyHce_jcrekwzaXMrBYpp0=w1000",
+      "https://lh3.googleusercontent.com/d/1Ga5PEgR2WCpDZdLCxAhcHOVv3-vTrlVH=w1000",
+      "https://lh3.googleusercontent.com/d/1HCUQLqdEr5nZh3Vmp3bQFCexhAYySDi5=w1000",
+      "https://lh3.googleusercontent.com/d/1ZiZwgLY0oT_JtkpbFtG39BPIVtqPju0H=w1000",
+      "https://lh3.googleusercontent.com/d/1TKnXKnbKzkmIwBtjr4QqjNWpRVgvJzDY=w1000",
+      "https://lh3.googleusercontent.com/d/1arvAcgNW8r72krvwx7TVRIZViPs7VLFH=w1000",
+      "https://lh3.googleusercontent.com/d/1Tdgu83DYpzKUHZhw8Qr9t8hBsI6m05XA=w1000",
+      "https://lh3.googleusercontent.com/d/1a2QnmIQdxh0Ky3Y3eDSs_w4h99OhGTg7=w1000",
+      "https://lh3.googleusercontent.com/d/1wmehec7KlnDeFw7cx5oTkQr346tK-vIx=w1000",
+      "https://lh3.googleusercontent.com/d/1Z48HbnTaz63nLpqkqhXF4FXV0bsYWI7j=w1000",
+      "https://lh3.googleusercontent.com/d/1EwNBCCJrUN5_rMPMbIeb_-TpFXAwSmp4=w1000",
+      "https://lh3.googleusercontent.com/d/1nRlqY-5bKans0nilaM87ZprGazzLBKYa=w1000",
+      "https://lh3.googleusercontent.com/d/1XHbnwP8eK63DdYEiZqVcaO_nWfmYplfi=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0488",
+    "title": "Residensi Zamrud Sg Tangkas, Kajang 2 (Near Bangi)",
+    "type": "Kediaman",
+    "location": "Residensi Zamrud Sg Tangkas, Kajang 2 (Near Bangi)",
+    "state": "Selangor",
+    "price": 320000,
+    "price_label": "RM320,000",
+    "price_old": null,
+    "land_area": "-",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "pelan": [],
+    "description": "Kediaman di Residensi Zamrud Sg Tangkas, Kajang 2 (Near Bangi) dijual pada RM320,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Residensi%20Zamrud%20Sg%20Tangkas%2C%20Kajang%202%20%28Near%20Bangi%29",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-11-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1VtsV1aj0wwOhmjZHLMfTuE3zxZG5Fry4=w1000",
+      "https://lh3.googleusercontent.com/d/1GCzzPT7GuHH7-ryLQ837pj8Jql9nU296=w1000",
+      "https://lh3.googleusercontent.com/d/1NJBfqqbyPhiIbbMoMVuluJUlmiX3O05i=w1000",
+      "https://lh3.googleusercontent.com/d/18ggjIeDYXXQPjyM0K5krWnz8--63lKus=w1000",
+      "https://lh3.googleusercontent.com/d/1_m-HaFZUm8Tdz1BT1evwx53nsPnuZaNd=w1000",
+      "https://lh3.googleusercontent.com/d/1CMZvR94pLRZfQEVNQTa81JufNyfCZ2E5=w1000",
+      "https://lh3.googleusercontent.com/d/135N7O9ARc0RdhcBU7m56-GGQEBhSrX--=w1000",
+      "https://lh3.googleusercontent.com/d/1gamkpZs_Y0w8LHw5xzUOg3tsRUS9pIrT=w1000",
+      "https://lh3.googleusercontent.com/d/1n0K7G6JgWez6OJ--sLHNHMCFVCk7dV0q=w1000",
+      "https://lh3.googleusercontent.com/d/12VSmL7PLtrIaGnlcTId06hzpVPGgK2O6=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0489",
+    "title": "Double Storey Bungalow Country Heights, Jalan Pelangi Pagi, Kajang",
+    "type": "Kediaman",
+    "location": "Double Storey Bungalow Country Heights, Jalan Pelangi Pagi, Kajang",
+    "state": "Selangor",
+    "price": 4,
+    "price_label": "RM4",
+    "price_old": null,
+    "land_area": "17,500 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "pelan": [],
+    "description": "Kediaman 17,500 sqft di Double Storey Bungalow Country Heights, Jalan Pelangi Pagi, Kajang dijual pada RM4. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Double%20Storey%20Bungalow%20Country%20Heights%2C%20Jalan%20Pelangi%20Pagi%2C%20Kajang",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-11-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1OV8YsfwE99JnORA4bTvqcXhz6eePXAxr=w1000",
+      "https://lh3.googleusercontent.com/d/1n0s89umFhMzpFciKMiztD575JbNS1f1E=w1000",
+      "https://lh3.googleusercontent.com/d/1QjbzFglN0HmllqxfZynMnzyJ6SOcQjyz=w1000",
+      "https://lh3.googleusercontent.com/d/19Na62yYbz8_dmt7o7YakJDHNRqQy8iYi=w1000",
+      "https://lh3.googleusercontent.com/d/13se55SIyPTGaWT-zogulXaYWZj_VlTXH=w1000",
+      "https://lh3.googleusercontent.com/d/1eEBNDxzvHwz9qJsOInblTodyQIQuNR-s=w1000",
+      "https://lh3.googleusercontent.com/d/1wqtm6hrpTDX2XCJvld1KhfiVR0GMFIHY=w1000",
+      "https://lh3.googleusercontent.com/d/1hDg6wljFPC1FmSeG0Fc5bUxKDHlpt33B=w1000",
+      "https://lh3.googleusercontent.com/d/1rBy8FvjLdXBW2hChWUxkMsNdxPhTiV0b=w1000",
+      "https://lh3.googleusercontent.com/d/1_RpsKt_4CtJdKJFf9gsEr-MB0FZA5dlv=w1000",
+      "https://lh3.googleusercontent.com/d/19J7umSH-G3_XTOy_s9PhL05-cvnfJTe3=w1000",
+      "https://lh3.googleusercontent.com/d/1Jfw4fSC53yLsSJuZXU7N2ShHcaUlFCVV=w1000",
+      "https://lh3.googleusercontent.com/d/1KwVo1XG8gwpAv61G-TwF5PXCru3iRfm2=w1000",
+      "https://lh3.googleusercontent.com/d/1jN_GgJl8RKvyT1CHedc-5DFlZ4hQZE-j=w1000",
+      "https://lh3.googleusercontent.com/d/1I5x0yY4TSkVtnj4YF0cE5BWPDsLNvCne=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
+    "tracking": "COA-0490",
+    "title": "Unit kosong saya pegang kunci. View anytime.",
+    "type": "Kediaman",
+    "location": "Unit kosong saya pegang kunci. View anytime.",
+    "state": "Selangor",
+    "price": 360000,
+    "price_label": "RM360,000",
+    "price_old": null,
+    "land_area": "1072 sqft",
+    "built_up": "-",
+    "tenure": "Freehold",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "status": "BARU",
+    "jenis": "JUAL",
+    "highlights": [],
+    "pelan": [],
+    "description": "Kediaman 1072 sqft di Unit kosong saya pegang kunci. View anytime. dijual pada RM360,000. Hakmilik: Freehold.",
+    "amenities": [],
+    "nearby": [],
+    "map_url": "https://www.google.com/maps/search/?api=1&query=Unit%20kosong%20saya%20pegang%20kunci.%20View%20anytime.",
+    "project": "",
+    "project_name": "",
+    "unit": "",
+    "source": "COA",
+    "date": "2026-11-19",
+    "images": [
+      "https://lh3.googleusercontent.com/d/1wUO3UWyC_OsH1t-AsbxCHKP7u6X04t3w=w1000",
+      "https://lh3.googleusercontent.com/d/1CwBP6zg0paVSUlH0ZotDDTYNaALjk-Ar=w1000",
+      "https://lh3.googleusercontent.com/d/18tZRNSneWnex5QD_CM1WsJFoToLGq5I8=w1000",
+      "https://lh3.googleusercontent.com/d/1CBdpZQCsYZQ2qLdVkew16TXsilCL-fLC=w1000",
+      "https://lh3.googleusercontent.com/d/1kHCsrW7KWWhoGg-qVmZVvorMQ6Ae7eRP=w1000",
+      "https://lh3.googleusercontent.com/d/1rXcjxw0tPk0WyfADHJsXpF33oRm-7gai=w1000",
+      "https://lh3.googleusercontent.com/d/1fzzsoUwb0_RDfYr4p0LeQ5kqO_e9jz-r=w1000",
+      "https://lh3.googleusercontent.com/d/1U_tcSyfQf1ixcmaVJGGA5ilS_DZtcM54=w1000",
+      "https://lh3.googleusercontent.com/d/1JGVt7ekUXWnx5fhmrDC98XJSQjuO7CSm=w1000",
+      "https://lh3.googleusercontent.com/d/1EoY6PBEL74AD4rR9O3Y1K68pxxaB5gn4=w1000",
+      "https://lh3.googleusercontent.com/d/1VJbEo0eLuoOd7Jc_eiSOd1-MXQDfbmX0=w1000",
+      "https://lh3.googleusercontent.com/d/1uKwpSVfw-0bpqHtZOEmuF-HyExV-TPR0=w1000",
+      "https://lh3.googleusercontent.com/d/1fX8vqKgWmJdtE_4geAfbQ5s6hyYw4R8L=w1000",
+      "https://lh3.googleusercontent.com/d/1CTtD8WqggFBdmwp8l1FiH7MkKJcOvga8=w1000"
+    ],
+    "video": "",
+    "active": true
+  },
+  {
     "tracking": "ZMP-0003",
     "title": "Flat Taman Masria, Cheras (2 Bilik)",
     "type": "Flat",
@@ -27472,6 +28135,7 @@ window.LISTINGS = [
       "Sesuai pembeli pertama / pelaburan",
       "Harga boleh runding"
     ],
+    "pelan": [],
     "description": "Flat 2 bilik 1 bilik air di Flat Taman Masria, Cheras, Selangor - Blok B, Tingkat 1, keluasan lebih kurang 549 sqft. Freehold dan tiada sekatan, kini berpenyewa — sesuai untuk pelabur yang mahu pendapatan sewa serta-merta atau pembeli rumah pertama. Berdekatan Jalan Cheras dengan akses mudah ke Grand Saga dan SILK Highway, serta kemudahan sekitar Cheras/Balakong. Harga RM140,000 (boleh runding).",
     "amenities": [
       "Blok B, Tingkat 1",
@@ -27641,6 +28305,7 @@ window.LISTINGS = [
       "Built-in kitchen cabinet",
       "Gated & guarded"
     ],
+    "pelan": [],
     "description": "Semi-D dua tingkat fasa Verdale di Setia Alam Sari, Bangi. Freehold dengan keluasan tanah 3,200 sqft dan binaan 3,118 sqft, 4 bilik tidur dan 5 bilik air. Menghadap North East, dilengkapi built-in kitchen cabinet dan terletak dalam kawasan gated & guarded. Mudah diakses melalui Lebuh Raya LEKAS dan PLUS. Berdekatan Stesen KTM UKM, Sekolah Al Amin Bangi dan Greenview Private School.",
     "amenities": [
       "Stesen KTM UKM",
