@@ -28718,11 +28718,31 @@ window.LISTINGS = [
     "bathrooms": 1,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Studio unit berperabot penuh, sedia untuk didiami",
+      "Tingkat 37, Blok 2 - pemandangan dan privasi terbaik",
+      "Balkoni dan dapur yard berasingan",
+      "2 unit penghawa dingin, pemanas air, peti sejuk dan mesin basuh",
+      "Katil single, wardrope bina dalam dan kabinet dapur tinggi penuh",
+      "Strata title dalam proses, freehold lot terbuka",
+      "Sesuai untuk pertama kali membeli rumah atau pelaburan sewa"
+    ],
     "pelan": [],
-    "description": "Kediaman di Symphony Hills Cyber 9, Cyberjaya dijual pada RM500,000. Hakmilik: Freehold. Sekatan: Open.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Studio berperabot penuh di Verdi Eco-Dominiums, Symphony Hills Cyber 9, Cyberjaya. Tingkat 37 Blok 2 dengan balkoni dan dapur yard. Dilengkapi 2 penghawa dingin, pemanas air, peti sejuk, mesin basuh, dapur 2 tungku, meja makan 4 tempat duduk, sofa, TV dan 2 katil single. Freehold dengan strata title dalam proses. Kemudahan lengkap termasuk kolam renang, gimnasium dan keselamatan 24 jam. Sesuai untuk kediaman sendiri atau pelaburan sewa di hab teknologi Cyberjaya.",
+    "amenities": [
+      "Kolam renang",
+      "Gimnasium",
+      "Taman permainan",
+      "Keselamatan 24 jam",
+      "1 tempat letak kereta berbumbung (Tingkat 1)",
+      "Tempat letak kereta pelawat",
+      "Yuran penyelenggaraan RM235/bulan"
+    ],
+    "nearby": [
+      "Berhampiran pejabat dan hab MNC Cyberjaya",
+      "Akses mudah ke Lebuhraya MEX, ELITE dan SKVE",
+      "Berhampiran universiti dan kawasan komersial"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Symphony%20Hills%20Cyber%209%2C%20Cyberjaya",
     "project": "",
     "project_name": "",
@@ -28766,11 +28786,29 @@ window.LISTINGS = [
     "bathrooms": 8,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Banglo pereka 3 tingkat (Astonia I) dengan lif peribadi",
+      "Tanah lapang 5,587 sqft (50' x 110'), binaan 5,739 sqft",
+      "6 bilik tidur en-suite, suite pembantu dengan bilik air",
+      "Ruang tamu powder room untuk tetamu",
+      "Porch besar muat sehingga 6 kenderaan",
+      "Landed strata menghadap utara, freehold (dengan consent)",
+      "Bumi Lot (pemilik Melayu) - eksklusif untuk pembeli layak",
+      "Komuniti berpagar dan berkawal keselamatan, densiti rendah"
+    ],
     "pelan": [],
-    "description": "Kediaman 5,587 sqft di Sejati Residences, Cyber 9, Cyberjaya dijual pada RM2,950,000. Hakmilik: Freehold. Sekatan: Bumi Lot.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Banglo pereka 3 tingkat mewah di Sejati Residences, Cyber 9, Cyberjaya. Tanah 5,587 sqft (50' x 110') dengan binaan grand 5,739 sqft. 6 bilik tidur en-suite, lif peribadi di semua tingkat, suite pembantu dengan bilik air dan powder room untuk tetamu. Porch besar muat 6 kenderaan. Landed strata menghadap utara, freehold dengan consent. Bumi Lot (pemilik Melayu) reserved untuk pembeli layak sahaja. Komuniti eksklusif berpagar dengan landskap JMB dan kemudahan klub. Nett price RM2,950,000.",
+    "amenities": [
+      "Kolam renang peribadi",
+      "Klub dalam komuniti",
+      "Taman landskap dijana JMB",
+      "Keselamatan berpagar 2 peringkat"
+    ],
+    "nearby": [
+      "Dikelilingi 500+ syarikat multinasional di Cyberjaya",
+      "Beberapa minit ke DPULZE dan Shaftsbury Square",
+      "Akses mudah ke Lebuh Raya utama dan MRT 2"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Sejati%20Residences%2C%20Cyber%209%2C%20Cyberjaya",
     "project": "",
     "project_name": "",
@@ -28814,11 +28852,30 @@ window.LISTINGS = [
     "bathrooms": 4,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Kondo duplex 2 tingkat (Tingkat 8 & 9), Blok A",
+      "4 bilik tidur dan 4 bilik air dengan entrance Dual Key",
+      "2 ruang tamu lapang dan 2 balkoni peribadi dengan pemandangan hijau",
+      "Dapur dengan ruang yard, densiti rendah",
+      "2 tempat letak kereta berbumbung di Tingkat 1 (Lot 11 & 12)",
+      "Freehold, open title",
+      "Sesuai keluarga besar atau pelaburan sewa"
+    ],
     "pelan": [],
-    "description": "Kediaman di Gardenview Residence, Cyberjaya dijual pada RM650,000. Hakmilik: Freehold. Sekatan: Open.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Kondo duplex Gardenview Residence, Cyberjaya. Unit duplex di Tingkat 8 dan 9 dengan pemandangan hijau yang tenang. 4 bilik tidur dan 4 bilik air, dual key entrance di kedua-dua tingkat, 2 ruang tamu lapang dan 2 balkoni peribadi. Dapur dengan ruang yard. Freehold open title, binaan 2,088 sqft. 2 tempat letak kereta berbumbung di Tingkat 1. Kemudahan lengkap termasuk kolam renang, gimnasium, dewan serbaguna dan keselamatan 24 jam. Penyelenggaraan RM500/bulan. Sesuai untuk keluarga besar atau pelaburan.",
+    "amenities": [
+      "Kolam renang",
+      "Gimnasium",
+      "Taman permainan",
+      "Dewan serbaguna",
+      "Keselamatan 24 jam",
+      "Taman landskap",
+      "Penyelenggaraan RM500/bulan"
+    ],
+    "nearby": [
+      "Di tengah-tengah Cyberjaya",
+      "Akses mudah ke kemudahan utama Cyberjaya"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Gardenview%20Residence%2C%20Cyberjaya",
     "project": "",
     "project_name": "",
@@ -28862,11 +28919,28 @@ window.LISTINGS = [
     "bathrooms": 10,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Banglo corner 5 tingkat dengan lif peribadi",
+      "Tanah 9,300 sqft, binaan kira-kira 15,500 sqft",
+      "9+1 bilik tidur lapang dan 10 bilik air",
+      "Lif peribadi melayani semua tingkat, rooftop terrace lapang",
+      "Basement car park muat sehingga 10 kereta",
+      "Kolam renang peribadi dan keselamatan berpagar 2 peringkat",
+      "Leasehold (open title), layak untuk warga asing",
+      "Geran individu (title KL)"
+    ],
     "pelan": [],
-    "description": "Kediaman 9,300 sqft di The Mines Resort City, Seri Kembangan dijual pada RM8,500,000. Hakmilik: Leasehold. Sekatan: Open.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Banglo corner 5 tingkat mewah dengan lif peribadi di The Mines Resort City. Tanah 9,300 sqft dengan binaan kira-kira 15,500 sqft. 9+1 bilik tidur lapang dan 10 bilik air, lif peribadi melayani semua tingkat, rooftop terrace dan basement car park muat 10 kereta. Kolam renang peribadi dan keselamatan berpagar 2 peringkat. Leasehold open title dengan geran individu, layak untuk warga asing. Menghadap utara dengan akses terus ke tempat letak kereta. Sesuai untuk kediaman korporat, pelaburan mewah atau keluarga besar.",
+    "amenities": [
+      "Kolam renang peribadi",
+      "Sistem keselamatan berpagar 2 peringkat",
+      "Taman rooftop",
+      "Enklaf eksklusif densiti rendah"
+    ],
+    "nearby": [
+      "The Mines Resort City",
+      "Akses terus ke tempat letak kereta"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Mines%20Resort%20City%2C%20Seri%20Kembangan",
     "project": "",
     "project_name": "",
@@ -28910,11 +28984,29 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Corner unit dengan pemandangan menakjubkan",
+      "Tingkat 13A, hubungan terus ke Stesen MRT Sri Raya",
+      "3 bilik tidur dan 2 bilik air, binaan 1,313 sqft",
+      "Dapur konsep terbuka dengan kabinet dan kitchen island",
+      "3 penghawa dingin, wardrope bina dalam, rak kasut",
+      "Balkoni dan dapur yard, 2 tempat letak kereta",
+      "Kemudahan penuh di Tingkat 12, siap 2019",
+      "Freehold lot terbuka"
+    ],
     "pelan": [],
-    "description": "Kediaman di Batu 9 Cheras dijual pada RM800,000. Hakmilik: Freehold. Sekatan: Open.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Corner unit service residence Saville, Batu 9 Cheras dengan hubungan terus ke Stesen MRT Sri Raya. Tingkat 13A, binaan 1,313 sqft dengan 3 bilik tidur dan 2 bilik air. Dapur konsep terbuka dengan kabinet dan kitchen island, 3 penghawa dingin, wardrope bina dalam dan balkoni dengan dapur yard. 2 tempat letak kereta. Kemudahan penuh di Tingkat 12 termasuk kolam renang dan gimnasium. Freehold lot terbuka, siap 2019. Pilihan tepat untuk kediaman sendiri atau pelaburan dengan connectivity MRT di depan pintu.",
+    "amenities": [
+      "Kemudahan penuh di Tingkat 12",
+      "Kolam renang",
+      "Gimnasium",
+      "Keselamatan 24 jam"
+    ],
+    "nearby": [
+      "Hubungan terus ke Stesen MRT Sri Raya",
+      "Batu 9 Cheras",
+      "Akses mudah ke Lebuhraya utama"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Batu%209%20Cheras",
     "project": "",
     "project_name": "",
@@ -28958,11 +29050,29 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Semi-D 2 tingkat baharu menghadap tasik",
+      "Tanah 5,382 sqft (36' x 80') dengan tanah tambahan 10ft",
+      "Binaan kira-kira 3,059 sqft, 4 bilik tidur dan 5 bilik air",
+      "1 bilik powder, ruang tamu dan ruang makan lapang",
+      "Dapur basah dengan yard, bilik utiliti dan bilik stor",
+      "Unit kosong - reka bentuk dan renovasi mengikut citarasa sendiri",
+      "Freehold lot terbuka dengan geran individu",
+      "Komuniti berpagar dan berkawal keselamatan, menghadapi barat"
+    ],
     "pelan": [],
-    "description": "Kediaman 5,382 sqft di Sejati Lakeside 2, Cyberjaya dijual pada RM2,100,000. Hakmilik: Freehold. Sekatan: Open.",
-    "amenities": [],
-    "nearby": [],
+    "description": "Semi-D 2 tingkat baharu di Sejati Lakeside 2, Cyberjaya dengan belakang rumah menghadap tasik. Tanah 5,382 sqft (36' x 80') dengan tambahan 10ft, binaan kira-kira 3,059 sqft. 4 bilik tidur dan 5 bilik air (semua bilik atas ada bilik air attach), 1 bilik powder di bawah. Unit kosong - sesuai untuk direnovasi mengikut citarasa sendiri. Freehold lot terbuka dengan geran individu, komuniti berpagar, menghadapi barat. Vacant possession September 2025. Penyelenggaraan RM250/bulan. Sesuai untuk kediaman keluarga jangka panjang.",
+    "amenities": [
+      "Komuniti berpagar dan berkawal keselamatan",
+      "Pemandangan tasik dari belakang rumah",
+      "Porch kereta lapang",
+      "Penyelenggaraan RM250/bulan"
+    ],
+    "nearby": [
+      "Sejati Lakeside 2, Cyberjaya",
+      "Persekitaran tasik yang tenang dan densiti rendah",
+      "Strategik di Cyberjaya"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Sejati%20Lakeside%202%2C%20Cyberjaya",
     "project": "",
     "project_name": "",
