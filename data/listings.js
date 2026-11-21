@@ -29456,7 +29456,6 @@ window.LISTINGS = [
     "images": [
       "https://lh3.googleusercontent.com/d/1jHcaAeUtajPKlU3uueJ3J5opvxtJ8qYq=w1000",
       "https://lh3.googleusercontent.com/d/1Gp0xnt4_VDSVv3KZ2LoInvHbGCdGRX3W=w1000",
-      "https://lh3.googleusercontent.com/d/1hhmhPPcUEFFb5EmqhDf8j6Mrl4Kbfbmw=w1000",
       "https://lh3.googleusercontent.com/d/1Cr8wc3LhT-nBXNgX7asQ7QiGDJs7fHjn=w1000",
       "https://lh3.googleusercontent.com/d/15gyKdQigIdCQsJIepTUEGtQVG7OrzsMN=w1000",
       "https://lh3.googleusercontent.com/d/1bhQlon-mc6OiDGugnDbAZ4_J_YAcZRHO=w1000",
