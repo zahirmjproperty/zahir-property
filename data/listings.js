@@ -31239,7 +31239,7 @@ window.LISTINGS = [
       "Gated & Guarded"
     ],
     "pelan": [],
-    "description": "Kediaman 6,286 sqft di Brand New Corner Lot 3 Storey Bungalow With Private Lift & Pool Hamton Kemensah Taman Melawati Ulu Klang dijual pada RM3,400,000. Hakmilik: Leasehold. Sekatan: Non-Bumi Lot.",
+    "description": "Kediaman 6,286 sqft di Brand New Corner Lot 3 Storey Bungalow With Private Lift & Pool, Hamton Kemensah, Taman Melawati, Ulu Klang dijual pada RM3,400,000. Hakmilik: Leasehold (expiry 2113). Sekatan: Non-Bumi Lot. Built-up 4,571 sqft, 6+1 bilik, 6 bilik air, private pool & lift, vacant.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Brand%20New%20Corner%20Lot%203%20Storey%20Bungalow%20With%20Private%20Lift%20%26%20Pool%20Hamton%20Kemensah%20Taman%20Melawati%20Ulu%20Klang",
@@ -31291,7 +31291,7 @@ window.LISTINGS = [
       "Facing South"
     ],
     "pelan": [],
-    "description": "Kediaman 1,560 sqft di BRAND NEW Double Storey Intermediate Serene Heights Bangi dijual pada RM750,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
+    "description": "Kediaman 1,560 sqft di BRAND NEW Double Storey Intermediate Serene Heights, Bangi dijual pada RM700,000 (harga asal RM750,000). Hakmilik: Freehold. Sekatan: Non-Bumi Lot. 4 bilik + 1 utiliti, 3 bilik air, built-up 2,082 sqft, Individual Title.",
     "amenities": [
       "24 hour security",
       "Landscaped Park",
@@ -31406,7 +31406,7 @@ window.LISTINGS = [
       "Gated & Guarded"
     ],
     "pelan": [],
-    "description": "Kediaman 1,800 sqft di END LOT 2 Storey Terrace Jalan Impian Gemilang, Taman Saujana Impian Kajang dijual pada RM745,000. Hakmilik: Freehold. Sekatan: Bumi Lot.",
+    "description": "Kediaman 1,800 sqft di END LOT 2 Storey Terrace, Jalan Impian Gemilang, Taman Saujana Impian, Kajang dijual pada RM699,000 (harga asal RM745,000). Hakmilik: Freehold. Sekatan: Bumi Lot. Built-up 2,264 sqft, 5 bilik + 5 bilik air + 1 bilik simpan + 1 bilik study, fully extended & renovated.",
     "amenities": [],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=END%20LOT%202%20Storey%20Terrace%20Jalan%20Impian%20Gemilang%2C%20Taman%20Saujana%20Impian%20Kajang",
