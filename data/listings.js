@@ -31346,7 +31346,7 @@ window.LISTINGS = [
     "built_up": "1,000 sqft",
     "tenure": "Freehold",
     "sekatan": "Bumi Lot",
-    "bedrooms": 0,
+    "bedrooms": 3,
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
