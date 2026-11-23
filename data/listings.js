@@ -31452,11 +31452,19 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "FACILITIES: Playground, Swimming Pool"
+    ],
     "pelan": [],
     "description": "Kediaman di Pangsapuri Putra Impian, Bandar Seri Putra, Bangi/Kajang dijual pada RM280,000. Hakmilik: Leasehold. Sekatan: Bumi Lot.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Lotus",
+      "KTM Bangi",
+      "SK Bandar Seri Putra",
+      "Sek Men Bandar Seri Putra",
+      "Highways PLUS Dan LEKAS"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Pangsapuri%20Putra%20Impian%2C%20Bandar%20Seri%20Putra%2C%20Bangi/Kajang",
     "project": "",
     "project_name": "",
@@ -31500,7 +31508,12 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Fully extend Kitchen area and upper floor",
+      "Wet Kitchen & Dry Kitchen Separated",
+      "Plaster Ceiling, Kitchen Cabinet, Autogate",
+      "Balcony front & back"
+    ],
     "pelan": [],
     "description": "Kediaman 20 x 75 ft (1,500 sqft) di 2 STOREY PUNCAK SAUJANA SEKSYEN 6, KAJANG dijual pada RM710,000. Hakmilik: Freehold. Sekatan: Open.",
     "amenities": [],
@@ -31548,11 +31561,35 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Basic unit",
+      "Petronas Petrol Station (Mesra Shop/ ATM /CDM)",
+      "Shop Lots, restaurants, hypermarket, clinic, 24hrs self service laundry etc",
+      "Kompleks Kejiranan Presint 9 consists of swimming pool",
+      "multipurpose hall",
+      "badminton & takraw court",
+      "library & food court",
+      "Klinik Kesihatan Presint 9",
+      "Putrajaya Sentral (ERL, MRT line2, intercity & intracity bus station)",
+      "Hospital Putrajaya & Institut Kanser Negara"
+    ],
     "pelan": [],
     "description": "Kediaman di Pangsapuri Putra Harmoni, Presint 9, Putrajaya dijual pada RM269,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "Shop lots consist of 7 Eleven & ATM",
+      "grocery",
+      "24hrs clinic",
+      "restaurants",
+      "cyber cafe",
+      "laundry etc.",
+      "Food kiosks",
+      "Surau",
+      "Playground",
+      "Badminton & takraw court."
+    ],
+    "nearby": [
+      "DEKAT MRT STATION"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Pangsapuri%20Putra%20Harmoni%2C%20Presint%209%2C%20Putrajaya",
     "project": "",
     "project_name": "",
@@ -31588,11 +31625,20 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Type: Townhouse (Corner Ground Floor)",
+      "Gated and Guarded"
+    ],
     "pelan": [],
     "description": "Kediaman 3,433 sqft di CORNER LOT Ground Floor! The Strata Townhouse Bandar Puteri Bangi dijual pada RM620,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "SK Bukit Mahkota",
+      "SK Bandar Seri Putra",
+      "Hospital Pakar An-Nur",
+      "Tesco Bandar Puteri Bangi",
+      "Bangi Wonderland Themepark & Resort"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=CORNER%20LOT%20Ground%20Floor%21%20The%20Strata%20Townhouse%20Bandar%20Puteri%20Bangi",
     "project": "",
     "project_name": "",
@@ -31632,7 +31678,12 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Sekolah Sg Ramal Dalam, Sekolah Sri ABIM, Sek Men Seksyen 7",
+      "KIP Mal, EVO Mall & IOI City Mall",
+      "Hospital Serdang, Hosp Pakar An Nur, Hospital Az Zahrah",
+      "Near PLUS, SILK & LEKAS"
+    ],
     "pelan": [],
     "description": "Kediaman 18 x 65 ft (1,170 sqft) di Double Storey Terrace Taman Ramal Ros ,Sungai Ramal Dalam, Kajang Selangor dijual pada RM485,000. Hakmilik: Freehold. Sekatan: Malay Reserved.",
     "amenities": [],
@@ -31680,10 +31731,19 @@ window.LISTINGS = [
     "bathrooms": 3,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "RESIDENSI SETIA IMPIAN JADE HILL KAJANG"
+    ],
     "pelan": [],
     "description": "Kediaman di Residensi Setia Impian, Jade Hill, Kajang dijual pada RM380,000. Hakmilik: Freehold. Sekatan: Open.",
-    "amenities": [],
+    "amenities": [
+      "Swimming Pool",
+      "Playground",
+      "Surau",
+      "Mini Market",
+      "Badminton Court",
+      "24 hours Gated & Guarded"
+    ],
     "nearby": [],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Residensi%20Setia%20Impian%2C%20Jade%20Hill%2C%20Kajang",
     "project": "",
