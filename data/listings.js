@@ -32492,11 +32492,24 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Nice ID Decoration",
+      "Matured Area",
+      "Nice wardrobe"
+    ],
     "pelan": [],
     "description": "Kediaman di Kajang, Selangor dijual pada RM488,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
-    "amenities": [],
-    "nearby": [],
+    "amenities": [
+      "Swimming pool",
+      "Gym",
+      "Multi purpose ball",
+      "24 hours security with access card",
+      "Basketball court",
+      "Playground"
+    ],
+    "nearby": [
+      "Kajang, Selangor"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -32540,11 +32553,23 @@ window.LISTINGS = [
     "bathrooms": 2,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Renovated & Extended",
+      "Newly refurbished",
+      "1.5km to MRT station",
+      "Tenanted"
+    ],
     "pelan": [],
     "description": "Kediaman 1,400 sqft di Taman Bukit Mewah, Kajang, Selangor dijual pada RM480,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Taman Bukit Mewah, Kajang",
+      "Surau",
+      "1.5km to MRT Kajang",
+      "SK/SMK Jalan Bukit",
+      "Kajang Town",
+      "Hospital Kajang"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Taman%20Bukit%20Mewah%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
@@ -32588,11 +32613,28 @@ window.LISTINGS = [
     "bathrooms": 5,
     "status": "BARU",
     "jenis": "JUAL",
-    "highlights": [],
+    "highlights": [
+      "Cheapest Unit",
+      "Near Plus Highway",
+      "Kitchen Cabinet",
+      "Facing Direction Northwest",
+      "PLUS Highway",
+      "SILK Highway",
+      "LEKAS Highway"
+    ],
     "pelan": [],
     "description": "Kediaman 3,035 sqft di Bandar Seri Putra, Kajang, Selangor dijual pada RM750,000. Hakmilik: Freehold. Sekatan: Non-Bumi Lot.",
     "amenities": [],
-    "nearby": [],
+    "nearby": [
+      "Masjid Bandar Seri Putra",
+      "Sekolah Rendah Agama",
+      "SK & SMK Bandar Seri Putra",
+      "Bandar Bukit Mahkota",
+      "Bandar Putri Bangi",
+      "Bangi Avenue",
+      "Shop Lot",
+      "Petrol Station"
+    ],
     "map_url": "https://www.google.com/maps/search/?api=1&query=Bandar%20Seri%20Putra%2C%20Kajang%2C%20Selangor",
     "project": "",
     "project_name": "",
