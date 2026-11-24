@@ -32333,7 +32333,7 @@ window.LISTINGS = [
   },
   {
     "tracking": "COA-0564",
-    "title": "Turun harga 850k ke 770k (Nego)",
+    "title": "RENOVATED Double Storey Terrace House TTDI Grove 4 @ Zinnia Kajang",
     "type": "Kediaman",
     "location": "Turun harga 850k ke 770k (Nego)",
     "state": "Selangor",
